@@ -11,6 +11,7 @@ binaryornot==0.2.0
 cookiecutter==0.7.0
 dateutils==0.6.6
 docutils==0.11
+graphviz==0.3.4
 lxml==3.3.1
 mock==1.0.1
 psycopg2==2.5.2
