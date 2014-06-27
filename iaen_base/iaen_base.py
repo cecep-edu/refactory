@@ -30,4 +30,3 @@ class blood_type(osv.osv):
 	_columns = {
 		'name': fields.char("Nombre", size=3, required=True),
 	}
-blood_type()
