@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+  <data>
+	<record id="view_blood_type_tree" model="ir.ui.view">
+      <field name="name">view.blood_type.tree</field>
+      <field name="model">blood_type</field>
+      <field name="arch" type="xml">
+	    <tree string="Tipos de Sangre">
+	      <field name="name"/>
+	    </tree>
+      </field>
+    </record>	
+    
+    <record id="view_blood_type_form" model="ir.ui.view">
+      <field name="name">view.blood_type.form</field>
+      <field name="model">blood_type</field>
+      <field name="arch" type="xml">
+	    <form string="Tipos de Sangre">
+          <group  col="4" colspan="2">
+            <group colspan="2">
+	          <field name="name"/>
+            </group>
+          </group>
+	    </form>
+      </field>
+    </record>
+  </data>
+</openerp>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+  <data>
+	<menuitem id="blood_type_sup" name="Tipo de Sangre"/>
+	<menuitem action="action_blood_type" id="menu_blood_type" name="Tipo de Sangre" parent="blood_type_sup"/>
+	<menuitem action="action_blood_type" id="menu_ingreso_blood_type" name="Ingresar Tipo de Sangre" parent="menu_blood_type"/>
+  </data>
+</openerp>

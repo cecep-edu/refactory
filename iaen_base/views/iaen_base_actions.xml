@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data>
+		<record id="action_blood_type" model="ir.actions.act_window">
+		  <field name="name">Tipo de Sangre</field>
+		  <field name="res_model">blood_type</field>
+		  <field name="view_type">form</field>
+		  <field name="view_mode">tree,form</field>
+		  <field name="view_id" ref="view_blood_type_tree"/>
+		</record>
+		<menuitem id="blood_type_sup" name="Tipo de Sangre"/>
+		<menuitem action="action_blood_type" id="menu_blood_type" name="Tipo de Sangre" parent="blood_type_sup"/>
+		<menuitem action="action_blood_type" id="menu_ingreso_blood_type" name="Ingresar Tipo de Sangre" parent="menu_blood_type"/>
+	</data>
+</openerp>

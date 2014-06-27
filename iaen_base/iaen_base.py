@@ -18,4 +18,16 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 ##############################################################################
+import openerp
+from openerp.osv import fields, osv, expression
+from openerp.tools.translate import _
+from openerp.tools.float_utils import float_round as round
+import openerp.addons.decimal_precision as dp
 
+class blood_type(osv.osv):
+	_name = "blood_type"
+	_description = "Registra los tipos de sangre"
+	_columns = {
+		'name': fields.char("Nombre", size=4, required=True),
+	}
+blood_type()
