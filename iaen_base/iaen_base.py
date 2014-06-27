@@ -19,3 +19,22 @@
 #
 ##############################################################################
 
+import openerp;
+from openerp import SUPERUSER_ID
+from openerp import pooler, tools
+from openerp.osv import fields, osv, expression
+from openerp.tools.translate import _
+from openerp.tools.float_utils import float_round as round
+import openerp.addons.decimal_precision as dp
+import openerp.tools.image as imageoerp
+
+
+class tipo_identificacion(osv.osv):
+    _name = "tipo.identificacion"
+    _description = "Identificacion con pasaporte o Cedula de ciudadania"
+    _columns = {
+        "name": fields.char("Nombre", size=100, required=True),
+        "descripcion": fields.text("Descripción"),
+    }
+
+tipo_identificacion()

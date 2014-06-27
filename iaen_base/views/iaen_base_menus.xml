@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <menuitem id="menu_iaen" name="IAEN"/>
+        <menuitem id="menu_configuracion" name="Configuración" parent="menu_iaen"/>
+        <menuitem action="action_tipo_identificacion" id="menu_tipo_identificacion" name="Tipo de Identificación" parent="menu_configuracion"/>
+    </data>
+</openerp>

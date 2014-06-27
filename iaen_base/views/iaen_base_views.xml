@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="view_tipo_identificacion_tree" model="ir.ui.view">
+            <field name="name">view.tipo.identificacion.tree</field>
+            <field name="model">tipo.identificacion</field>
+            <field name="arch" type="xml">
+                <tree string="Tipo de Identificación">
+                    <field name="name"/>
+                    <field name="descripcion"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_tipo_identificacion_form" model="ir.ui.view">
+            <field name="name">view.tipo.identificacion.form</field>
+            <field name="model">tipo.identificacion</field>
+            <field name="arch" type="xml">
+                <form string="Tipo de Identificación">
+                    <field name="name" />
+                    <field name="descripcion" />
+                </form>
+            </field>
+        </record>
+    </data>
+</openerp>
