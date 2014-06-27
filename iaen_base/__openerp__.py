@@ -29,9 +29,9 @@
     """,
     'website': 'http://www.iaen.edu.ec',
     'data': [
-        'iaen_base_views.xml',
-        'iaen_base_actions.xml',
-        'iaen_base_menus.xml',
+        'views/iaen_base_view.xml',
+        'views/iaen_base_menu.xml',
+        'views/iaen_base_actions.xml',
     ],
     'installable': True,
     'auto_install': False,

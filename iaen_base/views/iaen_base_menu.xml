@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<openerp>
+  <data>
+
+    <menuitem id="iaen_sup" name="IAEN"/>
+
+    <menuitem id="menu_est" name="Configuracion" parent="iaen_sup"/>
+
+    <menuitem action="action_estadocivil" id="menu_ingreso_estado" name="Estado Civil" parent="menu_est"/>
+</data>
+</openerp>

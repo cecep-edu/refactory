@@ -19,3 +19,20 @@
 #
 ##############################################################################
 
+import openerp
+from openerp.osv import fields, osv, expression
+from openerp.tools.translate import _
+from openerp.tools.float_utils import float_round as round
+import openerp.addons.decimal_precision as dp
+
+class estado_civil(osv.osv):
+	_name = "estado_civil"
+	_description = "Informacion sobre estado civil"
+	_order = "name"
+	_sql_constraints = [('name_uniq', 'unique(name)', 'Ya existe un Estado Civil, con el mismo nombre!')]
+	_columns = {
+		'name' : fields.char("Nombre", size=50, required=True),
+	}
+
+
+estado_civil()

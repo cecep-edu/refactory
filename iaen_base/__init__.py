@@ -18,7 +18,25 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 ##############################################################################
+import iaen_base
 
+{
+    'name' : 'iaen_base',
+    'version' : '1.0',
+    'author' :'IAEN',
+    'CATEGORY' :'Modulo Base',
+    'description': """
+    Contiene los mantenimientos de las tablas base
+    """,
+    'website': 'www.iaen.edu.ec',
+    'data' : [
+        'views/iaen_base_view.xml',
+        'views/iaen_base_menu.xml',
+        'views/iaen_base_actions.xml',
+    ],
+    'instalable' : True,
+    'auto_install' : False
+}
 
 
 

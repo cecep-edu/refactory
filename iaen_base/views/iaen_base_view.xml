@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+  <data>
+
+    <record id="view_estadocivil_tree" model="ir.ui.view">
+      <field name="name">view.estadocivil.tree</field>
+      <field name="model">estado_civil</field>
+      <field name="arch" type="xml" >
+	    <tree string="Estado Civil">
+            <field name="name"/>
+	    </tree>
+      </field>
+    </record>
+
+    <record id="view_estadocivil_form" model="ir.ui.view">
+      <field name="name">view.estadocivil.form</field>
+      <field name="model">estado_civil</field>
+      <field name="arch" type="xml">
+	    <form string="Crear Estado Civil">
+	          <field name="name" />
+	    </form>
+      </field>
+    </record>
+
+  </data>
+</openerp>
