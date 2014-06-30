@@ -5,5 +5,6 @@
         <menuitem id="menu_configuration" name="Configuración" parent="menu_iaen"/>
         <menuitem action="action_identification_type" id="menu_identification_type" name="Tipo de Identificación" parent="menu_configuration"/>
         <menuitem action="action_ethnic_group" id="menu_ethnic_group" name="Grupo Étnico" parent="menu_configuration"/>
+		<menuitem action="action_blood_type" id="menu_ingreso_blood_type" name="Tipo de Sangre" parent="menu_configuration"/>
     </data>
 </openerp>

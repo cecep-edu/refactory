@@ -27,6 +27,7 @@ from openerp.tools.translate import _
 from openerp.tools.float_utils import float_round as round
 import openerp.addons.decimal_precision as dp
 import openerp.tools.image as imageoerp
+import re
 
 
 class identification_type(osv.osv):
@@ -49,3 +50,17 @@ class ethnic_group(osv.osv):
         "name": fields.char("Nombre", size=100, required=True),
         "description": fields.text("Descripción"),
     }
+
+class blood_type(osv.osv):
+	_name = "blood_type"
+	_description = "Registra los tipos de sangre"
+	_columns = {
+		'name': fields.char("Nombre", size=3, required=True),
+	}
+	_order = "name"
+	_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un Tipo de Sangre con ese nombre.'))]
+	def _no_numbers(self, cr, uid, ids):
+		for bloody_type in self.browse(cr, uid, ids):
+			if re.search("[0-9]", bloody_type.name): return False
+		return True 
+	_constraints = [(_no_numbers, _(u"El Tipo de Sangre no debe contener números."), ['name'])]
