@@ -18,12 +18,38 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 ##############################################################################
-import openerp
+
+import openerp;
+from openerp import SUPERUSER_ID
+from openerp import pooler, tools
 from openerp.osv import fields, osv, expression
 from openerp.tools.translate import _
 from openerp.tools.float_utils import float_round as round
 import openerp.addons.decimal_precision as dp
+import openerp.tools.image as imageoerp
 import re
+
+
+class identification_type(osv.osv):
+    _name = "identification.type"
+    _description = "Identificacion con pasaporte o Cedula de ciudadania"
+    _order = "name"
+    _sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un tipo de identificación con el mismo nombre'))]
+    _columns = {
+        "name": fields.char("Nombre", size=100, required=True),
+        "description": fields.text("Descripción"),
+    }
+
+
+class ethnic_group(osv.osv):
+    _name = "ethnic.group"
+    _description = "Almacena los gripos etnicos"
+    _order = "name"
+    _sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un grupo étnico con el mismo nombre'))]
+    _columns = {
+        "name": fields.char("Nombre", size=100, required=True),
+        "description": fields.text("Descripción"),
+    }
 
 class blood_type(osv.osv):
 	_name = "blood_type"
