@@ -23,6 +23,7 @@ from openerp.osv import fields, osv, expression
 from openerp.tools.translate import _
 from openerp.tools.float_utils import float_round as round
 import openerp.addons.decimal_precision as dp
+import re
 
 class blood_type(osv.osv):
 	_name = "blood_type"
@@ -31,4 +32,9 @@ class blood_type(osv.osv):
 		'name': fields.char("Nombre", size=3, required=True),
 	}
 	_order = "name"
-	_sql_constraints = [('name_unique', 'unique(name)', _('Ya existe un Tipo de Sangre con ese nombre.'))]
+	_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un Tipo de Sangre con ese nombre.'))]
+	def _no_numbers(self, cr, uid, ids):
+		for bloody_type in self.browse(cr, uid, ids):
+			if re.search("[0-9]", bloody_type.name): return False
+		return True 
+	_constraints = [(_no_numbers, _(u"El Tipo de Sangre no debe contener números."), ['name'])]
