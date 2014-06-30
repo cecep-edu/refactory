@@ -3,10 +3,10 @@
 <openerp>
   <data>
 
-    <menuitem id="iaen_sup" name="IAEN"/>
+    <menuitem id="menu_iaen" name="IAEN"/>
 
-    <menuitem id="menu_est" name="Configuracion" parent="iaen_sup"/>
+    <menuitem  id="menu_configuration" name="Configuración" parent="menu_iaen"/>
 
-    <menuitem action="action_estadocivil" id="menu_ingreso_estado" name="Estado Civil" parent="menu_est"/>
+    <menuitem action="action_estadocivil" id="menu_ingreso_estado" name="Estado Civil" parent="menu_configuration"/>
 </data>
 </openerp>

@@ -33,6 +33,3 @@ class estado_civil(osv.osv):
 	_columns = {
 		'name' : fields.char("Nombre", size=50, required=True),
 	}
-
-
-estado_civil()
