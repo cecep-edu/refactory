@@ -1,26 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
     <data>
-        <record id="view_tipo_identificacion_tree" model="ir.ui.view">
-            <field name="name">view.tipo.identificacion.tree</field>
-            <field name="model">tipo.identificacion</field>
+        <!-- Ingreso de tipos de edentificaciones -->
+        <record id="view_identification_type_tree" model="ir.ui.view">
+            <field name="name">view.identification.type.tree</field>
+            <field name="model">identification.type</field>
             <field name="arch" type="xml">
                 <tree string="Tipo de Identificación">
                     <field name="name"/>
-                    <field name="descripcion"/>
+                    <field name="description"/>
                 </tree>
             </field>
         </record>
 
-        <record id="view_tipo_identificacion_form" model="ir.ui.view">
-            <field name="name">view.tipo.identificacion.form</field>
-            <field name="model">tipo.identificacion</field>
+        <record id="view_identification_type_form" model="ir.ui.view">
+            <field name="name">view.identification.type.form</field>
+            <field name="model">identification.type</field>
             <field name="arch" type="xml">
                 <form string="Tipo de Identificación">
-                    <field name="name" />
-                    <field name="descripcion" />
+                    <group col="2" colspan="2">
+                        <field name="name"/>
+                        <field name="description"/>
+                    </group>
                 </form>
             </field>
         </record>
+
+        <!-- Ingreso de grupos étnicos -->
+        <record id="view_ethnic_group_tree" model="ir.ui.view">
+            <field name="name">view.ethnc.group.tree</field>
+            <field name="model">ethnic.group</field>
+            <field name="arch" type="xml">
+                <tree string="Grupo Étnico">
+                    <field name="name"/>
+                    <field name="description"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_ethnic_group_form" model="ir.ui.view">
+            <field name="name">view.ethnic.group.form</field>
+            <field name="model">ethnic.group</field>
+            <field name="arch" type="xml">
+                <form string="Grupo Étnico">
+                    <group col="2" colspan="2">
+                        <field name="name"/>
+                        <field name="description"/>
+                    </group>
+                </form>
+            </field>
+        </record>
+
     </data>
 </openerp>

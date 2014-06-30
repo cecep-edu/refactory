@@ -29,12 +29,23 @@ import openerp.addons.decimal_precision as dp
 import openerp.tools.image as imageoerp
 
 
-class tipo_identificacion(osv.osv):
-    _name = "tipo.identificacion"
+class identification_type(osv.osv):
+    _name = "identification.type"
     _description = "Identificacion con pasaporte o Cedula de ciudadania"
+    _order = "name"
+    _sql_constraints = [('name_unique', 'unique(name)', 'Ya existe un tipo de identificacion con el mismo nombre')]
     _columns = {
         "name": fields.char("Nombre", size=100, required=True),
-        "descripcion": fields.text("Descripción"),
+        "description": fields.text("Descripción"),
     }
 
-tipo_identificacion()
+
+class ethnic_group(osv.osv):
+    _name = "ethnic.group"
+    _description = "Almacena los gripos etnicos"
+    _order = "name"
+    _sql_constraints = [('name_unique', 'unique(name)', 'Ya existe un grupo etnico con el mismo nombre')]
+    _columns = {
+        "name": fields.char("Nombre", size=100, required=True),
+        "description": fields.text("Descripción"),
+    }

@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
     <data>
-        <record id="action_tipo_identificacion" model="ir.actions.act_window">
+        <!-- Ingreso tipos de identificación-->
+        <record id="action_identification_type" model="ir.actions.act_window">
             <field name="name">Tipo Identificación</field>
-            <field name="res_model">tipo.identificacion</field>
+            <field name="res_model">identification.type</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <!-- Ingreso de grupos étnicos -->
+        <record id="action_ethnic_group" model="ir.actions.act_window">
+            <field name="name">Grupo Étnico</field>
+            <field name="res_model">ethnic.group</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
         </record>
