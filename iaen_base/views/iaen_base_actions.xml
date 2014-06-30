@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
-    <data>
+
+	<data>
+		<record id="action_blood_type" model="ir.actions.act_window">
+		  <field name="name">Tipo de Sangre</field>
+		  <field name="res_model">blood_type</field>
+		  <field name="view_type">form</field>
+		  <field name="view_mode">tree,form</field>
+		</record>
         <!-- Ingreso tipos de identificación-->
         <record id="action_identification_type" model="ir.actions.act_window">
             <field name="name">Tipo Identificación</field>
@@ -64,3 +71,4 @@
 
     </data>
 </openerp>
+

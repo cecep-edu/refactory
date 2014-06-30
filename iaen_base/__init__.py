@@ -18,7 +18,10 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 ##############################################################################
+<<<<<<< HEAD
+=======
 
+>>>>>>> 92b7b1bd8caefe62eb54c4b2d59607453428c357
 import iaen_base
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
