@@ -73,5 +73,131 @@
 			</form>
 		</field>
 	</record>
-	</data>
+
+            
+        <!-- Ingreso de zonas -->
+        <record id="view_zones_tree" model="ir.ui.view">
+          <field name="name">view.zones.tree</field>
+          <field name="model">zones</field>
+          <field name="arch" type="xml">
+            <tree string="Zonas">
+              <field name="name"/>
+              <field name="description"/>
+              <field name="country_id"/>
+            </tree>
+          </field>
+        </record>
+
+        <record id="view_zones_form" model="ir.ui.view">
+          <field name="name">view.zones.form</field>
+          <field name="model">zones</field>
+          <field name="arch" type="xml">
+            <form string="Zonas">
+              <field name="name"/>
+              <newline/>
+              <field name="country_id"/>
+              <newline/>
+              <field name="description"/>
+            </form>
+          </field>
+        </record>
+
+        <!-- Modificación vista para estados -->
+        <record id="view_res_country_state_form_inerit" model="ir.ui.view">
+          <field name="name">view.res.country.form</field>
+          <field name="model">res.country.state</field>
+          <field name="inherit_id" ref="base.view_country_state_form"/>
+          <field name="arch" type="xml">
+            
+              <field name="country_id" position="before">
+                <field name="zone_id" on_change="change_zone_id(zone_id)"/>
+              </field>
+           
+          </field>
+        </record> 
+
+        <!-- Ingreso de cantones / ciudades -->
+        <record id="view_canton_tree" model="ir.ui.view">
+          <field name="name">view.canton.tree</field>
+          <field name="model">canton</field>
+          <field name="arch" type="xml">
+            <tree string="Cantones">
+              <field name="name"/>
+              <field name="country_id"/>
+              <field name="description"/>
+            </tree>
+          </field>
+        </record>
+
+        <record id="view_canton_form" model="ir.ui.view">
+          <field name="name">view.canton.form</field>
+          <field name="model">canton</field>
+          <field name="arch" type="xml">
+            <form string="Cantones">
+              <field name="name"/>
+              <newline/>
+              <field name="country_id"/>
+              <newline/>
+              <field name="description"/>
+            </form>
+          </field>
+        </record>
+
+
+        <!-- Ingreso de ciudades 
+        <record id="view_city_tree" model="ir.ui.view">
+          <field name="name">view.city.tree</field>
+          <field name="model">city</field>
+          <field name="arch" type="xml">
+            <tree string="Ciudad">
+              <field name="name"/>
+              <field name="description"/>
+            </tree>
+          </field>
+        </record>
+
+        <record id="view_city_form" model="ir.ui.view">
+          <field name="name">view.city.form</field>
+          <field name="model">city</field>
+          <field name="arch" type="xml">
+            <form string="Ciudad">
+              <newline/>
+              <field name="name"/>
+              <newline/>
+              <field name="description"/>
+            </form>
+          </field>
+        </record> -->
+
+        <!-- Ingreso de parroquias -->
+        <record id="view_parish_tree" model="ir.ui.view">
+          <field name="name">view.parish.tree</field>
+          <field name="model">parish</field>
+          <field name="arch" type="xml">
+            <tree string="Parroquias">
+              <field name="name"/>
+              <field name="canton_id"/>
+              <field name="description"/>
+            </tree>
+          </field>
+        </record>        
+
+        <record id="view_parish_form" model="ir.ui.view">
+          <field name="name">view.parish.form</field>
+          <field name="model">parish</field>
+          <field name="arch" type="xml">
+            <form string="Parroquias">
+              <field name="name"/>
+              <newline/>
+              <field name="canton_id"/>
+              <newline/>
+              <field name="description"/>
+            </form>
+          </field>
+        </record>        
+        
+
+    </data>
+
+
 </openerp>
