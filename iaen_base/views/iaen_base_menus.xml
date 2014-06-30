@@ -3,6 +3,6 @@
   <data>
 	<menuitem id="menu_iaen" name="IAEN"/>
 	<menuitem id="menu_configuration" name="Configuración" parent='menu_iaen' />
-	<menuitem action="action_blood_type" id="menu_ingreso_blood_type" name="Tipo de Sangre" parent="configuraciones"/>
+	<menuitem action="action_blood_type" id="menu_ingreso_blood_type" name="Tipo de Sangre" parent="menu_configuration"/>
   </data>
 </openerp>

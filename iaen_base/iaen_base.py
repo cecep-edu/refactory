@@ -30,3 +30,5 @@ class blood_type(osv.osv):
 	_columns = {
 		'name': fields.char("Nombre", size=3, required=True),
 	}
+	_order = "name"
+	_sql_constraints = [('name_unique', 'unique(name)', _('Ya existe un Tipo de Sangre con ese nombre.'))]
