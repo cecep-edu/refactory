@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data noupdate="0">
+
+		<record model="blood_test" id="blood_test_a_p">
+			<field name="name">A+</field>
+            <field name="descripcion"/>
+		</record>
+
+        <record model="blood_test" id="blood_test_a_n">
+			<field name="name">A-</field>
+            <field name="descripcion"/>
+		</record>
+
+        <record model="blood_test" id="blood_test_ab_p">
+			<field name="name">AB+</field>
+            <field name="descripcion"/>
+		</record>
+
+        <record model="blood_test" id="blood_test_ab_n">
+			<field name="name">AB-</field>
+            <field name="descripcion"/>
+		</record>
+
+        <record model="blood_test" id="blood_test_ab_p">
+			<field name="name">B+</field>
+            <field name="descripcion"/>
+		</record>
+
+        <record model="blood_test" id="blood_test_ab_n">
+			<field name="name">B-</field>
+            <field name="descripcion"/>
+		</record>
+
+        <record model="blood_test" id="blood_test_ab_p">
+			<field name="name">O+</field>
+            <field name="descripcion"/>
+		</record>
+
+        <record model="blood_test" id="blood_test_ab_n">
+			<field name="name">O-</field>
+            <field name="descripcion"/>
+		</record>
+	</data>
+</openerp>

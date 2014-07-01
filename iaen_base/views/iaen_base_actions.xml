@@ -1,11 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
-  <data>
+
+	<data>
+		<record id="action_blood_type" model="ir.actions.act_window">
+		  <field name="name">Tipo de Sangre</field>
+		  <field name="res_model">blood_type</field>
+		  <field name="view_type">form</field>
+		  <field name="view_mode">tree,form</field>
+		</record>
+        <!-- Ingreso tipos de identificación-->
+        <record id="action_identification_type" model="ir.actions.act_window">
+            <field name="name">Tipo Identificación</field>
+            <field name="res_model">identification.type</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <!-- Ingreso de grupos étnicos -->
+        <record id="action_ethnic_group" model="ir.actions.act_window">
+            <field name="name">Grupo Étnico</field>
+            <field name="res_model">ethnic.group</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <!-- Ingreso de genero (sexo) -->
+        <record id="action_hoja_genero" model="ir.actions.act_window">
+            <field name="name">Hoja Genero</field>
+            <field name="res_model">hoja.genero</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="view_hoja_genero_tree"/>
+        </record>
+        <!-- Ingreso de grupos étnicos -->
+        <record id="action_res_country" model="ir.actions.act_window">
+            <field name="name">Pais</field>
+            <field name="res_model">res.country</field>
+            <field name="view_type">form</field>
+            <field name="view_id" ref="base.view_country_tree"/>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <!-- Ingreso de zonas -->
+        <record id="action_zones" model="ir.actions.act_window">
+            <field name="name">Zonas</field>
+            <field name="res_model">zones</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <!-- Ingreso de Estados  -->
+        <record id="action_res_country_state" model="ir.actions.act_window">
+            <field name="name">Estados</field>
+            <field name="res_model">res.country.state</field>
+            <field name="view_type">form</field>
+            <field name="view_id" ref="base.view_country_state_tree"/>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <!-- Ingreso de Cantones -->
+        <record id="action_canton" model="ir.actions.act_window">
+            <field name="name">Cantones</field>
+            <field name="res_model">canton</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <!-- Ingreso de Ciudades 
+        <record id="action_city" model="ir.actions.act_window">
+            <field name="name">Ciudades</field>
+            <field name="res_model">city</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>-->
+        <!-- Ingreso de Parroquias -->
+        <record id="action_parish" model="ir.actions.act_window">
+            <field name="name">Parroquias</field>
+            <field name="res_model">parish</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
     <record id="action_estadocivil" model="ir.actions.act_window">
       <field name="name">Estado Civil</field>
       <field name="res_model">estado_civil</field>
       <field name="view_type">form</field>
       <field name="view_mode">tree,form</field>
     </record>
-  </data>
+    </data>
 </openerp>
