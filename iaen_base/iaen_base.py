@@ -52,7 +52,18 @@ class ethnic_group(osv.osv):
     }
 
 
-
+class hoja_genero(osv.osv):
+    #docente, alumno, funcionario
+    _name="hoja.genero"
+    _description="Tipos de genero (sexo) en el Ec"
+    _order = "name"        
+    _sql_constraints = [('name_uniq', 'unique(name)', _(u'Ya existe un genero con el mismo nombre'))]
+    _columns={
+            "name" : fields.char("Nombre",size=10,required=True),
+            "description" : fields.text("Detalle"),
+    }
+    
+            
 class zones(osv.osv):
     _name = "zones"
     _description = "Categoriza zonas por provincias"
