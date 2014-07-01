@@ -74,11 +74,11 @@
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
         </record>
-    <record id="action_estadocivil" model="ir.actions.act_window">
-      <field name="name">Estado Civil</field>
-      <field name="res_model">estado_civil</field>
-      <field name="view_type">form</field>
-      <field name="view_mode">tree,form</field>
-    </record>
+        <record id="action_estadocivil" model="ir.actions.act_window">
+            <field name="name">Estado Civil</field>
+            <field name="res_model">estado_civil</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
     </data>
 </openerp>

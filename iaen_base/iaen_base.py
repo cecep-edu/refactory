@@ -141,7 +141,7 @@ class estado_civil(osv.osv):
     _name = "estado_civil"
     _description = "Informacion sobre estado civil"
     _order = "name"
-    _sql_constraints = [('name_uniq', 'unique(name)', 'Ya existe un Estado Civil, con el mismo nombre!')]
+    _sql_constraints = [('name_uniq', 'unique(name)', 'Ya existe un Estado Civil con el mismo nombre')]
     _columns = {
         'name' : fields.char("Nombre", size=50, required=True),
     }
