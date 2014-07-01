@@ -49,7 +49,31 @@
 		</field>
 	</record>
 
-	<!-- Ingreso de grupos étnicos -->
+     <!-- Ingreso de tipo de genero (sexo) -->
+     <record id="view_hoja_genero_tree" model="ir.ui.view">
+          <field name="name">view.hoja.genero.tree</field>
+          <field name="model">hoja.genero</field>
+          <field name="arch" type="xml">
+               <tree string="Generos">
+                    <field name="name"/>
+                    <field name="description"/>
+               </tree>
+          </field>
+     </record>	
+    
+     <record id="view_hoja_genero_form" model="ir.ui.view">
+          <field name="name">view.hoja.genero.form</field>
+          <field name="model">hoja.genero</field>
+          <field name="arch" type="xml">
+               <form string="Generos">
+                    <field name="name"/>
+                    <field name="description"/>
+               </form>
+          </field>
+     </record>
+    
+    
+     <!-- Ingreso de grupos étnicos -->
 	<record id="view_ethnic_group_tree" model="ir.ui.view">
 		<field name="name">view.ethnc.group.tree</field>
 		<field name="model">ethnic.group</field>
