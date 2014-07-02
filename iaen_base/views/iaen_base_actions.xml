@@ -22,7 +22,7 @@
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
         </record>
-        <!-- Ingreso de genero (sexo) -->
+        <!-- Ingreso de identidad de genero  -->
         <record id="action_gender" model="ir.actions.act_window">
             <field name="name">Hoja Genero</field>
             <field name="res_model">gender</field>
