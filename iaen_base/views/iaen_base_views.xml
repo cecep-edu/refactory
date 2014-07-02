@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
   <data>
+
+    <record id="view_estadocivil_tree" model="ir.ui.view">
+      <field name="name">view.estadocivil.tree</field>
+      <field name="model">estado_civil</field>
+      <field name="arch" type="xml" >
+	    <tree string="Estado Civil">
+            <field name="name"/>
+	    </tree>
+      </field>
+    </record>
+
+    <record id="view_estadocivil_form" model="ir.ui.view">
+      <field name="name">view.estadocivil.form</field>
+      <field name="model">estado_civil</field>
+      <field name="arch" type="xml">
+	    <form string="Crear Estado Civil">
+	          <field name="name" />
+	    </form>
+      </field>
+    </record>
+
 	<record id="view_blood_type_tree" model="ir.ui.view">
       <field name="name">view.blood_type.tree</field>
       <field name="model">blood_type</field>
@@ -49,7 +70,31 @@
 		</field>
 	</record>
 
-	<!-- Ingreso de grupos étnicos -->
+     <!-- Ingreso de tipo de genero (sexo) -->
+     <record id="view_hoja_genero_tree" model="ir.ui.view">
+          <field name="name">view.hoja.genero.tree</field>
+          <field name="model">hoja.genero</field>
+          <field name="arch" type="xml">
+               <tree string="Generos">
+                    <field name="name"/>
+                    <field name="description"/>
+               </tree>
+          </field>
+     </record>	
+    
+     <record id="view_hoja_genero_form" model="ir.ui.view">
+          <field name="name">view.hoja.genero.form</field>
+          <field name="model">hoja.genero</field>
+          <field name="arch" type="xml">
+               <form string="Generos">
+                    <field name="name"/>
+                    <field name="description"/>
+               </form>
+          </field>
+     </record>
+    
+    
+     <!-- Ingreso de grupos étnicos -->
 	<record id="view_ethnic_group_tree" model="ir.ui.view">
 		<field name="name">view.ethnc.group.tree</field>
 		<field name="model">ethnic.group</field>
