@@ -54,15 +54,8 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 
-<<<<<<< HEAD
-.idea
-=======
 #pycharm
 .idea
 
-<<<<<<< HEAD
 # XML
 *.xml~
-=======
->>>>>>> bcf3d91cdcc28542d832d3d772a1523318ce5ee0
->>>>>>> e7e0bb7846d6c855021edee62aeb3d4a9ee0ecf1
