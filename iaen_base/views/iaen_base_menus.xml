@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <openerp>
     <data>
         <menuitem id="menu_iaen" name="IAEN"/>
         <menuitem id="menu_configuration" name="Configuración" parent="menu_iaen"/>
-        <menuitem action="action_identification_type" id="menu_identification_type" name="Tipo de Identificación" parent="menu_configuration"/>
-        <menuitem action="action_ethnic_group" id="menu_ethnic_group" name="Grupo Étnico" parent="menu_configuration"/>
-        <menuitem action="action_blood_type" id="menu_ingreso_blood_type" name="Tipo de Sangre" parent="menu_configuration"/>
-        <menuitem id="menu_division" name="División política" parent="menu_configuration"/>
+        <menuitem action="action_identification_type" id="menu_identification_type" name="Tipo de Identificación" parent="menu_configuration" sequence="1"/>
+        <menuitem action="action_ethnic_group" id="menu_ethnic_group" name="Grupo Étnico" parent="menu_configuration" sequence="2"/>
+        <menuitem action="action_hoja_genero" id="menu_hoja_genero" name="Identidad de Genero" parent="menu_configuration" sequence="3"/>
+        <menuitem action="action_blood_type" id="menu_ingreso_blood_type" name="Tipo de Sangre" parent="menu_configuration" sequence="4"/>
+        <menuitem id="menu_division" name="División política" parent="menu_configuration" sequence="5"/>
         <menuitem action="action_res_country" id="menu_res_country" name="Pais" parent="menu_division" sequence="1"/>
         <menuitem action="action_zones" id="menu_zones" name="Zonas" parent="menu_division" sequence="2"/>
         <menuitem action="action_res_country_state" id="menu_res_contry_state" name="Estados" parent="menu_division" sequence="3"/>
         <menuitem action="action_canton" id="menu_canton" name="Cantón/Ciudades" parent="menu_division" sequence="4"/> 
         <menuitem action="action_parish" id="menu_parish" name="Parroquias" parent="menu_division" sequence="5"/>
+        <menuitem action="action_estadocivil" id="menu_ingreso_estado" name="Estado Civil" parent="menu_configuration"/>
     </data>
 </openerp>
+

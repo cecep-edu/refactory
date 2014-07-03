@@ -19,9 +19,8 @@
 #
 ##############################################################################
 
-import openerp;
-from openerp import SUPERUSER_ID
-from openerp import pooler, tools
+
+import openerp
 from openerp.osv import fields, osv, expression
 from openerp.tools.translate import _
 from openerp.tools.float_utils import float_round as round
@@ -52,7 +51,18 @@ class ethnic_group(osv.osv):
     }
 
 
-
+class hoja_genero(osv.osv):
+    #docente, alumno, funcionario
+    _name="hoja.genero"
+    _description="Tipos de genero (sexo) en el Ec"
+    _order = "name"        
+    _sql_constraints = [('name_uniq', 'unique(name)', _(u'Ya existe un genero con el mismo nombre'))]
+    _columns={
+            "name" : fields.char("Nombre",size=10,required=True),
+            "description" : fields.text("Detalle"),
+    }
+    
+            
 class zones(osv.osv):
     _name = "zones"
     _description = "Categoriza zonas por provincias"
@@ -127,3 +137,11 @@ class blood_type(osv.osv):
 		return True 
 	_constraints = [(_no_numbers, _(u"El Tipo de Sangre no debe contener números."), ['name'])]
 
+class estado_civil(osv.osv):
+    _name = "estado_civil"
+    _description = "Informacion sobre estado civil"
+    _order = "name"
+    _sql_constraints = [('name_uniq', 'unique(name)', 'Ya existe un Estado Civil, con el mismo nombre!')]
+    _columns = {
+        'name' : fields.char("Nombre", size=50, required=True),
+    }
