@@ -2,6 +2,8 @@
 __pycache__/
 *.py[cod]
 *.pyc
+*.py~
+
 # C extensions
 *.so
 
@@ -55,3 +57,5 @@ docs/_build/
 #pycharm
 .idea
 
+# XML
+*.xml~
