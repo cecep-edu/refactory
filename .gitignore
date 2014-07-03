@@ -52,8 +52,14 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 
+<<<<<<< HEAD
 
 #pycharm
 .idea
 
 
+=======
+#pycharm
+.idea
+
+>>>>>>> jonathan12101986-staging
