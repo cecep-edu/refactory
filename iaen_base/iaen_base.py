@@ -173,7 +173,7 @@ class nationality(osv.osv):
 	_name = "nationality"
 	_description = "Registra las nacionalidades"
 	_columns = {
-			'name': fields.char("Nombre", size=45, required=True),
+		'name': fields.char("Nombre", size=45, required=True),
 	}
 	_order = "name"
 	_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe una Nacionalidad con ese nombre.'))]
@@ -187,8 +187,8 @@ class instruction(osv.osv):
 	_name = "instruction"
 	_description = "Registra las instrucciones"
 	_columns = {
-			'name': fields.char("Nombre", size=200, required=True),
-			'description': fields.text("Descripción")
+		'name': fields.char("Nombre", size=200, required=True),
+		'description': fields.text("Descripción")
 	}
 	_order = "name"
 	_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe una Instrucción con ese nombre.'))]
