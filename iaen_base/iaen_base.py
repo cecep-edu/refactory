@@ -168,3 +168,32 @@ class gender(osv.osv):
             if not (re.search("[a-z, A-Z]", bloody_type.name)): return False
         return True 
     _constraints = [(_no_numbers, _(u"El Tipo de dato es invalido."), ['name'])]
+
+class nationality(osv.osv):
+	_name = "nationality"
+	_description = "Registra las nacionalidades"
+	_columns = {
+			'name': fields.char("Nombre", size=45, required=True),
+	}
+	_order = "name"
+	_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe una Nacionalidad con ese nombre.'))]
+	def _only_letters(self, cr, uid, ids):
+		for nationality in self.browse(cr, uid, ids):
+			if not re.match(u"^[ñA-Za-zÁÉÍÓÚáéíóú\s]+$", nationality.name): return False
+		return True 
+	_constraints = [(_only_letters, _(u"La Nacionalidad debe contener letras únicamente"), ['name'])]
+
+class instruction(osv.osv):
+	_name = "instruction"
+	_description = "Registra las instrucciones"
+	_columns = {
+			'name': fields.char("Nombre", size=200, required=True),
+			'description': fields.text("Descripción")
+	}
+	_order = "name"
+	_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe una Instrucción con ese nombre.'))]
+	def _only_letters(self, cr, uid, ids):
+		for instruction in self.browse(cr, uid, ids):
+			if not re.match(u"^[ñA-Za-zÁÉÍÓÚáéíóú\s]+$", instruction.name): return False
+		return True 
+	_constraints = [(_only_letters, _(u"La Nacionalidad debe contener letras únicamente"), ['name'])]
