@@ -50,18 +50,23 @@ class ethnic_group(osv.osv):
         "description": fields.text("Descripción"),
     }
 
-
-class hoja_genero(osv.osv):
-    #docente, alumno, funcionario
-    _name="hoja.genero"
-    _description="Tipos de genero (sexo) en el Ec"
+#CLASE DE IDENTIDAD DE GENERO
+class gender(osv.osv):    
+    _name="gender"
+    _description="Tipos de identidad de genero"
     _order = "name"        
-    _sql_constraints = [('name_uniq', 'unique(name)', _(u'Ya existe un genero con el mismo nombre'))]
     _columns={
             "name" : fields.char("Nombre",size=10,required=True),
             "description" : fields.text("Detalle"),
     }
-    
+    _order = "name"
+    _sql_constraints = [('name_uniq', 'unique(name)', _(u'Ya existe un genero con el mismo nombre'))]
+    def _no_numbers(self, cr, uid, ids):
+        for bloody_type in self.browse(cr, uid, ids):
+            if not (re.search("[a-z, A-Z]", bloody_type.name)): return False
+        return True 
+    _constraints = [(_no_numbers, _(u"El Tipo de dato es invalido."), ['name'])]
+   
             
 class zones(osv.osv):
     _name = "zones"
@@ -145,3 +150,21 @@ class estado_civil(osv.osv):
     _columns = {
         'name' : fields.char("Nombre", size=50, required=True),
     }
+
+
+#CLASE FAMILIAR
+class gender(osv.osv):    
+    _name="family_burden"
+    _description="Carga familiar"
+    _order = "name"        
+    _columns={
+            "name" : fields.char("Nombre",size=10,required=True),
+            "description" : fields.text("Descripcion"),
+    }
+    _order = "name"
+    _sql_constraints = [('name_uniq', 'unique(name)', _(u'Ya existe un genero con el mismo nombre'))]
+    def _no_numbers(self, cr, uid, ids):
+        for bloody_type in self.browse(cr, uid, ids):
+            if not (re.search("[a-z, A-Z]", bloody_type.name)): return False
+        return True 
+    _constraints = [(_no_numbers, _(u"El Tipo de dato es invalido."), ['name'])]

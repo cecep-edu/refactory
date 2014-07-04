@@ -45,7 +45,7 @@
 	    </form>
       </field>
     </record>
-	<!-- Ingreso de tipos de edentificaciones -->
+	<!-- Ingreso de tipos de identificaciones -->
 	<record id="view_identification_type_tree" model="ir.ui.view">
 		<field name="name">view.identification.type.tree</field>
 		<field name="model">identification.type</field>
@@ -71,9 +71,9 @@
 	</record>
 
      <!-- Ingreso de tipo de genero (sexo) -->
-     <record id="view_hoja_genero_tree" model="ir.ui.view">
-          <field name="name">view.hoja.genero.tree</field>
-          <field name="model">hoja.genero</field>
+     <record id="view_gender_tree" model="ir.ui.view">
+          <field name="name">view.gender.tree</field>
+          <field name="model">gender</field>
           <field name="arch" type="xml">
                <tree string="Generos">
                     <field name="name"/>
@@ -82,9 +82,9 @@
           </field>
      </record>	
     
-     <record id="view_hoja_genero_form" model="ir.ui.view">
-          <field name="name">view.hoja.genero.form</field>
-          <field name="model">hoja.genero</field>
+     <record id="view_gender_form" model="ir.ui.view">
+          <field name="name">view.gender.form</field>
+          <field name="model">gender</field>
           <field name="arch" type="xml">
                <form string="Generos">
                     <field name="name"/>
