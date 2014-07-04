@@ -36,6 +36,8 @@
         'data/identification_type_data.xml',
         'data/civil_status_data.xml',
         'data/gender_data.xml',
+        'data/bankaccount_type_data.xml',
+        'data/entity_finance_data.xml',
     ],
     'installable': True,
     'auto_install': False,
