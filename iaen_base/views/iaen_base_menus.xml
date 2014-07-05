@@ -14,7 +14,11 @@
         <menuitem action="action_res_country_state" id="menu_res_contry_state" name="Estados" parent="menu_division" sequence="3"/>
         <menuitem action="action_canton" id="menu_canton" name="Cantón/Ciudades" parent="menu_division" sequence="4"/> 
         <menuitem action="action_parish" id="menu_parish" name="Parroquias" parent="menu_division" sequence="5"/>
-        <menuitem action="action_estadocivil" id="menu_ingreso_estado" name="Estado Civil" parent="menu_configuration"/>
+        <menuitem action="action_estadocivil" id="menu_ingreso_estado" name="Estado Civil" parent="menu_configuration" sequence="2"/>
+        <menuitem id="menu_financiera" name="Información Financiera" parent="menu_configuration"/>
+        <menuitem action="action_entity_finance" id="menu_entity_finance" name="Entidad Financiera" parent="menu_financiera"/>
+        <menuitem action="action_bankaccount_type" id="menu_bankaccount_type" name="Tipo de Cuenta" parent="menu_financiera"/>
+        <menuitem action="action_bankinfo" id="menu_bankinfo" name="Datos Bancarios" parent="menu_financiera"/>
     </data>
 </openerp>
 
