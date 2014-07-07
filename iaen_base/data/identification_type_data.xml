@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
 	<data noupdate="0">
-
 		<record model="identification.type" id="eidentification_type_cc">
 			<field name="name">Cédula de ciudadanía</field>
             <field name="description"/>
