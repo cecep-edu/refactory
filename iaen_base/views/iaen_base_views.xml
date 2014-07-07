@@ -357,7 +357,7 @@
     
   <!-- Ingreso de entidades financieras -->
   <record id="view_entity_tree" model="ir.ui.view">
-      <field name="name">view.entity_finance.tree</field>
+      <field name="name">view.entity.finance.tree</field>
       <field name="model">entity.finance</field>
       <field name="arch" type="xml" >
       <tree string="Entidades Financieras">
@@ -367,7 +367,7 @@
   </record>
 
   <record id="view_entity_form" model="ir.ui.view">
-      <field name="name">view.entity_finance.form</field>
+      <field name="name">view.entity.finance.form</field>
       <field name="model">entity.finance</field>
       <field name="arch" type="xml">
       <form string="Entidad Financiera">
@@ -378,7 +378,7 @@
 
  <!-- Ingreso de tipos cuenta bancaria -->
   <record id="view_bank_account_tree" model="ir.ui.view">
-      <field name="name">view.bank_account.tree</field>
+      <field name="name">view.bank.account.tree</field>
       <field name="model">bank.account.type</field>
       <field name="arch" type="xml" >
       <tree string="Tipos de Cuenta">
@@ -388,7 +388,7 @@
   </record>
 
   <record id="view_bank_account_form" model="ir.ui.view">
-      <field name="name">view.bank_account.form</field>
+      <field name="name">view.bank.account.form</field>
       <field name="model">bank.account.type</field>
       <field name="arch" type="xml">
       <form string="Tipo de Cuenta">
