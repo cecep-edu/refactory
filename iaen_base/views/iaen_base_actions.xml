@@ -95,5 +95,23 @@
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
         </record>
+        <record id="action_entity_finance" model="ir.actions.act_window">
+            <field name="name">Entidad Financiera</field>
+            <field name="res_model">entity_finance</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <record id="action_bankaccount_type" model="ir.actions.act_window">
+            <field name="name">Tipos de Cuenta</field>
+            <field name="res_model">bankaccount_type</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <record id="action_bankinfo" model="ir.actions.act_window">
+            <field name="name">Datos Bancarios</field>
+            <field name="res_model">bank_info</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
     </data>
 </openerp>
