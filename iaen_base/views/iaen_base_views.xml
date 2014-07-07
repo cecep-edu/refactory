@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
-  <data>
-
-    <record id="view_estadocivil_tree" model="ir.ui.view">
+	<data>
+    <record id="view_estado_civil_tree" model="ir.ui.view">
       <field name="name">view.estadocivil.tree</field>
-      <field name="model">estado_civil</field>
+      <field name="model">estado.civil</field>
       <field name="arch" type="xml" >
 	    <tree string="Estado Civil">
             <field name="name"/>
@@ -12,239 +11,291 @@
       </field>
     </record>
 
-    <record id="view_estadocivil_form" model="ir.ui.view">
+    <record id="view_estado_civil_form" model="ir.ui.view">
       <field name="name">view.estadocivil.form</field>
-      <field name="model">estado_civil</field>
+      <field name="model">estado.civil</field>
       <field name="arch" type="xml">
 	    <form string="Crear Estado Civil">
 	          <field name="name" />
 	    </form>
       </field>
     </record>
+		<record id="view_blood_type_tree" model="ir.ui.view">
+			<field name="name">view.blood.type.tree</field>
+			<field name="model">blood.type</field>
+			<field name="arch" type="xml">
+				<tree string="Tipos de Sangre">
+					<field name="name"/>
+				</tree>
+			</field>
+		</record>	
 
-	<record id="view_blood_type_tree" model="ir.ui.view">
-      <field name="name">view.blood_type.tree</field>
-      <field name="model">blood_type</field>
-      <field name="arch" type="xml">
-	    <tree string="Tipos de Sangre">
-	      <field name="name"/>
-	    </tree>
-      </field>
-    </record>	
-    
-    <record id="view_blood_type_form" model="ir.ui.view">
-      <field name="name">view.blood_type.form</field>
-      <field name="model">blood_type</field>
-      <field name="arch" type="xml">
-	    <form string="Tipos de Sangre">
-          <group  col="4" colspan="2">
-            <group colspan="2">
-	          <field name="name"/>
-            </group>
-          </group>
-	    </form>
-      </field>
-    </record>
-	<!-- Ingreso de tipos de identificaciones -->
-	<record id="view_identification_type_tree" model="ir.ui.view">
-		<field name="name">view.identification.type.tree</field>
-		<field name="model">identification.type</field>
-		<field name="arch" type="xml">
-			<tree string="Tipo de Identificación">
-				<field name="name"/>
-				<field name="description"/>
-			</tree>
-		</field>
-	</record>
-
-	<record id="view_identification_type_form" model="ir.ui.view">
-		<field name="name">view.identification.type.form</field>
-		<field name="model">identification.type</field>
-		<field name="arch" type="xml">
-			<form string="Tipo de Identificación">
-				<group col="2" colspan="2">
+		<record id="view_blood_type_form" model="ir.ui.view">
+			<field name="name">view.blood.type.form</field>
+			<field name="model">blood.type</field>
+			<field name="arch" type="xml">
+				<form string="Tipos de Sangre">
+					<group  col="4" colspan="2">
+						<group colspan="2">
+							<field name="name"/>
+						</group>
+					</group>
+				</form>
+			</field>
+		</record>
+		<!-- Ingreso de tipos de identificaciones -->
+		<record id="view_identification_type_tree" model="ir.ui.view">
+			<field name="name">view.identification.type.tree</field>
+			<field name="model">identification.type</field>
+			<field name="arch" type="xml">
+				<tree string="Tipo de Identificación">
 					<field name="name"/>
 					<field name="description"/>
+				</tree>
+			</field>
+		</record>
+
+		<record id="view_identification_type_form" model="ir.ui.view">
+			<field name="name">view.identification.type.form</field>
+			<field name="model">identification.type</field>
+			<field name="arch" type="xml">
+				<form string="Tipo de Identificación">
+					<group col="2" colspan="2">
+						<field name="name"/>
+						<field name="description"/>
+					</group>
+				</form>
+			</field>
+		</record>
+
+		<!-- Ingreso de tipo de genero (sexo) -->
+		<record id="view_gender_tree" model="ir.ui.view">
+			<field name="name">view.gender.tree</field>
+			<field name="model">gender</field>
+			<field name="arch" type="xml">
+				<tree string="Generos">
+					<field name="name"/>
+					<field name="description"/>
+				</tree>
+			</field>
+		</record>	
+
+		<record id="view_gender_form" model="ir.ui.view">
+			<field name="name">view.gender.form</field>
+			<field name="model">gender</field>
+			<field name="arch" type="xml">
+				<form string="Generos">
+					<field name="name"/>
+					<field name="description"/>
+				</form>
+			</field>
+		</record>
+
+
+		<!-- Ingreso de grupos étnicos -->
+		<record id="view_ethnic_group_tree" model="ir.ui.view">
+			<field name="name">view.ethnc.group.tree</field>
+			<field name="model">ethnic.group</field>
+			<field name="arch" type="xml">
+				<tree string="Grupo Étnico">
+					<field name="name"/>
+					<field name="description"/>
+				</tree>
+			</field>
+		</record>
+
+		<record id="view_ethnic_group_form" model="ir.ui.view">
+			<field name="name">view.ethnic.group.form</field>
+			<field name="model">ethnic.group</field>
+			<field name="arch" type="xml">
+				<form string="Grupo Étnico">
+					<group col="2" colspan="2">
+						<field name="name"/>
+						<field name="description"/>
+					</group>
+				</form>
+			</field>
+		</record>
+
+		<!-- Ingreso de zonas -->
+		<record id="view_zones_tree" model="ir.ui.view">
+			<field name="name">view.zones.tree</field>
+			<field name="model">zones</field>
+			<field name="arch" type="xml">
+				<tree string="Zonas">
+					<field name="name"/>
+					<field name="description"/>
+					<field name="country_id"/>
+				</tree>
+			</field>
+		</record>
+
+		<record id="view_zones_form" model="ir.ui.view">
+			<field name="name">view.zones.form</field>
+			<field name="model">zones</field>
+			<field name="arch" type="xml">
+				<form string="Zonas">
+					<field name="name"/>
+					<newline/>
+					<field name="country_id"/>
+					<newline/>
+					<field name="description"/>
+				</form>
+			</field>
+		</record>
+
+		<!-- Modificación vista para estados -->
+		<record id="view_res_country_state_form_inerit" model="ir.ui.view">
+			<field name="name">view.res.country.form</field>
+			<field name="model">res.country.state</field>
+			<field name="inherit_id" ref="base.view_country_state_form"/>
+			<field name="arch" type="xml">
+
+				<field name="country_id" position="before">
+					<field name="zone_id" on_change="change_zone_id(zone_id)"/>
+				</field>
+
+			</field>
+		</record> 
+
+		<!-- Ingreso de cantones / ciudades -->
+		<record id="view_canton_tree" model="ir.ui.view">
+			<field name="name">view.canton.tree</field>
+			<field name="model">canton</field>
+			<field name="arch" type="xml">
+				<tree string="Cantones">
+					<field name="name"/>
+					<field name="country_id"/>
+					<field name="description"/>
+				</tree>
+			</field>
+		</record>
+
+		<record id="view_canton_form" model="ir.ui.view">
+			<field name="name">view.canton.form</field>
+			<field name="model">canton</field>
+			<field name="arch" type="xml">
+				<form string="Cantones">
+					<field name="name"/>
+					<newline/>
+					<field name="country_id"/>
+					<newline/>
+					<field name="description"/>
+				</form>
+			</field>
+		</record>
+
+
+		<!-- Ingreso de ciudades 
+	<record id="view_city_tree" model="ir.ui.view">
+	  <field name="name">view.city.tree</field>
+	  <field name="model">city</field>
+	  <field name="arch" type="xml">
+		<tree string="Ciudad">
+		  <field name="name"/>
+		  <field name="description"/>
+		</tree>
+	  </field>
+	</record>
+
+	<record id="view_city_form" model="ir.ui.view">
+	  <field name="name">view.city.form</field>
+	  <field name="model">city</field>
+	  <field name="arch" type="xml">
+		<form string="Ciudad">
+		  <newline/>
+		  <field name="name"/>
+		  <newline/>
+		  <field name="description"/>
+		</form>
+	  </field>
+	</record> -->
+
+	<!-- Ingreso de parroquias -->
+		<record id="view_parish_tree" model="ir.ui.view">
+			<field name="name">view.parish.tree</field>
+			<field name="model">parish</field>
+			<field name="arch" type="xml">
+				<tree string="Parroquias">
+					<field name="name"/>
+					<field name="canton_id"/>
+					<field name="description"/>
+				</tree>
+			</field>
+		</record>        
+
+		<record id="view_parish_form" model="ir.ui.view">
+			<field name="name">view.parish.form</field>
+			<field name="model">parish</field>
+			<field name="arch" type="xml">
+				<form string="Parroquias">
+					<field name="name"/>
+					<newline/>
+					<field name="canton_id"/>
+					<newline/>
+					<field name="description"/>
+				</form>
+			</field>
+		</record>        
+
+		<!-- Ingreso de Nacionalidades -->
+		<record id="view_nationality_tree" model="ir.ui.view">
+			<field name="name">view.nationality.tree</field>
+			<field name="model">nationality</field>
+			<field name="arch" type="xml">
+				<tree string="Nacionalidad">
+					<field name="name"/>
+				</tree>
+			</field>
+		</record>	
+
+		<record id="view_nationality_form" model="ir.ui.view">
+			<field name="name">view.nationality.form</field>
+			<field name="model">nationality</field>
+			<field name="arch" type="xml">
+				<form string="Nacionalidad">
+					<group  col="2" colspan="2">
+						<group colspan="2">
+							<field name="name"/>
+						</group>
+					</group>
+				</form>
+			</field>
+		</record>
+
+		<!-- Ingreso de Instrucción -->
+		<record id="view_instruction_tree" model="ir.ui.view">
+			<field name="name">view.instruction.tree</field>
+			<field name="model">instruction</field>
+			<field name="arch" type="xml">
+				<tree string="Instrucción">
+					<field name="name"/>
+					<field name="description"/>
+				</tree>
+			</field>
+		</record>	
+		
+		<record id="view_instruction_form" model="ir.ui.view">
+		<field name="name">view.instruction.form</field>
+		<field name="model">instruction</field>
+		<field name="arch" type="xml">
+			<form string="Instrucción">
+				<group  col="2" colspan="2">
+					<group colspan="2">
+						<field name="name"/>
+						<newline/>
+						<field name="description"/>
+					</group>
 				</group>
 			</form>
 		</field>
 	</record>
 
-     <!-- Ingreso de tipo de genero (sexo) -->
-     <record id="view_gender_tree" model="ir.ui.view">
-          <field name="name">view.gender.tree</field>
-          <field name="model">gender</field>
-          <field name="arch" type="xml">
-               <tree string="Generos">
-                    <field name="name"/>
-                    <field name="description"/>
-               </tree>
-          </field>
-     </record>	
-    
-     <record id="view_gender_form" model="ir.ui.view">
-          <field name="name">view.gender.form</field>
-          <field name="model">gender</field>
-          <field name="arch" type="xml">
-               <form string="Generos">
-                    <field name="name"/>
-                    <field name="description"/>
-               </form>
-          </field>
-     </record>
-    
-    
-     <!-- Ingreso de grupos étnicos -->
-	<record id="view_ethnic_group_tree" model="ir.ui.view">
-		<field name="name">view.ethnc.group.tree</field>
-		<field name="model">ethnic.group</field>
-		<field name="arch" type="xml">
-			<tree string="Grupo Étnico">
-				<field name="name"/>
-				<field name="description"/>
-			</tree>
-		</field>
-	</record>
-
-	<record id="view_ethnic_group_form" model="ir.ui.view">
-		<field name="name">view.ethnic.group.form</field>
-		<field name="model">ethnic.group</field>
-		<field name="arch" type="xml">
-			<form string="Grupo Étnico">
-				<group col="2" colspan="2">
-					<field name="name"/>
-					<field name="description"/>
-				</group>
-			</form>
-		</field>
-	</record>
-
-            
-        <!-- Ingreso de zonas -->
-        <record id="view_zones_tree" model="ir.ui.view">
-          <field name="name">view.zones.tree</field>
-          <field name="model">zones</field>
-          <field name="arch" type="xml">
-            <tree string="Zonas">
-              <field name="name"/>
-              <field name="description"/>
-              <field name="country_id"/>
-            </tree>
-          </field>
-        </record>
-
-        <record id="view_zones_form" model="ir.ui.view">
-          <field name="name">view.zones.form</field>
-          <field name="model">zones</field>
-          <field name="arch" type="xml">
-            <form string="Zonas">
-              <field name="name"/>
-              <newline/>
-              <field name="country_id"/>
-              <newline/>
-              <field name="description"/>
-            </form>
-          </field>
-        </record>
-
-        <!-- Modificación vista para estados -->
-        <record id="view_res_country_state_form_inerit" model="ir.ui.view">
-          <field name="name">view.res.country.form</field>
-          <field name="model">res.country.state</field>
-          <field name="inherit_id" ref="base.view_country_state_form"/>
-          <field name="arch" type="xml">
-            
-              <field name="country_id" position="before">
-                <field name="zone_id" on_change="change_zone_id(zone_id)"/>
-              </field>
-           
-          </field>
-        </record> 
-
-        <!-- Ingreso de cantones / ciudades -->
-        <record id="view_canton_tree" model="ir.ui.view">
-          <field name="name">view.canton.tree</field>
-          <field name="model">canton</field>
-          <field name="arch" type="xml">
-            <tree string="Cantones">
-              <field name="name"/>
-              <field name="country_id"/>
-              <field name="description"/>
-            </tree>
-          </field>
-        </record>
-
-        <record id="view_canton_form" model="ir.ui.view">
-          <field name="name">view.canton.form</field>
-          <field name="model">canton</field>
-          <field name="arch" type="xml">
-            <form string="Cantones">
-              <field name="name"/>
-              <newline/>
-              <field name="country_id"/>
-              <newline/>
-              <field name="description"/>
-            </form>
-          </field>
-        </record>
-
-
-        <!-- Ingreso de ciudades 
-        <record id="view_city_tree" model="ir.ui.view">
-          <field name="name">view.city.tree</field>
-          <field name="model">city</field>
-          <field name="arch" type="xml">
-            <tree string="Ciudad">
-              <field name="name"/>
-              <field name="description"/>
-            </tree>
-          </field>
-        </record>
-
-        <record id="view_city_form" model="ir.ui.view">
-          <field name="name">view.city.form</field>
-          <field name="model">city</field>
-          <field name="arch" type="xml">
-            <form string="Ciudad">
-              <newline/>
-              <field name="name"/>
-              <newline/>
-              <field name="description"/>
-            </form>
-          </field>
-        </record> -->
-
-        <!-- Ingreso de parroquias -->
-        <record id="view_parish_tree" model="ir.ui.view">
-          <field name="name">view.parish.tree</field>
-          <field name="model">parish</field>
-          <field name="arch" type="xml">
-            <tree string="Parroquias">
-              <field name="name"/>
-              <field name="canton_id"/>
-              <field name="description"/>
-            </tree>
-          </field>
-        </record>        
-
-        <record id="view_parish_form" model="ir.ui.view">
-          <field name="name">view.parish.form</field>
-          <field name="model">parish</field>
-          <field name="arch" type="xml">
-            <form string="Parroquias">
-              <field name="name"/>
-              <newline/>
-              <field name="canton_id"/>
-              <newline/>
-              <field name="description"/>
-            </form>
-          </field>
-        </record> 
 
   <!-- Ingreso de entidades financieras -->
   <record id="view_entity_tree" model="ir.ui.view">
       <field name="name">view.entity_finance.tree</field>
-      <field name="model">entity_finance</field>
+      <field name="model">entity.finance</field>
       <field name="arch" type="xml" >
       <tree string="Entidades Financieras">
           <field name="name"/>
@@ -254,7 +305,7 @@
 
   <record id="view_entity_form" model="ir.ui.view">
       <field name="name">view.entity_finance.form</field>
-      <field name="model">entity_finance</field>
+      <field name="model">entity.finance</field>
       <field name="arch" type="xml">
       <form string="Entidad Financiera">
           <field name="name" />
@@ -263,9 +314,9 @@
   </record>
 
  <!-- Ingreso de tipos cuenta bancaria -->
-  <record id="view_bankaccount_tree" model="ir.ui.view">
-      <field name="name">view.bankaccount.tree</field>
-      <field name="model">bankaccount_type</field>
+  <record id="view_bank_account_tree" model="ir.ui.view">
+      <field name="name">view.bank_account.tree</field>
+      <field name="model">bank.account.type</field>
       <field name="arch" type="xml" >
       <tree string="Tipos de Cuenta">
           <field name="name"/>
@@ -273,9 +324,9 @@
       </field>
   </record>
 
-  <record id="view_bankaccount_form" model="ir.ui.view">
-      <field name="name">view.bankaccount.form</field>
-      <field name="model">bankaccount_type</field>
+  <record id="view_bank_account_form" model="ir.ui.view">
+      <field name="name">view.bank_account.form</field>
+      <field name="model">bank.account.type</field>
       <field name="arch" type="xml">
       <form string="Tipo de Cuenta">
           <field name="name" />
@@ -284,31 +335,32 @@
   </record>
 
  <!-- Ingreso de informacion bancaria -->
- <record id="view_bankinfo_tree" model="ir.ui.view">
+ <record id="view_bank_info_tree" model="ir.ui.view">
       <field name="name">view.bankinfo.tree</field>
-      <field name="model">bank_info</field>
+      <field name="model">bank.info</field>
       <field name="arch" type="xml" >
       <tree string="Información Bancaria">
           <field name="id_entity_finance"/>
-          <field name="id_bankaccount"/>
+          <field name="id_bank_account"/>
           <field name="number"/>
       </tree>
     </field>
   </record>
 
-  <record id="view_bankinfo_form" model="ir.ui.view">
-      <field name="name">view.countbanck.form</field>
-      <field name="model">bank_info</field>
+  <record id="view_bank_info_form" model="ir.ui.view">
+      <field name="name">view.bankinfo.form</field>
+      <field name="model">bank.info</field>
       <field name="arch" type="xml">
       <form string="Información Bancaria">
           <group col="2" colspan="2">
               <field name="id_entity_finance"/>
-              <field name="id_bankaccount"/>
+              <field name="id_bank_account"/>
               <field name="number"/>
           </group>
       </form>
       </field>
   </record>
 
-</data>
+	
+	</data>
 </openerp>
