@@ -129,7 +129,7 @@ class parish(osv.osv):
 
 
 class blood_type(osv.osv):
-	_name = "blood_type"
+	_name = "blood.type"
 	_description = "Registra los tipos de sangre"
 	_columns = {
 		'name': fields.char("Nombre", size=3, required=True),

@@ -16,7 +16,7 @@
         <menuitem action="action_parish" id="menu_parish" name="Parroquias" parent="menu_division" sequence="5"/>
         <menuitem action="action_estadocivil" id="menu_ingreso_estado" name="Estado Civil" parent="menu_configuration"/>
         <menuitem action="action_nationality" id="menu_ingreso_nationality" name="Nacionalidad" parent="menu_configuration" sequence="6"/>
-        <menuitem action="action_instruction" id="menu_ingreso_blood_type" name="Instrucción" parent="menu_configuration" sequence="7"/>
+        <menuitem action="action_instruction" id="menu_ingreso_instruction" name="Instrucción" parent="menu_configuration" sequence="7"/>
     </data>
 </openerp>
 

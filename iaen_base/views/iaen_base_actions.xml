@@ -4,7 +4,7 @@
 		<!-- Ingreso de Tipos de Sangre -->
 		<record id="action_blood_type" model="ir.actions.act_window">
 		  <field name="name">Tipo de Sangre</field>
-		  <field name="res_model">blood_type</field>
+		  <field name="res_model">blood.type</field>
 		  <field name="view_type">form</field>
 		  <field name="view_mode">tree,form</field>
 		</record>
@@ -84,13 +84,6 @@
 		<!-- Ingreso de Nacionalidades -->
         <record id="action_nationality" model="ir.actions.act_window">
             <field name="name">Nacionalidades</field>
-            <field name="res_model">nationality</field>
-            <field name="view_type">form</field>
-            <field name="view_mode">tree,form</field>
-        </record>
-		<!-- Ingreso de Nacionalidades -->
-        <record id="action_nationality" model="ir.actions.act_window">
-            <field name="name">Nacionalidad</field>
             <field name="res_model">nationality</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
