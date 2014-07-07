@@ -53,5 +53,5 @@ class curriculum(osv.osv):
 		"conadis_number": fields.char("Número del Carnet del CONADIS.", size=10, required=False),
 		"ethnic_group_id": fields.many2one("ethnic_group", u"Grupo Étnico", required=True),
 		"family_burden": fields.char("Carga Familiar"),
-		"bank_info_id": fields.many2one("bank_info", "Información Bancaria", required=False)
+		"bank_info_id": fields.many2one("bank.info", "Información Bancaria", required=False)
 	}
