@@ -143,7 +143,7 @@ class blood_type(osv.osv):
 	_constraints = [(_no_numbers, _(u"El Tipo de Sangre no debe contener números."), ['name'])]
 
 class estado_civil(osv.osv):
-    _name = "estado_civil"
+    _name = "estado.civil"
     _description = "Informacion sobre estado civil"
     _order = "name"
     _sql_constraints = [('name_uniq', 'unique(name)', 'Ya existe un Estado Civil con el mismo nombre')]
@@ -200,7 +200,7 @@ class instruction(osv.osv):
 
 class entity_finance(osv.osv):
     """Clase de los diferentes entidades financieras existentes en Ecuador"""
-    _name="entity_finance"
+    _name="entity.finance"
     _description="Entidad Financiera"
     _order="name"
     _sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe una Entidad Financiera con ese nombre.'))]
@@ -213,9 +213,9 @@ class entity_finance(osv.osv):
         return True 
     _constraints = [(_no_caracter, _(u"No debe contener caracteres especiales"), ['Nombre'])]
 
-class bankaccount_type(osv.osv):
+class bank_account_type(osv.osv):
     """Clase de los tipos de cuentas bancarias"""
-    _name="bankaccount_type"
+    _name="bank.account.type"
     _description="Tipo de Cuenta"
     _order="name"
     _sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un tipo de cuenta bancaria con ese nombre.'))]
@@ -223,24 +223,25 @@ class bankaccount_type(osv.osv):
             "name" : fields.char("Nombre",size=50,required=True),
     }
     def _no_numbers(self, cr, uid, ids):
-        for bankaccount_type in self.browse(cr, uid, ids):
-            if re.search("[^a-z, A-Z]", bankaccount_type.name): return False
+        for bank_account_type in self.browse(cr, uid, ids):
+            if re.search("[^a-z, A-Z]", bank_account_type.name): return False
         return True 
-    _constraints = [(_no_numbers, _(u"Debe contener solo caracteres alfabéticos."), ['Nombre'])]
+    _constraints = [(_no_numbers, _(u'Debe contener solo caracteres alfabéticos.'), ['Nombre'])]
 
 class bank_info(osv.osv):
-    """Clase de la informacion bancaria de los users"""
-    _name="bank_info"
+    """Clase de la informacion bancaria de los usuarios"""
+    _name="bank.info"
     _description="Informacion bancaria"
     _order="id_entity_finance"
     _sql_constraints = [('name_unique', 'unique(number)', _(u'Ya existe una cuenta con ese numero'))]
     _columns={
-            "id_entity_finance": fields.many2one("entity_finance","Entidad Financiera",required=True),
-            "id_bankaccount": fields.many2one("bankaccount_type","Tipo de Cuenta",required=True),
+            "id_entity_finance": fields.many2one("entity.finance","Entidad Financiera",required=True),
+            "id_bank_account": fields.many2one("bank.account.type","Tipo de Cuenta",required=True),
             "number" : fields.char("Número",size=15,required=True),
     }
     def _no_char(self, cr, uid, ids):
         for bank_info in self.browse(cr, uid, ids):
             if re.search("[^0-9]", bank_info.number): return False
         return True 
-    _constraints = [(_no_char, _(u"Debe contener solo números."), ['Numero'])]
+    _constraints = [(_no_char, _(u'Debe contener solo números.'), ['Numero'])]
+
