@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data noupdate="0">
+		<record model="nationality" id="ecuatoriana">
+			<field name="name">Ecuatoriana</field>
+            <field name="descripcion"/>
+		</record>
+
+        <record model="nationality" id="colombiana">
+			<field name="name">Colombiana</field>
+            <field name="descripcion"/>
+		</record>
+
+        <record model="nationality" id="chilena">
+			<field name="name">Chilena</field>
+            <field name="descripcion"/>
+		</record>
+
+        <record model="nationality" id="estadounidense">
+			<field name="name">Estadounidense</field>
+            <field name="descripcion"/>
+		</record>
+
+        <record model="nationality" id="salvadorenia">
+			<field name="name">Salvadoreña</field>
+            <field name="descripcion"/>
+		</record>
+	</data>
+</openerp>

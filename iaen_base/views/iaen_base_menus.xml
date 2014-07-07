@@ -15,15 +15,18 @@
         <menuitem action="action_canton" id="menu_canton" name="Cantón/Ciudades" parent="menu_division" sequence="4"/> 
         <menuitem action="action_parish" id="menu_parish" name="Parroquias" parent="menu_division" sequence="5"/>
 
-        <menuitem action="action_estadocivil" id="menu_ingreso_estado" name="Estado Civil" parent="menu_configuration"/>
+
 	<menuitem action="action_family_relationship" id="menu_family" name="Parentesco Familiar" parent="menu_configuration" sequence="5"/>
 	<menuitem action="action_family_burden" id="menu_family_burder" name="Carga Familiar" parent="menu_configuration"/>
-
-        <menuitem id="menu_financiera" name="Información Financiera" parent="menu_configuration"/>
-        <menuitem action="action_entity_finance" id="menu_entity_finance" name="Entidad Financiera" parent="menu_financiera"/>
-        <menuitem action="action_bankaccount_type" id="menu_bankaccount_type" name="Tipo de Cuenta" parent="menu_financiera"/>
-        <menuitem action="action_bankinfo" id="menu_bankinfo" name="Datos Bancarios" parent="menu_financiera"/>
 	<menuitem action="action_type_disability" id="menu_type_disability" name="Tipo de Discapacidad" parent="menu_configuration"/>
 
+        <menuitem action="action_estado_civil" id="menu_ingreso_estado" name="Estado Civil" parent="menu_configuration" sequence="2"/>
+        <menuitem action="action_nationality" id="menu_ingreso_nationality" name="Nacionalidad" parent="menu_configuration" sequence="6"/>
+        <menuitem action="action_instruction" id="menu_ingreso_instruction" name="Instrucción" parent="menu_configuration" sequence="7"/>
+        <menuitem id="menu_financiera" name="Información Financiera" parent="menu_configuration"/>
+        <menuitem action="action_entity_finance" id="menu_entity_finance" name="Entidad Financiera" parent="menu_financiera"/>
+        <menuitem action="action_bank_account_type" id="menu_bank_account_type" name="Tipo de Cuenta" parent="menu_financiera"/>
+        <menuitem action="action_bank_info" id="menu_bank_info" name="Datos Bancarios" parent="menu_financiera"/>
     </data>
 </openerp>
+

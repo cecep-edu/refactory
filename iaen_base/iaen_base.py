@@ -194,9 +194,38 @@ class family_burden(osv.osv):
 
 #    _constraints = [(_no_numbers, _(u"El Tipo de dato es invalido."), ['name'])]
 
+class nationality(osv.osv):
+	_name = "nationality"
+	_description = "Registra las nacionalidades"
+	_columns = {
+		'name': fields.char("Nombre", size=45, required=True),
+	}
+	_order = "name"
+	_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe una Nacionalidad con ese nombre.'))]
+	def _only_letters(self, cr, uid, ids):
+		for nationality in self.browse(cr, uid, ids):
+			if not re.match(u"^[ñA-Za-zÁÉÍÓÚáéíóú\s]+$", nationality.name): return False
+		return True 
+	_constraints = [(_only_letters, _(u"La Nacionalidad debe contener letras únicamente"), ['name'])]
+
+class instruction(osv.osv):
+	_name = "instruction"
+	_description = "Registra las instrucciones"
+	_columns = {
+		'name': fields.char("Nombre", size=200, required=True),
+		'description': fields.text("Descripción")
+	}
+	_order = "name"
+	_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe una Instrucción con ese nombre.'))]
+	def _only_letters(self, cr, uid, ids):
+		for instruction in self.browse(cr, uid, ids):
+			if not re.match(u"^[ñA-Za-zÁÉÍÓÚáéíóú\s]+$", instruction.name): return False
+		return True 
+	_constraints = [(_only_letters, _(u"La Nacionalidad debe contener letras únicamente"), ['name'])]
+
 class entity_finance(osv.osv):
     """Clase de los diferentes entidades financieras existentes en Ecuador"""
-    _name="entity_finance"
+    _name="entity.finance"
     _description="Entidad Financiera"
     _order="name"
     _sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe una Entidad Financiera con ese nombre.'))]
@@ -209,9 +238,9 @@ class entity_finance(osv.osv):
         return True 
     _constraints = [(_no_caracter, _(u"No debe contener caracteres especiales"), ['Nombre'])]
 
-class bankaccount_type(osv.osv):
+class bank_account_type(osv.osv):
     """Clase de los tipos de cuentas bancarias"""
-    _name="bankaccount_type"
+    _name="bank.account.type"
     _description="Tipo de Cuenta"
     _order="name"
     _sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un tipo de cuenta bancaria con ese nombre.'))]
@@ -219,26 +248,27 @@ class bankaccount_type(osv.osv):
             "name" : fields.char("Nombre",size=50,required=True),
     }
     def _no_numbers(self, cr, uid, ids):
-        for bankaccount_type in self.browse(cr, uid, ids):
-            if re.search("[^a-z, A-Z]", bankaccount_type.name): return False
+        for bank_account_type in self.browse(cr, uid, ids):
+            if re.search("[^a-z, A-Z]", bank_account_type.name): return False
         return True 
-    _constraints = [(_no_numbers, _(u"Debe contener solo caracteres alfabéticos."), ['Nombre'])]
+    _constraints = [(_no_numbers, _(u'Debe contener solo caracteres alfabéticos.'), ['Nombre'])]
 
 class bank_info(osv.osv):
-    """Clase de la informacion bancaria de los users"""
-    _name="bank_info"
+    """Clase de la informacion bancaria de los usuarios"""
+    _name="bank.info"
     _description="Informacion bancaria"
     _order="id_entity_finance"
     _sql_constraints = [('name_unique', 'unique(number)', _(u'Ya existe una cuenta con ese numero'))]
     _columns={
-            "id_entity_finance": fields.many2one("entity_finance","Entidad Financiera",required=True),
-            "id_bankaccount": fields.many2one("bankaccount_type","Tipo de Cuenta",required=True),
+            "id_entity_finance": fields.many2one("entity.finance","Entidad Financiera",required=True),
+            "id_bank_account": fields.many2one("bank.account.type","Tipo de Cuenta",required=True),
             "number" : fields.char("Número",size=15,required=True),
     }
     def _no_char(self, cr, uid, ids):
         for bank_info in self.browse(cr, uid, ids):
             if re.search("[^0-9]", bank_info.number): return False
         return True 
+
     _constraints = [(_no_char, _(u"Debe contener solo números."), ['Numero'])]
 
 #TIPO DE DISCAPACIDAD
@@ -257,3 +287,4 @@ class type_disability(osv.osv):
         return True 
 
     _constraints = [(_alphabetical, _(u"El Tipo de dato es invalido."), ['name'])]
+

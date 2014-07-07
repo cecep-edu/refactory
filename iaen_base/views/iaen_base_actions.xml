@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
-
 	<data>
+		<!-- Ingreso de Tipos de Sangre -->
 		<record id="action_blood_type" model="ir.actions.act_window">
 		  <field name="name">Tipo de Sangre</field>
 		  <field name="res_model">blood.type</field>
@@ -75,13 +75,8 @@
             <field name="view_mode">tree,form</field>
         </record>
 
-    <record id="action_estadocivil" model="ir.actions.act_window">
-      <field name="name">Estado Civil</field>
-      <field name="res_model">estado.civil</field>
-      <field name="view_type">form</field>
-      <field name="view_mode">tree,form</field>
-    </record>
 
+   
     <!-- Ingreso de parentesco familiar  -->
     <record id="action_family_relationship" model="ir.actions.act_window">
       <field name="name">Parentesco Familiar</field>
@@ -97,21 +92,43 @@
       <field name="view_mode">tree,form</field>
     </record>     
 
+		<!-- Ingreso de Estado Civil -->
+    <record id="action_estado_civil" model="ir.actions.act_window">
+            <field name="name">Estado Civil</field>
+            <field name="res_model">estado.civil</field>
+    	  <field name="view_type">form</field>
+    	  <field name="view_mode">tree,form</field>
+		</record>
+		<!-- Ingreso de Nacionalidades -->
+        <record id="action_nationality" model="ir.actions.act_window">
+            <field name="name">Nacionalidades</field>
+            <field name="res_model">nationality</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+		<!-- Ingreso de Instrucciones-->
+        <record id="action_instruction" model="ir.actions.act_window">
+            <field name="name">Instrucción</field>
+            <field name="res_model">instruction</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
         <record id="action_entity_finance" model="ir.actions.act_window">
             <field name="name">Entidad Financiera</field>
-            <field name="res_model">entity_finance</field>
+            <field name="res_model">entity.finance</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
         </record>
-        <record id="action_bankaccount_type" model="ir.actions.act_window">
+        <record id="action_bank_account_type" model="ir.actions.act_window">
             <field name="name">Tipos de Cuenta</field>
-            <field name="res_model">bankaccount_type</field>
+            <field name="res_model">bank.account.type</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
         </record>
-        <record id="action_bankinfo" model="ir.actions.act_window">
+        <record id="action_bank_info" model="ir.actions.act_window">
             <field name="name">Datos Bancarios</field>
-            <field name="res_model">bank_info</field>
+            <field name="res_model">bank.info</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
         </record>
