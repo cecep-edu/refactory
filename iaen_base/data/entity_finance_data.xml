@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data noupdate="0">
+		<record model="entity.finance" id="entity_1">
+			<field name="name">Banco Amazonas</field>
+		</record>
+		<record model="entity.finance" id="entity_2">
+			<field name="name">Banco Austro</field>
+		</record>
+		<record model="entity.finance" id="entity_3">
+			<field name="name">Banco Bolivariano</field>
+		</record>
+		<record model="entity.finance" id="entity_4">
+			<field name="name">Banco Capital</field>
+		</record>
+		<record model="entity.finance" id="entity_5">
+			<field name="name">Banco COFIEC</field>
+		</record>
+		<record model="entity.finance" id="entity_6">
+			<field name="name">Banco Comercial Manabi</field>
+		</record>
+		<record model="entity.finance" id="entity_7">
+			<field name="name">Banco Coopnacional</field>
+		</record>
+		<record model="entity.finance" id="entity_8">
+			<field name="name">Banco Del Bank</field>
+		</record>
+		<record model="entity.finance" id="entity_9">
+			<field name="name">Banco DMiro</field>
+		</record>
+		<record model="entity.finance" id="entity_10">
+			<field name="name">Banco Finca</field>
+		</record>
+		<record model="entity.finance" id="entity_11">
+			<field name="name">Banco General Rumiahi</field>
+		</record>
+		<record model="entity.finance" id="entity_12">
+			<field name="name">Banco Guayaquil</field>
+		</record>
+		<record model="entity.finance" id="entity_13">
+			<field name="name">Banco Pacifico</field>
+		</record>
+		<record model="entity.finance" id="entity_14">
+			<field name="name">Banco Pichincha</field>
+		</record>
+		<record model="entity.finance" id="entity_15">
+			<field name="name">Cooperativa 9 de Octubre</field>
+		</record>
+		<record model="entity.finance" id="entity_16">
+			<field name="name">Cooperativa 11 de Junio</field>
+		</record>
+		<record model="entity.finance" id="entity_17">
+			<field name="name">Cooperativa Alianza del Valle</field>
+		</record>
+		<record model="entity.finance" id="entity_18">
+			<field name="name">Cooperativa Juventud Ecuatoriana Progrsista</field>
+		</record>
+		<record model="entity.finance" id="entity_19">
+			<field name="name">Cooperativa 15 de Abril</field>
+		</record>
+		<record model="entity.finance" id="entity_20">
+			<field name="name">Cooperativa 23 de Julio</field>
+		</record>
+		<record model="entity.finance" id="entity_21">
+			<field name="name">Cooperativa 29 de Octubre</field>
+		</record>
+		<record model="entity.finance" id="entity_22">
+			<field name="name">Cooperativa Andalucia</field>
+		</record>
+		<record model="entity.finance" id="entity_23">
+			<field name="name">Cooperativa Atuntaqui</field>
+		</record>
+		<record model="entity.finance" id="entity_24">
+			<field name="name">Cooperativa Cacpe Biblian</field>
+		</record>
+		<record model="entity.finance" id="entity_25">
+			<field name="name">Cooperativa Chone</field>
+		</record>
+		<record model="entity.finance" id="entity_26">
+			<field name="name">Mutualista Ambato</field>
+		</record>
+		<record model="entity.finance" id="entity_27">
+			<field name="name">Mutualista Azuay</field>
+		</record>
+		<record model="entity.finance" id="entity_28">
+			<field name="name">Mutualista Pichincha</field>
+		</record>
+	</data>
+</openerp>
