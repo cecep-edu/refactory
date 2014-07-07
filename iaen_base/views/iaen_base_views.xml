@@ -214,90 +214,183 @@
           </field>
         </record> -->
 
-        <!-- Ingreso de parroquias -->
-        <record id="view_parish_tree" model="ir.ui.view">
-          <field name="name">view.parish.tree</field>
-          <field name="model">parish</field>
-          <field name="arch" type="xml">
-            <tree string="Parroquias">
-              <field name="name"/>
-              <field name="canton_id"/>
-              <field name="description"/>
-            </tree>
-          </field>
-        </record>        
-        <record id="view_parish_form" model="ir.ui.view">
-          <field name="name">view.parish.form</field>
-          <field name="model">parish</field>
-          <field name="arch" type="xml">
-            <form string="Parroquias">
-              <field name="name"/>
-              <newline/>
-              <field name="canton_id"/>
-              <newline/>
-              <field name="description"/>
-            </form>
-          </field>
-        </record>        
+   <!-- Ingreso de parroquias -->
+   <record id="view_parish_tree" model="ir.ui.view">
+     <field name="name">view.parish.tree</field>
+     <field name="model">parish</field>
+     <field name="arch" type="xml">
+       <tree string="Parroquias">
+	 <field name="name"/>
+	 <field name="canton_id"/>
+	 <field name="description"/>
+       </tree>
+     </field>
+   </record>        
+   <record id="view_parish_form" model="ir.ui.view">
+     <field name="name">view.parish.form</field>
+     <field name="model">parish</field>
+     <field name="arch" type="xml">
+       <form string="Parroquias">
+	 <field name="name"/>
+	 <newline/>
+	 <field name="canton_id"/>
+	 <newline/>
+	 <field name="description"/>
+       </form>
+     </field>     
+   </record>        
 
 
-     <!-- Ingreso de parentesco familiar -->
-     <record id="view_family_relationship_tree" model="ir.ui.view">
-          <field name="name">view.family.relationship.tree</field>
-          <field name="model">family.relationship</field>
-          <field name="arch" type="xml">
-               <tree string="Parentesco Familiar">
-                    <field name="name"/>
-                    <field name="description"/>
-               </tree>
-          </field>
-     </record>	
-     <record id="view_family_relationship_form" model="ir.ui.view">
-          <field name="name">view.family.relationship.form</field>
-          <field name="model">family.relationship</field>
-          <field name="arch" type="xml">
-               <form string="Parentesco Familiar">
-                    <field name="name"/>
-                    <field name="description"/>
-               </form>
-          </field>
-     </record>
+    <!-- Ingreso de parentesco familiar -->
+    <record id="view_family_relationship_tree" model="ir.ui.view">
+      <field name="name">view.family.relationship.tree</field>
+      <field name="model">family.relationship</field>
+      <field name="arch" type="xml">
+	<tree string="Parentesco Familiar">
+	  <field name="name"/>
+	  <field name="description"/>
+	</tree>
+      </field>
+    </record>	
+    <record id="view_family_relationship_form" model="ir.ui.view">
+      <field name="name">view.family.relationship.form</field>
+      <field name="model">family.relationship</field>
+      <field name="arch" type="xml">
+	<form string="Parentesco Familiar">
+	  <field name="name"/>
+	  <field name="description"/>
+	</form>
+      </field>
+    </record>
+	
+    <!-- Ingreso de cargas familiar -->
+    <record id="view_family_burden_tree" model="ir.ui.view">
+      <field name="name">view.family.burden.tree</field>
+      <field name="model">family.burden</field>
+      <field name="arch" type="xml">
+	<tree string="Carga Familiar">
+	  <field name="name"/>
+	  <field name="lastName"/>
+	  <field name="typeId"/>
+	  <field name="numberId"/>
+	  <field name="typeRelFamily"/>
+	  <field name="dateBirth"/>
+	  <field name="phone"/>
+	  <field name="movil"/>
+	      <field name="checkContactSos"/>
+	</tree>
+      </field>
+    </record>	
+    <record id="view_family_relationship_form" model="ir.ui.view">
+      <field name="name">view.family.burden.form</field>
+      <field name="model">family.burden</field>
+      <field name="arch" type="xml">
+	<form string="Carga Familiar">
+	  <field name="name"/>
+	  <field name="lastName"/>
+	  <field name="typeId"/>
+	  <field name="numberId"/>
+	  <field name="typeRelFamily"/>
+	  <field name="dateBirth"/>
+	  <field name="phone"/>
+	  <field name="movil"/>
+	  <field name="checkContactSos"/>
+	</form>
+      </field>
+    </record>      
 
-     <!-- Ingreso de cargas familiar -->
-     <record id="view_family_burden_tree" model="ir.ui.view">
-          <field name="name">view.family.burden.tree</field>
-          <field name="model">family.burden</field>
-          <field name="arch" type="xml">
-               <tree string="Carga Familiar">
-                    <field name="name"/>
-                    <field name="lastName"/>
-		    <field name="typeId"/>
-		    <field name="numberId"/>
-		    <field name="typeRelFamily"/>
-		    <field name="dateBirth"/>
-		    <field name="phone"/>
-		    <field name="movil"/>
-		    <field name="checkContactSos"/>
-               </tree>
-          </field>
-     </record>	
-     <record id="view_family_relationship_form" model="ir.ui.view">
-          <field name="name">view.family.burden.form</field>
-          <field name="model">family.burden</field>
-          <field name="arch" type="xml">
-               <form string="Carga Familiar">
-                    <field name="name"/>
-                    <field name="lastName"/>
-		    <field name="typeId"/>
-		    <field name="numberId"/>
-		    <field name="typeRelFamily"/>
-		    <field name="dateBirth"/>
-		    <field name="phone"/>
-		    <field name="movil"/>
-		    <field name="checkContactSos"/>
-              </form>
-          </field>
-     </record>      
+    
+  <!-- Ingreso de entidades financieras -->
+  <record id="view_entity_tree" model="ir.ui.view">
+      <field name="name">view.entity_finance.tree</field>
+      <field name="model">entity_finance</field>
+      <field name="arch" type="xml" >
+      <tree string="Entidades Financieras">
+          <field name="name"/>
+      </tree>
+    </field>
+  </record>
 
-    </data>
+  <record id="view_entity_form" model="ir.ui.view">
+      <field name="name">view.entity_finance.form</field>
+      <field name="model">entity_finance</field>
+      <field name="arch" type="xml">
+      <form string="Entidad Financiera">
+          <field name="name" />
+      </form>
+      </field>
+  </record>
+
+ <!-- Ingreso de tipos cuenta bancaria -->
+  <record id="view_bankaccount_tree" model="ir.ui.view">
+      <field name="name">view.bankaccount.tree</field>
+      <field name="model">bankaccount_type</field>
+      <field name="arch" type="xml" >
+      <tree string="Tipos de Cuenta">
+          <field name="name"/>
+      </tree>
+      </field>
+  </record>
+
+  <record id="view_bankaccount_form" model="ir.ui.view">
+      <field name="name">view.bankaccount.form</field>
+      <field name="model">bankaccount_type</field>
+      <field name="arch" type="xml">
+      <form string="Tipo de Cuenta">
+          <field name="name" />
+      </form>
+      </field>
+  </record>
+
+ <!-- Ingreso de informacion bancaria -->
+ <record id="view_bankinfo_tree" model="ir.ui.view">
+      <field name="name">view.bankinfo.tree</field>
+      <field name="model">bank_info</field>
+      <field name="arch" type="xml" >
+      <tree string="Información Bancaria">
+          <field name="id_entity_finance"/>
+          <field name="id_bankaccount"/>
+          <field name="number"/>
+      </tree>
+    </field>
+  </record>
+
+  <record id="view_bankinfo_form" model="ir.ui.view">
+    <field name="name">view.countbanck.form</field>
+    <field name="model">bank_info</field>
+    <field name="arch" type="xml">
+      <form string="Información Bancaria">
+	<group col="2" colspan="2">
+	  <field name="id_entity_finance"/>
+	  <field name="id_bankaccount"/>
+	  <field name="number"/>
+	</group>
+      </form>
+    </field>
+  </record>
+
+  <!-- Ingreso tipo de discapacidad -->
+  <record id="view_type_disability_tree" model="ir.ui.view">
+    <field name="name">view.type.disability.tree</field>
+    <field name="model">type.disability</field>
+    <field name="arch" type="xml">
+      <tree string="Tipo de discapacidad">
+	<field name="name"/>
+	<field name="description"/>
+      </tree>
+    </field>
+  </record>	
+  <record id="view_type_disability_form" model="ir.ui.view">
+    <field name="name">view.type.disability.form</field>
+    <field name="model">type.disability</field>
+    <field name="arch" type="xml">
+      <form string="Tipo de discapacidad">
+	<field name="name"/>
+	<field name="description"/>
+      </form>
+    </field>
+  </record>
+
+</data>
+
 </openerp>

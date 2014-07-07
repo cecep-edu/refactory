@@ -74,6 +74,7 @@
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
         </record>
+
     <record id="action_estadocivil" model="ir.actions.act_window">
       <field name="name">Estado Civil</field>
       <field name="res_model">estado.civil</field>
@@ -94,7 +95,33 @@
       <field name="res_model">family.burden</field>
       <field name="view_type">form</field>
       <field name="view_mode">tree,form</field>
-    </record>    
+    </record>     
 
+        <record id="action_entity_finance" model="ir.actions.act_window">
+            <field name="name">Entidad Financiera</field>
+            <field name="res_model">entity_finance</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <record id="action_bankaccount_type" model="ir.actions.act_window">
+            <field name="name">Tipos de Cuenta</field>
+            <field name="res_model">bankaccount_type</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <record id="action_bankinfo" model="ir.actions.act_window">
+            <field name="name">Datos Bancarios</field>
+            <field name="res_model">bank_info</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+    <!-- Ingreso de discapacidad  -->
+    <record id="action_type_disability" model="ir.actions.act_window">
+      <field name="name">Tipo de discapacidad</field>
+      <field name="res_model">type.disability</field>
+      <field name="view_type">form</field>
+      <field name="view_mode">tree,form</field>
+    </record>    
   </data>
+
 </openerp>
