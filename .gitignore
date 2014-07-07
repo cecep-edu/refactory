@@ -59,4 +59,5 @@ docs/_build/
 
 # XML
 *.xml~
+*.swp
 

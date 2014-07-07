@@ -129,7 +129,7 @@ class parish(osv.osv):
 
 
 class blood_type(osv.osv):
-	_name = "blood_type"
+	_name = "blood.type"
 	_description = "Registra los tipos de sangre"
 	_columns = {
 		'name': fields.char("Nombre", size=3, required=True),
@@ -158,8 +158,8 @@ class gender(osv.osv):
     _description="Carga familiar"
     _order = "name"        
     _columns={
-            "name" : fields.char("Nombre",size=10,required=True),
-            "description" : fields.text("Descripcion"),
+		"name" : fields.char("Nombre",size=10,required=True),
+		"description" : fields.text("Descripcion"),
     }
     _order = "name"
     _sql_constraints = [('name_uniq', 'unique(name)', _(u'Ya existe un genero con el mismo nombre'))]
@@ -168,6 +168,35 @@ class gender(osv.osv):
             if not (re.search("[a-z, A-Z]", bloody_type.name)): return False
         return True 
     _constraints = [(_no_numbers, _(u"El Tipo de dato es invalido."), ['name'])]
+
+class nationality(osv.osv):
+	_name = "nationality"
+	_description = "Registra las nacionalidades"
+	_columns = {
+		'name': fields.char("Nombre", size=45, required=True),
+	}
+	_order = "name"
+	_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe una Nacionalidad con ese nombre.'))]
+	def _only_letters(self, cr, uid, ids):
+		for nationality in self.browse(cr, uid, ids):
+			if not re.match(u"^[ñA-Za-zÁÉÍÓÚáéíóú\s]+$", nationality.name): return False
+		return True 
+	_constraints = [(_only_letters, _(u"La Nacionalidad debe contener letras únicamente"), ['name'])]
+
+class instruction(osv.osv):
+	_name = "instruction"
+	_description = "Registra las instrucciones"
+	_columns = {
+		'name': fields.char("Nombre", size=200, required=True),
+		'description': fields.text("Descripción")
+	}
+	_order = "name"
+	_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe una Instrucción con ese nombre.'))]
+	def _only_letters(self, cr, uid, ids):
+		for instruction in self.browse(cr, uid, ids):
+			if not re.match(u"^[ñA-Za-zÁÉÍÓÚáéíóú\s]+$", instruction.name): return False
+		return True 
+	_constraints = [(_only_letters, _(u"La Nacionalidad debe contener letras únicamente"), ['name'])]
 
 class entity_finance(osv.osv):
     """Clase de los diferentes entidades financieras existentes en Ecuador"""
@@ -215,3 +244,4 @@ class bank_info(osv.osv):
             if re.search("[^0-9]", bank_info.number): return False
         return True 
     _constraints = [(_no_char, _(u'Debe contener solo números.'), ['Numero'])]
+
