@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
 	<data noupdate="0">
-		<record model="bankaccount_type" id="bankcount_ca">
+		<record model="bank.account.type" id="bankcount_ca">
 			<field name="name">Cuenta de ahorros</field>
 		</record>
-		<record model="bankaccount_type" id="bankcount_cc">
+		<record model="bank.account.type" id="bankcount_cc">
 			<field name="name">Cuenta corriente</field>
 		</record>
 	</data>
