@@ -39,6 +39,7 @@
         'data/blood_type_data.xml',
         'data/bank_account_type_data.xml',
         'data/entity_finance_data.xml',
+        'data/nationality_data.xml',
     ],
     'installable': True,
     'auto_install': False,
