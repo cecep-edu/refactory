@@ -4,7 +4,7 @@
 
     <record id="view_estadocivil_tree" model="ir.ui.view">
       <field name="name">view.estadocivil.tree</field>
-      <field name="model">estado_civil</field>
+      <field name="model">estado.civil</field>
       <field name="arch" type="xml" >
 	    <tree string="Estado Civil">
             <field name="name"/>
@@ -14,7 +14,7 @@
 
     <record id="view_estadocivil_form" model="ir.ui.view">
       <field name="name">view.estadocivil.form</field>
-      <field name="model">estado_civil</field>
+      <field name="model">estado.civil</field>
       <field name="arch" type="xml">
 	    <form string="Crear Estado Civil">
 	          <field name="name" />
@@ -24,7 +24,7 @@
 
 	<record id="view_blood_type_tree" model="ir.ui.view">
       <field name="name">view.blood_type.tree</field>
-      <field name="model">blood_type</field>
+      <field name="model">blood.type</field>
       <field name="arch" type="xml">
 	    <tree string="Tipos de Sangre">
 	      <field name="name"/>
@@ -34,7 +34,7 @@
     
     <record id="view_blood_type_form" model="ir.ui.view">
       <field name="name">view.blood_type.form</field>
-      <field name="model">blood_type</field>
+      <field name="model">blood.type</field>
       <field name="arch" type="xml">
 	    <form string="Tipos de Sangre">
           <group  col="4" colspan="2">
@@ -70,7 +70,7 @@
 		</field>
 	</record>
 
-     <!-- Ingreso de tipo de genero (sexo) -->
+     <!-- Ingreso de identidad de genero -->
      <record id="view_gender_tree" model="ir.ui.view">
           <field name="name">view.gender.tree</field>
           <field name="model">gender</field>
@@ -226,7 +226,6 @@
             </tree>
           </field>
         </record>        
-
         <record id="view_parish_form" model="ir.ui.view">
           <field name="name">view.parish.form</field>
           <field name="model">parish</field>
@@ -240,9 +239,65 @@
             </form>
           </field>
         </record>        
-        
+
+
+     <!-- Ingreso de parentesco familiar -->
+     <record id="view_family_relationship_tree" model="ir.ui.view">
+          <field name="name">view.family.relationship.tree</field>
+          <field name="model">family.relationship</field>
+          <field name="arch" type="xml">
+               <tree string="Parentesco Familiar">
+                    <field name="name"/>
+                    <field name="description"/>
+               </tree>
+          </field>
+     </record>	
+     <record id="view_family_relationship_form" model="ir.ui.view">
+          <field name="name">view.family.relationship.form</field>
+          <field name="model">family.relationship</field>
+          <field name="arch" type="xml">
+               <form string="Parentesco Familiar">
+                    <field name="name"/>
+                    <field name="description"/>
+               </form>
+          </field>
+     </record>
+
+     <!-- Ingreso de cargas familiar -->
+     <record id="view_family_burden_tree" model="ir.ui.view">
+          <field name="name">view.family.burden.tree</field>
+          <field name="model">family.burden</field>
+          <field name="arch" type="xml">
+               <tree string="Carga Familiar">
+                    <field name="name"/>
+                    <field name="lastName"/>
+		    <field name="typeId"/>
+		    <field name="numberId"/>
+		    <field name="typeRelFamily"/>
+		    <field name="dateBirth"/>
+		    <field name="phone"/>
+		    <field name="movil"/>
+		    <field name="checkContactSos"/>
+               </tree>
+          </field>
+     </record>	
+     <record id="view_family_relationship_form" model="ir.ui.view">
+          <field name="name">view.family.burden.form</field>
+          <field name="model">family.burden</field>
+          <field name="arch" type="xml">
+               <form string="Carga Familiar">
+                    <field name="name"/>
+                    <field name="lastName"/>
+		    <field name="typeId"/>
+		    <field name="numberId"/>
+		    <field name="typeRelFamily"/>
+		    <field name="dateBirth"/>
+		    <field name="phone"/>
+		    <field name="movil"/>
+		    <field name="checkContactSos"/>
+              </form>
+          </field>
+     </record>      
 
     </data>
-
-
 </openerp>

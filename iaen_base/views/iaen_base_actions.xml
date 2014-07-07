@@ -4,7 +4,7 @@
 	<data>
 		<record id="action_blood_type" model="ir.actions.act_window">
 		  <field name="name">Tipo de Sangre</field>
-		  <field name="res_model">blood_type</field>
+		  <field name="res_model">blood.type</field>
 		  <field name="view_type">form</field>
 		  <field name="view_mode">tree,form</field>
 		</record>
@@ -76,9 +76,25 @@
         </record>
     <record id="action_estadocivil" model="ir.actions.act_window">
       <field name="name">Estado Civil</field>
-      <field name="res_model">estado_civil</field>
+      <field name="res_model">estado.civil</field>
       <field name="view_type">form</field>
       <field name="view_mode">tree,form</field>
     </record>
-    </data>
+
+    <!-- Ingreso de parentesco familiar  -->
+    <record id="action_family_relationship" model="ir.actions.act_window">
+      <field name="name">Parentesco Familiar</field>
+      <field name="res_model">family.relationship</field>
+      <field name="view_type">form</field>
+      <field name="view_mode">tree,form</field>
+    </record>    
+    <!-- Ingreso de carga familiar  -->
+    <record id="action_family_burden" model="ir.actions.act_window">
+      <field name="name">Carga Familiar</field>
+      <field name="res_model">family.burden</field>
+      <field name="view_type">form</field>
+      <field name="view_mode">tree,form</field>
+    </record>    
+
+  </data>
 </openerp>
