@@ -5,10 +5,6 @@
 			<field name="name">Básica</field>
             <field name="descripcion"/>
 		</record>
-		<record model="instruction" id="secundaria">
-			<field name="name">Secundaria</field>
-            <field name="descripcion"/>
-		</record>
 		<record model="instruction" id="bachillerato">
 			<field name="name">Bachillerato</field>
             <field name="descripcion"/>

@@ -21,22 +21,22 @@
             <field name="descripcion"/>
 		</record>
 
-        <record model="blood.type" id="blood_type_ab_p">
+        <record model="blood.type" id="blood_type_b_p">
 			<field name="name">B+</field>
             <field name="descripcion"/>
 		</record>
 
-        <record model="blood.type" id="blood_type_ab_n">
+        <record model="blood.type" id="blood_type_b_n">
 			<field name="name">B-</field>
             <field name="descripcion"/>
 		</record>
 
-        <record model="blood.type" id="blood_type_ab_p">
+        <record model="blood.type" id="blood_type_o_p">
 			<field name="name">O+</field>
             <field name="descripcion"/>
 		</record>
 
-        <record model="blood.type" id="blood_type_ab_n">
+        <record model="blood.type" id="blood_type_o_n">
 			<field name="name">O-</field>
             <field name="descripcion"/>
 		</record>
