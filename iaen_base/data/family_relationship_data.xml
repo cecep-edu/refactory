@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <openerp>
-  <data noupdate="1">
+  <data noupdate="0">
 
     <record model="family.relationship" id="gender_father" >
       <field name="name">Padre</field>
@@ -23,12 +23,12 @@
       <field name="name">Suegro(a)</field>
       <field name="description">Primer grado de parentesco, Afinidad</field>
     </record>
-    <record model="family.relationship" id="gender_son_daughter_law" >
+    <record model="family.relationship" id="gender_son_law" >
       <field name="name">Yerno</field>
       <field name="description">Primer grado de parentesco, Afinidad</field>
     </record>
-    <record model="family.relationship" id="gender_son_daughter_law" >
-      <field name="name">Yerno</field>
+    <record model="family.relationship" id="gender_daughter_law" >
+      <field name="name">Nuera</field>
       <field name="description">Primer grado de parentesco, Afinidad</field>
     </record>
     <record model="family.relationship" id="gender_grandfather" >
@@ -55,7 +55,7 @@
       <field name="name">Sobrino(a)</field>
       <field name="description">Tercer grado de parentesco, Consanguinidad/afinidad</field>
     </record>
-	<record model="family.relationship" id="gender_brother_law" >
+    <record model="family.relationship" id="gender_brother_law" >
       <field name="name">Cuñado(a)</field>
       <field name="description">Tercer grado de parentesco, Consanguinidad/afinidad</field>
     </record>
