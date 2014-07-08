@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+  <data noupdate="1">
+
+    <!-- Email template for new users -->
+    <record id="set_password_email_iaen" model="email.template">
+      <field name="name">OpenERP creación de usuarios</field>
+      <field name="model_id" ref="base.model_res_users"/>
+      <field name="email_from"><![CDATA[${object.company_id.name} <${(object.company_id.email or user.email)|safe}>]]></field>
+      <field name="email_to">${object.email|safe}</field>
+      <field name="subject"><![CDATA[${object.company_id.name} Confirmar usuario para Refactory (sigiaen3)]]></field>
+      <field name="body_html">
+        <![CDATA[
+                 <p>
+                 ${object.name},
+                 </p>
+                 <p>
+                 Has creado una cuenta para el sistema académico en "${object.company_id.name}" para hacer uso e ingresar datos dentro del sistema.
+                 </p>
+                 <p>
+                 Para confirmar el registro, haz click en el siguiente enlace:
+                 </p>
+                 <ul>
+                 <li><a href="${object.signup_url}"> Confirmar registro para: "${object.company_id.name}"</a></li>
+                 </ul>
+                 <p>
+                 O si crees que es un error, no hacer caso a este mail.
+                 </p>
+                 <p>
+                 Gracias,
+                 </p>
+                 <pre>
+                 --
+                 ${object.company_id.name or ''}
+                 ${object.company_id.email or ''}
+                 ${object.company_id.phone or ''}
+                 </pre>
+        ]]>
+      </field>
+    </record>
+
+  </data>
+</openerp>
