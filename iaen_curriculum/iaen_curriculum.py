@@ -55,7 +55,9 @@ class curriculum(osv.osv):
 		"conadis_number": fields.char("Número del Carnet del CONADIS.", size=10, require=True),
 		"ethnic_group_id": fields.many2one("ethnic.group", u"Grupo Étnico", required=True),
 		"family_burden_ids": fields.one2many("family.burden", "curriculum_id", 'Carga Familiar', required=False),
-		"bank_info_ids": fields.one2many("bank.info", "curriculum_id", "Información Bancaria", required=False)
+		"bank_info_ids": fields.one2many("bank.info", "curriculum_id", "Información Bancaria", required=False),
+		"instruction_info_ids" : fields.one2many("instruction.info", "curriculum_id", "Instrucción Académica"),
+		"experience_info_ids": fields.one2many("experience.info","curriculum_id", "Experiencia Laboral"),
 	}
 	def _only_numbers(self, cr, uid, ids):
 		for curriculum in self.browse(cr, uid, ids):
@@ -64,6 +66,43 @@ class curriculum(osv.osv):
 
 	_constraints = [(_only_numbers, u"El Número de Identificación debe contener sólo digitos.", ['identification_number'])]
 
+class instruction_info(osv.osv):
+    """Clase sobre la informacion de la instruccion academica del usuario"""
+    _name="instruction.info"
+    _description="Información Académica"
+    _order_="instruction_id"
+    _columns={
+        'instruction_id' : fields.many2one("instruction", "Nivel de Instrucción",required=True),
+        'name_institution': fields.char("Nombre de la Institución", size=100, required=True),
+        'specialization': fields.char("Especialización", size=200, required=True),
+        'title' : fields.char("Título", size=150, required=True),
+        'register': fields.char("Registro SENESCYT", size=50),
+        'curriculum_id' : fields.many2one("curriculum"),
+    }
+
+class experience_info(osv.osv):
+    """Clase sobre la información de la experiencia laboral del usuario"""
+    _name="experience.info"
+    _description="Experiencia Laboral"
+    _order_="init_date"
+    _columns={
+        'init_date' : fields.date("Fecha de Inicio", required=True),
+        'end_date': fields.date("Fecha de Fin", required=True),
+        'company' : fields.char("Organización/Empresa", size=200, required=True),
+        'position': fields.char("Denominación del Puesto", size=200, required=True),
+        'functions' : fields.text("Responsabilidades/Actividades/Funciones", required=True),
+        'curriculum_id' : fields.many2one("curriculum"),
+    }
+    def on_date(self, cr, uid, ids, init_date, end_date):
+    	if end_date:
+	    	if(init_date > end_date): 	    		
+				return {'value':{'init_date': "", 'end_date': ""}, 'warning':{'title':'Error de Validación',
+						'message':'La Fecha de Inicio debe ser menor que la Fecha de Fin'}}
+	    	else:
+				return {'value': {}}
+	else:
+		return {'value': {}}
+    #_constraints = [(_date, u"La Fecha de Inicio debe ser menor que la Fecha de Fin", ['init_date', 'end_date'])]
 
 class bank_info(osv.osv):
     """Clase de la informacion bancaria de los usuarios"""
@@ -104,4 +143,4 @@ class family_burden(osv.osv):
     }
     _defaults = {
         "check_contact_sos": False,
-        }    
+        }   
