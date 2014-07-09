@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
 	<data noupdate="0">
-		<record model="estado.civil" id="estado_civil_s">
+		<record model="estado.civil" id="estado_civil_m">
 			<field name="name">Soltero (a)</field>
 		</record>
 		<record model="estado.civil" id="estado_civil_c">
