@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<openerp>
+  <data noupdate="1">
+
+    <record model="type.disability" id="disability_physical" >
+      <field name="name">fisicas</field>
+      <field name="description">La visión que tenemos de la persona con discapacidad física ha variado
+      con el paso de los años, anteriormente veíamos que las personas eran relegadas a su hogar, 
+      sin posibilidades de socializar</field>
+    </record>
+    <record model="type.disability" id="disability_mental" >
+      <field name="name">Mentales </field>
+      <field name="description">Una adquisición lenta e incompleta de las habilidades cognitivas 
+      durante el desarrollo humano, que conduce finalmente a limitaciones sustanciales 
+      en el desarrollo corriente.</field>
+    </record>
+    <record model="type.disability" id="disability_congenital" >
+      <field name="name">Congenitas o Adquiridas</field>
+      <field name="description">Es una disminución en las habilidades cognitivas e intelectuales 
+      del individuo.</field>
+    </record>
+    <record model="type.disability" id="disability_" >
+      <field name="name">Intelectual o Sensorial</field>
+      <field name="description">Dentro de la categoría de las discapacidad sensorial, encontramos la discapacidad visual, la discapacidad auditiva y otros tipos de discapacidades relacionadas con disminución de algunos de los sentidos</field>
+    </record>
+  </data>
+</openerp>

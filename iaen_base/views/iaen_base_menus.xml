@@ -8,12 +8,17 @@
         <menuitem action="action_ethnic_group" id="menu_ethnic_group" name="Grupo Étnico" parent="menu_configuration" sequence="2"/>
         <menuitem action="action_gender" id="menu_gender" name="Identidad de Genero" parent="menu_configuration" sequence="3"/>
         <menuitem action="action_blood_type" id="menu_ingreso_blood_type" name="Tipo de Sangre" parent="menu_configuration" sequence="4"/>
-        <menuitem id="menu_division" name="División política" parent="menu_configuration" sequence="5"/>
+	<menuitem id="menu_division" name="División política" parent="menu_configuration" sequence="6"/>
         <menuitem action="action_res_country" id="menu_res_country" name="Pais" parent="menu_division" sequence="1"/>
         <menuitem action="action_zones" id="menu_zones" name="Zonas" parent="menu_division" sequence="2"/>
         <menuitem action="action_res_country_state" id="menu_res_contry_state" name="Estados" parent="menu_division" sequence="3"/>
         <menuitem action="action_canton" id="menu_canton" name="Cantón/Ciudades" parent="menu_division" sequence="4"/> 
         <menuitem action="action_parish" id="menu_parish" name="Parroquias" parent="menu_division" sequence="5"/>
+
+
+	<menuitem action="action_family_relationship" id="menu_family" name="Parentesco Familiar" parent="menu_configuration" sequence="5"/>
+	<menuitem action="action_family_burden" id="menu_family_burder" name="Carga Familiar" parent="menu_configuration"/>
+	<menuitem action="action_type_disability" id="menu_type_disability" name="Tipo de Discapacidad" parent="menu_configuration"/>
 
         <menuitem action="action_estado_civil" id="menu_ingreso_estado" name="Estado Civil" parent="menu_configuration" sequence="2"/>
         <menuitem action="action_nationality" id="menu_ingreso_nationality" name="Nacionalidad" parent="menu_configuration" sequence="6"/>

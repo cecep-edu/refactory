@@ -61,11 +61,11 @@ class gender(osv.osv):
     }
     _order = "name"
     _sql_constraints = [('name_uniq', 'unique(name)', _(u'Ya existe un genero con el mismo nombre'))]
-    def _no_numbers(self, cr, uid, ids):
+    def _alphabetical(self, cr, uid, ids):
         for bloody_type in self.browse(cr, uid, ids):
             if not (re.search("[a-z, A-Z]", bloody_type.name)): return False
         return True 
-    _constraints = [(_no_numbers, _(u"El Tipo de dato es invalido."), ['name'])]
+    _constraints = [(_alphabetical, _(u"El Tipo de dato es invalido."), ['name'])]
    
             
 class zones(osv.osv):
@@ -152,22 +152,47 @@ class estado_civil(osv.osv):
     }
 
 
-#CLASE FAMILIAR
-class gender(osv.osv):    
-    _name="family_burden"
-    _description="Carga familiar"
-    _order = "name"        
-    _columns={
-		"name" : fields.char("Nombre",size=10,required=True),
-		"description" : fields.text("Descripcion"),
-    }
+#PARENTESCO FAMILIAR
+class family_relationship(osv.osv):    
+    _name = "family.relationship"
+    _description = "Parentesco Familiar"       
     _order = "name"
-    _sql_constraints = [('name_uniq', 'unique(name)', _(u'Ya existe un genero con el mismo nombre'))]
-    def _no_numbers(self, cr, uid, ids):
+    _sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un parentesco con el mismo nombre'))]
+    _columns={
+            "name": fields.char("Nombre", size=12, required=True),
+            "description": fields.text("Descripcion"),
+    }
+    def _alphabetical(self, cr, uid, ids):
         for bloody_type in self.browse(cr, uid, ids):
             if not (re.search("[a-z, A-Z]", bloody_type.name)): return False
         return True 
-    _constraints = [(_no_numbers, _(u"El Tipo de dato es invalido."), ['name'])]
+
+    _constraints = [(_alphabetical, _(u"El Tipo de dato es invalido."), ['name'])]
+
+#CARGA FAMILIAR
+class family_burden(osv.osv):    
+    _name = "family.burden"
+    _description = "Carga Familiar"       
+    _order = "lastName"
+    #_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un parentesco con el mismo nombre'))]
+    _columns={
+            "name": fields.char("Nombre", size=12, required=True),
+	    "lastName": fields.char("Apellido", size=12, required=True),
+            "typeId": fields.many2one("identification.type", "Tipo de identificacion"),
+            "numberId": fields.char("Nro Identificacion", size=15, required=True),
+            "typeRelFamily": fields.many2one("family.relationship","Tipo de Relacion"),
+            "dateBirth": fields.date("Fecha nacimiento", required=True),
+            "phone": fields.char("Telefono", size=10, requiered=True),
+            "movil": fields.char("Celular", size=10, requiered=True),            
+            "checkContactSos": fields.boolean("Contacto emergencia", requiered=True),
+    }
+    _defaults = {
+        "checkContactSos": False,
+        }
+   
+#"instruction": fields.many2one("instruction", "Instruccion"),
+
+#    _constraints = [(_no_numbers, _(u"El Tipo de dato es invalido."), ['name'])]
 
 class nationality(osv.osv):
 	_name = "nationality"
@@ -243,5 +268,23 @@ class bank_info(osv.osv):
         for bank_info in self.browse(cr, uid, ids):
             if re.search("[^0-9]", bank_info.number): return False
         return True 
-    _constraints = [(_no_char, _(u'Debe contener solo números.'), ['Numero'])]
+
+    _constraints = [(_no_char, _(u"Debe contener solo números."), ['Numero'])]
+
+#TIPO DE DISCAPACIDAD
+class type_disability(osv.osv):    
+    _name = "type.disability"
+    _description = "Tipo de Discapacidad"       
+    _order = "name"
+    _sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un tipo de discapacidad con el mismo nombre'))]
+    _columns={
+            "name": fields.char("Nombre", size=30, required=True),
+            "description": fields.text("Descripcion"),
+    }
+    def _alphabetical(self, cr, uid, ids):
+        for bloody_type in self.browse(cr, uid, ids):
+            if not (re.search("[a-z, A-Z]", bloody_type.name)): return False
+        return True 
+
+    _constraints = [(_alphabetical, _(u"El Tipo de dato es invalido."), ['name'])]
 
