@@ -47,7 +47,7 @@
         </record>
         <!-- Ingreso de Estados  -->
         <record id="action_res_country_state" model="ir.actions.act_window">
-            <field name="name">Estados</field>
+            <field name="name">Estados/Provincias</field>
             <field name="res_model">res.country.state</field>
             <field name="view_type">form</field>
             <field name="view_id" ref="base.view_country_state_tree"/>

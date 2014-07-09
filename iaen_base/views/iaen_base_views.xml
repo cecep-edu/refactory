@@ -168,8 +168,8 @@
 			<field name="arch" type="xml">
 				<tree string="Cantones">
 					<field name="name"/>
-					<field name="country_id"/>
-					<field name="description"/>
+					<field name="country_state_id"/>
+					
 				</tree>
 			</field>
 		</record>
@@ -181,9 +181,8 @@
 				<form string="Cantones">
 					<field name="name"/>
 					<newline/>
-					<field name="country_id"/>
-					<newline/>
-					<field name="description"/>
+					<field name="country_state_id"/>
+					
 				</form>
 			</field>
 		</record>
