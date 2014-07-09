@@ -26,6 +26,8 @@
 					<notebook colspan="4">
 						<page string="Datos Generales">
 							<group col="4" string="Información Personal">
+								<field colspan="4" name="picture" widget="image" width="64" height="64"/>
+								<separator colspan="4"/>
 								<field name="partner_id"/>
 								<field name="estado_civil_id"/>
 								<field name="gender_id"/>

@@ -32,6 +32,7 @@ class curriculum(osv.osv):
 	_name = "curriculum"
 	_description = "Registra la Hoja de Vida de los usuarios"
 	_columns = {
+		"picture": fields.binary("Foto"),
 		"partner_id": fields.many2one("res.partner", u"Usuario", required=True),
 		"estado_civil_id": fields.many2one("estado.civil", u"Estado Civil", required=True),
 		"gender_id": fields.many2one("gender", u"Género", required=True),
