@@ -2,6 +2,7 @@
 
 <openerp>
     <data>
-		<menuitem action="action_curriculum" id="menu_curriculum" name="Hoja de Vida" parent="menu_iaen"/>
+		<menuitem id="menu_curriculum" name="Hoja de Vida" parent="iaen_base.menu_iaen"/>
+		<menuitem action="action_curriculum" id="menu_curriculum_crud" name="Ingresar" parent="menu_curriculum"/>
 	</data>
 </openerp>

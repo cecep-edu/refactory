@@ -31,15 +31,16 @@ import re
 class curriculum(osv.osv):
 	_name = "curriculum"
 	_description = "Registra la Hoja de Vida de los usuarios"
-	_order = ""
 	_columns = {
-		"estado_civil_id": fields.many2one("estado_civil", u"Estado Civil", required=True),
+		"user_id": fields.many2one("res.users", u"Usuario", required=True),
+		"estado_civil_id": fields.many2one("estado.civil", u"Estado Civil", required=True),
 		"gender_id": fields.many2one("gender", u"Género", required=True),
 		"blood_type_id": fields.many2one("blood.type", u"Tipo de Sangre", required=True),
 		"country_id": fields.many2one("res.country", u"País de Nacimiento", required=True),
 		"birth_city_id": fields.many2one("canton", u"Ciudad de Nacimiento", required=True),
 		"residence_city_id": fields.many2one("canton", u"Ciudad de Residencia", required=True),
 		"identification_type_id": fields.many2one("identification.type", u"Tipo de Identificación", required=True),
+		"identification_number": fields.char("Número de Identificación", size=13, required=True),
 		"nationality_id": fields.many2one("nationality", u"Nacionalidad", required=True),
 		"home_phone": fields.char("Teléfono Domicilio", size=15, required=True),
 		"mobile_phone": fields.char("Teléfono Móvil", size=15, required=True),
@@ -48,10 +49,16 @@ class curriculum(osv.osv):
 		"house_number": fields.char("Número de Casa", size=7, required=False),
 		"location_reference": fields.text(u"Referencia de Ubicación"),
 		"disability": fields.boolean("Discapacidad"),
-		"disability_id": fields.many2one("disability", "Tipo de Discapacidad", required=True),
-		"disability_degree": fields.char("Grado de Discapacidad", size=150, required=False),
-		"conadis_number": fields.char("Número del Carnet del CONADIS.", size=10, required=False),
-		"ethnic_group_id": fields.many2one("ethnic_group", u"Grupo Étnico", required=True),
+		"disability_id": fields.many2one("type.disability", "Tipo de Discapacidad", required=True), 
+		"disability_degree": fields.char("Grado de Discapacidad", size=150, required=True), 
+		"conadis_number": fields.char("Número del Carnet del CONADIS.", size=10, require=True),
+		"ethnic_group_id": fields.many2one("ethnic.group", u"Grupo Étnico", required=True),
 		"family_burden": fields.char("Carga Familiar"),
 		"bank_info_id": fields.many2one("bank.info", "Información Bancaria", required=False)
 	}
+	def _only_numbers(self, cr, uid, ids):
+		for curriculum in self.browse(cr, uid, ids):
+			if not (re.search("^-?[0-9]+$", curriculum.identification_number)): return False
+		return True 
+
+	_constraints = [(_only_numbers, u"El Número de Identificación debe contener sólo digitos.", ['identification_number'])]
