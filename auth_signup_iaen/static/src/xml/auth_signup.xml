@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- vim:fdl=1:
+-->
+<templates id="template" xml:space="preserve">
+
+    <t t-extend="Login">
+    <t t-jquery="form ul:first li:contains('Username')" t-operation="replace">
+            <li data-modes="default">Usuario</li>
+            <li data-modes="signup">Usuario Nuevo</li>
+            <li data-modes="reset">Usuario</li>
+        </t>
+        <t t-jquery="form ul:first li:contains('Nuevo')" t-operation="before">
+            <li data-modes="signup">Correo Electrónico</li>
+            <li data-modes="signup"><input name="email" type="text"/></li>
+        </t>
+
+        <t t-jquery=".oe_login_manage_db">
+            this.attr('data-modes', 'default');
+        </t>
+    </t>
+
+</templates>
