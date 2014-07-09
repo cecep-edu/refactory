@@ -32,7 +32,7 @@ class curriculum(osv.osv):
 	_name = "curriculum"
 	_description = "Registra la Hoja de Vida de los usuarios"
 	_columns = {
-		"user_id": fields.many2one("res.users", u"Usuario", required=True),
+		"partner_id": fields.many2one("res.partner", u"Usuario", required=True),
 		"estado_civil_id": fields.many2one("estado.civil", u"Estado Civil", required=True),
 		"gender_id": fields.many2one("gender", u"Género", required=True),
 		"blood_type_id": fields.many2one("blood.type", u"Tipo de Sangre", required=True),
@@ -53,8 +53,8 @@ class curriculum(osv.osv):
 		"disability_degree": fields.char("Grado de Discapacidad", size=150, required=True), 
 		"conadis_number": fields.char("Número del Carnet del CONADIS.", size=10, require=True),
 		"ethnic_group_id": fields.many2one("ethnic.group", u"Grupo Étnico", required=True),
-		"family_burden": fields.char("Carga Familiar"),
-		"bank_info_id": fields.many2one("bank.info", "Información Bancaria", required=False)
+		"family_burden_ids": fields.one2many("family.burden", "curriculum_id", 'Carga Familiar', required=False),
+		"bank_info_ids": fields.one2many("bank.info", "curriculum_id", "Información Bancaria", required=False)
 	}
 	def _only_numbers(self, cr, uid, ids):
 		for curriculum in self.browse(cr, uid, ids):
@@ -62,3 +62,43 @@ class curriculum(osv.osv):
 		return True 
 
 	_constraints = [(_only_numbers, u"El Número de Identificación debe contener sólo digitos.", ['identification_number'])]
+
+
+class bank_info(osv.osv):
+    """Clase de la informacion bancaria de los usuarios"""
+    _name="bank.info"
+    _description="Informacion bancaria"
+    _order="id_entity_finance"
+    _sql_constraints = [('name_unique', 'unique(number)', _(u'Ya existe una cuenta con ese numero'))]
+    _columns={
+            "id_entity_finance": fields.many2one("entity.finance","Entidad Financiera",required=True),
+            "id_bank_account": fields.many2one("bank.account.type","Tipo de Cuenta",required=True),
+            "number" : fields.char("Número",size=15,required=True),
+			"curriculum_id": fields.many2one("curriculum")
+    }
+    def _no_char(self, cr, uid, ids):
+        for bank_info in self.browse(cr, uid, ids):
+            if re.search("[^0-9]", bank_info.number): return False
+        return True 
+
+    _constraints = [(_no_char, _(u"Debe contener solo números."), ['Numero'])]
+
+class family_burden(osv.osv):    
+    _name = "family.burden"
+    _description = "Carga Familiar"       
+    _order = "lastName"
+    _columns={
+            "name": fields.char("Nombre", size=12, required=True),
+			"lastName": fields.char("Apellido", size=12, required=True),
+            "typeId": fields.many2one("identification.type", "Tipo de identificacion"),
+            "numberId": fields.char("Nro Identificacion", size=15, required=True),
+            "typeRelFamily": fields.many2one("family.relationship","Tipo de Relacion"),
+            "dateBirth": fields.date("Fecha nacimiento", required=True),
+            "phone": fields.char("Telefono", size=10, requiered=True),
+            "movil": fields.char("Celular", size=10, requiered=True),            
+            "checkContactSos": fields.boolean("Contacto emergencia", requiered=True),
+			"curriculum_id": fields.many2one("curriculum")
+    }
+    _defaults = {
+        "checkContactSos": False,
+        }
