@@ -105,8 +105,7 @@ class canton(osv.osv):
     _order = "name"
     _columns = {
         "name": fields.char("Ciudad/Cantón", size=15, required=True),
-        "country_id": fields.many2one("res.country.state","Provincia",required=True),
-        "description": fields.text("Descripción"),
+        "country_state_id": fields.many2one("res.country.state","Provincia",required=True),
     }
 
 #class city(osv.osv):

@@ -1,0 +1,6221 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<openerp>
+<data noupdate="1">
+<record model="parish" id="1">
+<field name="name">Ponce Enríquez</field>
+<field name="canton_id" ref="1"></field>
+</record>
+
+<record model="parish" id="2">
+<field name="name">La Unión</field>
+<field name="canton_id" ref="2"></field>
+</record>
+
+<record model="parish" id="3">
+<field name="name">Principal</field>
+<field name="canton_id" ref="2"></field>
+</record>
+
+<record model="parish" id="4">
+<field name="name">Luis Galarza Orellana</field>
+<field name="canton_id" ref="2"></field>
+</record>
+
+<record model="parish" id="5">
+<field name="name">San Martín de Puzhío</field>
+<field name="canton_id" ref="2"></field>
+</record>
+
+<record model="parish" id="6">
+<field name="name">Chordeleg</field>
+<field name="canton_id" ref="2"></field>
+</record>
+
+<record model="parish" id="7">
+<field name="name">Baños</field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="8">
+<field name="name">Chaucha</field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="9">
+<field name="name">Checa</field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="10">
+<field name="name">Chiquintad</field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="11">
+<field name="name">Cumbe</field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="12">
+<field name="name">Llacao</field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="13">
+<field name="name">Molleturo</field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="14">
+<field name="name">Nulti</field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="15">
+<field name="name">Octavio Cordero</field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="16">
+<field name="name">Paccha</field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="17">
+<field name="name">Quingeo</field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="18">
+<field name="name">Ricaurte</field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="19">
+<field name="name">San Joaquín</field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="20">
+<field name="name">Santa Ana</field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="21">
+<field name="name">Sayausí</field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="22">
+<field name="name">Sidcay</field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="23">
+<field name="name">Sinincay</field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="24">
+<field name="name">Tarqui</field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="25">
+<field name="name">Turi</field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="26">
+<field name="name">El Valle</field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="27">
+<field name="name">Victoria del Portete</field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="28">
+<field name="name">Bellavista</field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="29">
+<field name="name">Cañaribamba</field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="30">
+<field name="name">El Batán</field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="31">
+<field name="name">El Sagrario </field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="32">
+<field name="name">El Vecino</field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="33">
+<field name="name">Gil Ramírez Dávalos</field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="34">
+<field name="name">Hermano Miguel</field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="35">
+<field name="name">Huaynacápac</field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="36">
+<field name="name">Machángara</field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="37">
+<field name="name">Monay</field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="38">
+<field name="name">San Blas</field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="39">
+<field name="name">San Sebastián</field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="40">
+<field name="name">Sucre</field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="41">
+<field name="name">Totoracocha</field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="42">
+<field name="name">Yanuncay</field>
+<field name="canton_id" ref="3"></field>
+</record>
+
+<record model="parish" id="43">
+<field name="name">San Vicente</field>
+<field name="canton_id" ref="4"></field>
+</record>
+
+<record model="parish" id="44">
+<field name="name">El Pan</field>
+<field name="canton_id" ref="4"></field>
+</record>
+
+<record model="parish" id="45">
+<field name="name">Asunción</field>
+<field name="canton_id" ref="5"></field>
+</record>
+
+<record model="parish" id="46">
+<field name="name">San Gerardo</field>
+<field name="canton_id" ref="5"></field>
+</record>
+
+<record model="parish" id="47">
+<field name="name">Girón</field>
+<field name="canton_id" ref="5"></field>
+</record>
+
+<record model="parish" id="48">
+<field name="name">Guachapala</field>
+<field name="canton_id" ref="6"></field>
+</record>
+
+<record model="parish" id="49">
+<field name="name">Jadán</field>
+<field name="canton_id" ref="7"></field>
+</record>
+
+<record model="parish" id="50">
+<field name="name">Luis Cordero</field>
+<field name="canton_id" ref="7"></field>
+</record>
+
+<record model="parish" id="51">
+<field name="name">Zhidmad</field>
+<field name="canton_id" ref="7"></field>
+</record>
+
+<record model="parish" id="52">
+<field name="name">San Juan</field>
+<field name="canton_id" ref="7"></field>
+</record>
+
+<record model="parish" id="53">
+<field name="name">Remigio Crespo Toral</field>
+<field name="canton_id" ref="7"></field>
+</record>
+
+<record model="parish" id="54">
+<field name="name">Callasay</field>
+<field name="canton_id" ref="7"></field>
+</record>
+
+<record model="parish" id="55">
+<field name="name">Daniel Córdova</field>
+<field name="canton_id" ref="7"></field>
+</record>
+
+<record model="parish" id="56">
+<field name="name">Mariano Moreno</field>
+<field name="canton_id" ref="7"></field>
+</record>
+
+<record model="parish" id="57">
+<field name="name">Simón Bolívar</field>
+<field name="canton_id" ref="7"></field>
+</record>
+
+<record model="parish" id="58">
+<field name="name">Gualaceo</field>
+<field name="canton_id" ref="7"></field>
+</record>
+
+<record model="parish" id="59">
+<field name="name">Cochapata</field>
+<field name="canton_id" ref="8"></field>
+</record>
+
+<record model="parish" id="60">
+<field name="name">Las Nieves</field>
+<field name="canton_id" ref="8"></field>
+</record>
+
+<record model="parish" id="61">
+<field name="name">El Progreso</field>
+<field name="canton_id" ref="8"></field>
+</record>
+
+<record model="parish" id="62">
+<field name="name">Nabón</field>
+<field name="canton_id" ref="8"></field>
+</record>
+
+<record model="parish" id="63">
+<field name="name">Susudel</field>
+<field name="canton_id" ref="9"></field>
+</record>
+
+<record model="parish" id="64">
+<field name="name">Oña</field>
+<field name="canton_id" ref="9"></field>
+</record>
+
+<record model="parish" id="65">
+<field name="name">San Cristóbal</field>
+<field name="canton_id" ref="10"></field>
+</record>
+
+<record model="parish" id="66">
+<field name="name">Bulán</field>
+<field name="canton_id" ref="10"></field>
+</record>
+
+<record model="parish" id="67">
+<field name="name">El Cabo</field>
+<field name="canton_id" ref="10"></field>
+</record>
+
+<record model="parish" id="68">
+<field name="name">Dugdug</field>
+<field name="canton_id" ref="10"></field>
+</record>
+
+<record model="parish" id="69">
+<field name="name">Chicán</field>
+<field name="canton_id" ref="10"></field>
+</record>
+
+<record model="parish" id="70">
+<field name="name">Guarainag</field>
+<field name="canton_id" ref="10"></field>
+</record>
+
+<record model="parish" id="71">
+<field name="name">Tomebamba</field>
+<field name="canton_id" ref="10"></field>
+</record>
+
+<record model="parish" id="72">
+<field name="name">Paute</field>
+<field name="canton_id" ref="10"></field>
+</record>
+
+<record model="parish" id="73">
+<field name="name">San Rafael de Sharug</field>
+<field name="canton_id" ref="11"></field>
+</record>
+
+<record model="parish" id="74">
+<field name="name">Pucará</field>
+<field name="canton_id" ref="11"></field>
+</record>
+
+<record model="parish" id="75">
+<field name="name">Chumblín</field>
+<field name="canton_id" ref="12"></field>
+</record>
+
+<record model="parish" id="76">
+<field name="name">San Fernando</field>
+<field name="canton_id" ref="12"></field>
+</record>
+
+<record model="parish" id="77">
+<field name="name">Abdón Calderón</field>
+<field name="canton_id" ref="13"></field>
+</record>
+
+<record model="parish" id="78">
+<field name="name">Shaglli</field>
+<field name="canton_id" ref="13"></field>
+</record>
+
+<record model="parish" id="79">
+<field name="name">Pijilí</field>
+<field name="canton_id" ref="13"></field>
+</record>
+
+<record model="parish" id="80">
+<field name="name">Santa Isabel</field>
+<field name="canton_id" ref="13"></field>
+</record>
+
+<record model="parish" id="81">
+<field name="name">Amaluza</field>
+<field name="canton_id" ref="14"></field>
+</record>
+
+<record model="parish" id="82">
+<field name="name">Palmas</field>
+<field name="canton_id" ref="14"></field>
+</record>
+
+<record model="parish" id="83">
+<field name="name">Sevilla de Oro</field>
+<field name="canton_id" ref="14"></field>
+</record>
+
+<record model="parish" id="84">
+<field name="name">Cuchil</field>
+<field name="canton_id" ref="15"></field>
+</record>
+
+<record model="parish" id="85">
+<field name="name">Jima</field>
+<field name="canton_id" ref="15"></field>
+</record>
+
+<record model="parish" id="86">
+<field name="name">Guel</field>
+<field name="canton_id" ref="15"></field>
+</record>
+
+<record model="parish" id="87">
+<field name="name">Ludo</field>
+<field name="canton_id" ref="15"></field>
+</record>
+
+<record model="parish" id="88">
+<field name="name">San Bartolomé</field>
+<field name="canton_id" ref="15"></field>
+</record>
+
+<record model="parish" id="89">
+<field name="name">San José de Raranga</field>
+<field name="canton_id" ref="15"></field>
+</record>
+
+<record model="parish" id="90">
+<field name="name">Sigsig</field>
+<field name="canton_id" ref="15"></field>
+</record>
+
+<record model="parish" id="91">
+<field name="name">Caluma</field>
+<field name="canton_id" ref="16"></field>
+</record>
+
+<record model="parish" id="92">
+<field name="name">San José del Tambo</field>
+<field name="canton_id" ref="17"></field>
+</record>
+
+<record model="parish" id="93">
+<field name="name">Chilanes</field>
+<field name="canton_id" ref="17"></field>
+</record>
+
+<record model="parish" id="94">
+<field name="name">Asunción</field>
+<field name="canton_id" ref="18"></field>
+</record>
+
+<record model="parish" id="95">
+<field name="name">Magdalena</field>
+<field name="canton_id" ref="18"></field>
+</record>
+
+<record model="parish" id="96">
+<field name="name">San Sebastián</field>
+<field name="canton_id" ref="18"></field>
+</record>
+
+<record model="parish" id="97">
+<field name="name">Telimbela</field>
+<field name="canton_id" ref="18"></field>
+</record>
+
+<record model="parish" id="98">
+<field name="name">San José de Chimbo</field>
+<field name="canton_id" ref="18"></field>
+</record>
+
+<record model="parish" id="99">
+<field name="name">Echéandia</field>
+<field name="canton_id" ref="19"></field>
+</record>
+
+<record model="parish" id="100">
+<field name="name">Facundo Vela</field>
+<field name="canton_id" ref="20"></field>
+</record>
+
+<record model="parish" id="101">
+<field name="name">Julio E. Moreno</field>
+<field name="canton_id" ref="20"></field>
+</record>
+
+<record model="parish" id="102">
+<field name="name">Salinas</field>
+<field name="canton_id" ref="20"></field>
+</record>
+
+<record model="parish" id="103">
+<field name="name">San Lorenzo</field>
+<field name="canton_id" ref="20"></field>
+</record>
+
+<record model="parish" id="104">
+<field name="name">San Luis de Pambil</field>
+<field name="canton_id" ref="20"></field>
+</record>
+
+<record model="parish" id="105">
+<field name="name">San Simón</field>
+<field name="canton_id" ref="20"></field>
+</record>
+
+<record model="parish" id="106">
+<field name="name">Santa Fe</field>
+<field name="canton_id" ref="20"></field>
+</record>
+
+<record model="parish" id="107">
+<field name="name">Simiátug</field>
+<field name="canton_id" ref="20"></field>
+</record>
+
+<record model="parish" id="108">
+<field name="name">Ángel Polibio Chávez</field>
+<field name="canton_id" ref="20"></field>
+</record>
+
+<record model="parish" id="109">
+<field name="name">Ignacio Veintimilla</field>
+<field name="canton_id" ref="20"></field>
+</record>
+
+<record model="parish" id="110">
+<field name="name">Guanujo</field>
+<field name="canton_id" ref="20"></field>
+</record>
+
+<record model="parish" id="111">
+<field name="name">Las Mercedes</field>
+<field name="canton_id" ref="21"></field>
+</record>
+
+<record model="parish" id="112">
+<field name="name">Las Naves</field>
+<field name="canton_id" ref="21"></field>
+</record>
+
+<record model="parish" id="113">
+<field name="name">Balsapamba</field>
+<field name="canton_id" ref="22"></field>
+</record>
+
+<record model="parish" id="114">
+<field name="name">Biolován</field>
+<field name="canton_id" ref="22"></field>
+</record>
+
+<record model="parish" id="115">
+<field name="name">Régulo de Mora</field>
+<field name="canton_id" ref="22"></field>
+</record>
+
+<record model="parish" id="116">
+<field name="name">San Pablo de Atenas</field>
+<field name="canton_id" ref="22"></field>
+</record>
+
+<record model="parish" id="117">
+<field name="name">San Vicente</field>
+<field name="canton_id" ref="22"></field>
+</record>
+
+<record model="parish" id="118">
+<field name="name">Santiago</field>
+<field name="canton_id" ref="22"></field>
+</record>
+
+<record model="parish" id="119">
+<field name="name">San Miguel</field>
+<field name="canton_id" ref="22"></field>
+</record>
+
+<record model="parish" id="120">
+<field name="name">Cojitambo</field>
+<field name="canton_id" ref="23"></field>
+</record>
+
+<record model="parish" id="121">
+<field name="name">Guapán</field>
+<field name="canton_id" ref="23"></field>
+</record>
+
+<record model="parish" id="122">
+<field name="name">Javier Loyola</field>
+<field name="canton_id" ref="23"></field>
+</record>
+
+<record model="parish" id="123">
+<field name="name">Luis Cordero</field>
+<field name="canton_id" ref="23"></field>
+</record>
+
+<record model="parish" id="124">
+<field name="name">Pindilig</field>
+<field name="canton_id" ref="23"></field>
+</record>
+
+<record model="parish" id="125">
+<field name="name">Rivera</field>
+<field name="canton_id" ref="23"></field>
+</record>
+
+<record model="parish" id="126">
+<field name="name">San Miguel</field>
+<field name="canton_id" ref="23"></field>
+</record>
+
+<record model="parish" id="127">
+<field name="name">Taday</field>
+<field name="canton_id" ref="23"></field>
+</record>
+
+<record model="parish" id="128">
+<field name="name">Aurelio Bayas</field>
+<field name="canton_id" ref="23"></field>
+</record>
+
+<record model="parish" id="129">
+<field name="name">Azogues</field>
+<field name="canton_id" ref="23"></field>
+</record>
+
+<record model="parish" id="130">
+<field name="name">Borrero</field>
+<field name="canton_id" ref="23"></field>
+</record>
+
+<record model="parish" id="131">
+<field name="name">San Francisco</field>
+<field name="canton_id" ref="23"></field>
+</record>
+
+<record model="parish" id="132">
+<field name="name">Jerusalén</field>
+<field name="canton_id" ref="24"></field>
+</record>
+
+<record model="parish" id="133">
+<field name="name">Nazón</field>
+<field name="canton_id" ref="24"></field>
+</record>
+
+<record model="parish" id="134">
+<field name="name">San Francisco de Sageo</field>
+<field name="canton_id" ref="24"></field>
+</record>
+
+<record model="parish" id="135">
+<field name="name">Turupamba</field>
+<field name="canton_id" ref="24"></field>
+</record>
+
+<record model="parish" id="136">
+<field name="name">Biblián</field>
+<field name="canton_id" ref="24"></field>
+</record>
+
+<record model="parish" id="137">
+<field name="name">Chontamarca</field>
+<field name="canton_id" ref="25"></field>
+</record>
+
+<record model="parish" id="138">
+<field name="name">Chorocopte</field>
+<field name="canton_id" ref="25"></field>
+</record>
+
+<record model="parish" id="139">
+<field name="name">Ducur</field>
+<field name="canton_id" ref="25"></field>
+</record>
+
+<record model="parish" id="140">
+<field name="name">General Morales</field>
+<field name="canton_id" ref="25"></field>
+</record>
+
+<record model="parish" id="141">
+<field name="name">Gualleturo</field>
+<field name="canton_id" ref="25"></field>
+</record>
+
+<record model="parish" id="142">
+<field name="name">Honorato Vásquez</field>
+<field name="canton_id" ref="25"></field>
+</record>
+
+<record model="parish" id="143">
+<field name="name">Ingapirca</field>
+<field name="canton_id" ref="25"></field>
+</record>
+
+<record model="parish" id="144">
+<field name="name">Juncal</field>
+<field name="canton_id" ref="25"></field>
+</record>
+
+<record model="parish" id="145">
+<field name="name">San Antonio</field>
+<field name="canton_id" ref="25"></field>
+</record>
+
+<record model="parish" id="146">
+<field name="name">Ventura</field>
+<field name="canton_id" ref="25"></field>
+</record>
+
+<record model="parish" id="147">
+<field name="name">Zhud</field>
+<field name="canton_id" ref="25"></field>
+</record>
+
+<record model="parish" id="148">
+<field name="name">Cañar</field>
+<field name="canton_id" ref="25"></field>
+</record>
+
+<record model="parish" id="149">
+<field name="name">Solano</field>
+<field name="canton_id" ref="26"></field>
+</record>
+
+<record model="parish" id="150">
+<field name="name">Déleg</field>
+<field name="canton_id" ref="26"></field>
+</record>
+
+<record model="parish" id="151">
+<field name="name">El Tambo</field>
+<field name="canton_id" ref="27"></field>
+</record>
+
+<record model="parish" id="152">
+<field name="name">Manuel J. Calle</field>
+<field name="canton_id" ref="28"></field>
+</record>
+
+<record model="parish" id="153">
+<field name="name">Pancho Negro</field>
+<field name="canton_id" ref="28"></field>
+</record>
+
+<record model="parish" id="154">
+<field name="name">La Troncal</field>
+<field name="canton_id" ref="28"></field>
+</record>
+
+<record model="parish" id="155">
+<field name="name">Suscal</field>
+<field name="canton_id" ref="29"></field>
+</record>
+
+<record model="parish" id="156">
+<field name="name">García Moreno</field>
+<field name="canton_id" ref="30"></field>
+</record>
+
+<record model="parish" id="157">
+<field name="name">Los Andes</field>
+<field name="canton_id" ref="30"></field>
+</record>
+
+<record model="parish" id="158">
+<field name="name">Monte Olivo</field>
+<field name="canton_id" ref="30"></field>
+</record>
+
+<record model="parish" id="159">
+<field name="name">San Rafael</field>
+<field name="canton_id" ref="30"></field>
+</record>
+
+<record model="parish" id="160">
+<field name="name">San Vicente de Pusir</field>
+<field name="canton_id" ref="30"></field>
+</record>
+
+<record model="parish" id="161">
+<field name="name">Bolívar</field>
+<field name="canton_id" ref="30"></field>
+</record>
+
+<record model="parish" id="162">
+<field name="name">El Goaltal</field>
+<field name="canton_id" ref="31"></field>
+</record>
+
+<record model="parish" id="163">
+<field name="name">La Libertad</field>
+<field name="canton_id" ref="31"></field>
+</record>
+
+<record model="parish" id="164">
+<field name="name">San Isidro</field>
+<field name="canton_id" ref="31"></field>
+</record>
+
+<record model="parish" id="165">
+<field name="name">El Ángel</field>
+<field name="canton_id" ref="31"></field>
+</record>
+
+<record model="parish" id="166">
+<field name="name">27 de Septiembre</field>
+<field name="canton_id" ref="31"></field>
+</record>
+
+<record model="parish" id="167">
+<field name="name">La Concepción</field>
+<field name="canton_id" ref="32"></field>
+</record>
+
+<record model="parish" id="168">
+<field name="name">Jijón y Caamaño</field>
+<field name="canton_id" ref="32"></field>
+</record>
+
+<record model="parish" id="169">
+<field name="name">Juan Montalvo</field>
+<field name="canton_id" ref="32"></field>
+</record>
+
+<record model="parish" id="170">
+<field name="name">Mira</field>
+<field name="canton_id" ref="32"></field>
+</record>
+
+<record model="parish" id="171">
+<field name="name">Chitán de Navarrete</field>
+<field name="canton_id" ref="33"></field>
+</record>
+
+<record model="parish" id="172">
+<field name="name">Cristóbal Colón</field>
+<field name="canton_id" ref="33"></field>
+</record>
+
+<record model="parish" id="173">
+<field name="name">Fernández Salvador</field>
+<field name="canton_id" ref="33"></field>
+</record>
+
+<record model="parish" id="174">
+<field name="name">La Paz</field>
+<field name="canton_id" ref="33"></field>
+</record>
+
+<record model="parish" id="175">
+<field name="name">Piartal</field>
+<field name="canton_id" ref="33"></field>
+</record>
+
+<record model="parish" id="176">
+<field name="name">González Suárez</field>
+<field name="canton_id" ref="33"></field>
+</record>
+
+<record model="parish" id="177">
+<field name="name">San José </field>
+<field name="canton_id" ref="33"></field>
+</record>
+
+<record model="parish" id="178">
+<field name="name">San Gabriel</field>
+<field name="canton_id" ref="33"></field>
+</record>
+
+<record model="parish" id="179">
+<field name="name">Mariscal Sucre</field>
+<field name="canton_id" ref="34"></field>
+</record>
+
+<record model="parish" id="180">
+<field name="name">Huaca</field>
+<field name="canton_id" ref="34"></field>
+</record>
+
+<record model="parish" id="181">
+<field name="name">El Carmelo</field>
+<field name="canton_id" ref="35"></field>
+</record>
+
+<record model="parish" id="182">
+<field name="name">El Chical</field>
+<field name="canton_id" ref="35"></field>
+</record>
+
+<record model="parish" id="183">
+<field name="name">Maldonado</field>
+<field name="canton_id" ref="35"></field>
+</record>
+
+<record model="parish" id="184">
+<field name="name">Pioter</field>
+<field name="canton_id" ref="35"></field>
+</record>
+
+<record model="parish" id="185">
+<field name="name">Santa Martha</field>
+<field name="canton_id" ref="35"></field>
+</record>
+
+<record model="parish" id="186">
+<field name="name">Tobar Donoso</field>
+<field name="canton_id" ref="35"></field>
+</record>
+
+<record model="parish" id="187">
+<field name="name">Tufiño</field>
+<field name="canton_id" ref="35"></field>
+</record>
+
+<record model="parish" id="188">
+<field name="name">Urbina</field>
+<field name="canton_id" ref="35"></field>
+</record>
+
+<record model="parish" id="189">
+<field name="name">Julio Andrade</field>
+<field name="canton_id" ref="35"></field>
+</record>
+
+<record model="parish" id="190">
+<field name="name">Gonzalez Suárez</field>
+<field name="canton_id" ref="35"></field>
+</record>
+
+<record model="parish" id="191">
+<field name="name">Tulcán</field>
+<field name="canton_id" ref="35"></field>
+</record>
+
+<record model="parish" id="192">
+<field name="name">Achupallas</field>
+<field name="canton_id" ref="36"></field>
+</record>
+
+<record model="parish" id="193">
+<field name="name">Guasuntos</field>
+<field name="canton_id" ref="36"></field>
+</record>
+
+<record model="parish" id="194">
+<field name="name">Huigra</field>
+<field name="canton_id" ref="36"></field>
+</record>
+
+<record model="parish" id="195">
+<field name="name">Multitud</field>
+<field name="canton_id" ref="36"></field>
+</record>
+
+<record model="parish" id="196">
+<field name="name">Pistishí</field>
+<field name="canton_id" ref="36"></field>
+</record>
+
+<record model="parish" id="197">
+<field name="name">Pumallacta</field>
+<field name="canton_id" ref="36"></field>
+</record>
+
+<record model="parish" id="198">
+<field name="name">Sevilla</field>
+<field name="canton_id" ref="36"></field>
+</record>
+
+<record model="parish" id="199">
+<field name="name">Sibambe</field>
+<field name="canton_id" ref="36"></field>
+</record>
+
+<record model="parish" id="200">
+<field name="name">Tixán</field>
+<field name="canton_id" ref="36"></field>
+</record>
+
+<record model="parish" id="201">
+<field name="name">Alausí</field>
+<field name="canton_id" ref="36"></field>
+</record>
+
+<record model="parish" id="202">
+<field name="name">Chambo</field>
+<field name="canton_id" ref="37"></field>
+</record>
+
+<record model="parish" id="203">
+<field name="name">Capzol</field>
+<field name="canton_id" ref="38"></field>
+</record>
+
+<record model="parish" id="204">
+<field name="name">Compud</field>
+<field name="canton_id" ref="38"></field>
+</record>
+
+<record model="parish" id="205">
+<field name="name">Gonzol</field>
+<field name="canton_id" ref="38"></field>
+</record>
+
+<record model="parish" id="206">
+<field name="name">Llagos</field>
+<field name="canton_id" ref="38"></field>
+</record>
+
+<record model="parish" id="207">
+<field name="name">Chunchi</field>
+<field name="canton_id" ref="38"></field>
+</record>
+
+<record model="parish" id="208">
+<field name="name">Cañi</field>
+<field name="canton_id" ref="39"></field>
+</record>
+
+<record model="parish" id="209">
+<field name="name">Columbe</field>
+<field name="canton_id" ref="39"></field>
+</record>
+
+<record model="parish" id="210">
+<field name="name">Juan de Velasco</field>
+<field name="canton_id" ref="39"></field>
+</record>
+
+<record model="parish" id="211">
+<field name="name">Santiago de Quito</field>
+<field name="canton_id" ref="39"></field>
+</record>
+
+<record model="parish" id="212">
+<field name="name">Villa la Unión</field>
+<field name="canton_id" ref="39"></field>
+</record>
+
+<record model="parish" id="213">
+<field name="name">Sicalpa</field>
+<field name="canton_id" ref="39"></field>
+</record>
+
+<record model="parish" id="214">
+<field name="name">Cumandá</field>
+<field name="canton_id" ref="40"></field>
+</record>
+
+<record model="parish" id="215">
+<field name="name">Cebadas</field>
+<field name="canton_id" ref="41"></field>
+</record>
+
+<record model="parish" id="216">
+<field name="name">Palmira</field>
+<field name="canton_id" ref="41"></field>
+</record>
+
+<record model="parish" id="217">
+<field name="name">Guamote</field>
+<field name="canton_id" ref="41"></field>
+</record>
+
+<record model="parish" id="218">
+<field name="name">San Isidro de Patulú</field>
+<field name="canton_id" ref="42"></field>
+</record>
+
+<record model="parish" id="219">
+<field name="name">Ilapo</field>
+<field name="canton_id" ref="42"></field>
+</record>
+
+<record model="parish" id="220">
+<field name="name">La Providencia</field>
+<field name="canton_id" ref="42"></field>
+</record>
+
+<record model="parish" id="221">
+<field name="name">San Gerardo de Pacaicaguán</field>
+<field name="canton_id" ref="42"></field>
+</record>
+
+<record model="parish" id="222">
+<field name="name">San Andrés</field>
+<field name="canton_id" ref="42"></field>
+</record>
+
+<record model="parish" id="223">
+<field name="name">San José del Chazo</field>
+<field name="canton_id" ref="42"></field>
+</record>
+
+<record model="parish" id="224">
+<field name="name">Santa Fe de Galán</field>
+<field name="canton_id" ref="42"></field>
+</record>
+
+<record model="parish" id="225">
+<field name="name">Valparaiso</field>
+<field name="canton_id" ref="42"></field>
+</record>
+
+<record model="parish" id="226">
+<field name="name">Guanando</field>
+<field name="canton_id" ref="42"></field>
+</record>
+
+<record model="parish" id="227">
+<field name="name">El Rosario</field>
+<field name="canton_id" ref="42"></field>
+</record>
+
+<record model="parish" id="228">
+<field name="name">La Matriz</field>
+<field name="canton_id" ref="42"></field>
+</record>
+
+<record model="parish" id="229">
+<field name="name">Pallatanga</field>
+<field name="canton_id" ref="43"></field>
+</record>
+
+<record model="parish" id="230">
+<field name="name">Bilbao</field>
+<field name="canton_id" ref="44"></field>
+</record>
+
+<record model="parish" id="231">
+<field name="name">El Altar</field>
+<field name="canton_id" ref="44"></field>
+</record>
+
+<record model="parish" id="232">
+<field name="name">La Candelaria</field>
+<field name="canton_id" ref="44"></field>
+</record>
+
+<record model="parish" id="233">
+<field name="name">Matus</field>
+<field name="canton_id" ref="44"></field>
+</record>
+
+<record model="parish" id="234">
+<field name="name">Puela</field>
+<field name="canton_id" ref="44"></field>
+</record>
+
+<record model="parish" id="235">
+<field name="name">Bayushig</field>
+<field name="canton_id" ref="44"></field>
+</record>
+
+<record model="parish" id="236">
+<field name="name">Penipe</field>
+<field name="canton_id" ref="44"></field>
+</record>
+
+<record model="parish" id="237">
+<field name="name">Cacha</field>
+<field name="canton_id" ref="45"></field>
+</record>
+
+<record model="parish" id="238">
+<field name="name">Calpi</field>
+<field name="canton_id" ref="45"></field>
+</record>
+
+<record model="parish" id="239">
+<field name="name">Cubijíes</field>
+<field name="canton_id" ref="45"></field>
+</record>
+
+<record model="parish" id="240">
+<field name="name">Flores</field>
+<field name="canton_id" ref="45"></field>
+</record>
+
+<record model="parish" id="241">
+<field name="name">Licán</field>
+<field name="canton_id" ref="45"></field>
+</record>
+
+<record model="parish" id="242">
+<field name="name">Licto</field>
+<field name="canton_id" ref="45"></field>
+</record>
+
+<record model="parish" id="243">
+<field name="name">Pungalá</field>
+<field name="canton_id" ref="45"></field>
+</record>
+
+<record model="parish" id="244">
+<field name="name">Punín</field>
+<field name="canton_id" ref="45"></field>
+</record>
+
+<record model="parish" id="245">
+<field name="name">Quimiag</field>
+<field name="canton_id" ref="45"></field>
+</record>
+
+<record model="parish" id="246">
+<field name="name">San Juan</field>
+<field name="canton_id" ref="45"></field>
+</record>
+
+<record model="parish" id="247">
+<field name="name">San Luis</field>
+<field name="canton_id" ref="45"></field>
+</record>
+
+<record model="parish" id="248">
+<field name="name">Lizarzaburu</field>
+<field name="canton_id" ref="45"></field>
+</record>
+
+<record model="parish" id="249">
+<field name="name">Maldonado</field>
+<field name="canton_id" ref="45"></field>
+</record>
+
+<record model="parish" id="250">
+<field name="name">Velasco</field>
+<field name="canton_id" ref="45"></field>
+</record>
+
+<record model="parish" id="251">
+<field name="name">Veloz</field>
+<field name="canton_id" ref="45"></field>
+</record>
+
+<record model="parish" id="252">
+<field name="name">Yaruquíes</field>
+<field name="canton_id" ref="45"></field>
+</record>
+
+<record model="parish" id="253">
+<field name="name">Guasaganda</field>
+<field name="canton_id" ref="46"></field>
+</record>
+
+<record model="parish" id="254">
+<field name="name">Pucayacu</field>
+<field name="canton_id" ref="46"></field>
+</record>
+
+<record model="parish" id="255">
+<field name="name">La Maná</field>
+<field name="canton_id" ref="46"></field>
+</record>
+
+<record model="parish" id="256">
+<field name="name">El Carmen</field>
+<field name="canton_id" ref="46"></field>
+</record>
+
+<record model="parish" id="257">
+<field name="name">El Triunfo</field>
+<field name="canton_id" ref="46"></field>
+</record>
+
+<record model="parish" id="258">
+<field name="name">11 de Noviembre</field>
+<field name="canton_id" ref="47"></field>
+</record>
+
+<record model="parish" id="259">
+<field name="name">Alaques</field>
+<field name="canton_id" ref="47"></field>
+</record>
+
+<record model="parish" id="260">
+<field name="name">Belisario Quevedo</field>
+<field name="canton_id" ref="47"></field>
+</record>
+
+<record model="parish" id="261">
+<field name="name">Guaytacama</field>
+<field name="canton_id" ref="47"></field>
+</record>
+
+<record model="parish" id="262">
+<field name="name">Joseguango Bajo</field>
+<field name="canton_id" ref="47"></field>
+</record>
+
+<record model="parish" id="263">
+<field name="name">Mulaló</field>
+<field name="canton_id" ref="47"></field>
+</record>
+
+<record model="parish" id="264">
+<field name="name">Poaló</field>
+<field name="canton_id" ref="47"></field>
+</record>
+
+<record model="parish" id="265">
+<field name="name">Pastocalle</field>
+<field name="canton_id" ref="47"></field>
+</record>
+
+<record model="parish" id="266">
+<field name="name">San Buenaventura</field>
+<field name="canton_id" ref="47"></field>
+</record>
+
+<record model="parish" id="267">
+<field name="name">Tanicuchí</field>
+<field name="canton_id" ref="47"></field>
+</record>
+
+<record model="parish" id="268">
+<field name="name">Toacaso</field>
+<field name="canton_id" ref="47"></field>
+</record>
+
+<record model="parish" id="269">
+<field name="name">Eloy Alfaro</field>
+<field name="canton_id" ref="47"></field>
+</record>
+
+<record model="parish" id="270">
+<field name="name">Ignacio Flores</field>
+<field name="canton_id" ref="47"></field>
+</record>
+
+<record model="parish" id="271">
+<field name="name">Juan Montalvo</field>
+<field name="canton_id" ref="47"></field>
+</record>
+
+<record model="parish" id="272">
+<field name="name">La Matriz</field>
+<field name="canton_id" ref="47"></field>
+</record>
+
+<record model="parish" id="273">
+<field name="name">Moraspungo</field>
+<field name="canton_id" ref="48"></field>
+</record>
+
+<record model="parish" id="274">
+<field name="name">Pinllopata</field>
+<field name="canton_id" ref="48"></field>
+</record>
+
+<record model="parish" id="275">
+<field name="name">Ramón Campaña</field>
+<field name="canton_id" ref="48"></field>
+</record>
+
+<record model="parish" id="276">
+<field name="name">El Corazón</field>
+<field name="canton_id" ref="48"></field>
+</record>
+
+<record model="parish" id="277">
+<field name="name">Angamarca</field>
+<field name="canton_id" ref="49"></field>
+</record>
+
+<record model="parish" id="278">
+<field name="name">Guangaje</field>
+<field name="canton_id" ref="49"></field>
+</record>
+
+<record model="parish" id="279">
+<field name="name">La Victoria</field>
+<field name="canton_id" ref="49"></field>
+</record>
+
+<record model="parish" id="280">
+<field name="name">Pilaló</field>
+<field name="canton_id" ref="49"></field>
+</record>
+
+<record model="parish" id="281">
+<field name="name">Tingo</field>
+<field name="canton_id" ref="49"></field>
+</record>
+
+<record model="parish" id="282">
+<field name="name">Zumbahua</field>
+<field name="canton_id" ref="49"></field>
+</record>
+
+<record model="parish" id="283">
+<field name="name">Pujilí</field>
+<field name="canton_id" ref="49"></field>
+</record>
+
+<record model="parish" id="284">
+<field name="name">Antonio José Holguín</field>
+<field name="canton_id" ref="50"></field>
+</record>
+
+<record model="parish" id="285">
+<field name="name">Cusubamba</field>
+<field name="canton_id" ref="50"></field>
+</record>
+
+<record model="parish" id="286">
+<field name="name">Mulalillo</field>
+<field name="canton_id" ref="50"></field>
+</record>
+
+<record model="parish" id="287">
+<field name="name">Mulliquindil</field>
+<field name="canton_id" ref="50"></field>
+</record>
+
+<record model="parish" id="288">
+<field name="name">Panzaleo</field>
+<field name="canton_id" ref="50"></field>
+</record>
+
+<record model="parish" id="289">
+<field name="name">San Miguel</field>
+<field name="canton_id" ref="50"></field>
+</record>
+
+<record model="parish" id="290">
+<field name="name">Canchagua</field>
+<field name="canton_id" ref="51"></field>
+</record>
+
+<record model="parish" id="291">
+<field name="name">Chantillín</field>
+<field name="canton_id" ref="51"></field>
+</record>
+
+<record model="parish" id="292">
+<field name="name">Cochapamba</field>
+<field name="canton_id" ref="51"></field>
+</record>
+
+<record model="parish" id="293">
+<field name="name">Saquisilí</field>
+<field name="canton_id" ref="51"></field>
+</record>
+
+<record model="parish" id="294">
+<field name="name">Chugchilán</field>
+<field name="canton_id" ref="52"></field>
+</record>
+
+<record model="parish" id="295">
+<field name="name">Isinliví</field>
+<field name="canton_id" ref="52"></field>
+</record>
+
+<record model="parish" id="296">
+<field name="name">Las Pampas</field>
+<field name="canton_id" ref="52"></field>
+</record>
+
+<record model="parish" id="297">
+<field name="name">Palo Quemado</field>
+<field name="canton_id" ref="52"></field>
+</record>
+
+<record model="parish" id="298">
+<field name="name">Sigchos</field>
+<field name="canton_id" ref="52"></field>
+</record>
+
+<record model="parish" id="299">
+<field name="name">Carcabón</field>
+<field name="canton_id" ref="53"></field>
+</record>
+
+<record model="parish" id="300">
+<field name="name">Chacras</field>
+<field name="canton_id" ref="53"></field>
+</record>
+
+<record model="parish" id="301">
+<field name="name">Palmales</field>
+<field name="canton_id" ref="53"></field>
+</record>
+
+<record model="parish" id="302">
+<field name="name">Arenillas</field>
+<field name="canton_id" ref="53"></field>
+</record>
+
+<record model="parish" id="303">
+<field name="name">Ayapamba</field>
+<field name="canton_id" ref="54"></field>
+</record>
+
+<record model="parish" id="304">
+<field name="name">Cordoncillo</field>
+<field name="canton_id" ref="54"></field>
+</record>
+
+<record model="parish" id="305">
+<field name="name">Milagro</field>
+<field name="canton_id" ref="54"></field>
+</record>
+
+<record model="parish" id="306">
+<field name="name">San José</field>
+<field name="canton_id" ref="54"></field>
+</record>
+
+<record model="parish" id="307">
+<field name="name">Cerro Azul</field>
+<field name="canton_id" ref="54"></field>
+</record>
+
+<record model="parish" id="308">
+<field name="name">Paccha</field>
+<field name="canton_id" ref="54"></field>
+</record>
+
+<record model="parish" id="309">
+<field name="name">Bellamaría</field>
+<field name="canton_id" ref="55"></field>
+</record>
+
+<record model="parish" id="310">
+<field name="name">Balsas</field>
+<field name="canton_id" ref="55"></field>
+</record>
+
+<record model="parish" id="311">
+<field name="name">Chilla</field>
+<field name="canton_id" ref="56"></field>
+</record>
+
+<record model="parish" id="312">
+<field name="name">Barbones</field>
+<field name="canton_id" ref="57"></field>
+</record>
+
+<record model="parish" id="313">
+<field name="name">La Iberia</field>
+<field name="canton_id" ref="57"></field>
+</record>
+
+<record model="parish" id="314">
+<field name="name">Tendales</field>
+<field name="canton_id" ref="57"></field>
+</record>
+
+<record model="parish" id="315">
+<field name="name">Río Bonito</field>
+<field name="canton_id" ref="57"></field>
+</record>
+
+<record model="parish" id="316">
+<field name="name">El Guabo</field>
+<field name="canton_id" ref="57"></field>
+</record>
+
+<record model="parish" id="317">
+<field name="name">Ecuador</field>
+<field name="canton_id" ref="58"></field>
+</record>
+
+<record model="parish" id="318">
+<field name="name">El Paraíso</field>
+<field name="canton_id" ref="58"></field>
+</record>
+
+<record model="parish" id="319">
+<field name="name">Hualtaco</field>
+<field name="canton_id" ref="58"></field>
+</record>
+
+<record model="parish" id="320">
+<field name="name">Milton Reyes</field>
+<field name="canton_id" ref="58"></field>
+</record>
+
+<record model="parish" id="321">
+<field name="name">Unión Lojana</field>
+<field name="canton_id" ref="58"></field>
+</record>
+
+<record model="parish" id="322">
+<field name="name">El Paraíso</field>
+<field name="canton_id" ref="59"></field>
+</record>
+
+<record model="parish" id="323">
+<field name="name">La Libertad</field>
+<field name="canton_id" ref="59"></field>
+</record>
+
+<record model="parish" id="324">
+<field name="name">San Isidro</field>
+<field name="canton_id" ref="59"></field>
+</record>
+
+<record model="parish" id="325">
+<field name="name">La Victoria</field>
+<field name="canton_id" ref="59"></field>
+</record>
+
+<record model="parish" id="326">
+<field name="name">Platanillos</field>
+<field name="canton_id" ref="59"></field>
+</record>
+
+<record model="parish" id="327">
+<field name="name">Valle Hermoso</field>
+<field name="canton_id" ref="59"></field>
+</record>
+
+<record model="parish" id="328">
+<field name="name">El Retiro</field>
+<field name="canton_id" ref="60"></field>
+</record>
+
+<record model="parish" id="329">
+<field name="name">La Providencia</field>
+<field name="canton_id" ref="60"></field>
+</record>
+
+<record model="parish" id="330">
+<field name="name">Machala</field>
+<field name="canton_id" ref="60"></field>
+</record>
+
+<record model="parish" id="331">
+<field name="name">Nueve de Mayo</field>
+<field name="canton_id" ref="60"></field>
+</record>
+
+<record model="parish" id="332">
+<field name="name">Puerto Bolívar</field>
+<field name="canton_id" ref="60"></field>
+</record>
+
+<record model="parish" id="333">
+<field name="name">El Cambio</field>
+<field name="canton_id" ref="60"></field>
+</record>
+
+<record model="parish" id="334">
+<field name="name">Jambelí</field>
+<field name="canton_id" ref="60"></field>
+</record>
+
+<record model="parish" id="335">
+<field name="name">Jubones</field>
+<field name="canton_id" ref="60"></field>
+</record>
+
+<record model="parish" id="336">
+<field name="name">El Ingenio</field>
+<field name="canton_id" ref="61"></field>
+</record>
+
+<record model="parish" id="337">
+<field name="name">Marcabelí</field>
+<field name="canton_id" ref="61"></field>
+</record>
+
+<record model="parish" id="338">
+<field name="name">Buena Vista</field>
+<field name="canton_id" ref="62"></field>
+</record>
+
+<record model="parish" id="339">
+<field name="name">Cañaquemada</field>
+<field name="canton_id" ref="62"></field>
+</record>
+
+<record model="parish" id="340">
+<field name="name">Casacay</field>
+<field name="canton_id" ref="62"></field>
+</record>
+
+<record model="parish" id="341">
+<field name="name">La Peaña</field>
+<field name="canton_id" ref="62"></field>
+</record>
+
+<record model="parish" id="342">
+<field name="name">El Progreso</field>
+<field name="canton_id" ref="62"></field>
+</record>
+
+<record model="parish" id="343">
+<field name="name">Uzhcurrumi</field>
+<field name="canton_id" ref="62"></field>
+</record>
+
+<record model="parish" id="344">
+<field name="name">Bolívar</field>
+<field name="canton_id" ref="62"></field>
+</record>
+
+<record model="parish" id="345">
+<field name="name">Loma de Franco</field>
+<field name="canton_id" ref="62"></field>
+</record>
+
+<record model="parish" id="346">
+<field name="name">Ochoa León</field>
+<field name="canton_id" ref="62"></field>
+</record>
+
+<record model="parish" id="347">
+<field name="name">Tres Cerritos</field>
+<field name="canton_id" ref="62"></field>
+</record>
+
+<record model="parish" id="348">
+<field name="name">Pasaje</field>
+<field name="canton_id" ref="62"></field>
+</record>
+
+<record model="parish" id="349">
+<field name="name">Capiro</field>
+<field name="canton_id" ref="63"></field>
+</record>
+
+<record model="parish" id="350">
+<field name="name">La Bocana</field>
+<field name="canton_id" ref="63"></field>
+</record>
+
+<record model="parish" id="351">
+<field name="name">Moromoro</field>
+<field name="canton_id" ref="63"></field>
+</record>
+
+<record model="parish" id="352">
+<field name="name">Piedras</field>
+<field name="canton_id" ref="63"></field>
+</record>
+
+<record model="parish" id="353">
+<field name="name">San Roque</field>
+<field name="canton_id" ref="63"></field>
+</record>
+
+<record model="parish" id="354">
+<field name="name">Saracay</field>
+<field name="canton_id" ref="63"></field>
+</record>
+
+<record model="parish" id="355">
+<field name="name">Piñas</field>
+<field name="canton_id" ref="63"></field>
+</record>
+
+<record model="parish" id="356">
+<field name="name">La Susaya</field>
+<field name="canton_id" ref="63"></field>
+</record>
+
+<record model="parish" id="357">
+<field name="name">Piñas Grande</field>
+<field name="canton_id" ref="63"></field>
+</record>
+
+<record model="parish" id="358">
+<field name="name">Curtincapa</field>
+<field name="canton_id" ref="64"></field>
+</record>
+
+<record model="parish" id="359">
+<field name="name">Morales</field>
+<field name="canton_id" ref="64"></field>
+</record>
+
+<record model="parish" id="360">
+<field name="name">Salatí</field>
+<field name="canton_id" ref="64"></field>
+</record>
+
+<record model="parish" id="361">
+<field name="name">Portovelo</field>
+<field name="canton_id" ref="64"></field>
+</record>
+
+<record model="parish" id="362">
+<field name="name">Bellamaría</field>
+<field name="canton_id" ref="65"></field>
+</record>
+
+<record model="parish" id="363">
+<field name="name">Bellavista</field>
+<field name="canton_id" ref="65"></field>
+</record>
+
+<record model="parish" id="364">
+<field name="name">La Avanzada</field>
+<field name="canton_id" ref="65"></field>
+</record>
+
+<record model="parish" id="365">
+<field name="name">San Antonio</field>
+<field name="canton_id" ref="65"></field>
+</record>
+
+<record model="parish" id="366">
+<field name="name">Torata</field>
+<field name="canton_id" ref="65"></field>
+</record>
+
+<record model="parish" id="367">
+<field name="name">Jambelí</field>
+<field name="canton_id" ref="65"></field>
+</record>
+
+<record model="parish" id="368">
+<field name="name">Victoria</field>
+<field name="canton_id" ref="65"></field>
+</record>
+
+<record model="parish" id="369">
+<field name="name">Puerto Jelí</field>
+<field name="canton_id" ref="65"></field>
+</record>
+
+<record model="parish" id="370">
+<field name="name">Santa Rosa</field>
+<field name="canton_id" ref="65"></field>
+</record>
+
+<record model="parish" id="371">
+<field name="name">Nuevo Santa Rosa</field>
+<field name="canton_id" ref="65"></field>
+</record>
+
+<record model="parish" id="372">
+<field name="name">Jumón</field>
+<field name="canton_id" ref="65"></field>
+</record>
+
+<record model="parish" id="373">
+<field name="name">Balneario Jambelí</field>
+<field name="canton_id" ref="65"></field>
+</record>
+
+<record model="parish" id="374">
+<field name="name">Abañín</field>
+<field name="canton_id" ref="66"></field>
+</record>
+
+<record model="parish" id="375">
+<field name="name">Arcapamba</field>
+<field name="canton_id" ref="66"></field>
+</record>
+
+<record model="parish" id="376">
+<field name="name">Guanazán</field>
+<field name="canton_id" ref="66"></field>
+</record>
+
+<record model="parish" id="377">
+<field name="name">Guizhaguiña</field>
+<field name="canton_id" ref="66"></field>
+</record>
+
+<record model="parish" id="378">
+<field name="name">Huertas</field>
+<field name="canton_id" ref="66"></field>
+</record>
+
+<record model="parish" id="379">
+<field name="name">Malvas</field>
+<field name="canton_id" ref="66"></field>
+</record>
+
+<record model="parish" id="380">
+<field name="name">Muluncay Grande</field>
+<field name="canton_id" ref="66"></field>
+</record>
+
+<record model="parish" id="381">
+<field name="name">Salvias</field>
+<field name="canton_id" ref="66"></field>
+</record>
+
+<record model="parish" id="382">
+<field name="name">Sinsao</field>
+<field name="canton_id" ref="66"></field>
+</record>
+
+<record model="parish" id="383">
+<field name="name">Zaruma</field>
+<field name="canton_id" ref="66"></field>
+</record>
+
+<record model="parish" id="384">
+<field name="name">La Unión</field>
+<field name="canton_id" ref="67"></field>
+</record>
+
+<record model="parish" id="385">
+<field name="name">Súa</field>
+<field name="canton_id" ref="67"></field>
+</record>
+
+<record model="parish" id="386">
+<field name="name">Tonchigüe</field>
+<field name="canton_id" ref="67"></field>
+</record>
+
+<record model="parish" id="387">
+<field name="name">Tonsupa</field>
+<field name="canton_id" ref="67"></field>
+</record>
+
+<record model="parish" id="388">
+<field name="name">Atacames</field>
+<field name="canton_id" ref="67"></field>
+</record>
+
+<record model="parish" id="389">
+<field name="name">Anchayacu</field>
+<field name="canton_id" ref="68"></field>
+</record>
+
+<record model="parish" id="390">
+<field name="name">Atahualpa</field>
+<field name="canton_id" ref="68"></field>
+</record>
+
+<record model="parish" id="391">
+<field name="name">Borbón</field>
+<field name="canton_id" ref="68"></field>
+</record>
+
+<record model="parish" id="392">
+<field name="name">Colón Eloy de María</field>
+<field name="canton_id" ref="68"></field>
+</record>
+
+<record model="parish" id="393">
+<field name="name">La Tola</field>
+<field name="canton_id" ref="68"></field>
+</record>
+
+<record model="parish" id="394">
+<field name="name">Luis Vargas Torres</field>
+<field name="canton_id" ref="68"></field>
+</record>
+
+<record model="parish" id="395">
+<field name="name">Maldonado</field>
+<field name="canton_id" ref="68"></field>
+</record>
+
+<record model="parish" id="396">
+<field name="name">Pampanal de Bolívar</field>
+<field name="canton_id" ref="68"></field>
+</record>
+
+<record model="parish" id="397">
+<field name="name">San Francisco de Onzole</field>
+<field name="canton_id" ref="68"></field>
+</record>
+
+<record model="parish" id="398">
+<field name="name">San José de Cayapas</field>
+<field name="canton_id" ref="68"></field>
+</record>
+
+<record model="parish" id="399">
+<field name="name">Selva Alegre</field>
+<field name="canton_id" ref="68"></field>
+</record>
+
+<record model="parish" id="400">
+<field name="name">Santo Domingo de Onzole</field>
+<field name="canton_id" ref="68"></field>
+</record>
+
+<record model="parish" id="401">
+<field name="name">Telembí</field>
+<field name="canton_id" ref="68"></field>
+</record>
+
+<record model="parish" id="402">
+<field name="name">Timbiré</field>
+<field name="canton_id" ref="68"></field>
+</record>
+
+<record model="parish" id="403">
+<field name="name">Santa Lucía de las Peñas</field>
+<field name="canton_id" ref="68"></field>
+</record>
+
+<record model="parish" id="404">
+<field name="name">Valdéz</field>
+<field name="canton_id" ref="68"></field>
+</record>
+
+<record model="parish" id="405">
+<field name="name">Camarones</field>
+<field name="canton_id" ref="69"></field>
+</record>
+
+<record model="parish" id="406">
+<field name="name">Chinca</field>
+<field name="canton_id" ref="69"></field>
+</record>
+
+<record model="parish" id="407">
+<field name="name">Carlos Concha</field>
+<field name="canton_id" ref="69"></field>
+</record>
+
+<record model="parish" id="408">
+<field name="name">Majua</field>
+<field name="canton_id" ref="69"></field>
+</record>
+
+<record model="parish" id="409">
+<field name="name">San Mateo</field>
+<field name="canton_id" ref="69"></field>
+</record>
+
+<record model="parish" id="410">
+<field name="name">Tabiazo</field>
+<field name="canton_id" ref="69"></field>
+</record>
+
+<record model="parish" id="411">
+<field name="name">Tachina</field>
+<field name="canton_id" ref="69"></field>
+</record>
+
+<record model="parish" id="412">
+<field name="name">Vuelta Larga</field>
+<field name="canton_id" ref="69"></field>
+</record>
+
+<record model="parish" id="413">
+<field name="name">5 de Agosto</field>
+<field name="canton_id" ref="69"></field>
+</record>
+
+<record model="parish" id="414">
+<field name="name">Bartolomé Ruíz</field>
+<field name="canton_id" ref="69"></field>
+</record>
+
+<record model="parish" id="415">
+<field name="name">Esmeraldas</field>
+<field name="canton_id" ref="69"></field>
+</record>
+
+<record model="parish" id="416">
+<field name="name">Luis Tello</field>
+<field name="canton_id" ref="69"></field>
+</record>
+
+<record model="parish" id="417">
+<field name="name">Simón Plata</field>
+<field name="canton_id" ref="69"></field>
+</record>
+
+<record model="parish" id="418">
+<field name="name">Bolívar</field>
+<field name="canton_id" ref="70"></field>
+</record>
+
+<record model="parish" id="419">
+<field name="name">Daule</field>
+<field name="canton_id" ref="70"></field>
+</record>
+
+<record model="parish" id="420">
+<field name="name">Galera</field>
+<field name="canton_id" ref="70"></field>
+</record>
+
+<record model="parish" id="421">
+<field name="name">Quingue</field>
+<field name="canton_id" ref="70"></field>
+</record>
+
+<record model="parish" id="422">
+<field name="name">Salima</field>
+<field name="canton_id" ref="70"></field>
+</record>
+
+<record model="parish" id="423">
+<field name="name">San Francisco</field>
+<field name="canton_id" ref="70"></field>
+</record>
+
+<record model="parish" id="424">
+<field name="name">San Gregorio</field>
+<field name="canton_id" ref="70"></field>
+</record>
+
+<record model="parish" id="425">
+<field name="name">San José de Chamanga</field>
+<field name="canton_id" ref="70"></field>
+</record>
+
+<record model="parish" id="426">
+<field name="name">Muisne</field>
+<field name="canton_id" ref="70"></field>
+</record>
+
+<record model="parish" id="427">
+<field name="name">Chura</field>
+<field name="canton_id" ref="71"></field>
+</record>
+
+<record model="parish" id="428">
+<field name="name">Cube</field>
+<field name="canton_id" ref="71"></field>
+</record>
+
+<record model="parish" id="429">
+<field name="name">La Unión</field>
+<field name="canton_id" ref="71"></field>
+</record>
+
+<record model="parish" id="430">
+<field name="name">Malimpia</field>
+<field name="canton_id" ref="71"></field>
+</record>
+
+<record model="parish" id="431">
+<field name="name">Viche</field>
+<field name="canton_id" ref="71"></field>
+</record>
+
+<record model="parish" id="432">
+<field name="name">Rosa Zárate</field>
+<field name="canton_id" ref="71"></field>
+</record>
+
+<record model="parish" id="433">
+<field name="name">Chontaduro</field>
+<field name="canton_id" ref="72"></field>
+</record>
+
+<record model="parish" id="434">
+<field name="name">Chumundé</field>
+<field name="canton_id" ref="72"></field>
+</record>
+
+<record model="parish" id="435">
+<field name="name">Lagarto</field>
+<field name="canton_id" ref="72"></field>
+</record>
+
+<record model="parish" id="436">
+<field name="name">Montalvo</field>
+<field name="canton_id" ref="72"></field>
+</record>
+
+<record model="parish" id="437">
+<field name="name">Rocafuerte</field>
+<field name="canton_id" ref="72"></field>
+</record>
+
+<record model="parish" id="438">
+<field name="name">Rioverde</field>
+<field name="canton_id" ref="72"></field>
+</record>
+
+<record model="parish" id="439">
+<field name="name">5 de Junio</field>
+<field name="canton_id" ref="73"></field>
+</record>
+
+<record model="parish" id="440">
+<field name="name">Alto Tambo</field>
+<field name="canton_id" ref="73"></field>
+</record>
+
+<record model="parish" id="441">
+<field name="name">Ancón</field>
+<field name="canton_id" ref="73"></field>
+</record>
+
+<record model="parish" id="442">
+<field name="name">Calderón</field>
+<field name="canton_id" ref="73"></field>
+</record>
+
+<record model="parish" id="443">
+<field name="name">Carondelet</field>
+<field name="canton_id" ref="73"></field>
+</record>
+
+<record model="parish" id="444">
+<field name="name">Concepción</field>
+<field name="canton_id" ref="73"></field>
+</record>
+
+<record model="parish" id="445">
+<field name="name">Mataje</field>
+<field name="canton_id" ref="73"></field>
+</record>
+
+<record model="parish" id="446">
+<field name="name">Santa Rita</field>
+<field name="canton_id" ref="73"></field>
+</record>
+
+<record model="parish" id="447">
+<field name="name">San Javier de Cachaví</field>
+<field name="canton_id" ref="73"></field>
+</record>
+
+<record model="parish" id="448">
+<field name="name">Tambillo</field>
+<field name="canton_id" ref="73"></field>
+</record>
+
+<record model="parish" id="449">
+<field name="name">Tululbí</field>
+<field name="canton_id" ref="73"></field>
+</record>
+
+<record model="parish" id="450">
+<field name="name">Urbina</field>
+<field name="canton_id" ref="73"></field>
+</record>
+
+<record model="parish" id="451">
+<field name="name">San Lorenzo</field>
+<field name="canton_id" ref="73"></field>
+</record>
+
+<record model="parish" id="452">
+<field name="name">Tomás de Berlanga</field>
+<field name="canton_id" ref="74"></field>
+</record>
+
+<record model="parish" id="453">
+<field name="name">Puerto Villamil</field>
+<field name="canton_id" ref="74"></field>
+</record>
+
+<record model="parish" id="454">
+<field name="name">El Progreso</field>
+<field name="canton_id" ref="75"></field>
+</record>
+
+<record model="parish" id="455">
+<field name="name">Isla Floreana</field>
+<field name="canton_id" ref="75"></field>
+</record>
+
+<record model="parish" id="456">
+<field name="name">Puerto Baquerizo Moreno</field>
+<field name="canton_id" ref="75"></field>
+</record>
+
+<record model="parish" id="457">
+<field name="name">Bellavista</field>
+<field name="canton_id" ref="76"></field>
+</record>
+
+<record model="parish" id="458">
+<field name="name">Santa Rosa</field>
+<field name="canton_id" ref="76"></field>
+</record>
+
+<record model="parish" id="459">
+<field name="name">Puerto Ayora</field>
+<field name="canton_id" ref="76"></field>
+</record>
+
+<record model="parish" id="460">
+<field name="name">Alfredo Baquerizo Moreno</field>
+<field name="canton_id" ref="77"></field>
+</record>
+
+<record model="parish" id="461">
+<field name="name">Balao</field>
+<field name="canton_id" ref="78"></field>
+</record>
+
+<record model="parish" id="462">
+<field name="name">Balzar</field>
+<field name="canton_id" ref="79"></field>
+</record>
+
+<record model="parish" id="463">
+<field name="name">San Jacinto</field>
+<field name="canton_id" ref="80"></field>
+</record>
+
+<record model="parish" id="464">
+<field name="name">Colimes</field>
+<field name="canton_id" ref="80"></field>
+</record>
+
+<record model="parish" id="465">
+<field name="name">Marcelino Maridueña</field>
+<field name="canton_id" ref="81"></field>
+</record>
+
+<record model="parish" id="466">
+<field name="name">El Laurel</field>
+<field name="canton_id" ref="82"></field>
+</record>
+
+<record model="parish" id="467">
+<field name="name">Juan Bautista Aguirre</field>
+<field name="canton_id" ref="82"></field>
+</record>
+
+<record model="parish" id="468">
+<field name="name">Limonal</field>
+<field name="canton_id" ref="82"></field>
+</record>
+
+<record model="parish" id="469">
+<field name="name">Los Lojas</field>
+<field name="canton_id" ref="82"></field>
+</record>
+
+<record model="parish" id="470">
+<field name="name">Daule</field>
+<field name="canton_id" ref="82"></field>
+</record>
+
+<record model="parish" id="471">
+<field name="name">La Aurora</field>
+<field name="canton_id" ref="82"></field>
+</record>
+
+<record model="parish" id="472">
+<field name="name">Banife</field>
+<field name="canton_id" ref="82"></field>
+</record>
+
+<record model="parish" id="473">
+<field name="name">Emiliano Caicedo</field>
+<field name="canton_id" ref="82"></field>
+</record>
+
+<record model="parish" id="474">
+<field name="name">Magro</field>
+<field name="canton_id" ref="82"></field>
+</record>
+
+<record model="parish" id="475">
+<field name="name">Santa Clara</field>
+<field name="canton_id" ref="82"></field>
+</record>
+
+<record model="parish" id="476">
+<field name="name">Vicente Piedrahita</field>
+<field name="canton_id" ref="82"></field>
+</record>
+
+<record model="parish" id="477">
+<field name="name">Eloy Alfaro</field>
+<field name="canton_id" ref="83"></field>
+</record>
+
+<record model="parish" id="478">
+<field name="name">El Recreo</field>
+<field name="canton_id" ref="83"></field>
+</record>
+
+<record model="parish" id="479">
+<field name="name">El Rosario</field>
+<field name="canton_id" ref="84"></field>
+</record>
+
+<record model="parish" id="480">
+<field name="name">Guayas</field>
+<field name="canton_id" ref="84"></field>
+</record>
+
+<record model="parish" id="481">
+<field name="name">Velasco Ibarra</field>
+<field name="canton_id" ref="84"></field>
+</record>
+
+<record model="parish" id="482">
+<field name="name">El Triunfo</field>
+<field name="canton_id" ref="85"></field>
+</record>
+
+<record model="parish" id="483">
+<field name="name">Antonio Elizalde</field>
+<field name="canton_id" ref="86"></field>
+</record>
+
+<record model="parish" id="484">
+<field name="name">Gómez Rendón</field>
+<field name="canton_id" ref="87"></field>
+</record>
+
+<record model="parish" id="485">
+<field name="name">Morro</field>
+<field name="canton_id" ref="87"></field>
+</record>
+
+<record model="parish" id="486">
+<field name="name">Posorja</field>
+<field name="canton_id" ref="87"></field>
+</record>
+
+<record model="parish" id="487">
+<field name="name">Puná</field>
+<field name="canton_id" ref="87"></field>
+</record>
+
+<record model="parish" id="488">
+<field name="name">Tenguel</field>
+<field name="canton_id" ref="87"></field>
+</record>
+
+<record model="parish" id="489">
+<field name="name">Ayacucho</field>
+<field name="canton_id" ref="87"></field>
+</record>
+
+<record model="parish" id="490">
+<field name="name">Bolívar</field>
+<field name="canton_id" ref="87"></field>
+</record>
+
+<record model="parish" id="491">
+<field name="name">Carbo</field>
+<field name="canton_id" ref="87"></field>
+</record>
+
+<record model="parish" id="492">
+<field name="name">Febres Cordero</field>
+<field name="canton_id" ref="87"></field>
+</record>
+
+<record model="parish" id="493">
+<field name="name">García Moreno</field>
+<field name="canton_id" ref="87"></field>
+</record>
+
+<record model="parish" id="494">
+<field name="name">Letamendi</field>
+<field name="canton_id" ref="87"></field>
+</record>
+
+<record model="parish" id="495">
+<field name="name">Nueve de Octubre</field>
+<field name="canton_id" ref="87"></field>
+</record>
+
+<record model="parish" id="496">
+<field name="name">Olmedo</field>
+<field name="canton_id" ref="87"></field>
+</record>
+
+<record model="parish" id="497">
+<field name="name">Rocafuerte</field>
+<field name="canton_id" ref="87"></field>
+</record>
+
+<record model="parish" id="498">
+<field name="name">Sucre</field>
+<field name="canton_id" ref="87"></field>
+</record>
+
+<record model="parish" id="499">
+<field name="name">Tarqui</field>
+<field name="canton_id" ref="87"></field>
+</record>
+
+<record model="parish" id="500">
+<field name="name">Urdaneta</field>
+<field name="canton_id" ref="87"></field>
+</record>
+
+<record model="parish" id="501">
+<field name="name">Ximena</field>
+<field name="canton_id" ref="87"></field>
+</record>
+
+<record model="parish" id="502">
+<field name="name">Roca</field>
+<field name="canton_id" ref="87"></field>
+</record>
+
+<record model="parish" id="503">
+<field name="name">Pascuales</field>
+<field name="canton_id" ref="87"></field>
+</record>
+
+<record model="parish" id="504">
+<field name="name">Chongón</field>
+<field name="canton_id" ref="87"></field>
+</record>
+
+<record model="parish" id="505">
+<field name="name">Isidro Ayora</field>
+<field name="canton_id" ref="88"></field>
+</record>
+
+<record model="parish" id="506">
+<field name="name">Lomas de Sargentillo</field>
+<field name="canton_id" ref="89"></field>
+</record>
+
+<record model="parish" id="507">
+<field name="name">Chobo</field>
+<field name="canton_id" ref="90"></field>
+</record>
+
+<record model="parish" id="508">
+<field name="name">Mariscal Sucre</field>
+<field name="canton_id" ref="90"></field>
+</record>
+
+<record model="parish" id="509">
+<field name="name">Roberto Astudillo</field>
+<field name="canton_id" ref="90"></field>
+</record>
+
+<record model="parish" id="510">
+<field name="name">5 de Junio</field>
+<field name="canton_id" ref="90"></field>
+</record>
+
+<record model="parish" id="511">
+<field name="name">Camilo Andrade</field>
+<field name="canton_id" ref="90"></field>
+</record>
+
+<record model="parish" id="512">
+<field name="name">Chirijos</field>
+<field name="canton_id" ref="90"></field>
+</record>
+
+<record model="parish" id="513">
+<field name="name">Enrique Valdez</field>
+<field name="canton_id" ref="90"></field>
+</record>
+
+<record model="parish" id="514">
+<field name="name">Ernesto Seminario</field>
+<field name="canton_id" ref="90"></field>
+</record>
+
+<record model="parish" id="515">
+<field name="name">Jesús María</field>
+<field name="canton_id" ref="91"></field>
+</record>
+
+<record model="parish" id="516">
+<field name="name"> San Carlos</field>
+<field name="canton_id" ref="91"></field>
+</record>
+
+<record model="parish" id="517">
+<field name="name">Santa Rosa de Flandes</field>
+<field name="canton_id" ref="91"></field>
+</record>
+
+<record model="parish" id="518">
+<field name="name">Taura</field>
+<field name="canton_id" ref="91"></field>
+</record>
+
+<record model="parish" id="519">
+<field name="name">Naranjal</field>
+<field name="canton_id" ref="91"></field>
+</record>
+
+<record model="parish" id="520">
+<field name="name">Naranjito</field>
+<field name="canton_id" ref="92"></field>
+</record>
+
+<record model="parish" id="521">
+<field name="name">Narcisa de Jesús</field>
+<field name="canton_id" ref="93"></field>
+</record>
+
+<record model="parish" id="522">
+<field name="name">Palestina</field>
+<field name="canton_id" ref="94"></field>
+</record>
+
+<record model="parish" id="523">
+<field name="name">Sabanilla</field>
+<field name="canton_id" ref="95"></field>
+</record>
+
+<record model="parish" id="524">
+<field name="name">Valle de la Virgen</field>
+<field name="canton_id" ref="95"></field>
+</record>
+
+<record model="parish" id="525">
+<field name="name">Pedro Carbo</field>
+<field name="canton_id" ref="95"></field>
+</record>
+
+<record model="parish" id="526">
+<field name="name">General Villamil</field>
+<field name="canton_id" ref="96"></field>
+</record>
+
+<record model="parish" id="527">
+<field name="name">Vernaza</field>
+<field name="canton_id" ref="97"></field>
+</record>
+
+<record model="parish" id="528">
+<field name="name">La Victoria</field>
+<field name="canton_id" ref="97"></field>
+</record>
+
+<record model="parish" id="529">
+<field name="name">Junquillal</field>
+<field name="canton_id" ref="97"></field>
+</record>
+
+<record model="parish" id="530">
+<field name="name">Bocana</field>
+<field name="canton_id" ref="97"></field>
+</record>
+
+<record model="parish" id="531">
+<field name="name">Candilejos</field>
+<field name="canton_id" ref="97"></field>
+</record>
+
+<record model="parish" id="532">
+<field name="name">Central</field>
+<field name="canton_id" ref="97"></field>
+</record>
+
+<record model="parish" id="533">
+<field name="name">Paraíso</field>
+<field name="canton_id" ref="97"></field>
+</record>
+
+<record model="parish" id="534">
+<field name="name">San Mateo</field>
+<field name="canton_id" ref="97"></field>
+</record>
+
+<record model="parish" id="535">
+<field name="name">Tarifa</field>
+<field name="canton_id" ref="98"></field>
+</record>
+
+<record model="parish" id="536">
+<field name="name">Samborondón</field>
+<field name="canton_id" ref="98"></field>
+</record>
+
+<record model="parish" id="537">
+<field name="name">La Puntilla</field>
+<field name="canton_id" ref="98"></field>
+</record>
+
+<record model="parish" id="538">
+<field name="name">Santa Lucía</field>
+<field name="canton_id" ref="99"></field>
+</record>
+
+<record model="parish" id="539">
+<field name="name">Lorenzo de Graicoa</field>
+<field name="canton_id" ref="100"></field>
+</record>
+
+<record model="parish" id="540">
+<field name="name">Simón Bolivar</field>
+<field name="canton_id" ref="100"></field>
+</record>
+
+<record model="parish" id="541">
+<field name="name">Pedro Montero</field>
+<field name="canton_id" ref="101"></field>
+</record>
+
+<record model="parish" id="542">
+<field name="name">Virgen de Fátima</field>
+<field name="canton_id" ref="101"></field>
+</record>
+
+<record model="parish" id="543">
+<field name="name">Yaguachi Viejo</field>
+<field name="canton_id" ref="101"></field>
+</record>
+
+<record model="parish" id="544">
+<field name="name">Yaguachi</field>
+<field name="canton_id" ref="101"></field>
+</record>
+
+<record model="parish" id="545">
+<field name="name">Imbaya</field>
+<field name="canton_id" ref="102"></field>
+</record>
+
+<record model="parish" id="546">
+<field name="name">Natabuela</field>
+<field name="canton_id" ref="102"></field>
+</record>
+
+<record model="parish" id="547">
+<field name="name">Chaltura</field>
+<field name="canton_id" ref="102"></field>
+</record>
+
+<record model="parish" id="548">
+<field name="name">San Roque</field>
+<field name="canton_id" ref="102"></field>
+</record>
+
+<record model="parish" id="549">
+<field name="name">Andrade Marín</field>
+<field name="canton_id" ref="102"></field>
+</record>
+
+<record model="parish" id="550">
+<field name="name">Atuntaqui</field>
+<field name="canton_id" ref="102"></field>
+</record>
+
+<record model="parish" id="551">
+<field name="name">6 de Julio</field>
+<field name="canton_id" ref="103"></field>
+</record>
+
+<record model="parish" id="552">
+<field name="name">Apuela</field>
+<field name="canton_id" ref="103"></field>
+</record>
+
+<record model="parish" id="553">
+<field name="name">García Moreno</field>
+<field name="canton_id" ref="103"></field>
+</record>
+
+<record model="parish" id="554">
+<field name="name">Imantag</field>
+<field name="canton_id" ref="103"></field>
+</record>
+
+<record model="parish" id="555">
+<field name="name">Peñaherrera</field>
+<field name="canton_id" ref="103"></field>
+</record>
+
+<record model="parish" id="556">
+<field name="name">Plaza Gutiérrez</field>
+<field name="canton_id" ref="103"></field>
+</record>
+
+<record model="parish" id="557">
+<field name="name">Quiroga</field>
+<field name="canton_id" ref="103"></field>
+</record>
+
+<record model="parish" id="558">
+<field name="name">Vacas Galindo</field>
+<field name="canton_id" ref="103"></field>
+</record>
+
+<record model="parish" id="559">
+<field name="name">Sagrario</field>
+<field name="canton_id" ref="103"></field>
+</record>
+
+<record model="parish" id="560">
+<field name="name">San Francisco</field>
+<field name="canton_id" ref="103"></field>
+</record>
+
+<record model="parish" id="561">
+<field name="name">Ambuquí</field>
+<field name="canton_id" ref="104"></field>
+</record>
+
+<record model="parish" id="562">
+<field name="name">Angochagua</field>
+<field name="canton_id" ref="104"></field>
+</record>
+
+<record model="parish" id="563">
+<field name="name">Carolina</field>
+<field name="canton_id" ref="104"></field>
+</record>
+
+<record model="parish" id="564">
+<field name="name">La Esperanza</field>
+<field name="canton_id" ref="104"></field>
+</record>
+
+<record model="parish" id="565">
+<field name="name">Lita</field>
+<field name="canton_id" ref="104"></field>
+</record>
+
+<record model="parish" id="566">
+<field name="name">Salinas</field>
+<field name="canton_id" ref="104"></field>
+</record>
+
+<record model="parish" id="567">
+<field name="name">San Antonio</field>
+<field name="canton_id" ref="104"></field>
+</record>
+
+<record model="parish" id="568">
+<field name="name">Caranqui</field>
+<field name="canton_id" ref="104"></field>
+</record>
+
+<record model="parish" id="569">
+<field name="name">Alpachaca</field>
+<field name="canton_id" ref="104"></field>
+</record>
+
+<record model="parish" id="570">
+<field name="name">La Dolorosa</field>
+<field name="canton_id" ref="104"></field>
+</record>
+
+<record model="parish" id="571">
+<field name="name">Sagrario</field>
+<field name="canton_id" ref="104"></field>
+</record>
+
+<record model="parish" id="572">
+<field name="name">San Francisco</field>
+<field name="canton_id" ref="104"></field>
+</record>
+
+<record model="parish" id="573">
+<field name="name">Miguel Egas</field>
+<field name="canton_id" ref="105"></field>
+</record>
+
+<record model="parish" id="574">
+<field name="name">Eugenio Espejo</field>
+<field name="canton_id" ref="105"></field>
+</record>
+
+<record model="parish" id="575">
+<field name="name">González Suárez</field>
+<field name="canton_id" ref="105"></field>
+</record>
+
+<record model="parish" id="576">
+<field name="name">Pataquí</field>
+<field name="canton_id" ref="105"></field>
+</record>
+
+<record model="parish" id="577">
+<field name="name">Quichinche</field>
+<field name="canton_id" ref="105"></field>
+</record>
+
+<record model="parish" id="578">
+<field name="name">Ilumán</field>
+<field name="canton_id" ref="105"></field>
+</record>
+
+<record model="parish" id="579">
+<field name="name">San Pablo</field>
+<field name="canton_id" ref="105"></field>
+</record>
+
+<record model="parish" id="580">
+<field name="name">San Rafael</field>
+<field name="canton_id" ref="105"></field>
+</record>
+
+<record model="parish" id="581">
+<field name="name">Selva Alegre</field>
+<field name="canton_id" ref="105"></field>
+</record>
+
+<record model="parish" id="582">
+<field name="name">El Jordán</field>
+<field name="canton_id" ref="105"></field>
+</record>
+
+<record model="parish" id="583">
+<field name="name">San Luis</field>
+<field name="canton_id" ref="105"></field>
+</record>
+
+<record model="parish" id="584">
+<field name="name">Chugá</field>
+<field name="canton_id" ref="106"></field>
+</record>
+
+<record model="parish" id="585">
+<field name="name">Mariano Acosta</field>
+<field name="canton_id" ref="106"></field>
+</record>
+
+<record model="parish" id="586">
+<field name="name">Sigsipamba</field>
+<field name="canton_id" ref="106"></field>
+</record>
+
+<record model="parish" id="587">
+<field name="name">Pimampiro</field>
+<field name="canton_id" ref="106"></field>
+</record>
+
+<record model="parish" id="588">
+<field name="name">Cahuasquí</field>
+<field name="canton_id" ref="107"></field>
+</record>
+
+<record model="parish" id="589">
+<field name="name">La Merced de Buenos Aires</field>
+<field name="canton_id" ref="107"></field>
+</record>
+
+<record model="parish" id="590">
+<field name="name">Pablo Arenas</field>
+<field name="canton_id" ref="107"></field>
+</record>
+
+<record model="parish" id="591">
+<field name="name">San Blas</field>
+<field name="canton_id" ref="107"></field>
+</record>
+
+<record model="parish" id="592">
+<field name="name">Tumbabiro</field>
+<field name="canton_id" ref="107"></field>
+</record>
+
+<record model="parish" id="593">
+<field name="name">Urcuquí</field>
+<field name="canton_id" ref="107"></field>
+</record>
+
+<record model="parish" id="594">
+<field name="name">Colaisaca</field>
+<field name="canton_id" ref="108"></field>
+</record>
+
+<record model="parish" id="595">
+<field name="name">El Lucero</field>
+<field name="canton_id" ref="108"></field>
+</record>
+
+<record model="parish" id="596">
+<field name="name">Sanguillín</field>
+<field name="canton_id" ref="108"></field>
+</record>
+
+<record model="parish" id="597">
+<field name="name">Utuana</field>
+<field name="canton_id" ref="108"></field>
+</record>
+
+<record model="parish" id="598">
+<field name="name">Cariamanga</field>
+<field name="canton_id" ref="108"></field>
+</record>
+
+<record model="parish" id="599">
+<field name="name">Chile</field>
+<field name="canton_id" ref="108"></field>
+</record>
+
+<record model="parish" id="600">
+<field name="name">San Vicente</field>
+<field name="canton_id" ref="108"></field>
+</record>
+
+<record model="parish" id="601">
+<field name="name">El Tambo</field>
+<field name="canton_id" ref="109"></field>
+</record>
+
+<record model="parish" id="602">
+<field name="name">Guayquichuma</field>
+<field name="canton_id" ref="109"></field>
+</record>
+
+<record model="parish" id="603">
+<field name="name">La Bendita</field>
+<field name="canton_id" ref="109"></field>
+</record>
+
+<record model="parish" id="604">
+<field name="name">Zambi</field>
+<field name="canton_id" ref="109"></field>
+</record>
+
+<record model="parish" id="605">
+<field name="name">Catamayo</field>
+<field name="canton_id" ref="109"></field>
+</record>
+
+<record model="parish" id="606">
+<field name="name">San José</field>
+<field name="canton_id" ref="109"></field>
+</record>
+
+<record model="parish" id="607">
+<field name="name">Cruzpamba</field>
+<field name="canton_id" ref="110"></field>
+</record>
+
+<record model="parish" id="608">
+<field name="name">Pózul</field>
+<field name="canton_id" ref="110"></field>
+</record>
+
+<record model="parish" id="609">
+<field name="name">Sabanilla</field>
+<field name="canton_id" ref="110"></field>
+</record>
+
+<record model="parish" id="610">
+<field name="name">Maximiliano Rodríguez</field>
+<field name="canton_id" ref="110"></field>
+</record>
+
+<record model="parish" id="611">
+<field name="name">Celica</field>
+<field name="canton_id" ref="110"></field>
+</record>
+
+<record model="parish" id="612">
+<field name="name">Amarillos</field>
+<field name="canton_id" ref="111"></field>
+</record>
+
+<record model="parish" id="613">
+<field name="name">Buenavista</field>
+<field name="canton_id" ref="111"></field>
+</record>
+
+<record model="parish" id="614">
+<field name="name">El Rosario</field>
+<field name="canton_id" ref="111"></field>
+</record>
+
+<record model="parish" id="615">
+<field name="name">Santa Rufina</field>
+<field name="canton_id" ref="111"></field>
+</record>
+
+<record model="parish" id="616">
+<field name="name">Chaguarpamba</field>
+<field name="canton_id" ref="111"></field>
+</record>
+
+<record model="parish" id="617">
+<field name="name">27 de Abril</field>
+<field name="canton_id" ref="112"></field>
+</record>
+
+<record model="parish" id="618">
+<field name="name">Bellavista</field>
+<field name="canton_id" ref="112"></field>
+</record>
+
+<record model="parish" id="619">
+<field name="name">El Airo</field>
+<field name="canton_id" ref="112"></field>
+</record>
+
+<record model="parish" id="620">
+<field name="name">El Ingenio</field>
+<field name="canton_id" ref="112"></field>
+</record>
+
+<record model="parish" id="621">
+<field name="name">Jimbura</field>
+<field name="canton_id" ref="112"></field>
+</record>
+
+<record model="parish" id="622">
+<field name="name">Santa Teresita</field>
+<field name="canton_id" ref="112"></field>
+</record>
+
+<record model="parish" id="623">
+<field name="name">Amaluza</field>
+<field name="canton_id" ref="112"></field>
+</record>
+
+<record model="parish" id="624">
+<field name="name">Changaimina</field>
+<field name="canton_id" ref="113"></field>
+</record>
+
+<record model="parish" id="625">
+<field name="name">Nambacola</field>
+<field name="canton_id" ref="113"></field>
+</record>
+
+<record model="parish" id="626">
+<field name="name">Purunuma</field>
+<field name="canton_id" ref="113"></field>
+</record>
+
+<record model="parish" id="627">
+<field name="name">Sacapalca</field>
+<field name="canton_id" ref="113"></field>
+</record>
+
+<record model="parish" id="628">
+<field name="name">Gonzanamá</field>
+<field name="canton_id" ref="113"></field>
+</record>
+
+<record model="parish" id="629">
+<field name="name">Chantaco</field>
+<field name="canton_id" ref="114"></field>
+</record>
+
+<record model="parish" id="630">
+<field name="name">Chuquiribamba</field>
+<field name="canton_id" ref="114"></field>
+</record>
+
+<record model="parish" id="631">
+<field name="name">El Cisne</field>
+<field name="canton_id" ref="114"></field>
+</record>
+
+<record model="parish" id="632">
+<field name="name">Gualel</field>
+<field name="canton_id" ref="114"></field>
+</record>
+
+<record model="parish" id="633">
+<field name="name">Jimbilla</field>
+<field name="canton_id" ref="114"></field>
+</record>
+
+<record model="parish" id="634">
+<field name="name">Malacatos</field>
+<field name="canton_id" ref="114"></field>
+</record>
+
+<record model="parish" id="635">
+<field name="name">Quinara</field>
+<field name="canton_id" ref="114"></field>
+</record>
+
+<record model="parish" id="636">
+<field name="name">San Lucas</field>
+<field name="canton_id" ref="114"></field>
+</record>
+
+<record model="parish" id="637">
+<field name="name">Santiago</field>
+<field name="canton_id" ref="114"></field>
+</record>
+
+<record model="parish" id="638">
+<field name="name">San Pedro de Vilcabamba</field>
+<field name="canton_id" ref="114"></field>
+</record>
+
+<record model="parish" id="639">
+<field name="name">Taquil</field>
+<field name="canton_id" ref="114"></field>
+</record>
+
+<record model="parish" id="640">
+<field name="name">Vilcabamba (Victoria)</field>
+<field name="canton_id" ref="114"></field>
+</record>
+
+<record model="parish" id="641">
+<field name="name">Yangana</field>
+<field name="canton_id" ref="114"></field>
+</record>
+
+<record model="parish" id="642">
+<field name="name">El Sagrario</field>
+<field name="canton_id" ref="114"></field>
+</record>
+
+<record model="parish" id="643">
+<field name="name">San Sebastián</field>
+<field name="canton_id" ref="114"></field>
+</record>
+
+<record model="parish" id="644">
+<field name="name">Sucre</field>
+<field name="canton_id" ref="114"></field>
+</record>
+
+<record model="parish" id="645">
+<field name="name">Valle</field>
+<field name="canton_id" ref="114"></field>
+</record>
+
+<record model="parish" id="646">
+<field name="name">La Victoria</field>
+<field name="canton_id" ref="115"></field>
+</record>
+
+<record model="parish" id="647">
+<field name="name">Larama</field>
+<field name="canton_id" ref="115"></field>
+</record>
+
+<record model="parish" id="648">
+<field name="name">Sabiango</field>
+<field name="canton_id" ref="115"></field>
+</record>
+
+<record model="parish" id="649">
+<field name="name">Macará</field>
+<field name="canton_id" ref="115"></field>
+</record>
+
+<record model="parish" id="650">
+<field name="name">Eloy Alfaro</field>
+<field name="canton_id" ref="115"></field>
+</record>
+
+<record model="parish" id="651">
+<field name="name">La Tingue</field>
+<field name="canton_id" ref="116"></field>
+</record>
+
+<record model="parish" id="652">
+<field name="name">Olmedo</field>
+<field name="canton_id" ref="116"></field>
+</record>
+
+<record model="parish" id="653">
+<field name="name">Cangonamá</field>
+<field name="canton_id" ref="117"></field>
+</record>
+
+<record model="parish" id="654">
+<field name="name">Casanga</field>
+<field name="canton_id" ref="117"></field>
+</record>
+
+<record model="parish" id="655">
+<field name="name">Guachanamá</field>
+<field name="canton_id" ref="117"></field>
+</record>
+
+<record model="parish" id="656">
+<field name="name">Lauro Guerrero</field>
+<field name="canton_id" ref="117"></field>
+</record>
+
+<record model="parish" id="657">
+<field name="name">Orianga</field>
+<field name="canton_id" ref="117"></field>
+</record>
+
+<record model="parish" id="658">
+<field name="name">San Antonio</field>
+<field name="canton_id" ref="117"></field>
+</record>
+
+<record model="parish" id="659">
+<field name="name">Yamana</field>
+<field name="canton_id" ref="117"></field>
+</record>
+
+<record model="parish" id="660">
+<field name="name">Catacocha</field>
+<field name="canton_id" ref="117"></field>
+</record>
+
+<record model="parish" id="661">
+<field name="name">Lourdes</field>
+<field name="canton_id" ref="117"></field>
+</record>
+
+<record model="parish" id="662">
+<field name="name">12 de Diciembre</field>
+<field name="canton_id" ref="118"></field>
+</record>
+
+<record model="parish" id="663">
+<field name="name">Chaquinal</field>
+<field name="canton_id" ref="118"></field>
+</record>
+
+<record model="parish" id="664">
+<field name="name">Milagros</field>
+<field name="canton_id" ref="118"></field>
+</record>
+
+<record model="parish" id="665">
+<field name="name">Pindal</field>
+<field name="canton_id" ref="118"></field>
+</record>
+
+<record model="parish" id="666">
+<field name="name">Ciano</field>
+<field name="canton_id" ref="119"></field>
+</record>
+
+<record model="parish" id="667">
+<field name="name">El Arenal</field>
+<field name="canton_id" ref="119"></field>
+</record>
+
+<record model="parish" id="668">
+<field name="name">El Limo</field>
+<field name="canton_id" ref="119"></field>
+</record>
+
+<record model="parish" id="669">
+<field name="name">Mercadillo</field>
+<field name="canton_id" ref="119"></field>
+</record>
+
+<record model="parish" id="670">
+<field name="name">Vicentino</field>
+<field name="canton_id" ref="119"></field>
+</record>
+
+<record model="parish" id="671">
+<field name="name">Alamor</field>
+<field name="canton_id" ref="119"></field>
+</record>
+
+<record model="parish" id="672">
+<field name="name">Fundochamba</field>
+<field name="canton_id" ref="120"></field>
+</record>
+
+<record model="parish" id="673">
+<field name="name">San Antonio de las Aradas</field>
+<field name="canton_id" ref="120"></field>
+</record>
+
+<record model="parish" id="674">
+<field name="name">Quilanga</field>
+<field name="canton_id" ref="120"></field>
+</record>
+
+<record model="parish" id="675">
+<field name="name">Celen</field>
+<field name="canton_id" ref="121"></field>
+</record>
+
+<record model="parish" id="676">
+<field name="name">Tablón</field>
+<field name="canton_id" ref="121"></field>
+</record>
+
+<record model="parish" id="677">
+<field name="name">Lluzhapa</field>
+<field name="canton_id" ref="121"></field>
+</record>
+
+<record model="parish" id="678">
+<field name="name">Manú</field>
+<field name="canton_id" ref="121"></field>
+</record>
+
+<record model="parish" id="679">
+<field name="name">Yulug</field>
+<field name="canton_id" ref="121"></field>
+</record>
+
+<record model="parish" id="680">
+<field name="name">San Antonio de Cumbe</field>
+<field name="canton_id" ref="121"></field>
+</record>
+
+<record model="parish" id="681">
+<field name="name">Tenta</field>
+<field name="canton_id" ref="121"></field>
+</record>
+
+<record model="parish" id="682">
+<field name="name">Selva Alegre</field>
+<field name="canton_id" ref="121"></field>
+</record>
+
+<record model="parish" id="683">
+<field name="name">Sumaypamba</field>
+<field name="canton_id" ref="121"></field>
+</record>
+
+<record model="parish" id="684">
+<field name="name">Urdaneta</field>
+<field name="canton_id" ref="121"></field>
+</record>
+
+<record model="parish" id="685">
+<field name="name">Saraguro</field>
+<field name="canton_id" ref="121"></field>
+</record>
+
+<record model="parish" id="686">
+<field name="name">Nueva Fátima</field>
+<field name="canton_id" ref="122"></field>
+</record>
+
+<record model="parish" id="687">
+<field name="name">Tacamoros</field>
+<field name="canton_id" ref="122"></field>
+</record>
+
+<record model="parish" id="688">
+<field name="name">Sozoranga</field>
+<field name="canton_id" ref="122"></field>
+</record>
+
+<record model="parish" id="689">
+<field name="name">Cazaderos</field>
+<field name="canton_id" ref="123"></field>
+</record>
+
+<record model="parish" id="690">
+<field name="name">Garzareal</field>
+<field name="canton_id" ref="123"></field>
+</record>
+
+<record model="parish" id="691">
+<field name="name">Limones</field>
+<field name="canton_id" ref="123"></field>
+</record>
+
+<record model="parish" id="692">
+<field name="name">Paletillas</field>
+<field name="canton_id" ref="123"></field>
+</record>
+
+<record model="parish" id="693">
+<field name="name">Bolaspamba</field>
+<field name="canton_id" ref="123"></field>
+</record>
+
+<record model="parish" id="694">
+<field name="name">Mangahurco</field>
+<field name="canton_id" ref="123"></field>
+</record>
+
+<record model="parish" id="695">
+<field name="name">Zapotillo</field>
+<field name="canton_id" ref="123"></field>
+</record>
+
+<record model="parish" id="696">
+<field name="name">Guare</field>
+<field name="canton_id" ref="124"></field>
+</record>
+
+<record model="parish" id="697">
+<field name="name">Bejucal</field>
+<field name="canton_id" ref="124"></field>
+</record>
+
+<record model="parish" id="698">
+<field name="name">Baba</field>
+<field name="canton_id" ref="124"></field>
+</record>
+
+<record model="parish" id="699">
+<field name="name">Caracol</field>
+<field name="canton_id" ref="125"></field>
+</record>
+
+<record model="parish" id="700">
+<field name="name">Febres Cordero</field>
+<field name="canton_id" ref="125"></field>
+</record>
+
+<record model="parish" id="701">
+<field name="name">La Unión</field>
+<field name="canton_id" ref="125"></field>
+</record>
+
+<record model="parish" id="702">
+<field name="name">Pimocha</field>
+<field name="canton_id" ref="125"></field>
+</record>
+
+<record model="parish" id="703">
+<field name="name">Matilde Esther</field>
+<field name="canton_id" ref="125"></field>
+</record>
+
+<record model="parish" id="704">
+<field name="name">Pueblo Nuevo</field>
+<field name="canton_id" ref="125"></field>
+</record>
+
+<record model="parish" id="705">
+<field name="name">Barreiro</field>
+<field name="canton_id" ref="125"></field>
+</record>
+
+<record model="parish" id="706">
+<field name="name">Clemente Baquerizo</field>
+<field name="canton_id" ref="125"></field>
+</record>
+
+<record model="parish" id="707">
+<field name="name">Dr. Camilo Ponce</field>
+<field name="canton_id" ref="125"></field>
+</record>
+
+<record model="parish" id="708">
+<field name="name">El Salto</field>
+<field name="canton_id" ref="125"></field>
+</record>
+
+<record model="parish" id="709">
+<field name="name">Patricia Pilar</field>
+<field name="canton_id" ref="126"></field>
+</record>
+
+<record model="parish" id="710">
+<field name="name">San Jacinto de Buena Fe</field>
+<field name="canton_id" ref="126"></field>
+</record>
+
+<record model="parish" id="711">
+<field name="name">7 de Agosto</field>
+<field name="canton_id" ref="126"></field>
+</record>
+
+<record model="parish" id="712">
+<field name="name">11 de Octubre</field>
+<field name="canton_id" ref="126"></field>
+</record>
+
+<record model="parish" id="713">
+<field name="name">Mocache</field>
+<field name="canton_id" ref="127"></field>
+</record>
+
+<record model="parish" id="714">
+<field name="name">La Esmeralda</field>
+<field name="canton_id" ref="128"></field>
+</record>
+
+<record model="parish" id="715">
+<field name="name">Montalvo</field>
+<field name="canton_id" ref="128"></field>
+</record>
+
+<record model="parish" id="716">
+<field name="name">Palenque</field>
+<field name="canton_id" ref="129"></field>
+</record>
+
+<record model="parish" id="717">
+<field name="name">Puerto Pechiche</field>
+<field name="canton_id" ref="130"></field>
+</record>
+
+<record model="parish" id="718">
+<field name="name">San Juan </field>
+<field name="canton_id" ref="130"></field>
+</record>
+
+<record model="parish" id="719">
+<field name="name">Puebloviejo</field>
+<field name="canton_id" ref="130"></field>
+</record>
+
+<record model="parish" id="720">
+<field name="name">La Esperanza</field>
+<field name="canton_id" ref="131"></field>
+</record>
+
+<record model="parish" id="721">
+<field name="name">San Carlos</field>
+<field name="canton_id" ref="131"></field>
+</record>
+
+<record model="parish" id="722">
+<field name="name">24 de Mayo</field>
+<field name="canton_id" ref="131"></field>
+</record>
+
+<record model="parish" id="723">
+<field name="name">Guayacán</field>
+<field name="canton_id" ref="131"></field>
+</record>
+
+<record model="parish" id="724">
+<field name="name">Nicolás Infante</field>
+<field name="canton_id" ref="131"></field>
+</record>
+
+<record model="parish" id="725">
+<field name="name">Quevedo</field>
+<field name="canton_id" ref="131"></field>
+</record>
+
+<record model="parish" id="726">
+<field name="name">San Camilo</field>
+<field name="canton_id" ref="131"></field>
+</record>
+
+<record model="parish" id="727">
+<field name="name">San Cristóbal</field>
+<field name="canton_id" ref="131"></field>
+</record>
+
+<record model="parish" id="728">
+<field name="name">7 de Octubre</field>
+<field name="canton_id" ref="131"></field>
+</record>
+
+<record model="parish" id="729">
+<field name="name">Venus del Río Quevedo</field>
+<field name="canton_id" ref="131"></field>
+</record>
+
+<record model="parish" id="730">
+<field name="name">Viva Alfaro</field>
+<field name="canton_id" ref="131"></field>
+</record>
+
+<record model="parish" id="731">
+<field name="name">Quinsaloma</field>
+<field name="canton_id" ref="132"></field>
+</record>
+
+<record model="parish" id="732">
+<field name="name">Ricaurte</field>
+<field name="canton_id" ref="133"></field>
+</record>
+
+<record model="parish" id="733">
+<field name="name">Catarama</field>
+<field name="canton_id" ref="133"></field>
+</record>
+
+<record model="parish" id="734">
+<field name="name">Valencia</field>
+<field name="canton_id" ref="134"></field>
+</record>
+
+<record model="parish" id="735">
+<field name="name">La Unión</field>
+<field name="canton_id" ref="134"></field>
+</record>
+
+<record model="parish" id="736">
+<field name="name">Nueva Unión</field>
+<field name="canton_id" ref="134"></field>
+</record>
+
+<record model="parish" id="737">
+<field name="name">Zapotal</field>
+<field name="canton_id" ref="135"></field>
+</record>
+
+<record model="parish" id="738">
+<field name="name">Los Ángeles</field>
+<field name="canton_id" ref="135"></field>
+</record>
+
+<record model="parish" id="739">
+<field name="name">Chacarita</field>
+<field name="canton_id" ref="135"></field>
+</record>
+
+<record model="parish" id="740">
+<field name="name">Ventanas</field>
+<field name="canton_id" ref="135"></field>
+</record>
+
+<record model="parish" id="741">
+<field name="name">10 de Noviembre</field>
+<field name="canton_id" ref="135"></field>
+</record>
+
+<record model="parish" id="742">
+<field name="name">Antonio Sotomayor</field>
+<field name="canton_id" ref="136"></field>
+</record>
+
+<record model="parish" id="743">
+<field name="name">Bagatela</field>
+<field name="canton_id" ref="136"></field>
+</record>
+
+<record model="parish" id="744">
+<field name="name">Vinces</field>
+<field name="canton_id" ref="136"></field>
+</record>
+
+<record model="parish" id="745">
+<field name="name">San Lorenzo</field>
+<field name="canton_id" ref="136"></field>
+</record>
+
+<record model="parish" id="746">
+<field name="name">Balsar de Vinces</field>
+<field name="canton_id" ref="136"></field>
+</record>
+
+<record model="parish" id="747">
+<field name="name">Membrillo</field>
+<field name="canton_id" ref="137"></field>
+</record>
+
+<record model="parish" id="748">
+<field name="name">Quiroga</field>
+<field name="canton_id" ref="137"></field>
+</record>
+
+<record model="parish" id="749">
+<field name="name">Calceta</field>
+<field name="canton_id" ref="137"></field>
+</record>
+
+<record model="parish" id="750">
+<field name="name">Boyacá</field>
+<field name="canton_id" ref="138"></field>
+</record>
+
+<record model="parish" id="751">
+<field name="name">Canuto</field>
+<field name="canton_id" ref="138"></field>
+</record>
+
+<record model="parish" id="752">
+<field name="name">Chibunga</field>
+<field name="canton_id" ref="138"></field>
+</record>
+
+<record model="parish" id="753">
+<field name="name">Convento</field>
+<field name="canton_id" ref="138"></field>
+</record>
+
+<record model="parish" id="754">
+<field name="name">Eloy Alfaro</field>
+<field name="canton_id" ref="138"></field>
+</record>
+
+<record model="parish" id="755">
+<field name="name">Ricaurte</field>
+<field name="canton_id" ref="138"></field>
+</record>
+
+<record model="parish" id="756">
+<field name="name">San Antonio</field>
+<field name="canton_id" ref="138"></field>
+</record>
+
+<record model="parish" id="757">
+<field name="name">Chone</field>
+<field name="canton_id" ref="138"></field>
+</record>
+
+<record model="parish" id="758">
+<field name="name">Santa Rita</field>
+<field name="canton_id" ref="138"></field>
+</record>
+
+<record model="parish" id="759">
+<field name="name">San Pedro de Suma</field>
+<field name="canton_id" ref="139"></field>
+</record>
+
+<record model="parish" id="760">
+<field name="name">El Maicito</field>
+<field name="canton_id" ref="139"></field>
+</record>
+
+<record model="parish" id="761">
+<field name="name">4 de Diciembre</field>
+<field name="canton_id" ref="139"></field>
+</record>
+
+<record model="parish" id="762">
+<field name="name">El Carmen</field>
+<field name="canton_id" ref="139"></field>
+</record>
+
+<record model="parish" id="763">
+<field name="name">San Francisco de Novillo</field>
+<field name="canton_id" ref="140"></field>
+</record>
+
+<record model="parish" id="764">
+<field name="name">Zapallo</field>
+<field name="canton_id" ref="140"></field>
+</record>
+
+<record model="parish" id="765">
+<field name="name">Flavio Alfaro</field>
+<field name="canton_id" ref="140"></field>
+</record>
+
+<record model="parish" id="766">
+<field name="name">Jama</field>
+<field name="canton_id" ref="141"></field>
+</record>
+
+<record model="parish" id="767">
+<field name="name">Jaramijó</field>
+<field name="canton_id" ref="142"></field>
+</record>
+
+<record model="parish" id="768">
+<field name="name">América</field>
+<field name="canton_id" ref="143"></field>
+</record>
+
+<record model="parish" id="769">
+<field name="name">El Anegado</field>
+<field name="canton_id" ref="143"></field>
+</record>
+
+<record model="parish" id="770">
+<field name="name">La Unión</field>
+<field name="canton_id" ref="143"></field>
+</record>
+
+<record model="parish" id="771">
+<field name="name">Julcuy</field>
+<field name="canton_id" ref="143"></field>
+</record>
+
+<record model="parish" id="772">
+<field name="name">Pedro Pablo Gómez</field>
+<field name="canton_id" ref="143"></field>
+</record>
+
+<record model="parish" id="773">
+<field name="name">Puerto Cayo</field>
+<field name="canton_id" ref="143"></field>
+</record>
+
+<record model="parish" id="774">
+<field name="name">Membrillal</field>
+<field name="canton_id" ref="143"></field>
+</record>
+
+<record model="parish" id="775">
+<field name="name">Dr. Miguel Morán Lucio</field>
+<field name="canton_id" ref="143"></field>
+</record>
+
+<record model="parish" id="776">
+<field name="name">Manuel Inocencio Parrales y Guale</field>
+<field name="canton_id" ref="143"></field>
+</record>
+
+<record model="parish" id="777">
+<field name="name">San Lorenzo de Jipijapa</field>
+<field name="canton_id" ref="143"></field>
+</record>
+
+<record model="parish" id="778">
+<field name="name">Junín</field>
+<field name="canton_id" ref="144"></field>
+</record>
+
+<record model="parish" id="779">
+<field name="name">San Lorenzo</field>
+<field name="canton_id" ref="145"></field>
+</record>
+
+<record model="parish" id="780">
+<field name="name">Santa Marianita</field>
+<field name="canton_id" ref="145"></field>
+</record>
+
+<record model="parish" id="781">
+<field name="name">Eloy Alfaro</field>
+<field name="canton_id" ref="145"></field>
+</record>
+
+<record model="parish" id="782">
+<field name="name">Los Esteros</field>
+<field name="canton_id" ref="145"></field>
+</record>
+
+<record model="parish" id="783">
+<field name="name">Manta</field>
+<field name="canton_id" ref="145"></field>
+</record>
+
+<record model="parish" id="784">
+<field name="name">San Mateo</field>
+<field name="canton_id" ref="145"></field>
+</record>
+
+<record model="parish" id="785">
+<field name="name">Tarqui</field>
+<field name="canton_id" ref="145"></field>
+</record>
+
+<record model="parish" id="786">
+<field name="name">La Pila</field>
+<field name="canton_id" ref="146"></field>
+</record>
+
+<record model="parish" id="787">
+<field name="name">Montecristi</field>
+<field name="canton_id" ref="146"></field>
+</record>
+
+<record model="parish" id="788">
+<field name="name">El Colorado</field>
+<field name="canton_id" ref="146"></field>
+</record>
+
+<record model="parish" id="789">
+<field name="name">Eloy Alfaro</field>
+<field name="canton_id" ref="146"></field>
+</record>
+
+<record model="parish" id="790">
+<field name="name">Leonidas Proaño</field>
+<field name="canton_id" ref="146"></field>
+</record>
+
+<record model="parish" id="791">
+<field name="name">Olmedo</field>
+<field name="canton_id" ref="147"></field>
+</record>
+
+<record model="parish" id="792">
+<field name="name">Campozano</field>
+<field name="canton_id" ref="148"></field>
+</record>
+
+<record model="parish" id="793">
+<field name="name">Cascol</field>
+<field name="canton_id" ref="148"></field>
+</record>
+
+<record model="parish" id="794">
+<field name="name">Guale</field>
+<field name="canton_id" ref="148"></field>
+</record>
+
+<record model="parish" id="795">
+<field name="name">Lascano</field>
+<field name="canton_id" ref="148"></field>
+</record>
+
+<record model="parish" id="796">
+<field name="name">Paján</field>
+<field name="canton_id" ref="148"></field>
+</record>
+
+<record model="parish" id="797">
+<field name="name">10 de Agosto</field>
+<field name="canton_id" ref="149"></field>
+</record>
+
+<record model="parish" id="798">
+<field name="name">Atahualpa</field>
+<field name="canton_id" ref="149"></field>
+</record>
+
+<record model="parish" id="799">
+<field name="name">Cojimíes</field>
+<field name="canton_id" ref="149"></field>
+</record>
+
+<record model="parish" id="800">
+<field name="name">Pedernales</field>
+<field name="canton_id" ref="149"></field>
+</record>
+
+<record model="parish" id="801">
+<field name="name">Barraganete</field>
+<field name="canton_id" ref="150"></field>
+</record>
+
+<record model="parish" id="802">
+<field name="name">San Sebastián</field>
+<field name="canton_id" ref="150"></field>
+</record>
+
+<record model="parish" id="803">
+<field name="name">Pichincha</field>
+<field name="canton_id" ref="150"></field>
+</record>
+
+<record model="parish" id="804">
+<field name="name">Abdón Calderón</field>
+<field name="canton_id" ref="151"></field>
+</record>
+
+<record model="parish" id="805">
+<field name="name">Alhajuela</field>
+<field name="canton_id" ref="151"></field>
+</record>
+
+<record model="parish" id="806">
+<field name="name">Chirijos</field>
+<field name="canton_id" ref="151"></field>
+</record>
+
+<record model="parish" id="807">
+<field name="name">Crucita</field>
+<field name="canton_id" ref="151"></field>
+</record>
+
+<record model="parish" id="808">
+<field name="name">Pueblo Nuevo</field>
+<field name="canton_id" ref="151"></field>
+</record>
+
+<record model="parish" id="809">
+<field name="name">Riochico</field>
+<field name="canton_id" ref="151"></field>
+</record>
+
+<record model="parish" id="810">
+<field name="name">San Plácido</field>
+<field name="canton_id" ref="151"></field>
+</record>
+
+<record model="parish" id="811">
+<field name="name">12 de Marzo</field>
+<field name="canton_id" ref="151"></field>
+</record>
+
+<record model="parish" id="812">
+<field name="name">Andrés de Vera</field>
+<field name="canton_id" ref="151"></field>
+</record>
+
+<record model="parish" id="813">
+<field name="name">Colón</field>
+<field name="canton_id" ref="151"></field>
+</record>
+
+<record model="parish" id="814">
+<field name="name">Picoazá</field>
+<field name="canton_id" ref="151"></field>
+</record>
+
+<record model="parish" id="815">
+<field name="name">Portoviejo</field>
+<field name="canton_id" ref="151"></field>
+</record>
+
+<record model="parish" id="816">
+<field name="name">San Pablo</field>
+<field name="canton_id" ref="151"></field>
+</record>
+
+<record model="parish" id="817">
+<field name="name">Francisco Pacheco</field>
+<field name="canton_id" ref="151"></field>
+</record>
+
+<record model="parish" id="818">
+<field name="name">18 de Octubre</field>
+<field name="canton_id" ref="151"></field>
+</record>
+
+<record model="parish" id="819">
+<field name="name">Simón Bolívar</field>
+<field name="canton_id" ref="151"></field>
+</record>
+
+<record model="parish" id="820">
+<field name="name">Machalilla</field>
+<field name="canton_id" ref="152"></field>
+</record>
+
+<record model="parish" id="821">
+<field name="name">Salango</field>
+<field name="canton_id" ref="152"></field>
+</record>
+
+<record model="parish" id="822">
+<field name="name">Puerto López</field>
+<field name="canton_id" ref="152"></field>
+</record>
+
+<record model="parish" id="823">
+<field name="name">Rocafuerte</field>
+<field name="canton_id" ref="153"></field>
+</record>
+
+<record model="parish" id="824">
+<field name="name">Canoa</field>
+<field name="canton_id" ref="154"></field>
+</record>
+
+<record model="parish" id="825">
+<field name="name">San Vicente</field>
+<field name="canton_id" ref="154"></field>
+</record>
+
+<record model="parish" id="826">
+<field name="name">Ayacucho</field>
+<field name="canton_id" ref="155"></field>
+</record>
+
+<record model="parish" id="827">
+<field name="name">Honorato Vásquez</field>
+<field name="canton_id" ref="155"></field>
+</record>
+
+<record model="parish" id="828">
+<field name="name">La Unión</field>
+<field name="canton_id" ref="155"></field>
+</record>
+
+<record model="parish" id="829">
+<field name="name">San Pablo de Pueblo Nuevo</field>
+<field name="canton_id" ref="155"></field>
+</record>
+
+<record model="parish" id="830">
+<field name="name">Lodana</field>
+<field name="canton_id" ref="155"></field>
+</record>
+
+<record model="parish" id="831">
+<field name="name">Santa Ana</field>
+<field name="canton_id" ref="155"></field>
+</record>
+
+<record model="parish" id="832">
+<field name="name">Charapotó</field>
+<field name="canton_id" ref="156"></field>
+</record>
+
+<record model="parish" id="833">
+<field name="name">San Isidro</field>
+<field name="canton_id" ref="156"></field>
+</record>
+
+<record model="parish" id="834">
+<field name="name">Bahía de Caráquez</field>
+<field name="canton_id" ref="156"></field>
+</record>
+
+<record model="parish" id="835">
+<field name="name">Leonidas Plaza</field>
+<field name="canton_id" ref="156"></field>
+</record>
+
+<record model="parish" id="836">
+<field name="name">Bachillero</field>
+<field name="canton_id" ref="157"></field>
+</record>
+
+<record model="parish" id="837">
+<field name="name">Ángel Pedro Giler</field>
+<field name="canton_id" ref="157"></field>
+</record>
+
+<record model="parish" id="838">
+<field name="name">Tosagua</field>
+<field name="canton_id" ref="157"></field>
+</record>
+
+<record model="parish" id="839">
+<field name="name">Arq. Sixto Durán Ballén</field>
+<field name="canton_id" ref="158"></field>
+</record>
+
+<record model="parish" id="840">
+<field name="name">Bellavista</field>
+<field name="canton_id" ref="158"></field>
+</record>
+
+<record model="parish" id="841">
+<field name="name">Noboa</field>
+<field name="canton_id" ref="158"></field>
+</record>
+
+<record model="parish" id="842">
+<field name="name">24 de Mayo</field>
+<field name="canton_id" ref="158"></field>
+</record>
+
+<record model="parish" id="843">
+<field name="name">Amazonas</field>
+<field name="canton_id" ref="159"></field>
+</record>
+
+<record model="parish" id="844">
+<field name="name">Bermejos</field>
+<field name="canton_id" ref="159"></field>
+</record>
+
+<record model="parish" id="845">
+<field name="name">Bomboiza</field>
+<field name="canton_id" ref="159"></field>
+</record>
+
+<record model="parish" id="846">
+<field name="name">Chigüinda</field>
+<field name="canton_id" ref="159"></field>
+</record>
+
+<record model="parish" id="847">
+<field name="name">El Ideal</field>
+<field name="canton_id" ref="159"></field>
+</record>
+
+<record model="parish" id="848">
+<field name="name">El Rosario</field>
+<field name="canton_id" ref="159"></field>
+</record>
+
+<record model="parish" id="849">
+<field name="name">Nueva Tarqui</field>
+<field name="canton_id" ref="159"></field>
+</record>
+
+<record model="parish" id="850">
+<field name="name">San Miguel de Cuyes</field>
+<field name="canton_id" ref="159"></field>
+</record>
+
+<record model="parish" id="851">
+<field name="name">Gualaquiza</field>
+<field name="canton_id" ref="159"></field>
+</record>
+
+<record model="parish" id="852">
+<field name="name">Mercedes Molina</field>
+<field name="canton_id" ref="159"></field>
+</record>
+
+<record model="parish" id="853">
+<field name="name">Chiguaza</field>
+<field name="canton_id" ref="160"></field>
+</record>
+
+<record model="parish" id="854">
+<field name="name">Huamboya</field>
+<field name="canton_id" ref="160"></field>
+</record>
+
+<record model="parish" id="855">
+<field name="name">Indanza</field>
+<field name="canton_id" ref="161"></field>
+</record>
+
+<record model="parish" id="856">
+<field name="name">San Antonio</field>
+<field name="canton_id" ref="161"></field>
+</record>
+
+<record model="parish" id="857">
+<field name="name">Conchay</field>
+<field name="canton_id" ref="161"></field>
+</record>
+
+<record model="parish" id="858">
+<field name="name">Chiviaza</field>
+<field name="canton_id" ref="161"></field>
+</record>
+
+<record model="parish" id="859">
+<field name="name">Yunganza</field>
+<field name="canton_id" ref="161"></field>
+</record>
+
+<record model="parish" id="860">
+<field name="name">General Plaza</field>
+<field name="canton_id" ref="161"></field>
+</record>
+
+<record model="parish" id="861">
+<field name="name">Yaupi</field>
+<field name="canton_id" ref="162"></field>
+</record>
+
+<record model="parish" id="862">
+<field name="name">Shimps</field>
+<field name="canton_id" ref="162"></field>
+</record>
+
+<record model="parish" id="863">
+<field name="name">Logroño</field>
+<field name="canton_id" ref="162"></field>
+</record>
+
+<record model="parish" id="864">
+<field name="name">9 de Octubre</field>
+<field name="canton_id" ref="163"></field>
+</record>
+
+<record model="parish" id="865">
+<field name="name">Cuchaentza</field>
+<field name="canton_id" ref="163"></field>
+</record>
+
+<record model="parish" id="866">
+<field name="name">General Proaño</field>
+<field name="canton_id" ref="163"></field>
+</record>
+
+<record model="parish" id="867">
+<field name="name">Río Blanco</field>
+<field name="canton_id" ref="163"></field>
+</record>
+
+<record model="parish" id="868">
+<field name="name">San Isidro</field>
+<field name="canton_id" ref="163"></field>
+</record>
+
+<record model="parish" id="869">
+<field name="name">Sevilla Don Bosco</field>
+<field name="canton_id" ref="163"></field>
+</record>
+
+<record model="parish" id="870">
+<field name="name">Sinaí</field>
+<field name="canton_id" ref="163"></field>
+</record>
+
+<record model="parish" id="871">
+<field name="name">Zúñac</field>
+<field name="canton_id" ref="163"></field>
+</record>
+
+<record model="parish" id="872">
+<field name="name">Macas</field>
+<field name="canton_id" ref="163"></field>
+</record>
+
+<record model="parish" id="873">
+<field name="name">Pablo Sexto</field>
+<field name="canton_id" ref="164"></field>
+</record>
+
+<record model="parish" id="874">
+<field name="name">16 de Agosto</field>
+<field name="canton_id" ref="165"></field>
+</record>
+
+<record model="parish" id="875">
+<field name="name">Arapicos</field>
+<field name="canton_id" ref="165"></field>
+</record>
+
+<record model="parish" id="876">
+<field name="name">Cumandá</field>
+<field name="canton_id" ref="165"></field>
+</record>
+
+<record model="parish" id="877">
+<field name="name">Sangay</field>
+<field name="canton_id" ref="165"></field>
+</record>
+
+<record model="parish" id="878">
+<field name="name">Palora</field>
+<field name="canton_id" ref="165"></field>
+</record>
+
+<record model="parish" id="879">
+<field name="name">Pan de Azúcar</field>
+<field name="canton_id" ref="166"></field>
+</record>
+
+<record model="parish" id="880">
+<field name="name">Wakambéis</field>
+<field name="canton_id" ref="166"></field>
+</record>
+
+<record model="parish" id="881">
+<field name="name">San Carlos de Limón</field>
+<field name="canton_id" ref="166"></field>
+</record>
+
+<record model="parish" id="882">
+<field name="name">Pananza</field>
+<field name="canton_id" ref="166"></field>
+</record>
+
+<record model="parish" id="883">
+<field name="name">San Juan Bosco</field>
+<field name="canton_id" ref="166"></field>
+</record>
+
+<record model="parish" id="884">
+<field name="name">Chupianza</field>
+<field name="canton_id" ref="167"></field>
+</record>
+
+<record model="parish" id="885">
+<field name="name">Copal</field>
+<field name="canton_id" ref="167"></field>
+</record>
+
+<record model="parish" id="886">
+<field name="name">Chinimbimi</field>
+<field name="canton_id" ref="167"></field>
+</record>
+
+<record model="parish" id="887">
+<field name="name">El Acho</field>
+<field name="canton_id" ref="167"></field>
+</record>
+
+<record model="parish" id="888">
+<field name="name">Tayuza</field>
+<field name="canton_id" ref="167"></field>
+</record>
+
+<record model="parish" id="889">
+<field name="name">Patuca</field>
+<field name="canton_id" ref="167"></field>
+</record>
+
+<record model="parish" id="890">
+<field name="name">Santiago de Méndez</field>
+<field name="canton_id" ref="167"></field>
+</record>
+
+<record model="parish" id="891">
+<field name="name">Asunción</field>
+<field name="canton_id" ref="168"></field>
+</record>
+
+<record model="parish" id="892">
+<field name="name">Huambi</field>
+<field name="canton_id" ref="168"></field>
+</record>
+
+<record model="parish" id="893">
+<field name="name">Santa Marianita</field>
+<field name="canton_id" ref="168"></field>
+</record>
+
+<record model="parish" id="894">
+<field name="name">Sucúa</field>
+<field name="canton_id" ref="168"></field>
+</record>
+
+<record model="parish" id="895">
+<field name="name">Huasaga</field>
+<field name="canton_id" ref="169"></field>
+</record>
+
+<record model="parish" id="896">
+<field name="name">Macuma</field>
+<field name="canton_id" ref="169"></field>
+</record>
+
+<record model="parish" id="897">
+<field name="name">Tuutinentza</field>
+<field name="canton_id" ref="169"></field>
+</record>
+
+<record model="parish" id="898">
+<field name="name">Pumpuentsa</field>
+<field name="canton_id" ref="169"></field>
+</record>
+
+<record model="parish" id="899">
+<field name="name">Taisha</field>
+<field name="canton_id" ref="169"></field>
+</record>
+
+<record model="parish" id="900">
+<field name="name">San José de Morona</field>
+<field name="canton_id" ref="170"></field>
+</record>
+
+<record model="parish" id="901">
+<field name="name">Tiwintza</field>
+<field name="canton_id" ref="170"></field>
+</record>
+
+<record model="parish" id="902">
+<field name="name">Cotundo</field>
+<field name="canton_id" ref="171"></field>
+</record>
+
+<record model="parish" id="903">
+<field name="name">Ushpayacu</field>
+<field name="canton_id" ref="171"></field>
+</record>
+
+<record model="parish" id="904">
+<field name="name">Archidona</field>
+<field name="canton_id" ref="171"></field>
+</record>
+
+<record model="parish" id="905">
+<field name="name">Arosemena Tola</field>
+<field name="canton_id" ref="172"></field>
+</record>
+
+<record model="parish" id="906">
+<field name="name">Díaz de Pineda</field>
+<field name="canton_id" ref="173"></field>
+</record>
+
+<record model="parish" id="907">
+<field name="name">Linares</field>
+<field name="canton_id" ref="173"></field>
+</record>
+
+<record model="parish" id="908">
+<field name="name">Oyacachi</field>
+<field name="canton_id" ref="173"></field>
+</record>
+
+<record model="parish" id="909">
+<field name="name">Santa Rosa</field>
+<field name="canton_id" ref="173"></field>
+</record>
+
+<record model="parish" id="910">
+<field name="name">Sardinas</field>
+<field name="canton_id" ref="173"></field>
+</record>
+
+<record model="parish" id="911">
+<field name="name">El Chaco</field>
+<field name="canton_id" ref="173"></field>
+</record>
+
+<record model="parish" id="912">
+<field name="name">Cosanga</field>
+<field name="canton_id" ref="174"></field>
+</record>
+
+<record model="parish" id="913">
+<field name="name">Cuyuja</field>
+<field name="canton_id" ref="174"></field>
+</record>
+
+<record model="parish" id="914">
+<field name="name">Papallacta</field>
+<field name="canton_id" ref="174"></field>
+</record>
+
+<record model="parish" id="915">
+<field name="name">Borja</field>
+<field name="canton_id" ref="174"></field>
+</record>
+
+<record model="parish" id="916">
+<field name="name">Sumaco</field>
+<field name="canton_id" ref="174"></field>
+</record>
+
+<record model="parish" id="917">
+<field name="name">Baeza</field>
+<field name="canton_id" ref="174"></field>
+</record>
+
+<record model="parish" id="918">
+<field name="name">Ahuano</field>
+<field name="canton_id" ref="175"></field>
+</record>
+
+<record model="parish" id="919">
+<field name="name">Chontapunta</field>
+<field name="canton_id" ref="175"></field>
+</record>
+
+<record model="parish" id="920">
+<field name="name">Pano</field>
+<field name="canton_id" ref="175"></field>
+</record>
+
+<record model="parish" id="921">
+<field name="name">Misahuallí</field>
+<field name="canton_id" ref="175"></field>
+</record>
+
+<record model="parish" id="922">
+<field name="name">Puerto Napo</field>
+<field name="canton_id" ref="175"></field>
+</record>
+
+<record model="parish" id="923">
+<field name="name">Talag</field>
+<field name="canton_id" ref="175"></field>
+</record>
+
+<record model="parish" id="924">
+<field name="name">Tena</field>
+<field name="canton_id" ref="175"></field>
+</record>
+
+<record model="parish" id="925">
+<field name="name">Augusto Rivadeneira</field>
+<field name="canton_id" ref="176"></field>
+</record>
+
+<record model="parish" id="926">
+<field name="name">Cononaco</field>
+<field name="canton_id" ref="176"></field>
+</record>
+
+<record model="parish" id="927">
+<field name="name">Huiririma</field>
+<field name="canton_id" ref="176"></field>
+</record>
+
+<record model="parish" id="928">
+<field name="name">Tiputini</field>
+<field name="canton_id" ref="176"></field>
+</record>
+
+<record model="parish" id="929">
+<field name="name">Yasuní</field>
+<field name="canton_id" ref="176"></field>
+</record>
+
+<record model="parish" id="930">
+<field name="name">Nuevo Rocafuerte</field>
+<field name="canton_id" ref="176"></field>
+</record>
+
+<record model="parish" id="931">
+<field name="name">Alejandro Labaca</field>
+<field name="canton_id" ref="177"></field>
+</record>
+
+<record model="parish" id="932">
+<field name="name">Dayuma</field>
+<field name="canton_id" ref="177"></field>
+</record>
+
+<record model="parish" id="933">
+<field name="name">El Dorado</field>
+<field name="canton_id" ref="177"></field>
+</record>
+
+<record model="parish" id="934">
+<field name="name">El Edén</field>
+<field name="canton_id" ref="177"></field>
+</record>
+
+<record model="parish" id="935">
+<field name="name">García Moreno</field>
+<field name="canton_id" ref="177"></field>
+</record>
+
+<record model="parish" id="936">
+<field name="name">Inés Arango</field>
+<field name="canton_id" ref="177"></field>
+</record>
+
+<record model="parish" id="937">
+<field name="name">La Belleza</field>
+<field name="canton_id" ref="177"></field>
+</record>
+
+<record model="parish" id="938">
+<field name="name">Nuevo Paraíso</field>
+<field name="canton_id" ref="177"></field>
+</record>
+
+<record model="parish" id="939">
+<field name="name">Guayusa</field>
+<field name="canton_id" ref="177"></field>
+</record>
+
+<record model="parish" id="940">
+<field name="name">Armenia</field>
+<field name="canton_id" ref="177"></field>
+</record>
+
+<record model="parish" id="941">
+<field name="name">Taracoa</field>
+<field name="canton_id" ref="177"></field>
+</record>
+
+<record model="parish" id="942">
+<field name="name">Francisco de Orellana</field>
+<field name="canton_id" ref="177"></field>
+</record>
+
+<record model="parish" id="943">
+<field name="name">Enokanqui</field>
+<field name="canton_id" ref="178"></field>
+</record>
+
+<record model="parish" id="944">
+<field name="name">Lago San Pedro</field>
+<field name="canton_id" ref="178"></field>
+</record>
+
+<record model="parish" id="945">
+<field name="name">Pompeya</field>
+<field name="canton_id" ref="178"></field>
+</record>
+
+<record model="parish" id="946">
+<field name="name">Rumipamba</field>
+<field name="canton_id" ref="178"></field>
+</record>
+
+<record model="parish" id="947">
+<field name="name">San Carlos</field>
+<field name="canton_id" ref="178"></field>
+</record>
+
+<record model="parish" id="948">
+<field name="name">San Sebastián del Coca</field>
+<field name="canton_id" ref="178"></field>
+</record>
+
+<record model="parish" id="949">
+<field name="name">Tres de Noviembre</field>
+<field name="canton_id" ref="178"></field>
+</record>
+
+<record model="parish" id="950">
+<field name="name">Unión Milagreña</field>
+<field name="canton_id" ref="178"></field>
+</record>
+
+<record model="parish" id="951">
+<field name="name">La Joya de los Sachas</field>
+<field name="canton_id" ref="178"></field>
+</record>
+
+<record model="parish" id="952">
+<field name="name">Ávila</field>
+<field name="canton_id" ref="179"></field>
+</record>
+
+<record model="parish" id="953">
+<field name="name">Puerto Murialdo</field>
+<field name="canton_id" ref="179"></field>
+</record>
+
+<record model="parish" id="954">
+<field name="name">Huaticocha</field>
+<field name="canton_id" ref="179"></field>
+</record>
+
+<record model="parish" id="955">
+<field name="name">Dahuano</field>
+<field name="canton_id" ref="179"></field>
+</record>
+
+<record model="parish" id="956">
+<field name="name">Payamino</field>
+<field name="canton_id" ref="179"></field>
+</record>
+
+<record model="parish" id="957">
+<field name="name">Lotero</field>
+<field name="canton_id" ref="179"></field>
+</record>
+
+<record model="parish" id="958">
+<field name="name">Curaray</field>
+<field name="canton_id" ref="180"></field>
+</record>
+
+<record model="parish" id="959">
+<field name="name">Arajuno</field>
+<field name="canton_id" ref="180"></field>
+</record>
+
+<record model="parish" id="960">
+<field name="name">Madre Tierra</field>
+<field name="canton_id" ref="181"></field>
+</record>
+
+<record model="parish" id="961">
+<field name="name">Shell</field>
+<field name="canton_id" ref="181"></field>
+</record>
+
+<record model="parish" id="962">
+<field name="name">Mera</field>
+<field name="canton_id" ref="181"></field>
+</record>
+
+<record model="parish" id="963">
+<field name="name">Canelos</field>
+<field name="canton_id" ref="182"></field>
+</record>
+
+<record model="parish" id="964">
+<field name="name">10 de Agosto</field>
+<field name="canton_id" ref="182"></field>
+</record>
+
+<record model="parish" id="965">
+<field name="name">El Triunfo</field>
+<field name="canton_id" ref="182"></field>
+</record>
+
+<record model="parish" id="966">
+<field name="name">Fátima</field>
+<field name="canton_id" ref="182"></field>
+</record>
+
+<record model="parish" id="967">
+<field name="name">Montalvo</field>
+<field name="canton_id" ref="182"></field>
+</record>
+
+<record model="parish" id="968">
+<field name="name">Pomona</field>
+<field name="canton_id" ref="182"></field>
+</record>
+
+<record model="parish" id="969">
+<field name="name">Río Corrientes</field>
+<field name="canton_id" ref="182"></field>
+</record>
+
+<record model="parish" id="970">
+<field name="name">Río Tigre</field>
+<field name="canton_id" ref="182"></field>
+</record>
+
+<record model="parish" id="971">
+<field name="name">Sarayacu</field>
+<field name="canton_id" ref="182"></field>
+</record>
+
+<record model="parish" id="972">
+<field name="name">Simón Bolívar</field>
+<field name="canton_id" ref="182"></field>
+</record>
+
+<record model="parish" id="973">
+<field name="name">Teniente Hugo Ortíz</field>
+<field name="canton_id" ref="182"></field>
+</record>
+
+<record model="parish" id="974">
+<field name="name">Veracruz</field>
+<field name="canton_id" ref="182"></field>
+</record>
+
+<record model="parish" id="975">
+<field name="name">Puyo</field>
+<field name="canton_id" ref="182"></field>
+</record>
+
+<record model="parish" id="976">
+<field name="name">Tarqui</field>
+<field name="canton_id" ref="182"></field>
+</record>
+
+<record model="parish" id="977">
+<field name="name">San José</field>
+<field name="canton_id" ref="183"></field>
+</record>
+
+<record model="parish" id="978">
+<field name="name">Santa Clara</field>
+<field name="canton_id" ref="183"></field>
+</record>
+
+<record model="parish" id="979">
+<field name="name">Ascázubi</field>
+<field name="canton_id" ref="184"></field>
+</record>
+
+<record model="parish" id="980">
+<field name="name">Cangahua</field>
+<field name="canton_id" ref="184"></field>
+</record>
+
+<record model="parish" id="981">
+<field name="name">Olmedo</field>
+<field name="canton_id" ref="184"></field>
+</record>
+
+<record model="parish" id="982">
+<field name="name">Otón</field>
+<field name="canton_id" ref="184"></field>
+</record>
+
+<record model="parish" id="983">
+<field name="name">Cuzubamba</field>
+<field name="canton_id" ref="184"></field>
+</record>
+
+<record model="parish" id="984">
+<field name="name">Ayora</field>
+<field name="canton_id" ref="184"></field>
+</record>
+
+<record model="parish" id="985">
+<field name="name">Cayambe</field>
+<field name="canton_id" ref="184"></field>
+</record>
+
+<record model="parish" id="986">
+<field name="name">Juan Montalvo</field>
+<field name="canton_id" ref="184"></field>
+</record>
+
+<record model="parish" id="987">
+<field name="name">Alóag</field>
+<field name="canton_id" ref="185"></field>
+</record>
+
+<record model="parish" id="988">
+<field name="name">Aloasí</field>
+<field name="canton_id" ref="185"></field>
+</record>
+
+<record model="parish" id="989">
+<field name="name">Cutuglahua</field>
+<field name="canton_id" ref="185"></field>
+</record>
+
+<record model="parish" id="990">
+<field name="name">El Chaupi</field>
+<field name="canton_id" ref="185"></field>
+</record>
+
+<record model="parish" id="991">
+<field name="name">Manuel Cornejo Astorga</field>
+<field name="canton_id" ref="185"></field>
+</record>
+
+<record model="parish" id="992">
+<field name="name">Tambillo</field>
+<field name="canton_id" ref="185"></field>
+</record>
+
+<record model="parish" id="993">
+<field name="name">Uyumbicho</field>
+<field name="canton_id" ref="185"></field>
+</record>
+
+<record model="parish" id="994">
+<field name="name">Machachi</field>
+<field name="canton_id" ref="185"></field>
+</record>
+
+<record model="parish" id="995">
+<field name="name">La Esperanza</field>
+<field name="canton_id" ref="186"></field>
+</record>
+
+<record model="parish" id="996">
+<field name="name">Malchinguí</field>
+<field name="canton_id" ref="186"></field>
+</record>
+
+<record model="parish" id="997">
+<field name="name">Tocachi</field>
+<field name="canton_id" ref="186"></field>
+</record>
+
+<record model="parish" id="998">
+<field name="name">Tupigachi</field>
+<field name="canton_id" ref="186"></field>
+</record>
+
+<record model="parish" id="999">
+<field name="name">Tabacundo</field>
+<field name="canton_id" ref="186"></field>
+</record>
+
+<record model="parish" id="1000">
+<field name="name">Pedro Vicente Maldonado</field>
+<field name="canton_id" ref="187"></field>
+</record>
+
+<record model="parish" id="1001">
+<field name="name">Puerto Quito</field>
+<field name="canton_id" ref="188"></field>
+</record>
+
+<record model="parish" id="1002">
+<field name="name">Alangasí</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1003">
+<field name="name">Amaguaña</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1004">
+<field name="name">Atahualpa</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1005">
+<field name="name">Calacalí</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1006">
+<field name="name">Calderón</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1007">
+<field name="name">Chavezpamba</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1008">
+<field name="name">Checa</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1009">
+<field name="name">Conocoto</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1010">
+<field name="name">Cumbayá</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1011">
+<field name="name">El Quinche</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1012">
+<field name="name">Gualea</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1013">
+<field name="name">Guangopolo</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1014">
+<field name="name">Guayllabamba</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1015">
+<field name="name">La Merced</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1016">
+<field name="name">Llano Chico</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1017">
+<field name="name">Lloa</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1018">
+<field name="name">Nanegal</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1019">
+<field name="name">Nanegalito</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1020">
+<field name="name">Nayón</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1021">
+<field name="name">Nono</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1022">
+<field name="name">Pacto</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1023">
+<field name="name">Perucho</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1024">
+<field name="name">Pifo</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1025">
+<field name="name">Píntag</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1026">
+<field name="name">Pomasqui</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1027">
+<field name="name">Puéllaro</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1028">
+<field name="name">Puembo</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1029">
+<field name="name">San Antonio</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1030">
+<field name="name">San José de Minas</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1031">
+<field name="name">Tababela</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1032">
+<field name="name">Tumbaco</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1033">
+<field name="name">Yaruquí</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1034">
+<field name="name">Zámbiza</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1035">
+<field name="name">Carcelén</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1036">
+<field name="name">Centro Histórico</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1037">
+<field name="name">Chillogallo</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1038">
+<field name="name">El Inca</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1039">
+<field name="name">Cochapamba</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1040">
+<field name="name">Comité del Pueblo</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1041">
+<field name="name">La Concepción</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1042">
+<field name="name">Chilibulo</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1043">
+<field name="name">Cotocollao</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1044">
+<field name="name">El Condado</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1045">
+<field name="name">Guamaní</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1046">
+<field name="name">Chimbacalle</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1047">
+<field name="name">La Magdalena</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1048">
+<field name="name">Iñaquito</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1049">
+<field name="name">Itchimbía</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1050">
+<field name="name">Belisario Quevedo</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1051">
+<field name="name">Jipijapa</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1052">
+<field name="name">Kennedy</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1053">
+<field name="name">La Argelia</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1054">
+<field name="name">La Ecuatoriana</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1055">
+<field name="name">La Ferroviaria</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1056">
+<field name="name">La Libertad</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1057">
+<field name="name">La Mena</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1058">
+<field name="name">Mariscal Sucre</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1059">
+<field name="name">Ponceano</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1060">
+<field name="name">Puengasí</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1061">
+<field name="name">Quitumbe</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1062">
+<field name="name">Rumipamba</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1063">
+<field name="name">San Bartolo</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1064">
+<field name="name">San Juan</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1065">
+<field name="name">Solanda</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1066">
+<field name="name">Turubamba</field>
+<field name="canton_id" ref="189"></field>
+</record>
+
+<record model="parish" id="1067">
+<field name="name">Cotogchoa</field>
+<field name="canton_id" ref="190"></field>
+</record>
+
+<record model="parish" id="1068">
+<field name="name">Rumipamba</field>
+<field name="canton_id" ref="190"></field>
+</record>
+
+<record model="parish" id="1069">
+<field name="name">San Rafael</field>
+<field name="canton_id" ref="190"></field>
+</record>
+
+<record model="parish" id="1070">
+<field name="name">Sangolquí</field>
+<field name="canton_id" ref="190"></field>
+</record>
+
+<record model="parish" id="1071">
+<field name="name">Taboada</field>
+<field name="canton_id" ref="190"></field>
+</record>
+
+<record model="parish" id="1072">
+<field name="name">Mindo</field>
+<field name="canton_id" ref="191"></field>
+</record>
+
+<record model="parish" id="1073">
+<field name="name">San Miguel de los Bancos</field>
+<field name="canton_id" ref="191"></field>
+</record>
+
+<record model="parish" id="1074">
+<field name="name">La Libertad</field>
+<field name="canton_id" ref="192"></field>
+</record>
+
+<record model="parish" id="1075">
+<field name="name">Anconcito</field>
+<field name="canton_id" ref="193"></field>
+</record>
+
+<record model="parish" id="1076">
+<field name="name">José Luis Tamayo</field>
+<field name="canton_id" ref="193"></field>
+</record>
+
+<record model="parish" id="1077">
+<field name="name">Carlos Espinoza Larrea</field>
+<field name="canton_id" ref="193"></field>
+</record>
+
+<record model="parish" id="1078">
+<field name="name">Enríquez Gallo</field>
+<field name="canton_id" ref="193"></field>
+</record>
+
+<record model="parish" id="1079">
+<field name="name">Vicente Rocafuerte</field>
+<field name="canton_id" ref="193"></field>
+</record>
+
+<record model="parish" id="1080">
+<field name="name">Santa Rosa</field>
+<field name="canton_id" ref="193"></field>
+</record>
+
+<record model="parish" id="1081">
+<field name="name">Atahualpa</field>
+<field name="canton_id" ref="194"></field>
+</record>
+
+<record model="parish" id="1082">
+<field name="name">Colonche</field>
+<field name="canton_id" ref="194"></field>
+</record>
+
+<record model="parish" id="1083">
+<field name="name">Chanduy</field>
+<field name="canton_id" ref="194"></field>
+</record>
+
+<record model="parish" id="1084">
+<field name="name">Manglaralto</field>
+<field name="canton_id" ref="194"></field>
+</record>
+
+<record model="parish" id="1085">
+<field name="name">Simón Bolívar</field>
+<field name="canton_id" ref="194"></field>
+</record>
+
+<record model="parish" id="1086">
+<field name="name">Ancón</field>
+<field name="canton_id" ref="194"></field>
+</record>
+
+<record model="parish" id="1087">
+<field name="name">Ballenita</field>
+<field name="canton_id" ref="194"></field>
+</record>
+
+<record model="parish" id="1088">
+<field name="name">Santa Elena</field>
+<field name="canton_id" ref="194"></field>
+</record>
+
+<record model="parish" id="1089">
+<field name="name">Monterrey</field>
+<field name="canton_id" ref="195"></field>
+</record>
+
+<record model="parish" id="1090">
+<field name="name">Las Villegas</field>
+<field name="canton_id" ref="195"></field>
+</record>
+
+<record model="parish" id="1091">
+<field name="name">Plan Piloto</field>
+<field name="canton_id" ref="195"></field>
+</record>
+
+<record model="parish" id="1092">
+<field name="name">La Concordia</field>
+<field name="canton_id" ref="195"></field>
+</record>
+
+<record model="parish" id="1093">
+<field name="name">Alluriquín</field>
+<field name="canton_id" ref="196"></field>
+</record>
+
+<record model="parish" id="1094">
+<field name="name">Luz de América</field>
+<field name="canton_id" ref="196"></field>
+</record>
+
+<record model="parish" id="1095">
+<field name="name">Puerto Limón</field>
+<field name="canton_id" ref="196"></field>
+</record>
+
+<record model="parish" id="1096">
+<field name="name">Valle Hermoso</field>
+<field name="canton_id" ref="196"></field>
+</record>
+
+<record model="parish" id="1097">
+<field name="name">San Jacinto del Búa</field>
+<field name="canton_id" ref="196"></field>
+</record>
+
+<record model="parish" id="1098">
+<field name="name">El Esfuerzo</field>
+<field name="canton_id" ref="196"></field>
+</record>
+
+<record model="parish" id="1099">
+<field name="name">Santa María del Toachi</field>
+<field name="canton_id" ref="196"></field>
+</record>
+
+<record model="parish" id="1100">
+<field name="name">Abraham Calazacón</field>
+<field name="canton_id" ref="196"></field>
+</record>
+
+<record model="parish" id="1101">
+<field name="name">Bombolí</field>
+<field name="canton_id" ref="196"></field>
+</record>
+
+<record model="parish" id="1102">
+<field name="name">Chiguilpe</field>
+<field name="canton_id" ref="196"></field>
+</record>
+
+<record model="parish" id="1103">
+<field name="name">Río Toachi</field>
+<field name="canton_id" ref="196"></field>
+</record>
+
+<record model="parish" id="1104">
+<field name="name">Río Verde</field>
+<field name="canton_id" ref="196"></field>
+</record>
+
+<record model="parish" id="1105">
+<field name="name">Santo Domingo</field>
+<field name="canton_id" ref="196"></field>
+</record>
+
+<record model="parish" id="1106">
+<field name="name">Zaracay</field>
+<field name="canton_id" ref="196"></field>
+</record>
+
+<record model="parish" id="1107">
+<field name="name">El Dorado</field>
+<field name="canton_id" ref="197"></field>
+</record>
+
+<record model="parish" id="1108">
+<field name="name">Sevilla</field>
+<field name="canton_id" ref="197"></field>
+</record>
+
+<record model="parish" id="1109">
+<field name="name">Santa Rosa</field>
+<field name="canton_id" ref="197"></field>
+</record>
+
+<record model="parish" id="1110">
+<field name="name">Aguas Negras</field>
+<field name="canton_id" ref="198"></field>
+</record>
+
+<record model="parish" id="1111">
+<field name="name">Cuyabeno</field>
+<field name="canton_id" ref="198"></field>
+</record>
+
+<record model="parish" id="1112">
+<field name="name">Tarapoa</field>
+<field name="canton_id" ref="198"></field>
+</record>
+
+<record model="parish" id="1113">
+<field name="name">El Reventador</field>
+<field name="canton_id" ref="199"></field>
+</record>
+
+<record model="parish" id="1114">
+<field name="name">Gonzalo Pizarro</field>
+<field name="canton_id" ref="199"></field>
+</record>
+
+<record model="parish" id="1115">
+<field name="name">Puerto Libre</field>
+<field name="canton_id" ref="199"></field>
+</record>
+
+<record model="parish" id="1116">
+<field name="name">Lumbaqui</field>
+<field name="canton_id" ref="199"></field>
+</record>
+
+<record model="parish" id="1117">
+<field name="name">Dureno</field>
+<field name="canton_id" ref="200"></field>
+</record>
+
+<record model="parish" id="1118">
+<field name="name">El Eno</field>
+<field name="canton_id" ref="200"></field>
+</record>
+
+<record model="parish" id="1119">
+<field name="name">General Farfán</field>
+<field name="canton_id" ref="200"></field>
+</record>
+
+<record model="parish" id="1120">
+<field name="name">Jambelí</field>
+<field name="canton_id" ref="200"></field>
+</record>
+
+<record model="parish" id="1121">
+<field name="name">Pacayacu</field>
+<field name="canton_id" ref="200"></field>
+</record>
+
+<record model="parish" id="1122">
+<field name="name">Santa Cecilia</field>
+<field name="canton_id" ref="200"></field>
+</record>
+
+<record model="parish" id="1123">
+<field name="name">Nueva Loja</field>
+<field name="canton_id" ref="200"></field>
+</record>
+
+<record model="parish" id="1124">
+<field name="name">Palma Roja</field>
+<field name="canton_id" ref="201"></field>
+</record>
+
+<record model="parish" id="1125">
+<field name="name">Puerto Bolívar</field>
+<field name="canton_id" ref="201"></field>
+</record>
+
+<record model="parish" id="1126">
+<field name="name">Puerto Rodríguez</field>
+<field name="canton_id" ref="201"></field>
+</record>
+
+<record model="parish" id="1127">
+<field name="name">Santa Elena</field>
+<field name="canton_id" ref="201"></field>
+</record>
+
+<record model="parish" id="1128">
+<field name="name">Puerto El Carmen</field>
+<field name="canton_id" ref="201"></field>
+</record>
+
+<record model="parish" id="1129">
+<field name="name">Limoncocha</field>
+<field name="canton_id" ref="202"></field>
+</record>
+
+<record model="parish" id="1130">
+<field name="name">Pañacocha</field>
+<field name="canton_id" ref="202"></field>
+</record>
+
+<record model="parish" id="1131">
+<field name="name">Cofanes</field>
+<field name="canton_id" ref="202"></field>
+</record>
+
+<record model="parish" id="1132">
+<field name="name">San Roque</field>
+<field name="canton_id" ref="202"></field>
+</record>
+
+<record model="parish" id="1133">
+<field name="name">Siete de Julio</field>
+<field name="canton_id" ref="202"></field>
+</record>
+
+<record model="parish" id="1134">
+<field name="name">Shushufindi</field>
+<field name="canton_id" ref="202"></field>
+</record>
+
+<record model="parish" id="1135">
+<field name="name">El Playón de San Francisco</field>
+<field name="canton_id" ref="203"></field>
+</record>
+
+<record model="parish" id="1136">
+<field name="name">La Sofía</field>
+<field name="canton_id" ref="203"></field>
+</record>
+
+<record model="parish" id="1137">
+<field name="name">Rosa Florida</field>
+<field name="canton_id" ref="203"></field>
+</record>
+
+<record model="parish" id="1138">
+<field name="name">Santa Bárbara</field>
+<field name="canton_id" ref="203"></field>
+</record>
+
+<record model="parish" id="1139">
+<field name="name">La Bonita</field>
+<field name="canton_id" ref="203"></field>
+</record>
+
+<record model="parish" id="1140">
+<field name="name">Ambatillo</field>
+<field name="canton_id" ref="204"></field>
+</record>
+
+<record model="parish" id="1141">
+<field name="name">Atahualpa - Ambato</field>
+<field name="canton_id" ref="204"></field>
+</record>
+
+<record model="parish" id="1142">
+<field name="name">Augusto N. Martínez</field>
+<field name="canton_id" ref="204"></field>
+</record>
+
+<record model="parish" id="1143">
+<field name="name">Constantino Fernández</field>
+<field name="canton_id" ref="204"></field>
+</record>
+
+<record model="parish" id="1144">
+<field name="name">Cunchibamba</field>
+<field name="canton_id" ref="204"></field>
+</record>
+
+<record model="parish" id="1145">
+<field name="name">Huachi Grande</field>
+<field name="canton_id" ref="204"></field>
+</record>
+
+<record model="parish" id="1146">
+<field name="name">Izamba</field>
+<field name="canton_id" ref="204"></field>
+</record>
+
+<record model="parish" id="1147">
+<field name="name">Juan Benigno Vela</field>
+<field name="canton_id" ref="204"></field>
+</record>
+
+<record model="parish" id="1148">
+<field name="name">Montalvo</field>
+<field name="canton_id" ref="204"></field>
+</record>
+
+<record model="parish" id="1149">
+<field name="name">Pasa</field>
+<field name="canton_id" ref="204"></field>
+</record>
+
+<record model="parish" id="1150">
+<field name="name">Picaihua</field>
+<field name="canton_id" ref="204"></field>
+</record>
+
+<record model="parish" id="1151">
+<field name="name">Pilahuín</field>
+<field name="canton_id" ref="204"></field>
+</record>
+
+<record model="parish" id="1152">
+<field name="name">Quisapincha</field>
+<field name="canton_id" ref="204"></field>
+</record>
+
+<record model="parish" id="1153">
+<field name="name">Pinllo</field>
+<field name="canton_id" ref="204"></field>
+</record>
+
+<record model="parish" id="1154">
+<field name="name">San Fernando</field>
+<field name="canton_id" ref="204"></field>
+</record>
+
+<record model="parish" id="1155">
+<field name="name">Santa Rosa</field>
+<field name="canton_id" ref="204"></field>
+</record>
+
+<record model="parish" id="1156">
+<field name="name">Totoras</field>
+<field name="canton_id" ref="204"></field>
+</record>
+
+<record model="parish" id="1157">
+<field name="name">Unamuncho</field>
+<field name="canton_id" ref="204"></field>
+</record>
+
+<record model="parish" id="1158">
+<field name="name">Atocha</field>
+<field name="canton_id" ref="204"></field>
+</record>
+
+<record model="parish" id="1159">
+<field name="name">Celiano Monge</field>
+<field name="canton_id" ref="204"></field>
+</record>
+
+<record model="parish" id="1160">
+<field name="name">Huachi Chico</field>
+<field name="canton_id" ref="204"></field>
+</record>
+
+<record model="parish" id="1161">
+<field name="name">Huachi Loreto</field>
+<field name="canton_id" ref="204"></field>
+</record>
+
+<record model="parish" id="1162">
+<field name="name">Matriz</field>
+<field name="canton_id" ref="204"></field>
+</record>
+
+<record model="parish" id="1163">
+<field name="name">La Merced</field>
+<field name="canton_id" ref="204"></field>
+</record>
+
+<record model="parish" id="1164">
+<field name="name">La Península</field>
+<field name="canton_id" ref="204"></field>
+</record>
+
+<record model="parish" id="1165">
+<field name="name">Pishilata</field>
+<field name="canton_id" ref="204"></field>
+</record>
+
+<record model="parish" id="1166">
+<field name="name">San Francisco</field>
+<field name="canton_id" ref="204"></field>
+</record>
+
+<record model="parish" id="1167">
+<field name="name">Lligua</field>
+<field name="canton_id" ref="205"></field>
+</record>
+
+<record model="parish" id="1168">
+<field name="name">Río Negro</field>
+<field name="canton_id" ref="205"></field>
+</record>
+
+<record model="parish" id="1169">
+<field name="name">Río Verde</field>
+<field name="canton_id" ref="205"></field>
+</record>
+
+<record model="parish" id="1170">
+<field name="name">Ulba</field>
+<field name="canton_id" ref="205"></field>
+</record>
+
+<record model="parish" id="1171">
+<field name="name">Baños de Agua Santa</field>
+<field name="canton_id" ref="205"></field>
+</record>
+
+<record model="parish" id="1172">
+<field name="name">Cevallos</field>
+<field name="canton_id" ref="206"></field>
+</record>
+
+<record model="parish" id="1173">
+<field name="name">Pinguilí</field>
+<field name="canton_id" ref="207"></field>
+</record>
+
+<record model="parish" id="1174">
+<field name="name">Mocha</field>
+<field name="canton_id" ref="207"></field>
+</record>
+
+<record model="parish" id="1175">
+<field name="name">El Triunfo</field>
+<field name="canton_id" ref="208"></field>
+</record>
+
+<record model="parish" id="1176">
+<field name="name">Sucre</field>
+<field name="canton_id" ref="208"></field>
+</record>
+
+<record model="parish" id="1177">
+<field name="name">Los Andes</field>
+<field name="canton_id" ref="208"></field>
+</record>
+
+<record model="parish" id="1178">
+<field name="name">Patate</field>
+<field name="canton_id" ref="208"></field>
+</record>
+
+<record model="parish" id="1179">
+<field name="name">Benítez</field>
+<field name="canton_id" ref="209"></field>
+</record>
+
+<record model="parish" id="1180">
+<field name="name">Bolívar</field>
+<field name="canton_id" ref="209"></field>
+</record>
+
+<record model="parish" id="1181">
+<field name="name">Chiquicha</field>
+<field name="canton_id" ref="209"></field>
+</record>
+
+<record model="parish" id="1182">
+<field name="name">Cotaló</field>
+<field name="canton_id" ref="209"></field>
+</record>
+
+<record model="parish" id="1183">
+<field name="name">El Rosario</field>
+<field name="canton_id" ref="209"></field>
+</record>
+
+<record model="parish" id="1184">
+<field name="name">García Moreno</field>
+<field name="canton_id" ref="209"></field>
+</record>
+
+<record model="parish" id="1185">
+<field name="name">Guambaló</field>
+<field name="canton_id" ref="209"></field>
+</record>
+
+<record model="parish" id="1186">
+<field name="name">Salasaca</field>
+<field name="canton_id" ref="209"></field>
+</record>
+
+<record model="parish" id="1187">
+<field name="name">Pelileo</field>
+<field name="canton_id" ref="209"></field>
+</record>
+
+<record model="parish" id="1188">
+<field name="name">Pelileo Grande</field>
+<field name="canton_id" ref="209"></field>
+</record>
+
+<record model="parish" id="1189">
+<field name="name">Baquerizo Moreno</field>
+<field name="canton_id" ref="210"></field>
+</record>
+
+<record model="parish" id="1190">
+<field name="name">Emilio María Terán</field>
+<field name="canton_id" ref="210"></field>
+</record>
+
+<record model="parish" id="1191">
+<field name="name">Marcos Espinel</field>
+<field name="canton_id" ref="210"></field>
+</record>
+
+<record model="parish" id="1192">
+<field name="name">Presidente Urbina</field>
+<field name="canton_id" ref="210"></field>
+</record>
+
+<record model="parish" id="1193">
+<field name="name">San Andrés</field>
+<field name="canton_id" ref="210"></field>
+</record>
+
+<record model="parish" id="1194">
+<field name="name">Poaló</field>
+<field name="canton_id" ref="210"></field>
+</record>
+
+<record model="parish" id="1195">
+<field name="name">San Miguelito</field>
+<field name="canton_id" ref="210"></field>
+</record>
+
+<record model="parish" id="1196">
+<field name="name">Ciudad Nueva</field>
+<field name="canton_id" ref="210"></field>
+</record>
+
+<record model="parish" id="1197">
+<field name="name">Pillaro</field>
+<field name="canton_id" ref="210"></field>
+</record>
+
+<record model="parish" id="1198">
+<field name="name">Rumipamba</field>
+<field name="canton_id" ref="211"></field>
+</record>
+
+<record model="parish" id="1199">
+<field name="name">Yanayacu</field>
+<field name="canton_id" ref="211"></field>
+</record>
+
+<record model="parish" id="1200">
+<field name="name">Quero</field>
+<field name="canton_id" ref="211"></field>
+</record>
+
+<record model="parish" id="1201">
+<field name="name">Quinchicoto</field>
+<field name="canton_id" ref="212"></field>
+</record>
+
+<record model="parish" id="1202">
+<field name="name">Tisaleo</field>
+<field name="canton_id" ref="212"></field>
+</record>
+
+<record model="parish" id="1203">
+<field name="name">Panguintza</field>
+<field name="canton_id" ref="213"></field>
+</record>
+
+<record model="parish" id="1204">
+<field name="name">Zumbi</field>
+<field name="canton_id" ref="213"></field>
+</record>
+
+<record model="parish" id="1205">
+<field name="name">Chito</field>
+<field name="canton_id" ref="214"></field>
+</record>
+
+<record model="parish" id="1206">
+<field name="name">El Chorro</field>
+<field name="canton_id" ref="214"></field>
+</record>
+
+<record model="parish" id="1207">
+<field name="name">La Chonta</field>
+<field name="canton_id" ref="214"></field>
+</record>
+
+<record model="parish" id="1208">
+<field name="name">Pucapamba</field>
+<field name="canton_id" ref="214"></field>
+</record>
+
+<record model="parish" id="1209">
+<field name="name">San Andrés</field>
+<field name="canton_id" ref="214"></field>
+</record>
+
+<record model="parish" id="1210">
+<field name="name">Zumba</field>
+<field name="canton_id" ref="214"></field>
+</record>
+
+<record model="parish" id="1211">
+<field name="name">El Guisme</field>
+<field name="canton_id" ref="215"></field>
+</record>
+
+<record model="parish" id="1212">
+<field name="name">Pachicutza</field>
+<field name="canton_id" ref="215"></field>
+</record>
+
+<record model="parish" id="1213">
+<field name="name">Tundayme</field>
+<field name="canton_id" ref="215"></field>
+</record>
+
+<record model="parish" id="1214">
+<field name="name">El Pangui</field>
+<field name="canton_id" ref="215"></field>
+</record>
+
+<record model="parish" id="1215">
+<field name="name">Zurmi</field>
+<field name="canton_id" ref="216"></field>
+</record>
+
+<record model="parish" id="1216">
+<field name="name">Nuevo Paraíso</field>
+<field name="canton_id" ref="216"></field>
+</record>
+
+<record model="parish" id="1217">
+<field name="name">Guayzimi</field>
+<field name="canton_id" ref="216"></field>
+</record>
+
+<record model="parish" id="1218">
+<field name="name">El Porvenir</field>
+<field name="canton_id" ref="217"></field>
+</record>
+
+<record model="parish" id="1219">
+<field name="name">La Canela</field>
+<field name="canton_id" ref="217"></field>
+</record>
+
+<record model="parish" id="1220">
+<field name="name">Vergel</field>
+<field name="canton_id" ref="217"></field>
+</record>
+
+<record model="parish" id="1221">
+<field name="name">Valladolid</field>
+<field name="canton_id" ref="217"></field>
+</record>
+
+<record model="parish" id="1222">
+<field name="name">Palanda</field>
+<field name="canton_id" ref="217"></field>
+</record>
+
+<record model="parish" id="1223">
+<field name="name">Bellavista</field>
+<field name="canton_id" ref="218"></field>
+</record>
+
+<record model="parish" id="1224">
+<field name="name">Nuevo Quito</field>
+<field name="canton_id" ref="218"></field>
+</record>
+
+<record model="parish" id="1225">
+<field name="name">Paquisha</field>
+<field name="canton_id" ref="218"></field>
+</record>
+
+<record model="parish" id="1226">
+<field name="name">La Paz</field>
+<field name="canton_id" ref="219"></field>
+</record>
+
+<record model="parish" id="1227">
+<field name="name">Tutupali</field>
+<field name="canton_id" ref="219"></field>
+</record>
+
+<record model="parish" id="1228">
+<field name="name">28 de Mayo</field>
+<field name="canton_id" ref="219"></field>
+</record>
+
+<record model="parish" id="1229">
+<field name="name">Chicaña</field>
+<field name="canton_id" ref="220"></field>
+</record>
+
+<record model="parish" id="1230">
+<field name="name">Los Encuentros</field>
+<field name="canton_id" ref="220"></field>
+</record>
+
+<record model="parish" id="1231">
+<field name="name">Yantzaza</field>
+<field name="canton_id" ref="220"></field>
+</record>
+
+<record model="parish" id="1232">
+<field name="name">Cumbaratza</field>
+<field name="canton_id" ref="221"></field>
+</record>
+
+<record model="parish" id="1233">
+<field name="name">Guadalupe</field>
+<field name="canton_id" ref="221"></field>
+</record>
+
+<record model="parish" id="1234">
+<field name="name">Imbana</field>
+<field name="canton_id" ref="221"></field>
+</record>
+
+<record model="parish" id="1235">
+<field name="name">San Carlos de las Minas</field>
+<field name="canton_id" ref="221"></field>
+</record>
+
+<record model="parish" id="1236">
+<field name="name">Sabanilla</field>
+<field name="canton_id" ref="221"></field>
+</record>
+
+<record model="parish" id="1237">
+<field name="name">Timbara</field>
+<field name="canton_id" ref="221"></field>
+</record>
+
+<record model="parish" id="1238">
+<field name="name">Cumbaratza</field>
+<field name="canton_id" ref="221"></field>
+</record>
+
+<record model="parish" id="1239">
+<field name="name">Guadalupe</field>
+<field name="canton_id" ref="221"></field>
+</record>
+
+<record model="parish" id="1240">
+<field name="name">Imbana</field>
+<field name="canton_id" ref="221"></field>
+</record>
+
+<record model="parish" id="1241">
+<field name="name">San Carlos de las Minas</field>
+<field name="canton_id" ref="221"></field>
+</record>
+
+<record model="parish" id="1242">
+<field name="name">Sabanilla</field>
+<field name="canton_id" ref="221"></field>
+</record>
+
+<record model="parish" id="1243">
+<field name="name">Timbara</field>
+<field name="canton_id" ref="221"></field>
+</record>
+
+
+</data>
+</openerp>

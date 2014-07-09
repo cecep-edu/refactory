@@ -1,0 +1,50 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<openerp>
+  <data noupdate="1">
+    <record model="zones" id="zone_1" >
+      <field name="name">Zona 1</field>
+      <field name="description">Sede administrativa Ibarra</field>
+      <field name="country_id" search="[('code','=','EC')]"></field>
+    </record>
+    <record model="zones" id="zone_2" >
+      <field name="name">Zona 2</field>
+      <field name="description">Sede administrativa Tena</field>
+      <field name="country_id" search="[('code','=','EC')]"></field>
+    </record>
+    <record model="zones" id="zone_3" >
+      <field name="name">Zona 3</field>
+      <field name="description">Sede administrativa Ambato</field>
+      <field name="country_id" search="[('code','=','EC')]"></field>
+    </record>
+    <record model="zones" id="zone_4" >
+      <field name="name">Zona 4</field>
+      <field name="description">Sede administrativa Ciudad Alfaro</field>
+      <field name="country_id" search="[('code','=','EC')]"></field>
+    </record>
+    <record model="zones" id="zone_5" >
+      <field name="name">Zona 5</field>
+      <field name="description">Sede administrativa Milagro</field>
+      <field name="country_id" search="[('code','=','EC')]"></field>
+    </record>
+    <record model="zones" id="zone_6" >
+      <field name="name">Zona 6</field>
+      <field name="description">Sede administrativa Cuenca</field>
+      <field name="country_id" search="[('code','=','EC')]"></field>
+    </record>
+    <record model="zones" id="zone_7" >
+      <field name="name">Zona 7</field>
+      <field name="description">Sede administrativa Loja</field>
+      <field name="country_id" search="[('code','=','EC')]"></field>
+    </record>
+    <record model="zones" id="zone_especial" >
+      <field name="name">Zóna régimen especial</field>
+      <field name="description">Galapagos</field>
+      <field name="country_id" search="[('code','=','EC')]"></field>
+    </record>
+    <record model="zones" id="zone_no_delimitada" >
+      <field name="name">Área no delimitada</field>
+      <field name="description"></field>
+      <field name="country_id" search="[('code','=','EC')]"></field>
+    </record>
+  </data>
+</openerp>
