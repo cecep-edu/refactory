@@ -40,6 +40,7 @@
         'data/bank_account_type_data.xml',
         'data/entity_finance_data.xml',
         'data/nationality_data.xml',
+        #'data/zones_data.xml',
     ],
     'installable': True,
     'auto_install': False,
