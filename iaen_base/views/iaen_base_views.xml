@@ -274,7 +274,7 @@
 				</tree>
 			</field>
 		</record>	
-		
+
 		<record id="view_instruction_form" model="ir.ui.view">
 		<field name="name">view.instruction.form</field>
 		<field name="model">instruction</field>
@@ -314,15 +314,15 @@
   </record>
 
  <!-- Ingreso de tipos cuenta bancaria -->
-  <record id="view_bank_account_tree" model="ir.ui.view">
-      <field name="name">view.bank_account.tree</field>
-      <field name="model">bank.account.type</field>
-      <field name="arch" type="xml" >
-      <tree string="Tipos de Cuenta">
-          <field name="name"/>
-      </tree>
-      </field>
-  </record>
+<record id="view_bank_account_tree" model="ir.ui.view">
+	<field name="name">view.bank_account.tree</field>
+	<field name="model">bank.account.type</field>
+	<field name="arch" type="xml" >
+	<tree string="Tipos de Cuenta">
+		<field name="name"/>
+	</tree>
+	</field>
+</record>
 
   <record id="view_bank_account_form" model="ir.ui.view">
       <field name="name">view.bank_account.form</field>
@@ -336,7 +336,7 @@
 
  <!-- Ingreso de informacion bancaria -->
  <record id="view_bank_info_tree" model="ir.ui.view">
-      <field name="name">view.bankinfo.tree</field>
+      <field name="name">view.bank.info.tree</field>
       <field name="model">bank.info</field>
       <field name="arch" type="xml" >
       <tree string="Información Bancaria">
@@ -348,7 +348,7 @@
   </record>
 
   <record id="view_bank_info_form" model="ir.ui.view">
-      <field name="name">view.bankinfo.form</field>
+      <field name="name">view.bank.info.form</field>
       <field name="model">bank.info</field>
       <field name="arch" type="xml">
       <form string="Información Bancaria">
