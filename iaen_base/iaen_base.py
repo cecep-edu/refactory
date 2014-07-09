@@ -178,7 +178,7 @@ class family_burden(osv.osv):
     #_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un parentesco con el mismo nombre'))]
     _columns={
             "name": fields.char("Nombre", size=20, required=True),
-	    "last_name": fields.char("Apellido", size=20, required=True),
+			"last_name": fields.char("Apellido", size=20, required=True),
             "type_id": fields.many2one("identification.type", "Tipo de identificacion"),
             "number_id": fields.char("Nro Identificacion", size=15, required=True),
             "type_rel_family": fields.many2one("family.relationship","Tipo de Relacion"),
@@ -264,6 +264,7 @@ class bank_info(osv.osv):
             "id_entity_finance": fields.many2one("entity.finance","Entidad Financiera",required=True),
             "id_bank_account": fields.many2one("bank.account.type","Tipo de Cuenta",required=True),
             "number" : fields.char("Número",size=15,required=True),
+			"curriculum_id": fields.many2one("curriculum")
     }
     def _no_char(self, cr, uid, ids):
         for bank_info in self.browse(cr, uid, ids):
