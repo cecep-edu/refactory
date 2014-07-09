@@ -325,14 +325,15 @@
       <field name="arch" type="xml">
 	<tree string="Carga Familiar">
 	  <field name="name"/>
-	  <field name="lastName"/>
-	  <field name="typeId"/>
-	  <field name="numberId"/>
-	  <field name="typeRelFamily"/>
-	  <field name="dateBirth"/>
+	  <field name="last_name"/>
+	  <field name="type_id"/>
+	  <field name="number_id"/>
+	  <field name="type_rel_family"/>
+	  <field name="date_birth"/>
 	  <field name="phone"/>
 	  <field name="movil"/>
-	      <field name="checkContactSos"/>
+	  <field name="type_instruction"/>
+	  <field name="check_contact_sos"/>
 	</tree>
       </field>
     </record>	
@@ -342,14 +343,15 @@
       <field name="arch" type="xml">
 	<form string="Carga Familiar">
 	  <field name="name"/>
-	  <field name="lastName"/>
-	  <field name="typeId"/>
-	  <field name="numberId"/>
-	  <field name="typeRelFamily"/>
-	  <field name="dateBirth"/>
+	  <field name="last_name"/>
+	  <field name="type_id"/>
+	  <field name="number_id"/>
+	  <field name="type_rel_family"/>
+	  <field name="date_birth"/>
 	  <field name="phone"/>
 	  <field name="movil"/>
-	  <field name="checkContactSos"/>
+	  <field name="type_instruction"/>
+	  <field name="check_contact_sos"/>
 	</form>
       </field>
     </record>      
