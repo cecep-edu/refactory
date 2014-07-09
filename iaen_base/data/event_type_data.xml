@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+  <data noupdate="1">
+    <record model="event.type" id="event_course" >
+      <field name="name">Curso</field>
+      <field name="description">Evento realizado por curso</field>
+    </record>
+    <record model="event.type" id="event_seminar" >
+      <field name="name">Seminario</field>
+      <field name="description">Evento realizado por seminarios</field>
+    </record>
+    <record model="event.type" id="event_workshop" >
+      <field name="name">Taller</field>
+      <field name="description">Evento realizado por talleres</field>
+    </record>
+    <record model="event.type" id="event_congress" >
+      <field name="name">Congreso</field>
+      <field name="description">Evento realizado por congreso</field>
+    </record>
+    <record model="event.type" id="event_encounter" >
+      <field name="name">Encuentro</field>
+      <field name="description">Evento realizado por encuentro</field>
+    </record>
+    <record model="event.type" id="event_journey" >
+      <field name="name">Jornada</field>
+      <field name="description">Evento realizado por jornada</field>
+    </record>
+    <record model="event.type" id="event_panel" >
+      <field name="name">Panel</field>
+      <field name="description">Evento realizado por panel</field>
+    </record>
+    <record model="event.type" id="event_internship" >
+      <field name="name">Pasantia</field>
+      <field name="description">Evento realizado por pasantia</field>
+    </record>
+    <record model="event.type" id="event_visit" >
+      <field name="name">Visita de observacion</field>
+      <field name="description">Evento realizado por visita observacion</field>
+    </record>
+  </data>
+</openerp>
