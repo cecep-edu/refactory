@@ -46,6 +46,8 @@
         'data/res_country_state_data.xml',
         'data/canton_data.xml',
         'data/parish_data.xml',
+        'data/certified_type_data.xml',
+        'data/event_type_data.xml',
     ],
     'installable': True,
     'auto_install': False,
