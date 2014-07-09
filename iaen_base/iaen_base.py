@@ -74,7 +74,7 @@ class zones(osv.osv):
     _order = "name"
     _sql_constraints = [('name_unique', 'unique(name)', 'Ya existe una zona con el mismo nombre')]
     _columns = {
-        "name": fields.char("Zona",size=10, required=True),
+        "name": fields.char("Zona",size=35, required=True),
         "description": fields.text("Descripción",help="Descripción para la zona."),
         "country_id": fields.many2one("res.country","Pais",required=True),
         }
