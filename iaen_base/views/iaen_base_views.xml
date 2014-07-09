@@ -280,7 +280,7 @@
 				</tree>
 			</field>
 		</record>	
-		
+
 		<record id="view_instruction_form" model="ir.ui.view">
 		<field name="name">view.instruction.form</field>
 		<field name="model">instruction</field>
