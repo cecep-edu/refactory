@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
-	<data noupdate="0">
+	<data noupdate="1">
 		<record model="entity.finance" id="entity_1">
 			<field name="name">Banco Amazonas</field>
 		</record>
@@ -53,9 +53,10 @@
 			<field name="name">Cooperativa Alianza del Valle</field>
 		</record>
 		<record model="entity.finance" id="entity_18">
-			<field name="name">Cooperativa Juventud Ecuatoriana Progrsista</field>
+			<field name="name">Cooperativa Juventud Ecuatoriana Progresista</field>
 		</record>
 		<record model="entity.finance" id="entity_19">
+
 			<field name="name">Cooperativa 15 de Abril</field>
 		</record>
 		<record model="entity.finance" id="entity_20">
