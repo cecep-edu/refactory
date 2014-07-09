@@ -18,33 +18,5 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 ##############################################################################
-{
-    'name' : 'IAEN base',
-    'version' : '1.0',
-    'author' : 'IAEN',
-    'category' : 'configuraciones',
-    'description' : """
-    Ingreso de todas los parametros que son necesarios
-    para la creación de la hoja de vida.
-    """,
-    'website': 'http://www.iaen.edu.ec',
-    'data': [
-        'views/iaen_base_views.xml',
-        'views/iaen_base_actions.xml',
-        'views/iaen_base_menus.xml',
-        'data/ethnic_group_data.xml',
-        'data/identification_type_data.xml',
-        'data/civil_status_data.xml',
-        'data/gender_data.xml',
-        'data/family_relationship_data.xml',
-        'data/type_disability.xml',
-        'data/blood_type_data.xml',
-        'data/bank_account_type_data.xml',
-        'data/entity_finance_data.xml',
-        'data/nationality_data.xml',
-        #'data/zones_data.xml',
-    ],
-    'installable': True,
-    'auto_install': False,
-}
-# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
+
+import iaen_curriculum 

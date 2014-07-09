@@ -30,6 +30,7 @@
 			</field>
 		</record>	
 
+
 		<record id="view_blood_type_form" model="ir.ui.view">
 			<field name="name">view.blood.type.form</field>
 			<field name="model">blood.type</field>
@@ -55,6 +56,7 @@
 			</field>
 		</record>
 
+
 		<record id="view_identification_type_form" model="ir.ui.view">
 			<field name="name">view.identification.type.form</field>
 			<field name="model">identification.type</field>
@@ -68,42 +70,43 @@
 			</field>
 		</record>
 
-		<!-- Ingreso de tipo de genero (sexo) -->
-		<record id="view_gender_tree" model="ir.ui.view">
-			<field name="name">view.gender.tree</field>
-			<field name="model">gender</field>
-			<field name="arch" type="xml">
-				<tree string="Generos">
-					<field name="name"/>
-					<field name="description"/>
-				</tree>
-			</field>
-		</record>	
 
-		<record id="view_gender_form" model="ir.ui.view">
-			<field name="name">view.gender.form</field>
-			<field name="model">gender</field>
-			<field name="arch" type="xml">
-				<form string="Generos">
-					<field name="name"/>
-					<field name="description"/>
-				</form>
-			</field>
-		</record>
-
-
-		<!-- Ingreso de grupos étnicos -->
-		<record id="view_ethnic_group_tree" model="ir.ui.view">
-			<field name="name">view.ethnc.group.tree</field>
-			<field name="model">ethnic.group</field>
-			<field name="arch" type="xml">
-				<tree string="Grupo Étnico">
-					<field name="name"/>
-					<field name="description"/>
-				</tree>
-			</field>
-		</record>
-
+     <!-- Ingreso de identidad de genero -->
+     <record id="view_gender_tree" model="ir.ui.view">
+          <field name="name">view.gender.tree</field>
+          <field name="model">gender</field>
+          <field name="arch" type="xml">
+               <tree string="Generos">
+                    <field name="name"/>
+                    <field name="description"/>
+               </tree>
+          </field>
+     </record>	
+    
+     <record id="view_gender_form" model="ir.ui.view">
+          <field name="name">view.gender.form</field>
+          <field name="model">gender</field>
+          <field name="arch" type="xml">
+               <form string="Generos">
+                    <field name="name"/>
+                    <field name="description"/>
+               </form>
+          </field>
+     </record>
+    
+    
+     <!-- Ingreso de grupos étnicos -->
+	<record id="view_ethnic_group_tree" model="ir.ui.view">
+		<field name="name">view.ethnc.group.tree</field>
+		<field name="model">ethnic.group</field>
+		<field name="arch" type="xml">
+			<tree string="Grupo Étnico">
+				<field name="name"/>
+				<field name="description"/>
+			</tree>
+		</field>
+	</record>		
+		
 		<record id="view_ethnic_group_form" model="ir.ui.view">
 			<field name="name">view.ethnic.group.form</field>
 			<field name="model">ethnic.group</field>
@@ -263,6 +266,7 @@
 			</field>
 		</record>
 
+
 		<!-- Ingreso de Instrucción -->
 		<record id="view_instruction_tree" model="ir.ui.view">
 			<field name="name">view.instruction.tree</field>
@@ -292,9 +296,70 @@
 	</record>
 
 
+    <!-- Ingreso de parentesco familiar -->
+    <record id="view_family_relationship_tree" model="ir.ui.view">
+      <field name="name">view.family.relationship.tree</field>
+      <field name="model">family.relationship</field>
+      <field name="arch" type="xml">
+	<tree string="Parentesco Familiar">
+	  <field name="name"/>
+	  <field name="description"/>
+	</tree>
+      </field>
+    </record>	
+    <record id="view_family_relationship_form" model="ir.ui.view">
+      <field name="name">view.family.relationship.form</field>
+      <field name="model">family.relationship</field>
+      <field name="arch" type="xml">
+	<form string="Parentesco Familiar">
+	  <field name="name"/>
+	  <field name="description"/>
+	</form>
+      </field>
+    </record>
+	
+    <!-- Ingreso de cargas familiar -->
+    <record id="view_family_burden_tree" model="ir.ui.view">
+      <field name="name">view.family.burden.tree</field>
+      <field name="model">family.burden</field>
+      <field name="arch" type="xml">
+	<tree string="Carga Familiar">
+	  <field name="name"/>
+	  <field name="last_name"/>
+	  <field name="type_id"/>
+	  <field name="number_id"/>
+	  <field name="type_rel_family"/>
+	  <field name="date_birth"/>
+	  <field name="phone"/>
+	  <field name="movil"/>
+	  <field name="type_instruction"/>
+	  <field name="check_contact_sos"/>
+	</tree>
+      </field>
+    </record>	
+    <record id="view_family_relationship_form" model="ir.ui.view">
+      <field name="name">view.family.burden.form</field>
+      <field name="model">family.burden</field>
+      <field name="arch" type="xml">
+	<form string="Carga Familiar">
+	  <field name="name"/>
+	  <field name="last_name"/>
+	  <field name="type_id"/>
+	  <field name="number_id"/>
+	  <field name="type_rel_family"/>
+	  <field name="date_birth"/>
+	  <field name="phone"/>
+	  <field name="movil"/>
+	  <field name="type_instruction"/>
+	  <field name="check_contact_sos"/>
+	</form>
+      </field>
+    </record>      
+
+    
   <!-- Ingreso de entidades financieras -->
   <record id="view_entity_tree" model="ir.ui.view">
-      <field name="name">view.entity_finance.tree</field>
+      <field name="name">view.entity.finance.tree</field>
       <field name="model">entity.finance</field>
       <field name="arch" type="xml" >
       <tree string="Entidades Financieras">
@@ -304,7 +369,7 @@
   </record>
 
   <record id="view_entity_form" model="ir.ui.view">
-      <field name="name">view.entity_finance.form</field>
+      <field name="name">view.entity.finance.form</field>
       <field name="model">entity.finance</field>
       <field name="arch" type="xml">
       <form string="Entidad Financiera">
@@ -314,18 +379,18 @@
   </record>
 
  <!-- Ingreso de tipos cuenta bancaria -->
-<record id="view_bank_account_tree" model="ir.ui.view">
-	<field name="name">view.bank_account.tree</field>
-	<field name="model">bank.account.type</field>
-	<field name="arch" type="xml" >
-	<tree string="Tipos de Cuenta">
-		<field name="name"/>
-	</tree>
-	</field>
-</record>
+  <record id="view_bank_account_tree" model="ir.ui.view">
+      <field name="name">view.bank.account.tree</field>
+      <field name="model">bank.account.type</field>
+      <field name="arch" type="xml" >
+      <tree string="Tipos de Cuenta">
+          <field name="name"/>
+      </tree>
+      </field>
+  </record>
 
   <record id="view_bank_account_form" model="ir.ui.view">
-      <field name="name">view.bank_account.form</field>
+      <field name="name">view.bank.account.form</field>
       <field name="model">bank.account.type</field>
       <field name="arch" type="xml">
       <form string="Tipo de Cuenta">
@@ -358,9 +423,29 @@
               <field name="number"/>
           </group>
       </form>
-      </field>
+    </field>
   </record>
 
-	
-	</data>
+  <!-- Ingreso tipo de discapacidad -->
+  <record id="view_type_disability_tree" model="ir.ui.view">
+    <field name="name">view.type.disability.tree</field>
+    <field name="model">type.disability</field>
+    <field name="arch" type="xml">
+      <tree string="Tipo de discapacidad">
+	<field name="name"/>
+	<field name="description"/>
+      </tree>
+    </field>
+  </record>	
+  <record id="view_type_disability_form" model="ir.ui.view">
+    <field name="name">view.type.disability.form</field>
+    <field name="model">type.disability</field>
+    <field name="arch" type="xml">
+      <form string="Tipo de discapacidad">
+	<field name="name"/>
+	<field name="description"/>
+      </form>
+    </field>
+  </record>
+</data>
 </openerp>

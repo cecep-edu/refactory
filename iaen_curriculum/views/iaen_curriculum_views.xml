@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data>
+		<record id="view_curriculum_tree" model="ir.ui.view">
+			<field name="name">view.curriculum.tree</field>
+			<field name="model">curriculum</field>
+			<field name="arch" type="xml">
+				<tree string="Hoja de Vida">
+					<field name="user_id"/>
+					<field name="estado_civil_id"/>
+					<field name="gender_id"/>
+					<field name="residence_city_id"/>
+					<field name="identification_type_id"/>
+					<field name="identification_number"/>
+					<field name="home_phone"/>
+					<field name="mobile_phone"/>
+				</tree>
+			</field>
+		</record>	
+
+		<record id="view_curriculum_form" model="ir.ui.view">
+			<field name="name">view.curriculum.form</field>
+			<field name="model">curriculum</field>
+			<field name="arch" type="xml">
+				<form string="Hoja de Vida">
+						<group col="4" string="Información Personal">
+							<field name="user_id"/>
+							<field name="estado_civil_id"/>
+							<field name="gender_id"/>
+							<field name="blood_type_id"/>
+							<field name="country_id"/>
+							<field name="birth_city_id"/>
+							<field name="residence_city_id"/>
+							<field name="identification_type_id"/>
+							<field name="identification_number"/>
+							<field name="nationality_id"/>
+						</group>
+						<separator colspan="4"/>
+						<group string="Información de Residencia">
+							<field name="home_phone"/>
+							<field name="mobile_phone"/>
+							<field name="street_address_1"/>
+							<field name="street_address_2"/>
+							<field name="house_number"/>
+							<field name="location_reference"/>
+						</group>
+						<separator colspan="4"/>
+						<group string="Discapacidades">
+							<field name="disability"/>
+							<field name="disability_id" attrs="{'invisible':[('disability', '!=', True)]}"/>
+							<field name="disability_degree" attrs="{'invisible':[('disability', '!=', True)]}"/>
+							<field name="conadis_number" attrs="{'invisible':[('disability', '!=', True)]}"/>
+						</group>
+						<separator colspan="4"/>
+						<group string="Otros">
+							<field name="ethnic_group_id"/>
+							<field name="family_burden"/>
+							<field name="bank_info_id"/>
+						</group>
+				</form>
+			</field>
+		</record>
+	</data>
+</openerp>
