@@ -29,9 +29,7 @@
 	<menuitem id="menu_financiera" name="Información Financiera" parent="menu_configuration"/>
 	<menuitem action="action_entity_finance" id="menu_entity_finance" name="Entidad Financiera" parent="menu_financiera"/>
 	<menuitem action="action_bank_account_type" id="menu_bank_account_type" name="Tipo de Cuenta" parent="menu_financiera"/>
-	<menuitem action="action_language_studies" id="menu_language_studies" name="Idiomas estudiados" parent="menu_configuration"/>
 	<menuitem action="action_event_type" id="menu_event_type" name="Tipo de eventos" parent="menu_configuration"/>
-	<menuitem action="action_info_training" id="menu_info_training" name="Capacitaciones" parent="menu_configuration"/>
 	<menuitem action="action_certified_type" id="menu_certified_type" name="Tipo de Certificado" parent="menu_configuration"/>
     </data>
 </openerp>
