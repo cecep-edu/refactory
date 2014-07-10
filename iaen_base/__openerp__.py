@@ -34,7 +34,7 @@
         'views/iaen_base_menus.xml',
         'data/ethnic_group_data.xml',
         'data/identification_type_data.xml',
-        #'data/civil_status_data.xml',
+        'data/civil_status_data.xml',
         'data/gender_data.xml',
         'data/family_relationship_data.xml',
         'data/type_disability.xml',
