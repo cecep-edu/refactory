@@ -1,29 +1,454 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0"  encoding="utf-8"?>
 <openerp>
-	<data noupdate="0">
-		<record model="nationality" id="ecuatoriana">
-			<field name="name">Ecuatoriana</field>
-            <field name="descripcion"/>
+	<data noupdate="1">
+		<record model="nationality" id="nacionalidad_1">
+			<field name="name">Angoleña</field>
 		</record>
 
-        <record model="nationality" id="colombiana">
-			<field name="name">Colombiana</field>
-            <field name="descripcion"/>
+		<record model="nationality" id="nacionalidad_2">
+			<field name="name">Argelina</field>
 		</record>
 
-        <record model="nationality" id="chilena">
-			<field name="name">Chilena</field>
-            <field name="descripcion"/>
+		<record model="nationality" id="nacionalidad_3">
+			<field name="name">Camerunesa</field>
 		</record>
 
-        <record model="nationality" id="estadounidense">
+		<record model="nationality" id="nacionalidad_4">
+			<field name="name">Etíope</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_5">
+			<field name="name">Ecuatoguineana</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_6">
+			<field name="name">Egipcia</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_7">
+			<field name="name">Liberiana</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_8">
+			<field name="name">Libia</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_9">
+			<field name="name">Marroquí</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_10">
+			<field name="name">Namibia</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_11">
+			<field name="name">Nigeriana</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_12">
+			<field name="name">Saharaui</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_13">
+			<field name="name">Senegalesa</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_14">
+			<field name="name">Sudafricana</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_15">
+			<field name="name">Togolesa</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_16">
+			<field name="name">Canadiense</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_17">
 			<field name="name">Estadounidense</field>
-            <field name="descripcion"/>
 		</record>
 
-        <record model="nationality" id="salvadorenia">
-			<field name="name">Salvadoreña</field>
-            <field name="descripcion"/>
+		<record model="nationality" id="nacionalidad_18">
+			<field name="name">Mexicana</field>
 		</record>
+
+		<record model="nationality" id="nacionalidad_19">
+			<field name="name">Beliceña</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_20">
+			<field name="name">Costarricense</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_21">
+			<field name="name">Guatemalteca</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_22">
+			<field name="name">Hondureña</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_23">
+			<field name="name">Nicaragüense</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_24">
+			<field name="name">Panameña</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_25">
+			<field name="name">Salvadoreña</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_26">
+			<field name="name">Cubana</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_27">
+			<field name="name">Arubana</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_28">
+			<field name="name">Bahameña</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_29">
+			<field name="name">Barbadense</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_30">
+			<field name="name">Dominiquesa</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_31">
+			<field name="name">Nacionalidad dominicana</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_32">
+			<field name="name">Haitiana</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_33">
+			<field name="name">Jamaiquina</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_34">
+			<field name="name">Puertorriqueña</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_35">
+			<field name="name">Sancristobaleña</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_36">
+			<field name="name">Santaluciana</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_37">
+			<field name="name">Sanvicentina</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_38">
+			<field name="name">Argentina</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_39">
+			<field name="name">Boliviana</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_40">
+			<field name="name">Brasileña</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_41">
+			<field name="name">Chilena</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_42">
+			<field name="name">Colombiana</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_43">
+			<field name="name">Ecuatoriana</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_44">
+			<field name="name">Guyanés</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_45">
+			<field name="name">Paraguaya</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_46">
+			<field name="name">Peruana</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_47">
+			<field name="name">Surinamés</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_48">
+			<field name="name">Uruguaya</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_49">
+			<field name="name">Venezolana</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_50">
+			<field name="name">Afgana</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_51">
+			<field name="name">Azerbaiyana</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_52">
+			<field name="name">Bangladesí</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_53">
+			<field name="name">Bareiní</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_54">
+			<field name="name">China nacionalidad china</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_55">
+			<field name="name">Filipina</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_56">
+			<field name="name">Georgiana</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_57">
+			<field name="name">Hindú</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_58">
+			<field name="name">Indonesia</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_59">
+			<field name="name">Israelí</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_60">
+			<field name="name">Japonesa</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_61">
+			<field name="name">Libanesa</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_62">
+			<field name="name">Mongola</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_63">
+			<field name="name">Norcoreana</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_64">
+			<field name="name">Siria</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_65">
+			<field name="name">Surcoreana</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_66">
+			<field name="name">Vietnamita</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_67">
+			<field name="name">Europea</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_68">
+			<field name="name">Albanesa</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_69">
+			<field name="name">Alemana</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_70">
+			<field name="name">Andorrana</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_71">
+			<field name="name">Armenia</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_72">
+			<field name="name">Austríaca</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_73">
+			<field name="name">Belga</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_74">
+			<field name="name">Bielorrusa</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_75">
+			<field name="name">Bosnia</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_76">
+			<field name="name">Búlgara</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_77">
+			<field name="name">Checa</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_78">
+			<field name="name">Chipriota</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_79">
+			<field name="name">Croata</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_80">
+			<field name="name">Danesa</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_81">
+			<field name="name">Escocesa</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_82">
+			<field name="name">Eslovaca</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_83">
+			<field name="name">Eslovena</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_84">
+			<field name="name">Española</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_85">
+			<field name="name">Estonia</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_86">
+			<field name="name">Finlandesa</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_87">
+			<field name="name">Francesa</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_88">
+			<field name="name">Griega</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_89">
+			<field name="name">Húngara</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_90">
+			<field name="name">Británica</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_91">
+			<field name="name">Irlandesa</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_92">
+			<field name="name">Italiana</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_93">
+			<field name="name">Letona</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_94">
+			<field name="name">Lituana</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_95">
+			<field name="name">Luxemburguesa</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_96">
+			<field name="name">Maltesa</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_97">
+			<field name="name">Moldava</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_98">
+			<field name="name">Monegasca</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_99">
+			<field name="name">Montenegrina</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_100">
+			<field name="name">Noruega</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_101">
+			<field name="name">Neerlandesa</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_102">
+			<field name="name">Polaca</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_103">
+			<field name="name">Portuguesa</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_104">
+			<field name="name">Rumana</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_105">
+			<field name="name">Rusa</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_106">
+			<field name="name">Serbia</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_107">
+			<field name="name">Sueca</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_108">
+			<field name="name">Suiza</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_109">
+			<field name="name">Turca</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_110">
+			<field name="name">Ucraniana</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_111">
+			<field name="name">Australiana</field>
+		</record>
+
+		<record model="nationality" id="nacionalidad_112">
+			<field name="name">Neozelandesa</field>
+		</record>
+
+
 	</data>
 </openerp>
