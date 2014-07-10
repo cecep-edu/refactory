@@ -254,25 +254,6 @@ class bank_account_type(osv.osv):
         return True 
     _constraints = [(_no_numbers, _(u'Debe contener solo caracteres alfabéticos.'), ['Nombre'])]
 
-class bank_info(osv.osv):
-    """Clase de la informacion bancaria de los usuarios"""
-    _name="bank.info"
-    _description="Informacion bancaria"
-    _order="id_entity_finance"
-    _sql_constraints = [('name_unique', 'unique(number)', _(u'Ya existe una cuenta con ese numero'))]
-    _columns={
-            "id_entity_finance": fields.many2one("entity.finance","Entidad Financiera",required=True),
-            "id_bank_account": fields.many2one("bank.account.type","Tipo de Cuenta",required=True),
-            "number" : fields.char("Número",size=15,required=True),
-			"curriculum_id": fields.many2one("curriculum")
-    }
-    def _no_char(self, cr, uid, ids):
-        for bank_info in self.browse(cr, uid, ids):
-            if re.search("[^0-9]", bank_info.number): return False
-        return True 
-
-    _constraints = [(_no_char, _(u"Debe contener solo números."), ['Numero'])]
-
 #TIPO DE DISCAPACIDAD
 class type_disability(osv.osv):    
     _name = "type.disability"
