@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
 	<data noupdate="1">
-		<record model="estado.civil" id="estado_civil_m">
+		<record model="civil.status" id="civil_status_m">
 			<field name="name">Soltero (a)</field>
 		</record>
-		<record model="estado.civil" id="estado_civil_c">
+		<record model="civil.status" id="civil_status_c">
 			<field name="name">Casado (a)</field>
 		</record>
-		<record model="estado.civil" id="estado_civil_d">
+		<record model="civil.status" id="civil_status_d">
 			<field name="name">Divorciado (a)</field>
 		</record>
-		<record model="estado.civil" id="estado_civil_se">
+		<record model="civil.status" id="civil_status_se">
 			<field name="name">Separado (a)</field>
 		</record>
-		<record model="estado.civil" id="estado_civil_v">
+		<record model="civil.status" id="civil_status_v">
 			<field name="name">Viudo (a)</field>
 		</record>
-		<record model="estado.civil" id="estado_civil_ul">
+		<record model="civil.status" id="civil_status_ul">
 			<field name="name">Union Libre</field>
 		</record>
 	</data>

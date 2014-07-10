@@ -142,8 +142,8 @@ class blood_type(osv.osv):
 		return True 
 	_constraints = [(_no_numbers, _(u"El Tipo de Sangre no debe contener números."), ['name'])]
 
-class estado_civil(osv.osv):
-    _name = "estado.civil"
+class civil_status(osv.osv):
+    _name = "civil.status"
     _description = "Informacion sobre estado civil"
     _order = "name"
     _sql_constraints = [('name_uniq', 'unique(name)', 'Ya existe un Estado Civil con el mismo nombre')]
@@ -304,7 +304,6 @@ class info_training(osv.osv):
             "country_id": fields.many2one("res.country","Pais"),
     }
  
-
 class certified_type(osv.osv):    
     _name = "certified.type"
     _description = "Tipo de Certificado"       

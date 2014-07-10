@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
 	<data>
-    <record id="view_estado_civil_tree" model="ir.ui.view">
-      <field name="name">view.estadocivil.tree</field>
-      <field name="model">estado.civil</field>
+    <record id="view_civil_status_tree" model="ir.ui.view">
+      <field name="name">view.civil.status.tree</field>
+      <field name="model">civil.status</field>
       <field name="arch" type="xml" >
 	    <tree string="Estado Civil">
             <field name="name"/>
@@ -11,9 +11,9 @@
       </field>
     </record>
 
-    <record id="view_estado_civil_form" model="ir.ui.view">
-      <field name="name">view.estadocivil.form</field>
-      <field name="model">estado.civil</field>
+    <record id="view_civil_status_form" model="ir.ui.view">
+      <field name="name">view.civil.status.form</field>
+      <field name="model">civil.status</field>
       <field name="arch" type="xml">
 	    <form string="Crear Estado Civil">
 	          <field name="name" />
