@@ -105,8 +105,7 @@ class canton(osv.osv):
     _order = "name"
     _columns = {
         "name": fields.char("Ciudad/Cantón", size=15, required=True),
-        "country_id": fields.many2one("res.country.state","Provincia",required=True),
-        "description": fields.text("Descripción"),
+        "country_state_id": fields.many2one("res.country.state","Provincia",required=True),
     }
 
 #class city(osv.osv):
@@ -214,7 +213,7 @@ class instruction(osv.osv):
 	_description = "Registra las instrucciones"
 	_columns = {
 		'name': fields.char("Nombre", size=200, required=True),
-		'description': fields.text("Descripción")
+		'description': fields.text("Descripción"),
 	}
 	_order = "name"
 	_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe una Instrucción con ese nombre.'))]
@@ -290,3 +289,77 @@ class type_disability(osv.osv):
 
     _constraints = [(_alphabetical, _(u"El Tipo de dato es invalido."), ['name'])]
 
+#TIPO DE ESTUDIOS DE LENGUAJE
+class language_studies(osv.osv):    
+    _name = "language.studies"
+    _description = "Lenguajes estudiados"       
+    _order = "name"
+    _sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un tipo de discapacidad con el mismo nombre'))]
+    _columns={
+            "name": fields.char("Idioma", size=15, required=True),
+            "percentage_listening": fields.char("Nivel Escuchado", size=4, required=True),
+            "percentage_spoken": fields.char("Nivel Oral", size=4, required=True),
+            "percentage_read": fields.char("Nivel Leido", size=4, required=True),
+            "percentage_written": fields.char("Nivel Escrito", size=4, required=True),
+            "certificate_proficiency": fields.boolean("Certificado de suficiencia", requiered=True),
+            "institution_language": fields.char("Institucion que le otorgó", size=30, required=True),                        
+    }
+    def _alphabetical(self, cr, uid, ids):
+        for bloody_type in self.browse(cr, uid, ids):
+            if not (re.search("[a-z, A-Z]", bloody_type.name)): return False
+        return True 
+
+    _constraints = [(_alphabetical, _(u"El Tipo de dato es invalido."), ['name'])]
+
+#TIPO DE EVENTO
+class event_type(osv.osv):    
+    _name = "event.type"
+    _description = "Tipo de Evento "       
+    _order = "name"
+    _sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un parentesco con el mismo nombre'))]
+    _columns={
+            "name": fields.char("Nombre", size=20, required=True),
+            "description": fields.text("Descripcion"),
+    }
+    def _alphabetical(self, cr, uid, ids):
+        for bloody_type in self.browse(cr, uid, ids):
+            if  re.search("[^a-z, A-Z]", bloody_type.name): return False
+        return True 
+
+    _constraints = [(_alphabetical, _(u"El Tipo de dato es invalido."), ['name'])]
+
+#CAPACITACION ESPECIFICA
+class info_training(osv.osv):    
+    _name = "info.training"
+    _description = "Capacitacion"       
+    _order = "name"
+    _sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un parentesco con el mismo nombre'))]
+    _columns={
+            "name": fields.char("Nombre", size=20, required=True),
+	    "date_star": fields.date("Fecha inicio", required=True),
+	    "date_end": fields.date("Fecha fin", required=True),
+            "event_id": fields.many2one("event.type", "Tipo de evento", required=True),
+            "sponsor": fields.char("Auspiciante", size=30, required=True),
+            "duration": fields.char("Duracion/horas", size=4, required=True),
+            "title_cert": fields.char("Titulo Certificado", size=30, requiered=True),
+            "certified_for": fields.char("Certificado por", size=10, requiered=True),            
+            "certified_type_id": fields.many2one("certified.type", "Tipo de evento", required=True),
+            "country_id": fields.many2one("res.country","Pais"),
+    }
+ 
+
+class certified_type(osv.osv):    
+    _name = "certified.type"
+    _description = "Tipo de Certificado"       
+    _order = "name"
+    _sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un parentesco con el mismo nombre'))]
+    _columns={
+            "name": fields.char("Nombre", size=15, required=True),
+            "description": fields.text("Descripcion"),
+    }
+    def _alphabetical(self, cr, uid, ids):
+        for bloody_type in self.browse(cr, uid, ids):
+            if  re.search("[^a-z, A-Z]", bloody_type.name): return False
+        return True 
+
+    _constraints = [(_alphabetical, _(u"El Tipo de dato es invalido."), ['name'])]

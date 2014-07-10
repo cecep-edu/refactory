@@ -1,0 +1,174 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<openerp>
+  <data noupdate="1">
+
+    <record model="res.country.state" id="country_azuay" >
+      <field name="name">Azuay</field>
+      <field name="code">AZ</field>
+      <field name="zone_id" ref="zone_6"></field>
+      <field name="country_id" search="[('code','=','EC')]"></field>
+    </record>
+
+    <record model="res.country.state" id="country_bolivar" >
+      <field name="name">Bolivar</field>
+      <field name="code">BO</field>
+      <field name="zone_id" ref="zone_5"></field>
+      <field name="country_id" search="[('code','=','EC')]"></field>
+    </record>
+
+    <record model="res.country.state" id="country_canar" >
+      <field name="name">Cañar</field>
+      <field name="code">CA</field>
+      <field name="zone_id" ref="zone_6"></field>
+      <field name="country_id" search="[('code','=','EC')]"></field>
+    </record>
+
+    <record model="res.country.state" id="country_carchi" >
+      <field name="name">Carchi</field>
+      <field name="code">CR</field>
+      <field name="zone_id" ref="zone_1"></field>
+      <field name="country_id" search="[('code','=','EC')]"></field>
+    </record>
+
+    <record model="res.country.state" id="country_chimborazo" >
+      <field name="name">Chimborazo</field>
+      <field name="code">CH</field>
+      <field name="zone_id" ref="zone_3"></field>
+      <field name="country_id" search="[('code','=','EC')]"></field>
+    </record>
+
+    <record model="res.country.state" id="country_cotopaxi" >
+      <field name="name">Cotopaxi</field>
+      <field name="code">CO</field>
+      <field name="zone_id" ref="zone_3"></field>
+      <field name="country_id" search="[('code','=','EC')]"></field>
+    </record>
+
+    <record model="res.country.state" id="country_oro" >
+      <field name="name">El Oro</field>
+      <field name="code">EO</field>
+      <field name="zone_id" ref="zone_7"></field>
+      <field name="country_id" search="[('code','=','EC')]"></field>
+    </record>
+
+    <record model="res.country.state" id="country_esmeraldas" >
+      <field name="name">Esmeraldas</field>
+      <field name="code">ES</field>
+      <field name="zone_id" ref="zone_1"></field>
+      <field name="country_id" search="[('code','=','EC')]"></field>
+    </record>
+
+    <record model="res.country.state" id="country_galapagos" >
+      <field name="name">Galápagos</field>
+      <field name="code">GAL</field>
+      <field name="zone_id" ref="zone_especial"></field>
+      <field name="country_id" search="[('code','=','EC')]"></field>
+    </record>
+
+    <record model="res.country.state" id="country_guayas" >
+      <field name="name">Guayas</field>
+      <field name="code">GUY</field>
+      <field name="zone_id" ref="zone_5"></field>
+      <field name="country_id" search="[('code','=','EC')]"></field>
+    </record>
+
+    <record model="res.country.state" id="country_imbabura" >
+      <field name="name">Imbabura</field>
+      <field name="code">IM</field>
+      <field name="zone_id" ref="zone_1"></field>
+      <field name="country_id" search="[('code','=','EC')]"></field>
+    </record>
+
+    <record model="res.country.state" id="country_loja" >
+      <field name="name">Loja</field>
+      <field name="code">LO</field>
+      <field name="zone_id" ref="zone_7"></field>
+      <field name="country_id" search="[('code','=','EC')]"></field>
+    </record>
+
+    <record model="res.country.state" id="country_rios" >
+      <field name="name">Los Rios</field>
+      <field name="code">LR</field>
+      <field name="zone_id" ref="zone_5"></field>
+      <field name="country_id" search="[('code','=','EC')]"></field>
+    </record>
+
+    <record model="res.country.state" id="country_manabi" >
+      <field name="name">Manabí</field>
+      <field name="code">MA</field>
+      <field name="zone_id" ref="zone_4"></field>
+      <field name="country_id" search="[('code','=','EC')]"></field>
+    </record>
+
+    <record model="res.country.state" id="country_morona" >
+      <field name="name">Morona Santiago</field>
+      <field name="code">AZ</field>
+      <field name="zone_id" ref="zone_6"></field>
+      <field name="country_id" search="[('code','=','EC')]"></field>
+    </record>
+
+    <record model="res.country.state" id="country_napo" >
+      <field name="name">Napo</field>
+      <field name="code">NA</field>
+      <field name="zone_id" ref="zone_2"></field>
+      <field name="country_id" search="[('code','=','EC')]"></field>
+    </record>
+
+    <record model="res.country.state" id="country_orellana" >
+      <field name="name">Orellana</field>
+      <field name="code">OR</field>
+      <field name="zone_id" ref="zone_2"></field>
+      <field name="country_id" search="[('code','=','EC')]"></field>
+    </record>
+
+    <record model="res.country.state" id="country_pastaza" >
+      <field name="name">Pastaza</field>
+      <field name="code">PA</field>
+      <field name="zone_id" ref="zone_3"></field>
+      <field name="country_id" search="[('code','=','EC')]"></field>
+    </record>
+
+    <record model="res.country.state" id="country_pichincha" >
+      <field name="name">Pichincha</field>
+      <field name="code">PI</field>
+      <field name="zone_id" ref="zone_2"></field>
+      <field name="country_id" search="[('code','=','EC')]"></field>
+    </record>
+
+    <record model="res.country.state" id="country_santa" >
+      <field name="name">Santa Elena</field>
+      <field name="code">SE</field>
+      <field name="zone_id" ref="zone_5"></field>
+      <field name="country_id" search="[('code','=','EC')]"></field>
+    </record>
+
+    <record model="res.country.state" id="country_tsachilas" >
+      <field name="name">Santo Domingo de los Tsáchilas</field>
+      <field name="code">ST</field>
+      <field name="zone_id" ref="zone_4"></field>
+      <field name="country_id" search="[('code','=','EC')]"></field>
+    </record>
+
+    <record model="res.country.state" id="country_sucumbios" >
+      <field name="name">Sucumbios</field>
+      <field name="code">SU</field>
+      <field name="zone_id" ref="zone_1"></field>
+      <field name="country_id" search="[('code','=','EC')]"></field>
+    </record>
+
+    <record model="res.country.state" id="country_tungurahua" >
+      <field name="name">Tungurahua</field>
+      <field name="code">TU</field>
+      <field name="zone_id" ref="zone_3"></field>
+      <field name="country_id" search="[('code','=','EC')]"></field>
+    </record>
+
+    <record model="res.country.state" id="country_zamora" >
+      <field name="name">Zamora Chinchipe</field>
+      <field name="code">ZM</field>
+      <field name="zone_id" ref="zone_7"></field>
+      <field name="country_id" search="[('code','=','EC')]"></field>
+    </record>
+
+  </data>
+</openerp>
