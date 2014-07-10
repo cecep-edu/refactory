@@ -170,30 +170,6 @@ class family_relationship(osv.osv):
 
 #    _constraints = [(_alphabetical, _(u"El Tipo de dato es invalido."), ['name'])]
 
-#CARGA FAMILIAR
-class family_burden(osv.osv):    
-    _name = "family.burden"
-    _description = "Carga Familiar"       
-    _order = "last_name"
-    #_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un parentesco con el mismo nombre'))]
-    _columns={
-            "name": fields.char("Nombre", size=20, required=True),
-			"last_name": fields.char("Apellido", size=20, required=True),
-            "type_id": fields.many2one("identification.type", "Tipo de identificacion"),
-            "number_id": fields.char("Nro Identificacion", size=15, required=True),
-            "type_rel_family": fields.many2one("family.relationship","Tipo de Relacion"),
-            "date_birth": fields.date("Fecha nacimiento", required=True),
-            "phone": fields.char("Telefono", size=10, requiered=True),
-            "movil": fields.char("Celular", size=10, requiered=True),            
-            "type_instruction": fields.many2one("instruction","Instruccion"),
-            "check_contact_sos": fields.boolean("Contacto emergencia", requiered=True),
-    }
-    _defaults = {
-        "check_contact_sos": False,
-        }    
-#"instruction": fields.many2one("instruction", "Instruccion"),
-
-#    _constraints = [(_no_numbers, _(u"El Tipo de dato es invalido."), ['name'])]
 
 class nationality(osv.osv):
 	_name = "nationality"
