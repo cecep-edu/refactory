@@ -321,45 +321,6 @@
       </field>
     </record>
 	
-    <!-- Ingreso de cargas familiar -->
-    <record id="view_family_burden_tree" model="ir.ui.view">
-      <field name="name">view.family.burden.tree</field>
-      <field name="model">family.burden</field>
-      <field name="arch" type="xml">
-	<tree string="Carga Familiar">
-	  <field name="name"/>
-	  <field name="last_name"/>
-	  <field name="type_id"/>
-	  <field name="number_id"/>
-	  <field name="type_rel_family"/>
-	  <field name="date_birth"/>
-	  <field name="phone"/>
-	  <field name="movil"/>
-	  <field name="type_instruction"/>
-	  <field name="check_contact_sos"/>
-	</tree>
-      </field>
-    </record>	
-    <record id="view_family_relationship_form" model="ir.ui.view">
-      <field name="name">view.family.burden.form</field>
-      <field name="model">family.burden</field>
-      <field name="arch" type="xml">
-	<form string="Carga Familiar">
-	  <field name="name"/>
-	  <field name="last_name"/>
-	  <field name="type_id"/>
-	  <field name="number_id"/>
-	  <field name="type_rel_family"/>
-	  <field name="date_birth"/>
-	  <field name="phone"/>
-	  <field name="movil"/>
-	  <field name="type_instruction"/>
-	  <field name="check_contact_sos"/>
-	</form>
-      </field>
-    </record>      
-
-    
   <!-- Ingreso de entidades financieras -->
   <record id="view_entity_tree" model="ir.ui.view">
       <field name="name">view.entity.finance.tree</field>
@@ -400,33 +361,6 @@
           <field name="name" />
       </form>
       </field>
-  </record>
-
- <!-- Ingreso de informacion bancaria -->
- <record id="view_bank_info_tree" model="ir.ui.view">
-      <field name="name">view.bank.info.tree</field>
-      <field name="model">bank.info</field>
-      <field name="arch" type="xml" >
-      <tree string="Información Bancaria">
-          <field name="id_entity_finance"/>
-          <field name="id_bank_account"/>
-          <field name="number"/>
-      </tree>
-    </field>
-  </record>
-
-  <record id="view_bank_info_form" model="ir.ui.view">
-      <field name="name">view.bank.info.form</field>
-      <field name="model">bank.info</field>
-      <field name="arch" type="xml">
-      <form string="Información Bancaria">
-          <group col="2" colspan="2">
-              <field name="id_entity_finance"/>
-              <field name="id_bank_account"/>
-              <field name="number"/>
-          </group>
-      </form>
-    </field>
   </record>
 
   <!-- Ingreso tipo de discapacidad -->

@@ -73,99 +73,81 @@
             <field name="res_model">parish</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
-        </record>
-
-
-   
-    <!-- Ingreso de parentesco familiar  -->
-    <record id="action_family_relationship" model="ir.actions.act_window">
-      <field name="name">Parentesco Familiar</field>
-      <field name="res_model">family.relationship</field>
-      <field name="view_type">form</field>
-      <field name="view_mode">tree,form</field>
-    </record>    
-    <!-- Ingreso de carga familiar  -->
-    <record id="action_family_burden" model="ir.actions.act_window">
-      <field name="name">Carga Familiar</field>
-      <field name="res_model">family.burden</field>
-      <field name="view_type">form</field>
-      <field name="view_mode">tree,form</field>
-    </record>     
-
+		</record>
+		<!-- Ingreso de parentesco familiar  -->
+		<record id="action_family_relationship" model="ir.actions.act_window">
+			<field name="name">Parentesco Familiar</field>
+			<field name="res_model">family.relationship</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree,form</field>
+		</record>    
 		<!-- Ingreso de Estado Civil -->
-    <record id="action_estado_civil" model="ir.actions.act_window">
-            <field name="name">Estado Civil</field>
-            <field name="res_model">estado.civil</field>
-    	  <field name="view_type">form</field>
-    	  <field name="view_mode">tree,form</field>
+		<record id="action_estado_civil" model="ir.actions.act_window">
+			<field name="name">Estado Civil</field>
+			<field name="res_model">estado.civil</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree,form</field>
 		</record>
 		<!-- Ingreso de Nacionalidades -->
-        <record id="action_nationality" model="ir.actions.act_window">
-            <field name="name">Nacionalidades</field>
-            <field name="res_model">nationality</field>
-            <field name="view_type">form</field>
-            <field name="view_mode">tree,form</field>
-        </record>
+		<record id="action_nationality" model="ir.actions.act_window">
+			<field name="name">Nacionalidades</field>
+			<field name="res_model">nationality</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree,form</field>
+		</record>
 		<!-- Ingreso de Instrucciones-->
-        <record id="action_instruction" model="ir.actions.act_window">
-            <field name="name">Instrucción</field>
-            <field name="res_model">instruction</field>
-            <field name="view_type">form</field>
-            <field name="view_mode">tree,form</field>
-        </record>
-
-        <record id="action_entity_finance" model="ir.actions.act_window">
-            <field name="name">Entidad Financiera</field>
-            <field name="res_model">entity.finance</field>
-            <field name="view_type">form</field>
-            <field name="view_mode">tree,form</field>
-        </record>
-        <record id="action_bank_account_type" model="ir.actions.act_window">
-            <field name="name">Tipos de Cuenta</field>
-            <field name="res_model">bank.account.type</field>
-            <field name="view_type">form</field>
-            <field name="view_mode">tree,form</field>
-        </record>
-        <record id="action_bank_info" model="ir.actions.act_window">
-            <field name="name">Datos Bancarios</field>
-            <field name="res_model">bank.info</field>
-            <field name="view_type">form</field>
-            <field name="view_mode">tree,form</field>
-        </record>
-    <!-- Ingreso de discapacidad  -->
-    <record id="action_type_disability" model="ir.actions.act_window">
-      <field name="name">Tipo de discapacidad</field>
-      <field name="res_model">type.disability</field>
-      <field name="view_type">form</field>
-      <field name="view_mode">tree,form</field>
-    </record>    
-    <!-- Ingreso de estudios de idioma  -->
-    <record id="action_language_studies" model="ir.actions.act_window">
-      <field name="name">Idiomas estudiados</field>
-      <field name="res_model">language.studies</field>
-      <field name="view_type">form</field>
-      <field name="view_mode">tree,form</field>
-    </record>    
-    <!-- Ingreso de tipo de eventos  -->
-    <record id="action_event_type" model="ir.actions.act_window">
-      <field name="name">Tipo de eventos</field>
-      <field name="res_model">event.type</field>
-      <field name="view_type">form</field>
-      <field name="view_mode">tree,form</field>
-    </record>    
-    <!-- Ingreso de eventos/capacitaciones  -->
-    <record id="action_info_training" model="ir.actions.act_window">
-      <field name="name">Capacitaciones</field>
-      <field name="res_model">info.training</field>
-      <field name="view_type">form</field>
-      <field name="view_mode">tree,form</field>
-    </record>    
-    <!-- Ingreso de eventos/capacitaciones  -->
-    <record id="action_certified_type" model="ir.actions.act_window">
-      <field name="name">Tipo de Certificado</field>
-      <field name="res_model">certified.type</field>
-      <field name="view_type">form</field>
-      <field name="view_mode">tree,form</field>
-    </record>    
-  </data>
+		<record id="action_instruction" model="ir.actions.act_window">
+			<field name="name">Instrucción</field>
+			<field name="res_model">instruction</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+		<record id="action_entity_finance" model="ir.actions.act_window">
+			<field name="name">Entidad Financiera</field>
+			<field name="res_model">entity.finance</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+		<record id="action_bank_account_type" model="ir.actions.act_window">
+			<field name="name">Tipos de Cuenta</field>
+			<field name="res_model">bank.account.type</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+		<!-- Ingreso de discapacidad  -->
+		<record id="action_type_disability" model="ir.actions.act_window">
+			<field name="name">Tipo de discapacidad</field>
+			<field name="res_model">type.disability</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree,form</field>
+		</record>    
+		<!-- Ingreso de estudios de idioma  -->
+		<record id="action_language_studies" model="ir.actions.act_window">
+			<field name="name">Idiomas estudiados</field>
+			<field name="res_model">language.studies</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree,form</field>
+		</record>    
+		<!-- Ingreso de tipo de eventos  -->
+		<record id="action_event_type" model="ir.actions.act_window">
+			<field name="name">Tipo de eventos</field>
+			<field name="res_model">event.type</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree,form</field>
+		</record>    
+		<!-- Ingreso de eventos/capacitaciones  -->
+		<record id="action_info_training" model="ir.actions.act_window">
+			<field name="name">Capacitaciones</field>
+			<field name="res_model">info.training</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree,form</field>
+		</record>    
+		<!-- Ingreso de eventos/capacitaciones  -->
+		<record id="action_certified_type" model="ir.actions.act_window">
+			<field name="name">Tipo de Certificado</field>
+			<field name="res_model">certified.type</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree,form</field>
+		</record>    
+	</data>
 </openerp>
