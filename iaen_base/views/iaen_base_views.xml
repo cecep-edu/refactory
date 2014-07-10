@@ -386,39 +386,6 @@
       </form>
     </field>
   </record>
-    <!-- Ingreso estudios de idioma -->
-<!--  <record id="view_language_studies_tree" model="ir.ui.view">
-    <field name="name">view.language.studies.tree</field>
-    <field name="model">language.studies</field>
-    <field name="arch" type="xml">
-      <tree string="Idiomas estudiados">
-	<field name="name"/>
-	<field name="percentage_listening"/>
-	<field name="percentage_spoken"/>
-	<field name="percentage_read"/>
-	<field name="percentage_written"/>
-	<field name="certificate_proficiency"/>
-	<field name="institution_language"/>
-      </tree>
-    </field>
-  </record>	
-  <record id="view_language_studies_form" model="ir.ui.view">
-    <field name="name">view.language.studies.form</field>
-    <field name="model">language.studies</field>
-    <field name="arch" type="xml">
-      <form string="Idiomas estudiados">
-	<group col="4" colspan="2">
-	  <field name="name"/>
-	  <field name="percentage_listening"/>
-	  <field name="percentage_spoken"/>
-	  <field name="percentage_read"/>
-	  <field name="percentage_written"/>
-	  <field name="certificate_proficiency"/>
-	  <field name="institution_language"/>
-	</group>
-      </form>
-    </field>
-  </record>-->
 
     <!-- Ingreso de tipo de evento -->
     <record id="view_event_type_tree" model="ir.ui.view">
