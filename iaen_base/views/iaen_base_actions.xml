@@ -82,9 +82,9 @@
 			<field name="view_mode">tree,form</field>
 		</record>    
 		<!-- Ingreso de Estado Civil -->
-		<record id="action_estado_civil" model="ir.actions.act_window">
+		<record id="action_civil_status" model="ir.actions.act_window">
 			<field name="name">Estado Civil</field>
-			<field name="res_model">estado.civil</field>
+			<field name="res_model">civil.status</field>
 			<field name="view_type">form</field>
 			<field name="view_mode">tree,form</field>
 		</record>
@@ -121,24 +121,10 @@
 			<field name="view_type">form</field>
 			<field name="view_mode">tree,form</field>
 		</record>    
-		<!-- Ingreso de estudios de idioma  -->
-		<record id="action_language_studies" model="ir.actions.act_window">
-			<field name="name">Idiomas estudiados</field>
-			<field name="res_model">language.studies</field>
-			<field name="view_type">form</field>
-			<field name="view_mode">tree,form</field>
-		</record>    
 		<!-- Ingreso de tipo de eventos  -->
 		<record id="action_event_type" model="ir.actions.act_window">
 			<field name="name">Tipo de eventos</field>
 			<field name="res_model">event.type</field>
-			<field name="view_type">form</field>
-			<field name="view_mode">tree,form</field>
-		</record>    
-		<!-- Ingreso de eventos/capacitaciones  -->
-		<record id="action_info_training" model="ir.actions.act_window">
-			<field name="name">Capacitaciones</field>
-			<field name="res_model">info.training</field>
 			<field name="view_type">form</field>
 			<field name="view_mode">tree,form</field>
 		</record>    

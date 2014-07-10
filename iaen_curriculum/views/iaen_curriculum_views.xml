@@ -7,7 +7,7 @@
 			<field name="arch" type="xml">
 				<tree string="Hoja de Vida">
 					<field name="partner_id"/>
-					<field name="estado_civil_id"/>
+					<field name="civil_status_id"/>
 					<field name="gender_id"/>
 					<field name="residence_city_id"/>
 					<field name="identification_type_id"/>
@@ -29,7 +29,7 @@
 								<field colspan="4" name="picture" widget="image" width="64" height="64"/>
 								<separator colspan="4"/>
 								<field name="partner_id"/>
-								<field name="estado_civil_id"/>
+								<field name="civil_status_id"/>
 								<field name="gender_id"/>
 								<field name="blood_type_id"/>
 								<field name="country_id"/>
@@ -107,6 +107,35 @@
 									</tree>
 								</field>
 							</page>
+						<page string="Idiomas">
+							<field name="language_studies_ids" nolabel="1">
+								<tree string="Idiomas" editable="bottom">
+									<field name="name"/>
+									<field name="percentage_listening"/>
+									<field name="percentage_spoken"/>
+									<field name="percentage_read"/>
+									<field name="percentage_written"/>
+									<field name="certificate_proficiency"/>
+									<field name="institution_language"/>
+								</tree>	
+							</field>
+						</page>
+						<page string="Capacitaciones">
+						  <field name="info_training_ids" nolabel="1">
+						    <tree string="Capacitaciones" editable="bottom">
+						      <field name="name"/>
+						      <field name="date_star"/>
+						      <field name="date_end"/>
+						      <field name="event_id"/>
+						      <field name="sponsor"/>
+						      <field name="duration"/>
+						      <field name="title_cert"/>
+						      <field name="certified_for"/>
+						      <field name="certified_type_id"/>
+						      <field name="country_id"/>			      
+						    </tree>	
+						  </field>
+						</page>
 					</notebook>
 				</form>
 			</field>
