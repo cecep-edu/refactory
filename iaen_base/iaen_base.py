@@ -142,8 +142,8 @@ class blood_type(osv.osv):
 		return True 
 	_constraints = [(_no_numbers, _(u"El Tipo de Sangre no debe contener números."), ['name'])]
 
-class estado_civil(osv.osv):
-    _name = "estado.civil"
+class civil_status(osv.osv):
+    _name = "civil.status"
     _description = "Informacion sobre estado civil"
     _order = "name"
     _sql_constraints = [('name_uniq', 'unique(name)', 'Ya existe un Estado Civil con el mismo nombre')]
@@ -180,7 +180,7 @@ class nationality(osv.osv):
 	_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe una Nacionalidad con ese nombre.'))]
 	def _only_letters(self, cr, uid, ids):
 		for nationality in self.browse(cr, uid, ids):
-			if not re.match(u"^[ñA-Za-zÁÉÍÓÚáéíóú\s]+$", nationality.name): return False
+			if not re.match(u"^[ñA-Za-zÁÉÍÓÚáéíóúü\s]+$", nationality.name): return False
 		return True 
 	_constraints = [(_only_letters, _(u"La Nacionalidad debe contener letras únicamente"), ['name'])]
 
@@ -264,6 +264,7 @@ class event_type(osv.osv):
 
     _constraints = [(_alphabetical, _(u"El Tipo de dato es invalido."), ['name'])]
 
+ 
 
 class certified_type(osv.osv):    
     _name = "certified.type"

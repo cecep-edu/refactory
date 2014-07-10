@@ -34,7 +34,7 @@ class curriculum(osv.osv):
 	_columns = {
 		"picture": fields.binary("Foto"),
 		"partner_id": fields.many2one("res.partner", u"Usuario", required=True),
-		"estado_civil_id": fields.many2one("estado.civil", u"Estado Civil", required=True),
+		"civil_status_id": fields.many2one("civil.status", u"Estado Civil", required=True),
 		"gender_id": fields.many2one("gender", u"Género", required=True),
 		"blood_type_id": fields.many2one("blood.type", u"Tipo de Sangre", required=True),
 		"country_id": fields.many2one("res.country", u"País de Nacimiento", required=True),
