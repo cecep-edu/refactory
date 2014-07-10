@@ -48,6 +48,7 @@
         'data/parish_data.xml',
         'data/certified_type_data.xml',
         'data/event_type_data.xml',
+		'data/instruction_data.xml',
     ],
     'installable': True,
     'auto_install': False,

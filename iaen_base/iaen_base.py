@@ -180,7 +180,7 @@ class nationality(osv.osv):
 	_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe una Nacionalidad con ese nombre.'))]
 	def _only_letters(self, cr, uid, ids):
 		for nationality in self.browse(cr, uid, ids):
-			if not re.match(u"^[ñA-Za-zÁÉÍÓÚáéíóú\s]+$", nationality.name): return False
+			if not re.match(u"^[ñA-Za-zÁÉÍÓÚáéíóúü\s]+$", nationality.name): return False
 		return True 
 	_constraints = [(_only_letters, _(u"La Nacionalidad debe contener letras únicamente"), ['name'])]
 
