@@ -50,8 +50,8 @@ class curriculum(osv.osv):
 		"house_number": fields.char("Número de Casa", size=7, required=False),
 		"location_reference": fields.text(u"Referencia de Ubicación"),
 		"disability": fields.boolean("Discapacidad"),
-		"disability_id": fields.many2one("type.disability", "Tipo de Discapacidad", required=True), 
-		"disability_degree": fields.char("Grado de Discapacidad", size=150, required=True), 
+		"disability_id": fields.many2one("type.disability", "Tipo de Discapacidad"), 
+		"disability_degree": fields.char("Grado de Discapacidad", size=150), 
 		"conadis_number": fields.char("Número del Carnet del CONADIS.", size=10, require=True),
 		"ethnic_group_id": fields.many2one("ethnic.group", u"Grupo Étnico", required=True),
 		"family_burden_ids": fields.one2many("family.burden", "curriculum_id", 'Carga Familiar', required=False),
@@ -63,6 +63,11 @@ class curriculum(osv.osv):
 		for curriculum in self.browse(cr, uid, ids):
 			if not (re.search("^-?[0-9]+$", curriculum.identification_number)): return False
 		return True 
+	def on_disability(self, cr, uid, ids, disability):
+		if not disability:
+			return {'value':{'disability_id': "", 'disability_degree': ""}}
+		else:
+			return {}
 
 	_constraints = [(_only_numbers, u"El Número de Identificación debe contener sólo digitos.", ['identification_number'])]
 
