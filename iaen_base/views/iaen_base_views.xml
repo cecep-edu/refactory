@@ -88,8 +88,10 @@
           <field name="model">gender</field>
           <field name="arch" type="xml">
                <form string="Generos">
-                    <field name="name"/>
-                    <field name="description"/>
+		 <group col="2" colspan="2">
+		   <field name="name"/>
+		   <field name="description"/>
+		 </group>
                </form>
           </field>
      </record>
@@ -168,8 +170,8 @@
 			<field name="arch" type="xml">
 				<tree string="Cantones">
 					<field name="name"/>
-					<field name="country_id"/>
-					<field name="description"/>
+					<field name="country_state_id"/>
+					
 				</tree>
 			</field>
 		</record>
@@ -181,9 +183,8 @@
 				<form string="Cantones">
 					<field name="name"/>
 					<newline/>
-					<field name="country_id"/>
-					<newline/>
-					<field name="description"/>
+					<field name="country_state_id"/>
+					
 				</form>
 			</field>
 		</record>
@@ -312,51 +313,14 @@
       <field name="model">family.relationship</field>
       <field name="arch" type="xml">
 	<form string="Parentesco Familiar">
-	  <field name="name"/>
-	  <field name="description"/>
+	  <group col="2" colspan="2">
+	    <field name="name"/>
+	    <field name="description"/>
+	  </group>
 	</form>
       </field>
     </record>
 	
-    <!-- Ingreso de cargas familiar -->
-    <record id="view_family_burden_tree" model="ir.ui.view">
-      <field name="name">view.family.burden.tree</field>
-      <field name="model">family.burden</field>
-      <field name="arch" type="xml">
-	<tree string="Carga Familiar">
-	  <field name="name"/>
-	  <field name="last_name"/>
-	  <field name="type_id"/>
-	  <field name="number_id"/>
-	  <field name="type_rel_family"/>
-	  <field name="date_birth"/>
-	  <field name="phone"/>
-	  <field name="movil"/>
-	  <field name="type_instruction"/>
-	  <field name="check_contact_sos"/>
-	</tree>
-      </field>
-    </record>	
-    <record id="view_family_relationship_form" model="ir.ui.view">
-      <field name="name">view.family.burden.form</field>
-      <field name="model">family.burden</field>
-      <field name="arch" type="xml">
-	<form string="Carga Familiar">
-	  <field name="name"/>
-	  <field name="last_name"/>
-	  <field name="type_id"/>
-	  <field name="number_id"/>
-	  <field name="type_rel_family"/>
-	  <field name="date_birth"/>
-	  <field name="phone"/>
-	  <field name="movil"/>
-	  <field name="type_instruction"/>
-	  <field name="check_contact_sos"/>
-	</form>
-      </field>
-    </record>      
-
-    
   <!-- Ingreso de entidades financieras -->
   <record id="view_entity_tree" model="ir.ui.view">
       <field name="name">view.entity.finance.tree</field>
@@ -399,33 +363,6 @@
       </field>
   </record>
 
- <!-- Ingreso de informacion bancaria -->
- <record id="view_bank_info_tree" model="ir.ui.view">
-      <field name="name">view.bank.info.tree</field>
-      <field name="model">bank.info</field>
-      <field name="arch" type="xml" >
-      <tree string="Información Bancaria">
-          <field name="id_entity_finance"/>
-          <field name="id_bank_account"/>
-          <field name="number"/>
-      </tree>
-    </field>
-  </record>
-
-  <record id="view_bank_info_form" model="ir.ui.view">
-      <field name="name">view.bank.info.form</field>
-      <field name="model">bank.info</field>
-      <field name="arch" type="xml">
-      <form string="Información Bancaria">
-          <group col="2" colspan="2">
-              <field name="id_entity_finance"/>
-              <field name="id_bank_account"/>
-              <field name="number"/>
-          </group>
-      </form>
-    </field>
-  </record>
-
   <!-- Ingreso tipo de discapacidad -->
   <record id="view_type_disability_tree" model="ir.ui.view">
     <field name="name">view.type.disability.tree</field>
@@ -442,10 +379,130 @@
     <field name="model">type.disability</field>
     <field name="arch" type="xml">
       <form string="Tipo de discapacidad">
-	<field name="name"/>
-	<field name="description"/>
+	<group col="2" colspan="2">
+	  <field name="name"/>
+	  <field name="description"/>
+	</group>
       </form>
     </field>
   </record>
+    <!-- Ingreso estudios de idioma -->
+  <record id="view_language_studies_tree" model="ir.ui.view">
+    <field name="name">view.language.studies.tree</field>
+    <field name="model">language.studies</field>
+    <field name="arch" type="xml">
+      <tree string="Idiomas estudiados">
+	<field name="name"/>
+	<field name="percentage_listening"/>
+	<field name="percentage_spoken"/>
+	<field name="percentage_read"/>
+	<field name="percentage_written"/>
+	<field name="certificate_proficiency"/>
+	<field name="institution_language"/>
+      </tree>
+    </field>
+  </record>	
+  <record id="view_language_studies_form" model="ir.ui.view">
+    <field name="name">view.language.studies.form</field>
+    <field name="model">language.studies</field>
+    <field name="arch" type="xml">
+      <form string="Idiomas estudiados">
+	<group col="4" colspan="2">
+	  <field name="name"/>
+	  <field name="percentage_listening"/>
+	  <field name="percentage_spoken"/>
+	  <field name="percentage_read"/>
+	  <field name="percentage_written"/>
+	  <field name="certificate_proficiency"/>
+	  <field name="institution_language"/>
+	</group>
+      </form>
+    </field>
+  </record>
+
+    <!-- Ingreso de tipo de evento -->
+    <record id="view_event_type_tree" model="ir.ui.view">
+      <field name="name">view.event.type.tree</field>
+      <field name="model">event.type</field>
+      <field name="arch" type="xml">
+	<tree string="Tipo de Evento">
+	  <field name="name"/>
+	  <field name="description"/>
+	</tree>
+      </field>
+    </record>	
+    <record id="view_event_type_form" model="ir.ui.view">
+      <field name="name">event.type.relationship.form</field>
+      <field name="model">event.type</field>
+      <field name="arch" type="xml">
+	<form string="Tipo de Evento">
+	  <group col="2" colspan="2">
+	    <field name="name"/>
+	    <field name="description"/>
+	  </group>
+	</form>
+      </field>
+    </record>
+	
+    <!-- Ingreso de capacitaciones -->
+    <record id="view_info_training_tree" model="ir.ui.view">
+      <field name="name">view.info.training.tree</field>
+      <field name="model">info.training</field>
+      <field name="arch" type="xml">
+	<tree string="Capacitaciones">
+	  <field name="name"/>
+	  <field name="date_star"/>
+	  <field name="date_end"/>
+	  <field name="event_id"/>
+	  <field name="sponsor"/>
+	  <field name="duration"/>
+	  <field name="title_cert"/>
+	  <field name="certified_for"/>
+	  <field name="certified_type_id"/>
+	  <field name="country_id"/>
+	</tree>
+      </field>
+    </record>	
+    <record id="view_info_training_form" model="ir.ui.view">
+      <field name="name">view.info.training.form</field>
+      <field name="model">info.training</field>
+      <field name="arch" type="xml">
+	<form string="Capacitaciones">
+	  <field name="name"/>
+	  <field name="date_star"/>
+	  <field name="date_end"/>
+	  <field name="event_id"/>
+	  <field name="sponsor"/>
+	  <field name="duration"/>
+	  <field name="title_cert"/>
+	  <field name="certified_for"/>
+	  <field name="certified_type_id"/>
+	  <field name="country_id"/>
+	</form>
+      </field>
+    </record>      
+    <!-- Ingreso de tipo de certificado -->
+    <record id="view_certified_type_tree" model="ir.ui.view">
+      <field name="name">view.certified.type.tree</field>
+      <field name="model">certified.type</field>
+      <field name="arch" type="xml">
+	<tree string="Tipo de Evento">
+	  <field name="name"/>
+	  <field name="description"/>
+	</tree>
+      </field>
+    </record>	
+    <record id="view_event_type_form" model="ir.ui.view">
+      <field name="name">view.certified.type.form</field>
+      <field name="model">certified.type</field>
+      <field name="arch" type="xml">
+	<form string="Tipo de certificado">
+	  <group col="2" colspan="2">
+	    <field name="name"/>
+	    <field name="description"/>
+	  </group>
+	</form>
+      </field>
+    </record>
 </data>
 </openerp>

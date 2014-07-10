@@ -105,8 +105,7 @@ class canton(osv.osv):
     _order = "name"
     _columns = {
         "name": fields.char("Ciudad/Cantón", size=15, required=True),
-        "country_id": fields.many2one("res.country.state","Provincia",required=True),
-        "description": fields.text("Descripción"),
+        "country_state_id": fields.many2one("res.country.state","Provincia",required=True),
     }
 
 #class city(osv.osv):
@@ -170,30 +169,6 @@ class family_relationship(osv.osv):
 
 #    _constraints = [(_alphabetical, _(u"El Tipo de dato es invalido."), ['name'])]
 
-#CARGA FAMILIAR
-class family_burden(osv.osv):    
-    _name = "family.burden"
-    _description = "Carga Familiar"       
-    _order = "last_name"
-    #_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un parentesco con el mismo nombre'))]
-    _columns={
-            "name": fields.char("Nombre", size=20, required=True),
-			"last_name": fields.char("Apellido", size=20, required=True),
-            "type_id": fields.many2one("identification.type", "Tipo de identificacion"),
-            "number_id": fields.char("Nro Identificacion", size=15, required=True),
-            "type_rel_family": fields.many2one("family.relationship","Tipo de Relacion"),
-            "date_birth": fields.date("Fecha nacimiento", required=True),
-            "phone": fields.char("Telefono", size=10, requiered=True),
-            "movil": fields.char("Celular", size=10, requiered=True),            
-            "type_instruction": fields.many2one("instruction","Instruccion"),
-            "check_contact_sos": fields.boolean("Contacto emergencia", requiered=True),
-    }
-    _defaults = {
-        "check_contact_sos": False,
-        }    
-#"instruction": fields.many2one("instruction", "Instruccion"),
-
-#    _constraints = [(_no_numbers, _(u"El Tipo de dato es invalido."), ['name'])]
 
 class nationality(osv.osv):
 	_name = "nationality"
@@ -254,25 +229,6 @@ class bank_account_type(osv.osv):
         return True 
     _constraints = [(_no_numbers, _(u'Debe contener solo caracteres alfabéticos.'), ['Nombre'])]
 
-class bank_info(osv.osv):
-    """Clase de la informacion bancaria de los usuarios"""
-    _name="bank.info"
-    _description="Informacion bancaria"
-    _order="id_entity_finance"
-    _sql_constraints = [('name_unique', 'unique(number)', _(u'Ya existe una cuenta con ese numero'))]
-    _columns={
-            "id_entity_finance": fields.many2one("entity.finance","Entidad Financiera",required=True),
-            "id_bank_account": fields.many2one("bank.account.type","Tipo de Cuenta",required=True),
-            "number" : fields.char("Número",size=15,required=True),
-			"curriculum_id": fields.many2one("curriculum")
-    }
-    def _no_char(self, cr, uid, ids):
-        for bank_info in self.browse(cr, uid, ids):
-            if re.search("[^0-9]", bank_info.number): return False
-        return True 
-
-    _constraints = [(_no_char, _(u"Debe contener solo números."), ['Numero'])]
-
 #TIPO DE DISCAPACIDAD
 class type_disability(osv.osv):    
     _name = "type.disability"
@@ -290,3 +246,77 @@ class type_disability(osv.osv):
 
     _constraints = [(_alphabetical, _(u"El Tipo de dato es invalido."), ['name'])]
 
+#TIPO DE ESTUDIOS DE LENGUAJE
+class language_studies(osv.osv):    
+    _name = "language.studies"
+    _description = "Lenguajes estudiados"       
+    _order = "name"
+    _sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un tipo de discapacidad con el mismo nombre'))]
+    _columns={
+            "name": fields.char("Idioma", size=15, required=True),
+            "percentage_listening": fields.char("Nivel Escuchado", size=4, required=True),
+            "percentage_spoken": fields.char("Nivel Oral", size=4, required=True),
+            "percentage_read": fields.char("Nivel Leido", size=4, required=True),
+            "percentage_written": fields.char("Nivel Escrito", size=4, required=True),
+            "certificate_proficiency": fields.boolean("Certificado de suficiencia", requiered=True),
+            "institution_language": fields.char("Institucion que le otorgó", size=30, required=True),                        
+    }
+    def _alphabetical(self, cr, uid, ids):
+        for bloody_type in self.browse(cr, uid, ids):
+            if not (re.search("[a-z, A-Z]", bloody_type.name)): return False
+        return True 
+
+    _constraints = [(_alphabetical, _(u"El Tipo de dato es invalido."), ['name'])]
+
+#TIPO DE EVENTO
+class event_type(osv.osv):    
+    _name = "event.type"
+    _description = "Tipo de Evento "       
+    _order = "name"
+    _sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un parentesco con el mismo nombre'))]
+    _columns={
+            "name": fields.char("Nombre", size=20, required=True),
+            "description": fields.text("Descripcion"),
+    }
+    def _alphabetical(self, cr, uid, ids):
+        for bloody_type in self.browse(cr, uid, ids):
+            if  re.search("[^a-z, A-Z]", bloody_type.name): return False
+        return True 
+
+    _constraints = [(_alphabetical, _(u"El Tipo de dato es invalido."), ['name'])]
+
+#CAPACITACION ESPECIFICA
+class info_training(osv.osv):    
+    _name = "info.training"
+    _description = "Capacitacion"       
+    _order = "name"
+    _sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un parentesco con el mismo nombre'))]
+    _columns={
+            "name": fields.char("Nombre", size=20, required=True),
+	    "date_star": fields.date("Fecha inicio", required=True),
+	    "date_end": fields.date("Fecha fin", required=True),
+            "event_id": fields.many2one("event.type", "Tipo de evento", required=True),
+            "sponsor": fields.char("Auspiciante", size=30, required=True),
+            "duration": fields.char("Duracion/horas", size=4, required=True),
+            "title_cert": fields.char("Titulo Certificado", size=30, requiered=True),
+            "certified_for": fields.char("Certificado por", size=10, requiered=True),            
+            "certified_type_id": fields.many2one("certified.type", "Tipo de evento", required=True),
+            "country_id": fields.many2one("res.country","Pais"),
+    }
+ 
+
+class certified_type(osv.osv):    
+    _name = "certified.type"
+    _description = "Tipo de Certificado"       
+    _order = "name"
+    _sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un parentesco con el mismo nombre'))]
+    _columns={
+            "name": fields.char("Nombre", size=15, required=True),
+            "description": fields.text("Descripcion"),
+    }
+    def _alphabetical(self, cr, uid, ids):
+        for bloody_type in self.browse(cr, uid, ids):
+            if  re.search("[^a-z, A-Z]", bloody_type.name): return False
+        return True 
+
+    _constraints = [(_alphabetical, _(u"El Tipo de dato es invalido."), ['name'])]
