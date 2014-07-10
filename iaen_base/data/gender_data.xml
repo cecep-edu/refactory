@@ -10,5 +10,9 @@
       <field name="name">Femenino</field>
       <field name="description">Perfil para las personas que son femeninas</field>
     </record>
+    <record model="gender" id="gender_other" >
+      <field name="name">Otros</field>
+      <field name="description">Perfil para otros generos</field>
+    </record>
 </data>
 </openerp>
