@@ -34,7 +34,7 @@ class curriculum(osv.osv):
 	_columns = {
 		"picture": fields.binary("Foto"),
 		"partner_id": fields.many2one("res.partner", u"Usuario", required=True),
-		"estado_civil_id": fields.many2one("estado.civil", u"Estado Civil", required=True),
+		"civil_status_id": fields.many2one("civil.status", u"Estado Civil", required=True),
 		"gender_id": fields.many2one("gender", u"Género", required=True),
 		"blood_type_id": fields.many2one("blood.type", u"Tipo de Sangre", required=True),
 		"country_id": fields.many2one("res.country", u"País de Nacimiento", required=True),
@@ -50,19 +50,27 @@ class curriculum(osv.osv):
 		"house_number": fields.char("Número de Casa", size=7, required=False),
 		"location_reference": fields.text(u"Referencia de Ubicación"),
 		"disability": fields.boolean("Discapacidad"),
-		"disability_id": fields.many2one("type.disability", "Tipo de Discapacidad", required=True), 
-		"disability_degree": fields.char("Grado de Discapacidad", size=150, required=True), 
+		"disability_id": fields.many2one("type.disability", "Tipo de Discapacidad"), 
+		"disability_degree": fields.char("Grado de Discapacidad", size=150), 
 		"conadis_number": fields.char("Número del Carnet del CONADIS.", size=10, require=True),
 		"ethnic_group_id": fields.many2one("ethnic.group", u"Grupo Étnico", required=True),
 		"family_burden_ids": fields.one2many("family.burden", "curriculum_id", 'Carga Familiar', required=False),
 		"bank_info_ids": fields.one2many("bank.info", "curriculum_id", "Información Bancaria", required=False),
 		"instruction_info_ids" : fields.one2many("instruction.info", "curriculum_id", "Instrucción Académica"),
 		"experience_info_ids": fields.one2many("experience.info","curriculum_id", "Experiencia Laboral"),
+		"language_studies_ids": fields.one2many("language.studies","curriculum_id","Idiomas estudiados"),
+		"info_training_ids": fields.one2many("info.training","curriculum_id","Capacitaciones"),
+
 	}
 	def _only_numbers(self, cr, uid, ids):
 		for curriculum in self.browse(cr, uid, ids):
 			if not (re.search("^-?[0-9]+$", curriculum.identification_number)): return False
 		return True 
+	def on_disability(self, cr, uid, ids, disability):
+		if not disability:
+			return {'value':{'disability_id': "", 'disability_degree': ""}}
+		else:
+			return {}
 
 	_constraints = [(_only_numbers, u"El Número de Identificación debe contener sólo digitos.", ['identification_number'])]
 
@@ -144,3 +152,46 @@ class family_burden(osv.osv):
     _defaults = {
         "check_contact_sos": False,
         }   
+
+#TIPO DE ESTUDIOS DE LENGUAJE
+class language_studies(osv.osv):    
+    _name = "language.studies"
+    _description = "Lenguajes estudiados"       
+    _order = "name"
+    _sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un tipo de discapacidad con el mismo nombre'))]
+    _columns={
+            "name": fields.char("Idioma", size=15, required=True),
+            "percentage_listening": fields.char("Nivel Escuchado", size=4, required=True),
+            "percentage_spoken": fields.char("Nivel Oral", size=4, required=True),
+            "percentage_read": fields.char("Nivel Leido", size=4, required=True),
+            "percentage_written": fields.char("Nivel Escrito", size=4, required=True),
+            "certificate_proficiency": fields.boolean("Certificado de suficiencia", requiered=True),
+            "institution_language": fields.char("Institucion que le otorgó", size=30, required=True),
+	    "curriculum_id": fields.many2one("curriculum")
+    }
+    def _alphabetical(self, cr, uid, ids):
+        for bloody_type in self.browse(cr, uid, ids):
+            if not (re.search("[a-z, A-Z]", bloody_type.name)): return False
+        return True 
+
+    _constraints = [(_alphabetical, _(u"El Tipo de dato es invalido."), ['name'])]
+
+#CAPACITACION ESPECIFICA
+class info_training(osv.osv):    
+    _name = "info.training"
+    _description = "Capacitacion"       
+    _order = "name"
+    _sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un parentesco con el mismo nombre'))]
+    _columns={
+            "name": fields.char("Nombre", size=20, required=True),
+	    "date_star": fields.date("Fecha inicio", required=True),
+	    "date_end": fields.date("Fecha fin", required=True),
+            "event_id": fields.many2one("event.type", "Tipo de evento", required=True),
+            "sponsor": fields.char("Auspiciante", size=30, required=True),
+            "duration": fields.char("Duracion/horas", size=4, required=True),
+            "title_cert": fields.char("Titulo Certificado", size=30, requiered=True),
+            "certified_for": fields.char("Certificado por", size=10, requiered=True),            
+            "certified_type_id": fields.many2one("certified.type", "Tipo de evento", required=True),
+            "country_id": fields.many2one("res.country","Pais"),
+	    "curriculum_id": fields.many2one("curriculum"),
+    }
