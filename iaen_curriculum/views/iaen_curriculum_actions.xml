@@ -6,7 +6,7 @@
 		  <field name="name">Hoja de Vida</field>
 		  <field name="res_model">curriculum</field>
 		  <field name="view_type">form</field>
-		  <field name="view_mode">tree,form</field>
+		  <field name="view_mode">kanban,tree,form</field>
 		</record>
 	</data>
 </openerp>

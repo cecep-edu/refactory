@@ -11,7 +11,7 @@
 	<menuitem id="menu_division" name="División política" parent="menu_configuration" sequence="6"/>
     <menuitem action="action_res_country" id="menu_res_country" name="Pais" parent="menu_division" sequence="1"/>
     <menuitem action="action_zones" id="menu_zones" name="Zonas" parent="menu_division" sequence="2"/>
-    <menuitem action="action_res_country_state" id="menu_res_contry_state" name="Estados" parent="menu_division" sequence="3"/>
+    <menuitem action="action_res_country_state" id="menu_res_contry_state" name="Provincia/Estado" parent="menu_division" sequence="3"/>
     <menuitem action="action_canton" id="menu_canton" name="Cantón/Ciudades" parent="menu_division" sequence="4"/> 
     <menuitem action="action_parish" id="menu_parish" name="Parroquias" parent="menu_division" sequence="5"/>
 
@@ -29,7 +29,6 @@
 	<menuitem id="menu_financiera" name="Información Financiera" parent="menu_configuration"/>
 	<menuitem action="action_entity_finance" id="menu_entity_finance" name="Entidad Financiera" parent="menu_financiera"/>
 	<menuitem action="action_bank_account_type" id="menu_bank_account_type" name="Tipo de Cuenta" parent="menu_financiera"/>
-	<menuitem action="action_bank_info" id="menu_bank_info" name="Datos Bancarios" parent="menu_financiera"/>
 	<menuitem action="action_language_studies" id="menu_language_studies" name="Idiomas estudiados" parent="menu_configuration"/>
 	<menuitem action="action_event_type" id="menu_event_type" name="Tipo de eventos" parent="menu_configuration"/>
 	<menuitem action="action_info_training" id="menu_info_training" name="Capacitaciones" parent="menu_configuration"/>
