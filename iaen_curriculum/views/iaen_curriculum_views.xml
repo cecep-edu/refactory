@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
 	<data>
+
+      <record id="view_curriculum_kanban" model="ir.ui.view">
+		<field name="name">view.curriculum.kanban</field>
+		<field name="model">curriculum</field>
+        <field name="type">kanban</field>
+		<field name="arch" type="xml">
+		  <kanban>
+			<field name="partner_id"/>
+			<field name="identification_number"/>
+            <field name="picture"/>
+            <templates>
+              <t t-name="kanban-box">
+                <div style="border: 1px solid; height: 120px; margin-left: auto; margin-right: auto; min-height: 112px; padding-top: 5px; text-align: center; width: 100px;">
+                  <a type="open">
+                    <img t-att-src="kanban_image('curriculum','picture',record.id.value)" height="75px" width="75px"/>
+                    <h4><field name="partner_id"></field></h4>
+                  </a>
+                  <div class="">
+                    <h4><field name="identification_number"></field></h4>
+                  </div>
+                </div>
+              </t>
+            </templates>
+		  </kanban>
+		</field>
+	  </record>	
+      t
 		<record id="view_curriculum_tree" model="ir.ui.view">
 			<field name="name">view.curriculum.tree</field>
 			<field name="model">curriculum</field>
