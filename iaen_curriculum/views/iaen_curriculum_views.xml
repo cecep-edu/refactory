@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
 	<data>
+
+      <record id="view_curriculum_kanban" model="ir.ui.view">
+		<field name="name">view.curriculum.kanban</field>
+		<field name="model">curriculum</field>
+        <field name="type">kanban</field>
+		<field name="arch" type="xml">
+		  <kanban>
+			<field name="partner_id"/>
+			<field name="identification_number"/>
+            <field name="picture"/>
+            <templates>
+              <t t-name="kanban-box">
+                <div style="border: 1px solid; height: 120px; margin-left: auto; margin-right: auto; min-height: 112px; padding-top: 5px; text-align: center; width: 100px;">
+                  <a type="open">
+                    <img t-att-src="kanban_image('curriculum','picture',record.id.value)" height="75px" width="75px"/>
+                    <h4><field name="partner_id"></field></h4>
+                  </a>
+                  <div class="">
+                    <h4><field name="identification_number"></field></h4>
+                  </div>
+                </div>
+              </t>
+            </templates>
+		  </kanban>
+		</field>
+	  </record>	
+      t
 		<record id="view_curriculum_tree" model="ir.ui.view">
 			<field name="name">view.curriculum.tree</field>
 			<field name="model">curriculum</field>
@@ -25,39 +52,33 @@
 				<form string="Hoja de Vida">
 					<notebook colspan="4">
 						<page string="Datos Generales">
-							<group col="4" string="Información Personal">
+							<group col="6" string="Información Personal">
 								<field colspan="4" name="picture" widget="image" width="64" height="64"/>
-								<separator colspan="4"/>
+								<separator colspan="6"/>
 								<field name="partner_id"/>
+								<field name="identification_type_id"/>
+								<field name="identification_number"/>
 								<field name="civil_status_id"/>
 								<field name="gender_id"/>
 								<field name="blood_type_id"/>
+								<field name="ethnic_group_id"/>
 								<field name="country_id"/>
-								<field name="birth_city_id"/>
-								<field name="residence_city_id"/>
-								<field name="identification_type_id"/>
-								<field name="identification_number"/>
 								<field name="nationality_id"/>
-							</group>
-							<separator colspan="4"/>
-							<group string="Información de Residencia">
-								<field name="home_phone"/>
-								<field name="mobile_phone"/>
-								<field name="street_address_1"/>
-								<field name="street_address_2"/>
-								<field name="house_number"/>
-								<field name="location_reference"/>
-							</group>
-							<separator colspan="4"/>
-							<group string="Discapacidades">
+								<field name="birth_city_id" on_change="on_birth_city_change(birth_city_id, residence_city_id)"/>
+								<field name="residence_city_id"/>
 								<field name="disability" on_change="on_disability(disability)"/>
 								<field name="disability_id" attrs="{'invisible':[('disability', '!=', True)], 'required':[('disability', '==', True)]}"/>
 								<field name="disability_degree" attrs="{'invisible':[('disability', '!=', True)], 'required':[('disability', '==', True)]}"/>
 								<field name="conadis_number" attrs="{'invisible':[('disability', '!=', True)]}"/>
 							</group>
 							<separator colspan="4"/>
-							<group string="Otros">
-								<field name="ethnic_group_id"/>
+							<group col="6" string="Información de Residencia">
+								<field name="home_phone"/>
+								<field name="mobile_phone"/>
+								<field name="street_address_1"/>
+								<field name="street_address_2"/>
+								<field name="house_number"/>
+								<field name="location_reference"/>
 							</group>
 						</page>
 						<page string="Información Bancaria">

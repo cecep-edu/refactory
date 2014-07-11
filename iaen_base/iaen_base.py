@@ -31,7 +31,7 @@ import re
 
 class identification_type(osv.osv):
     _name = "identification.type"
-    _description = "Identificacion con pasaporte o Cedula de ciudadania"
+    _description = u'Identificacion con pasaporte o Cédula de ciudadania'
     _order = "name"
     _sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un tipo de identificación con el mismo nombre'))]
     _columns = {
