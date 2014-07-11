@@ -52,7 +52,7 @@ class curriculum(osv.osv):
 		"disability": fields.boolean("Discapacidad"),
 		"disability_id": fields.many2one("type.disability", "Tipo de Discapacidad"), 
 		"disability_degree": fields.char("Grado de Discapacidad", size=150), 
-		"conadis_number": fields.char("Número del Carnet del CONADIS.", size=10, require=True),
+		"conadis_number": fields.char("N° Carnet del CONADIS", size=10, require=True),
 		"ethnic_group_id": fields.many2one("ethnic.group", u"Grupo Étnico", required=True),
 		"family_burden_ids": fields.one2many("family.burden", "curriculum_id", 'Carga Familiar', required=False),
 		"bank_info_ids": fields.one2many("bank.info", "curriculum_id", "Información Bancaria", required=False),
@@ -64,11 +64,17 @@ class curriculum(osv.osv):
 	}
 	def _only_numbers(self, cr, uid, ids):
 		for curriculum in self.browse(cr, uid, ids):
-			if not (re.search("^-?[0-9]+$", curriculum.identification_number)): return False
+			if curriculum.identification_type_id.name.lower().find(u"cédula")>=0 and not (re.search("^-?[0-9]+$", curriculum.identification_number)): 
+				return False
 		return True 
 	def on_disability(self, cr, uid, ids, disability):
 		if not disability:
 			return {'value':{'disability_id': "", 'disability_degree': ""}}
+		else:
+			return {}
+	def on_birth_city_change(self, cr, uid, ids, birth_city, residence_city):
+		if birth_city and not residence_city:
+			return {'value':{'residence_city_id':  birth_city}}
 		else:
 			return {}
 
