@@ -49,6 +49,7 @@
         'data/certified_type_data.xml',
         'data/event_type_data.xml',
         'data/instruction_data.xml',
+        'data/language_data.xml',
     ],
     'images' : ['images/iaen_base.jpeg'],
     'installable': True,
