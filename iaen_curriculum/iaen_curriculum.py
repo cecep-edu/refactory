@@ -72,6 +72,11 @@ class curriculum(osv.osv):
 			return {'value':{'disability_id': "", 'disability_degree': ""}}
 		else:
 			return {}
+	def on_birth_city_change(self, cr, uid, ids, birth_city, residence_city):
+		if birth_city and not residence_city:
+			return {'value':{'residence_city_id':  birth_city}}
+		else:
+			return {}
 
 	_constraints = [(_only_numbers, u"El Número de Identificación debe contener sólo digitos.", ['identification_number'])]
 
