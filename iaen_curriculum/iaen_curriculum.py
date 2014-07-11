@@ -197,11 +197,11 @@ class info_training(osv.osv):
 	    "curriculum_id": fields.many2one("curriculum"),
     }
     def on_date(self, cr, uid, ids, date_star, date_end):
-    	if date_end:
-	    	if(date_star > date_end): 	    		
-				return {'value':{'date_star': "", 'date_end': ""}, 'warning':{'title':'Error de Validación',
-						'message':'La Fecha de Inicio debe ser menor que la Fecha de Fin'}}
-	    	else:
-				return {'value': {}}
-	else:
-		return {'value': {}}
+	    if date_end:
+		    if(date_star > date_end): 	    		
+			    return {'value':{'date_star': "", 'date_end': ""}, 'warning':{'title':'Error de Validación',
+											  'message':'La Fecha de Inicio debe ser menor que la Fecha de Fin'}}
+		    else:
+			    return {'value': {}}
+	    else:
+		    return {'value': {}}
