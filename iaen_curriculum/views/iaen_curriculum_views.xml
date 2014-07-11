@@ -110,13 +110,14 @@
 						<page string="Idiomas">
 							<field name="language_studies_ids" nolabel="1">
 								<tree string="Idiomas" editable="bottom">
-									<field name="name"/>
+									<field name="language_type_id"/>
 									<field name="percentage_listening"/>
 									<field name="percentage_spoken"/>
 									<field name="percentage_read"/>
 									<field name="percentage_written"/>
+									<field name="native_language"/>
 									<field name="certificate_proficiency"/>
-									<field name="institution_language"/>
+									<field name="institution_language" attrs="{'invisible':[('certificate_proficiency', '!=', True)], 'required':[('certificate_proficiency', '==', True)]}"/>
 								</tree>	
 							</field>
 						</page>
@@ -124,13 +125,12 @@
 						  <field name="info_training_ids" nolabel="1">
 						    <tree string="Capacitaciones" editable="bottom">
 						      <field name="name"/>
-						      <field name="date_star"/>
-						      <field name="date_end"/>
+						      <field name="date_star" on_change="on_date(date_star,date_end)"/>
+						      <field name="date_end" on_change="on_date(date_star,date_end)"/>
 						      <field name="event_id"/>
-						      <field name="sponsor"/>
-						      <field name="duration"/>
-						      <field name="title_cert"/>
 						      <field name="certified_for"/>
+						      <field name="duration"/>
+						      <field name="title_cert"/>			      
 						      <field name="certified_type_id"/>
 						      <field name="country_id"/>			      
 						    </tree>	

@@ -33,16 +33,16 @@ class curriculum(osv.osv):
 	_description = "Registra la Hoja de Vida de los usuarios"
 	_columns = {
 		"picture": fields.binary("Foto"),
-		"partner_id": fields.many2one("res.partner", u"Usuario", required=True),
-		"civil_status_id": fields.many2one("civil.status", u"Estado Civil", required=True),
-		"gender_id": fields.many2one("gender", u"Género", required=True),
-		"blood_type_id": fields.many2one("blood.type", u"Tipo de Sangre", required=True),
-		"country_id": fields.many2one("res.country", u"País de Nacimiento", required=True),
-		"birth_city_id": fields.many2one("canton", u"Ciudad de Nacimiento", required=True),
-		"residence_city_id": fields.many2one("canton", u"Ciudad de Residencia", required=True),
+		"partner_id": fields.many2one("res.partner", "Usuario", required=True),
+		"civil_status_id": fields.many2one("civil.status", "Estado Civil", required=True),
+		"gender_id": fields.many2one("gender", "Género", required=True),
+		"blood_type_id": fields.many2one("blood.type", "Tipo de Sangre", required=True),
+		"country_id": fields.many2one("res.country", "País de Nacimiento", required=True),
+		"birth_city_id": fields.many2one("canton", "Ciudad de Nacimiento", required=True),
+		"residence_city_id": fields.many2one("canton", "Ciudad de Residencia", required=True),
 		"identification_type_id": fields.many2one("identification.type", u"Tipo de Identificación", required=True),
 		"identification_number": fields.char("Número de Identificación", size=13, required=True),
-		"nationality_id": fields.many2one("nationality", u"Nacionalidad", required=True),
+		"nationality_id": fields.many2one("nationality", "Nacionalidad", required=True),
 		"home_phone": fields.char("Teléfono Domicilio", size=15, required=True),
 		"mobile_phone": fields.char("Teléfono Móvil", size=15, required=True),
 		"street_address_1": fields.char("Dirección Calle 1", size=200, required=True),
@@ -138,14 +138,14 @@ class family_burden(osv.osv):
     #_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un parentesco con el mismo nombre'))]
     _columns={
             "name": fields.char("Nombre", size=20, required=True),
-			"last_name": fields.char("Apellido", size=20, required=True),
-            "type_id": fields.many2one("identification.type", "Tipo de identificacion"),
-            "number_id": fields.char("Nro Identificacion", size=15, required=True),
-            "type_rel_family": fields.many2one("family.relationship","Tipo de Relacion"),
+	    "last_name": fields.char("Apellido", size=20, required=True),
+            "type_id": fields.many2one("identification.type", "Tipo de identificación"),
+            "number_id": fields.char("Nro Identificación", size=15, required=True),
+            "type_rel_family": fields.many2one("family.relationship","Tipo de Relación"),
             "date_birth": fields.date("Fecha nacimiento", required=True),
-            "phone": fields.char("Telefono", size=10, requiered=True),
+            "phone": fields.char("Teléfono", size=10, requiered=True),
             "movil": fields.char("Celular", size=10, requiered=True),            
-            "type_instruction": fields.many2one("instruction","Instruccion"),
+            "type_instruction": fields.many2one("instruction","Instrucción"),
             "check_contact_sos": fields.boolean("Contacto emergencia", requiered=True),
 			"curriculum_id": fields.many2one("curriculum")
     }
@@ -160,13 +160,14 @@ class language_studies(osv.osv):
     _order = "name"
     _sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un tipo de discapacidad con el mismo nombre'))]
     _columns={
-            "name": fields.char("Idioma", size=15, required=True),
+	    "language_type_id": fields.many2one("language.type","Idioma"),
             "percentage_listening": fields.char("Nivel Escuchado", size=4, required=True),
             "percentage_spoken": fields.char("Nivel Oral", size=4, required=True),
-            "percentage_read": fields.char("Nivel Leido", size=4, required=True),
+            "percentage_read": fields.char("Nivel Leído", size=4, required=True),
             "percentage_written": fields.char("Nivel Escrito", size=4, required=True),
+	    "native_language": fields.boolean("Lenguaje Nativo", required=True),
             "certificate_proficiency": fields.boolean("Certificado de suficiencia", requiered=True),
-            "institution_language": fields.char("Institucion que le otorgó", size=30, required=True),
+            "institution_language": fields.char("Institución que le otorgó", size=30),
 	    "curriculum_id": fields.many2one("curriculum")
     }
     def _alphabetical(self, cr, uid, ids):
@@ -179,19 +180,28 @@ class language_studies(osv.osv):
 #CAPACITACION ESPECIFICA
 class info_training(osv.osv):    
     _name = "info.training"
-    _description = "Capacitacion"       
+    _description = "Clase Capacitacion"       
     _order = "name"
     _sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un parentesco con el mismo nombre'))]
     _columns={
-            "name": fields.char("Nombre", size=20, required=True),
+            "name": fields.char("Nombre", size=35, required=True),
 	    "date_star": fields.date("Fecha inicio", required=True),
 	    "date_end": fields.date("Fecha fin", required=True),
             "event_id": fields.many2one("event.type", "Tipo de evento", required=True),
-            "sponsor": fields.char("Auspiciante", size=30, required=True),
-            "duration": fields.char("Duracion/horas", size=4, required=True),
-            "title_cert": fields.char("Titulo Certificado", size=30, requiered=True),
             "certified_for": fields.char("Certificado por", size=10, requiered=True),            
-            "certified_type_id": fields.many2one("certified.type", "Tipo de evento", required=True),
+            "duration": fields.char("Duración/horas", size=4, required=True),
+            "title_cert": fields.char("Título Certificado", size=30, requiered=True),
+            "certified_for": fields.char("Certificado por", size=10, requiered=True),            
+            "certified_type_id": fields.many2one("certified.type", "Tipo de Certificado", required=True),
             "country_id": fields.many2one("res.country","Pais"),
 	    "curriculum_id": fields.many2one("curriculum"),
     }
+    def on_date(self, cr, uid, ids, date_star, date_end):
+    	if date_end:
+	    	if(date_star > date_end): 	    		
+				return {'value':{'date_star': "", 'date_end': ""}, 'warning':{'title':'Error de Validación',
+						'message':'La Fecha de Inicio debe ser menor que la Fecha de Fin'}}
+	    	else:
+				return {'value': {}}
+	else:
+		return {'value': {}}

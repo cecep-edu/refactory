@@ -3,11 +3,15 @@
   <data noupdate="1">
 
     <record model="certified.type" id="certified_approbation" >
-      <field name="name">Aprobacion</field>
+      <field name="name">Aprobación</field>
       <field name="description">Evento con calificado por el auspicieante</field>
     </record>
     <record model="certified.type" id="certified_assistance" >
       <field name="name">Asistencia</field>
+      <field name="description">Evento con calificado por el auspicieante</field>
+    </record>
+    <record model="certified.type" id="certified_presentation" >
+      <field name="name">Ponecia</field>
       <field name="description">Evento con calificado por el auspicieante</field>
     </record>
   </data>
