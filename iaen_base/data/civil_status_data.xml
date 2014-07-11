@@ -10,9 +10,6 @@
 		<record model="civil.status" id="civil_status_d">
 			<field name="name">Divorciado (a)</field>
 		</record>
-		<record model="civil.status" id="civil_status_se">
-			<field name="name">Separado (a)</field>
-		</record>
 		<record model="civil.status" id="civil_status_v">
 			<field name="name">Viudo (a)</field>
 		</record>

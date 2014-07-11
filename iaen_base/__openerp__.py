@@ -50,6 +50,7 @@
         'data/event_type_data.xml',
 		'data/instruction_data.xml',
     ],
+    'images' : ['images/iaen_base.jpeg'],
     'installable': True,
     'auto_install': False,
 }
