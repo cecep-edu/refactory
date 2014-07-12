@@ -163,25 +163,17 @@ class family_burden(osv.osv):
 class language_studies(osv.osv):    
     _name = "language.studies"
     _description = "Lenguajes estudiados"       
-    _order = "name"
-    _sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un tipo de discapacidad con el mismo nombre'))]
     _columns={
 	    "language_type_id": fields.many2one("language.type","Idioma"),
             "percentage_listening": fields.char("Nivel Escuchado", size=4, required=True),
             "percentage_spoken": fields.char("Nivel Oral", size=4, required=True),
             "percentage_read": fields.char("Nivel Leído", size=4, required=True),
             "percentage_written": fields.char("Nivel Escrito", size=4, required=True),
-	    "native_language": fields.boolean("Lenguaje Nativo", required=True),
+	    "native_language": fields.boolean("Lenguaje Nativo"),
             "certificate_proficiency": fields.boolean("Certificado de suficiencia", requiered=True),
             "institution_language": fields.char("Institución que le otorgó", size=30),
 	    "curriculum_id": fields.many2one("curriculum")
     }
-    def _alphabetical(self, cr, uid, ids):
-        for bloody_type in self.browse(cr, uid, ids):
-            if not (re.search("[a-z, A-Z]", bloody_type.name)): return False
-        return True 
-
-    _constraints = [(_alphabetical, _(u"El Tipo de dato es invalido."), ['name'])]
 
 #CAPACITACION ESPECIFICA
 class info_training(osv.osv):    
