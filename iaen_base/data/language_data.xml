@@ -1,0 +1,721 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<openerp>
+<data noupdate="1">
+<record model="language.type" id="laguague_1">
+<field name="cod_language">aa</field>
+<field name="name">Lejos</field>
+</record>
+
+<record model="language.type" id="laguague_2">
+<field name="cod_language">ab</field>
+<field name="name">Abjasia</field>
+</record>
+
+<record model="language.type" id="laguague_3">
+<field name="cod_language">af</field>
+<field name="name">Africaans</field>
+</record>
+
+<record model="language.type" id="laguague_4">
+<field name="cod_language">am</field>
+<field name="name">Amárico</field>
+</record>
+
+<record model="language.type" id="laguague_5">
+<field name="cod_language">ar</field>
+<field name="name">Árabe</field>
+</record>
+
+<record model="language.type" id="laguague_6">
+<field name="cod_language">as</field>
+<field name="name">Asamés</field>
+</record>
+
+<record model="language.type" id="laguague_7">
+<field name="cod_language">ay</field>
+<field name="name">Aimara</field>
+</record>
+
+<record model="language.type" id="laguague_8">
+<field name="cod_language">az</field>
+<field name="name">Azerbaiyán</field>
+</record>
+
+<record model="language.type" id="laguague_9">
+<field name="cod_language">ba</field>
+<field name="name">Bashkir</field>
+</record>
+
+<record model="language.type" id="laguague_10">
+<field name="cod_language">be</field>
+<field name="name">Bielorrusia (Belarús)</field>
+</record>
+
+<record model="language.type" id="laguague_11">
+<field name="cod_language">bg</field>
+<field name="name">Búlgaro</field>
+</record>
+
+<record model="language.type" id="laguague_12">
+<field name="cod_language">bh</field>
+<field name="name">Bihari</field>
+</record>
+
+<record model="language.type" id="laguague_13">
+<field name="cod_language">bi</field>
+<field name="name">Bislama</field>
+</record>
+
+<record model="language.type" id="laguague_14">
+<field name="cod_language">bn</field>
+<field name="name">Bengalí</field>
+</record>
+
+<record model="language.type" id="laguague_15">
+<field name="cod_language">bo</field>
+<field name="name">Tibetano</field>
+</record>
+
+<record model="language.type" id="laguague_16">
+<field name="cod_language">br</field>
+<field name="name">Breton</field>
+</record>
+
+<record model="language.type" id="laguague_17">
+<field name="cod_language">ca</field>
+<field name="name">Catalán</field>
+</record>
+
+<record model="language.type" id="laguague_18">
+<field name="cod_language">co</field>
+<field name="name">Corso</field>
+</record>
+
+<record model="language.type" id="laguague_19">
+<field name="cod_language">cs</field>
+<field name="name">Checo</field>
+</record>
+
+<record model="language.type" id="laguague_20">
+<field name="cod_language">cy</field>
+<field name="name">Galés</field>
+</record>
+
+<record model="language.type" id="laguague_21">
+<field name="cod_language">da</field>
+<field name="name">Danés</field>
+</record>
+
+<record model="language.type" id="laguague_22">
+<field name="cod_language">de</field>
+<field name="name">Alemán</field>
+</record>
+
+<record model="language.type" id="laguague_23">
+<field name="cod_language">dz</field>
+<field name="name">Bhutani</field>
+</record>
+
+<record model="language.type" id="laguague_24">
+<field name="cod_language">el</field>
+<field name="name">Griego</field>
+</record>
+
+<record model="language.type" id="laguague_25">
+<field name="cod_language">en</field>
+<field name="name">Inglés</field>
+</record>
+
+<record model="language.type" id="laguague_26">
+<field name="cod_language">eo</field>
+<field name="name">Esperanto</field>
+</record>
+
+<record model="language.type" id="laguague_27">
+<field name="cod_language">es</field>
+<field name="name">Español</field>
+</record>
+
+<record model="language.type" id="laguague_28">
+<field name="cod_language">et</field>
+<field name="name">Estonia</field>
+</record>
+
+<record model="language.type" id="laguague_29">
+<field name="cod_language">eu</field>
+<field name="name">Vasco</field>
+</record>
+
+<record model="language.type" id="laguague_30">
+<field name="cod_language">fa</field>
+<field name="name">Persa</field>
+</record>
+
+<record model="language.type" id="laguague_31">
+<field name="cod_language">fi</field>
+<field name="name">Finlandés</field>
+</record>
+
+<record model="language.type" id="laguague_32">
+<field name="cod_language">fj</field>
+<field name="name">Fiji</field>
+</record>
+
+<record model="language.type" id="laguague_33">
+<field name="cod_language">fo</field>
+<field name="name">Las Islas Feroe</field>
+</record>
+
+<record model="language.type" id="laguague_34">
+<field name="cod_language">fr</field>
+<field name="name">Francés</field>
+</record>
+
+<record model="language.type" id="laguague_35">
+<field name="cod_language">fy</field>
+<field name="name">Frisio</field>
+</record>
+
+<record model="language.type" id="laguague_36">
+<field name="cod_language">ga</field>
+<field name="name">Irlandés (gaélico irlandés)</field>
+</record>
+
+<record model="language.type" id="laguague_37">
+<field name="cod_language">gd</field>
+<field name="name">Gaélico escocés (Gaélico escocés)</field>
+</record>
+
+<record model="language.type" id="laguague_38">
+<field name="cod_language">gl</field>
+<field name="name">Gallego</field>
+</record>
+
+<record model="language.type" id="laguague_39">
+<field name="cod_language">gn</field>
+<field name="name">Guaraní</field>
+</record>
+
+<record model="language.type" id="laguague_40">
+<field name="cod_language">gu</field>
+<field name="name">Gujarati</field>
+</record>
+
+<record model="language.type" id="laguague_41">
+<field name="cod_language">gv</field>
+<field name="name">Manx gaélico</field>
+</record>
+
+<record model="language.type" id="laguague_42">
+<field name="cod_language">ha</field>
+<field name="name">Hausa</field>
+</record>
+
+<record model="language.type" id="laguague_43">
+<field name="cod_language">he (iw)†</field>
+<field name="name">Hebreo</field>
+</record>
+
+<record model="language.type" id="laguague_44">
+<field name="cod_language">hi</field>
+<field name="name">Hindi</field>
+</record>
+
+<record model="language.type" id="laguague_45">
+<field name="cod_language">hr</field>
+<field name="name">Croata</field>
+</record>
+
+<record model="language.type" id="laguague_46">
+<field name="cod_language">hu</field>
+<field name="name">Húngaro</field>
+</record>
+
+<record model="language.type" id="laguague_47">
+<field name="cod_language">hy</field>
+<field name="name">Armenio</field>
+</record>
+
+<record model="language.type" id="laguague_48">
+<field name="cod_language">ia</field>
+<field name="name">Interlingua</field>
+</record>
+
+<record model="language.type" id="laguague_49">
+<field name="cod_language">id (in)†</field>
+<field name="name">Indonesio</field>
+</record>
+
+<record model="language.type" id="laguague_50">
+<field name="cod_language">ie</field>
+<field name="name">Interlingue</field>
+</record>
+
+<record model="language.type" id="laguague_51">
+<field name="cod_language">ik</field>
+<field name="name">Inupiak</field>
+</record>
+
+<record model="language.type" id="laguague_52">
+<field name="cod_language">is</field>
+<field name="name">Islandés</field>
+</record>
+
+<record model="language.type" id="laguague_53">
+<field name="cod_language">it</field>
+<field name="name">Italiano</field>
+</record>
+
+<record model="language.type" id="laguague_54">
+<field name="cod_language">iu</field>
+<field name="name">Inuktitut</field>
+</record>
+
+<record model="language.type" id="laguague_55">
+<field name="cod_language">ja</field>
+<field name="name">Japonés</field>
+</record>
+
+<record model="language.type" id="laguague_56">
+<field name="cod_language">jw</field>
+<field name="name">Javanés</field>
+</record>
+
+<record model="language.type" id="laguague_57">
+<field name="cod_language">ka</field>
+<field name="name">Georgiano</field>
+</record>
+
+<record model="language.type" id="laguague_58">
+<field name="cod_language">kk</field>
+<field name="name">Kazakh</field>
+</record>
+
+<record model="language.type" id="laguague_59">
+<field name="cod_language">kl</field>
+<field name="name">Groenlandés</field>
+</record>
+
+<record model="language.type" id="laguague_60">
+<field name="cod_language">km</field>
+<field name="name">Camboyano</field>
+</record>
+
+<record model="language.type" id="laguague_61">
+<field name="cod_language">kn</field>
+<field name="name">Canarés</field>
+</record>
+
+<record model="language.type" id="laguague_62">
+<field name="cod_language">ko</field>
+<field name="name">Coreano</field>
+</record>
+
+<record model="language.type" id="laguague_63">
+<field name="cod_language">ks</field>
+<field name="name">Kashmiri</field>
+</record>
+
+<record model="language.type" id="laguague_64">
+<field name="cod_language">ku</field>
+<field name="name">Kurdo</field>
+</record>
+
+<record model="language.type" id="laguague_65">
+<field name="cod_language">kw</field>
+<field name="name">De Cornualles</field>
+</record>
+
+<record model="language.type" id="laguague_66">
+<field name="cod_language">ky</field>
+<field name="name">Kirguises</field>
+</record>
+
+<record model="language.type" id="laguague_67">
+<field name="cod_language">la</field>
+<field name="name">Latino</field>
+</record>
+
+<record model="language.type" id="laguague_68">
+<field name="cod_language">lb</field>
+<field name="name">Luxemburgués</field>
+</record>
+
+<record model="language.type" id="laguague_69">
+<field name="cod_language">ln</field>
+<field name="name">Lingala</field>
+</record>
+
+<record model="language.type" id="laguague_70">
+<field name="cod_language">lo</field>
+<field name="name">Laos</field>
+</record>
+
+<record model="language.type" id="laguague_71">
+<field name="cod_language">lt</field>
+<field name="name">Lituano</field>
+</record>
+
+<record model="language.type" id="laguague_72">
+<field name="cod_language">lv</field>
+<field name="name">Letón letón</field>
+</record>
+
+<record model="language.type" id="laguague_73">
+<field name="cod_language">mg</field>
+<field name="name">Malagasy</field>
+</record>
+
+<record model="language.type" id="laguague_74">
+<field name="cod_language">mi</field>
+<field name="name">Maorí</field>
+</record>
+
+<record model="language.type" id="laguague_75">
+<field name="cod_language">mk</field>
+<field name="name">Macedonio</field>
+</record>
+
+<record model="language.type" id="laguague_76">
+<field name="cod_language">ml</field>
+<field name="name">Malayalam</field>
+</record>
+
+<record model="language.type" id="laguague_77">
+<field name="cod_language">mn</field>
+<field name="name">Mongol</field>
+</record>
+
+<record model="language.type" id="laguague_78">
+<field name="cod_language">mo</field>
+<field name="name">Moldavo</field>
+</record>
+
+<record model="language.type" id="laguague_79">
+<field name="cod_language">mr</field>
+<field name="name">Marathi</field>
+</record>
+
+<record model="language.type" id="laguague_80">
+<field name="cod_language">ms</field>
+<field name="name">Malayo</field>
+</record>
+
+<record model="language.type" id="laguague_81">
+<field name="cod_language">mt</field>
+<field name="name">Maltés</field>
+</record>
+
+<record model="language.type" id="laguague_82">
+<field name="cod_language">my</field>
+<field name="name">Birmano</field>
+</record>
+
+<record model="language.type" id="laguague_83">
+<field name="cod_language">na</field>
+<field name="name">Nauru</field>
+</record>
+
+<record model="language.type" id="laguague_84">
+<field name="cod_language">ne</field>
+<field name="name">Nepali</field>
+</record>
+
+<record model="language.type" id="laguague_85">
+<field name="cod_language">nl</field>
+<field name="name">Holandés</field>
+</record>
+
+<record model="language.type" id="laguague_86">
+<field name="cod_language">no</field>
+<field name="name">Noruego</field>
+</record>
+
+<record model="language.type" id="laguague_87">
+<field name="cod_language">oc</field>
+<field name="name">Occitano</field>
+</record>
+
+<record model="language.type" id="laguague_88">
+<field name="cod_language">om</field>
+<field name="name">Oromo</field>
+</record>
+
+<record model="language.type" id="laguague_89">
+<field name="cod_language">or</field>
+<field name="name">Oriya</field>
+</record>
+
+<record model="language.type" id="laguague_90">
+<field name="cod_language">pa</field>
+<field name="name">Punjabi</field>
+</record>
+
+<record model="language.type" id="laguague_91">
+<field name="cod_language">pl</field>
+<field name="name">Polaco</field>
+</record>
+
+<record model="language.type" id="laguague_92">
+<field name="cod_language">ps</field>
+<field name="name">Pashto</field>
+</record>
+
+<record model="language.type" id="laguague_93">
+<field name="cod_language">pt</field>
+<field name="name">Portugués</field>
+</record>
+
+<record model="language.type" id="laguague_94">
+<field name="cod_language">qu</field>
+<field name="name">Quechua</field>
+</record>
+
+<record model="language.type" id="laguague_95">
+<field name="cod_language">rm</field>
+<field name="name">Retorrománico</field>
+</record>
+
+<record model="language.type" id="laguague_96">
+<field name="cod_language">rn</field>
+<field name="name">Kirundi</field>
+</record>
+
+<record model="language.type" id="laguague_97">
+<field name="cod_language">ro</field>
+<field name="name">Rumano</field>
+</record>
+
+<record model="language.type" id="laguague_98">
+<field name="cod_language">ru</field>
+<field name="name">Ruso</field>
+</record>
+
+<record model="language.type" id="laguague_99">
+<field name="cod_language">rw</field>
+<field name="name">Kiyarwanda</field>
+</record>
+
+<record model="language.type" id="laguague_100">
+<field name="cod_language">sa</field>
+<field name="name">Sánscrito</field>
+</record>
+
+<record model="language.type" id="laguague_101">
+<field name="cod_language">sd</field>
+<field name="name">Sindhi</field>
+</record>
+
+<record model="language.type" id="laguague_102">
+<field name="cod_language">se</field>
+<field name="name">Sami del Norte</field>
+</record>
+
+<record model="language.type" id="laguague_103">
+<field name="cod_language">sg</field>
+<field name="name">Sangho</field>
+</record>
+
+<record model="language.type" id="laguague_104">
+<field name="cod_language">sh</field>
+<field name="name">Serbocroata</field>
+</record>
+
+<record model="language.type" id="laguague_105">
+<field name="cod_language">si</field>
+<field name="name">Cingalés</field>
+</record>
+
+<record model="language.type" id="laguague_106">
+<field name="cod_language">sk</field>
+<field name="name">Eslovaco</field>
+</record>
+
+<record model="language.type" id="laguague_107">
+<field name="cod_language">sl</field>
+<field name="name">Esloveno</field>
+</record>
+
+<record model="language.type" id="laguague_108">
+<field name="cod_language">sm</field>
+<field name="name">Samoa</field>
+</record>
+
+<record model="language.type" id="laguague_109">
+<field name="cod_language">sn</field>
+<field name="name">Shona</field>
+</record>
+
+<record model="language.type" id="laguague_110">
+<field name="cod_language">so</field>
+<field name="name">Somalí</field>
+</record>
+
+<record model="language.type" id="laguague_111">
+<field name="cod_language">sq</field>
+<field name="name">Albanés</field>
+</record>
+
+<record model="language.type" id="laguague_112">
+<field name="cod_language">sr</field>
+<field name="name">Serbio</field>
+</record>
+
+<record model="language.type" id="laguague_113">
+<field name="cod_language">ss</field>
+<field name="name">Siswati</field>
+</record>
+
+<record model="language.type" id="laguague_114">
+<field name="cod_language">st</field>
+<field name="name">Sesotho</field>
+</record>
+
+<record model="language.type" id="laguague_115">
+<field name="cod_language">su</field>
+<field name="name">Sudanés</field>
+</record>
+
+<record model="language.type" id="laguague_116">
+<field name="cod_language">sv</field>
+<field name="name">Sueco</field>
+</record>
+
+<record model="language.type" id="laguague_117">
+<field name="cod_language">sw</field>
+<field name="name">Swahili</field>
+</record>
+
+<record model="language.type" id="laguague_118">
+<field name="cod_language">ta</field>
+<field name="name">Tamil</field>
+</record>
+
+<record model="language.type" id="laguague_119">
+<field name="cod_language">te</field>
+<field name="name">Telugu</field>
+</record>
+
+<record model="language.type" id="laguague_120">
+<field name="cod_language">tg</field>
+<field name="name">Tajik</field>
+</record>
+
+<record model="language.type" id="laguague_121">
+<field name="cod_language">th</field>
+<field name="name">Tailandés</field>
+</record>
+
+<record model="language.type" id="laguague_122">
+<field name="cod_language">ti</field>
+<field name="name">Tigriña</field>
+</record>
+
+<record model="language.type" id="laguague_123">
+<field name="cod_language">tk</field>
+<field name="name">Turkmenistán</field>
+</record>
+
+<record model="language.type" id="laguague_124">
+<field name="cod_language">tl</field>
+<field name="name">Tagalog</field>
+</record>
+
+<record model="language.type" id="laguague_125">
+<field name="cod_language">tn</field>
+<field name="name">Setswana</field>
+</record>
+
+<record model="language.type" id="laguague_126">
+<field name="cod_language">to</field>
+<field name="name">Tonga</field>
+</record>
+
+<record model="language.type" id="laguague_127">
+<field name="cod_language">tr</field>
+<field name="name">Turco</field>
+</record>
+
+<record model="language.type" id="laguague_128">
+<field name="cod_language">ts</field>
+<field name="name">Tsonga</field>
+</record>
+
+<record model="language.type" id="laguague_129">
+<field name="cod_language">tt</field>
+<field name="name">Tártaro</field>
+</record>
+
+<record model="language.type" id="laguague_130">
+<field name="cod_language">tw</field>
+<field name="name">Twi</field>
+</record>
+
+<record model="language.type" id="laguague_131">
+<field name="cod_language">ug</field>
+<field name="name">Uigur</field>
+</record>
+
+<record model="language.type" id="laguague_132">
+<field name="cod_language">uk</field>
+<field name="name">Ucranio</field>
+</record>
+
+<record model="language.type" id="laguague_133">
+<field name="cod_language">ur</field>
+<field name="name">Urdu</field>
+</record>
+
+<record model="language.type" id="laguague_134">
+<field name="cod_language">uz</field>
+<field name="name">Uzbeco</field>
+</record>
+
+<record model="language.type" id="laguague_135">
+<field name="cod_language">vi</field>
+<field name="name">Vietnamita</field>
+</record>
+
+<record model="language.type" id="laguague_136">
+<field name="cod_language">vo</field>
+<field name="name">Volapük</field>
+</record>
+
+<record model="language.type" id="laguague_137">
+<field name="cod_language">wo</field>
+<field name="name">Wolof</field>
+</record>
+
+<record model="language.type" id="laguague_138">
+<field name="cod_language">xh</field>
+<field name="name">Xhosa</field>
+</record>
+
+<record model="language.type" id="laguague_139">
+<field name="cod_language">yi (ji)†</field>
+<field name="name">Yídish</field>
+</record>
+
+<record model="language.type" id="laguague_140">
+<field name="cod_language">yo</field>
+<field name="name">Yorouba</field>
+</record>
+
+<record model="language.type" id="laguague_141">
+<field name="cod_language">za</field>
+<field name="name">Zhuang</field>
+</record>
+
+<record model="language.type" id="laguague_142">
+<field name="cod_language">zh</field>
+<field name="name">Chino</field>
+</record>
+
+<record model="language.type" id="laguague_143">
+<field name="cod_language">zu</field>
+<field name="name">Zulú</field>
+</record>
+
+
+</data>
+</openerp>

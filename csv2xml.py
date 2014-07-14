@@ -32,5 +32,5 @@ for row in csvData:
     xmlData.write('<field name="country_state_id" ref="country_%s"></field>'%estado[int(row[1])-1] + "\n")
     xmlData.write('</record>' + "\n" + "\n")
 
-xmlData.write("\n" + '<data>' + "\n" + '<openerp>')
+xmlData.write("\n" + '</data>' + "\n" + '</openerp>')
 xmlData.close()
