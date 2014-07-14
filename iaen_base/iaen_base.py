@@ -31,7 +31,7 @@ import re
 
 class identification_type(osv.osv):
     _name = "identification.type"
-    _description = "Identificacion con pasaporte o Cedula de ciudadania"
+    _description = u'Identificacion con pasaporte o Cédula de ciudadania'
     _order = "name"
     _sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un tipo de identificación con el mismo nombre'))]
     _columns = {
@@ -287,3 +287,14 @@ class certified_type(osv.osv):
         return True 
 
     _constraints = [(_alphabetical, _(u"El Tipo de dato es invalido."), ['name'])]
+
+#CLASE PARA IDIOMAS
+class language_type(osv.osv):    
+    _name="language.type"
+    _description="Tipos de lenguajes"
+    _order = "name"        
+    _sql_constraints = [('name_uniq', 'unique(name)', _(u'Ya existe un genero con el mismo nombre'))]
+    _columns={
+        "cod_language" : fields.char("Detalle", size=25, required=True),
+        "name" : fields.char("Nombre",size=30,required=True),        
+    }
