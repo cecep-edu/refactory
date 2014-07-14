@@ -29,5 +29,5 @@ for row in csvData:
     xmlData.write('<field name="name">%s</field>'%row[1] + "\n")
     xmlData.write('</record>'+ "\n")
 
-xmlData.write("\n" + '<data>' + "\n" + '<openerp>')
+xmlData.write("\n" + '</data>' + "\n" + '</openerp>')
 xmlData.close()
