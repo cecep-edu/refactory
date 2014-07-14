@@ -31,7 +31,10 @@
         'views/iaen_curriculum_views.xml',
         'views/iaen_curriculum_actions.xml',
         'views/iaen_curriculum_menus.xml',
-        'data/curriculum_data.xml',
+        #'data/curriculum_data.xml',
+    ],
+    'update_xml': [
+        'security/ir.model.access.csv'
     ],
     'installable': True,
     'auto_install': False,

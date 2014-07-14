@@ -18,6 +18,7 @@
       <field name="arch" type="xml">
 	    <form string="Crear Estado Civil">
 	      <field name="name" />
+          <button name="ejemplo" string="ejemplo" type="object"/>
 	    </form>
       </field>
     </record>
