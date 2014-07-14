@@ -288,6 +288,16 @@ class certified_type(osv.osv):
 
     _constraints = [(_alphabetical, _(u"El Tipo de dato es invalido."), ['name'])]
 
+class jobs_type(osv.osv):    
+    _name = "jobs.type"
+    _description = "Tipo de Trabajos"       
+    _order = "name"
+    _sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un registro con el mismo nombre'))]
+    _columns={
+            "name": fields.char("Nombre", size=100, required=True),
+            "description": fields.text("Descripción"),
+    }
+
 #CLASE PARA IDIOMAS
 class language_type(osv.osv):    
     _name="language.type"
