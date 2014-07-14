@@ -66,7 +66,7 @@ class gender(osv.osv):
             if  re.search("[^a-z, A-Z]", bloody_type.name): return False
         return True 
 
-    _constraints = [(_alphabetical, _(u"El Tipo de dato es invalido."), ['name'])]
+    _constraints = [(_alphabetical, _(u"El Tipo de dato es inválido."), ['name'])]
    
             
 class zones(osv.osv):
@@ -244,7 +244,7 @@ class type_disability(osv.osv):
             if not (re.search("[a-z, A-Z]", bloody_type.name)): return False
         return True 
 
-    _constraints = [(_alphabetical, _(u"El Tipo de dato es invalido."), ['name'])]
+    _constraints = [(_alphabetical, _(u"El Tipo de dato es inválido."), ['name'])]
 
 
 #TIPO DE EVENTO
@@ -262,7 +262,7 @@ class event_type(osv.osv):
             if  re.search("[^a-z, A-Z]", bloody_type.name): return False
         return True 
 
-    _constraints = [(_alphabetical, _(u"El Tipo de dato es invalido."), ['name'])]
+    _constraints = [(_alphabetical, _(u"El Tipo de dato es inválido."), ['name'])]
 
  
 
