@@ -203,7 +203,7 @@ class instruction(osv.osv):
 		for instruction in self.browse(cr, uid, ids):
 			if not re.match(u"^[ñA-Za-zÁÉÍÓÚáéíóú\s]+$", instruction.name): return False
 		return True 
-	_constraints = [(_only_letters, _(u"La Nacionalidad debe contener letras únicamente"), ['name'])]
+	_constraints = [(_only_letters, _(u"La Instrucción debe contener letras únicamente"), ['name'])]
 
 class entity_finance(osv.osv):
     """Clase de los diferentes entidades financieras existentes en Ecuador"""

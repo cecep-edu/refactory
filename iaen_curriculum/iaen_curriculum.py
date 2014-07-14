@@ -127,7 +127,7 @@ class bank_info(osv.osv):
     _name="bank.info"
     _description="Informacion bancaria"
     _order="id_entity_finance"
-    _sql_constraints = [('name_unique', 'unique(number)', _(u'Ya existe una cuenta con ese numero'))]
+    _sql_constraints = [('name_unique', 'unique(number)', _(u'Ya existe una cuenta con ese número'))]
     _columns={
             "id_entity_finance": fields.many2one("entity.finance","Entidad Financiera",required=True),
             "id_bank_account": fields.many2one("bank.account.type","Tipo de Cuenta",required=True),
@@ -167,7 +167,7 @@ class family_burden(osv.osv):
 class language_studies(osv.osv):    
     _name = "language.studies"
     _description = "Lenguajes estudiados"       
-    _order = "name"
+    _order = "language_type_id"
     _sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un tipo de discapacidad con el mismo nombre'))]
     _columns={
 	    "language_type_id": fields.many2one("language.type","Idioma"),
