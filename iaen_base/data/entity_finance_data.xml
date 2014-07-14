@@ -1,90 +1,143 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0"  encoding="utf-8"?>
 <openerp>
 	<data noupdate="1">
 		<record model="entity.finance" id="entity_1">
-			<field name="name">Banco Amazonas</field>
+			<field name="name">BANCO AMAZONAS</field>
 		</record>
 		<record model="entity.finance" id="entity_2">
-			<field name="name">Banco Austro</field>
+			<field name="name">BANCO AUSTRO</field>
 		</record>
 		<record model="entity.finance" id="entity_3">
-			<field name="name">Banco Bolivariano</field>
+			<field name="name">BANCO BOLIVARIANO</field>
 		</record>
 		<record model="entity.finance" id="entity_4">
-			<field name="name">Banco Capital</field>
+			<field name="name">BANCO CAPITAL</field>
 		</record>
 		<record model="entity.finance" id="entity_5">
-			<field name="name">Banco COFIEC</field>
+			<field name="name">BANCO CITIBANK</field>
 		</record>
 		<record model="entity.finance" id="entity_6">
-			<field name="name">Banco Comercial Manabi</field>
+			<field name="name">BANCO COFIEC</field>
 		</record>
 		<record model="entity.finance" id="entity_7">
-			<field name="name">Banco Coopnacional</field>
+			<field name="name">BANCO COMERCIAL DE MANABI</field>
 		</record>
 		<record model="entity.finance" id="entity_8">
-			<field name="name">Banco Del Bank</field>
+			<field name="name">BANCO COOPNACIONAL</field>
 		</record>
 		<record model="entity.finance" id="entity_9">
-			<field name="name">Banco DMiro</field>
+			<field name="name">BANCO DELBANK</field>
 		</record>
 		<record model="entity.finance" id="entity_10">
-			<field name="name">Banco Finca</field>
+			<field name="name">BANCO D-MIRO</field>
 		</record>
 		<record model="entity.finance" id="entity_11">
-			<field name="name">Banco General Rumiahi</field>
+			<field name="name">BANCO FINCA</field>
 		</record>
 		<record model="entity.finance" id="entity_12">
-			<field name="name">Banco Guayaquil</field>
+			<field name="name">BANCO GENERAL RUMIÑAHUI</field>
 		</record>
 		<record model="entity.finance" id="entity_13">
-			<field name="name">Banco Pacifico</field>
+			<field name="name">BANCO GUAYAQUIL</field>
 		</record>
 		<record model="entity.finance" id="entity_14">
-			<field name="name">Banco Pichincha</field>
+			<field name="name">BANCO INTERNACIONAL</field>
 		</record>
 		<record model="entity.finance" id="entity_15">
-			<field name="name">Cooperativa 9 de Octubre</field>
+			<field name="name">BANCO LITORAL</field>
 		</record>
 		<record model="entity.finance" id="entity_16">
-			<field name="name">Cooperativa 11 de Junio</field>
+			<field name="name">BANCO LOJA</field>
 		</record>
 		<record model="entity.finance" id="entity_17">
-			<field name="name">Cooperativa Alianza del Valle</field>
+			<field name="name">BANCO MACHALA</field>
 		</record>
 		<record model="entity.finance" id="entity_18">
-			<field name="name">Cooperativa Juventud Ecuatoriana Progresista</field>
+			<field name="name">BANCO PACIFICO</field>
 		</record>
 		<record model="entity.finance" id="entity_19">
-
-			<field name="name">Cooperativa 15 de Abril</field>
+			<field name="name">BANCO PICHINCHA</field>
 		</record>
 		<record model="entity.finance" id="entity_20">
-			<field name="name">Cooperativa 23 de Julio</field>
+			<field name="name">BANCO PROCREDIT</field>
 		</record>
 		<record model="entity.finance" id="entity_21">
-			<field name="name">Cooperativa 29 de Octubre</field>
+			<field name="name">BANCO PRODUBANCO</field>
 		</record>
 		<record model="entity.finance" id="entity_22">
-			<field name="name">Cooperativa Andalucia</field>
+			<field name="name">BANCO PROMERICA</field>
 		</record>
 		<record model="entity.finance" id="entity_23">
-			<field name="name">Cooperativa Atuntaqui</field>
+			<field name="name">BANCO SOLIDARIO</field>
 		</record>
 		<record model="entity.finance" id="entity_24">
-			<field name="name">Cooperativa Cacpe Biblian</field>
+			<field name="name">BANCO SUDAMERICANO</field>
 		</record>
 		<record model="entity.finance" id="entity_25">
-			<field name="name">Cooperativa Chone</field>
+			<field name="name">BANCO DEL ESTADO</field>
 		</record>
 		<record model="entity.finance" id="entity_26">
-			<field name="name">Mutualista Ambato</field>
+			<field name="name">BANCO ECUATORIANO DE LA VIVIENDA</field>
 		</record>
 		<record model="entity.finance" id="entity_27">
-			<field name="name">Mutualista Azuay</field>
+			<field name="name">BANCO NACIONAL DE FOMENTO</field>
 		</record>
 		<record model="entity.finance" id="entity_28">
-			<field name="name">Mutualista Pichincha</field>
+			<field name="name">CORPORACION FINANCIERA NACIONAL</field>
+		</record>
+		<record model="entity.finance" id="entity_29">
+			<field name="name">INSTITUTO ECUATORIANO DE CREDITO EDUCATIVO Y BECAS</field>
+		</record>
+		<record model="entity.finance" id="entity_30">
+			<field name="name">MUTUALISTA AMBATO</field>
+		</record>
+		<record model="entity.finance" id="entity_31">
+			<field name="name">MUT AMBATO</field>
+		</record>
+		<record model="entity.finance" id="entity_32">
+			<field name="name">MUTUALISTA AZUAY</field>
+		</record>
+		<record model="entity.finance" id="entity_33">
+			<field name="name">MUT AZUAY</field>
+		</record>
+		<record model="entity.finance" id="entity_34">
+			<field name="name">MUTUALISTA IMBABURA</field>
+		</record>
+		<record model="entity.finance" id="entity_35">
+			<field name="name">MUT IMBABURA</field>
+		</record>
+		<record model="entity.finance" id="entity_36">
+			<field name="name">MUTUALISTA PICHINCHA</field>
+		</record>
+		<record model="entity.finance" id="entity_37">
+			<field name="name">MUT PICHINCHA</field>
+		</record>
+		<record model="entity.finance" id="entity_38">
+			<field name="name">SOCIEDAD FINANCIERA DINERS CLUB DEL ECUADOR</field>
+		</record>
+		<record model="entity.finance" id="entity_39">
+			<field name="name">SOCIEDAD FINANCIERA FIDASA</field>
+		</record>
+		<record model="entity.finance" id="entity_40">
+			<field name="name">SOCIEDAD FINANCIERA FIRESA</field>
+		</record>
+		<record model="entity.finance" id="entity_41">
+			<field name="name">SOCIEDAD FINANCIERA GLOBAL</field>
+		</record>
+		<record model="entity.finance" id="entity_42">
+			<field name="name">SOCIEDAD FINANCIERA INTERAMERICANA</field>
+		</record>
+		<record model="entity.finance" id="entity_43">
+			<field name="name">SOCIEDAD FINANCIERA LEASINGCORP</field>
+		</record>
+		<record model="entity.finance" id="entity_44">
+			<field name="name">SOCIEDAD FINANCIERA PROINCO</field>
+		</record>
+		<record model="entity.finance" id="entity_45">
+			<field name="name">SOCIEDAD FINANCIERA UNIFINSA</field>
+		</record>
+		<record model="entity.finance" id="entity_46">
+			<field name="name">SOCIEDAD FINANCIERA VAZCORP</field>
 		</record>
 	</data>
 </openerp>

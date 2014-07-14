@@ -103,7 +103,7 @@ class experience_info(osv.osv):
         'init_date' : fields.date("Fecha de Inicio", required=True),
         'end_date': fields.date("Fecha de Fin", required=True),
         'company' : fields.char("Organización/Empresa", size=200, required=True),
-        'position': fields.char("Denominación del Puesto", size=200, required=True),
+        'jobs_type_id': fields.many2one("jobs.type", "Denominación del Puesto", required=True),
         'functions' : fields.text("Responsabilidades/Actividades/Funciones", required=True),
         'curriculum_id' : fields.many2one("curriculum"),
     }
