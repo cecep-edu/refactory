@@ -716,6 +716,40 @@
 <field name="name">Zulú</field>
 </record>
 
+<record model="language.type" id="laguague_144">
+<field name="cod_language">ec</field>
+<field name="name">Kichwa</field>
+</record>
+
+<record model="language.type" id="laguague_145">
+<field name="cod_language">ec</field>
+<field name="name">Shuar</field>
+</record>
+
+<record model="language.type" id="laguague_146">
+<field name="cod_language">ec</field>
+<field name="name">siona</field>
+</record>
+
+<record model="language.type" id="laguague_147">
+<field name="cod_language">ec</field>
+<field name="name">secoya</field>
+</record>
+
+<record model="language.type" id="laguague_148">
+<field name="cod_language">ec</field>
+<field name="name">záparo</field>
+</record>
+
+<record model="language.type" id="laguague_149">
+<field name="cod_language">ec</field>
+<field name="name">wao</field>
+</record>
+
+<record model="language.type" id="laguague_150">
+<field name="cod_language">ec</field>
+<field name="name">cofán</field>
+</record>
 
 </data>
 </openerp>
