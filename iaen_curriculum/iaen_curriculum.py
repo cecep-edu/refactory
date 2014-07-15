@@ -29,6 +29,7 @@ import openerp.tools.image as imageoerp
 import re
 
 class curriculum(osv.osv):
+	""" Clase para la Hoja de Vida. """
 	_name = "curriculum"
 	_description = "Registra la Hoja de Vida de los usuarios"
 	_columns = {
@@ -63,16 +64,19 @@ class curriculum(osv.osv):
 
 	}
 	def _only_numbers(self, cr, uid, ids):
+		""" Valida que solo haya números en la cadena de caracteres """
 		for curriculum in self.browse(cr, uid, ids):
 			if curriculum.identification_type_id.name.lower().find(u"cédula")>=0 and not (re.search("^-?[0-9]+$", curriculum.identification_number)): 
 				return False
 		return True 
 	def on_disability(self, cr, uid, ids, disability):
+		""" Al seleccionar la opción Discapacidad, hace visibles y requeridos los campos relacionados """
 		if not disability:
 			return {'value':{'disability_id': "", 'disability_degree': ""}}
 		else:
 			return {}
 	def on_birth_city_change(self, cr, uid, ids, birth_city, residence_city):
+		""" Al ingresar la Ciudad de Nacimiento también ingresa la de Residencia si está vacía """
 		if birth_city and not residence_city:
 			return {'value':{'residence_city_id':  birth_city}}
 		else:
@@ -103,7 +107,7 @@ class experience_info(osv.osv):
         'init_date' : fields.date("Fecha de Inicio", required=True),
         'end_date': fields.date("Fecha de Fin", required=True),
         'company' : fields.char("Organización/Empresa", size=200, required=True),
-        'position': fields.char("Denominación del Puesto", size=200, required=True),
+        'jobs_type_id': fields.many2one("jobs.type", "Denominación del Puesto", required=True),
         'functions' : fields.text("Responsabilidades/Actividades/Funciones", required=True),
         'curriculum_id' : fields.many2one("curriculum"),
     }
@@ -123,7 +127,7 @@ class bank_info(osv.osv):
     _name="bank.info"
     _description="Informacion bancaria"
     _order="id_entity_finance"
-    _sql_constraints = [('name_unique', 'unique(number)', _(u'Ya existe una cuenta con ese numero'))]
+    _sql_constraints = [('name_unique', 'unique(number)', _(u'Ya existe una cuenta con ese número'))]
     _columns={
             "id_entity_finance": fields.many2one("entity.finance","Entidad Financiera",required=True),
             "id_bank_account": fields.many2one("bank.account.type","Tipo de Cuenta",required=True),
