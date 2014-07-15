@@ -29,7 +29,7 @@
 			<field name="name">BANCO DELBANK</field>
 		</record>
 		<record model="entity.finance" id="entity_10">
-			<field name="name">BANCO D-MIRO</field>
+			<field name="name">BANCO DMIRO</field>
 		</record>
 		<record model="entity.finance" id="entity_11">
 			<field name="name">BANCO FINCA</field>

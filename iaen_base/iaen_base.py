@@ -208,11 +208,6 @@ class entity_finance(osv.osv):
     _columns={
             "name" : fields.char("Nombre",size=50,required=True),
     }
-    def _no_caracter(self, cr, uid, ids):
-        for entity_finance in self.browse(cr, uid, ids):
-            if (re.search("[^a-z, ^A-Z, ^0-9]", entity_finance.name)): return False
-        return True 
-    _constraints = [(_no_caracter, _(u"No debe contener caracteres especiales"), ['Nombre'])]
 
 class bank_account_type(osv.osv):
     """Clase de los tipos de cuentas bancarias"""
@@ -223,11 +218,6 @@ class bank_account_type(osv.osv):
     _columns={
             "name" : fields.char("Nombre",size=50,required=True),
     }
-    def _no_numbers(self, cr, uid, ids):
-        for bank_account_type in self.browse(cr, uid, ids):
-            if re.search("[^a-z, A-Z]", bank_account_type.name): return False
-        return True 
-    _constraints = [(_no_numbers, _(u'Debe contener solo caracteres alfabéticos.'), ['Nombre'])]
 
 #TIPO DE DISCAPACIDAD
 class type_disability(osv.osv):    
