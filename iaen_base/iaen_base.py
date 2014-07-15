@@ -129,6 +129,7 @@ class parish(osv.osv):
 
 
 class blood_type(osv.osv):
+	""" Clase para los Tipos de Sangre """ 
 	_name = "blood.type"
 	_description = "Registra los tipos de sangre"
 	_columns = {
@@ -137,6 +138,7 @@ class blood_type(osv.osv):
 	_order = "name"
 	_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un Tipo de Sangre con ese nombre.'))]
 	def _no_numbers(self, cr, uid, ids):
+		""" Valida que una cadena de caracteres no contenga dígitos"""
 		for bloody_type in self.browse(cr, uid, ids):
 			if re.search("[0-9]", bloody_type.name): return False
 		return True 
@@ -171,6 +173,7 @@ class family_relationship(osv.osv):
 
 
 class nationality(osv.osv):
+	""" Clase para las Nacionalidades """
 	_name = "nationality"
 	_description = "Registra las nacionalidades"
 	_columns = {
@@ -179,12 +182,14 @@ class nationality(osv.osv):
 	_order = "name"
 	_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe una Nacionalidad con ese nombre.'))]
 	def _only_letters(self, cr, uid, ids):
+		""" Valida que una cadena contenga únicamente letras, incluyendo tildes y ñ solamente """
 		for nationality in self.browse(cr, uid, ids):
 			if not re.match(u"^[ñA-Za-zÁÉÍÓÚáéíóúü\s]+$", nationality.name): return False
 		return True 
 	_constraints = [(_only_letters, _(u"La Nacionalidad debe contener letras únicamente"), ['name'])]
 
 class instruction(osv.osv):
+	"""Clase para las Instrucciones"""
 	_name = "instruction"
 	_description = "Registra las instrucciones"
 	_columns = {
@@ -194,10 +199,11 @@ class instruction(osv.osv):
 	_order = "name"
 	_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe una Instrucción con ese nombre.'))]
 	def _only_letters(self, cr, uid, ids):
+		""" Valida que una cadena contenga únicamente letras, incluyendo tildes y ñ solamente """
 		for instruction in self.browse(cr, uid, ids):
 			if not re.match(u"^[ñA-Za-zÁÉÍÓÚáéíóú\s]+$", instruction.name): return False
 		return True 
-	_constraints = [(_only_letters, _(u"La Nacionalidad debe contener letras únicamente"), ['name'])]
+	_constraints = [(_only_letters, _(u"La Instrucción debe contener letras únicamente"), ['name'])]
 
 class entity_finance(osv.osv):
     """Clase de los diferentes entidades financieras existentes en Ecuador"""
