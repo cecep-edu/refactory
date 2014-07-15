@@ -149,7 +149,7 @@ class family_burden(osv.osv):
     _columns={
             "name": fields.char("Nombre", size=20, required=True),
 	    "last_name": fields.char("Apellido", size=20, required=True),
-            "type_id": fields.many2one("identification.type", "Tipo de identificación"),
+            "type_id": fields.many2one("identification.type", "Tipo de identificación", required=True),
             "number_id": fields.char("Nro Identificación", size=15, required=True),
             "type_rel_family": fields.many2one("family.relationship","Tipo de Relación"),
             "date_birth": fields.date("Fecha nacimiento", required=True),
