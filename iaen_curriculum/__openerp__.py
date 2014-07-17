@@ -28,13 +28,16 @@
     """,
     'website': 'http://www.iaen.edu.ec',
     'data': [
-        'views/iaen_curriculum_views.xml',
-        'views/iaen_curriculum_actions.xml',
-        'views/iaen_curriculum_menus.xml',
+        'views/res_partner_views.xml',
+        'views/res_partner_actions.xml',
+        'views/res_partner_menus.xml',
         #'data/curriculum_data.xml',
     ],
     'update_xml': [
-        'security/ir.model.access.csv'
+        'security/ir.model.access.csv',
+    ],
+    'depends': [
+        'iaen_base',
     ],
     'installable': True,
     'auto_install': False,

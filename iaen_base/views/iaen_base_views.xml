@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
 
-	<data>
+  <data>
     <record id="view_civil_status_tree" model="ir.ui.view">
       <field name="name">view.civil.status.tree</field>
       <field name="model">civil.status</field>
@@ -16,12 +16,17 @@
       <field name="name">view.civil.status.form</field>
       <field name="model">civil.status</field>
       <field name="arch" type="xml">
-	    <form string="Crear Estado Civil">
-	      <field name="name" />
-          <button name="ejemplo" string="ejemplo" type="object"/>
+	    <form string="Crear Estado Civil" version="7.0">
+          <sheet>
+            <group>
+	          <field name="name"/>
+            </group>
+          </sheet>
 	    </form>
       </field>
     </record>
+
+    <!-- Ingreso tipo de sangre -->
 	<record id="view_blood_type_tree" model="ir.ui.view">
 	  <field name="name">view.blood.type.tree</field>
 	  <field name="model">blood.type</field>
@@ -37,15 +42,18 @@
 	  <field name="name">view.blood.type.form</field>
 	  <field name="model">blood.type</field>
 	  <field name="arch" type="xml">
-		<form string="Tipos de Sangre">
-		  <group  col="4" colspan="2">
-			<group colspan="2">
-			  <field name="name"/>
-			</group>
-		  </group>
+		<form string="Tipos de Sangre" version="7.0">
+          <sheet>
+		    <group  col="4" colspan="2">
+			  <group colspan="2">
+			    <field name="name"/>
+			  </group>
+		    </group>
+          </sheet>
 		</form>
 	  </field>
 	</record>
+
 	<!-- Ingreso de tipos de identificaciones -->
 	<record id="view_identification_type_tree" model="ir.ui.view">
 	  <field name="name">view.identification.type.tree</field>
@@ -63,11 +71,13 @@
 	  <field name="name">view.identification.type.form</field>
 	  <field name="model">identification.type</field>
 	  <field name="arch" type="xml">
-		<form string="Tipo de Identificación">
-		  <group col="2" colspan="2">
-			<field name="name"/>
-			<field name="description"/>
-		  </group>
+		<form string="Tipo de Identificación" version="7.0">
+          <sheet>
+		    <group col="2" colspan="2">
+			  <field name="name"/>
+			  <field name="description"/>
+		    </group>
+          </sheet>
 		</form>
 	  </field>
 	</record>
@@ -89,11 +99,13 @@
       <field name="name">view.gender.form</field>
       <field name="model">gender</field>
       <field name="arch" type="xml">
-        <form string="Generos">
-		  <group col="2" colspan="2">
-		    <field name="name"/>
-		    <field name="description"/>
-		  </group>
+        <form string="Generos" version="7.0">
+          <sheet>
+		    <group col="2" colspan="2">
+		      <field name="name"/>
+		      <field name="description"/>
+		    </group>
+          </sheet>
         </form>
       </field>
     </record>
@@ -115,11 +127,13 @@
 	  <field name="name">view.ethnic.group.form</field>
 	  <field name="model">ethnic.group</field>
 	  <field name="arch" type="xml">
-		<form string="Grupo Étnico">
-		  <group col="2" colspan="2">
-			<field name="name"/>
-			<field name="description"/>
-		  </group>
+		<form string="Grupo Étnico" version="7.0">
+          <sheet>
+		    <group col="2" colspan="2">
+			  <field name="name"/>
+			  <field name="description"/>
+		    </group>
+          </sheet>
 		</form>
 	  </field>
 	</record>
@@ -141,12 +155,16 @@
 	  <field name="name">view.zones.form</field>
 	  <field name="model">zones</field>
 	  <field name="arch" type="xml">
-		<form string="Zonas">
-		  <field name="name"/>
-		  <newline/>
-		  <field name="country_id"/>
-		  <newline/>
-		  <field name="description"/>
+		<form string="Zonas" version="7.0">
+          <sheet>
+            <group>
+		      <field name="name"/>
+		      <newline/>
+		      <field name="country_id"/>
+		      <newline/>
+		      <field name="description"/>
+            </group>
+          </sheet>
 		</form>
 	  </field>
 	</record>
@@ -173,11 +191,9 @@
 	  <field name="model">res.country.state</field>
 	  <field name="inherit_id" ref="base.view_country_state_form"/>
 	  <field name="arch" type="xml">
-
 		<field name="country_id" position="after">
 		  <field name="zone_id" on_change="change_zone_id(zone_id)"/>
 		</field>
-
 	  </field>
 	</record> 
 
@@ -189,7 +205,6 @@
 		<tree string="Cantones">
 		  <field name="name"/>
 		  <field name="country_state_id"/>
-		  
 		</tree>
 	  </field>
 	</record>
@@ -198,40 +213,18 @@
 	  <field name="name">view.canton.form</field>
 	  <field name="model">canton</field>
 	  <field name="arch" type="xml">
-		<form string="Cantones">
-		  <field name="name"/>
-		  <newline/>
-		  <field name="country_state_id"/>
-		  
+		<form string="Cantones" version="7.0">
+          <sheet>
+            <group>
+		      <field name="name"/>
+		      <newline/>
+		      <field name="country_state_id"/>
+		    </group>
+          </sheet>
 		</form>
 	  </field>
 	</record>
 
-
-	<!-- Ingreso de ciudades 
-	     <record id="view_city_tree" model="ir.ui.view">
-	     <field name="name">view.city.tree</field>
-	     <field name="model">city</field>
-	     <field name="arch" type="xml">
-		 <tree string="Ciudad">
-		 <field name="name"/>
-		 <field name="description"/>
-		 </tree>
-	     </field>
-	     </record>
-
-<record id="view_city_form" model="ir.ui.view">
-<field name="name">view.city.form</field>
-<field name="model">city</field>
-<field name="arch" type="xml">
-<form string="Ciudad">
-<newline/>
-<field name="name"/>
-<newline/>
-<field name="description"/>
-</form>
-</field>
-</record> -->
 
 	<!-- Ingreso de parroquias -->
 	<record id="view_parish_tree" model="ir.ui.view">
@@ -250,12 +243,16 @@
 	  <field name="name">view.parish.form</field>
 	  <field name="model">parish</field>
 	  <field name="arch" type="xml">
-		<form string="Parroquias">
-		  <field name="name"/>
-		  <newline/>
-		  <field name="canton_id"/>
-		  <newline/>
-		  <field name="description"/>
+		<form string="Parroquias" version="7.0">
+          <sheet>
+            <group>
+		      <field name="name"/>
+		      <newline/>
+		      <field name="canton_id"/>
+		      <newline/>
+		      <field name="description"/>
+            </group>
+          </sheet>
 		</form>
 	  </field>
 	</record>        
@@ -275,12 +272,14 @@
 	  <field name="name">view.nationality.form</field>
 	  <field name="model">nationality</field>
 	  <field name="arch" type="xml">
-		<form string="Nacionalidad">
-		  <group  col="2" colspan="2">
-			<group colspan="2">
-			  <field name="name"/>
-			</group>
-		  </group>
+		<form string="Nacionalidad" version="7.0">
+          <sheet>
+		    <group  col="2" colspan="2">
+			  <group colspan="2">
+			    <field name="name"/>
+			  </group>
+		    </group>
+          </sheet>
 		</form>
 	  </field>
 	</record>
@@ -302,14 +301,16 @@
 	  <field name="name">view.instruction.form</field>
 	  <field name="model">instruction</field>
 	  <field name="arch" type="xml">
-		<form string="Instrucción">
-		  <group  col="2" colspan="2">
-			<group colspan="2">
-			  <field name="name"/>
-			  <newline/>
-			  <field name="description"/>
-			</group>
-		  </group>
+		<form string="Instrucción" version="7.0">
+          <sheet>
+		    <group  col="2" colspan="2">
+			  <group colspan="2">
+			    <field name="name"/>
+			    <newline/>
+			    <field name="description"/>
+			  </group>
+		    </group>
+          </sheet>
 		</form>
 	  </field>
 	</record>
@@ -326,16 +327,19 @@
 	    </tree>
       </field>
     </record>	
+    
     <record id="view_family_relationship_form" model="ir.ui.view">
       <field name="name">view.family.relationship.form</field>
       <field name="model">family.relationship</field>
       <field name="arch" type="xml">
-	    <form string="Parentesco Familiar">
-	      <group col="2" colspan="2">
-	        <field name="name"/>
-	        <field name="description"/>
-	      </group>
-	    </form>
+	    <form string="Parentesco Familiar" version="7.0">
+          <sheet>
+	        <group col="2" colspan="2">
+	          <field name="name"/>
+	          <field name="description"/>
+	        </group>
+          </sheet>	  
+        </form>
       </field>
     </record>
 	
@@ -354,8 +358,12 @@
       <field name="name">view.entity.finance.form</field>
       <field name="model">entity.finance</field>
       <field name="arch" type="xml">
-        <form string="Entidad Financiera">
-          <field name="name" />
+        <form string="Entidad Financiera" version="7.0">
+          <sheet>
+            <group>
+              <field name="name" />
+            </group>
+          </sheet>
         </form>
       </field>
     </record>
@@ -375,11 +383,16 @@
       <field name="name">view.bank.account.form</field>
       <field name="model">bank.account.type</field>
       <field name="arch" type="xml">
-        <form string="Tipo de Cuenta">
-          <field name="name" />
+        <form string="Tipo de Cuenta" version="7.0">
+          <sheet>
+            <group>
+              <field name="name" />
+            </group>
+          </sheet>
         </form>
       </field>
     </record>
+
 
     <!-- Ingreso tipo de discapacidad -->
     <record id="view_type_disability_tree" model="ir.ui.view">
@@ -391,32 +404,22 @@
 	      <field name="description"/>
         </tree>
       </field>
+    </record>	
 
-  </record>
-
-  <!-- Ingreso tipo de discapacidad -->
-  <record id="view_type_disability_tree" model="ir.ui.view">
-    <field name="name">view.type.disability.tree</field>
-    <field name="model">type.disability</field>
-    <field name="arch" type="xml">
-      <tree string="Tipo de discapacidad">
-	<field name="name"/>
-	<field name="description"/>
-      </tree>
-    </field>
-  </record>	
-  <record id="view_type_disability_form" model="ir.ui.view">
-    <field name="name">view.type.disability.form</field>
-    <field name="model">type.disability</field>
-    <field name="arch" type="xml">
-      <form string="Tipo de discapacidad">
-	<group col="2" colspan="2">
-	  <field name="name"/>
-	  <field name="description"/>
-	</group>
-      </form>
-    </field>
-  </record>
+    <record id="view_type_disability_form" model="ir.ui.view">
+      <field name="name">view.type.disability.form</field>
+      <field name="model">type.disability</field>
+      <field name="arch" type="xml">
+        <form string="Tipo de discapacidad" version="7.0">
+          <sheet>
+	        <group col="2" colspan="2">
+	          <field name="name"/>
+	          <field name="description"/>
+	        </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
 
 
     <!-- Ingreso de tipo de evento -->
@@ -429,16 +432,19 @@
 	      <field name="description"/>
 	    </tree>
       </field>
-    </record>	
+    </record>
+	
     <record id="view_event_type_form" model="ir.ui.view">
       <field name="name">event.type.relationship.form</field>
       <field name="model">event.type</field>
       <field name="arch" type="xml">
-	    <form string="Tipo de Evento">
-	      <group col="2" colspan="2">
-	        <field name="name"/>
-	        <field name="description"/>
-	      </group>
+	    <form string="Tipo de Evento" version="7.0">
+          <sheet>
+	        <group col="2" colspan="2">
+	          <field name="name"/>
+	          <field name="description"/>
+	        </group>
+          </sheet>
 	    </form>
       </field>
     </record>
@@ -454,15 +460,18 @@
 	    </tree>
       </field>
     </record>	
+
     <record id="view_event_type_form" model="ir.ui.view">
       <field name="name">view.certified.type.form</field>
       <field name="model">certified.type</field>
       <field name="arch" type="xml">
-	    <form string="Tipo de certificado">
-	      <group col="2" colspan="2">
-	        <field name="name"/>
-	        <field name="description"/>
-	      </group>
+	    <form string="Tipo de certificado" version="7.0">
+          <sheet>
+	        <group col="2" colspan="2">
+	          <field name="name"/>
+	          <field name="description"/>
+	        </group>
+          </sheet>
 	    </form>
       </field>
     </record>

@@ -6,7 +6,7 @@
 		  <field name="name">Tipo de Sangre</field>
 		  <field name="res_model">blood.type</field>
 		  <field name="view_type">form</field>
-		  <field name="view_mode">form,tree</field>
+		  <field name="view_mode">tree,form</field>
 		</record>
         <!-- Ingreso tipos de identificación-->
         <record id="action_identification_type" model="ir.actions.act_window">
