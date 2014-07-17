@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data>
+
+		<record id="action_partner_iaen" model="ir.actions.act_window">
+		  <field name="name">Ingreso Hoja de Vida</field>
+		  <field name="res_model">res.partner</field>
+		  <field name="view_type">form</field>
+          <field name="domain">[('user_id','=',uid)]</field>
+		  <field name="view_mode">form</field>
+		</record>
+
+        <record id="action_partner_ingreso_kanban" model="ir.actions.act_window.view">
+          <field eval="1" name="sequence"/>
+          <field name="view_mode">kanban</field>
+          <field name="view_id" ref="base.res_partner_kanban_view"/>
+          <field name="act_window_id" ref="action_partner_iaen"/>
+        </record>
+
+        <record id="action_partner_ingreso_form" model="ir.actions.act_window.view">
+          <field eval="2" name="sequence"/>
+          <field name="view_mode">form</field>
+          <field name="view_id" ref="view_partner_form"/>
+          <field name="act_window_id" ref="action_partner_iaen"/>
+        </record>
+        
+        <record id="action_partner__ingreso_tree" model="ir.actions.act_window.view">
+          <field eval="3" name="sequence"/>
+          <field name="view_mode">tree</field>
+          <field name="view_id" ref="base.view_partner_tree"/>
+          <field name="act_window_id" ref="action_partner_iaen"/>
+        </record>
+
+        <record id="action_partner_c" model="ir.actions.act_window">
+		  <field name="name">Hoja de Vida</field>
+		  <field name="res_model">res.partner</field>
+		  <field name="view_type">form</field>
+		  <field name="view_mode">kanban</field>
+		</record>
+
+        <record id="action_partner_kanban" model="ir.actions.act_window.view">
+          <field eval="1" name="sequence"/>
+          <field name="view_mode">kanban</field>
+          <field name="view_id" ref="base.res_partner_kanban_view"/>
+          <field name="act_window_id" ref="action_partner_c"/>
+        </record>
+
+        <record id="action_partner_form" model="ir.actions.act_window.view">
+          <field eval="2" name="sequence"/>
+          <field name="view_mode">form</field>
+          <field name="view_id" ref="view_partner_form"/>
+          <field name="act_window_id" ref="action_partner_c"/>
+        </record>
+        
+        <record id="action_partner_tree" model="ir.actions.act_window.view">
+          <field eval="3" name="sequence"/>
+          <field name="view_mode">tree</field>
+          <field name="view_id" ref="base.view_partner_tree"/>
+          <field name="act_window_id" ref="action_partner_c"/>
+        </record>
+
+	</data>
+</openerp>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<openerp>
+  <data>
+    <menuitem id="menu_curriculum" name="Hoja de Vida"/>
+
+    <menuitem action="action_partner_c" id="menu_ingresar" name="Curriculumn" parent="menu_curriculum"/>
+    <menuitem action="action_partner_iaen" id="menu_curriculum_crud" name="Ingresar" parent="menu_ingresar"/>
+
+  </data>
+</openerp>
