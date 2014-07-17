@@ -76,8 +76,10 @@ class res_users(osv.Model):
     def active_user(self, cr, uid, token, context=None):
         partner_id = self.pool.get('res.partner').search(cr, uid, [('signup_token', '=', token)])
         if partner_id:
-            user_id = self.pool.get('res.users').search(cr, uid, [('partner_id.id', 'in', partner_id),('active','=',False)])
-            print user_id
+            #partner_obj = self.pool.get('res.partner').browse(cr, uid, partner_id)
+            print partner_id[0]
+            user_id = self.search(cr, uid, [('partner_id.id', 'in', partner_id),('active','=',False)])
+            self.pool.get('res.partner').write(cr,uid,partner_id, {'user_id': user_id[0]})
             if user_id:
                 self.write(cr, uid, user_id, {'active': True})
                 return True

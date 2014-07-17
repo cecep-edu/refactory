@@ -9,20 +9,27 @@
       con el paso de los años, anteriormente veíamos que las personas eran relegadas a su hogar, 
       sin posibilidades de socializar</field>
     </record>
+	<record model="type.disability" id="disability_visual" >
+      <field name="name">Visual</field>
+      <field name="description">Genérico usado para describir todas las pérdidas de la visión</field>
+    </record>
+	<record model="type.disability" id="disability_hearing" >
+      <field name="name">Auditiva</field>
+      <field name="description">Genérico usado para describir todas las pérdidas de audición</field>
+    </record>
+	<record model="type.disability" id="disability_psychological" >
+      <field name="name">Psicológica</field>
+      <field name="description">Víctima de un hecho violento o criminal es común que genere daño psicológico en una persona</field>
+    </record>
+	<record model="type.disability" id="disability_languaje" >
+      <field name="name">Lenguaje</field>
+      <field name="description">Se refiere a los problemas de la comunicación u otras áreas relacionadas</field>
+    </record>
     <record model="type.disability" id="disability_mental" >
-      <field name="name">Mentales </field>
+      <field name="name">Intelectual</field>
       <field name="description">Una adquisición lenta e incompleta de las habilidades cognitivas 
       durante el desarrollo humano, que conduce finalmente a limitaciones sustanciales 
       en el desarrollo corriente.</field>
-    </record>
-    <record model="type.disability" id="disability_congenital" >
-      <field name="name">Congenitas o Adquiridas</field>
-      <field name="description">Es una disminución en las habilidades cognitivas e intelectuales 
-      del individuo.</field>
-    </record>
-    <record model="type.disability" id="disability_" >
-      <field name="name">Intelectual o Sensorial</field>
-      <field name="description">Dentro de la categoría de las discapacidad sensorial, encontramos la discapacidad visual, la discapacidad auditiva y otros tipos de discapacidades relacionadas con disminución de algunos de los sentidos</field>
     </record>
   </data>
 </openerp>

@@ -2,11 +2,11 @@
 <openerp>
 	<data>
 		<!-- Ingreso de Tipos de Sangre -->
-		<record id="action_curriculum" model="ir.actions.act_window">
+		<record id="action_res_iaen" model="ir.actions.act_window">
 		  <field name="name">Hoja de Vida</field>
-		  <field name="res_model">curriculum</field>
+		  <field name="res_model">res.partner</field>
 		  <field name="view_type">form</field>
-		  <field name="view_mode">kanban,tree,form</field>
+		  <field name="view_mode">form</field>
 		</record>
 	</data>
 </openerp>

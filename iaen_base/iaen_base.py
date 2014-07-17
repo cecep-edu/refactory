@@ -66,7 +66,7 @@ class gender(osv.osv):
             if  re.search("[^a-z, A-Z]", bloody_type.name): return False
         return True 
 
-    _constraints = [(_alphabetical, _(u"El Tipo de dato es invalido."), ['name'])]
+    _constraints = [(_alphabetical, _(u"El Tipo de dato es inválido."), ['name'])]
    
             
 class zones(osv.osv):
@@ -240,7 +240,7 @@ class type_disability(osv.osv):
             if not (re.search("[a-z, A-Z]", bloody_type.name)): return False
         return True 
 
-    _constraints = [(_alphabetical, _(u"El Tipo de dato es invalido."), ['name'])]
+    _constraints = [(_alphabetical, _(u"El Tipo de dato es inválido."), ['name'])]
 
 
 #TIPO DE EVENTO
@@ -258,7 +258,7 @@ class event_type(osv.osv):
             if  re.search("[^a-z, A-Z]", bloody_type.name): return False
         return True 
 
-    _constraints = [(_alphabetical, _(u"El Tipo de dato es invalido."), ['name'])]
+    _constraints = [(_alphabetical, _(u"El Tipo de dato es inválido."), ['name'])]
 
  
 
@@ -271,12 +271,13 @@ class certified_type(osv.osv):
             "name": fields.char("Nombre", size=15, required=True),
             "description": fields.text("Descripcion"),
     }
-    def _alphabetical(self, cr, uid, ids):
+"""    def _alphabetical(self, cr, uid, ids):
         for bloody_type in self.browse(cr, uid, ids):
             if  re.search("[^a-z, A-Z]", bloody_type.name): return False
         return True 
 
-    _constraints = [(_alphabetical, _(u"El Tipo de dato es invalido."), ['name'])]
+    _constraints = [(_alphabetical, _(u"El Tipo de dato es invalido."), ['name'])]"""
+
 
 class jobs_type(osv.osv):    
     _name = "jobs.type"
