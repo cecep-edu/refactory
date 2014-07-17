@@ -1,0 +1,14 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_instruction_info,instruction_info,model_instruction_info,iaen_base.iaen_base_manager,1,1,1,1
+access_experience_info,experience_info,model_experience_info,iaen_base.iaen_base_manager,1,1,1,1
+access_bank_info,bank_info,model_bank_info,iaen_base.iaen_base_manager,1,1,1,1
+access_family_burden,family_burden,model_family_burden,iaen_base.iaen_base_manager,1,1,1,1
+access_language_studies,language_studies,model_language_studies,iaen_base.iaen_base_manager,1,1,1,1
+access_info_training,info_training,model_info_training,iaen_base.iaen_base_manager,1,1,1,1
+,,,,,,,
+access_instruction_info,instruction_info,model_instruction_info,iaen_base.iaen_base_user,1,1,1,1
+access_experience_info,experience_info,model_experience_info,iaen_base.iaen_base_user,1,1,1,1
+access_bank_info,bank_info,model_bank_info,iaen_base.iaen_base_user,1,1,1,1
+access_family_burden,family_burden,model_family_burden,iaen_base.iaen_base_user,1,1,1,1
+access_language_studies,language_studies,model_language_studies,iaen_base.iaen_base_user,1,1,1,1
+access_info_training,info_training,model_info_training,iaen_base.iaen_base_user,1,1,1,1

@@ -278,6 +278,7 @@ class certified_type(osv.osv):
 
     _constraints = [(_alphabetical, _(u"El Tipo de dato es invalido."), ['name'])]"""
 
+
 class jobs_type(osv.osv):    
     _name = "jobs.type"
     _description = "Tipo de Trabajos"       
