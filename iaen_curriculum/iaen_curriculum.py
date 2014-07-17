@@ -111,6 +111,7 @@ class experience_info(osv.osv):
         'functions' : fields.text("Responsabilidades/Actividades/Funciones", required=True),
         'curriculum_id' : fields.many2one("curriculum"),
     }
+   
     def on_date(self, cr, uid, ids, init_date, end_date):
     	if end_date:
 	    	if(init_date > end_date): 	    		
@@ -120,7 +121,6 @@ class experience_info(osv.osv):
 				return {'value': {}}
 	else:
 		return {'value': {}}
-    #_constraints = [(_date, u"La Fecha de Inicio debe ser menor que la Fecha de Fin", ['init_date', 'end_date'])]
 
 class bank_info(osv.osv):
     """Clase de la informacion bancaria de los usuarios"""
