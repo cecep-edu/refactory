@@ -28,6 +28,7 @@ import openerp.addons.decimal_precision as dp
 import openerp.tools.image as imageoerp
 import re
 
+
 class instruction_info(osv.osv):
     """Clase sobre la informacion de la instruccion academica del usuario"""
     _name="instruction.info"
@@ -51,7 +52,7 @@ class experience_info(osv.osv):
         'init_date' : fields.date("Fecha de Inicio", required=True),
         'end_date': fields.date("Fecha de Fin", required=True),
         'company' : fields.char("Organización/Empresa", size=200, required=True),
-        'position': fields.char("Denominación del Puesto", size=200, required=True),
+        'jobs_type_id': fields.many2one("jobs.type", "Denominación del Puesto", required=True),
         'functions' : fields.text("Responsabilidades/Actividades/Funciones", required=True),
         'partner_id' : fields.many2one("res.partner"),
     }
@@ -71,7 +72,7 @@ class bank_info(osv.osv):
     _name="bank.info"
     _description="Informacion bancaria"
     _order="id_entity_finance"
-    _sql_constraints = [('name_unique', 'unique(number)', _(u'Ya existe una cuenta con ese numero'))]
+    _sql_constraints = [('name_unique', 'unique(number)', _(u'Ya existe una cuenta con ese número'))]
     _columns={
             "id_entity_finance": fields.many2one("entity.finance","Entidad Financiera",required=True),
             "id_bank_account": fields.many2one("bank.account.type","Tipo de Cuenta",required=True),
@@ -111,7 +112,8 @@ class family_burden(osv.osv):
 class language_studies(osv.osv):    
     _name = "language.studies"
     _description = "Lenguajes estudiados"       
-    
+    _order = "language_type_id"
+    _sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un tipo de discapacidad con el mismo nombre'))]
     _columns={
 	    "language_type_id": fields.many2one("language.type","Idioma"),
             "percentage_listening": fields.char("Nivel Escuchado", size=4, required=True),

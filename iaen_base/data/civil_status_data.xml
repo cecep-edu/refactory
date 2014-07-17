@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
 	<data noupdate="1">
-		<record model="civil.status" id="civil_status_m">
+		<record model="civil.status" id="civil_status_1">
 			<field name="name">Soltero (a)</field>
 		</record>
-		<record model="civil.status" id="civil_status_c">
+		<record model="civil.status" id="civil_status_2">
 			<field name="name">Casado (a)</field>
 		</record>
-		<record model="civil.status" id="civil_status_d">
+		<record model="civil.status" id="civil_status_3">
 			<field name="name">Divorciado (a)</field>
 		</record>
-		<record model="civil.status" id="civil_status_v">
+		<record model="civil.status" id="civil_status_4">
 			<field name="name">Viudo (a)</field>
 		</record>
-		<record model="civil.status" id="civil_status_ul">
+		<record model="civil.status" id="civil_status_5">
 			<field name="name">Union Libre</field>
 		</record>
 	</data>
