@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0"  encoding="utf-8"?>
 <openerp>
   <data noupdate="1">
-
     <record model="certified.type" id="certified_approbation" >
       <field name="name">Aprobación</field>
       <field name="description">Evento calificado por la institución con parametros a cumplir</field>

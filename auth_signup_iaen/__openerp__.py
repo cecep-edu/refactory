@@ -36,7 +36,7 @@ Allow users to sign up and reset their password
     ],
     'data': [
         'auth_signup_data.xml',
-        #'res_config.xml',
+        'data/server_correo_data.xml',
         #'res_users_view.xml',
     ],
     'js': ['static/src/js/auth_signup.js'],

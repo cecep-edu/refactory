@@ -1,1107 +1,1107 @@
 <?xml version="1.0"  encoding="utf-8"?>
 <openerp>
 <data noupdate="1">
-<record model="canton" id="1">
+<record model="canton" id="canton_1">
 <field name="name">Camilo Ponce Enríquez</field>
 <field name="country_state_id" ref="country_azuay"></field>
 </record>
 
-<record model="canton" id="2">
+<record model="canton" id="canton_2">
 <field name="name">Chordeleg</field>
 <field name="country_state_id" ref="country_azuay"></field>
 </record>
 
-<record model="canton" id="3">
+<record model="canton" id="canton_3">
 <field name="name">Cuenca</field>
 <field name="country_state_id" ref="country_azuay"></field>
 </record>
 
-<record model="canton" id="4">
+<record model="canton" id="canton_4">
 <field name="name">El Pan</field>
 <field name="country_state_id" ref="country_azuay"></field>
 </record>
 
-<record model="canton" id="5">
+<record model="canton" id="canton_5">
 <field name="name">Girón</field>
 <field name="country_state_id" ref="country_azuay"></field>
 </record>
 
-<record model="canton" id="6">
+<record model="canton" id="canton_6">
 <field name="name">Guachapala</field>
 <field name="country_state_id" ref="country_azuay"></field>
 </record>
 
-<record model="canton" id="7">
+<record model="canton" id="canton_7">
 <field name="name">Gualaceo</field>
 <field name="country_state_id" ref="country_azuay"></field>
 </record>
 
-<record model="canton" id="8">
+<record model="canton" id="canton_8">
 <field name="name">Nabón</field>
 <field name="country_state_id" ref="country_azuay"></field>
 </record>
 
-<record model="canton" id="9">
+<record model="canton" id="canton_9">
 <field name="name">Oña</field>
 <field name="country_state_id" ref="country_azuay"></field>
 </record>
 
-<record model="canton" id="10">
+<record model="canton" id="canton_10">
 <field name="name">Paute</field>
 <field name="country_state_id" ref="country_azuay"></field>
 </record>
 
-<record model="canton" id="11">
+<record model="canton" id="canton_11">
 <field name="name">Pucará</field>
 <field name="country_state_id" ref="country_azuay"></field>
 </record>
 
-<record model="canton" id="12">
+<record model="canton" id="canton_12">
 <field name="name">San Fernando</field>
 <field name="country_state_id" ref="country_azuay"></field>
 </record>
 
-<record model="canton" id="13">
+<record model="canton" id="canton_13">
 <field name="name">Santa Isabel</field>
 <field name="country_state_id" ref="country_azuay"></field>
 </record>
 
-<record model="canton" id="14">
+<record model="canton" id="canton_14">
 <field name="name">Sevilla de Oro</field>
 <field name="country_state_id" ref="country_azuay"></field>
 </record>
 
-<record model="canton" id="15">
+<record model="canton" id="canton_15">
 <field name="name">Sígsig</field>
 <field name="country_state_id" ref="country_azuay"></field>
 </record>
 
-<record model="canton" id="16">
+<record model="canton" id="canton_16">
 <field name="name">Caluma</field>
 <field name="country_state_id" ref="country_bolivar"></field>
 </record>
 
-<record model="canton" id="17">
+<record model="canton" id="canton_17">
 <field name="name">Chillanes</field>
 <field name="country_state_id" ref="country_bolivar"></field>
 </record>
 
-<record model="canton" id="18">
+<record model="canton" id="canton_18">
 <field name="name">Chimbo</field>
 <field name="country_state_id" ref="country_bolivar"></field>
 </record>
 
-<record model="canton" id="19">
+<record model="canton" id="canton_19">
 <field name="name">Echeandía</field>
 <field name="country_state_id" ref="country_bolivar"></field>
 </record>
 
-<record model="canton" id="20">
+<record model="canton" id="canton_20">
 <field name="name">Guaranda</field>
 <field name="country_state_id" ref="country_bolivar"></field>
 </record>
 
-<record model="canton" id="21">
+<record model="canton" id="canton_21">
 <field name="name">Las Naves</field>
 <field name="country_state_id" ref="country_bolivar"></field>
 </record>
 
-<record model="canton" id="22">
+<record model="canton" id="canton_22">
 <field name="name">San Miguel</field>
 <field name="country_state_id" ref="country_bolivar"></field>
 </record>
 
-<record model="canton" id="23">
+<record model="canton" id="canton_23">
 <field name="name">Azogues</field>
 <field name="country_state_id" ref="country_canar"></field>
 </record>
 
-<record model="canton" id="24">
+<record model="canton" id="canton_24">
 <field name="name">Biblián</field>
 <field name="country_state_id" ref="country_canar"></field>
 </record>
 
-<record model="canton" id="25">
+<record model="canton" id="canton_25">
 <field name="name">Cañar</field>
 <field name="country_state_id" ref="country_canar"></field>
 </record>
 
-<record model="canton" id="26">
+<record model="canton" id="canton_26">
 <field name="name">Déleg</field>
 <field name="country_state_id" ref="country_canar"></field>
 </record>
 
-<record model="canton" id="27">
+<record model="canton" id="canton_27">
 <field name="name">El Tambo</field>
 <field name="country_state_id" ref="country_canar"></field>
 </record>
 
-<record model="canton" id="28">
+<record model="canton" id="canton_28">
 <field name="name">La Troncal</field>
 <field name="country_state_id" ref="country_canar"></field>
 </record>
 
-<record model="canton" id="29">
+<record model="canton" id="canton_29">
 <field name="name">Suscal</field>
 <field name="country_state_id" ref="country_canar"></field>
 </record>
 
-<record model="canton" id="30">
+<record model="canton" id="canton_30">
 <field name="name">Bolívar</field>
 <field name="country_state_id" ref="country_carchi"></field>
 </record>
 
-<record model="canton" id="31">
+<record model="canton" id="canton_31">
 <field name="name">Espejo</field>
 <field name="country_state_id" ref="country_carchi"></field>
 </record>
 
-<record model="canton" id="32">
+<record model="canton" id="canton_32">
 <field name="name">Mira</field>
 <field name="country_state_id" ref="country_carchi"></field>
 </record>
 
-<record model="canton" id="33">
+<record model="canton" id="canton_33">
 <field name="name">Montúfar</field>
 <field name="country_state_id" ref="country_carchi"></field>
 </record>
 
-<record model="canton" id="34">
+<record model="canton" id="canton_34">
 <field name="name">San Pedro de Huaca</field>
 <field name="country_state_id" ref="country_carchi"></field>
 </record>
 
-<record model="canton" id="35">
+<record model="canton" id="canton_35">
 <field name="name">Tulcán</field>
 <field name="country_state_id" ref="country_carchi"></field>
 </record>
 
-<record model="canton" id="36">
+<record model="canton" id="canton_36">
 <field name="name">Alausí</field>
 <field name="country_state_id" ref="country_chimborazo"></field>
 </record>
 
-<record model="canton" id="37">
+<record model="canton" id="canton_37">
 <field name="name">Chambo</field>
 <field name="country_state_id" ref="country_chimborazo"></field>
 </record>
 
-<record model="canton" id="38">
+<record model="canton" id="canton_38">
 <field name="name">Chunchi</field>
 <field name="country_state_id" ref="country_chimborazo"></field>
 </record>
 
-<record model="canton" id="39">
+<record model="canton" id="canton_39">
 <field name="name">Colta</field>
 <field name="country_state_id" ref="country_chimborazo"></field>
 </record>
 
-<record model="canton" id="40">
+<record model="canton" id="canton_40">
 <field name="name">Cumandá</field>
 <field name="country_state_id" ref="country_chimborazo"></field>
 </record>
 
-<record model="canton" id="41">
+<record model="canton" id="canton_41">
 <field name="name">Guamote</field>
 <field name="country_state_id" ref="country_chimborazo"></field>
 </record>
 
-<record model="canton" id="42">
+<record model="canton" id="canton_42">
 <field name="name">Guano</field>
 <field name="country_state_id" ref="country_chimborazo"></field>
 </record>
 
-<record model="canton" id="43">
+<record model="canton" id="canton_43">
 <field name="name">Pallatanga</field>
 <field name="country_state_id" ref="country_chimborazo"></field>
 </record>
 
-<record model="canton" id="44">
+<record model="canton" id="canton_44">
 <field name="name">Penipe</field>
 <field name="country_state_id" ref="country_chimborazo"></field>
 </record>
 
-<record model="canton" id="45">
+<record model="canton" id="canton_45">
 <field name="name">Riobamba</field>
 <field name="country_state_id" ref="country_chimborazo"></field>
 </record>
 
-<record model="canton" id="46">
+<record model="canton" id="canton_46">
 <field name="name">La Maná</field>
 <field name="country_state_id" ref="country_cotopaxi"></field>
 </record>
 
-<record model="canton" id="47">
+<record model="canton" id="canton_47">
 <field name="name">Latacunga</field>
 <field name="country_state_id" ref="country_cotopaxi"></field>
 </record>
 
-<record model="canton" id="48">
+<record model="canton" id="canton_48">
 <field name="name">Pangua</field>
 <field name="country_state_id" ref="country_cotopaxi"></field>
 </record>
 
-<record model="canton" id="49">
+<record model="canton" id="canton_49">
 <field name="name">Pujilí</field>
 <field name="country_state_id" ref="country_cotopaxi"></field>
 </record>
 
-<record model="canton" id="50">
+<record model="canton" id="canton_50">
 <field name="name">Salcedo</field>
 <field name="country_state_id" ref="country_cotopaxi"></field>
 </record>
 
-<record model="canton" id="51">
+<record model="canton" id="canton_51">
 <field name="name">Saquisilí</field>
 <field name="country_state_id" ref="country_cotopaxi"></field>
 </record>
 
-<record model="canton" id="52">
+<record model="canton" id="canton_52">
 <field name="name">Sigchos</field>
 <field name="country_state_id" ref="country_cotopaxi"></field>
 </record>
 
-<record model="canton" id="53">
+<record model="canton" id="canton_53">
 <field name="name">Arenillas</field>
 <field name="country_state_id" ref="country_oro"></field>
 </record>
 
-<record model="canton" id="54">
+<record model="canton" id="canton_54">
 <field name="name">Atahualpa</field>
 <field name="country_state_id" ref="country_oro"></field>
 </record>
 
-<record model="canton" id="55">
+<record model="canton" id="canton_55">
 <field name="name">Balsas</field>
 <field name="country_state_id" ref="country_oro"></field>
 </record>
 
-<record model="canton" id="56">
+<record model="canton" id="canton_56">
 <field name="name">Chilla</field>
 <field name="country_state_id" ref="country_oro"></field>
 </record>
 
-<record model="canton" id="57">
+<record model="canton" id="canton_57">
 <field name="name">El Guabo</field>
 <field name="country_state_id" ref="country_oro"></field>
 </record>
 
-<record model="canton" id="58">
+<record model="canton" id="canton_58">
 <field name="name">Huaquillas</field>
 <field name="country_state_id" ref="country_oro"></field>
 </record>
 
-<record model="canton" id="59">
+<record model="canton" id="canton_59">
 <field name="name">Las Lajas</field>
 <field name="country_state_id" ref="country_oro"></field>
 </record>
 
-<record model="canton" id="60">
+<record model="canton" id="canton_60">
 <field name="name">Machala</field>
 <field name="country_state_id" ref="country_oro"></field>
 </record>
 
-<record model="canton" id="61">
+<record model="canton" id="canton_61">
 <field name="name">Marcabelí</field>
 <field name="country_state_id" ref="country_oro"></field>
 </record>
 
-<record model="canton" id="62">
+<record model="canton" id="canton_62">
 <field name="name">Pasaje</field>
 <field name="country_state_id" ref="country_oro"></field>
 </record>
 
-<record model="canton" id="63">
+<record model="canton" id="canton_63">
 <field name="name">Piñas</field>
 <field name="country_state_id" ref="country_oro"></field>
 </record>
 
-<record model="canton" id="64">
+<record model="canton" id="canton_64">
 <field name="name">Portovelo</field>
 <field name="country_state_id" ref="country_oro"></field>
 </record>
 
-<record model="canton" id="65">
+<record model="canton" id="canton_65">
 <field name="name">Santa Rosa</field>
 <field name="country_state_id" ref="country_oro"></field>
 </record>
 
-<record model="canton" id="66">
+<record model="canton" id="canton_66">
 <field name="name">Zaruma</field>
 <field name="country_state_id" ref="country_oro"></field>
 </record>
 
-<record model="canton" id="67">
+<record model="canton" id="canton_67">
 <field name="name">Atacames</field>
 <field name="country_state_id" ref="country_esmeraldas"></field>
 </record>
 
-<record model="canton" id="68">
+<record model="canton" id="canton_68">
 <field name="name">Eloy Alfaro</field>
 <field name="country_state_id" ref="country_esmeraldas"></field>
 </record>
 
-<record model="canton" id="69">
+<record model="canton" id="canton_69">
 <field name="name">Esmeraldas</field>
 <field name="country_state_id" ref="country_esmeraldas"></field>
 </record>
 
-<record model="canton" id="70">
+<record model="canton" id="canton_70">
 <field name="name">Muisne</field>
 <field name="country_state_id" ref="country_esmeraldas"></field>
 </record>
 
-<record model="canton" id="71">
+<record model="canton" id="canton_71">
 <field name="name">Quinindé</field>
 <field name="country_state_id" ref="country_esmeraldas"></field>
 </record>
 
-<record model="canton" id="72">
+<record model="canton" id="canton_72">
 <field name="name">Río Verde</field>
 <field name="country_state_id" ref="country_esmeraldas"></field>
 </record>
 
-<record model="canton" id="73">
+<record model="canton" id="canton_73">
 <field name="name">San Lorenzo</field>
 <field name="country_state_id" ref="country_esmeraldas"></field>
 </record>
 
-<record model="canton" id="74">
+<record model="canton" id="canton_74">
 <field name="name">Isabela</field>
 <field name="country_state_id" ref="country_galapagos"></field>
 </record>
 
-<record model="canton" id="75">
+<record model="canton" id="canton_75">
 <field name="name">San Cristóbal</field>
 <field name="country_state_id" ref="country_galapagos"></field>
 </record>
 
-<record model="canton" id="76">
+<record model="canton" id="canton_76">
 <field name="name">Santa Cruz</field>
 <field name="country_state_id" ref="country_galapagos"></field>
 </record>
 
-<record model="canton" id="77">
+<record model="canton" id="canton_77">
 <field name="name">Alfredo Baquerizo Moreno</field>
 <field name="country_state_id" ref="country_guayas"></field>
 </record>
 
-<record model="canton" id="78">
+<record model="canton" id="canton_78">
 <field name="name">Balao</field>
 <field name="country_state_id" ref="country_guayas"></field>
 </record>
 
-<record model="canton" id="79">
+<record model="canton" id="canton_79">
 <field name="name">Balzar</field>
 <field name="country_state_id" ref="country_guayas"></field>
 </record>
 
-<record model="canton" id="80">
+<record model="canton" id="canton_80">
 <field name="name">Colimes</field>
 <field name="country_state_id" ref="country_guayas"></field>
 </record>
 
-<record model="canton" id="81">
+<record model="canton" id="canton_81">
 <field name="name">Coronel Marcelino Maridueña</field>
 <field name="country_state_id" ref="country_guayas"></field>
 </record>
 
-<record model="canton" id="82">
+<record model="canton" id="canton_82">
 <field name="name">Daule</field>
 <field name="country_state_id" ref="country_guayas"></field>
 </record>
 
-<record model="canton" id="83">
+<record model="canton" id="canton_83">
 <field name="name">Durán</field>
 <field name="country_state_id" ref="country_guayas"></field>
 </record>
 
-<record model="canton" id="84">
+<record model="canton" id="canton_84">
 <field name="name">El Empalme</field>
 <field name="country_state_id" ref="country_guayas"></field>
 </record>
 
-<record model="canton" id="85">
+<record model="canton" id="canton_85">
 <field name="name">El Triunfo</field>
 <field name="country_state_id" ref="country_guayas"></field>
 </record>
 
-<record model="canton" id="86">
+<record model="canton" id="canton_86">
 <field name="name">General Antonio Elizalde</field>
 <field name="country_state_id" ref="country_guayas"></field>
 </record>
 
-<record model="canton" id="87">
+<record model="canton" id="canton_87">
 <field name="name">Guayaquil</field>
 <field name="country_state_id" ref="country_guayas"></field>
 </record>
 
-<record model="canton" id="88">
+<record model="canton" id="canton_88">
 <field name="name">Isidro Ayora</field>
 <field name="country_state_id" ref="country_guayas"></field>
 </record>
 
-<record model="canton" id="89">
+<record model="canton" id="canton_89">
 <field name="name">Lomas de Sargentillo</field>
 <field name="country_state_id" ref="country_guayas"></field>
 </record>
 
-<record model="canton" id="90">
+<record model="canton" id="canton_90">
 <field name="name">Milagro</field>
 <field name="country_state_id" ref="country_guayas"></field>
 </record>
 
-<record model="canton" id="91">
+<record model="canton" id="canton_91">
 <field name="name">Naranjal</field>
 <field name="country_state_id" ref="country_guayas"></field>
 </record>
 
-<record model="canton" id="92">
+<record model="canton" id="canton_92">
 <field name="name">Naranjito</field>
 <field name="country_state_id" ref="country_guayas"></field>
 </record>
 
-<record model="canton" id="93">
+<record model="canton" id="canton_93">
 <field name="name">Nobol</field>
 <field name="country_state_id" ref="country_guayas"></field>
 </record>
 
-<record model="canton" id="94">
+<record model="canton" id="canton_94">
 <field name="name">Palestina</field>
 <field name="country_state_id" ref="country_guayas"></field>
 </record>
 
-<record model="canton" id="95">
+<record model="canton" id="canton_95">
 <field name="name">Pedro Carbo</field>
 <field name="country_state_id" ref="country_guayas"></field>
 </record>
 
-<record model="canton" id="96">
+<record model="canton" id="canton_96">
 <field name="name">Playas</field>
 <field name="country_state_id" ref="country_guayas"></field>
 </record>
 
-<record model="canton" id="97">
+<record model="canton" id="canton_97">
 <field name="name">Salitre</field>
 <field name="country_state_id" ref="country_guayas"></field>
 </record>
 
-<record model="canton" id="98">
+<record model="canton" id="canton_98">
 <field name="name">Samborondón</field>
 <field name="country_state_id" ref="country_guayas"></field>
 </record>
 
-<record model="canton" id="99">
+<record model="canton" id="canton_99">
 <field name="name">Santa Lucía</field>
 <field name="country_state_id" ref="country_guayas"></field>
 </record>
 
-<record model="canton" id="100">
+<record model="canton" id="canton_100">
 <field name="name">Simón Bolívar</field>
 <field name="country_state_id" ref="country_guayas"></field>
 </record>
 
-<record model="canton" id="101">
+<record model="canton" id="canton_101">
 <field name="name">Yaguachi</field>
 <field name="country_state_id" ref="country_guayas"></field>
 </record>
 
-<record model="canton" id="102">
+<record model="canton" id="canton_102">
 <field name="name">Antonio Ante</field>
 <field name="country_state_id" ref="country_imbabura"></field>
 </record>
 
-<record model="canton" id="103">
+<record model="canton" id="canton_103">
 <field name="name">Cotacachi</field>
 <field name="country_state_id" ref="country_imbabura"></field>
 </record>
 
-<record model="canton" id="104">
+<record model="canton" id="canton_104">
 <field name="name">Ibarra</field>
 <field name="country_state_id" ref="country_imbabura"></field>
 </record>
 
-<record model="canton" id="105">
+<record model="canton" id="canton_105">
 <field name="name">Otavalo</field>
 <field name="country_state_id" ref="country_imbabura"></field>
 </record>
 
-<record model="canton" id="106">
+<record model="canton" id="canton_106">
 <field name="name">Pimampiro</field>
 <field name="country_state_id" ref="country_imbabura"></field>
 </record>
 
-<record model="canton" id="107">
+<record model="canton" id="canton_107">
 <field name="name">San Miguel de Urcuquí</field>
 <field name="country_state_id" ref="country_imbabura"></field>
 </record>
 
-<record model="canton" id="108">
+<record model="canton" id="canton_108">
 <field name="name">Calvas</field>
 <field name="country_state_id" ref="country_loja"></field>
 </record>
 
-<record model="canton" id="109">
+<record model="canton" id="canton_109">
 <field name="name">Catamayo</field>
 <field name="country_state_id" ref="country_loja"></field>
 </record>
 
-<record model="canton" id="110">
+<record model="canton" id="canton_110">
 <field name="name">Celica</field>
 <field name="country_state_id" ref="country_loja"></field>
 </record>
 
-<record model="canton" id="111">
+<record model="canton" id="canton_111">
 <field name="name">Chaguarpamba</field>
 <field name="country_state_id" ref="country_loja"></field>
 </record>
 
-<record model="canton" id="112">
+<record model="canton" id="canton_112">
 <field name="name">Espíndola</field>
 <field name="country_state_id" ref="country_loja"></field>
 </record>
 
-<record model="canton" id="113">
+<record model="canton" id="canton_113">
 <field name="name">Gonzanamá</field>
 <field name="country_state_id" ref="country_loja"></field>
 </record>
 
-<record model="canton" id="114">
+<record model="canton" id="canton_114">
 <field name="name">Loja</field>
 <field name="country_state_id" ref="country_loja"></field>
 </record>
 
-<record model="canton" id="115">
+<record model="canton" id="canton_115">
 <field name="name">Macará</field>
 <field name="country_state_id" ref="country_loja"></field>
 </record>
 
-<record model="canton" id="116">
+<record model="canton" id="canton_116">
 <field name="name">Olmedo</field>
 <field name="country_state_id" ref="country_loja"></field>
 </record>
 
-<record model="canton" id="117">
+<record model="canton" id="canton_117">
 <field name="name">Paltas</field>
 <field name="country_state_id" ref="country_loja"></field>
 </record>
 
-<record model="canton" id="118">
+<record model="canton" id="canton_118">
 <field name="name">Pindal</field>
 <field name="country_state_id" ref="country_loja"></field>
 </record>
 
-<record model="canton" id="119">
+<record model="canton" id="canton_119">
 <field name="name">Puyango</field>
 <field name="country_state_id" ref="country_loja"></field>
 </record>
 
-<record model="canton" id="120">
+<record model="canton" id="canton_120">
 <field name="name">Quilanga</field>
 <field name="country_state_id" ref="country_loja"></field>
 </record>
 
-<record model="canton" id="121">
+<record model="canton" id="canton_121">
 <field name="name">Saraguro</field>
 <field name="country_state_id" ref="country_loja"></field>
 </record>
 
-<record model="canton" id="122">
+<record model="canton" id="canton_122">
 <field name="name">Sozoranga</field>
 <field name="country_state_id" ref="country_loja"></field>
 </record>
 
-<record model="canton" id="123">
+<record model="canton" id="canton_123">
 <field name="name">Zapotillo</field>
 <field name="country_state_id" ref="country_loja"></field>
 </record>
 
-<record model="canton" id="124">
+<record model="canton" id="canton_124">
 <field name="name">Baba</field>
 <field name="country_state_id" ref="country_rios"></field>
 </record>
 
-<record model="canton" id="125">
+<record model="canton" id="canton_125">
 <field name="name">Babahoyo</field>
 <field name="country_state_id" ref="country_rios"></field>
 </record>
 
-<record model="canton" id="126">
+<record model="canton" id="canton_126">
 <field name="name">Buena Fe</field>
 <field name="country_state_id" ref="country_rios"></field>
 </record>
 
-<record model="canton" id="127">
+<record model="canton" id="canton_127">
 <field name="name">Mocache</field>
 <field name="country_state_id" ref="country_rios"></field>
 </record>
 
-<record model="canton" id="128">
+<record model="canton" id="canton_128">
 <field name="name">Montalvo</field>
 <field name="country_state_id" ref="country_rios"></field>
 </record>
 
-<record model="canton" id="129">
+<record model="canton" id="canton_129">
 <field name="name">Palenque</field>
 <field name="country_state_id" ref="country_rios"></field>
 </record>
 
-<record model="canton" id="130">
+<record model="canton" id="canton_130">
 <field name="name">Puebloviejo</field>
 <field name="country_state_id" ref="country_rios"></field>
 </record>
 
-<record model="canton" id="131">
+<record model="canton" id="canton_131">
 <field name="name">Quevedo</field>
 <field name="country_state_id" ref="country_rios"></field>
 </record>
 
-<record model="canton" id="132">
+<record model="canton" id="canton_132">
 <field name="name">Quinsaloma</field>
 <field name="country_state_id" ref="country_rios"></field>
 </record>
 
-<record model="canton" id="133">
+<record model="canton" id="canton_133">
 <field name="name">Urdaneta</field>
 <field name="country_state_id" ref="country_rios"></field>
 </record>
 
-<record model="canton" id="134">
+<record model="canton" id="canton_134">
 <field name="name">Valencia</field>
 <field name="country_state_id" ref="country_rios"></field>
 </record>
 
-<record model="canton" id="135">
+<record model="canton" id="canton_135">
 <field name="name">Ventanas</field>
 <field name="country_state_id" ref="country_rios"></field>
 </record>
 
-<record model="canton" id="136">
+<record model="canton" id="canton_136">
 <field name="name">Vinces</field>
 <field name="country_state_id" ref="country_rios"></field>
 </record>
 
-<record model="canton" id="137">
+<record model="canton" id="canton_137">
 <field name="name">Bolívar</field>
 <field name="country_state_id" ref="country_manabi"></field>
 </record>
 
-<record model="canton" id="138">
+<record model="canton" id="canton_138">
 <field name="name">Chone</field>
 <field name="country_state_id" ref="country_manabi"></field>
 </record>
 
-<record model="canton" id="139">
+<record model="canton" id="canton_139">
 <field name="name">El Carmen</field>
 <field name="country_state_id" ref="country_manabi"></field>
 </record>
 
-<record model="canton" id="140">
+<record model="canton" id="canton_140">
 <field name="name">Flavio Alfaro</field>
 <field name="country_state_id" ref="country_manabi"></field>
 </record>
 
-<record model="canton" id="141">
+<record model="canton" id="canton_141">
 <field name="name">Jama</field>
 <field name="country_state_id" ref="country_manabi"></field>
 </record>
 
-<record model="canton" id="142">
+<record model="canton" id="canton_142">
 <field name="name">Jaramijó</field>
 <field name="country_state_id" ref="country_manabi"></field>
 </record>
 
-<record model="canton" id="143">
+<record model="canton" id="canton_143">
 <field name="name">Jipijapa</field>
 <field name="country_state_id" ref="country_manabi"></field>
 </record>
 
-<record model="canton" id="144">
+<record model="canton" id="canton_144">
 <field name="name">Junín</field>
 <field name="country_state_id" ref="country_manabi"></field>
 </record>
 
-<record model="canton" id="145">
+<record model="canton" id="canton_145">
 <field name="name">Manta</field>
 <field name="country_state_id" ref="country_manabi"></field>
 </record>
 
-<record model="canton" id="146">
+<record model="canton" id="canton_146">
 <field name="name">Montecristi</field>
 <field name="country_state_id" ref="country_manabi"></field>
 </record>
 
-<record model="canton" id="147">
+<record model="canton" id="canton_147">
 <field name="name">Olmedo</field>
 <field name="country_state_id" ref="country_manabi"></field>
 </record>
 
-<record model="canton" id="148">
+<record model="canton" id="canton_148">
 <field name="name">Paján</field>
 <field name="country_state_id" ref="country_manabi"></field>
 </record>
 
-<record model="canton" id="149">
+<record model="canton" id="canton_149">
 <field name="name">Pedernales</field>
 <field name="country_state_id" ref="country_manabi"></field>
 </record>
 
-<record model="canton" id="150">
+<record model="canton" id="canton_150">
 <field name="name">Pichincha</field>
 <field name="country_state_id" ref="country_manabi"></field>
 </record>
 
-<record model="canton" id="151">
+<record model="canton" id="canton_151">
 <field name="name">Portoviejo</field>
 <field name="country_state_id" ref="country_manabi"></field>
 </record>
 
-<record model="canton" id="152">
+<record model="canton" id="canton_152">
 <field name="name">Puerto López</field>
 <field name="country_state_id" ref="country_manabi"></field>
 </record>
 
-<record model="canton" id="153">
+<record model="canton" id="canton_153">
 <field name="name">Rocafuerte</field>
 <field name="country_state_id" ref="country_manabi"></field>
 </record>
 
-<record model="canton" id="154">
+<record model="canton" id="canton_154">
 <field name="name">San Vicente</field>
 <field name="country_state_id" ref="country_manabi"></field>
 </record>
 
-<record model="canton" id="155">
+<record model="canton" id="canton_155">
 <field name="name">Santa Ana</field>
 <field name="country_state_id" ref="country_manabi"></field>
 </record>
 
-<record model="canton" id="156">
+<record model="canton" id="canton_156">
 <field name="name">Sucre</field>
 <field name="country_state_id" ref="country_manabi"></field>
 </record>
 
-<record model="canton" id="157">
+<record model="canton" id="canton_157">
 <field name="name">Tosagua</field>
 <field name="country_state_id" ref="country_manabi"></field>
 </record>
 
-<record model="canton" id="158">
+<record model="canton" id="canton_158">
 <field name="name">Veinte y Cuatro de Mayo</field>
 <field name="country_state_id" ref="country_manabi"></field>
 </record>
 
-<record model="canton" id="159">
+<record model="canton" id="canton_159">
 <field name="name">Gualaquiza</field>
 <field name="country_state_id" ref="country_morona"></field>
 </record>
 
-<record model="canton" id="160">
+<record model="canton" id="canton_160">
 <field name="name">Huamboya</field>
 <field name="country_state_id" ref="country_morona"></field>
 </record>
 
-<record model="canton" id="161">
+<record model="canton" id="canton_161">
 <field name="name">Limón Indanza</field>
 <field name="country_state_id" ref="country_morona"></field>
 </record>
 
-<record model="canton" id="162">
+<record model="canton" id="canton_162">
 <field name="name">Logroño</field>
 <field name="country_state_id" ref="country_morona"></field>
 </record>
 
-<record model="canton" id="163">
+<record model="canton" id="canton_163">
 <field name="name">Morona</field>
 <field name="country_state_id" ref="country_morona"></field>
 </record>
 
-<record model="canton" id="164">
+<record model="canton" id="canton_164">
 <field name="name">Pablo Sexto</field>
 <field name="country_state_id" ref="country_morona"></field>
 </record>
 
-<record model="canton" id="165">
+<record model="canton" id="canton_165">
 <field name="name">Palora</field>
 <field name="country_state_id" ref="country_morona"></field>
 </record>
 
-<record model="canton" id="166">
+<record model="canton" id="canton_166">
 <field name="name">San Juan Bosco</field>
 <field name="country_state_id" ref="country_morona"></field>
 </record>
 
-<record model="canton" id="167">
+<record model="canton" id="canton_167">
 <field name="name">Santiago</field>
 <field name="country_state_id" ref="country_morona"></field>
 </record>
 
-<record model="canton" id="168">
+<record model="canton" id="canton_168">
 <field name="name">Sucúa</field>
 <field name="country_state_id" ref="country_morona"></field>
 </record>
 
-<record model="canton" id="169">
+<record model="canton" id="canton_169">
 <field name="name">Taisha</field>
 <field name="country_state_id" ref="country_morona"></field>
 </record>
 
-<record model="canton" id="170">
+<record model="canton" id="canton_170">
 <field name="name">Tiwintza</field>
 <field name="country_state_id" ref="country_morona"></field>
 </record>
 
-<record model="canton" id="171">
+<record model="canton" id="canton_171">
 <field name="name">Archidona</field>
 <field name="country_state_id" ref="country_napo"></field>
 </record>
 
-<record model="canton" id="172">
+<record model="canton" id="canton_172">
 <field name="name">Carlos Julio Arosemena Tola</field>
 <field name="country_state_id" ref="country_napo"></field>
 </record>
 
-<record model="canton" id="173">
+<record model="canton" id="canton_173">
 <field name="name">El Chaco</field>
 <field name="country_state_id" ref="country_napo"></field>
 </record>
 
-<record model="canton" id="174">
+<record model="canton" id="canton_174">
 <field name="name">Quijos</field>
 <field name="country_state_id" ref="country_napo"></field>
 </record>
 
-<record model="canton" id="175">
+<record model="canton" id="canton_175">
 <field name="name">Tena</field>
 <field name="country_state_id" ref="country_napo"></field>
 </record>
 
-<record model="canton" id="176">
+<record model="canton" id="canton_176">
 <field name="name">Aguarico</field>
 <field name="country_state_id" ref="country_orellana"></field>
 </record>
 
-<record model="canton" id="177">
+<record model="canton" id="canton_177">
 <field name="name">Francisco de Orellana</field>
 <field name="country_state_id" ref="country_orellana"></field>
 </record>
 
-<record model="canton" id="178">
+<record model="canton" id="canton_178">
 <field name="name">La Joya de los Sachas</field>
 <field name="country_state_id" ref="country_orellana"></field>
 </record>
 
-<record model="canton" id="179">
+<record model="canton" id="canton_179">
 <field name="name">Loreto</field>
 <field name="country_state_id" ref="country_orellana"></field>
 </record>
 
-<record model="canton" id="180">
+<record model="canton" id="canton_180">
 <field name="name">Arajuno</field>
 <field name="country_state_id" ref="country_pastaza"></field>
 </record>
 
-<record model="canton" id="181">
+<record model="canton" id="canton_181">
 <field name="name">Mera</field>
 <field name="country_state_id" ref="country_pastaza"></field>
 </record>
 
-<record model="canton" id="182">
+<record model="canton" id="canton_182">
 <field name="name">Pastaza</field>
 <field name="country_state_id" ref="country_pastaza"></field>
 </record>
 
-<record model="canton" id="183">
+<record model="canton" id="canton_183">
 <field name="name">Santa Clara</field>
 <field name="country_state_id" ref="country_pastaza"></field>
 </record>
 
-<record model="canton" id="184">
+<record model="canton" id="canton_184">
 <field name="name">Cayambe</field>
 <field name="country_state_id" ref="country_pichincha"></field>
 </record>
 
-<record model="canton" id="185">
+<record model="canton" id="canton_185">
 <field name="name">Mejía</field>
 <field name="country_state_id" ref="country_pichincha"></field>
 </record>
 
-<record model="canton" id="186">
+<record model="canton" id="canton_186">
 <field name="name">Pedro Moncayo</field>
 <field name="country_state_id" ref="country_pichincha"></field>
 </record>
 
-<record model="canton" id="187">
+<record model="canton" id="canton_187">
 <field name="name">Pedro Vicente Maldonado</field>
 <field name="country_state_id" ref="country_pichincha"></field>
 </record>
 
-<record model="canton" id="188">
+<record model="canton" id="canton_188">
 <field name="name">Puerto Quito</field>
 <field name="country_state_id" ref="country_pichincha"></field>
 </record>
 
-<record model="canton" id="189">
+<record model="canton" id="canton_189">
 <field name="name">Quito</field>
 <field name="country_state_id" ref="country_pichincha"></field>
 </record>
 
-<record model="canton" id="190">
+<record model="canton" id="canton_190">
 <field name="name">Rumiñahui</field>
 <field name="country_state_id" ref="country_pichincha"></field>
 </record>
 
-<record model="canton" id="191">
+<record model="canton" id="canton_191">
 <field name="name">San Miguel de Los Bancos</field>
 <field name="country_state_id" ref="country_pichincha"></field>
 </record>
 
-<record model="canton" id="192">
+<record model="canton" id="canton_192">
 <field name="name">La Libertad</field>
 <field name="country_state_id" ref="country_santa"></field>
 </record>
 
-<record model="canton" id="193">
+<record model="canton" id="canton_193">
 <field name="name">Salinas</field>
 <field name="country_state_id" ref="country_santa"></field>
 </record>
 
-<record model="canton" id="194">
+<record model="canton" id="canton_194">
 <field name="name">Santa Elena</field>
 <field name="country_state_id" ref="country_santa"></field>
 </record>
 
-<record model="canton" id="195">
+<record model="canton" id="canton_195">
 <field name="name">La Concordia</field>
 <field name="country_state_id" ref="country_tsachilas"></field>
 </record>
 
-<record model="canton" id="196">
+<record model="canton" id="canton_196">
 <field name="name">Santo Domingo</field>
 <field name="country_state_id" ref="country_tsachilas"></field>
 </record>
 
-<record model="canton" id="197">
+<record model="canton" id="canton_197">
 <field name="name">Cascales</field>
 <field name="country_state_id" ref="country_sucumbios"></field>
 </record>
 
-<record model="canton" id="198">
+<record model="canton" id="canton_198">
 <field name="name">Cuyabeno</field>
 <field name="country_state_id" ref="country_sucumbios"></field>
 </record>
 
-<record model="canton" id="199">
+<record model="canton" id="canton_199">
 <field name="name">Gonzalo Pizarro</field>
 <field name="country_state_id" ref="country_sucumbios"></field>
 </record>
 
-<record model="canton" id="200">
+<record model="canton" id="canton_200">
 <field name="name">Lago Agrio</field>
 <field name="country_state_id" ref="country_sucumbios"></field>
 </record>
 
-<record model="canton" id="201">
+<record model="canton" id="canton_201">
 <field name="name">Putumayo</field>
 <field name="country_state_id" ref="country_sucumbios"></field>
 </record>
 
-<record model="canton" id="202">
+<record model="canton" id="canton_202">
 <field name="name">Shushufindi</field>
 <field name="country_state_id" ref="country_sucumbios"></field>
 </record>
 
-<record model="canton" id="203">
+<record model="canton" id="canton_203">
 <field name="name">Sucumbíos</field>
 <field name="country_state_id" ref="country_sucumbios"></field>
 </record>
 
-<record model="canton" id="204">
+<record model="canton" id="canton_204">
 <field name="name">Ambato</field>
 <field name="country_state_id" ref="country_tungurahua"></field>
 </record>
 
-<record model="canton" id="205">
+<record model="canton" id="canton_205">
 <field name="name">Baños</field>
 <field name="country_state_id" ref="country_tungurahua"></field>
 </record>
 
-<record model="canton" id="206">
+<record model="canton" id="canton_206">
 <field name="name">Cevallos</field>
 <field name="country_state_id" ref="country_tungurahua"></field>
 </record>
 
-<record model="canton" id="207">
+<record model="canton" id="canton_207">
 <field name="name">Mocha</field>
 <field name="country_state_id" ref="country_tungurahua"></field>
 </record>
 
-<record model="canton" id="208">
+<record model="canton" id="canton_208">
 <field name="name">Patate</field>
 <field name="country_state_id" ref="country_tungurahua"></field>
 </record>
 
-<record model="canton" id="209">
+<record model="canton" id="canton_209">
 <field name="name">Pelileo</field>
 <field name="country_state_id" ref="country_tungurahua"></field>
 </record>
 
-<record model="canton" id="210">
+<record model="canton" id="canton_210">
 <field name="name">Píllaro</field>
 <field name="country_state_id" ref="country_tungurahua"></field>
 </record>
 
-<record model="canton" id="211">
+<record model="canton" id="canton_211">
 <field name="name">Quero</field>
 <field name="country_state_id" ref="country_tungurahua"></field>
 </record>
 
-<record model="canton" id="212">
+<record model="canton" id="canton_212">
 <field name="name">Tisaleo</field>
 <field name="country_state_id" ref="country_tungurahua"></field>
 </record>
 
-<record model="canton" id="213">
+<record model="canton" id="canton_213">
 <field name="name">Centinela del Cóndor</field>
 <field name="country_state_id" ref="country_zamora"></field>
 </record>
 
-<record model="canton" id="214">
+<record model="canton" id="canton_214">
 <field name="name">Chinchipe</field>
 <field name="country_state_id" ref="country_zamora"></field>
 </record>
 
-<record model="canton" id="215">
+<record model="canton" id="canton_215">
 <field name="name">El Pangui</field>
 <field name="country_state_id" ref="country_zamora"></field>
 </record>
 
-<record model="canton" id="216">
+<record model="canton" id="canton_216">
 <field name="name">Nangaritza</field>
 <field name="country_state_id" ref="country_zamora"></field>
 </record>
 
-<record model="canton" id="217">
+<record model="canton" id="canton_217">
 <field name="name">Palanda</field>
 <field name="country_state_id" ref="country_zamora"></field>
 </record>
 
-<record model="canton" id="218">
+<record model="canton" id="canton_218">
 <field name="name">Paquisha</field>
 <field name="country_state_id" ref="country_zamora"></field>
 </record>
 
-<record model="canton" id="219">
+<record model="canton" id="canton_219">
 <field name="name">Yacuambi</field>
 <field name="country_state_id" ref="country_zamora"></field>
 </record>
 
-<record model="canton" id="220">
+<record model="canton" id="canton_220">
 <field name="name">Yantzaza</field>
 <field name="country_state_id" ref="country_zamora"></field>
 </record>
 
-<record model="canton" id="221">
+<record model="canton" id="canton_221">
 <field name="name">Zamora</field>
 <field name="country_state_id" ref="country_zamora"></field>
 </record>
