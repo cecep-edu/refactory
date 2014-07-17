@@ -94,7 +94,7 @@ class family_burden(osv.osv):
     _columns={
             "name": fields.char("Nombre", size=20, required=True),
 	    "last_name": fields.char("Apellido", size=20, required=True),
-            "type_id": fields.many2one("identification.type", "Tipo de identificación"),
+            "type_id": fields.many2one("identification.type", "Tipo de identificación", required=True),
             "number_id": fields.char("Nro Identificación", size=15, required=True),
             "type_rel_family": fields.many2one("family.relationship","Tipo de Relación"),
             "date_birth": fields.date("Fecha nacimiento", required=True),
@@ -112,46 +112,59 @@ class family_burden(osv.osv):
 class language_studies(osv.osv):    
     _name = "language.studies"
     _description = "Lenguajes estudiados"       
-    _order = "language_type_id"
-    _sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un tipo de discapacidad con el mismo nombre'))]
     _columns={
 	    "language_type_id": fields.many2one("language.type","Idioma"),
-            "percentage_listening": fields.char("Nivel Escuchado", size=4, required=True),
-            "percentage_spoken": fields.char("Nivel Oral", size=4, required=True),
-            "percentage_read": fields.char("Nivel Leído", size=4, required=True),
-            "percentage_written": fields.char("Nivel Escrito", size=4, required=True),
-	    "native_language": fields.boolean("Lenguaje Nativo", required=True),
+	    "percentage_listening": fields.integer("Nivel Escuchado", size=3, required=True),
+	    "percentage_spoken": fields.integer("Nivel Oral", size=3, required=True),
+	    "percentage_read": fields.integer("Nivel Leído", size=3, required=True),
+	    "percentage_written": fields.integer("Nivel Escrito", size=3, required=True),
+	    "native_language": fields.boolean("lengua materna"),
             "certificate_proficiency": fields.boolean("Certificado de suficiencia", requiered=True),
-            "institution_language": fields.char("Institución que le otorgó", size=30),
-	    "partner_id": fields.many2one("res.partner")
-    }
-        
+	    "institution_language": fields.char("Institución que le otorgó", size=30),
+	    "curriculum_id": fields.many2one("curriculum")
+	    }
+    def on_percentage(self, cr, uid, ids, listening, spoken, read, written):
+	    a = False
+	    if(listening > 100 or listening < 0):
+		    a = True
+		    return {'value':{'percentage_listening': ""}, 'warning':{'title':'Error de Validación',
+									     'message':'El porcentaje ingresado sobrepasa el 100%'}}		    
+	    if(spoken > 100 or listening < 0): 	    		
+		    a = True
+		    return {'value':{'percentage_spoken': ""}, 'warning':{'title':'Error de Validación',
+									  'message':'El porcentaje ingresado sobrepasa el 100%'}}
+	    if(read > 100 or listening < 0): 
+		    a = True	    		
+		    return {'value':{'percentage_read': ""}, 'warning':{'title':'Error de Validación',
+									'message':'El porcentaje ingresado sobrepasa el 100%'}}
+	    if (a == False):
+		    return {'value': {}}
 
 #CAPACITACION ESPECIFICA
 class info_training(osv.osv):    
-    _name = "info.training"
-    _description = "Clase Capacitacion"       
-    _order = "name"
-    _sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un parentesco con el mismo nombre'))]
-    _columns={
-            "name": fields.char("Nombre", size=35, required=True),
-	    "date_star": fields.date("Fecha inicio", required=True),
-	    "date_end": fields.date("Fecha fin", required=True),
-            "event_id": fields.many2one("event.type", "Tipo de evento", required=True),
-            "certified_for": fields.char("Certificado por", size=10, requiered=True),            
-            "duration": fields.char("Duración/horas", size=4, required=True),
-            "title_cert": fields.char("Título Certificado", size=30, requiered=True),
-            "certified_for": fields.char("Certificado por", size=10, requiered=True),            
-            "certified_type_id": fields.many2one("certified.type", "Tipo de Certificado", required=True),
-            "country_id": fields.many2one("res.country","Pais"),
-	    "partner_id": fields.many2one("res.partner"),
-    }
-    def on_date(self, cr, uid, ids, date_star, date_end):
-	    if date_end:
-		    if(date_star > date_end): 	    		
-			    return {'value':{'date_star': "", 'date_end': ""}, 'warning':{'title':'Error de Validación',
-											  'message':'La Fecha de Inicio debe ser menor que la Fecha de Fin'}}
-		    else:
-			    return {'value': {}}
-	    else:
-		    return {'value': {}}
+	_name = "info.training"
+	_description = "Clase Capacitacion"       
+	_order = "name"
+	_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un parentesco con el mismo nombre'))]
+	_columns={
+		"name": fields.char("Nombre", size=35, required=True),
+		"date_star": fields.date("Fecha inicio", required=True),
+		"date_end": fields.date("Fecha fin", required=True),
+		"event_id": fields.many2one("event.type", "Tipo de evento", required=True),
+		"certified_for": fields.char("Certificado por", size=10, requiered=True),            
+		"duration": fields.char("Duración/horas", size=4, required=True),
+		"certified_for": fields.char("Certificado por", size=10, requiered=True),            
+		"certified_type_id": fields.many2one("certified.type", "Tipo de Certificado", required=True),
+		"country_id": fields.many2one("res.country","Pais"),
+		"curriculum_id": fields.many2one("curriculum"),
+		}
+	def on_date(self, cr, uid, ids, date_star, date_end):
+		if date_end:
+			if(date_star > date_end): 	    		
+				return {'value':{'date_star': "", 'date_end': ""}, 'warning':{'title':'Error de Validación',
+											      'message':'La Fecha de Inicio debe ser menor que la Fecha de Fin'}}
+			else:
+				return {'value': {}}
+		else:
+			return {'value': {}}
+
