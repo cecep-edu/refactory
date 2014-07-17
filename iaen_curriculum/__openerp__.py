@@ -24,14 +24,13 @@
     'author' : 'IAEN',
     'category' : 'configuraciones',
     'description' : """
-		Ingreso de la Hoja de Vida.
+    Ingreso de la Hoja de Vida.
     """,
     'website': 'http://www.iaen.edu.ec',
     'data': [
         'views/res_partner_views.xml',
         'views/res_partner_actions.xml',
         'views/res_partner_menus.xml',
-        #'data/curriculum_data.xml',
     ],
     'update_xml': [
         'security/ir.model.access.csv',
@@ -40,6 +39,7 @@
         'iaen_base',
     ],
     'installable': True,
+    'application': True,
     'auto_install': False,
 }
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
