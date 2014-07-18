@@ -26,6 +26,7 @@ from openerp.tools.translate import _
 from openerp.tools.float_utils import float_round as round
 import openerp.addons.decimal_precision as dp
 import openerp.tools.image as imageoerp
+from iaen_curriculum_ws import IaenCurriculumWs 
 
 class res_partner(osv.osv):
         _inherit = "res.partner"
@@ -76,6 +77,73 @@ class res_partner(osv.osv):
                                 value['state_id'] = city_obj.country_state_id.id
                                 value['country_id'] = city_obj.country_state_id.country_id.id
                 return {'value':value}
+
+        def on_identification(self, cr, uid, ids, identification_number):
+                values = {}
+                if identification_number:
+                        if identification_number.__len__() == 10:
+                                ws = IaenCurriculumWs()
+                                data = ws.find_identification_info(identification_number)
+                                data_disc = ws.find_disability_info(identification_number)
+                                data_diplo = ws.find_instruction_info(identification_number)
+
+                                #print data['gender']
+                                #gender_obj = self.pool.get('gender').browse(cr, uid, data['gender'])[0]
+                                #print gender_obj
+                                disability = False
+                                disability_id = None
+                                conadis_number = None
+                                disability_degree = None
+
+                                if(data):
+                                        values['name'] = data['name']
+                                        values['street'] = data['address_1']
+                                        values['birth_city_id'] = self.get_ids(cr, uid, ids, 'canton', data['city_birth'])
+                                        values['residence_city_id'] = self.get_ids(cr, uid, ids, 'canton', data['city_residency'])
+                                        values['state_id'] = self.get_ids(cr, uid, ids, 'res.country.state', data['state_residency'])
+                                        values['country_id'] = self.get_ids(cr, uid, ids, 'res.country', 'Ecuador')
+                                        values['nationality_id'] = self.get_ids(cr, uid, ids, 'nationality', data['nationality'])
+                                        values['gender_id'] =  self.get_ids(cr, uid, ids, 'gender', data['gender'])
+                                        values['civil_status_id'] =  self.get_ids(cr, uid, ids, 'civil.status', data['civil_status'])
+                                        if data_disc.items():
+                                                values['disability'] = True
+                                                values['disability_id'] = self.get_ids(cr, uid, ids, 'type.disability', data_disc['type'])
+                                                values['conadis_number'] = data_disc['conadis_id']
+                                                values['disability_degree'] = data_disc['degree']
+                                        else:
+                                                values['disability'] = disability
+                                                values['disability_id'] = disability_id
+                                                values['conadis_number'] = conadis_number
+                                                values['disability_degree'] = disability_degree
+                                        
+                                        if data_diplo.items():
+                                                values['instruction_info_ids'] = []
+                                                for title in data_diplo:
+                                                        print title
+                                                        val = [{
+                                                                #gender_id = self.get.pool('gender').search(cr,uid,[('name','ilike','casado')])
+                                                                "instruction_id" : self.get_ids(cr, uid, ids, 'instruction', data_diplo[title]['level']),
+                                                                "name_institution":data_diplo[title]['institution_name'],
+																"title": data_diplo[title]['title_name'],
+																"register": data_diplo[title]['register_number']
+                                                        }]
+                                                        values['instruction_info_ids'] += val
+                                        #print values
+                                        return {'value': values}
+                                else:
+                                        return {'value': values}
+                        else:
+                                return {'value': {}}
+                else:
+                        return {'value': {}}
+
+        def get_ids(self, cr, uid, ids, model, name):
+                domain = [('name','ilike',name)]
+                obj = self.pool.get(model).search(cr, uid, domain)
+                if obj:
+                        return obj
+                else:
+                        return False
                         
         """"
         def default_get(self,cr,uid,fields,context=None):
