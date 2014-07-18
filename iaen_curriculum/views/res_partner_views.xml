@@ -56,7 +56,7 @@
               <group> 
                 <separator colspan="4"/>
                 <field name="identification_type_id"/>
-                <field name="identification_number"/>
+                <field name="identification_number" on_change="on_identification(identification_number)"/>
                 <h3>
                   <label for="street" string="Dirección"/> 
                 </h3>
