@@ -116,9 +116,10 @@ class res_partner(osv.osv):
 						if data_diplo.items():
 							values['instruction_info_ids'] = []
 							for title in data_diplo:
+								pdb.set_trace()
 								val = [{
 									#gender_id = self.get.pool('gender').search(cr,uid,[('name','ilike','casado')])
-									"instruction_id" : self.get_ids(cr, uid, ids, 'instruction', str(data_diplo[title]['level'])),
+									"instruction_id" : self.get_ids(cr, uid, ids, 'instruction', str(data_diplo[title]['level'].split(' ')[0])),
 									"name_institution":str(data_diplo[title]['institution_name']),
 									"title": str(data_diplo[title]['title_name']),
 									"register": str(data_diplo[title]['register_number'])
@@ -133,11 +134,12 @@ class res_partner(osv.osv):
         def get_ids(self, cr, uid, ids, model, name):
 			domain = [('name','ilike',name)]
 			obj = self.pool.get(model).search(cr, uid, domain)
-			if obj[0]:
-				#pdb.set_trace()
+			#pdb.set_trace()
+
+			try:
 				return obj[0]
-			else:
-				return False
+			except IndexError:
+				return None
                         
         """"
         def default_get(self,cr,uid,fields,context=None):

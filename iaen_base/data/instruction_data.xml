@@ -33,5 +33,9 @@
 			<field name="name">Doctorado</field>
             <field name="descripcion"/>
 		</record>
+		<record model="instruction" id="tercer_nivel">
+			<field name="name">Títulos de Tercer Nivel</field>
+            <field name="descripcion"/>
+		</record>
 	</data>
 </openerp>
