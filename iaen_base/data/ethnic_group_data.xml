@@ -22,5 +22,20 @@
             <field name="descripcion"/>
 		</record>
 
+	    <record model="ethnic.group" id="ethnic_group_montubio">
+			<field name="name">Montubio</field>
+            <field name="descripcion"/>
+		</record>
+
+	    <record model="ethnic.group" id="ethnic_group_mulato">
+			<field name="name">Mulato</field>
+            <field name="descripcion"/>
+		</record>
+
+	    <record model="ethnic.group" id="ethnic_group_Negro">
+			<field name="name">Negro</field>
+            <field name="descripcion"/>
+		</record>
+
 	</data>
 </openerp>
