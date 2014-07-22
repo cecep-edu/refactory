@@ -50,6 +50,9 @@
         'data/instruction_data.xml',
         'data/language_data.xml',
         'data/certified_type_data.xml',
+        'data/input_motive_data.xml',
+        'data/output_motive_data.xml',
+        'data/entity_type_data.xml',
     ],
     'update_xml': [
         'data/users_data.xml',

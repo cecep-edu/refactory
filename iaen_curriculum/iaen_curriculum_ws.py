@@ -20,7 +20,7 @@ class IaenCurriculumWs:
 		client = Client(url='https://www.bsg.gob.ec/sw/RC/BSGSW01_Consultar_Cedula?wsdl')
 		client.set_options(soapheaders=wss_header)
 		client_response = client.service.BusquedaPorCedula(identification, 'testroot', 'Sti1DigS21')
-
+		type(client_response["Domicilio"])
 		data = {
 			"address_1": client_response['CalleDomicilio'],
 			"house_number": client_response['NumeroDomicilio'],
@@ -52,14 +52,15 @@ class IaenCurriculumWs:
 		if client_response:
 			index = 0
 			for title_level in client_response['niveltitulos']:
-				for title in title_level:
-					data[index] = {
-						"level": title_level["nivel"],
-						"institution_name": title["ies"],
-						"title_name": title["nombreTitulo"],
-						"register_number": title["numeroRegistro"],
-						"register_date": title["fechaRegistro"]
-					}
+				for title in title_level.titulo:
+					title_data = {index:{
+						"level": title_level["nivel"].encode('UTF-8'),
+						"institution_name": title["ies"].encode('UTF-8'),
+						"title_name": title["nombreTitulo"].encode('UTF-8'),
+						"register_number": title["numeroRegistro"].encode('UTF-8'),
+						"register_date": title["fechaRegistro"].encode('UTF-8')
+					}}
+					data.update(title_data)
 					index+=1
 		return data
 
@@ -83,8 +84,8 @@ class IaenCurriculumWs:
 			data = {}
 		except KeyError:
 			data = {}
-		
-		print data
+
+		#print data
 		return data
 
 
@@ -102,7 +103,7 @@ class IaenCurriculumWs:
 		"""
 		wss = ('wss', 'http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd')
 		wsu = ('wsu', 'http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd')
-		print response
+		#print response
 		username_token = Element('UsernameToken', ns=wss).setText('')
 		username = Element('Username', ns=wss).setText(self.ws_user)
 

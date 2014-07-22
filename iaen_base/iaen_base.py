@@ -148,8 +148,12 @@ class civil_status(osv.osv):
     _name = "civil.status"
     _description = "Informacion sobre estado civil"
     _order = "name"
-    _sql_constraints = [('name_uniq', 'unique(name)', 'Ya existe un Estado Civil con el mismo nombre')]
+    _sql_constraints = [
+            ('name_uniq', 'unique(name)', 'Ya existe un Estado Civil con el mismo nombre'),
+            ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
+            ]
     _columns = {
+        'code_mrl' : fields.integer("Codigo MRL", size=3),
         'name' : fields.char("Nombre", size=50, required=True),
     }
 
@@ -189,29 +193,32 @@ class nationality(osv.osv):
 	_constraints = [(_only_letters, _(u"La Nacionalidad debe contener letras únicamente"), ['name'])]
 
 class instruction(osv.osv):
-	"""Clase para las Instrucciones"""
-	_name = "instruction"
-	_description = "Registra las instrucciones"
-	_columns = {
-		'name': fields.char("Nombre", size=200, required=True),
-		'description': fields.text("Descripción"),
-	}
-	_order = "name"
-	_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe una Instrucción con ese nombre.'))]
-	def _only_letters(self, cr, uid, ids):
-		""" Valida que una cadena contenga únicamente letras, incluyendo tildes y ñ solamente """
-		for instruction in self.browse(cr, uid, ids):
-			if not re.match(u"^[ñA-Za-zÁÉÍÓÚáéíóú\s]+$", instruction.name): return False
-		return True 
-	_constraints = [(_only_letters, _(u"La Instrucción debe contener letras únicamente"), ['name'])]
+	#"""Clase para las Instrucciones"""
+    _name = "instruction"
+    _sql_constraints = [
+        ('name_uniq', 'unique(name)', 'Ya existe un Registro con el mismo nombre'),
+        ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
+    ]
+    _description = "Registra las instrucciones"
+    _columns = {
+        'code_mrl': fields.integer("Código MRL"),
+        'name': fields.char("Nombre", size=200, required=True),
+        'description': fields.text("Descripción"),
 
+    }
+    _order = "name"
+	
 class entity_finance(osv.osv):
     """Clase de los diferentes entidades financieras existentes en Ecuador"""
     _name="entity.finance"
     _description="Entidad Financiera"
     _order="name"
-    _sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe una Entidad Financiera con ese nombre.'))]
+    _sql_constraints = [
+            ('name_unique', 'unique(name)', _(u'Ya existe una Entidad Financiera con ese nombre.')),
+            ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
+        ]
     _columns={
+            "code_mrl" : fields.integer("Codigo MRL", size=3),
             "name" : fields.char("Nombre",size=50,required=True),
     }
 
@@ -220,8 +227,12 @@ class bank_account_type(osv.osv):
     _name="bank.account.type"
     _description="Tipo de Cuenta"
     _order="name"
-    _sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un tipo de cuenta bancaria con ese nombre.'))]
+    _sql_constraints = [
+            ('name_unique', 'unique(name)', _(u'Ya existe un tipo de cuenta bancaria con ese nombre.')),
+            ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
+        ]
     _columns={
+             "code_mrl" : fields.integer("Codigo MRL", size=3),
             "name" : fields.char("Nombre",size=50,required=True),
     }
 
@@ -298,4 +309,37 @@ class language_type(osv.osv):
     _columns={
         "cod_language" : fields.char("Detalle", size=25, required=True),
         "name" : fields.char("Nombre",size=30,required=True),        
+    }
+
+class input_motive(osv.osv):    
+    _name="input.motive"
+    _description="Motivos de Entrada Laboral"
+    _order = "name"        
+    _sql_constraints = [('name_uniq', 'unique(name)', _(u'Ya existe un registro con el mismo nombre'))]
+    _columns={
+        "code_mrl": fields.integer("Codigo MRL"),
+        "name" : fields.char("Nombre",size=100,required=True), 
+        "description": fields.text("Descripción")       
+    }
+
+class output_motive(osv.osv):    
+    _name="output.motive"
+    _description="Motivos de Salida Laboral"
+    _order = "name"        
+    _sql_constraints = [('name_uniq', 'unique(name)', _(u'Ya existe un registro con el mismo nombre'))]
+    _columns={
+        "code_mrl": fields.integer("Codigo MRL"),
+        "name" : fields.char("Nombre",size=100,required=True), 
+        "description": fields.text("Descripción")       
+    }
+
+class entity_type(osv.osv):
+    _name="entity.type"
+    _description="Tipos de Entidades"
+    _order = "name"        
+    _sql_constraints = [('name_uniq', 'unique(name)', _(u'Ya existe un registro con el mismo nombre'))]
+    _columns={
+        "code_mrl": fields.integer("Codigo MRL"),
+        "name" : fields.char("Nombre",size=100,required=True), 
+        "description": fields.text("Descripción")       
     }
