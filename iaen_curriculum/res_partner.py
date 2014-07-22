@@ -30,10 +30,8 @@ import openerp.tools.image as imageoerp
 class res_partner(osv.osv):
         _inherit = "res.partner"
         _columns = {
-                #"picture": fields.binary("Foto"),
-                #"partner_id": fields.many2one("res.partner", "Usuario", required=True),
                 "civil_status_id": fields.many2one("civil.status", "Estado Civil", required=True),
-                "gender_id": fields.many2one("gender", "Género", required=True),
+                "type_sex_id": fields.many2one("type.sex", "Sexo", required=True),
                 "blood_type_id": fields.many2one("blood.type", "Tipo de Sangre", required=True),
                 "country_id": fields.many2one("res.country", "País de Nacimiento", required=True),
                 "birth_city_id": fields.many2one("canton", "Ciudad de Nacimiento", required=True),
@@ -41,10 +39,6 @@ class res_partner(osv.osv):
                 "identification_type_id": fields.many2one("identification.type", u"Tipo de Identificación", required=True),
                 "identification_number": fields.char("Número de Identificación", size=13, required=True,help="Cedula de Identidad, Pasaporte, CCI, DNI"),
                 "nationality_id": fields.many2one("nationality", "Nacionalidad", required=True),
-                #"home_phone": fields.char("Teléfono Domicilio", size=15, required=True),
-                #"mobile_phone": fields.char("Teléfono Móvil", size=15, required=True),
-                #"street_address_1": fields.char("Dirección Calle 1", size=200, required=True),
-                #"street_address_2": fields.char("Dirección Calle 2", size=200, required=False),
                 "house_number": fields.char("Número de Casa", size=7, required=False),
                 "location_reference": fields.text("Referencia de Ubicación"),
                 "disability": fields.boolean("Discapacidad"),
@@ -76,82 +70,3 @@ class res_partner(osv.osv):
                                 value['state_id'] = city_obj.country_state_id.id
                                 value['country_id'] = city_obj.country_state_id.country_id.id
                 return {'value':value}
-                        
-        """"
-        def default_get(self,cr,uid,fields,context=None):
-                if not context.has_key('action_uid'):
-                        return super(res_partner, self).default_get(cr, uid, fields, context=context)
-                partner_id = self.search(cr, uid,[('user_id.id','=',uid)])
-                values = {}
-                if partner_id:
-                        cur_dict = self.browse(cr, uid, partner_id)[0]
-                        
-                        burder_ids = []
-                        for burder in cur_dict.family_burden_ids:
-                                burder_ids.append(burder.id)
-            
-                        bank_ids = []
-                        for bank in cur_dict.bank_info_ids:
-                                bank_ids.append(bank.id)
-            
-                        instruction_ids = []
-                        for instruction in cur_dict.instruction_info_ids:
-                                instruction_ids.append(instruction.id)
-
-                        experience_ids = []
-                        for experience in cur_dict.experience_info_ids:
-                                experience_ids.append(experience.id)
-
-                        language_ids = []
-                        for language in cur_dict.language_studies_ids:
-                                language_ids.append(language.id)
-
-                        training_ids = []
-
-                        for training in cur_dict.info_training_ids:
-                                training_ids.append(training.id)
-                                
-                        values = {
-                                "name": cur_dict.name,
-                                "email": cur_dict.email,
-                                "image": cur_dict.image,
-                                "civil_status_id": cur_dict.civil_status_id.id,
-                                "gender_id": cur_dict.gender_id.id,
-                                "blood_type_id": cur_dict.blood_type_id.id,
-                                "country_id":  cur_dict.country_id.id,
-                                "birth_city_id":  cur_dict.birth_city_id.id,
-                                "residence_city_id":  cur_dict.residence_city_id.id,
-                                "identification_type_id":  cur_dict.identification_type_id.id,
-                                "identification_number":  cur_dict.identification_number,
-                                "nationality_id":  cur_dict.nationality_id.id,
-                                "phone":  cur_dict.phone,
-                                "mobile":  cur_dict.phone,
-                                "street":  cur_dict.street,
-                                "street2":  cur_dict.street2,
-                                "location_reference":  cur_dict.location_reference,
-                                "disability":  cur_dict.disability,
-                                "disability_id":  cur_dict.disability_id.id,
-                                "disability_degree":  cur_dict.disability_degree,
-                                "conadis_number":  cur_dict.conadis_number,
-                                "ethnic_group_id":  cur_dict.ethnic_group_id.id,
-                                "family_burden_ids": burder_ids, 
-                                "bank_info_ids":  bank_ids,
-                                "instruction_info_ids" :  instruction_ids,
-                                "experience_info_ids":  experience_ids,
-                                "language_studies_ids": language_ids,
-                                "info_training_ids": training_ids,
-                        }
-                return values
-
-        def create(self,cr,uid,fields,context=None):
-                print
-                if not context.has_key('action_uid'):
-                        return super(res_partner, self).create(cr, uid, fields, context=context)
-                else:
-                        partner_id = self.search(cr, uid,[('user_id.id','=',context['action_uid'])])
-                        self.write(cr,uid,partner_id,fields)
-                        #return {'type': 'ir.actions.act_window_close'}
-                        
-
-                return False
-        """

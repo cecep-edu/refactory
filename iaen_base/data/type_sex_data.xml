@@ -3,11 +3,11 @@
   <data noupdate="1">
     <record model="type.sex" id="type_sex_female" >
       <field name="name">Mujer</field>
-      <field name="cod_mrl">0</field>
+      <field name="code_mrl">0</field>
     </record>
     <record model="type.sex" id="type_sex_male" >
       <field name="name">Masculino</field>
-      <field name="cod_mrl">1</field>
+      <field name="code_mrl">1</field>
     </record>
   </data>
 </openerp>
