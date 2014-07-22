@@ -121,7 +121,7 @@ class language_studies(osv.osv):
 	    "native_language": fields.boolean("lengua materna"),
             "certificate_proficiency": fields.boolean("Certificado de suficiencia", requiered=True),
 	    "institution_language": fields.char("Institución que le otorgó", size=30),
-	    "curriculum_id": fields.many2one("curriculum")
+	    "partner_id": fields.many2one("res.partner")
 	    }
     def on_percentage(self, cr, uid, ids, listening, spoken, read, written):
 	    a = False
@@ -153,10 +153,10 @@ class info_training(osv.osv):
 		"event_id": fields.many2one("event.type", "Tipo de evento", required=True),
 		"certified_for": fields.char("Certificado por", size=10, requiered=True),            
 		"duration": fields.char("Duración/horas", size=4, required=True),
-		"certified_for": fields.char("Certificado por", size=10, requiered=True),            
+		#"certified_for": fields.char("Certificado por", size=10, requiered=True),            
 		"certified_type_id": fields.many2one("certified.type", "Tipo de Certificado", required=True),
 		"country_id": fields.many2one("res.country","Pais"),
-		"curriculum_id": fields.many2one("curriculum"),
+		"partner_id": fields.many2one("res.partner"),
 		}
 	def on_date(self, cr, uid, ids, date_star, date_end):
 		if date_end:

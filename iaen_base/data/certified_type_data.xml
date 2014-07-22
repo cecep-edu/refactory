@@ -4,14 +4,12 @@
     <record model="certified.type" id="certified_approbation" >
       <field name="name">Aprobación</field>
       <field name="description">Evento calificado por la institución con parametros a cumplir</field>
+      <field name="cod_mrl">1</field>
     </record>
     <record model="certified.type" id="certified_assistance" >
       <field name="name">Asistencia</field>
       <field name="description">Evento calificado por la presencia</field>
-    </record>
-    <record model="certified.type" id="certified_presentation" >
-      <field name="name">Ponecia</field>
-      <field name="description">Evento de comunicación o exposición pública de un tema</field>
+      <field name="cod_mrl">2</field>
     </record>
   </data>
 </openerp>
