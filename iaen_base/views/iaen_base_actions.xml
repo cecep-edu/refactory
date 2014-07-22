@@ -35,8 +35,20 @@
             <field name="name">Pais</field>
             <field name="res_model">res.country</field>
             <field name="view_type">form</field>
-            <field name="view_id" ref="base.view_country_tree"/>
+            <field name="view_id" ref="view_country_tree_iaen"/>
             <field name="view_mode">tree,form</field>
+        </record>
+        <record id="action_country_form" model="ir.actions.act_window.view">
+          <field eval="2" name="sequence"/>
+          <field name="view_mode">form</field>
+          <field name="view_id" ref="view_country_form_iaen"/>
+          <field name="act_window_id" ref="action_res_country"/>
+        </record>
+        <record id="action_country_tree" model="ir.actions.act_window.view">
+          <field eval="1" name="sequence"/>
+          <field name="view_mode">tree</field>
+          <field name="view_id" ref="view_country_tree_iaen"/>
+          <field name="act_window_id" ref="action_res_country"/>
         </record>
         <!-- Ingreso de zonas -->
         <record id="action_zones" model="ir.actions.act_window">
@@ -50,8 +62,20 @@
             <field name="name">Estados/Provincias</field>
             <field name="res_model">res.country.state</field>
             <field name="view_type">form</field>
-            <field name="view_id" ref="base.view_country_state_tree"/>
+            <field name="view_id" ref="view_country_state_tree_iaen"/>
             <field name="view_mode">tree,form</field>
+        </record>
+        <record id="action_country_state_form" model="ir.actions.act_window.view">
+          <field eval="2" name="sequence"/>
+          <field name="view_mode">form</field>
+          <field name="view_id" ref="view_country_state_form_iaen"/>
+          <field name="act_window_id" ref="action_res_country_state"/>
+        </record>
+        <record id="action_country_state_tree" model="ir.actions.act_window.view">
+          <field eval="1" name="sequence"/>
+          <field name="view_mode">tree</field>
+          <field name="view_id" ref="view_country_state_tree_iaen"/>
+          <field name="act_window_id" ref="action_res_country_state"/>
         </record>
         <!-- Ingreso de Cantones -->
         <record id="action_canton" model="ir.actions.act_window">
@@ -60,13 +84,6 @@
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
         </record>
-        <!-- Ingreso de Ciudades 
-        <record id="action_city" model="ir.actions.act_window">
-            <field name="name">Ciudades</field>
-            <field name="res_model">city</field>
-            <field name="view_type">form</field>
-            <field name="view_mode">tree,form</field>
-        </record>-->
         <!-- Ingreso de Parroquias -->
         <record id="action_parish" model="ir.actions.act_window">
             <field name="name">Parroquias</field>
@@ -141,7 +158,30 @@
 			<field name="res_model">jobs.type</field>
 			<field name="view_type">form</field>
 			<field name="view_mode">tree,form</field>
+		</record>
+		<!-- Ingreso de Tipos de Entidades  -->
+		<record id="action_entity_type" model="ir.actions.act_window">
+			<field name="name">Tipos de Entidades</field>
+			<field name="res_model">entity.type</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree,form</field>
 		</record>    
+		<!-- Ingreso de Motivos de Entrada -->
+		<record id="action_input_motive" model="ir.actions.act_window">
+			<field name="name">Motivos de Entrada</field>
+			<field name="res_model">input.motive</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree,form</field>
+		</record>    
+
+		<!-- Ingreso de Motivos de Salida  -->
+		<record id="action_output_motive" model="ir.actions.act_window">
+			<field name="name">Motivos de Salida</field>
+			<field name="res_model">output.motive</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree,form</field>
+		</record>        
+
 		<!-- Ingreso de notaria  -->
 		<record id="action_name_notary" model="ir.actions.act_window">
 		  <field name="name">Notarias del Ecuador</field>
@@ -156,6 +196,5 @@
 		  <field name="view_type">form</field>
 		  <field name="view_mode">tree,form</field>
 		</record>    
-
 	</data>
 </openerp>
