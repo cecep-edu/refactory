@@ -7,6 +7,7 @@
       <field name="model">civil.status</field>
       <field name="arch" type="xml" >
 	    <tree string="Estado Civil">
+          <field name="code_mrl"/>
           <field name="name"/>
 	    </tree>
       </field>
@@ -19,7 +20,8 @@
 	    <form string="Crear Estado Civil" version="7.0">
           <sheet>
             <group>
-	          <field name="name"/>
+            	<field name="code_mrl"/>
+	          	<field name="name"/>
             </group>
           </sheet>
 	    </form>
@@ -350,6 +352,7 @@
 	  <field name="model">instruction</field>
 	  <field name="arch" type="xml">
 		<tree string="Instrucción">
+		  <field name="code_mrl"/>
 		  <field name="name"/>
 		  <field name="description"/>
 		</tree>
@@ -364,6 +367,7 @@
           <sheet>
 		    <group  col="2" colspan="2">
 			  <group colspan="2">
+			  	<field name="code_mrl"/>
 			    <field name="name"/>
 			    <newline/>
 			    <field name="description"/>
@@ -410,7 +414,8 @@
       <field name="model">entity.finance</field>
       <field name="arch" type="xml" >
         <tree string="Entidades Financieras">
-          <field name="name"/>
+        	<field name="code_mrl"/>
+          	<field name="name"/>
         </tree>
       </field>
     </record>
@@ -422,7 +427,8 @@
         <form string="Entidad Financiera" version="7.0">
           <sheet>
             <group>
-              <field name="name" />
+            	<field name="code_mrl"/>
+              	<field name="name" />
             </group>
           </sheet>
         </form>
@@ -435,7 +441,8 @@
       <field name="model">bank.account.type</field>
       <field name="arch" type="xml" >
         <tree string="Tipos de Cuenta">
-          <field name="name"/>
+        	<field name="code_mrl"/>
+          	<field name="name"/>
         </tree>
       </field>
     </record>
@@ -447,7 +454,8 @@
         <form string="Tipo de Cuenta" version="7.0">
           <sheet>
             <group>
-              <field name="name" />
+            	<field name="code_mrl"/>
+              	<field name="name" />
             </group>
           </sheet>
         </form>
@@ -559,6 +567,77 @@
       </field>
     </record>
 
+    <!-- Ingreso de Tipos de Entidades -->
+    <record id="view_entity_type_tree" model="ir.ui.view">
+      <field name="name">view.entity.type.tree</field>
+      <field name="model">entity.type</field>
+      <field name="arch" type="xml">
+		<tree string="Tipos de Entidades">
+		  <field name="code_mrl"/>
+		  <field name="name"/>
+		  <field name="description"/>
+		</tree>
+      </field>
+    </record>	
+    <record id="view_entity_type_form" model="ir.ui.view">
+      <field name="name">view.entity.type.form</field>
+      <field name="model">entity.type</field>
+      <field name="arch" type="xml">
+		<form string="Tipos de Entidades">
+			<field name="code_mrl"/>
+		    <field name="name"/>
+		    <field name="description"/>
+		</form>
+      </field>
+    </record>
+
+    <!-- Ingreso de Motivos de Entrada -->
+    <record id="view_input_motive_tree" model="ir.ui.view">
+      <field name="name">view.input.motive.tree</field>
+      <field name="model">input.motive</field>
+      <field name="arch" type="xml">
+		<tree string="Motivos de Entrada">
+		  <field name="code_mrl"/>
+		  <field name="name"/>
+		  <field name="description"/>
+		</tree>
+      </field>
+    </record>	
+    <record id="view_input_motive_form" model="ir.ui.view">
+      <field name="name">view.input.motive.form</field>
+      <field name="model">input.motive</field>
+      <field name="arch" type="xml">
+		<form string="Motivos de Entrada">
+			<field name="code_mrl"/>
+		    <field name="name"/>
+		    <field name="description"/>
+		</form>
+      </field>
+    </record>
+
+    <!-- Ingreso de Motivos de Salida -->
+    <record id="view_output_motive_tree" model="ir.ui.view">
+      <field name="name">view.output.motive.tree</field>
+      <field name="model">output.motive</field>
+      <field name="arch" type="xml">
+		<tree string="Motivos de Salida">
+		  <field name="code_mrl"/>
+		  <field name="name"/>
+		  <field name="description"/>
+		</tree>
+      </field>
+    </record>	
+    <record id="view_output_motive_form" model="ir.ui.view">
+      <field name="name">view.output.motive.form</field>
+      <field name="model">output.motive</field>
+      <field name="arch" type="xml">
+		<form string="Motivos de Salida">
+			<field name="code_mrl"/>
+		    <field name="name"/>
+		    <field name="description"/>
+		</form>
+      </field>
+    </record>
 
     <!-- Ingreso notarias del Ecuador -->
     <record id="view_name_notary_tree" model="ir.ui.view">
@@ -613,7 +692,5 @@
         </form>
       </field>
     </record>
-
-
   </data>
 </openerp>
