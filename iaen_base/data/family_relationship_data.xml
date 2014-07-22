@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <openerp>
-  <data noupdate="0">
+  <data noupdate="1">
 
     <record model="family.relationship" id="gender_father" >
       <field name="name">Padre</field>
