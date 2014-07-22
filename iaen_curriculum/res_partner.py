@@ -31,10 +31,8 @@ from iaen_curriculum_ws import IaenCurriculumWs
 class res_partner(osv.osv):
         _inherit = "res.partner"
         _columns = {
-                #"picture": fields.binary("Foto"),
-                #"partner_id": fields.many2one("res.partner", "Usuario", required=True),
                 "civil_status_id": fields.many2one("civil.status", "Estado Civil", required=True),
-                "gender_id": fields.many2one("gender", "Género", required=True),
+                "type_sex_id": fields.many2one("type.sex", "Sexo", required=True),
                 "blood_type_id": fields.many2one("blood.type", "Tipo de Sangre", required=True),
                 "country_id": fields.many2one("res.country", "País de Nacimiento", required=True),
                 "birth_city_id": fields.many2one("canton", "Ciudad de Nacimiento", required=True),
@@ -42,10 +40,6 @@ class res_partner(osv.osv):
                 "identification_type_id": fields.many2one("identification.type", u"Tipo de Identificación", required=True),
                 "identification_number": fields.char("Número de Identificación", size=13, required=True,help="Cedula de Identidad, Pasaporte, CCI, DNI"),
                 "nationality_id": fields.many2one("nationality", "Nacionalidad", required=True),
-                #"home_phone": fields.char("Teléfono Domicilio", size=15, required=True),
-                #"mobile_phone": fields.char("Teléfono Móvil", size=15, required=True),
-                #"street_address_1": fields.char("Dirección Calle 1", size=200, required=True),
-                #"street_address_2": fields.char("Dirección Calle 2", size=200, required=False),
                 "house_number": fields.char("Número de Casa", size=7, required=False),
                 "location_reference": fields.text("Referencia de Ubicación"),
                 "disability": fields.boolean("Discapacidad"),

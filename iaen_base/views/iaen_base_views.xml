@@ -92,7 +92,7 @@
       <field name="arch" type="xml">
         <tree string="Tipo de sexo">
           <field name="name"/>
-          <field name="cod_mrl"/>
+          <field name="code_mrl"/>
         </tree>
       </field>
     </record>	
@@ -105,7 +105,7 @@
           <sheet>
 	    <group col="2" colspan="2">
 	      <field name="name"/>
-	      <field name="cod_mrl"/>
+	      <field name="code_mrl"/>
 	    </group>
           </sheet>
         </form>
@@ -146,7 +146,6 @@
 	  <field name="model">zones</field>
 	  <field name="arch" type="xml">
 		<tree string="Zonas">
-          <field name="codigo_mrl"/>
 		  <field name="name"/>
 		  <field name="description"/>
 		  <field name="country_id"/>
@@ -161,8 +160,6 @@
 		<form string="Zonas" version="7.0">
           <sheet>
             <group>
-              <field name="codigo_mrl"/>
-              <newline/>
 		      <field name="name"/>
 		      <newline/>
 		      <field name="country_id"/>
@@ -191,17 +188,33 @@
 	</record>
 
 	<!-- Modificación vista para estados -->
-	<record id="view_res_country_state_form_inerit" model="ir.ui.view">
-	  <field name="name">view.res.country.form</field>
+    <record id="view_country_state_tree_iaen" model="ir.ui.view">
+	  <field name="name">view.country.tree.iaen</field>
 	  <field name="model">res.country.state</field>
-	  <field name="inherit_id" ref="base.view_country_state_form"/>
 	  <field name="arch" type="xml">
-        <field name="name" position="before">
-          <field name="codigo_mrl"/>
-        </field>
-		<field name="country_id" position="after">
-		  <field name="zone_id" on_change="change_zone_id(zone_id)"/>
-		</field>
+        <tree string="Provincias">
+            <field name="code_mrl"/>
+            <field name="name"/>
+            <field name="code"/>
+		    <field name="country_id"/>
+		    <field name="zone_id"/>
+        </tree>
+	  </field>
+	</record> 
+
+	<record id="view_country_state_form_iaen" model="ir.ui.view">
+	  <field name="name">view.country.form.iaen</field>
+	  <field name="model">res.country.state</field>
+	  <field name="arch" type="xml">
+        <form string="Provincias"  version="7.0">
+          <sheet>
+            <field name="code_mrl"/>
+            <field name="name"/>
+            <field name="code"/>
+		    <field name="country_id"/>
+		    <field name="zone_id" on_change="change_zone_id(zone_id)"/>
+          </sheet>
+        </form>
 	  </field>
 	</record> 
 
@@ -211,7 +224,7 @@
 	  <field name="model">canton</field>
 	  <field name="arch" type="xml">
 		<tree string="Cantones">
-          <field name="codigo_mrl"/>
+          <field name="code_mrl"/>
 		  <field name="name"/>
 		  <field name="country_state_id"/>
 		</tree>
@@ -225,7 +238,7 @@
 		<form string="Cantones" version="7.0">
           <sheet>
             <group>
-              <field name="codigo_mrl"/>
+              <field name="code_mrl"/>
               <newline/>
 		      <field name="name"/>
 		      <newline/>
@@ -243,7 +256,7 @@
 	  <field name="model">parish</field>
 	  <field name="arch" type="xml">
 		<tree string="Parroquias">
-          <field name="codigo_mrl"/>
+          <field name="code_mrl"/>
 		  <field name="name"/>
 		  <field name="canton_id"/>
 		  <field name="description"/>
@@ -258,7 +271,7 @@
 		<form string="Parroquias" version="7.0">
           <sheet>
             <group>
-              <field name="codigo_mrl"/>
+              <field name="code_mrl"/>
               <newline/>
 		      <field name="name"/>
 		      <newline/>
@@ -270,6 +283,40 @@
 		</form>
 	  </field>
 	</record>        
+
+	<!-- Ingreso de Paises -->
+	<record id="view_country_tree_iaen" model="ir.ui.view">
+	  <field name="name">view.country.tree.iaen</field>
+	  <field name="model">res.country</field>
+	  <field name="arch" type="xml">
+		<tree string="Pais">
+          <field name="code_mrl"/>
+		  <field name="name"/>
+          <field name="code"/>
+          <field name="currency_id"/>
+		</tree>
+	  </field>
+	</record>	
+
+	<record id="view_country_form_iaen" model="ir.ui.view">
+	  <field name="name">view.country.form.iaen</field>
+	  <field name="model">res.country</field>
+	  <field name="arch" type="xml">
+		<form string="Pais" version="7.0">
+          <sheet>
+		    <group  col="2" colspan="2">
+			  <group colspan="2">
+			    <field name="code_mrl"/>
+		        <field name="name"/>
+                <field name="code"/>
+                <field name="currency_id"/>
+			  </group>
+		    </group>
+          </sheet>
+		</form>
+	  </field>
+	</record>
+
 
 	<!-- Ingreso de Nacionalidades -->
 	<record id="view_nationality_tree" model="ir.ui.view">
@@ -340,7 +387,7 @@
 	    <tree string="Parentesco Familiar">
 	      <field name="name"/>
 	      <field name="description"/>
-	      <field name="cod_mrl"/>
+	      <field name="code_mrl"/>
 	    </tree>
       </field>
     </record>	
@@ -354,7 +401,7 @@
 	        <group col="2" colspan="2">
 	          <field name="name"/>
 	          <field name="description"/>
-		  <field name="cod_mrl"/>
+		  <field name="code_mrl"/>
 	        </group>
           </sheet>	  
         </form>
@@ -599,7 +646,7 @@
       <field name="arch" type="xml">
         <tree string="Notaria del Ecuador">
 	      <field name="name"/>
-	      <field name="cod_mrl"/>
+	      <field name="code_mrl"/>
         </tree>
       </field>
     </record>	
@@ -612,7 +659,7 @@
           <sheet>
 	    <group col="2" colspan="2">
 	      <field name="name"/>
-	      <field name="cod_mrl"/>
+	      <field name="code_mrl"/>
 	    </group>
           </sheet>
         </form>
@@ -626,7 +673,7 @@
       <field name="arch" type="xml">
         <tree string="Nacionalidad Indigena">
 	  <field name="name"/>
-	  <field name="cod_mrl"/>
+	  <field name="code_mrl"/>
         </tree>
       </field>
     </record>	
@@ -639,7 +686,7 @@
           <sheet>
 	    <group col="2" colspan="2">
 	      <field name="name"/>
-	      <field name="cod_mrl"/>
+	      <field name="code_mrl"/>
 	    </group>
           </sheet>
         </form>
