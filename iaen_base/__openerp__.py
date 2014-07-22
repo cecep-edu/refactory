@@ -35,7 +35,7 @@
         'data/ethnic_group_data.xml',
         'data/identification_type_data.xml',
         'data/civil_status_data.xml',
-        'data/gender_data.xml',
+        'data/type_sex_data.xml',
         'data/family_relationship_data.xml',
         'data/type_disability.xml',
         'data/blood_type_data.xml',
@@ -50,6 +50,8 @@
         'data/instruction_data.xml',
         'data/language_data.xml',
         'data/certified_type_data.xml',
+        'data/notary_data.xml',
+        'data/Indian_nationality_data.xml',
     ],
     'update_xml': [
         'data/users_data.xml',
