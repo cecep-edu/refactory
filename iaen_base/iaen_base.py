@@ -90,6 +90,12 @@ class type_sex(osv.osv):
    
             
 class zones(osv.osv):
+    """
+    CRUD con la división política por zonas para el Ecuador
+    name: 
+    description:
+    country_id:
+    """
     _name = "zones"
     _description = "Categoriza zonas por provincias"
     _order = "name"
@@ -101,11 +107,21 @@ class zones(osv.osv):
         }
 
 class res_country_state(osv.osv):
+    """
+    Herencia para la creación del CRUD para los estados o provincias, heredado desde la tabla res_country_state
+    code_mrl:
+    zone_id:
+    """
     _inherit = "res.country.state"
     _columns = {
+        "code_mrl": field.integer("Código MRL"),
         "zone_id": fields.many2one("zones","Zona",help="Distribución zonal, a la que pertenece la provincia")
     }
+
     def change_zone_id(self,cr,uid,ids,zone):
+        """
+        Función para la selección automática del pais, segú la zona seleccionada
+        """
         if zone:
             zone_obj = self.pool.get('zones').browse(cr,uid,zone)
             print zone_obj
@@ -120,29 +136,36 @@ class res_country_state(osv.osv):
 #    _sql_constraints = [('name_unique', 'unique(name)', 'Ya existe una zona con el mismo nombre')]
 
 class canton(osv.osv):
+    """
+    CRUD para la generación e ingreso de los cantones y/o ciudades de una provincia
+    name:
+    codigo_mrl:
+    country_state_id:
+    """
     _name = "canton"
     _description = "Cantones/ciudades de una provincia"
     _order = "name"
     _columns = {
         "name": fields.char("Ciudad/Cantón", size=15, required=True),
+        "codigo_mrl": field.integer("Código MRL"),
         "country_state_id": fields.many2one("res.country.state","Provincia",required=True),
     }
 
-#class city(osv.osv):
-#    _name = "city"
-#    _description = "Ciudades a las cuales pertenece cada parroquia"
-#    _order = "name"
-#    _columns = {
-#        "name": fields.char("Ciudad", size=15,required=True),
-#        "description": fields.text("Descripción",),
-#    }
 
 class parish(osv.osv):
+    """
+    CRUD para la generación de parroquieas que pertenecen a un cantón
+    name:
+    codigo_mrl:
+    canton_id:
+    description:
+    """
     _name = "parish"
     _description = u'Parroquias que pertenecen a un cantón'
     _order = "name"
     _columns = {
         "name": fields.char("Parroquia", size=15, required=True),
+        "codigo_mrl": field.integer("Código MRL"),
         "canton_id": fields.many2one("canton","Cantón",required=True),
         "description": fields.text("Descripción"),
     }

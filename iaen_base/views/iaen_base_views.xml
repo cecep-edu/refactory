@@ -144,6 +144,7 @@
 	  <field name="model">zones</field>
 	  <field name="arch" type="xml">
 		<tree string="Zonas">
+          <field name="codigo_mrl"/>
 		  <field name="name"/>
 		  <field name="description"/>
 		  <field name="country_id"/>
@@ -158,6 +159,8 @@
 		<form string="Zonas" version="7.0">
           <sheet>
             <group>
+              <field name="codigo_mrl"/>
+              <newline/>
 		      <field name="name"/>
 		      <newline/>
 		      <field name="country_id"/>
@@ -191,6 +194,9 @@
 	  <field name="model">res.country.state</field>
 	  <field name="inherit_id" ref="base.view_country_state_form"/>
 	  <field name="arch" type="xml">
+        <field name="name" position="before">
+          <field name="codigo_mrl"/>
+        </field>
 		<field name="country_id" position="after">
 		  <field name="zone_id" on_change="change_zone_id(zone_id)"/>
 		</field>
@@ -203,6 +209,7 @@
 	  <field name="model">canton</field>
 	  <field name="arch" type="xml">
 		<tree string="Cantones">
+          <field name="codigo_mrl"/>
 		  <field name="name"/>
 		  <field name="country_state_id"/>
 		</tree>
@@ -216,6 +223,8 @@
 		<form string="Cantones" version="7.0">
           <sheet>
             <group>
+              <field name="codigo_mrl"/>
+              <newline/>
 		      <field name="name"/>
 		      <newline/>
 		      <field name="country_state_id"/>
@@ -232,6 +241,7 @@
 	  <field name="model">parish</field>
 	  <field name="arch" type="xml">
 		<tree string="Parroquias">
+          <field name="codigo_mrl"/>
 		  <field name="name"/>
 		  <field name="canton_id"/>
 		  <field name="description"/>
@@ -246,6 +256,8 @@
 		<form string="Parroquias" version="7.0">
           <sheet>
             <group>
+              <field name="codigo_mrl"/>
+              <newline/>
 		      <field name="name"/>
 		      <newline/>
 		      <field name="canton_id"/>
