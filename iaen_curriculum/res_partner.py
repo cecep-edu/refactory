@@ -81,55 +81,62 @@ class res_partner(osv.osv):
         #                        value['country_id'] = city_obj.country_state_id.country_id.id
         #        return {'value':value}
 
-        def on_identification(self, cr, uid, ids, identification_number):
+        def on_identification(self, cr, uid, ids, identification_number, identification_type_id):
 			values = {}
-			if identification_number:
-				if identification_number.__len__() == 10:
-					ws = IaenCurriculumWs()
-					data = ws.find_identification_info(identification_number)
-					data_disc = ws.find_disability_info(identification_number)
-					data_diplo = ws.find_instruction_info(identification_number)
+			if identification_number and identification_type_id:
+				id_type = self.pool.get('identification.type').browse(cr, uid, identification_type_id)
+				if id_type.name.lower().find(u"cédula")>=0:
+					print "EVERYTHING IS FINE MY DEAR FRIEND" 
+					if identification_number.__len__() == 10:
+						ws = IaenCurriculumWs()
+						data = ws.find_identification_info(identification_number)
+						data_disc = ws.find_disability_info(identification_number)
+						data_diplo = ws.find_instruction_info(identification_number)
 
-					#pdb.set_trace()
+						#pdb.set_trace()
 
-					if(data):
-						values['name'] = data['name']
-						values['street'] = str(data['address_1'])
-						values['birth_city_id'] = self.get_ids(cr, uid, ids, 'canton', str(data['city_birth']))
-						values['residence_city_id'] = self.get_ids(cr, uid, ids, 'canton', str(data['city_residency']))
-						values['state_id'] = self.get_ids(cr, uid, ids, 'res.country.state', str(data['state_residency']))
-						values['country_id'] = self.get_ids(cr, uid, ids, 'res.country', 'Ecuador')
-						values['nationality_id'] = self.get_ids(cr, uid, ids, 'nationality', str(data['nationality']))
-						values['gender_id'] =  self.get_ids(cr, uid, ids, 'gender', str(data['gender']))
-						values['civil_status_id'] =  self.get_ids(cr, uid, ids, 'civil.status', str(data['civil_status']))
-						if data_disc.items():
-							values['disability'] = True
-							values['disability_id'] = self.get_ids(cr, uid, ids, 'type.disability', str(data_disc['type']))
-							values['conadis_number'] = data_disc['conadis_id']
-							values['disability_degree'] = data_disc['degree']
+						if(data):
+							values['name'] = data['name']
+							values['street'] = str(data['address_1'])
+							values['birth_city_id'] = self.get_ids(cr, uid, ids, 'canton', str(data['city_birth']))
+							values['residence_city_id'] = self.get_ids(cr, uid, ids, 'canton', str(data['city_residency']))
+							values['state_id'] = self.get_ids(cr, uid, ids, 'res.country.state', str(data['state_residency']))
+							values['country_id'] = self.get_ids(cr, uid, ids, 'res.country', 'Ecuador')
+							values['nationality_id'] = self.get_ids(cr, uid, ids, 'nationality', str(data['nationality']))
+							values['gender_id'] =  self.get_ids(cr, uid, ids, 'gender', str(data['gender']))
+							values['civil_status_id'] =  self.get_ids(cr, uid, ids, 'civil.status', str(data['civil_status']))
+							if data_disc.items():
+								values['disability'] = True
+								values['disability_id'] = self.get_ids(cr, uid, ids, 'type.disability', str(data_disc['type']))
+								values['conadis_number'] = data_disc['conadis_id']
+								values['disability_degree'] = data_disc['degree']
+							else:
+								values['disability'] = False
+								values['disability_id'] = None
+								values['conadis_number'] = None
+								values['disability_degree'] = None
+							
+							if data_diplo.items():
+								values['instruction_info_ids'] = []
+								for title in data_diplo:
+									#pdb.set_trace()
+									val = [{
+										#gender_id = self.get.pool('gender').search(cr,uid,[('name','ilike','casado')])
+										"instruction_id" : self.get_ids(cr, uid, ids, 'instruction', str(data_diplo[title]['level'].split(' ')[0])),
+										"name_institution":str(data_diplo[title]['institution_name']),
+										"title": str(data_diplo[title]['title_name']),
+										"register": str(data_diplo[title]['register_number'])
+									}]
+									values['instruction_info_ids'] += val
+								return {'value': values}
 						else:
-							values['disability'] = False
-							values['disability_id'] = None
-							values['conadis_number'] = None
-							values['disability_degree'] = None
-						
-						if data_diplo.items():
-							values['instruction_info_ids'] = []
-							for title in data_diplo:
-								pdb.set_trace()
-								val = [{
-									#gender_id = self.get.pool('gender').search(cr,uid,[('name','ilike','casado')])
-									"instruction_id" : self.get_ids(cr, uid, ids, 'instruction', str(data_diplo[title]['level'].split(' ')[0])),
-									"name_institution":str(data_diplo[title]['institution_name']),
-									"title": str(data_diplo[title]['title_name']),
-									"register": str(data_diplo[title]['register_number'])
-								}]
-								values['instruction_info_ids'] += val
-							return {'value': values}
+							return {'value': {}}
 					else:
 						return {'value': {}}
 				else:
 					return {'value': {}}
+			else:
+				return {'value': {}}
 
         def get_ids(self, cr, uid, ids, model, name):
 			domain = [('name','ilike',name)]
