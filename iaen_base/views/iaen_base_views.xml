@@ -86,27 +86,27 @@
 
 
     <!-- Ingreso de identidad de genero -->
-    <record id="view_gender_tree" model="ir.ui.view">
-      <field name="name">view.gender.tree</field>
-      <field name="model">gender</field>
+    <record id="view_type_sex_tree" model="ir.ui.view">
+      <field name="name">view.type.sex.tree</field>
+      <field name="model">type.sex</field>
       <field name="arch" type="xml">
-        <tree string="Generos">
+        <tree string="Tipo de sexo">
           <field name="name"/>
-          <field name="description"/>
+          <field name="cod_mrl"/>
         </tree>
       </field>
     </record>	
     
-    <record id="view_gender_form" model="ir.ui.view">
-      <field name="name">view.gender.form</field>
-      <field name="model">gender</field>
+    <record id="view_type_sex_form" model="ir.ui.view">
+      <field name="name">view.type.sex.form</field>
+      <field name="model">type.sex</field>
       <field name="arch" type="xml">
         <form string="Generos" version="7.0">
           <sheet>
-		    <group col="2" colspan="2">
-		      <field name="name"/>
-		      <field name="description"/>
-		    </group>
+	    <group col="2" colspan="2">
+	      <field name="name"/>
+	      <field name="cod_mrl"/>
+	    </group>
           </sheet>
         </form>
       </field>
@@ -146,6 +146,7 @@
 	  <field name="model">zones</field>
 	  <field name="arch" type="xml">
 		<tree string="Zonas">
+          <field name="codigo_mrl"/>
 		  <field name="name"/>
 		  <field name="description"/>
 		  <field name="country_id"/>
@@ -160,6 +161,8 @@
 		<form string="Zonas" version="7.0">
           <sheet>
             <group>
+              <field name="codigo_mrl"/>
+              <newline/>
 		      <field name="name"/>
 		      <newline/>
 		      <field name="country_id"/>
@@ -193,6 +196,9 @@
 	  <field name="model">res.country.state</field>
 	  <field name="inherit_id" ref="base.view_country_state_form"/>
 	  <field name="arch" type="xml">
+        <field name="name" position="before">
+          <field name="codigo_mrl"/>
+        </field>
 		<field name="country_id" position="after">
 		  <field name="zone_id" on_change="change_zone_id(zone_id)"/>
 		</field>
@@ -205,6 +211,7 @@
 	  <field name="model">canton</field>
 	  <field name="arch" type="xml">
 		<tree string="Cantones">
+          <field name="codigo_mrl"/>
 		  <field name="name"/>
 		  <field name="country_state_id"/>
 		</tree>
@@ -218,6 +225,8 @@
 		<form string="Cantones" version="7.0">
           <sheet>
             <group>
+              <field name="codigo_mrl"/>
+              <newline/>
 		      <field name="name"/>
 		      <newline/>
 		      <field name="country_state_id"/>
@@ -234,6 +243,7 @@
 	  <field name="model">parish</field>
 	  <field name="arch" type="xml">
 		<tree string="Parroquias">
+          <field name="codigo_mrl"/>
 		  <field name="name"/>
 		  <field name="canton_id"/>
 		  <field name="description"/>
@@ -248,6 +258,8 @@
 		<form string="Parroquias" version="7.0">
           <sheet>
             <group>
+              <field name="codigo_mrl"/>
+              <newline/>
 		      <field name="name"/>
 		      <newline/>
 		      <field name="canton_id"/>
@@ -328,6 +340,7 @@
 	    <tree string="Parentesco Familiar">
 	      <field name="name"/>
 	      <field name="description"/>
+	      <field name="cod_mrl"/>
 	    </tree>
       </field>
     </record>	
@@ -341,6 +354,7 @@
 	        <group col="2" colspan="2">
 	          <field name="name"/>
 	          <field name="description"/>
+		  <field name="cod_mrl"/>
 	        </group>
           </sheet>	  
         </form>
@@ -575,6 +589,60 @@
 		    <field name="name"/>
 		    <field name="description"/>
 		</form>
+      </field>
+    </record>
+
+    <!-- Ingreso notarias del Ecuador -->
+    <record id="view_name_notary_tree" model="ir.ui.view">
+      <field name="name">view.name.notary.tree</field>
+      <field name="model">name.notary</field>
+      <field name="arch" type="xml">
+        <tree string="Notaria del Ecuador">
+	      <field name="name"/>
+	      <field name="cod_mrl"/>
+        </tree>
+      </field>
+    </record>	
+    
+    <record id="view_name_notary_form" model="ir.ui.view">
+      <field name="name">view.name.notary.form</field>
+      <field name="model">name.notary</field>
+      <field name="arch" type="xml">
+        <form string="Notaria del Ecuador" version="7.0">
+          <sheet>
+	    <group col="2" colspan="2">
+	      <field name="name"/>
+	      <field name="cod_mrl"/>
+	    </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <!-- Ingreso nacionalidad Indigena -->
+    <record id="view_indian_nationality_tree" model="ir.ui.view">
+      <field name="name">view.indian.nationality.tree</field>
+      <field name="model">indian.nationality</field>
+      <field name="arch" type="xml">
+        <tree string="Nacionalidad Indigena">
+	  <field name="name"/>
+	  <field name="cod_mrl"/>
+        </tree>
+      </field>
+    </record>	
+
+    <record id="view_indian_nationality_form" model="ir.ui.view">
+      <field name="name">view.indian.nationality.form</field>
+      <field name="model">indian.nationality</field>
+      <field name="arch" type="xml">
+        <form string="Nacional Indigina" version="7.0">
+          <sheet>
+	    <group col="2" colspan="2">
+	      <field name="name"/>
+	      <field name="cod_mrl"/>
+	    </group>
+          </sheet>
+        </form>
       </field>
     </record>
   </data>
