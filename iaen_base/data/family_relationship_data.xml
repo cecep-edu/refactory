@@ -6,59 +6,77 @@
     <record model="family.relationship" id="gender_father" >
       <field name="name">Padre</field>
       <field name="description">Primer grado de parentesco, Consanguinidad</field>
+      <field name="code_mrl">4</field>
     </record>
     <record model="family.relationship" id="gender_mother" >
       <field name="name">Madre</field>
       <field name="description">Primer grado de parentesco, Consanguinidad</field>
+      <field name="code_mrl">5</field>
     </record>
     <record model="family.relationship" id="gender_spouse" >
       <field name="name">Conyuge</field>
       <field name="description">Primer grado de parentesco, Afinidad</field>
+      <field name="code_mrl">2</field>
     </record>
     <record model="family.relationship" id="gender_son" >
       <field name="name">Hijo(a)</field>
       <field name="description">Primer grado de parentesco, Consanguinidad</field>
+      <field name="code_mrl">3</field>
     </record>
     <record model="family.relationship" id="gender_father_law" >
       <field name="name">Suegro(a)</field>
       <field name="description">Primer grado de parentesco, Afinidad</field>
+      <field name="code_mrl">7</field>
     </record>
     <record model="family.relationship" id="gender_son_law" >
       <field name="name">Yerno</field>
       <field name="description">Primer grado de parentesco, Afinidad</field>
+      <field name="code_mrl">8</field>
     </record>
     <record model="family.relationship" id="gender_daughter_law" >
       <field name="name">Nuera</field>
       <field name="description">Primer grado de parentesco, Afinidad</field>
+      <field name="code_mrl">9</field>
     </record>
     <record model="family.relationship" id="gender_grandfather" >
       <field name="name">Abuelo(a)</field>
       <field name="description">Segundo grado de parentesco, Consanguinidad/afinidad</field>
+      <field name="code_mrl">10</field>
     </record>
     <record model="family.relationship" id="gender_sinblings" >
       <field name="name">Hermano(a)</field>
       <field name="description">Segundo grado de parentesco, Consanguinidad/afinidad</field>
+      <field name="code_mrl">6</field>
     </record>
     <record model="family.relationship" id="gender_grandson" >
       <field name="name">Nieto(a)</field>
       <field name="description">Segundo grado de parentesco, Consanguinidad/afinidad</field>
+      <field name="code_mrl">11</field>
     </record>   
     <record model="family.relationship" id="gender_uncle" >
       <field name="name">Tio(a)</field>
       <field name="description">Tercer grado de parentesco, Consanguinidad/afinidad</field>
+      <field name="code_mrl">12</field>
     </record>
     <record model="family.relationship" id="gender_cousin" >
       <field name="name">Primo(a)</field>
       <field name="description">Cuarto grado de parentesco, Consanguinidad/afinidad</field>
+      <field name="code_mrl">13</field>
     </record>
     <record model="family.relationship" id="gender_nephew" >
       <field name="name">Sobrino(a)</field>
       <field name="description">Tercer grado de parentesco, Consanguinidad/afinidad</field>
+      <field name="code_mrl">14</field>
     </record>
     <record model="family.relationship" id="gender_brother_law" >
       <field name="name">Cuñado(a)</field>
       <field name="description">Tercer grado de parentesco, Consanguinidad/afinidad</field>
+      <field name="code_mrl">15</field>
     </record>
-
+    <record model="family.relationship" id="gender_cohabitant" >
+      <field name="name">Conviviente</field>
+      <field name="description">Tercer grado de parentesco, Consanguinidad/afinidad</field>
+      <field name="code_mrl">1</field>
+    </record>
 </data>
 </openerp>

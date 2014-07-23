@@ -1,41 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
   <data noupdate="1">
-    <record model="event.type" id="event_course" >
-      <field name="name">Curso</field>
-      <field name="description">Evento realizado por curso</field>
+    <record model="event.type" id="event_chat" >
+      <field name="name">Charla</field>
+      <field name="description">Evento realizado por charla</field>
+      <field name="code_mrl">1</field>
     </record>
-    <record model="event.type" id="event_seminar" >
-      <field name="name">Seminario</field>
-      <field name="description">Evento realizado por seminarios</field>
+    <record model="event.type" id="event_cycle" >
+      <field name="name">Ciclo</field>
+      <field name="description">Evento realizado por ciclo</field>
+      <field name="code_mrl">2</field>
     </record>
-    <record model="event.type" id="event_workshop" >
-      <field name="name">Taller</field>
-      <field name="description">Evento realizado por talleres</field>
+    <record model="event.type" id="event_colloquium" >
+      <field name="name">Coloquio</field>
+      <field name="description">Evento realizado por coloquio</field>
+      <field name="code_mrl">3</field>
+    </record>
+    <record model="event.type" id="event_conference" >
+      <field name="name">Conferencia</field>
+      <field name="description">Evento realizado por conferencia</field>
+      <field name="code_mrl">4</field>
     </record>
     <record model="event.type" id="event_congress" >
       <field name="name">Congreso</field>
       <field name="description">Evento realizado por congreso</field>
+      <field name="code_mrl">5</field>
+    </record>
+    <record model="event.type" id="event_workshop" >
+      <field name="name">Cursilllo</field>
+      <field name="description">Evento realizado por cursillo</field>
+      <field name="code_mrl">6</field>
+    </record>
+    <record model="event.type" id="event_course" >
+      <field name="name">Curso</field>
+      <field name="description">Evento realizado por curso</field>
+      <field name="code_mrl">7</field>
+    </record>
+    <record model="event.type" id="event_dissertation" >
+      <field name="name">Disertación</field>
+      <field name="description">Evento realizado por disertación</field>
+      <field name="code_mrl">8</field>
     </record>
     <record model="event.type" id="event_encounter" >
       <field name="name">Encuentro</field>
       <field name="description">Evento realizado por encuentro</field>
+      <field name="code_mrl">9</field>
     </record>
+    <record model="event.type" id="event_encounter" >
+      <field name="name">Formaciones técnicas profesionales</field>
+      <field name="description">Evento realizado por encuentro</field>
+      <field name="code_mrl">10</field>
+    </record>
+    <record model="event.type" id="event_training" >
+      <field name="name">Foro</field>
+      <field name="description">Evento realizado por foro</field>
+      <field name="code_mrl">11</field>
+    </record>  
     <record model="event.type" id="event_journey" >
       <field name="name">Jornada</field>
       <field name="description">Evento realizado por jornada</field>
+      <field name="code_mrl">12</field>
+    </record>
+    <record model="event.type" id="event_table" >
+      <field name="name">Mesa Redonda</field>
+      <field name="description">Evento realizado por mesa redonda</field>
+      <field name="code_mrl">13</field>
+    </record>
+    <record model="event.type" id="event_otrher" >
+      <field name="name">Otros</field>
+      <field name="description">Otros Eventos</field>
+      <field name="code_mrl">14</field>
     </record>
     <record model="event.type" id="event_panel" >
       <field name="name">Panel</field>
       <field name="description">Evento realizado por panel</field>
+      <field name="code_mrl">15</field>
     </record>
     <record model="event.type" id="event_internship" >
       <field name="name">Pasantia</field>
       <field name="description">Evento realizado por pasantia</field>
+      <field name="code_mrl">16</field>
+    </record>
+    <record model="event.type" id="event_seminar" >
+      <field name="name">Seminario</field>
+      <field name="description">Evento realizado por seminarios</field>
+      <field name="code_mrl">17</field>
+    </record>
+    <record model="event.type" id="event_symposium" >
+      <field name="name">simposio</field>
+      <field name="description">Evento realizado por simposio</field>
+      <field name="code_mrl">18</field>
+    </record>
+    <record model="event.type" id="event_workshop" >
+      <field name="name">Taller</field>
+      <field name="description">Evento realizado por talleres</field>
+      <field name="code_mrl">19</field>
     </record>
     <record model="event.type" id="event_visit" >
       <field name="name">Visita de observacion</field>
       <field name="description">Evento realizado por visita observacion</field>
+      <field name="code_mrl">20</field>
     </record>
   </data>
 </openerp>

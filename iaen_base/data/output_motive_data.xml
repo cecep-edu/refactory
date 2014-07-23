@@ -1,0 +1,131 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<openerp>
+<data noupdate="0">
+<record model="output.motive" id="output_motive_1">
+<field name="code_mrl">1</field>
+<field name="name">ABANDONO INJUSTIFICADO</field>
+<field name="description"></field>
+</record>
+<record model="output.motive" id="output_motive_2">
+<field name="code_mrl">2</field>
+<field name="name">CAMBIO ADMINISTRATIVO</field>
+<field name="description"></field>
+</record>
+<record model="output.motive" id="output_motive_3">
+<field name="code_mrl">3</field>
+<field name="name">CESACIÓN DE FUNCIONES POR DESTITUCIÓN</field>
+<field name="description"></field>
+</record>
+<record model="output.motive" id="output_motive_4">
+<field name="code_mrl">4</field>
+<field name="name">COMISIÓN DE SERVICIOS CON REMUNERACIÓN</field>
+<field name="description"></field>
+</record>
+<record model="output.motive" id="output_motive_5">
+<field name="code_mrl">5</field>
+<field name="name">COMISIÓN DE SERVICIOS SIN REMUNERACIÓN</field>
+<field name="description"></field>
+</record>
+<record model="output.motive" id="output_motive_6">
+<field name="code_mrl">6</field>
+<field name="name">COMPRA DE DE RENUNCIA</field>
+<field name="description"></field>
+</record>
+<record model="output.motive" id="output_motive_7">
+<field name="code_mrl">7</field>
+<field name="name">DESAHUCIO</field>
+<field name="description"></field>
+</record>
+<record model="output.motive" id="output_motive_8">
+<field name="code_mrl">8</field>
+<field name="name">DESAPARICIÓN DEL PUESTO DENTRO DE LA ESTRUCTURA DE LA INSTITUCIÓN</field>
+<field name="description"></field>
+</record>
+<record model="output.motive" id="output_motive_9">
+<field name="code_mrl">9</field>
+<field name="name">DESPIDO UNILATERAL POR PARTE DEL EMPLEADOR</field>
+<field name="description"></field>
+</record>
+<record model="output.motive" id="output_motive_10">
+<field name="code_mrl">10</field>
+<field name="name">INCAPACIDAD ABSOLUTA O PERMANENTE DEL TRABAJADOR</field>
+<field name="description"></field>
+</record>
+<record model="output.motive" id="output_motive_11">
+<field name="code_mrl">11</field>
+<field name="name">JUBILACIÓN</field>
+<field name="description"></field>
+</record>
+<record model="output.motive" id="output_motive_12">
+<field name="code_mrl">12</field>
+<field name="name">MUERTE DEL TRABAJADOR</field>
+<field name="description"></field>
+</record>
+<record model="output.motive" id="output_motive_13">
+<field name="code_mrl">13</field>
+<field name="name">OTROS</field>
+<field name="description"></field>
+</record>
+<record model="output.motive" id="output_motive_14">
+<field name="code_mrl">14</field>
+<field name="name">PÉRDIDA DE LOS DERECHOS DE CIUDADANÍA</field>
+<field name="description"></field>
+</record>
+<record model="output.motive" id="output_motive_15">
+<field name="code_mrl">15</field>
+<field name="name">POR CALIFICACIÓN DE OBRERAS Y OBREROS </field>
+<field name="description"></field>
+</record>
+<record model="output.motive" id="output_motive_16">
+<field name="code_mrl">16</field>
+<field name="name">POR REMOCIÓN</field>
+<field name="description"></field>
+</record>
+<record model="output.motive" id="output_motive_17">
+<field name="code_mrl">17</field>
+<field name="name">POR RETIRO VOLUNTARIO CON INDEMNIZACIÓN</field>
+<field name="description"></field>
+</record>
+<record model="output.motive" id="output_motive_18">
+<field name="code_mrl">18</field>
+<field name="name">PRUEBA MOTIVO DE SALIDA</field>
+<field name="description"></field>
+</record>
+<record model="output.motive" id="output_motive_19">
+<field name="code_mrl">19</field>
+<field name="name">RENUNCIA VOLUNTARIA</field>
+<field name="description"></field>
+</record>
+<record model="output.motive" id="output_motive_20">
+<field name="code_mrl">20</field>
+<field name="name">SIN GANAR CONCURSO DE MÉRITOS Y OPOSICIÓN</field>
+<field name="description"></field>
+</record>
+<record model="output.motive" id="output_motive_21">
+<field name="code_mrl">21</field>
+<field name="name">SUPRESIÓN DEL PUESTO</field>
+<field name="description"></field>
+</record>
+<record model="output.motive" id="output_motive_22">
+<field name="code_mrl">22</field>
+<field name="name">TERMINACIÓN DEL CONTRATO</field>
+<field name="description"></field>
+</record>
+<record model="output.motive" id="output_motive_23">
+<field name="code_mrl">23</field>
+<field name="name">TRASLADO ADMINISTRATIVO</field>
+<field name="description"></field>
+</record>
+<record model="output.motive" id="output_motive_24">
+<field name="code_mrl">24</field>
+<field name="name">TRASPASO DE PUESTOS</field>
+<field name="description"></field>
+</record>
+<record model="output.motive" id="output_motive_25">
+<field name="code_mrl">25</field>
+<field name="name">VISTO BUENO</field>
+<field name="description"></field>
+</record>
+
+</data>
+</openerp>
