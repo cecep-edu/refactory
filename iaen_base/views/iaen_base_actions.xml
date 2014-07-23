@@ -159,7 +159,30 @@
 			<field name="res_model">jobs.type</field>
 			<field name="view_type">form</field>
 			<field name="view_mode">tree,form</field>
+		</record>
+		<!-- Ingreso de Tipos de Entidades  -->
+		<record id="action_entity_type" model="ir.actions.act_window">
+			<field name="name">Tipos de Entidades</field>
+			<field name="res_model">entity.type</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree,form</field>
 		</record>    
+		<!-- Ingreso de Motivos de Entrada -->
+		<record id="action_input_motive" model="ir.actions.act_window">
+			<field name="name">Motivos de Entrada</field>
+			<field name="res_model">input.motive</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree,form</field>
+		</record>    
+
+		<!-- Ingreso de Motivos de Salida  -->
+		<record id="action_output_motive" model="ir.actions.act_window">
+			<field name="name">Motivos de Salida</field>
+			<field name="res_model">output.motive</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree,form</field>
+		</record>        
+
 		<!-- Ingreso de notaria  -->
 		<record id="action_name_notary" model="ir.actions.act_window">
 		  <field name="name">Notarias del Ecuador</field>
@@ -174,6 +197,5 @@
 		  <field name="view_type">form</field>
 		  <field name="view_mode">tree,form</field>
 		</record>    
-
 	</data>
 </openerp>
