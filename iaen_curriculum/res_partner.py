@@ -109,6 +109,8 @@ class res_partner(osv.osv):
 									}]
 									values['instruction_info_ids'] += val
 								return {'value': values}
+							else:
+								return {'value': {}}
 						else:
 							return {'value': {}}
 					else:
