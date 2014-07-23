@@ -43,6 +43,7 @@
         'data/entity_finance_data.xml',
         'data/nationality_data.xml',
         'data/zones_data.xml',
+        'data/res_country_data.xml',
         'data/res_country_state_data.xml',
         'data/canton_data.xml',
         'data/parish_data.xml',

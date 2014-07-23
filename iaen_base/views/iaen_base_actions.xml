@@ -30,12 +30,13 @@
             <field name="view_mode">tree,form</field>
             <field name="view_id" ref="view_type_sex_tree"/>
         </record>
-        <!-- Ingreso de grupos étnicos -->
+        <!-- Ingreso de paises -->
         <record id="action_res_country" model="ir.actions.act_window">
             <field name="name">Pais</field>
             <field name="res_model">res.country</field>
             <field name="view_type">form</field>
             <field name="view_id" ref="view_country_tree_iaen"/>
+            <field name="domain">[('code_mrl','!=', False)]</field>
             <field name="view_mode">tree,form</field>
         </record>
         <record id="action_country_form" model="ir.actions.act_window.view">
