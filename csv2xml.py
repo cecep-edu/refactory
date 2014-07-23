@@ -11,8 +11,8 @@
 
 import csv
 
-csvFile = 'banco.csv'
-xmlFile = 'entity_finance_data.xml'
+csvFile = 'salida.csv'
+xmlFile = 'output_motive_data.xml'
 
 csvData = csv.reader(open(csvFile))
 xmlData = open(xmlFile, 'w')
@@ -25,8 +25,10 @@ rowNum = 0
 #estado = ("azuay","bolivar","canar","carchi","chimborazo","cotopaxi","oro","esmeraldas","galapagos","guayas","imbabura","loja","rios","manabi","morona","napo","orellana","pastaza","pichincha","santa","tsachilas","sucumbios","tungurahua","zamora")
 
 for row in csvData:
-    xmlData.write('<record model="entity.finance" id="entity_%s">'%str(row[0]) + "\n")
-    xmlData.write('<field name="name">%s</field>'%row[1] + "\n")
+    xmlData.write('<record model="output.motive" id="motive_%s">'%str(row[0]) + "\n")
+    xmlData.write('<field name="cod_mrl">%s</field>'%row[1] + "\n")
+    xmlData.write('<field name="name">%s</field>'%row[2] + "\n")
+    xmlData.write('<field name="description"></field>' + "\n")
     xmlData.write('</record>'+ "\n")
 
 xmlData.write("\n" + '</data>' + "\n" + '</openerp>')

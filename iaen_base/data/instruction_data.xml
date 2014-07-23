@@ -1,36 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
 	<data noupdate="0">
-		<record model="instruction" id="primaria">
-			<field name="name">Básico</field>
-            <field name="descripcion"/>
-		</record>
-		<record model="instruction" id="bachillerato">
+		<record model="instruction" id="instruction_1">
+			<field name="code_mrl">1</field>
 			<field name="name">Bachillerato</field>
             <field name="descripcion"/>
 		</record>
-		<record model="instruction" id="tecnico_superior">
+		<record model="instruction" id="instruction_2">
+			<field name="code_mrl">0</field>
+			<field name="name">Cuarto Nivel</field>
+            <field name="descripcion"/>
+		</record>
+		<record model="instruction" id="instruction_6">
+			<field name="code_mrl">6</field>
+			<field name="name">Educación Básica</field>
+            <field name="descripcion"/>
+		</record>
+		<record model="instruction" id="instruction_7">
+			<field name="code_mrl">7</field>
+			<field name="name">Estudiante Universitario</field>
+            <field name="descripcion"/>
+		</record>
+		<record model="instruction" id="instruction_8">
+			<field name="code_mrl">8</field>
+			<field name="name">Primaria</field>
+            <field name="descripcion"/>
+		</record>
+		<record model="instruction" id="instruction_9">
+			<field name="code_mrl">9</field>
+			<field name="name">Secundaria</field>
+            <field name="descripcion"/>
+		</record>
+		<record model="instruction" id="instruction_10">
+			<field name="code_mrl">10</field>
+			<field name="name">Sin Instrucción</field>
+            <field name="descripcion"/>
+		</record>
+		<record model="instruction" id="instruction_11">
+			<field name="code_mrl">11</field>
 			<field name="name">Técnico Superior</field>
             <field name="descripcion"/>
 		</record>
-		<record model="instruction" id="tecnologico">
-			<field name="name">Tecnológico</field>
+		<record model="instruction" id="instruction_12">
+			<field name="code_mrl">12</field>
+			<field name="name">Tecnología</field>
             <field name="descripcion"/>
 		</record>
-		<record model="instruction" id="universitaria">
+		<record model="instruction" id="instruction_13">
+			<field name="code_mrl">13</field>
 			<field name="name">Tercer Nivel</field>
             <field name="descripcion"/>
 		</record>
-		<record model="instruction" id="especialidad">
-			<field name="name">Especialista</field>
+		<record model="instruction" id="tercer_nivel">
+			<field name="name">Títulos de Tercer Nivel</field>
             <field name="descripcion"/>
 		</record>
-		<record model="instruction" id="masterado">
-			<field name="name">Masterado</field>
+		<record model="instruction" id="cuarto_nivel">
+			<field name="name">Títulos de Cuarto Nivel</field>
             <field name="descripcion"/>
 		</record>
-		<record model="instruction" id="doctorado">
-			<field name="name">Doctorado</field>
+		<record model="instruction" id="tecnologico">
+			<field name="name">Títulos de Nivel Técnico o Tecnológico Superior</field>
             <field name="descripcion"/>
 		</record>
 	</data>

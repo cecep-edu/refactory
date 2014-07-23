@@ -1,143 +1,370 @@
 <?xml version="1.0"  encoding="utf-8"?>
 <openerp>
-	<data noupdate="1">
-		<record model="entity.finance" id="entity_1">
-			<field name="name">BANCO AMAZONAS</field>
-		</record>
-		<record model="entity.finance" id="entity_2">
-			<field name="name">BANCO AUSTRO</field>
-		</record>
-		<record model="entity.finance" id="entity_3">
-			<field name="name">BANCO BOLIVARIANO</field>
-		</record>
-		<record model="entity.finance" id="entity_4">
-			<field name="name">BANCO CAPITAL</field>
-		</record>
-		<record model="entity.finance" id="entity_5">
-			<field name="name">BANCO CITIBANK</field>
-		</record>
-		<record model="entity.finance" id="entity_6">
-			<field name="name">BANCO COFIEC</field>
-		</record>
-		<record model="entity.finance" id="entity_7">
-			<field name="name">BANCO COMERCIAL DE MANABI</field>
-		</record>
-		<record model="entity.finance" id="entity_8">
-			<field name="name">BANCO COOPNACIONAL</field>
-		</record>
-		<record model="entity.finance" id="entity_9">
-			<field name="name">BANCO DELBANK</field>
-		</record>
-		<record model="entity.finance" id="entity_10">
-			<field name="name">BANCO DMIRO</field>
-		</record>
-		<record model="entity.finance" id="entity_11">
-			<field name="name">BANCO FINCA</field>
-		</record>
-		<record model="entity.finance" id="entity_12">
-			<field name="name">BANCO GENERAL RUMIÑAHUI</field>
-		</record>
-		<record model="entity.finance" id="entity_13">
-			<field name="name">BANCO GUAYAQUIL</field>
-		</record>
-		<record model="entity.finance" id="entity_14">
-			<field name="name">BANCO INTERNACIONAL</field>
-		</record>
-		<record model="entity.finance" id="entity_15">
-			<field name="name">BANCO LITORAL</field>
-		</record>
-		<record model="entity.finance" id="entity_16">
-			<field name="name">BANCO LOJA</field>
-		</record>
-		<record model="entity.finance" id="entity_17">
-			<field name="name">BANCO MACHALA</field>
-		</record>
-		<record model="entity.finance" id="entity_18">
-			<field name="name">BANCO PACIFICO</field>
-		</record>
-		<record model="entity.finance" id="entity_19">
-			<field name="name">BANCO PICHINCHA</field>
-		</record>
-		<record model="entity.finance" id="entity_20">
-			<field name="name">BANCO PROCREDIT</field>
-		</record>
-		<record model="entity.finance" id="entity_21">
-			<field name="name">BANCO PRODUBANCO</field>
-		</record>
-		<record model="entity.finance" id="entity_22">
-			<field name="name">BANCO PROMERICA</field>
-		</record>
-		<record model="entity.finance" id="entity_23">
-			<field name="name">BANCO SOLIDARIO</field>
-		</record>
-		<record model="entity.finance" id="entity_24">
-			<field name="name">BANCO SUDAMERICANO</field>
-		</record>
-		<record model="entity.finance" id="entity_25">
-			<field name="name">BANCO DEL ESTADO</field>
-		</record>
-		<record model="entity.finance" id="entity_26">
-			<field name="name">BANCO ECUATORIANO DE LA VIVIENDA</field>
-		</record>
-		<record model="entity.finance" id="entity_27">
-			<field name="name">BANCO NACIONAL DE FOMENTO</field>
-		</record>
-		<record model="entity.finance" id="entity_28">
-			<field name="name">CORPORACION FINANCIERA NACIONAL</field>
-		</record>
-		<record model="entity.finance" id="entity_29">
-			<field name="name">INSTITUTO ECUATORIANO DE CREDITO EDUCATIVO Y BECAS</field>
-		</record>
-		<record model="entity.finance" id="entity_30">
-			<field name="name">MUTUALISTA AMBATO</field>
-		</record>
-		<record model="entity.finance" id="entity_31">
-			<field name="name">MUT AMBATO</field>
-		</record>
-		<record model="entity.finance" id="entity_32">
-			<field name="name">MUTUALISTA AZUAY</field>
-		</record>
-		<record model="entity.finance" id="entity_33">
-			<field name="name">MUT AZUAY</field>
-		</record>
-		<record model="entity.finance" id="entity_34">
-			<field name="name">MUTUALISTA IMBABURA</field>
-		</record>
-		<record model="entity.finance" id="entity_35">
-			<field name="name">MUT IMBABURA</field>
-		</record>
-		<record model="entity.finance" id="entity_36">
-			<field name="name">MUTUALISTA PICHINCHA</field>
-		</record>
-		<record model="entity.finance" id="entity_37">
-			<field name="name">MUT PICHINCHA</field>
-		</record>
-		<record model="entity.finance" id="entity_38">
-			<field name="name">SOCIEDAD FINANCIERA DINERS CLUB DEL ECUADOR</field>
-		</record>
-		<record model="entity.finance" id="entity_39">
-			<field name="name">SOCIEDAD FINANCIERA FIDASA</field>
-		</record>
-		<record model="entity.finance" id="entity_40">
-			<field name="name">SOCIEDAD FINANCIERA FIRESA</field>
-		</record>
-		<record model="entity.finance" id="entity_41">
-			<field name="name">SOCIEDAD FINANCIERA GLOBAL</field>
-		</record>
-		<record model="entity.finance" id="entity_42">
-			<field name="name">SOCIEDAD FINANCIERA INTERAMERICANA</field>
-		</record>
-		<record model="entity.finance" id="entity_43">
-			<field name="name">SOCIEDAD FINANCIERA LEASINGCORP</field>
-		</record>
-		<record model="entity.finance" id="entity_44">
-			<field name="name">SOCIEDAD FINANCIERA PROINCO</field>
-		</record>
-		<record model="entity.finance" id="entity_45">
-			<field name="name">SOCIEDAD FINANCIERA UNIFINSA</field>
-		</record>
-		<record model="entity.finance" id="entity_46">
-			<field name="name">SOCIEDAD FINANCIERA VAZCORP</field>
-		</record>
-	</data>
+<data noupdate="1">
+<record model="entity.finance" id="entity_1">
+<field name="code_mrl">1</field>
+<field name="name">AMAZONAS</field>
+</record>
+<record model="entity.finance" id="entity_2">
+<field name="code_mrl">2</field>
+<field name="name">AUSTRO</field>
+</record>
+<record model="entity.finance" id="entity_3">
+<field name="code_mrl">3</field>
+<field name="name">BANCO CAPITAL S.A. CORFINSA</field>
+</record>
+<record model="entity.finance" id="entity_4">
+<field name="code_mrl">4</field>
+<field name="name">BANCO CENTRAL</field>
+</record>
+<record model="entity.finance" id="entity_5">
+<field name="code_mrl">5</field>
+<field name="name">BANCO COOPNACIONAL</field>
+</record>
+<record model="entity.finance" id="entity_6">
+<field name="code_mrl">6</field>
+<field name="name">BANCO PROCREDIT</field>
+</record>
+<record model="entity.finance" id="entity_7">
+<field name="code_mrl">7</field>
+<field name="name">BANCO PRODUBANCO</field>
+</record>
+<record model="entity.finance" id="entity_8">
+<field name="code_mrl">8</field>
+<field name="name">BANCO PROAMERICA </field>
+</record>
+<record model="entity.finance" id="entity_9">
+<field name="code_mrl">9</field>
+<field name="name">BOLIVARIANO</field>
+</record>
+<record model="entity.finance" id="entity_10">
+<field name="code_mrl">10</field>
+<field name="name">BANCO PROMERICA </field>
+</record>
+<record model="entity.finance" id="entity_11">
+<field name="code_mrl">11</field>
+<field name="name">CITIBANK</field>
+</record>
+<record model="entity.finance" id="entity_12">
+<field name="code_mrl">12</field>
+<field name="name">COFIEC</field>
+</record>
+<record model="entity.finance" id="entity_13">
+<field name="code_mrl">13</field>
+<field name="name">COMERCIAL DE MANABÍ</field>
+</record>
+<record model="entity.finance" id="entity_14">
+<field name="code_mrl">14</field>
+<field name="name">COOP. 11 DE JUNIO</field>
+</record>
+<record model="entity.finance" id="entity_15">
+<field name="code_mrl">15</field>
+<field name="name">COOP. 15 DE ABRIL</field>
+</record>
+<record model="entity.finance" id="entity_16">
+<field name="code_mrl">16</field>
+<field name="name">COOP. 29 DE OCTUBRE</field>
+</record>
+<record model="entity.finance" id="entity_17">
+<field name="code_mrl">17</field>
+<field name="name">COOP. AHORRO VICENTINA MANUEL ESTEBAN GODOY ORTEGA LTDA.</field>
+</record>
+<record model="entity.finance" id="entity_18">
+<field name="code_mrl">18</field>
+<field name="name">COOP. AHORRO Y CRÉDITO 4 DE OCTUBRE LTDA.</field>
+</record>
+<record model="entity.finance" id="entity_19">
+<field name="code_mrl">19</field>
+<field name="name">COOP. AHORRO Y CRÉDITO CONSTRUCCIÓN COMERCIO Y PRODUCCIÓN LTDA.</field>
+</record>
+<record model="entity.finance" id="entity_20">
+<field name="code_mrl">20</field>
+<field name="name">COOP. AHORRO Y CRÉDITO EL SAGRARIO</field>
+</record>
+<record model="entity.finance" id="entity_21">
+<field name="code_mrl">21</field>
+<field name="name">COOP. AHORRO Y CRÉDITO NACIONAL</field>
+</record>
+<record model="entity.finance" id="entity_22">
+<field name="code_mrl">22</field>
+<field name="name">COOP. AHORRO Y CRÉDITO PREVENCIÒN AHORRO Y DESARROLLO</field>
+</record>
+<record model="entity.finance" id="entity_23">
+<field name="code_mrl">23</field>
+<field name="name">COOP. AHORRO Y CRÉDITO PROGRESO</field>
+</record>
+<record model="entity.finance" id="entity_24">
+<field name="code_mrl">24</field>
+<field name="name">COOP. AHORRO Y CRÉDITO SANTA ANA</field>
+</record>
+<record model="entity.finance" id="entity_25">
+<field name="code_mrl">25</field>
+<field name="name">COOP. ALIANZA DEL VALLE LTDA.</field>
+</record>
+<record model="entity.finance" id="entity_26">
+<field name="code_mrl">26</field>
+<field name="name">COOP. ANDALUCÍA</field>
+</record>
+<record model="entity.finance" id="entity_27">
+<field name="code_mrl">27</field>
+<field name="name">COOP. ATUNTAQUI</field>
+</record>
+<record model="entity.finance" id="entity_28">
+<field name="code_mrl">28</field>
+<field name="name">COOP. CACPECO</field>
+</record>
+<record model="entity.finance" id="entity_29">
+<field name="code_mrl">29</field>
+<field name="name">COOP. CALCETA LTDA.</field>
+</record>
+<record model="entity.finance" id="entity_30">
+<field name="code_mrl">30</field>
+<field name="name">COOP. CÁMARA DE COMERCIO AMBATO</field>
+</record>
+<record model="entity.finance" id="entity_31">
+<field name="code_mrl">31</field>
+<field name="name">COOP. CAMARA DE COMERCIO DE AMBATO</field>
+</record>
+<record model="entity.finance" id="entity_32">
+<field name="code_mrl">32</field>
+<field name="name">COOP. CÁMARA DE COMERCIO QUITO</field>
+</record>
+<record model="entity.finance" id="entity_33">
+<field name="code_mrl">33</field>
+<field name="name">COOP. CHONE LTDA.</field>
+</record>
+<record model="entity.finance" id="entity_34">
+<field name="code_mrl">34</field>
+<field name="name">COOP. COMERCIO LTDA. PORTOVIEJO</field>
+</record>
+<record model="entity.finance" id="entity_35">
+<field name="code_mrl">35</field>
+<field name="name">COOP. COTOCOLLAO</field>
+</record>
+<record model="entity.finance" id="entity_36">
+<field name="code_mrl">36</field>
+<field name="name">COOP. DE AHORRO Y CREDITO 11 DE JUNIO</field>
+</record>
+<record model="entity.finance" id="entity_37">
+<field name="code_mrl">37</field>
+<field name="name">COOP. DE AHORRO Y CREDITO 15 DE ABRIL</field>
+</record>
+<record model="entity.finance" id="entity_39">
+<field name="code_mrl">39</field>
+<field name="name">COOP. DE AHORRO Y CREDITO 23 DE JULIO</field>
+</record>
+<record model="entity.finance" id="entity_40">
+<field name="code_mrl">40</field>
+<field name="name">COOP. DE AHORRO Y CREDITO 9 DE OCTUBRE</field>
+</record>
+<record model="entity.finance" id="entity_41">
+<field name="code_mrl">41</field>
+<field name="name">COOP. DE AHORRO Y CREDITO CODESARROLLO</field>
+</record>
+<record model="entity.finance" id="entity_42">
+<field name="code_mrl">42</field>
+<field name="name">COOP. DE AHORRO Y CREDITO COMERCIO</field>
+</record>
+<record model="entity.finance" id="entity_43">
+<field name="code_mrl">43</field>
+<field name="name">COOP. DE AHORRO Y CREDITO JARDIN AZUAYO</field>
+</record>
+<record model="entity.finance" id="entity_44">
+<field name="code_mrl">44</field>
+<field name="name">COOP. DE AHORRO Y CREDITO MANUEL ESTEBAN GODOY ORTEGA</field>
+</record>
+<record model="entity.finance" id="entity_45">
+<field name="code_mrl">45</field>
+<field name="name">COOP. DE AHORRO Y CREDITO PADRE JULIAN LORENTE</field>
+</record>
+<record model="entity.finance" id="entity_46">
+<field name="code_mrl">46</field>
+<field name="name">COOP. DE AHORRO Y CREDITO PROGRESO</field>
+</record>
+<record model="entity.finance" id="entity_47">
+<field name="code_mrl">47</field>
+<field name="name">COOP. DE AHORRO Y CREDITO SAN FRANCISCO DE ASIS</field>
+</record>
+<record model="entity.finance" id="entity_48">
+<field name="code_mrl">48</field>
+<field name="name">COOP. DE AHORRO Y CREDITO SAN JOSE</field>
+</record>
+<record model="entity.finance" id="entity_49">
+<field name="code_mrl">49</field>
+<field name="name">COOP. DE AHORRO Y CREDITO SANTA ROSA</field>
+</record>
+<record model="entity.finance" id="entity_50">
+<field name="code_mrl">50</field>
+<field name="name">COOP. GUARANDA</field>
+</record>
+<record model="entity.finance" id="entity_51">
+<field name="code_mrl">51</field>
+<field name="name">COOP. JESÚS DEL GRAN PODER</field>
+</record>
+<record model="entity.finance" id="entity_52">
+<field name="code_mrl">52</field>
+<field name="name">COOP. JUVENTUD ECUATORIANA PROGRESISTA LTDA.</field>
+</record>
+<record model="entity.finance" id="entity_53">
+<field name="code_mrl">53</field>
+<field name="name">COOP. LA DOLOROSA</field>
+</record>
+<record model="entity.finance" id="entity_54">
+<field name="code_mrl">54</field>
+<field name="name">COOP. MEGO</field>
+</record>
+<record model="entity.finance" id="entity_55">
+<field name="code_mrl">55</field>
+<field name="name">COOP. OSCUS</field>
+</record>
+<record model="entity.finance" id="entity_56">
+<field name="code_mrl">56</field>
+<field name="name">COOP. PABLO MUÑOZ VEGA</field>
+</record>
+<record model="entity.finance" id="entity_57">
+<field name="code_mrl">57</field>
+<field name="name">COOP. PEQUEÑA EMPRESA DE PASTAZA</field>
+</record>
+<record model="entity.finance" id="entity_58">
+<field name="code_mrl">58</field>
+<field name="name">COOP. PRUEBA</field>
+</record>
+<record model="entity.finance" id="entity_59">
+<field name="code_mrl">59</field>
+<field name="name">COOP. RIOBAMBA</field>
+</record>
+<record model="entity.finance" id="entity_60">
+<field name="code_mrl">60</field>
+<field name="name">COOP. SAN FRANCISCO DE ASÍS</field>
+</record>
+<record model="entity.finance" id="entity_61">
+<field name="code_mrl">61</field>
+<field name="name">COOP. SAN JOSE</field>
+</record>
+<record model="entity.finance" id="entity_62">
+<field name="code_mrl">62</field>
+<field name="name">COOP. SAN JOSÉ DE CHILCAPAMBA</field>
+</record>
+<record model="entity.finance" id="entity_63">
+<field name="code_mrl">63</field>
+<field name="name">COOP. TULCÁN</field>
+</record>
+<record model="entity.finance" id="entity_64">
+<field name="code_mrl">64</field>
+<field name="name">COOPERATIVA COOPERA</field>
+</record>
+<record model="entity.finance" id="entity_65">
+<field name="code_mrl">65</field>
+<field name="name">COOPERATIVA DE AHORRO Y CREDITO DE LA PEQUEÑA EMPRESA DE LOJA CACPE </field>
+</record>
+<record model="entity.finance" id="entity_66">
+<field name="code_mrl">66</field>
+<field name="name">COOPERATIVA DE AHORRO Y CRÉDITO SAN PEDRO DE TABOADA</field>
+</record>
+<record model="entity.finance" id="entity_67">
+<field name="code_mrl">67</field>
+<field name="name">COOPERATIVA JUVENTUD ECUATORIANA PROGRESISTA </field>
+</record>
+<record model="entity.finance" id="entity_68">
+<field name="code_mrl">68</field>
+<field name="name">COOPERATIVA POLICÍA NACIONAL</field>
+</record>
+<record model="entity.finance" id="entity_69">
+<field name="code_mrl">69</field>
+<field name="name">COOPERTIVA DE AHORRO Y CREDITO SAN FRANCISCO LIMITADA</field>
+</record>
+<record model="entity.finance" id="entity_70">
+<field name="code_mrl">70</field>
+<field name="name">COOPROGRESO</field>
+</record>
+<record model="entity.finance" id="entity_71">
+<field name="code_mrl">71</field>
+<field name="name">DEL LITORAL</field>
+</record>
+<record model="entity.finance" id="entity_72">
+<field name="code_mrl">72</field>
+<field name="name">DELBANK S. A.</field>
+</record>
+<record model="entity.finance" id="entity_73">
+<field name="code_mrl">73</field>
+<field name="name">ECUATORIANO DE LA VIVIENDA</field>
+</record>
+<record model="entity.finance" id="entity_74">
+<field name="code_mrl">74</field>
+<field name="name">FOMENTO</field>
+</record>
+<record model="entity.finance" id="entity_75">
+<field name="code_mrl">75</field>
+<field name="name">GUAYAQUIL</field>
+</record>
+<record model="entity.finance" id="entity_76">
+<field name="code_mrl">76</field>
+<field name="name">INTERNACIONAL</field>
+</record>
+<record model="entity.finance" id="entity_77">
+<field name="code_mrl">77</field>
+<field name="name">LLOYDS BANK</field>
+</record>
+<record model="entity.finance" id="entity_78">
+<field name="code_mrl">78</field>
+<field name="name">LOJA</field>
+</record>
+<record model="entity.finance" id="entity_79">
+<field name="code_mrl">79</field>
+<field name="name">MACHALA</field>
+</record>
+<record model="entity.finance" id="entity_80">
+<field name="code_mrl">80</field>
+<field name="name">MM JARAMILLO</field>
+</record>
+<record model="entity.finance" id="entity_81">
+<field name="code_mrl">81</field>
+<field name="name">MUTUALISTA AMBATO</field>
+</record>
+<record model="entity.finance" id="entity_82">
+<field name="code_mrl">82</field>
+<field name="name">MUTUALISTA AZUAY</field>
+</record>
+<record model="entity.finance" id="entity_83">
+<field name="code_mrl">83</field>
+<field name="name">MUTUALISTA IMBABURA</field>
+</record>
+<record model="entity.finance" id="entity_84">
+<field name="code_mrl">84</field>
+<field name="name">MUTUALISTA PICHINCHA</field>
+</record>
+<record model="entity.finance" id="entity_85">
+<field name="code_mrl">85</field>
+<field name="name">PACÍFICO</field>
+</record>
+<record model="entity.finance" id="entity_86">
+<field name="code_mrl">86</field>
+<field name="name">PICHINCHA</field>
+</record>
+<record model="entity.finance" id="entity_87">
+<field name="code_mrl">87</field>
+<field name="name">PRODUBANCO</field>
+</record>
+<record model="entity.finance" id="entity_88">
+<field name="code_mrl">88</field>
+<field name="name">RUMIÑAHUI</field>
+</record>
+<record model="entity.finance" id="entity_89">
+<field name="code_mrl">89</field>
+<field name="name">SOLIDARIO</field>
+</record>
+<record model="entity.finance" id="entity_90">
+<field name="code_mrl">90</field>
+<field name="name">SUDAMERICANO</field>
+</record>
+<record model="entity.finance" id="entity_91">
+<field name="code_mrl">91</field>
+<field name="name">TERRITORIAL</field>
+</record>
+<record model="entity.finance" id="entity_92">
+<field name="code_mrl">92</field>
+<field name="name">UNIBANCO</field>
+</record>
+
+</data>
 </openerp>

@@ -1,0 +1,96 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<openerp>
+<data noupdate="0">
+<record model="input.motive" id="input_motive_1">
+<field name="code_mrl">1</field>
+<field name="name">CALIFICACIÓN DE OBRERAS Y OBREROS</field>
+<field name="description"></field>
+</record>
+<record model="input.motive" id="input_motive_2">
+<field name="code_mrl">2</field>
+<field name="name">CAMBIO ADMINISTRATIVO</field>
+<field name="description"></field>
+</record>
+<record model="input.motive" id="input_motive_3">
+<field name="code_mrl">3</field>
+<field name="name">COMISIÓN DE SERVICIOS CON REMUNERACIÓN</field>
+<field name="description"></field>
+</record>
+<record model="input.motive" id="input_motive_4">
+<field name="code_mrl">4</field>
+<field name="name">COMISION DE SERVICIOS SIN REMUNERACIÓN</field>
+<field name="description"></field>
+</record>
+<record model="input.motive" id="input_motive_5">
+<field name="code_mrl">5</field>
+<field name="name">CONTRATO COLECTIVO</field>
+<field name="description"></field>
+</record>
+<record model="input.motive" id="input_motive_6">
+<field name="code_mrl">6</field>
+<field name="name">CONTRATO CON RELACIÓN DE DEPENDENCIA</field>
+<field name="description"></field>
+</record>
+<record model="input.motive" id="input_motive_7">
+<field name="code_mrl">7</field>
+<field name="name">CONTRATO SERVICIOS OCASIONALES</field>
+<field name="description"></field>
+</record>
+<record model="input.motive" id="input_motive_8">
+<field name="code_mrl">8</field>
+<field name="name">CONTRATO SIN RELACIÓN DE DEPENDENCIA</field>
+<field name="description"></field>
+</record>
+<record model="input.motive" id="input_motive_9">
+<field name="code_mrl">9</field>
+<field name="name">DESIGNACIÓN DIRECTA</field>
+<field name="description"></field>
+</record>
+<record model="input.motive" id="input_motive_10">
+<field name="code_mrl">10</field>
+<field name="name">ELECCIÓN POPULAR</field>
+<field name="description"></field>
+</record>
+<record model="input.motive" id="input_motive_11">
+<field name="code_mrl">11</field>
+<field name="name">LIBRE NOMBRAMIENTO Y REMOCIÓN</field>
+<field name="description"></field>
+</record>
+<record model="input.motive" id="input_motive_12">
+<field name="code_mrl">12</field>
+<field name="name">NOMBRAMIENTO PERMANENTE </field>
+<field name="description"></field>
+</record>
+<record model="input.motive" id="input_motive_13">
+<field name="code_mrl">13</field>
+<field name="name">NOMBRAMIENTO PROVISIONAL</field>
+<field name="description"></field>
+</record>
+<record model="input.motive" id="input_motive_14">
+<field name="code_mrl">14</field>
+<field name="name">OTRO</field>
+<field name="description"></field>
+</record>
+<record model="input.motive" id="input_motive_15">
+<field name="code_mrl">15</field>
+<field name="name">PERIODO FIJO</field>
+<field name="description"></field>
+</record>
+<record model="input.motive" id="input_motive_16">
+<field name="code_mrl">16</field>
+<field name="name">SIN CONCURSO DE MÉRITOS Y OPOSICIÓN</field>
+<field name="description"></field>
+</record>
+<record model="input.motive" id="input_motive_17">
+<field name="code_mrl">17</field>
+<field name="name">TRASLADO ADMINISTRATIVO</field>
+<field name="description"></field>
+</record>
+<record model="input.motive" id="input_motive_18">
+<field name="code_mrl">18</field>
+<field name="name">TRASPASO DE PUESTOS</field>
+<field name="description"></field>
+</record>
+
+</data>
+</openerp>
