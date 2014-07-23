@@ -1,0 +1,62 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<openerp>
+<data noupdate="1">
+<record model="indian.nationality" id="indian_1">
+<field name="name">Achuar</field>
+<field name="code_mrl">1</field>
+</record>
+<record model="indian.nationality" id="indian_2">
+<field name="name">Andoa</field>
+<field name="code_mrl">2</field>
+</record>
+<record model="indian.nationality" id="indian_3">
+<field name="name">Awa</field>
+<field name="code_mrl">3</field>
+</record>
+<record model="indian.nationality" id="indian_4">
+<field name="name">Chachi</field>
+<field name="code_mrl">4</field>
+</record>
+<record model="indian.nationality" id="indian_5">
+<field name="name">Cofan</field>
+<field name="code_mrl">5</field>
+</record>
+<record model="indian.nationality" id="indian_6">
+<field name="name">Epera</field>
+<field name="code_mrl">6</field>
+</record>
+<record model="indian.nationality" id="indian_7">
+<field name="name">Kichwa</field>
+<field name="code_mrl">7</field>
+</record>
+<record model="indian.nationality" id="indian_8">
+<field name="name">Secoya</field>
+<field name="code_mrl">8</field>
+</record>
+<record model="indian.nationality" id="indian_9">
+<field name="name">Shiwiar</field>
+<field name="code_mrl">9</field>
+</record>
+<record model="indian.nationality" id="indian_10">
+<field name="name">Shuar</field>
+<field name="code_mrl">10</field>
+</record>
+<record model="indian.nationality" id="indian_11">
+<field name="name">Siona</field>
+<field name="code_mrl">11</field>
+</record>
+<record model="indian.nationality" id="indian_12">
+<field name="name">Tsachila</field>
+<field name="code_mrl">12</field>
+</record>
+<record model="indian.nationality" id="indian_13">
+<field name="name">Waorani</field>
+<field name="code_mrl">13</field>
+</record>
+<record model="indian.nationality" id="indian_14">
+<field name="name">Zápara</field>
+<field name="code_mrl">14</field>
+</record>
+
+</data>
+</openerp>

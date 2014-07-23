@@ -1,0 +1,386 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<openerp>
+<data noupdate="1">
+<record model="name.notary" id="notary_1">
+<field name="name">24 DE MAYO</field>
+<field name="code_mrl">1</field>
+</record>
+<record model="name.notary" id="notary_2">
+<field name="name">AMBATO </field>
+<field name="code_mrl">2</field>
+</record>
+<record model="name.notary" id="notary_3">
+<field name="name">ARCHIDONA</field>
+<field name="code_mrl">3</field>
+</record>
+<record model="name.notary" id="notary_4">
+<field name="name">ARENILLAS</field>
+<field name="code_mrl">4</field>
+</record>
+<record model="name.notary" id="notary_5">
+<field name="name">AZOGUES </field>
+<field name="code_mrl">5</field>
+</record>
+<record model="name.notary" id="notary_6">
+<field name="name">BABAHOYO </field>
+<field name="code_mrl">6</field>
+</record>
+<record model="name.notary" id="notary_7">
+<field name="name">BAHIA DE CARAQUEZ</field>
+<field name="code_mrl">7</field>
+</record>
+<record model="name.notary" id="notary_8">
+<field name="name">BALSAS</field>
+<field name="code_mrl">8</field>
+</record>
+<record model="name.notary" id="notary_9">
+<field name="name">BIBLIAN</field>
+<field name="code_mrl">9</field>
+</record>
+<record model="name.notary" id="notary_10">
+<field name="name">BOLIVAR (CARHI)</field>
+<field name="code_mrl">10</field>
+</record>
+<record model="name.notary" id="notary_11">
+<field name="name">BOLIVAR (MANABI)</field>
+<field name="code_mrl">11</field>
+</record>
+<record model="name.notary" id="notary_12">
+<field name="name">BUENA FE</field>
+<field name="code_mrl">12</field>
+</record>
+<record model="name.notary" id="notary_13">
+<field name="name">CALCETA</field>
+<field name="code_mrl">13</field>
+</record>
+<record model="name.notary" id="notary_14">
+<field name="name">CALUMA</field>
+<field name="code_mrl">14</field>
+</record>
+<record model="name.notary" id="notary_15">
+<field name="name">CAÑAR</field>
+<field name="code_mrl">15</field>
+</record>
+<record model="name.notary" id="notary_16">
+<field name="name">CAYAMBE </field>
+<field name="code_mrl">16</field>
+</record>
+<record model="name.notary" id="notary_17">
+<field name="name">CEVALLOS</field>
+<field name="code_mrl">17</field>
+</record>
+<record model="name.notary" id="notary_18">
+<field name="name">CHONE </field>
+<field name="code_mrl">18</field>
+</record>
+<record model="name.notary" id="notary_19">
+<field name="name">CUENCA </field>
+<field name="code_mrl">19</field>
+</record>
+<record model="name.notary" id="notary_20">
+<field name="name">DAULE </field>
+<field name="code_mrl">20</field>
+</record>
+<record model="name.notary" id="notary_21">
+<field name="name">DURÁN </field>
+<field name="code_mrl">21</field>
+</record>
+<record model="name.notary" id="notary_22">
+<field name="name">EL CARMEN </field>
+<field name="code_mrl">22</field>
+</record>
+<record model="name.notary" id="notary_23">
+<field name="name">EL TRIUNFO</field>
+<field name="code_mrl">23</field>
+</record>
+<record model="name.notary" id="notary_24">
+<field name="name">ESMERALDAS</field>
+<field name="code_mrl">24</field>
+</record>
+<record model="name.notary" id="notary_25">
+<field name="name">GALAPAGOS</field>
+<field name="code_mrl">25</field>
+</record>
+<record model="name.notary" id="notary_26">
+<field name="name">GUALACEO</field>
+<field name="code_mrl">26</field>
+</record>
+<record model="name.notary" id="notary_27">
+<field name="name">GUARANDA</field>
+<field name="code_mrl">27</field>
+</record>
+<record model="name.notary" id="notary_28">
+<field name="name">GUAYAQUIL</field>
+<field name="code_mrl">28</field>
+</record>
+<record model="name.notary" id="notary_29">
+<field name="name">HUAQUILLAS</field>
+<field name="code_mrl">29</field>
+</record>
+<record model="name.notary" id="notary_30">
+<field name="name">IBARRA </field>
+<field name="code_mrl">30</field>
+</record>
+<record model="name.notary" id="notary_31">
+<field name="name">JARAMIJO</field>
+<field name="code_mrl">31</field>
+</record>
+<record model="name.notary" id="notary_32">
+<field name="name">JIPIJAPA </field>
+<field name="code_mrl">32</field>
+</record>
+<record model="name.notary" id="notary_33">
+<field name="name">JUNIN</field>
+<field name="code_mrl">33</field>
+</record>
+<record model="name.notary" id="notary_34">
+<field name="name">LA LIBERTAD</field>
+<field name="code_mrl">34</field>
+</record>
+<record model="name.notary" id="notary_35">
+<field name="name">LA TRONCAL </field>
+<field name="code_mrl">35</field>
+</record>
+<record model="name.notary" id="notary_36">
+<field name="name">LATACUNGA</field>
+<field name="code_mrl">36</field>
+</record>
+<record model="name.notary" id="notary_37">
+<field name="name">LOJA </field>
+<field name="code_mrl">37</field>
+</record>
+<record model="name.notary" id="notary_38">
+<field name="name">MACAS</field>
+<field name="code_mrl">38</field>
+</record>
+<record model="name.notary" id="notary_39">
+<field name="name">MACHALA </field>
+<field name="code_mrl">39</field>
+</record>
+<record model="name.notary" id="notary_40">
+<field name="name">MANTA </field>
+<field name="code_mrl">40</field>
+</record>
+<record model="name.notary" id="notary_41">
+<field name="name">MERA</field>
+<field name="code_mrl">41</field>
+</record>
+<record model="name.notary" id="notary_42">
+<field name="name">MILAGRO </field>
+<field name="code_mrl">42</field>
+</record>
+<record model="name.notary" id="notary_43">
+<field name="name">MONTECRISTI</field>
+<field name="code_mrl">43</field>
+</record>
+<record model="name.notary" id="notary_44">
+<field name="name">NUEVA LOJA</field>
+<field name="code_mrl">44</field>
+</record>
+<record model="name.notary" id="notary_45">
+<field name="name">OLMEDO</field>
+<field name="code_mrl">45</field>
+</record>
+<record model="name.notary" id="notary_46">
+<field name="name">ORELLANA</field>
+<field name="code_mrl">46</field>
+</record>
+<record model="name.notary" id="notary_47">
+<field name="name">OTAVALO </field>
+<field name="code_mrl">47</field>
+</record>
+<record model="name.notary" id="notary_48">
+<field name="name">PAJAN</field>
+<field name="code_mrl">48</field>
+</record>
+<record model="name.notary" id="notary_49">
+<field name="name">PALESTINA</field>
+<field name="code_mrl">49</field>
+</record>
+<record model="name.notary" id="notary_50">
+<field name="name">PALLATANGA</field>
+<field name="code_mrl">50</field>
+</record>
+<record model="name.notary" id="notary_51">
+<field name="name">PASAJE </field>
+<field name="code_mrl">51</field>
+</record>
+<record model="name.notary" id="notary_52">
+<field name="name">PEDERNALES</field>
+<field name="code_mrl">52</field>
+</record>
+<record model="name.notary" id="notary_53">
+<field name="name">PEDRO MONCAYO</field>
+<field name="code_mrl">53</field>
+</record>
+<record model="name.notary" id="notary_54">
+<field name="name">PEDRO VICENTE MALDONADO</field>
+<field name="code_mrl">54</field>
+</record>
+<record model="name.notary" id="notary_55">
+<field name="name">PELILEO</field>
+<field name="code_mrl">55</field>
+</record>
+<record model="name.notary" id="notary_56">
+<field name="name">PICHINCHA (MANABI)</field>
+<field name="code_mrl">56</field>
+</record>
+<record model="name.notary" id="notary_57">
+<field name="name">PIÑAS</field>
+<field name="code_mrl">57</field>
+</record>
+<record model="name.notary" id="notary_58">
+<field name="name">PORTOVIEJO</field>
+<field name="code_mrl">58</field>
+</record>
+<record model="name.notary" id="notary_59">
+<field name="name">PUERTO LÓPEZ</field>
+<field name="code_mrl">59</field>
+</record>
+<record model="name.notary" id="notary_60">
+<field name="name">PUERTO QUITO</field>
+<field name="code_mrl">60</field>
+</record>
+<record model="name.notary" id="notary_61">
+<field name="name">PUYO</field>
+<field name="code_mrl">61</field>
+</record>
+<record model="name.notary" id="notary_62">
+<field name="name">QUERO</field>
+<field name="code_mrl">62</field>
+</record>
+<record model="name.notary" id="notary_63">
+<field name="name">QUEVEDO </field>
+<field name="code_mrl">63</field>
+</record>
+<record model="name.notary" id="notary_64">
+<field name="name">QUITO </field>
+<field name="code_mrl">64</field>
+</record>
+<record model="name.notary" id="notary_65">
+<field name="name">RIOBAMBA</field>
+<field name="code_mrl">65</field>
+</record>
+<record model="name.notary" id="notary_66">
+<field name="name">ROCAFUERTE</field>
+<field name="code_mrl">66</field>
+</record>
+<record model="name.notary" id="notary_67">
+<field name="name">RUMIÑAHUI</field>
+<field name="code_mrl">67</field>
+</record>
+<record model="name.notary" id="notary_68">
+<field name="name">SALCEDO</field>
+<field name="code_mrl">68</field>
+</record>
+<record model="name.notary" id="notary_69">
+<field name="name">SALINAS </field>
+<field name="code_mrl">69</field>
+</record>
+<record model="name.notary" id="notary_70">
+<field name="name">SALITRE</field>
+<field name="code_mrl">70</field>
+</record>
+<record model="name.notary" id="notary_71">
+<field name="name">SAN CRISTOBAL</field>
+<field name="code_mrl">71</field>
+</record>
+<record model="name.notary" id="notary_72">
+<field name="name">SAN JACINTO DE YAGUACHI</field>
+<field name="code_mrl">72</field>
+</record>
+<record model="name.notary" id="notary_73">
+<field name="name">SAN JUAN DE BOSCO</field>
+<field name="code_mrl">73</field>
+</record>
+<record model="name.notary" id="notary_74">
+<field name="name">SAN MIGUEL</field>
+<field name="code_mrl">74</field>
+</record>
+<record model="name.notary" id="notary_75">
+<field name="name">SAN VICENTE</field>
+<field name="code_mrl">75</field>
+</record>
+<record model="name.notary" id="notary_76">
+<field name="name">SANGOLQUÍ</field>
+<field name="code_mrl">76</field>
+</record>
+<record model="name.notary" id="notary_77">
+<field name="name">SANTA ANA</field>
+<field name="code_mrl">77</field>
+</record>
+<record model="name.notary" id="notary_78">
+<field name="name">SANTA CRUZ</field>
+<field name="code_mrl">78</field>
+</record>
+<record model="name.notary" id="notary_79">
+<field name="name">SANTA ELENA </field>
+<field name="code_mrl">79</field>
+</record>
+<record model="name.notary" id="notary_80">
+<field name="name">SANTA ISABEL (CHAGUARURCO)</field>
+<field name="code_mrl">80</field>
+</record>
+<record model="name.notary" id="notary_81">
+<field name="name">SANTA LUCIA</field>
+<field name="code_mrl">81</field>
+</record>
+<record model="name.notary" id="notary_82">
+<field name="name">SANTA ROSA</field>
+<field name="code_mrl">82</field>
+</record>
+<record model="name.notary" id="notary_83">
+<field name="name">SANTO DOMINGO</field>
+<field name="code_mrl">83</field>
+</record>
+<record model="name.notary" id="notary_84">
+<field name="name">SAQUISILI</field>
+<field name="code_mrl">84</field>
+</record>
+<record model="name.notary" id="notary_85">
+<field name="name">SUCUA</field>
+<field name="code_mrl">85</field>
+</record>
+<record model="name.notary" id="notary_86">
+<field name="name">SUSCAL</field>
+<field name="code_mrl">86</field>
+</record>
+<record model="name.notary" id="notary_87">
+<field name="name">TENA</field>
+<field name="code_mrl">87</field>
+</record>
+<record model="name.notary" id="notary_88">
+<field name="name">TISALEO</field>
+<field name="code_mrl">88</field>
+</record>
+<record model="name.notary" id="notary_89">
+<field name="name">TOSAGUA</field>
+<field name="code_mrl">89</field>
+</record>
+<record model="name.notary" id="notary_90">
+<field name="name">TULCÁN </field>
+<field name="code_mrl">90</field>
+</record>
+<record model="name.notary" id="notary_91">
+<field name="name">VELASCO IBARRA</field>
+<field name="code_mrl">91</field>
+</record>
+<record model="name.notary" id="notary_92">
+<field name="name">VENTANAS </field>
+<field name="code_mrl">92</field>
+</record>
+<record model="name.notary" id="notary_93">
+<field name="name">VINCES</field>
+<field name="code_mrl">93</field>
+</record>
+<record model="name.notary" id="notary_94">
+<field name="name">YAGUACHI</field>
+<field name="code_mrl">94</field>
+</record>
+<record model="name.notary" id="notary_95">
+<field name="name">ZAMORA</field>
+<field name="code_mrl">95</field>
+</record>
+
+</data>
+</openerp>

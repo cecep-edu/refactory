@@ -2,15 +2,6 @@
 <openerp>
   <data>
     
-    <!-- <record id="view_partner_form" model="ir.ui.view">
-	  <field name="name">view.res.partner.form.iaen</field>
-	  <field name="model">res.partner</field>
-      <field name="inherit" ref="base.view_partner_form"/>
-	  <field name="arch" type="xml">
-        
-      </field>
-    </record> -->
-
     <record id="res_partner_kanban_view" model="ir.ui.view">
       <field name="name">res.partner.kanban</field>
       <field name="model">res.partner</field>
@@ -50,7 +41,7 @@
                 <field name="name" default_focus="1" placeholder="Name"/>
               </h1>
               <field name="civil_status_id" placeholder="Estado Civil"/>
-              <field name="gender_id" placeholder="Género"/>
+              <field name="type_sex_id" placeholder="Sexo"/>
             </div>
             <group> 
               <group> 
@@ -115,11 +106,16 @@
 	          <page string="Formación Académica">
 	            <field name="instruction_info_ids" nolabel="1">
 		          <tree string="Formación Académica" editable="bottom">
-		            <field name="instruction_id"/>
+		            <field name="instruction_id" on_change="on_quart(instruction_id)" /> 
+		            <field name="specialization_type"/>
+		            <!-- attrs="{'readonly':[('instruction_id','not like','Cuarto Nivel')]}" -->
 		            <field name="name_institution"/>
 		            <field name="specialization"/>
 		            <field name="title"/>
 		            <field name="register"/>
+		            <field name="graduate"/>
+		            <field name="year_semester"/>
+		            <field name="state" invisible="True"/>
 		          </tree>
 	            </field>
 	          </page>
@@ -128,8 +124,11 @@
 		          <tree string="Experiencia Laboral" editable="bottom">
 		            <field name="init_date" on_change="on_date(init_date,end_date)"/>
 		            <field name="end_date" on_change="on_date(init_date,end_date)" />
+		            <field name="entity_type_id"/>
 		            <field name="company"/>
 		            <field name="jobs_type_id"/>
+		            <field name="input_motive_id"/>
+		            <field name="output_motive_id"/>
 		            <field name="functions"/>
 		          </tree>
 	            </field>

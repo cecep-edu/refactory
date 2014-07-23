@@ -2,34 +2,38 @@
 
 <openerp>
   <data noupdate="1">
-
     <record model="type.disability" id="disability_physical" >
       <field name="name">fisicas</field>
       <field name="description">La visión que tenemos de la persona con discapacidad física ha variado
       con el paso de los años, anteriormente veíamos que las personas eran relegadas a su hogar, 
       sin posibilidades de socializar</field>
+      <field name="code_mrl">2</field>
     </record>
 	<record model="type.disability" id="disability_visual" >
       <field name="name">Visual</field>
       <field name="description">Genérico usado para describir todas las pérdidas de la visión</field>
+      <field name="code_mrl">4</field>
     </record>
 	<record model="type.disability" id="disability_hearing" >
       <field name="name">Auditiva</field>
       <field name="description">Genérico usado para describir todas las pérdidas de audición</field>
-    </record>
-	<record model="type.disability" id="disability_psychological" >
-      <field name="name">Psicológica</field>
-      <field name="description">Víctima de un hecho violento o criminal es común que genere daño psicológico en una persona</field>
+      <field name="code_mrl">1</field>
     </record>
 	<record model="type.disability" id="disability_languaje" >
       <field name="name">Lenguaje</field>
       <field name="description">Se refiere a los problemas de la comunicación u otras áreas relacionadas</field>
+	  <field name="code_mrl">5</field>
     </record>
     <record model="type.disability" id="disability_mental" >
       <field name="name">Intelectual</field>
       <field name="description">Una adquisición lenta e incompleta de las habilidades cognitivas 
       durante el desarrollo humano, que conduce finalmente a limitaciones sustanciales 
       en el desarrollo corriente.</field>
+      <field name="code_mrl">3</field>
     </record>
+<!--	<record model="type.disability" id="disability_psychological" >
+      <field name="name">Psicológica</field>
+      <field name="description">Víctima de un hecho violento o criminal es común que genere daño psicológico en una persona</field>
+    </record>-->
   </data>
 </openerp>

@@ -1,7 +1,7 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_identification_type_manager,identification_type,model_identification_type,iaen_base_manager,1,1,1,1
 access_ethnic_group_manager,ethnic_group,model_ethnic_group,iaen_base_manager,1,1,1,1
-access_gender_manager,gender,model_gender,iaen_base_manager,1,1,1,1
+access_type_sex_manager,type_sex,model_type_sex,iaen_base_manager,1,1,1,1
 access_zones_manager,zones,model_zones,iaen_base_manager,1,1,1,1
 access_canton_manager,canton,model_canton,iaen_base_manager,1,1,1,1
 access_parish_manager,parish,model_parish,iaen_base_manager,1,1,1,1
@@ -20,7 +20,7 @@ access_language_type_manager,language_type,model_language_type,iaen_base_manager
 ,,,,,,,
 access_identification_type_user,identification_type,model_identification_type,iaen_base_user,1,0,0,0
 access_ethnic_group_user,ethnic_group,model_ethnic_group,iaen_base_user,1,0,0,0
-access_gender_user,gender,model_gender,iaen_base_user,1,0,0,0
+access_type_sex_user,gender,model_type_sex,iaen_base_user,1,0,0,0
 access_zones_user,zones,model_zones,iaen_base_user,1,0,0,0
 access_canton_user,canton,model_canton,iaen_base_user,1,0,0,0
 access_parish_user,parish,model_parish,iaen_base_user,1,0,0,0

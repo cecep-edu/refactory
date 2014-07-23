@@ -2,9 +2,11 @@
 <openerp>
 	<data noupdate="0">
 		<record model="bank.account.type" id="bankcount_ca">
+			<field name="code_mrl">1</field>
 			<field name="name">Cuenta de ahorros</field>
 		</record>
 		<record model="bank.account.type" id="bankcount_cc">
+			<field name="code_mrl">2</field>
 			<field name="name">Cuenta corriente</field>
 		</record>
 	</data>

@@ -34,14 +34,32 @@ class instruction_info(osv.osv):
     _name="instruction.info"
     _description="Información Académica"
     _order_="instruction_id"
+    
     _columns={
         'instruction_id' : fields.many2one("instruction", "Nivel de Instrucción",required=True),
+        'specialization_type': fields.selection([('2','Diplomado'),('3', 'Especialidad'),('4', 'Maestria')
+            ,('5', 'Doctorado')],'Tipo de Especialización', readonly=True, states={'cuarto':[('readonly',False), ('required',True)]}),
         'name_institution': fields.char("Nombre de la Institución", size=100, required=True),
         'specialization': fields.char("Especialización", size=200, required=True),
         'title' : fields.char("Título", size=150, required=True),
         'register': fields.char("Registro SENESCYT", size=50),
+        'graduate': fields.boolean("Egresado", requiered=True),
+        'year_semester':fields.selection([('1','Años'),('2', 'Semestre')],'Periodo de Estudio',requiered=True),
         'partner_id' : fields.many2one("res.partner"),
+        'state': fields.selection([('cuarto', 'cuarto'),('otro', 'otro')], invisible=True)
     }
+    _defaults = {
+        'state':'otro'
+    }
+    def on_quart(self, cr, uid, ids, id_level):
+        if id_level:
+            obj = self.pool.get('instruction').browse(cr,uid,id_level)
+            
+            if obj.name == 'Cuarto Nivel':
+                #state
+                return {'value':{'state':'cuarto'}}
+            else:
+                return {'value':{'state':'otro', 'specialization_type': ''}}
 
 class experience_info(osv.osv):
     """Clase sobre la información de la experiencia laboral del usuario"""
@@ -51,11 +69,15 @@ class experience_info(osv.osv):
     _columns={
         'init_date' : fields.date("Fecha de Inicio", required=True),
         'end_date': fields.date("Fecha de Fin", required=True),
+        'entity_type_id': fields.many2one("entity.type", "Tipo de Institución", required=True),
         'company' : fields.char("Organización/Empresa", size=200, required=True),
         'jobs_type_id': fields.many2one("jobs.type", "Denominación del Puesto", required=True),
         'functions' : fields.text("Responsabilidades/Actividades/Funciones", required=True),
+        'input_motive_id': fields.many2one("input.motive", "Motivo de Entrada", required=True),
+        'output_motive_id': fields.many2one("output.motive", "Motivo de Salida", required=True),
         'partner_id' : fields.many2one("res.partner"),
     }
+   
     def on_date(self, cr, uid, ids, init_date, end_date):
     	if end_date:
 	    	if(init_date > end_date): 	    		
@@ -65,7 +87,6 @@ class experience_info(osv.osv):
 				return {'value': {}}
 	else:
 		return {'value': {}}
-    #_constraints = [(_date, u"La Fecha de Inicio debe ser menor que la Fecha de Fin", ['init_date', 'end_date'])]
 
 class bank_info(osv.osv):
     """Clase de la informacion bancaria de los usuarios"""

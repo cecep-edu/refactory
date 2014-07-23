@@ -27,15 +27,12 @@ from openerp.tools.float_utils import float_round as round
 import openerp.addons.decimal_precision as dp
 import openerp.tools.image as imageoerp
 from iaen_curriculum_ws import IaenCurriculumWs 
-import pdb
 
 class res_partner(osv.osv):
         _inherit = "res.partner"
         _columns = {
-                #"picture": fields.binary("Foto"),
-                #"partner_id": fields.many2one("res.partner", "Usuario", required=True),
                 "civil_status_id": fields.many2one("civil.status", "Estado Civil", required=True),
-                "gender_id": fields.many2one("gender", "Género", required=True),
+                "type_sex_id": fields.many2one("type.sex", "Sexo", required=True),
                 "blood_type_id": fields.many2one("blood.type", "Tipo de Sangre", required=True),
                 "country_id": fields.many2one("res.country", "País de Nacimiento", required=True),
                 "birth_city_id": fields.many2one("canton", "Ciudad de Nacimiento", required=True),
@@ -43,10 +40,6 @@ class res_partner(osv.osv):
                 "identification_type_id": fields.many2one("identification.type", u"Tipo de Identificación", required=True),
                 "identification_number": fields.char("Número de Identificación", size=13, required=True,help="Cedula de Identidad, Pasaporte, CCI, DNI"),
                 "nationality_id": fields.many2one("nationality", "Nacionalidad", required=True),
-                #"home_phone": fields.char("Teléfono Domicilio", size=15, required=True),
-                #"mobile_phone": fields.char("Teléfono Móvil", size=15, required=True),
-                #"street_address_1": fields.char("Dirección Calle 1", size=200, required=True),
-                #"street_address_2": fields.char("Dirección Calle 2", size=200, required=False),
                 "house_number": fields.char("Número de Casa", size=7, required=False),
                 "location_reference": fields.text("Referencia de Ubicación"),
                 "disability": fields.boolean("Discapacidad"),
@@ -62,38 +55,17 @@ class res_partner(osv.osv):
                 "info_training_ids": fields.one2many("info.training","partner_id","Capacitaciones"),
                 
         }
-        
-		
-        #def on_disability(self, cr, uid, ids, disability):
-        #        if not disability:
-        #                return {'value':{'disability_id': "", 'disability_degree': ""}}
-        #        else:
-        #                return {}
-		
                         
-        #def city_change(self, cr, uid, ids, city, context=None):
-        #        value = {}
-        #        value['residence_city_id'] = city
-        #        if city:
-        #                city_obj = self.pool.get('canton').browse(cr, uid, city)
-        #                if city_obj:
-        #                        value['state_id'] = city_obj.country_state_id.id
-        #                        value['country_id'] = city_obj.country_state_id.country_id.id
-        #        return {'value':value}
-
         def on_identification(self, cr, uid, ids, identification_number, identification_type_id):
 			values = {}
 			if identification_number and identification_type_id:
 				id_type = self.pool.get('identification.type').browse(cr, uid, identification_type_id)
 				if id_type.name.lower().find(u"cédula")>=0:
-					print "EVERYTHING IS FINE MY DEAR FRIEND" 
 					if identification_number.__len__() == 10:
 						ws = IaenCurriculumWs()
 						data = ws.find_identification_info(identification_number)
 						data_disc = ws.find_disability_info(identification_number)
 						data_diplo = ws.find_instruction_info(identification_number)
-
-						#pdb.set_trace()
 
 						if(data):
 							values['name'] = data['name']
@@ -103,7 +75,7 @@ class res_partner(osv.osv):
 							values['state_id'] = self.get_ids(cr, uid, ids, 'res.country.state', str(data['state_residency']))
 							values['country_id'] = self.get_ids(cr, uid, ids, 'res.country', 'Ecuador')
 							values['nationality_id'] = self.get_ids(cr, uid, ids, 'nationality', str(data['nationality']))
-							values['gender_id'] =  self.get_ids(cr, uid, ids, 'gender', str(data['gender']))
+							values['type_sex_id'] =  self.get_ids(cr, uid, ids, 'type.sex', str(data['gender']))
 							values['civil_status_id'] =  self.get_ids(cr, uid, ids, 'civil.status', str(data['civil_status']))
 							if data_disc.items():
 								values['disability'] = True
@@ -147,7 +119,17 @@ class res_partner(osv.osv):
 				return obj[0]
 			except IndexError:
 				return None
-                        
+		
+        def city_change(self, cr, uid, ids, city, context=None):
+                value = {}
+                value['residence_city_id'] = city
+                if city:
+                        city_obj = self.pool.get('canton').browse(cr, uid, city)
+                        if city_obj:
+                                value['state_id'] = city_obj.country_state_id.id
+                                value['country_id'] = city_obj.country_state_id.country_id.id
+                return {'value':value}
+
         """"
         def default_get(self,cr,uid,fields,context=None):
                 if not context.has_key('action_uid'):
