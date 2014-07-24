@@ -161,7 +161,8 @@ class blood_type(osv.osv):
 		'code_mrl': fields.integer('Código MRL', required=True) 
 	}
 	_order = "name"
-	_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un Tipo de Sangre con ese nombre.'))]
+	_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un Tipo de Sangre con ese nombre.')),
+			('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese Código Mrl')]
 	def _no_numbers(self, cr, uid, ids):
 		""" Valida que una cadena de caracteres no contenga dígitos"""
 		for bloody_type in self.browse(cr, uid, ids):
@@ -211,7 +212,8 @@ class nationality(osv.osv):
 		'code_mrl': fields.integer("Código MRL", required=True)
 	}
 	_order = "name"
-	_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe una Nacionalidad con ese nombre.'))]
+	_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe una Nacionalidad con ese nombre.')),
+			('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese Código Mrl'))]
 	def _only_letters(self, cr, uid, ids):
 		""" Valida que una cadena contenga únicamente letras, incluyendo tildes y ñ solamente """
 		for nationality in self.browse(cr, uid, ids):
