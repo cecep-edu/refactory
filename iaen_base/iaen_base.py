@@ -27,7 +27,11 @@ from openerp.tools.float_utils import float_round as round
 import openerp.addons.decimal_precision as dp
 import openerp.tools.image as imageoerp
 import re
+#import sys
+#sys.path.append("/var/www/refactory/")
+from validations import Validations
 
+validator = Validations()
 
 class identification_type(osv.osv):
     _name = "identification.type"
@@ -158,7 +162,7 @@ class blood_type(osv.osv):
 	_description = "Registra los tipos de sangre"
 	_columns = {
 		'name': fields.char("Nombre", size=3, required=True),
-		'code_mrl': fields.integer('Código MRL', required=True) 
+		'code_mrl': fields.integer('Código MRL', required=False) 
 	}
 	_order = "name"
 	_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un Tipo de Sangre con ese nombre.')),
@@ -209,7 +213,7 @@ class nationality(osv.osv):
 	_description = "Registra las nacionalidades"
 	_columns = {
 		'name': fields.char("Nombre", size=45, required=True),
-		'code_mrl': fields.integer("Código MRL", required=True)
+		'code_mrl': fields.char("Código MRL", size=3, required=False)
 	}
 	_order = "name"
 	_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe una Nacionalidad con ese nombre.')),
@@ -266,7 +270,7 @@ class bank_account_type(osv.osv):
     }
 
 #TIPO DE DISCAPACIDAD
-class type_disability(osv.osv):    
+class type_disability(osv.osv, Validations):    
     _name = "type.disability"
     _description = "Tipo de Discapacidad"       
     _order = "name"
@@ -274,18 +278,18 @@ class type_disability(osv.osv):
     _columns={
             "name": fields.char("Nombre", size=30, required=True),
             "description": fields.text("Descripcion"),
-            "code_mrl": fields.integer("Código MRL"),
+            "code_mrl": fields.char("Código MRL", size=3),
     }
-    def _alphabetical(self, cr, uid, ids):
-        for bloody_type in self.browse(cr, uid, ids):
-            if not (re.search("[a-z, A-Z]", bloody_type.name)): return False
-        return True 
+    #def _alphabetical(self, cr, uid, ids):
+    #    for bloody_type in self.browse(cr, uid, ids):
+    #        if not (re.search("[a-z, A-Z]", bloody_type.name)): return False
+    #    return True 
 
-    _constraints = [(_alphabetical, _(u"El Tipo de dato es inválido."), ['name'])]
+    _constraints = [(Validations._alphabetical, _(u"El Tipo de dato es inválido."), ['code_mrl'])]
 
 
 #TIPO DE EVENTO
-class event_type(osv.osv):    
+class event_type(osv.osv, Validations):    
     _name = "event.type"
     _description = "Tipo de Evento "       
     _order = "name"
