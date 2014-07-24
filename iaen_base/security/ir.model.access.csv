@@ -16,7 +16,12 @@ access_event_type_manager,event_type,model_event_type,iaen_base_manager,1,1,1,1
 access_certified_type_manager,certified_type,model_certified_type,iaen_base_manager,1,1,1,1
 access_civil_status_manager,civil_status,model_civil_status,iaen_base_manager,1,1,1,1
 access_language_type_manager,language_type,model_language_type,iaen_base_manager,1,1,1,1
-,,,,,,,
+access_jobs_type,jobs_type,model_jobs_type,iaen_base_manager,1,1,1,1
+access_input_motive,input_motive,model_input_motive,iaen_base_manager,1,1,1,1
+access_output_motive,output_motive,model_output_motive,iaen_base_manager,1,1,1,1
+access_entity_type,entity_type,model_entity_type,iaen_base_manager,1,1,1,1
+access_name_notary,name_notary,model_name_notary,iaen_base_manager,1,1,1,1
+access_indian_nationality,indian_nationality,model_indian_nationality,iaen_base_manager,1,1,1,1
 ,,,,,,,
 access_identification_type_user,identification_type,model_identification_type,iaen_base_user,1,0,0,0
 access_ethnic_group_user,ethnic_group,model_ethnic_group,iaen_base_user,1,0,0,0
@@ -35,3 +40,9 @@ access_event_type_user,event_type,model_event_type,iaen_base_user,1,0,0,0
 access_certified_type_user,certified_type,model_certified_type,iaen_base_user,1,0,0,0
 access_civil_status_user,civil_status,model_civil_status,iaen_base_user,1,0,0,0
 access_language_type_user,language_type,model_language_type,iaen_base_user,1,0,0,0
+access_jobs_type,jobs_type,model_jobs_type,iaen_base_user,1,0,0,0
+access_input_motive,input_motive,model_input_motive,iaen_base_user,1,0,0,0
+access_output_motive,output_motive,model_output_motive,iaen_base_user,1,0,0,0
+access_entity_type,entity_type,model_entity_type,iaen_base_user,1,0,0,0
+access_name_notary,name_notary,model_name_notary,iaen_base_user,1,0,0,0
+access_indian_nationality,indian_nationality,model_indian_nationality,iaen_base_user,1,0,0,0

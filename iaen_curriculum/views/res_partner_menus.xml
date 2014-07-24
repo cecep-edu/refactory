@@ -2,10 +2,17 @@
 
 <openerp>
   <data>
-    <menuitem id="menu_curriculum" name="Hoja de Vida"/>
 
-    <menuitem action="action_partner_c" id="menu_ingresar" name="Curriculumn" parent="menu_curriculum"/>
-    <menuitem action="action_partner_iaen" id="menu_curriculum_crud" name="Ingresar" parent="menu_ingresar"/>
+    <menuitem id="menu_curriculum" name="Hoja de Vida"/>
+    <menuitem id="menu_ingresar" name="Curriculum" parent="menu_curriculum"/>
+    <menuitem id="menu_datos" name="Curriculum" parent="iaen_base.menu_iaen" sequence="0"/>
+    <menuitem action="action_partner_c" id="menu_curriculum_admin" name="Datos Inscritos" parent="menu_datos"/>
+    <menuitem action="action_partner_iaen" id="menu_curriculum_crud" name="Actualizar Datos" parent="menu_ingresar"/>
+
+
+    <record id="menu_curriculum" model="ir.ui.menu">
+      <field name="groups_id" eval="[(4,ref('iaen_base.iaen_base_user'))]"/>
+    </record>
 
   </data>
 </openerp>
