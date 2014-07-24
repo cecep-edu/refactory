@@ -308,7 +308,7 @@ class certified_type(osv.osv):
     _order = "name"
     _sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un parentesco con el mismo nombre'))]
     _columns={
-            "name": fields.char("Nombre", size=15, required=True),
+            "name": fields.char("Nombre", size=40, required=True),
             "description": fields.text("Descripcion"),
             "code_mrl": fields.integer("Código MRL"),
     }
