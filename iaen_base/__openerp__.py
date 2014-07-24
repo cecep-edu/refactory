@@ -60,6 +60,9 @@
         'data/users_data.xml',
         'security/ir.model.access.csv'
     ],
+    'depends': [
+        'hr',
+    ],
     'images' : ['images/iaen_base.jpeg'],
     'installable': True,
     'auto_install': False,
