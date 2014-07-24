@@ -318,14 +318,12 @@ class certified_type(osv.osv):
     _constraints = [(_alphabetical, _(u"El Tipo de dato es invalido."), ['name'])]"""
 
 
-class jobs_type(osv.osv):    
-    _name = "jobs.type"
-    _description = "Tipo de Trabajos"       
-    _order = "name"
-    _sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un registro con el mismo nombre'))]
+class hr_job(osv.osv): 
+    """Clase heredada del modulo de recursos humanos para la creacion de puestos de trabajo"""   
+    _inherit = "hr.job"
+    _sql_constraints = [('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))]
     _columns={
-            "name": fields.char("Nombre", size=100, required=True),
-            "description": fields.text("Descripción"),
+           "code_mrl": fields.integer("Código MRL"),
     }
 
 #CLASE PARA IDIOMAS
@@ -343,7 +341,9 @@ class input_motive(osv.osv):
     _name="input.motive"
     _description="Motivos de Entrada Laboral"
     _order = "name"        
-    _sql_constraints = [('name_uniq', 'unique(name)', _(u'Ya existe un registro con el mismo nombre'))]
+    _sql_constraints = [
+        ('name_uniq', 'unique(name)', _(u'Ya existe un registro con el mismo nombre')),
+        ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))]
     _columns={
         "code_mrl": fields.integer("Codigo MRL"),
         "name" : fields.char("Nombre",size=100,required=True), 
@@ -354,7 +354,9 @@ class output_motive(osv.osv):
     _name="output.motive"
     _description="Motivos de Salida Laboral"
     _order = "name"        
-    _sql_constraints = [('name_uniq', 'unique(name)', _(u'Ya existe un registro con el mismo nombre'))]
+    _sql_constraints = [
+        ('name_uniq', 'unique(name)', _(u'Ya existe un registro con el mismo nombre')),
+        ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))]
     _columns={
         "code_mrl": fields.integer("Codigo MRL"),
         "name" : fields.char("Nombre",size=100,required=True), 
@@ -365,7 +367,9 @@ class entity_type(osv.osv):
     _name="entity.type"
     _description="Tipos de Entidades"
     _order = "name"        
-    _sql_constraints = [('name_uniq', 'unique(name)', _(u'Ya existe un registro con el mismo nombre'))]
+    _sql_constraints = [
+        ('name_uniq', 'unique(name)', _(u'Ya existe un registro con el mismo nombre')),
+        ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))]
     _columns={
         "code_mrl": fields.integer("Codigo MRL"),
         "name" : fields.char("Nombre",size=100,required=True), 

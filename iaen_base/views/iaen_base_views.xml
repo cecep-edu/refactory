@@ -545,26 +545,61 @@
       </field>
     </record>
 
+    <record id="view_hr_job_form" model="ir.ui.view">
+            <field name="name">hr.job.form</field>
+            <field name="model">hr.job</field>
+            <field name="arch" type="xml">
+                <form string="Job" version="7.0">
+                    <header>
+                        <button name="job_recruitement" string="Launch Recruitement" states="open" type="object" class="oe_highlight" groups="base.group_user"/>
+                        <button name="job_open" string="Stop Recruitment" states="recruit" type="object" class="oe_highlight" groups="base.group_user"/>
+                        <field name="state" widget="statusbar" statusbar_visible="recruit,open"/>
+                    </header>
+                    <sheet>
+                        <div class="oe_title">
+                            <label for="name" class="oe_edit_only"/>
+                            <h1><field name="name" class="oe_inline"/></h1>
+                        </div>
+                        <group>
+                            <group>
+                                <field name="code_mrl"/>
+                                <field name="no_of_employee" groups="base.group_user"/>
+                                <field name="no_of_recruitment" on_change="on_change_expected_employee(no_of_recruitment,no_of_employee)"/>
+                                <field name="expected_employees" groups="base.group_user"/>
+                            </group>
+                            <group>
+                                <field name="company_id" widget="selection" groups="base.group_multi_company"/>
+                                <field name="department_id"/>                            </group>
+                        </group>
+                        <div>
+                            <label for="description"/>
+                            <field name="description"/>
+                        </div>
+                        <div>
+                            <label for="requirements"/>
+                            <field name="requirements"/>
+                        </div>
+                    </sheet>
+                    <div class="oe_chatter">
+                        <field name="message_follower_ids" widget="mail_followers"/>
+                        <field name="message_ids" widget="mail_thread"/>
+                    </div>
+                </form>
+            </field>
+        </record>
+
     <!-- Ingreso de Puestos de Trabajo -->
-    <record id="view_jobs_type_tree" model="ir.ui.view">
-      <field name="name">view.jobs.type.tree</field>
-      <field name="model">jobs.type</field>
-      <field name="arch" type="xml">
-		<tree string="Puesto de Trabajo">
-		  <field name="name"/>
-		  <field name="description"/>
-		</tree>
-      </field>
-    </record>	
-    <record id="view_jobs_type_form" model="ir.ui.view">
-      <field name="name">view.jobs.type.form</field>
-      <field name="model">jobs.type</field>
-      <field name="arch" type="xml">
-		<form string="Puesto de Trabajo">
-		    <field name="name"/>
-		    <field name="description"/>
-		</form>
-      </field>
+    <record id="view_hr_job_tree" model="ir.ui.view">
+        <field name="name">hr.job.tree</field>
+        <field name="model">hr.job</field>
+        <field name="arch" type="xml">
+            <tree string="Job">
+            	<field name="code_mrl"/>
+                <field name="department_id"/>
+                <field name="name"/>
+                <field name="description"/>
+            </tree>
+        </field>
     </record>
 
     <!-- Ingreso de Tipos de Entidades -->
