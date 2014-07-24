@@ -71,7 +71,7 @@ class experience_info(osv.osv):
         'end_date': fields.date("Fecha de Fin", required=True),
         'entity_type_id': fields.many2one("entity.type", "Tipo de Institución", required=True),
         'company' : fields.char("Organización/Empresa", size=200, required=True),
-        'jobs_type_id': fields.many2one("jobs.type", "Denominación del Puesto", required=True),
+        'jobs_type_id': fields.many2one("hr.job", "Denominación del Puesto", required=True),
         'functions' : fields.text("Responsabilidades/Actividades/Funciones", required=True),
         'input_motive_id': fields.many2one("input.motive", "Motivo de Entrada", required=True),
         'output_motive_id': fields.many2one("output.motive", "Motivo de Salida", required=True),

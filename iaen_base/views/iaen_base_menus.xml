@@ -31,7 +31,7 @@
 
 	<menuitem action="action_event_type" id="menu_event_type" name="Tipo de eventos" parent="menu_configuration"/>
 	<menuitem action="action_certified_type" id="menu_certified_type" name="Tipo de Certificado" parent="menu_configuration"/>
-    <menuitem action="action_jobs_type" id="menu_jobs_type" name="Puestos de Trabajo" parent="menu_configuration"/>
+    <!--<menuitem action="action_jobs_type" id="menu_jobs_type" name="Puestos de Trabajo" parent="menu_configuration"/>-->
 
     <menuitem action="action_entity_type" id="menu_entity_type" name="Tipos de Entidades" parent="menu_configuration"/>
     <menuitem action="action_input_motive" id="menu_input_motive" name="Motivos de Entrada" parent="menu_configuration"/>
@@ -39,12 +39,12 @@
 
 	<menuitem action="action_name_notary" id="menu_name_notary" name="Notarias del Ecuador" parent="menu_configuration"/>
 	<menuitem action="action_indian_nationality" id="menu_india_nationality" name="Nacionalidad Indigena" parent="menu_configuration"/>
+    <menuitem action="action_job" id="menu_job" name="Puestos de Trabajo" parent="menu_configuration"/>
 
 
     <record id="iaen_base.menu_iaen" model="ir.ui.menu">
       <field name="groups_id" eval="[(4,ref('iaen_base.iaen_base_manager'))]"/>
     </record>
-
 
     </data>
 </openerp>

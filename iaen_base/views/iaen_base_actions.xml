@@ -153,14 +153,17 @@
 			<field name="view_type">form</field>
 			<field name="view_mode">tree,form</field>
 		</record>
-		<!-- Ingreso de puestos de trabajo  -->
-		<record id="action_jobs_type" model="ir.actions.act_window">
+
+		<!-- Ingreso de puestos de trabajo-->
+		<record id="action_job" model="ir.actions.act_window">
 			<field name="name">Puestos de Trabajo</field>
-			<field name="res_model">jobs.type</field>
+			<field name="res_model">hr.job</field>
 			<field name="view_type">form</field>
 			<field name="view_mode">tree,form</field>
 		</record>
-		<!-- Ingreso de Tipos de Entidades  -->
+		
+		
+		<!-- Ingreso de Tipos de Entidades-->
 		<record id="action_entity_type" model="ir.actions.act_window">
 			<field name="name">Tipos de Entidades</field>
 			<field name="res_model">entity.type</field>
