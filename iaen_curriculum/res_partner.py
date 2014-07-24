@@ -88,7 +88,7 @@ class res_partner(osv.osv):
 								values['conadis_number'] = None
 								values['disability_degree'] = None
 							
-							if data_diplo.items():
+							if data_diplo and data_diplo.items():
 								values['instruction_info_ids'] = []
 								for title in data_diplo:
 									#pdb.set_trace()
@@ -110,7 +110,7 @@ class res_partner(osv.osv):
 									values['instruction_info_ids'] += val
 								return {'value': values}
 							else:
-								return {'value': {}}
+								return {'value': values}
 						else:
 							return {'value': {}}
 					else:
