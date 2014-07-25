@@ -161,8 +161,9 @@ class blood_type(osv.osv):
 		'code_mrl': fields.integer('Código MRL', required=True) 
 	}
 	_order = "name"
-	_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un Tipo de Sangre con ese nombre.')),
-			('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese Código Mrl')]
+	_sql_constraints = [
+        ('name_unique', 'unique(name)', _(u'Ya existe un Tipo de Sangre con ese nombre.')),
+		('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese Código Mrl'))]
 	def _no_numbers(self, cr, uid, ids):
 		""" Valida que una cadena de caracteres no contenga dígitos"""
 		for bloody_type in self.browse(cr, uid, ids):
