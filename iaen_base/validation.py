@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import re
 
-class Validation:
+class validation:
 	def only_letters(self, cr, uid, ids):
 		""" Valida que una cadena contenga únicamente letras, incluyendo tildes y ñ solamente """
 		for record in self.browse(cr, uid, ids):
