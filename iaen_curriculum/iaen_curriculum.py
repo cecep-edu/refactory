@@ -52,14 +52,14 @@ class instruction_info(osv.osv):
         'state':'otro'
     }
     def on_quart(self, cr, uid, ids, id_level):
-        if id_level:
-            obj = self.pool.get('instruction').browse(cr,uid,id_level)
-            
-            if obj.name == 'Cuarto Nivel':
-                #state
-                return {'value':{'state':'cuarto'}}
-            else:
-                return {'value':{'state':'otro', 'specialization_type': ''}}
+		if id_level:
+			obj = self.pool.get('instruction').browse(cr,uid,id_level)
+			if obj.name.lower().find('cuarto')>=0:
+				return {'value':{'state':'cuarto'}}
+			else:
+				return {'value':{'state':'otro', 'specialization_type': ''}}
+		else:
+			return {'value': {}}
 
 class experience_info(osv.osv):
     """Clase sobre la información de la experiencia laboral del usuario"""

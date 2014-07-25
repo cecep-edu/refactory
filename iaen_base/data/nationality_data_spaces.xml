@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data noupdate="0">
+	<record id="nationality_1" model="nationality">
+		<field name="name">
+			Afgana
+		</field>
+		<field name="code_mrl">
+			1
+		</field>
+	</record>
+	<record id="nationality_2" model="nationality">
+		<field name="name">
+			Alemana</field>
+		<field name="code_mrl">
+			2</field>
+	</record>
+	<record id="nationality_3" model="nationality">
+		<field name="name">
+			Árabe</field>
+		<field name="code_mrl">
+			3</field>
+	</record>
+	<record id="nationality_4" model="nationality">
+		<field name="name">
+			Argentina</field>
+		<field name="code_mrl">
+			4</field>
+	</record>
+	<record id="nationality_5" model="nationality">
+		<field name="name">
+			Australiana</field>
+		<field name="code_mrl">
+			5</field>
+	</record>
+	<record id="nationality_6" model="nationality">
+		<field name="name">
+			Belga</field>
+		<field name="code_mrl">
+			6</field>
+	</record>
+	<record id="nationality_7" model="nationality">
+		<field name="name">
+			Boliviana</field>
+		<field name="code_mrl">
+			7</field>
+	</record>
+	<record id="nationality_8" model="nationality">
+		<field name="name">
+			Brasilera</field>
+		<field name="code_mrl">
+			8</field>
+	</record>
+	<record id="nationality_9" model="nationality">
+		<field name="name">
+			Camboyana</field>
+		<field name="code_mrl">
+			9</field>
+	</record>
+	<record id="nationality_10" model="nationality">
+		<field name="name">
+			Canadiense</field>
+		<field name="code_mrl">
+			10</field>
+	</record>
+	<record id="nationality_11" model="nationality">
+		<field name="name">
+			Chilena</field>
+		<field name="code_mrl">
+			11</field>
+	</record>
+	<record id="nationality_12" model="nationality">
+		<field name="name">
+			China</field>
+		<field name="code_mrl">
+			12</field>
+	</record>
+	<record id="nationality_13" model="nationality">
+		<field name="name">
+			Colombiana</field>
+		<field name="code_mrl">
+			13</field>
+	</record>
+	<record id="nationality_14" model="nationality">
+		<field name="name">
+			Coreana</field>
+		<field name="code_mrl">
+			14</field>
+	</record>
+	<record id="nationality_15" model="nationality">
+		<field name="name">
+			Costarricense</field>
+		<field name="code_mrl">
+			15</field>
+	</record>
+	<record id="nationality_16" model="nationality">
+		<field name="name">
+			Cubana</field>
+		<field name="code_mrl">
+			16</field>
+	</record>
+	<record id="nationality_17" model="nationality">
+		<field name="name">
+			Danesa</field>
+		<field name="code_mrl">
+			17</field>
+	</record>
+	<record id="nationality_18" model="nationality">
+		<field name="name">
+			Dominicana</field>
+		<field name="code_mrl">
+			18</field>
+	</record>
+	<record id="nationality_19" model="nationality">
+		<field name="name">
+			Ecuatoriana</field>
+		<field name="code_mrl">
+			19</field>
+	</record>
+	<record id="nationality_20" model="nationality">
+		<field name="name">
+			Egipcia</field>
+		<field name="code_mrl">
+			20</field>
+	</record>
+	<record id="nationality_21" model="nationality">
+		<field name="name">
+			Española</field>
+		<field name="code_mrl">
+			21</field>
+	</record>
+	<record id="nationality_22" model="nationality">
+		<field name="name">
+			Estadounidense</field>
+		<field name="code_mrl">
+			22</field>
+	</record>
+	<record id="nationality_23" model="nationality">
+		<field name="name">
+			Estonia</field>
+		<field name="code_mrl">
+			23</field>
+	</record>
+	<record id="nationality_24" model="nationality">
+		<field name="name">
+			Etiope</field>
+		<field name="code_mrl">
+			24</field>
+	</record>
+	<record id="nationality_25" model="nationality">
+		<field name="name">
+			Filipina</field>
+		<field name="code_mrl">
+			25</field>
+	</record>
+	<record id="nationality_26" model="nationality">
+		<field name="name">
+			Finlandesa</field>
+		<field name="code_mrl">
+			26</field>
+	</record>
+	<record id="nationality_27" model="nationality">
+		<field name="name">
+			Francesa</field>
+		<field name="code_mrl">
+			27</field>
+	</record>
+	<record id="nationality_28" model="nationality">
+		<field name="name">
+			Galesa</field>
+		<field name="code_mrl">
+			28</field>
+	</record>
+	<record id="nationality_29" model="nationality">
+		<field name="name">
+			Griega</field>
+		<field name="code_mrl">
+			29</field>
+	</record>
+	<record id="nationality_30" model="nationality">
+		<field name="name">
+			Guatemalteca</field>
+		<field name="code_mrl">
+			30</field>
+	</record>
+	<record id="nationality_31" model="nationality">
+		<field name="name">
+			Haitiana</field>
+		<field name="code_mrl">
+			31</field>
+	</record>
+	<record id="nationality_32" model="nationality">
+		<field name="name">
+			Holandesa</field>
+		<field name="code_mrl">
+			32</field>
+	</record>
+	<record id="nationality_33" model="nationality">
+		<field name="name">
+			Hondureña</field>
+		<field name="code_mrl">
+			33</field>
+	</record>
+	<record id="nationality_34" model="nationality">
+		<field name="name">
+			Indonesa</field>
+		<field name="code_mrl">
+			34</field>
+	</record>
+	<record id="nationality_35" model="nationality">
+		<field name="name">
+			Inglesa</field>
+		<field name="code_mrl">
+			35</field>
+	</record>
+	<record id="nationality_36" model="nationality">
+		<field name="name">
+			Irlandesa</field>
+		<field name="code_mrl">
+			36</field>
+	</record>
+	<record id="nationality_37" model="nationality">
+		<field name="name">
+			Israelí</field>
+		<field name="code_mrl">
+			37</field>
+	</record>
+	<record id="nationality_38" model="nationality">
+		<field name="name">
+			Italiana</field>
+		<field name="code_mrl">
+			38</field>
+	</record>
+	<record id="nationality_39" model="nationality">
+		<field name="name">
+			Japonesa</field>
+		<field name="code_mrl">
+			39</field>
+	</record>
+	<record id="nationality_40" model="nationality">
+		<field name="name">
+			Jordana</field>
+		<field name="code_mrl">
+			40</field>
+	</record>
+	<record id="nationality_41" model="nationality">
+		<field name="name">
+			Laosiana</field>
+		<field name="code_mrl">
+			41</field>
+	</record>
+	<record id="nationality_42" model="nationality">
+		<field name="name">
+			Letona</field>
+		<field name="code_mrl">
+			42</field>
+	</record>
+	<record id="nationality_43" model="nationality">
+		<field name="name">
+			Letonesa</field>
+		<field name="code_mrl">
+			43</field>
+	</record>
+	<record id="nationality_44" model="nationality">
+		<field name="name">
+			Malaya</field>
+		<field name="code_mrl">
+			44</field>
+	</record>
+	<record id="nationality_45" model="nationality">
+		<field name="name">
+			Marroquí</field>
+		<field name="code_mrl">
+			45</field>
+	</record>
+	<record id="nationality_46" model="nationality">
+		<field name="name">
+			Mexicana</field>
+		<field name="code_mrl">
+			46</field>
+	</record>
+	<record id="nationality_47" model="nationality">
+		<field name="name">
+			Neocelandesa</field>
+		<field name="code_mrl">
+			47</field>
+	</record>
+	<record id="nationality_48" model="nationality">
+		<field name="name">
+			Nicaragüense</field>
+		<field name="code_mrl">
+			48</field>
+	</record>
+	<record id="nationality_49" model="nationality">
+		<field name="name">
+			Noruega</field>
+		<field name="code_mrl">
+			49</field>
+	</record>
+	<record id="nationality_50" model="nationality">
+		<field name="name">
+			Otro</field>
+		<field name="code_mrl">
+			50</field>
+	</record>
+	<record id="nationality_51" model="nationality">
+		<field name="name">
+			Panameña</field>
+		<field name="code_mrl">
+			51</field>
+	</record>
+	<record id="nationality_52" model="nationality">
+		<field name="name">
+			Paraguaya</field>
+		<field name="code_mrl">
+			52</field>
+	</record>
+	<record id="nationality_53" model="nationality">
+		<field name="name">
+			Peruana</field>
+		<field name="code_mrl">
+			53</field>
+	</record>
+	<record id="nationality_54" model="nationality">
+		<field name="name">
+			Polaca</field>
+		<field name="code_mrl">
+			54</field>
+	</record>
+	<record id="nationality_55" model="nationality">
+		<field name="name">
+			Portuguesa</field>
+		<field name="code_mrl">
+			55</field>
+	</record>
+	<record id="nationality_56" model="nationality">
+		<field name="name">
+			Puertorriqueño</field>
+		<field name="code_mrl">
+			56</field>
+	</record>
+	<record id="nationality_57" model="nationality">
+		<field name="name">
+			Rumana</field>
+		<field name="code_mrl">
+			57</field>
+	</record>
+	<record id="nationality_58" model="nationality">
+		<field name="name">
+			Rusa</field>
+		<field name="code_mrl">
+			58</field>
+	</record>
+	<record id="nationality_59" model="nationality">
+		<field name="name">
+			Salvadoreña</field>
+		<field name="code_mrl">
+			59</field>
+	</record>
+	<record id="nationality_60" model="nationality">
+		<field name="name">
+			Sueca</field>
+		<field name="code_mrl">
+			60</field>
+	</record>
+	<record id="nationality_61" model="nationality">
+		<field name="name">
+			Suiza</field>
+		<field name="code_mrl">
+			61</field>
+	</record>
+	<record id="nationality_62" model="nationality">
+		<field name="name">
+			Tailandesa</field>
+		<field name="code_mrl">
+			62</field>
+	</record>
+	<record id="nationality_63" model="nationality">
+		<field name="name">
+			Taiwanesa</field>
+		<field name="code_mrl">
+			63</field>
+	</record>
+	<record id="nationality_64" model="nationality">
+		<field name="name">
+			Turca</field>
+		<field name="code_mrl">
+			64</field>
+	</record>
+	<record id="nationality_65" model="nationality">
+		<field name="name">
+			Ucraniana</field>
+		<field name="code_mrl">
+			65</field>
+	</record>
+	<record id="nationality_66" model="nationality">
+		<field name="name">
+			Uruguaya</field>
+		<field name="code_mrl">
+			66</field>
+	</record>
+	<record id="nationality_67" model="nationality">
+		<field name="name">
+			Venezolana</field>
+		<field name="code_mrl">
+			67</field>
+	</record>
+	<record id="nationality_68" model="nationality">
+		<field name="name">
+			Vietnamita</field>
+		<field name="code_mrl">
+			68</field>
+	</record>
+</data>
+</openerp>
