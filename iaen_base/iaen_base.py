@@ -27,7 +27,7 @@ from openerp.tools.float_utils import float_round as round
 import openerp.addons.decimal_precision as dp
 import openerp.tools.image as imageoerp
 import re
-
+from validation import validation
 
 class identification_type(osv.osv):
     _name = "identification.type"
@@ -152,23 +152,18 @@ class parish(osv.osv):
     }
 
 
-class blood_type(osv.osv):
+class blood_type(osv.osv, validation):
 	""" Clase para los Tipos de Sangre """ 
 	_name = "blood.type"
 	_description = "Registra los tipos de sangre"
 	_columns = {
 		'name': fields.char("Nombre", size=3, required=True),
-		'code_mrl': fields.integer('Código MRL', required=True) 
+		'code_mrl': fields.char('Código MRL', size=3)
 	}
 	_order = "name"
 	_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un Tipo de Sangre con ese nombre.')),
-			('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese Código Mrl')]
-	def _no_numbers(self, cr, uid, ids):
-		""" Valida que una cadena de caracteres no contenga dígitos"""
-		for bloody_type in self.browse(cr, uid, ids):
-			if re.search("[0-9]", bloody_type.name): return False
-		return True 
-	_constraints = [(_no_numbers, _(u"El Tipo de Sangre no debe contener números."), ['name'])]
+			('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese Código Mrl'))]
+	_constraints = [(validation.no_numbers, _(u"El Tipo de Sangre no debe contener números."), ['name'])]
 
 class civil_status(osv.osv):
     _name = "civil.status"
@@ -203,23 +198,18 @@ class family_relationship(osv.osv):
 #    _constraints = [(_alphabetical, _(u"El Tipo de dato es invalido."), ['name'])]
 
 
-class nationality(osv.osv):
+class nationality(osv.osv, validation):
 	""" Clase para las Nacionalidades """
 	_name = "nationality"
 	_description = "Registra las nacionalidades"
 	_columns = {
 		'name': fields.char("Nombre", size=45, required=True),
-		'code_mrl': fields.integer("Código MRL", required=True)
+		'code_mrl': fields.char("Código MRL", size=3, required=False)
 	}
 	_order = "name"
 	_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe una Nacionalidad con ese nombre.')),
 			('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese Código Mrl'))]
-	def _only_letters(self, cr, uid, ids):
-		""" Valida que una cadena contenga únicamente letras, incluyendo tildes y ñ solamente """
-		for nationality in self.browse(cr, uid, ids):
-			if not re.match(u"^[ñA-Za-zÁÉÍÓÚáéíóúü\s]+$", nationality.name): return False
-		return True 
-	_constraints = [(_only_letters, _(u"La Nacionalidad debe contener letras únicamente"), ['name'])]
+	_constraints = [(validation.only_letters, _(u"La Nacionalidad debe contener letras únicamente"), ['name'])]
 
 class instruction(osv.osv):
 	#"""Clase para las Instrucciones"""
@@ -266,7 +256,7 @@ class bank_account_type(osv.osv):
     }
 
 #TIPO DE DISCAPACIDAD
-class type_disability(osv.osv):    
+class type_disability(osv.osv, validation):    
     _name = "type.disability"
     _description = "Tipo de Discapacidad"       
     _order = "name"
@@ -274,18 +264,14 @@ class type_disability(osv.osv):
     _columns={
             "name": fields.char("Nombre", size=30, required=True),
             "description": fields.text("Descripcion"),
-            "code_mrl": fields.integer("Código MRL"),
+            "code_mrl": fields.char("Código MRL", size=3),
     }
-    def _alphabetical(self, cr, uid, ids):
-        for bloody_type in self.browse(cr, uid, ids):
-            if not (re.search("[a-z, A-Z]", bloody_type.name)): return False
-        return True 
 
-    _constraints = [(_alphabetical, _(u"El Tipo de dato es inválido."), ['name'])]
+    _constraints = [(validation.only_letters, _(u"El Tipo de dato es inválido."), ['code_mrl'])]
 
 
 #TIPO DE EVENTO
-class event_type(osv.osv):    
+class event_type(osv.osv, validation):    
     _name = "event.type"
     _description = "Tipo de Evento "       
     _order = "name"
