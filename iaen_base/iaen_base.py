@@ -158,7 +158,7 @@ class blood_type(osv.osv, validation):
 	_description = "Registra los tipos de sangre"
 	_columns = {
 		'name': fields.char("Nombre", size=3, required=True),
-		'code_mrl': fields.integer('Código MRL', required=False) 
+		'code_mrl': fields.char('Código MRL', size=3)
 	}
 	_order = "name"
 	_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un Tipo de Sangre con ese nombre.')),
