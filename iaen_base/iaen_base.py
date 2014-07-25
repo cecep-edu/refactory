@@ -87,7 +87,7 @@ class res_country(osv.osv):
     """
     _inherit = "res.country"
     _columns = {
-        "code_mrl": fields.integer("Código MRL"),
+        "code_mrl": fields.char("Codigo MRL", size=3),
     }
 
 class res_country_state(osv.osv):
@@ -98,7 +98,7 @@ class res_country_state(osv.osv):
     """
     _inherit = "res.country.state"
     _columns = {
-        "code_mrl": fields.integer("Código MRL"),
+        "code_mrl": fields.char("Codigo MRL", size=3),
         "zone_id": fields.many2one("zones","Zona",help="Distribución zonal, a la que pertenece la provincia")
     }
 
@@ -128,7 +128,7 @@ class canton(osv.osv):
     _order = "name"
     _columns = {
         "name": fields.char("Ciudad/Cantón", size=15, required=True),
-        "code_mrl": fields.integer("Código MRL"),
+        "code_mrl": fields.char("Codigo MRL", size=3),
         "country_state_id": fields.many2one("res.country.state","Provincia",required=True),
     }
 
@@ -146,7 +146,7 @@ class parish(osv.osv):
     _order = "name"
     _columns = {
         "name": fields.char("Parroquia", size=15, required=True),
-        "code_mrl": fields.integer("Código MRL"),
+        "code_mrl": fields.char("Codigo MRL", size=3),
         "canton_id": fields.many2one("canton","Cantón",required=True),
         "description": fields.text("Descripción"),
     }
@@ -181,7 +181,6 @@ class civil_status(osv.osv):
         'name' : fields.char("Nombre", size=50, required=True),
     }
 
-
 #PARENTESCO FAMILIAR
 class family_relationship(osv.osv):    
     _name = "family.relationship"
@@ -191,7 +190,7 @@ class family_relationship(osv.osv):
     _columns={
             "name": fields.char("Nombre", size=20, required=True),
             "description": fields.text("Descripcion"),
-            "code_mrl": fields.integer("Código MRL"),
+            "code_mrl": fields.char("Codigo MRL", size=3),
     }
     def _alphabetical(self, cr, uid, ids):
         for bloody_type in self.browse(cr, uid, ids):
@@ -246,7 +245,7 @@ class entity_finance(osv.osv):
             "code_mrl" : fields.integer("Codigo MRL", size=3),
             "name" : fields.char("Nombre",size=50,required=True),
     }
-
+  
 class bank_account_type(osv.osv):
     """Clase de los tipos de cuentas bancarias"""
     _name="bank.account.type"
@@ -260,7 +259,7 @@ class bank_account_type(osv.osv):
              "code_mrl" : fields.integer("Codigo MRL", size=3),
             "name" : fields.char("Nombre",size=50,required=True),
     }
-
+ 
 #TIPO DE DISCAPACIDAD
 class type_disability(osv.osv):    
     _name = "type.disability"
@@ -270,7 +269,7 @@ class type_disability(osv.osv):
     _columns={
             "name": fields.char("Nombre", size=30, required=True),
             "description": fields.text("Descripcion"),
-            "code_mrl": fields.integer("Código MRL"),
+            "code_mrl": fields.char("Codigo MRL", size=3),
     }
     def _alphabetical(self, cr, uid, ids):
         for bloody_type in self.browse(cr, uid, ids):
@@ -289,7 +288,7 @@ class event_type(osv.osv):
     _columns={
             "name": fields.char("Nombre", size=20, required=True),
             "description": fields.text("Descripcion"),
-            "code_mrl": fields.integer("Código MRL"),
+            "code_mrl": fields.char("Codigo MRL", size=3),
     }
 """    def _alphabetical(self, cr, uid, ids):
         for bloody_type in self.browse(cr, uid, ids):
@@ -308,7 +307,7 @@ class certified_type(osv.osv):
     _columns={
             "name": fields.char("Nombre", size=15, required=True),
             "description": fields.text("Descripcion"),
-            "code_mrl": fields.integer("Código MRL"),
+            "code_mrl": fields.char("Codigo MRL", size=3),
     }
 """    def _alphabetical(self, cr, uid, ids):
         for bloody_type in self.browse(cr, uid, ids):
@@ -323,9 +322,9 @@ class hr_job(osv.osv):
     _inherit = "hr.job"
     _sql_constraints = [('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))]
     _columns={
-           "code_mrl": fields.integer("Código MRL"),
+           "code_mrl": fields.char("Codigo MRL", size=3),
     }
-
+  
 #CLASE PARA IDIOMAS
 class language_type(osv.osv):    
     _name="language.type"
@@ -349,7 +348,7 @@ class input_motive(osv.osv):
         "name" : fields.char("Nombre",size=100,required=True), 
         "description": fields.text("Descripción")       
     }
-
+  
 class output_motive(osv.osv):    
     _name="output.motive"
     _description="Motivos de Salida Laboral"
@@ -360,7 +359,7 @@ class output_motive(osv.osv):
     _columns={
         "code_mrl": fields.integer("Codigo MRL"),
         "name" : fields.char("Nombre",size=100,required=True), 
-        "description": fields.text("Descripción")       
+        "description": fields.text("Descripción"),       
     }
 
 class entity_type(osv.osv):
@@ -371,9 +370,24 @@ class entity_type(osv.osv):
         ('name_uniq', 'unique(name)', _(u'Ya existe un registro con el mismo nombre')),
         ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))]
     _columns={
-        "code_mrl": fields.integer("Codigo MRL"),
+        "code_mrl": fields.char("Codigo MRL", size=3),
         "name" : fields.char("Nombre",size=100,required=True), 
-        "description": fields.text("Descripción")       
+        "description": fields.text("Descripción"),       
+    }
+
+class entity_public(osv.osv):
+    _name="entity.public"
+    _description="Entidades Publicas"
+    _order = "name" 
+    _sql_constraints = [
+        ('name_uniq', 'unique(name)', _(u'Ya existe un registro con el mismo nombre')),
+        #('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
+    ]       
+    _columns={
+        #"code_mrl": fields.char("Codigo MRL", size=3),
+        "ruc": fields.char("R.U.C.",size=13), 
+        "name" : fields.char("Nombre",size=100,required=True), 
+        "description": fields.text("Descripción"),       
     }
 
 #CLASE: NOTARIAS
@@ -384,7 +398,7 @@ class name_notary(osv.osv):
     _sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un campo con el mismo nombre'))]
     _columns={
             "name": fields.char("Nombre", size=30, required=True),
-            "code_mrl": fields.integer("Código MRL"),
+            "code_mrl": fields.char("Codigo MRL", size=3),
     }
     def _alphabetical(self, cr, uid, ids):
         for bloody_type in self.browse(cr, uid, ids):
@@ -401,7 +415,7 @@ class indian_nationality(osv.osv):
     _sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un campo con el mismo nombre'))]
     _columns={
             "name": fields.char("Nombre", size=30, required=True),
-            "code_mrl": fields.integer("Código MRL"),
+            "code_mrl": fields.char("Codigo MRL", size=3),
     }
     def _alphabetical(self, cr, uid, ids):
         for bloody_type in self.browse(cr, uid, ids):

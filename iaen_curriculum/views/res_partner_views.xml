@@ -124,12 +124,14 @@
 		          <tree string="Experiencia Laboral" editable="bottom">
 		            <field name="init_date" on_change="on_date(init_date,end_date)"/>
 		            <field name="end_date" on_change="on_date(init_date,end_date)" />
-		            <field name="entity_type_id"/>
+		            <field name="entity_type_id" on_change="on_entity(entity_type_id)"/>
+		            <field name="entity_public_id" />
 		            <field name="company"/>
 		            <field name="jobs_type_id"/>
 		            <field name="input_motive_id"/>
 		            <field name="output_motive_id"/>
 		            <field name="functions"/>
+		            <field name="state" invisible="True"/>
 		          </tree>
 	            </field>
 	          </page>

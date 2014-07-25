@@ -40,7 +40,7 @@ class instruction_info(osv.osv):
         'specialization_type': fields.selection([('2','Diplomado'),('3', 'Especialidad'),('4', 'Maestria')
             ,('5', 'Doctorado')],'Tipo de Especialización', readonly=True, states={'cuarto':[('readonly',False), ('required',True)]}),
         'name_institution': fields.char("Nombre de la Institución", size=100, required=True),
-        'specialization': fields.char("Especialización", size=200, required=True),
+        'specialization': fields.char("Especialización", size=200),
         'title' : fields.char("Título", size=150, required=True),
         'register': fields.char("Registro SENESCYT", size=50),
         'graduate': fields.boolean("Egresado", requiered=True),
@@ -70,14 +70,28 @@ class experience_info(osv.osv):
         'init_date' : fields.date("Fecha de Inicio", required=True),
         'end_date': fields.date("Fecha de Fin", required=True),
         'entity_type_id': fields.many2one("entity.type", "Tipo de Institución", required=True),
-        'company' : fields.char("Organización/Empresa", size=200, required=True),
+        'company' : fields.char("Organización/Empresa", 
+            size=200, 
+            #invisible=False,
+            states={
+                'p':[('required',False),('readonly','True')],
+                'o':[('required',True)]
+            }),
+        'entity_public_id': fields.many2one("entity.public", "Entidad Pública", 
+            readonly=True,
+            states={
+                'p':[('readonly','False'),('required',True)],
+            }),
         'jobs_type_id': fields.many2one("hr.job", "Denominación del Puesto", required=True),
-        'functions' : fields.text("Responsabilidades/Actividades/Funciones", required=True),
+        'functions' : fields.text("Responsabilidades/Actividades/Funciones"),
         'input_motive_id': fields.many2one("input.motive", "Motivo de Entrada", required=True),
         'output_motive_id': fields.many2one("output.motive", "Motivo de Salida", required=True),
         'partner_id' : fields.many2one("res.partner"),
+        'state': fields.selection([('p', 'p'),('o', 'o')], invisible=True)
     }
-   
+    _defaults = {
+        'state':'o',
+    }
     def on_date(self, cr, uid, ids, init_date, end_date):
     	if end_date:
 	    	if(init_date > end_date): 	    		
@@ -87,6 +101,15 @@ class experience_info(osv.osv):
 				return {'value': {}}
 	else:
 		return {'value': {}}
+
+    def on_entity(self, cr, uid, ids, entity_id):
+        if entity_id:
+            obj = self.pool.get('entity.type').browse(cr,uid,entity_id)
+            if obj.name.upper() == u"PÚBLICA":
+                return {'value':{'state':'p'}}
+            else:
+                return {'value':{'state':'o'}}
+
 
 class bank_info(osv.osv):
     """Clase de la informacion bancaria de los usuarios"""
@@ -114,7 +137,7 @@ class family_burden(osv.osv):
     #_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un parentesco con el mismo nombre'))]
     _columns={
             "name": fields.char("Nombre", size=20, required=True),
-	    "last_name": fields.char("Apellido", size=20, required=True),
+	       "last_name": fields.char("Apellido", size=20, required=True),
             "type_id": fields.many2one("identification.type", "Tipo de identificación", required=True),
             "number_id": fields.char("Nro Identificación", size=15, required=True),
             "type_rel_family": fields.many2one("family.relationship","Tipo de Relación"),
