@@ -4,41 +4,49 @@
 		<record model="blood.type" id="blood_type_a_p">
 			<field name="name">A+</field>
             <field name="descripcion"/>
+			<field name="code_mrl">2</field>
 		</record>
 
         <record model="blood.type" id="blood_type_a_n">
 			<field name="name">A-</field>
             <field name="descripcion"/>
+			<field name="code_mrl">1</field>
 		</record>
 
         <record model="blood.type" id="blood_type_ab_p">
 			<field name="name">AB+</field>
             <field name="descripcion"/>
+			<field name="code_mrl">4</field>
 		</record>
 
         <record model="blood.type" id="blood_type_ab_n">
 			<field name="name">AB-</field>
             <field name="descripcion"/>
+			<field name="code_mrl">3</field>
 		</record>
 
         <record model="blood.type" id="blood_type_b_p">
 			<field name="name">B+</field>
             <field name="descripcion"/>
+			<field name="code_mrl">6</field>
 		</record>
 
         <record model="blood.type" id="blood_type_b_n">
 			<field name="name">B-</field>
             <field name="descripcion"/>
+			<field name="code_mrl">5</field>
 		</record>
 
         <record model="blood.type" id="blood_type_o_p">
 			<field name="name">O+</field>
             <field name="descripcion"/>
+			<field name="code_mrl">8</field>
 		</record>
 
         <record model="blood.type" id="blood_type_o_n">
 			<field name="name">O-</field>
             <field name="descripcion"/>
+			<field name="code_mrl">7</field>
 		</record>
 	</data>
 </openerp>
