@@ -20,21 +20,28 @@ class IaenCurriculumWs:
 		client = Client(url='https://www.bsg.gob.ec/sw/RC/BSGSW01_Consultar_Cedula?wsdl')
 		client.set_options(soapheaders=wss_header)
 		client_response = client.service.BusquedaPorCedula(identification, 'testroot', 'Sti1DigS21')
-		data = {
-			"address_1": str(client_response['CalleDomicilio']),
-			"house_number": str(client_response['NumeroDomicilio']),
-			"state_residency": str(client_response['Domicilio'].split('/')[0]).capitalize(),
-			"city_residency": str(client_response['Domicilio'].split('/')[1]).capitalize(),
-			"parish_residency": str(client_response['Domicilio'].split('/')[2]).capitalize(),
-			"state_birth": str(client_response['LugarNacimiento'].split('/')[0]).capitalize(),
-			"city_birth": str(client_response['LugarNacimiento'].split('/')[1]).capitalize(),
-			"parish_birth": str(client_response['LugarNacimiento'].split('/')[2]).capitalize(),
-			"civil_status": str(client_response['EstadoCivil']).capitalize(),
-			"birth_date": str(client_response['FechaNacimiento']),
-			"gender": str(client_response['Genero']).capitalize(),
-			"nationality": str(client_response['Nacionalidad']),
-			"name": str(client_response['Nombre'])
-		}
+
+		try: # and not client_response["Mensaje"]
+			data = {
+				"address_1": str(client_response['CalleDomicilio']),
+				"house_number": str(client_response['NumeroDomicilio']),
+				"state_residency": str(client_response['Domicilio'].split('/')[0]).capitalize(),
+				"city_residency": str(client_response['Domicilio'].split('/')[1]).capitalize(),
+				"parish_residency": str(client_response['Domicilio'].split('/')[2]).capitalize(),
+				"state_birth": str(client_response['LugarNacimiento'].split('/')[0]).capitalize(),
+				"city_birth": str(client_response['LugarNacimiento'].split('/')[1]).capitalize(),
+				"parish_birth": str(client_response['LugarNacimiento'].split('/')[2]).capitalize(),
+				"civil_status": str(client_response['EstadoCivil']).capitalize(),
+				"birth_date": str(client_response['FechaNacimiento']),
+				"gender": str(client_response['Genero']).capitalize(),
+				"nationality": str(client_response['Nacionalidad']),
+				"name": str(client_response['Nombre'])
+			}
+		except AttributeError:
+			data = {}
+		except KeyError:
+			data = {}
+
 
 		return data
 

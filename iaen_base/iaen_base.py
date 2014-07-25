@@ -27,8 +27,6 @@ from openerp.tools.float_utils import float_round as round
 import openerp.addons.decimal_precision as dp
 import openerp.tools.image as imageoerp
 import re
-import sys
-sys.path.append("/var/www/refactory/")
 from validation import Validation
 
 class identification_type(osv.osv):

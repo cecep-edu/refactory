@@ -27,9 +27,6 @@ from openerp.tools.float_utils import float_round as round
 import openerp.addons.decimal_precision as dp
 import openerp.tools.image as imageoerp
 import re
-import sys
-sys.path.append("/var/www/refactory/")
-from validation import Validation
 
 
 class instruction_info(osv.osv):
@@ -91,7 +88,7 @@ class experience_info(osv.osv):
 	else:
 		return {'value': {}}
 
-class bank_info(osv.osv, Validation):
+class bank_info(osv.osv):
     """Clase de la informacion bancaria de los usuarios"""
     _name="bank.info"
     _description="Informacion bancaria"
@@ -103,7 +100,6 @@ class bank_info(osv.osv, Validation):
             "number" : fields.char("Número",size=15,required=True),
 			"partner_id": fields.many2one("res.partner")
     }
-    _constraints = [(Validation.only_numbers, _(u"Debe contener solo números."), ['Numero'])]
 
 class family_burden(osv.osv):    
     _name = "family.burden"
