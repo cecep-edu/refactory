@@ -145,7 +145,7 @@ class parish(osv.osv):
     _description = u'Parroquias que pertenecen a un cantón'
     _order = "name"
     _columns = {
-        "name": fields.char("Parroquia", size=15, required=True),
+        "name": fields.char("Parroquia", size=70, required=True),
         "code_mrl": fields.integer("Código MRL"),
         "canton_id": fields.many2one("canton","Cantón",required=True),
         "description": fields.text("Descripción"),
