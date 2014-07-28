@@ -163,7 +163,8 @@ class blood_type(osv.osv, validation):
 	_order = "name"
 	_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un Tipo de Sangre con ese nombre.')),
 			('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese Código Mrl'))]
-	_constraints = [(validation.no_numbers, _(u"El Tipo de Sangre no debe contener números."), ['name'])]
+	_constraints = [(validation.no_numbers, _(u"El Tipo de Sangre no debe contener números."), ['name']),
+			(validation.only_numbers, _("El Código MRL debe contener sólo números"), ['code_mrl'])]
 
 class civil_status(osv.osv):
     _name = "civil.status"
