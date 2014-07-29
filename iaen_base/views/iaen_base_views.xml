@@ -87,14 +87,14 @@
 	</record>
 
 
-    <!-- Ingreso de identidad de genero -->
+    <!-- Ingreso de identidad de sexo -->
     <record id="view_type_sex_tree" model="ir.ui.view">
       <field name="name">view.type.sex.tree</field>
       <field name="model">type.sex</field>
       <field name="arch" type="xml">
         <tree string="Tipo de sexo">
-          <field name="name"/>
           <field name="code_mrl"/>
+          <field name="name"/>
         </tree>
       </field>
     </record>	
@@ -106,8 +106,8 @@
         <form string="Generos" version="7.0">
           <sheet>
 	    <group col="2" colspan="2">
-	      <field name="name"/>
 	      <field name="code_mrl"/>
+	      <field name="name"/>
 	    </group>
           </sheet>
         </form>
@@ -389,9 +389,9 @@
       <field name="model">family.relationship</field>
       <field name="arch" type="xml">
 	    <tree string="Parentesco Familiar">
+	      <field name="code_mrl"/>
 	      <field name="name"/>
 	      <field name="description"/>
-	      <field name="code_mrl"/>
 	    </tree>
       </field>
     </record>	
@@ -400,13 +400,13 @@
       <field name="name">view.family.relationship.form</field>
       <field name="model">family.relationship</field>
       <field name="arch" type="xml">
-	    <form string="Parentesco Familiar" version="7.0">
+	<form string="Parentesco Familiar" version="7.0">
           <sheet>
-	        <group col="2" colspan="2">
-	          <field name="name"/>
-	          <field name="description"/>
-		  <field name="code_mrl"/>
-	        </group>
+	    <group col="2" colspan="2">
+	      <field name="code_mrl"/>
+	      <field name="name"/>
+	      <field name="description"/>
+	    </group>
           </sheet>	  
         </form>
       </field>
@@ -473,8 +473,9 @@
       <field name="model">type.disability</field>
       <field name="arch" type="xml">
         <tree string="Tipo de discapacidad">
-	      <field name="name"/>
-	      <field name="description"/>
+	  <field name="code_mrl"/>
+	  <field name="name"/>
+	  <field name="description"/>
         </tree>
       </field>
     </record>	
@@ -485,10 +486,11 @@
       <field name="arch" type="xml">
         <form string="Tipo de discapacidad" version="7.0">
           <sheet>
-	        <group col="2" colspan="2">
-	          <field name="name"/>
-	          <field name="description"/>
-	        </group>
+	    <group col="2" colspan="2">
+	      <field name="code_mrl"/>
+	      <field name="name"/>
+	      <field name="description"/>
+	    </group>
           </sheet>
         </form>
       </field>
@@ -501,6 +503,7 @@
       <field name="model">event.type</field>
       <field name="arch" type="xml">
 	    <tree string="Tipo de Evento">
+	      <field name="code_mrl"/>
 	      <field name="name"/>
 	      <field name="description"/>
 	    </tree>
@@ -511,14 +514,15 @@
       <field name="name">event.type.relationship.form</field>
       <field name="model">event.type</field>
       <field name="arch" type="xml">
-	    <form string="Tipo de Evento" version="7.0">
+	<form string="Tipo de Evento" version="7.0">
           <sheet>
-	        <group col="2" colspan="2">
-	          <field name="name"/>
-	          <field name="description"/>
-	        </group>
+	    <group col="2" colspan="2">
+	      <field name="code_mrl"/>
+	      <field name="name"/>
+	      <field name="description"/>
+	    </group>
           </sheet>
-	    </form>
+	</form>
       </field>
     </record>
 	
@@ -527,10 +531,11 @@
       <field name="name">view.certified.type.tree</field>
       <field name="model">certified.type</field>
       <field name="arch" type="xml">
-	    <tree string="Tipo de Evento">
-	      <field name="name"/>
-	      <field name="description"/>
-	    </tree>
+	<tree string="Tipo de Certificado">
+	  <field name="code_mrl"/>
+	  <field name="name"/>
+	  <field name="description"/>
+	</tree>
       </field>
     </record>	
 
@@ -538,14 +543,15 @@
       <field name="name">view.certified.type.form</field>
       <field name="model">certified.type</field>
       <field name="arch" type="xml">
-	    <form string="Tipo de certificado" version="7.0">
+	<form string="Tipo de certificado" version="7.0">
           <sheet>
-	        <group col="2" colspan="2">
-	          <field name="name"/>
-	          <field name="description"/>
-	        </group>
+	    <group col="2" colspan="2">
+	      <field name="code_mrl"/>
+	      <field name="name"/>
+	      <field name="description"/>
+	    </group>
           </sheet>
-	    </form>
+	</form>
       </field>
     </record>
 
@@ -684,8 +690,8 @@
       <field name="model">name.notary</field>
       <field name="arch" type="xml">
         <tree string="Notaria del Ecuador">
-	      <field name="name"/>
 	      <field name="code_mrl"/>
+	      <field name="name"/>
         </tree>
       </field>
     </record>	
@@ -697,8 +703,8 @@
         <form string="Notaria del Ecuador" version="7.0">
           <sheet>
 	    <group col="2" colspan="2">
-	      <field name="name"/>
 	      <field name="code_mrl"/>
+	      <field name="name"/>
 	    </group>
           </sheet>
         </form>
@@ -711,12 +717,12 @@
       <field name="model">indian.nationality</field>
       <field name="arch" type="xml">
         <tree string="Nacionalidad Indigena">
-	  <field name="name"/>
 	  <field name="code_mrl"/>
+	  <field name="name"/>
         </tree>
       </field>
     </record>	
-
+    
     <record id="view_indian_nationality_form" model="ir.ui.view">
       <field name="name">view.indian.nationality.form</field>
       <field name="model">indian.nationality</field>
@@ -724,8 +730,8 @@
         <form string="Nacional Indigina" version="7.0">
           <sheet>
 	    <group col="2" colspan="2">
-	      <field name="name"/>
 	      <field name="code_mrl"/>
+	      <field name="name"/>
 	    </group>
           </sheet>
         </form>
