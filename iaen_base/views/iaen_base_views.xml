@@ -64,8 +64,9 @@
 	  <field name="model">identification.type</field>
 	  <field name="arch" type="xml">
 		<tree string="Tipo de Identificación">
-		  <field name="name"/>
-		  <field name="description"/>
+		  	<field name="code_mrl"/>
+		  	<field name="name"/>
+		  	<field name="description"/>
 		</tree>
 	  </field>
 	</record>
@@ -78,8 +79,9 @@
 		<form string="Tipo de Identificación" version="7.0">
           <sheet>
 		    <group col="2" colspan="2">
-			  <field name="name"/>
-			  <field name="description"/>
+			  	<field name="code_mrl"/>
+			  	<field name="name"/>
+			  	<field name="description"/>
 		    </group>
           </sheet>
 		</form>
@@ -121,8 +123,9 @@
 	  <field name="model">ethnic.group</field>
 	  <field name="arch" type="xml">
 		<tree string="Grupo Étnico">
-		  <field name="name"/>
-		  <field name="description"/>
+		  	<field name="code_mrl"/>
+		  	<field name="name"/>
+		  	<field name="description"/>
 		</tree>
 	  </field>
 	</record>		
@@ -133,10 +136,9 @@
 	  <field name="arch" type="xml">
 		<form string="Grupo Étnico" version="7.0">
           <sheet>
-		    <group col="2" colspan="2">
-			  <field name="name"/>
-			  <field name="description"/>
-		    </group>
+		   		<field name="code_mrl"/>
+			  	<field name="name"/>
+			  	<field name="description"/>
           </sheet>
 		</form>
 	  </field>
@@ -326,8 +328,8 @@
 	  <field name="model">nationality</field>
 	  <field name="arch" type="xml">
 		<tree string="Nacionalidad">
-		  <field name="name"/>
-		  <field name="code_mrl"/>
+		  	<field name="code_mrl"/>
+		  	<field name="name"/>
 		</tree>
 	  </field>
 	</record>	
@@ -340,8 +342,8 @@
           <sheet>
 		    <group  col="2" colspan="2">
 			  <group colspan="2">
-			    <field name="name"/>
 			    <field name="code_mrl"/>
+			    <field name="name"/>
 			  </group>
 		    </group>
           </sheet>
@@ -389,9 +391,9 @@
       <field name="model">family.relationship</field>
       <field name="arch" type="xml">
 	    <tree string="Parentesco Familiar">
-	      <field name="name"/>
-	      <field name="description"/>
-	      <field name="code_mrl"/>
+	      	<field name="code_mrl"/>
+	      	<field name="name"/>
+	      	<field name="description"/>
 	    </tree>
       </field>
     </record>	
@@ -403,9 +405,9 @@
 	    <form string="Parentesco Familiar" version="7.0">
           <sheet>
 	        <group col="2" colspan="2">
-	          <field name="name"/>
-	          <field name="description"/>
-		  <field name="code_mrl"/>
+	          	<field name="code_mrl"/>
+	          	<field name="name"/>
+	          	<field name="description"/>
 	        </group>
           </sheet>	  
         </form>

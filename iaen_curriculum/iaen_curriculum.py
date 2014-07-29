@@ -27,6 +27,7 @@ from openerp.tools.float_utils import float_round as round
 import openerp.addons.decimal_precision as dp
 import openerp.tools.image as imageoerp
 import re
+from validation import validation
 
 
 class instruction_info(osv.osv):
@@ -115,42 +116,36 @@ class bank_info(osv.osv):
     """Clase de la informacion bancaria de los usuarios"""
     _name="bank.info"
     _description="Informacion bancaria"
-    _order="id_entity_finance"
+    #_order="id_entity_finance"
     _sql_constraints = [('name_unique', 'unique(number)', _(u'Ya existe una cuenta con ese número'))]
     _columns={
-            "id_entity_finance": fields.many2one("entity.finance","Entidad Financiera",required=True),
-            "id_bank_account": fields.many2one("bank.account.type","Tipo de Cuenta",required=True),
-            "number" : fields.char("Número",size=15,required=True),
-			"partner_id": fields.many2one("res.partner")
+        "id_entity_finance": fields.many2one("entity.finance","Entidad Financiera",required=True),
+        "id_bank_account": fields.many2one("bank.account.type","Tipo de Cuenta",required=True),
+        "number" : fields.char("Número",size=15,required=True),
+		"partner_id": fields.many2one("res.partner")
     }
-    def _no_char(self, cr, uid, ids):
-        for bank_info in self.browse(cr, uid, ids):
-            if re.search("[^0-9]", bank_info.number): return False
-        return True 
-
-    _constraints = [(_no_char, _(u"Debe contener solo números."), ['Numero'])]
-
-class family_burden(osv.osv):    
+    
+class family_burden(osv.osv, validation):    
     _name = "family.burden"
     _description = "Carga Familiar"       
     _order = "last_name"
     #_sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un parentesco con el mismo nombre'))]
     _columns={
-            "name": fields.char("Nombre", size=20, required=True),
-	       "last_name": fields.char("Apellido", size=20, required=True),
-            "type_id": fields.many2one("identification.type", "Tipo de identificación", required=True),
-            "number_id": fields.char("Nro Identificación", size=15, required=True),
-            "type_rel_family": fields.many2one("family.relationship","Tipo de Relación"),
-            "date_birth": fields.date("Fecha nacimiento", required=True),
-            "phone": fields.char("Teléfono", size=10, requiered=True),
-            "movil": fields.char("Celular", size=10, requiered=True),            
-            "type_instruction": fields.many2one("instruction","Instrucción"),
-            "check_contact_sos": fields.boolean("Contacto emergencia", requiered=True),
-			"partner_id": fields.many2one("res.partner")
+        "name": fields.char("Nombre", size=20, required=True),
+        "last_name": fields.char("Apellido", size=20, required=True),
+        "type_id": fields.many2one("identification.type", "Tipo de identificación", required=True),
+        "number_id": fields.char("Nro Identificación", size=15, required=True),
+        "type_rel_family": fields.many2one("family.relationship","Tipo de Relación"),
+        "date_birth": fields.date("Fecha nacimiento", required=True),
+        "phone": fields.char("Teléfono", size=10, requiered=True),
+        "movil": fields.char("Celular", size=10, requiered=True),            
+        "type_instruction": fields.many2one("instruction","Instrucción"),
+        "check_contact_sos": fields.boolean("Contacto emergencia", requiered=True),
+		"partner_id": fields.many2one("res.partner")
     }
     _defaults = {
         "check_contact_sos": False,
-        }   
+    }  
 
 #TIPO DE ESTUDIOS DE LENGUAJE
 class language_studies(osv.osv):    
@@ -163,7 +158,7 @@ class language_studies(osv.osv):
 	    "percentage_read": fields.integer("Nivel Leído", size=3, required=True),
 	    "percentage_written": fields.integer("Nivel Escrito", size=3, required=True),
 	    "native_language": fields.boolean("lengua materna"),
-            "certificate_proficiency": fields.boolean("Certificado de suficiencia", requiered=True),
+        "certificate_proficiency": fields.boolean("Certificado de suficiencia", requiered=True),
 	    "institution_language": fields.char("Institución que le otorgó", size=30),
 	    "partner_id": fields.many2one("res.partner")
 	    }

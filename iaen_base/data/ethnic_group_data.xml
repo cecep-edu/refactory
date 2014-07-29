@@ -1,39 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
-	<data noupdate="0">
+	<data noupdate="1">
 
 		<record model="ethnic.group" id="ethnic_group_mestizo">
+			<field name="code_mrl">4</field>
 			<field name="name">Mestizo</field>
             <field name="descripcion"/>
 		</record>
 
         <record model="ethnic.group" id="ethnic_group_indigena">
+			<field name="code_mrl">3</field>
 			<field name="name">Indígena</field>
             <field name="descripcion"/>
 		</record>
 
         <record model="ethnic.group" id="ethnic_group_afroecuatoriano">
+			<field name="code_mrl">1</field>
 			<field name="name">Afroecuatoriano</field>
             <field name="descripcion"/>
 		</record>
 
         <record model="ethnic.group" id="ethnic_group_blanco">
+			<field name="code_mrl">2</field>
 			<field name="name">Blanco</field>
             <field name="descripcion"/>
 		</record>
 
 	    <record model="ethnic.group" id="ethnic_group_montubio">
+			<field name="code_mrl">5</field>
 			<field name="name">Montubio</field>
             <field name="descripcion"/>
 		</record>
 
 	    <record model="ethnic.group" id="ethnic_group_mulato">
+			<field name="code_mrl">6</field>
 			<field name="name">Mulato</field>
             <field name="descripcion"/>
 		</record>
 
 	    <record model="ethnic.group" id="ethnic_group_Negro">
+			<field name="code_mrl">7</field>
 			<field name="name">Negro</field>
+            <field name="descripcion"/>
+		</record>
+
+		 <record model="ethnic.group" id="ethnic_group_Negro">
+			<field name="code_mrl">8</field>
+			<field name="name">Otro</field>
             <field name="descripcion"/>
 		</record>
 

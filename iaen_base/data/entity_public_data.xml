@@ -1,6 +1,6 @@
 <?xml version="1.0"  encoding="utf-8"?>
 <openerp>
-<data noupdate="0">
+<data noupdate="1">
 <record model="entity.public" id="entitypublic_1">
 <field name="name">FEDERACION NACIONAL DE TAE KWANDO</field>
 <field name="ruc">0960004480001</field>
