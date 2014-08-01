@@ -100,12 +100,6 @@ class bank_info(osv.osv):
             "number" : fields.char("Número",size=15,required=True),
 			"partner_id": fields.many2one("res.partner")
     }
-    def _no_char(self, cr, uid, ids):
-        for bank_info in self.browse(cr, uid, ids):
-            if re.search("[^0-9]", bank_info.number): return False
-        return True 
-
-    _constraints = [(_no_char, _(u"Debe contener solo números."), ['Numero'])]
 
 class family_burden(osv.osv):    
     _name = "family.burden"
