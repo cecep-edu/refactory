@@ -100,12 +100,6 @@ class bank_info(osv.osv):
             "number" : fields.char("Número",size=15,required=True),
 			"partner_id": fields.many2one("res.partner")
     }
-    def _no_char(self, cr, uid, ids):
-        for bank_info in self.browse(cr, uid, ids):
-            if re.search("[^0-9]", bank_info.number): return False
-        return True 
-
-    _constraints = [(_no_char, _(u"Debe contener solo números."), ['Numero'])]
 
 class family_burden(osv.osv):    
     _name = "family.burden"
@@ -171,10 +165,8 @@ class info_training(osv.osv):
 		"name": fields.char("Nombre", size=35, required=True),
 		"date_star": fields.date("Fecha inicio", required=True),
 		"date_end": fields.date("Fecha fin", required=True),
-		"event_id": fields.many2one("event.type", "Tipo de evento", required=True),
-		"certified_for": fields.char("Certificado por", size=10, requiered=True),            
-		"duration": fields.char("Duración/horas", size=4, required=True),
-		#"certified_for": fields.char("Certificado por", size=10, requiered=True),            
+		"event_id": fields.many2one("event.type", "Tipo de evento", required=True),		
+		"duration": fields.char("Duración/horas", size=4, required=True),		
 		"certified_type_id": fields.many2one("certified.type", "Tipo de Certificado", required=True),
 		"country_id": fields.many2one("res.country","Pais"),
 		"partner_id": fields.many2one("res.partner"),
