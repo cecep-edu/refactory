@@ -87,7 +87,7 @@ class res_country(osv.osv):
     """
     _inherit = "res.country"
     _columns = {
-        "code_mrl": fields.integer("Código MRL"),
+        "code_mrl": fields.char("Código MRL", size="3"),
     }
 
 class res_country_state(osv.osv):
@@ -98,7 +98,7 @@ class res_country_state(osv.osv):
     """
     _inherit = "res.country.state"
     _columns = {
-        "code_mrl": fields.integer("Código MRL"),
+        "code_mrl": fields.char("Código MRL", size="3"),
         "zone_id": fields.many2one("zones","Zona",help="Distribución zonal, a la que pertenece la provincia")
     }
 
@@ -128,7 +128,7 @@ class canton(osv.osv):
     _order = "name"
     _columns = {
         "name": fields.char("Ciudad/Cantón", size=15, required=True),
-        "code_mrl": fields.integer("Código MRL"),
+        "code_mrl": fields.char("Código MRL", size="3"),
         "country_state_id": fields.many2one("res.country.state","Provincia",required=True),
     }
 
@@ -146,7 +146,7 @@ class parish(osv.osv):
     _order = "name"
     _columns = {
         "name": fields.char("Parroquia", size=15, required=True),
-        "code_mrl": fields.integer("Código MRL"),
+        "code_mrl": fields.char("Código MRL", size="3"),
         "canton_id": fields.many2one("canton","Cantón",required=True),
         "description": fields.text("Descripción"),
     }
