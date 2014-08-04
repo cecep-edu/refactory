@@ -137,10 +137,10 @@
 	            <field name="language_studies_ids" nolabel="1">
 		          <tree string="Idiomas" editable="bottom">
 		            <field name="language_type_id"/>
-		            <field name="percentage_listening"/>
-		            <field name="percentage_spoken"/>
-		            <field name="percentage_read"/>
-		            <field name="percentage_written"/>
+		            <field name="percentage_listening" on_change="on_percentage(percentage_listening, percentage_spoken, percentage_read, percentage_written)"/>
+		            <field name="percentage_spoken" on_change="on_percentage(percentage_listening, percentage_spoken, percentage_read, percentage_written)"/>
+		            <field name="percentage_read" on_change="on_percentage(percentage_listening, percentage_spoken, percentage_read, percentage_written)"/>
+		            <field name="percentage_written" on_change="on_percentage(percentage_listening, percentage_spoken, percentage_read, percentage_written)"/>
 		            <field name="native_language"/>
 		            <field name="certificate_proficiency"/>
 		            <field name="institution_language" attrs="{'invisible':[('certificate_proficiency', '!=', True)], 'required':[('certificate_proficiency', '==', True)]}"/>
@@ -154,11 +154,9 @@
 		            <field name="date_star" on_change="on_date(date_star,date_end)"/>
 		            <field name="date_end" on_change="on_date(date_star,date_end)"/>
 		            <field name="event_id"/>
-		            <field name="certified_for"/>
 		            <field name="duration"/>			      
 		            <field name="certified_type_id"/>
 		            <field name="country_id"/>
-			    <field name="partner_id"/>
 		          </tree>	
 	            </field>
 	          </page>
