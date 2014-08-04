@@ -17,5 +17,5 @@ class validation:
 	def only_numbers(self, cr, uid, ids):
 		""" Valida que una cadena contenga únicamente dígitos. """
 		for record in self.browse(cr, uid, ids):
-			if re.match("^[0-9]+$", record.code_mrl): return False
+			if not re.match("^[0-9]+$", record.code_mrl): return False
 		return True
