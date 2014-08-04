@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
-	<data noupdate="0">
+	<data noupdate="1">
 		<record model="instruction" id="instruction_1">
 			<field name="code_mrl">1</field>
 			<field name="name">Bachillerato</field>
@@ -51,17 +51,20 @@
 			<field name="name">Tercer Nivel</field>
             <field name="descripcion"/>
 		</record>
-		<record model="instruction" id="tercer_nivel">
+		<!--<record model="instruction" id="tercer_nivel">
+			<field name="code_mrl"></field>
 			<field name="name">Títulos de Tercer Nivel</field>
             <field name="descripcion"/>
 		</record>
 		<record model="instruction" id="cuarto_nivel">
+			<field name="code_mrl"></field>
 			<field name="name">Títulos de Cuarto Nivel</field>
             <field name="descripcion"/>
 		</record>
 		<record model="instruction" id="tecnologico">
+			<field name="code_mrl"></field>
 			<field name="name">Títulos de Nivel Técnico o Tecnológico Superior</field>
             <field name="descripcion"/>
-		</record>
+		</record>-->
 	</data>
 </openerp>
