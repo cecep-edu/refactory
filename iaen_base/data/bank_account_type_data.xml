@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
-	<data noupdate="0">
+	<data noupdate="1">
 		<record model="bank.account.type" id="bankcount_ca">
 			<field name="code_mrl">1</field>
 			<field name="name">Cuenta de ahorros</field>
