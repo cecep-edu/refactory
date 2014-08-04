@@ -154,11 +154,9 @@
 		            <field name="date_star" on_change="on_date(date_star,date_end)"/>
 		            <field name="date_end" on_change="on_date(date_star,date_end)"/>
 		            <field name="event_id"/>
-		            <field name="certified_for"/>
 		            <field name="duration"/>			      
 		            <field name="certified_type_id"/>
 		            <field name="country_id"/>
-			    <field name="partner_id"/>
 		          </tree>	
 	            </field>
 	          </page>

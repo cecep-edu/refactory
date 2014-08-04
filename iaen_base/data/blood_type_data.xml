@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
-	<data noupdate="0">
+	<data noupdate="1">
 		<record model="blood.type" id="blood_type_a_p">
 			<field name="name">A+</field>
             <field name="descripcion"/>
