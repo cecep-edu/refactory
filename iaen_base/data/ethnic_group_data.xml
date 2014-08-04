@@ -44,7 +44,7 @@
             <field name="descripcion"/>
 		</record>
 
-		 <record model="ethnic.group" id="ethnic_group_Negro">
+		 <record model="ethnic.group" id="ethnic_group_Otro">
 			<field name="code_mrl">8</field>
 			<field name="name">Otro</field>
             <field name="descripcion"/>
