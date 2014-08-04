@@ -92,16 +92,19 @@ class res_partner(osv.osv):
 								values['instruction_info_ids'] = []
 								for title in data_diplo:
 									#pdb.set_trace()
+									instruction_id = data_diplo[title]['level'].split(' ')[2]
 									print data_diplo[title]['level'].split(' ')[2]
 									state = "otro"
 									if data_diplo[title]['level'].split(' ')[2].lower().find('cuarto')>=0:
 										state="cuarto"
 									else:
+										if data_diplo[title]['level'].split(' ')[2].lower()=='nivel':
+											instruction_id = "técnico" 
 										state="otro"
 
 									val = [{
 										#gender_id = self.get.pool('gender').search(cr,uid,[('name','ilike','casado')])
-										"instruction_id" : self.get_ids(cr, uid, ids, 'instruction', str(data_diplo[title]['level'].split(' ')[2])),
+										"instruction_id" : self.get_ids(cr, uid, ids, 'instruction', str(instruction_id)),
 										"state": state,
 										"name_institution":str(data_diplo[title]['institution_name']),
 										"title": str(data_diplo[title]['title_name']),

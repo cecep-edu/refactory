@@ -67,7 +67,7 @@ class ethnic_group(osv.osv, validation):
 
 
 #CLASE PARA TIPO DE SEXO
-class type_sex(osv.osv):    
+class type_sex(osv.osv, validation):    
     _name="type.sex"
     _description="Tipos de sexo"
     _order = "name"        
@@ -83,9 +83,8 @@ class type_sex(osv.osv):
         (validation.only_numbers, _(u"El Código MRL debe contener solo números."), ['code_mrl'])
     ]
 
-
             
-class zones(osv.osv):
+class zones(osv.osv, validation):
     """
     CRUD con la división política por zonas para el Ecuador
     name: 
@@ -169,7 +168,7 @@ class canton(osv.osv, validation):
         ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
     ]
     _constraints = [
-        (validation.only_numbers, _(u"El Código MRL debe contener solo números."), ['code_mrl'])
+        #(validation.only_numbers, _(u"El Código MRL debe contener solo números."), ['code_mrl'])
     ]
 
 
@@ -191,7 +190,7 @@ class parish(osv.osv, validation):
         "description": fields.text("Descripción"),
     }
     _sql_constraints = [
-        ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
+        #('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
     ]
     _constraints = [(validation.only_numbers, _(u"El Código MRL debe contener solo números."), ['code_mrl'])]
 
@@ -213,6 +212,7 @@ class blood_type(osv.osv, validation):
         (validation.no_numbers, _(u"El nombre del Tipo de Sangre debe contener solo letras."), ['name']),
         (validation.only_numbers, _(u"El Código MRL debe contener solo números."), ['code_mrl'])
     ]
+
 
 class civil_status(osv.osv, validation):
     _name = "civil.status"
@@ -236,19 +236,20 @@ class family_relationship(osv.osv, validation):
     _name = "family.relationship"
     _description = "Parentesco Familiar"       
     _order = "name"
-    _sql_constraints = [('name_unique', 'unique(name)', _(u'Ya existe un parentesco con el mismo nombre'))]
     _columns={
         "code_mrl": fields.char("Código MRL", size=3),
         "name": fields.char("Nombre", size=20, required=True),
         "description": fields.text("Descripción"),
     }
     _sql_constraints = [
-        ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
+        ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl')),
+        ('name_unique', 'unique(name)', _(u'Ya existe un parentesco con el mismo nombre'))
     ]
     _constraints = [
        (validation.no_numbers, _(u"El Parentesco Familiar no debe contener números."), ['name']),
-       (validation.only_numbers, _(u"El Código MRL debe contener solo números."), ['code_mrl'])
+       #(validation.only_numbers, _(u"El Código MRL debe contener solo números."), ['code_mrl'])
     ]
+
 
 class nationality(osv.osv, validation):
 	""" Clase para las Nacionalidades """
@@ -367,9 +368,9 @@ class certified_type(osv.osv,validation):
         ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
     ]
     _columns={
-        "name": fields.char("Nombre", size=15, required=True),
-        "description": fields.text("Descripcion"),
-        "code_mrl": fields.char("Codigo MRL", size=3),
+            "name": fields.char("Nombre", size=20, required=True),
+            "description": fields.text("Descripcion"),
+            "code_mrl": fields.char("Código MRL", size=3),
     }
     _constraints = [
         (validation.only_letters, _(u"El Tipo de Certificado debe contener solo letras."), ['name']),
@@ -394,12 +395,15 @@ class language_type(osv.osv, validation):
     _name="language.type"
     _description="Tipos de lenguajes"
     _order = "name"        
-    _sql_constraints = [('name_uniq', 'unique(name)', _(u'Ya existe un genero con el mismo nombre'))]
+    _sql_constraints = [('name_uniq', 'unique(name)', _(u'Ya existe un campo con el mismo nombre'))]
     _columns={
         "cod_language" : fields.char("Detalle", size=25, required=True),
         "name" : fields.char("Nombre",size=30,required=True),        
     }
-    _constraints = [(validation.only_letters, _(u"El Tipo de lenguajes debe contener solo letras."), ['name'])]
+    _constraints = [
+        #(validation.only_letters, _(u"El Tipo de lenguajes debe contener solo letras."), ['name'])
+    ]
+
 
 class input_motive(osv.osv, validation):
     """Clase de los difrentes motivos para la entrada a un puesto de trabajo"""    
@@ -446,7 +450,7 @@ class entity_type(osv.osv, validation):
     }
     _constraints = [(validation.only_numbers, _(u"El Código MRL debe contener solo números."), ['code_mrl'])]
 
-class entity_public(osv.osv):
+class entity_public(osv.osv, validation):
     """Clase de las entidades publicas que existen en el Ecuador"""      
     _name="entity.public"
     _description="Entidades Publicas"
@@ -477,9 +481,10 @@ class name_notary(osv.osv, validation):
         "code_mrl": fields.char("Codigo MRL", size=3),
     }
     _constraints = [
-        (validation.only_letters, _(u"El nombre de la Notaria debe contener solo letras."), ['name']),
+        #(validation.only_letters, _(u"El nombre de la Notaria debe contener solo letras."), ['name']),
         (validation.only_numbers, _(u"El Código MRL debe contener solo números."), ['code_mrl'])
     ]
+
 
 #CLASE: Nacionalidad Indigena
 class indian_nationality(osv.osv, validation):    
@@ -498,3 +503,9 @@ class indian_nationality(osv.osv, validation):
         (validation.only_letters, _(u"El nombre de la Nacionalidad indigena debe contener solo letras."), ['name']),
         (validation.only_numbers, _(u"El Código MRL debe contener solo números."), ['code_mrl'])
     ]
+    def _alphabetical(self, cr, uid, ids):
+        for bloody_type in self.browse(cr, uid, ids):
+            if not (re.search("[a-z, A-Z]", bloody_type.name)): return False
+        return True 
+
+    _constraints = [(_alphabetical, _(u"El Tipo de dato es inválido."), ['name'])]
