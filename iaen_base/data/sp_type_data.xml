@@ -61,12 +61,6 @@
 			<field name="rmu">1086.00</field>
 			<field name="description"></field>
 		</record>
-		<record model="sp.type" id="sp_10">
-			<field name="name">Servidor Público 4</field>
-			<field name="grade">10</field>
-			<field name="rmu">1086.00</field>
-			<field name="description"></field>
-		</record>
 		<record model="sp.type" id="sp_11">
 			<field name="name">Servidor Público 5</field>
 			<field name="grade">11</field>
