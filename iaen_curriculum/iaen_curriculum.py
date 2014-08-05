@@ -83,7 +83,12 @@ class experience_info(osv.osv):
             states={
                 'p':[('readonly','False'),('required',True)],
             }),
-        'jobs_type_id': fields.many2one("hr.job", "Denominación del Puesto", required=True),
+        'job' : fields.char("Denominación de Puesto", required=True),
+        'sp': fields.many2one("sp.type", "Escala Remuneración", 
+             states={
+                'p':[('required',True),('readonly',False)],
+                'o':[('required',True), ('readonly',True)]
+            }),
         'functions' : fields.text("Responsabilidades/Actividades/Funciones"),
         'input_motive_id': fields.many2one("input.motive", "Motivo de Entrada", required=True),
         'output_motive_id': fields.many2one("output.motive", "Motivo de Salida", required=True),

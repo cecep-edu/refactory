@@ -153,14 +153,21 @@
 			<field name="view_mode">tree,form</field>
 		</record>
 
-		<!-- Ingreso de puestos de trabajo-->
+		<!-- Ingreso de puestos de trabajo
 		<record id="action_job" model="ir.actions.act_window">
 			<field name="name">Puestos de Trabajo</field>
 			<field name="res_model">hr.job</field>
 			<field name="view_type">form</field>
 			<field name="view_mode">tree,form</field>
-		</record>
+		</record>-->
 		
+		<!-- Ingreso de Remuneraciones-->
+		<record id="action_sp" model="ir.actions.act_window">
+			<field name="name">Escala de Remuneraciones</field>
+			<field name="res_model">sp.type</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree,form</field>
+		</record>
 		
 		<!-- Ingreso de Tipos de Entidades-->
 		<record id="action_entity_type" model="ir.actions.act_window">
