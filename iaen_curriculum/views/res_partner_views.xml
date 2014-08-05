@@ -83,15 +83,15 @@
 		          <tree string="Información Bancaria" editable="bottom">
 		            <field name="id_entity_finance"/>
 		            <field name="id_bank_account"/>
-		            <field name="number"/>
+		            <field name="number" on_change="on_nonumber()"/>
 		          </tree>	
 	            </field>
 	          </page>
 	          <page string="Carga Familiar">
 	            <field name="family_burden_ids" nolabel="1">
 		          <tree string="Carga Familiar" editable="bottom">
-		            <field name="name"/>
-		            <field name="last_name"/>
+		            <field name="name" />
+		            <field name="last_name" />
 		            <field name="type_id"/>
 		            <field name="number_id"/>
 		            <field name="type_rel_family"/>
@@ -122,14 +122,16 @@
 	          <page string="Experiencia Laboral">
 	            <field name="experience_info_ids" nolabel="1">
 		          <tree string="Experiencia Laboral" editable="bottom">
-		            <field name="init_date" on_change="on_date(init_date,end_date)"/>
+		            <field name="init_date" on_change="on_date(init_date,end_date)" />
 		            <field name="end_date" on_change="on_date(init_date,end_date)" />
-		            <field name="entity_type_id"/>
+		            <field name="entity_type_id" on_change="on_entity(entity_type_id)" />
+		            <field name="entity_public_id" />
 		            <field name="company"/>
 		            <field name="jobs_type_id"/>
 		            <field name="input_motive_id"/>
 		            <field name="output_motive_id"/>
 		            <field name="functions"/>
+		            <field name="state" invisible="True"/>
 		          </tree>
 	            </field>
 	          </page>
@@ -154,11 +156,9 @@
 		            <field name="date_star" on_change="on_date(date_star,date_end)"/>
 		            <field name="date_end" on_change="on_date(date_star,date_end)"/>
 		            <field name="event_id"/>
-		            <field name="certified_for"/>
 		            <field name="duration"/>			      
 		            <field name="certified_type_id"/>
 		            <field name="country_id"/>
-			    <field name="partner_id"/>
 		          </tree>	
 	            </field>
 	          </page>

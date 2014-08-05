@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
-	<data noupdate="0">
+	<data noupdate="1">
 		<record model="entity.type" id="entity_type_1">
 			<field name="code_mrl">1</field>
 			<field name="name">PRIVADA</field>
