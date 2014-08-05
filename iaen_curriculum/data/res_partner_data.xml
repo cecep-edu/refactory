@@ -1,0 +1,183 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<openerp>
+	<data noupdate="1">
+		<record model="res.partner" id="curriculum_1">
+			<field name="type_sex_id" ref="iaen_base.type_sex_male"></field>
+			<field name="residence_city" ref="iaen_base.canton_13"></field>
+			<field name="identification_numer">1726731160</field>
+			<field name="street">URBANIZACION COROMOTO, CALLE YAMBOAS CASA nRO 58</field>
+			<field name="phone"></field>
+			<field name="mobile">0980466534</field>
+			<field name="email">alexi_4444@hotmail.com</field>
+			<field name="name">ALCIVAR CAICEDO ALEXIS ARIEL</field>
+		</record>
+		<record model="res.partner" id="curriculum_2">
+			<field name="civil_status_id" ref="iaen_base.civil_status_1"></field>
+			<field name="type_sex_id" ref="iaen_base.type_sex_male"></field>
+			<field name="birth_city_id" ref="iaen_base.canton_13"></field>
+			<field name="identification_numer">1721455390</field>
+			<field name="nationality_id" ref="iaen_base.nationality_19"></field>
+			<field name="street">COOP. 17 DICIEMBRE , JUAN MONTALVO Y LIZARDO GARCIA</field>
+			<field name="phone"></field>
+			<field name="mobile">0986204950</field>
+			<field name="email">ruben.alcivar@funcionjudicial.gob.ec</field>
+			<field name="name">ALCIVAR ZAMBRANO RUBEN DARIO</field>
+		</record>
+		<record model="res.partner" id="curriculum_3">
+			<field name="civil_status_id" ref="iaen_base.civil_status_2"></field>
+			<field name="type_sex_id" ref="iaen_base.type_sex_female"></field>
+			<field name="birth_city_id" ref="iaen_base.canton_13"></field>
+			<field name="identification_numer">1708912603</field>
+			<field name="nationality_id" ref="iaen_base.nationality_19"></field>
+			<field name="street">URBANIZACION LOS ROSALES IV ETAPA</field>
+			<field name="phone"></field>
+			<field name="mobile">0979621687</field>
+			<field name="email">jovi_astudillo@hotmail.com</field>
+			<field name="name">JOHANA ALEXANDRA ASTUDILLO AGUILAR</field>
+		</record>
+		<record model="res.partner" id="curriculum_4">
+			<field name="civil_status_id" ref="iaen_base.civil_status_1"></field>
+			<field name="type_sex_id" ref="iaen_base.type_sex_male"></field>
+			<field name="birth_city_id" ref="iaen_base.canton_141"></field>
+			<field name="identification_numer">1716270796</field>
+			<field name="nationality_id" ref="iaen_base.nationality_19"></field>
+			<field name="street">AV 3 DE JULIO Y GARCIA MORENO</field>
+			<field name="phone">052661748</field>
+			<field name="mobile">0994958894</field>
+			<field name="email">pr_alfa7@hotmail.com</field>
+			<field name="name">RAMON ALFREDO AVILA LOOR</field>
+		</record>
+		<record model="res.partner" id="curriculum_5">
+			<field name="civil_status_id" ref="iaen_base.civil_status_2"></field>
+			<field name="type_sex_id" ref="iaen_base.type_sex_male"></field>
+			<field name="birth_city_id" ref="iaen_base.canton_189"></field>
+			<field name="identification_numer">1710319508</field>
+			<field name="nationality_id" ref="iaen_base.nationality_19"></field>
+			<field name="street">LUIS DE RIVERA</field>
+			<field name="phone">023953400</field>
+			<field name="mobile">0987169107</field>
+			<field name="email">marcogabrielbravo@yahoo.es</field>
+			<field name="name">BRAVO CRUZ MARCO GABRIEL</field>
+		</record>
+		<record model="res.partner" id="curriculum_6">
+			<field name="civil_status_id" ref="iaen_base.civil_status_2"></field>
+			<field name="type_sex_id" ref="iaen_base.type_sex_female"></field>
+			<field name="birth_city_id" ref="iaen_base.canton_13"></field>
+			<field name="identification_numer">1722350053</field>
+			<field name="nationality_id" ref="iaen_base.nationality_19"></field>
+			<field name="street">Coop. 30 de Julio Sector 2</field>
+			<field name="phone">02742507</field>
+			<field name="mobile">0989856644</field>
+			<field name="email">veronica.cevallo@funcionjudicial.gob.ec</field>
+			<field name="name">CEVALLOS ARIAS VERONICA MERIBET</field>
+		</record>
+		<record model="res.partner" id="curriculum_7">
+			<field name="civil_status_id" ref="iaen_base.civil_status_1"></field>
+			<field name="type_sex_id" ref="iaen_base.type_sex_female"></field>
+			<field name="birth_city_id" ref="iaen_base.canton_13"></field>
+			<field name="identification_numer">1724887342</field>
+			<field name="nationality_id" ref="iaen_base.nationality_19"></field>
+			<field name="street">IBARRA 104 Y RIO PUTUMAYO</field>
+			<field name="phone"></field>
+			<field name="mobile">0980848488</field>
+			<field name="email">alicia_jao@hotmail.com</field>
+			<field name="name">CHAVARRIA SAAVEDRA ALICIA JACKELINE</field>
+		</record>
+		<record model="res.partner" id="curriculum_8">
+			<field name="civil_status_id" ref="iaen_base.civil_status_1"></field>
+			<field name="type_sex_id" ref="iaen_base.type_sex_female"></field>
+			<field name="birth_city_id" ref="iaen_base.canton_141"></field>
+			<field name="identification_numer">0301898490</field>
+			<field name="nationality_id" ref="iaen_base.nationality_19"></field>
+			<field name="street">VIA PUERTO LIMON KM 12 1/2</field>
+			<field name="phone"></field>
+			<field name="mobile">0998777796</field>
+			<field name="email">titaboo25@hotmail.com</field>
+			<field name="name">DELGADO VELEZ CARMEN DIANA</field>
+		</record>
+		<record model="res.partner" id="curriculum_9">
+			<field name="civil_status_id" ref="iaen_base.civil_status_1"></field>
+			<field name="type_sex_id" ref="iaen_base.type_sex_female"></field>
+			<field name="birth_city_id" ref="iaen_base.canton_13"></field>
+			<field name="identification_numer">2300574403</field>
+			<field name="nationality_id" ref="iaen_base.nationality_19"></field>
+			<field name="street">VIA CHONE KM 1 1/2</field>
+			<field name="phone"></field>
+			<field name="mobile">0959081219</field>
+			<field name="email">karenjackelin_14@hotmail.com</field>
+			<field name="name">FLORES MENDOZA KAREN JACKELINE</field>
+		</record>
+		<record model="res.partner" id="curriculum_10">
+			<field name="civil_status_id" ref="iaen_base.civil_status_1"></field>
+			<field name="type_sex_id" ref="iaen_base.type_sex_male"></field>
+			<field name="birth_city_id" ref="iaen_base.canton_141"></field>
+			<field name="identification_numer">1722185731</field>
+			<field name="nationality_id" ref="iaen_base.nationality_19"></field>
+			<field name="street">URBANIZACION BANCO DEL FOMENTO</field>
+			<field name="phone">022743859</field>
+			<field name="mobile">0997262364</field>
+			<field name="email">jonathan.garzon@funcionjudicial.gob.ec</field>
+			<field name="name">GARZON NARVAEZ JONATHAN OSWALDO</field>
+		</record>
+		<record model="res.partner" id="curriculum_11">
+			<field name="civil_status_id" ref="iaen_base.civil_status_3"></field>
+			<field name="type_sex_id" ref="iaen_base.type_sex_male"></field>
+			<field name="birth_city_id" ref="iaen_base.canton_152"></field>
+			<field name="identification_numer">1101739991</field>
+			<field name="nationality_id" ref="iaen_base.nationality_19"></field>
+			<field name="street">LA NIÑA 236 Y JUAN BAUTISTA</field>
+			<field name="phone">022761263</field>
+			<field name="mobile"></field>
+			<field name="email">mariogordillo.08@hotmail.com</field>
+			<field name="name">GORDILLO CONTENTO MARIO ROGELIO</field>
+		</record>
+		<record model="res.partner" id="curriculum_12">
+			<field name="civil_status_id" ref="iaen_base.civil_status_1"></field>
+			<field name="type_sex_id" ref="iaen_base.type_sex_female"></field>
+			<field name="birth_city_id" ref="iaen_base.canton_115"></field>
+			<field name="identification_numer">1103302699</field>
+			<field name="nationality_id" ref="iaen_base.nationality_19"></field>
+			<field name="street">BARRIO LAS GUADUAS, CALLE NICASSIO SAFADI</field>
+			<field name="phone">022755438</field>
+			<field name="mobile">0993090300</field>
+			<field name="email">anita2482@hotmail.com</field>
+			<field name="name">LEON VELEZ ANA MARIA</field>
+		</record>
+		<record model="res.partner" id="curriculum_13">
+			<field name="civil_status_id" ref="iaen_base.civil_status_3"></field>
+			<field name="type_sex_id" ref="iaen_base.type_sex_female"></field>
+			<field name="birth_city_id" ref="iaen_base.canton_13"></field>
+			<field name="identification_numer">1724133721</field>
+			<field name="nationality_id" ref="iaen_base.nationality_19"></field>
+			<field name="street">URBANIZACION EL CENTENARIO</field>
+			<field name="phone">022767636</field>
+			<field name="mobile">0980185736</field>
+			<field name="email">leisteph_1992@hotmail.com</field>
+			<field name="name">LOPEZ GONZALEZ LEIDY STEPHANIA</field>
+		</record>
+		<record model="res.partner" id="curriculum_14">
+			<field name="civil_status_id" ref="iaen_base.civil_status_3"></field>
+			<field name="type_sex_id" ref="iaen_base.type_sex_female"></field>
+			<field name="birth_city_id" ref="iaen_base.canton_50"></field>
+			<field name="identification_numer">1712304813</field>
+			<field name="nationality_id" ref="iaen_base.nationality_19"></field>
+			<field name="street">COOP. MUNICIPAL CALLE LUIS BORGES Y JOSE MARTI</field>
+			<field name="phone">022748105</field>
+			<field name="mobile">0997474691</field>
+			<field name="email">rositamaldonado211973@hotmail.com</field>
+			<field name="name">MALDONADO RAMOS ROSA DE LAS MERCEDES</field>
+		</record>
+		<record model="res.partner" id="curriculum_15">
+			<field name="civil_status_id" ref="iaen_base.civil_status_1"></field>
+			<field name="type_sex_id" ref="iaen_base.type_sex_female"></field>
+			<field name="birth_city_id" ref="iaen_base.canton_13"></field>
+			<field name="identification_numer">1725073124</field>
+			<field name="nationality_id" ref="iaen_base.nationality_19"></field>
+			<field name="street">CALLE RUILOVA Y AV TSCHILLA</field>
+			<field name="phone">022743654</field>
+			<field name="mobile">0982218701</field>
+			<field name="email">tania.mora@funcionjudicial.gob.ec</field>
+			<field name="name">MORA GAONA TANIA LISBETH</field>
+		</record>
+	</data>
+</openerp>

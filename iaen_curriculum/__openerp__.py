@@ -31,9 +31,11 @@
         'views/res_partner_views.xml',
         'views/res_partner_actions.xml',
         'views/res_partner_menus.xml',
+        'data/res_partner_data.xml',
+        'data/instruction_info_data.xml',
     ],
     'update_xml': [
-        'security/ir.model.access.csv',
+        #'security/ir.model.access.csv',
     ],
     'depends': [
         'iaen_base',
