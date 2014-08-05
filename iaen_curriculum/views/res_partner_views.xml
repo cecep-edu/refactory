@@ -127,7 +127,8 @@
 		            <field name="entity_type_id" on_change="on_entity(entity_type_id)" />
 		            <field name="entity_public_id" />
 		            <field name="company"/>
-		            <field name="jobs_type_id"/>
+		             <field name="sp"/>
+		            <field name="job"/>
 		            <field name="input_motive_id"/>
 		            <field name="output_motive_id"/>
 		            <field name="functions"/>

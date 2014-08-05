@@ -509,3 +509,25 @@ class indian_nationality(osv.osv, validation):
         return True 
 
     _constraints = [(_alphabetical, _(u"El Tipo de dato es inválido."), ['name'])]
+
+#CLASE: Remuneraciones
+class sp_type(osv.osv, validation):   
+    """Clase de las remuneraciones economicas en el sector publico""" 
+    _name = "sp.type"
+    _description = "Escalas Remuneraciones"       
+    _order = "name"
+    _sql_constraints = [
+        ('name_unique', 'unique(name)', _(u'Ya existe un campo con el mismo nombre')),
+        #('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
+    ]
+    _columns={
+        "name": fields.char("Nombre", size=50, required=True),
+        "grade": fields.char("Grado", size=5,),
+        "rmu": fields.float('RMU', digits=(6,2)),
+        "description": fields.text("Descripción"),  
+        #"code_mrl": fields.char("Codigo MRL", size=3),
+    }
+    _constraints = [
+        #(validation.only_letters, _(u"El nombre de la Notaria debe contener solo letras."), ['name']),
+        #(validation.only_numbers, _(u"El Código MRL debe contener solo números."), ['code_mrl'])
+    ]

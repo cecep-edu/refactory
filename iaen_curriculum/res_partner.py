@@ -53,9 +53,7 @@ class res_partner(osv.osv):
                 "experience_info_ids": fields.one2many("experience.info","partner_id", "Experiencia Laboral"),
                 "language_studies_ids": fields.one2many("language.studies","partner_id","Idiomas estudiados"),
                 "info_training_ids": fields.one2many("info.training","partner_id","Capacitaciones"),
-                
         }
-                        
         def on_identification(self, cr, uid, ids, identification_number, identification_type_id):
 			values = {}
 			if identification_number and identification_type_id:

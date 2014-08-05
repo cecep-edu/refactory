@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data noupdate="0">
+		<record model="sp.type" id="sp_1">
+			<field name="name">Servidor Público de Servicios 1</field>
+			<field name="grade">1</field>
+			<field name="rmu">527.00</field>
+			<field name="description"></field>
+		</record>
+		<record model="sp.type" id="sp_2">
+			<field name="name">Servidor Público de Servicios 2</field>
+			<field name="grade">2</field>
+			<field name="rmu">553.00</field>
+			<field name="description"></field>
+		</record>
+		<record model="sp.type" id="sp_3">
+			<field name="name">Servidor Público de Apoyo 1</field>
+			<field name="grade">3</field>
+			<field name="rmu">585.00</field>
+			<field name="description"></field>
+		</record>
+     	<record model="sp.type" id="sp_4">
+			<field name="name">Servidor Público de Apoyo 2</field>
+			<field name="grade">4</field>
+			<field name="rmu">622.00</field>
+			<field name="description"></field>
+		</record>
+		<record model="sp.type" id="sp_5">
+			<field name="name">Servidor Público de Apoyo 3</field>
+			<field name="grade">5</field>
+			<field name="rmu">675.00</field>
+			<field name="description"></field>
+		</record>
+		<record model="sp.type" id="sp_6">
+			<field name="name">Servidor Público de Apoyo 4</field>
+			<field name="grade">6</field>
+			<field name="rmu">733.00</field>
+			<field name="description"></field>
+		</record>
+		<record model="sp.type" id="sp_7">
+			<field name="name">Servidor Público 1</field>
+			<field name="grade">7</field>
+			<field name="rmu">817.00</field>
+			<field name="description"></field>
+		</record>
+		<record model="sp.type" id="sp_8">
+			<field name="name">Servidor Público 2</field>
+			<field name="grade">8</field>
+			<field name="rmu">901.00</field>
+			<field name="description"></field>
+		</record>
+		<record model="sp.type" id="sp_9">
+			<field name="name">Servidor Público 3</field>
+			<field name="grade">9</field>
+			<field name="rmu">986.00</field>
+			<field name="description"></field>
+		</record>
+		<record model="sp.type" id="sp_10">
+			<field name="name">Servidor Público 4</field>
+			<field name="grade">10</field>
+			<field name="rmu">1086.00</field>
+			<field name="description"></field>
+		</record>
+		<record model="sp.type" id="sp_10">
+			<field name="name">Servidor Público 4</field>
+			<field name="grade">10</field>
+			<field name="rmu">1086.00</field>
+			<field name="description"></field>
+		</record>
+		<record model="sp.type" id="sp_11">
+			<field name="name">Servidor Público 5</field>
+			<field name="grade">11</field>
+			<field name="rmu">1212.00</field>
+			<field name="description"></field>
+		</record>
+		<record model="sp.type" id="sp_12">
+			<field name="name">Servidor Público 6</field>
+			<field name="grade">12</field>
+			<field name="rmu">1412.00</field>
+			<field name="description"></field>
+		</record>
+		<record model="sp.type" id="sp_13">
+			<field name="name">Servidor Público 7</field>
+			<field name="grade">13</field>
+			<field name="rmu">1676.00</field>
+			<field name="description"></field>
+		</record>
+		<record model="sp.type" id="sp_14">
+			<field name="name">Servidor Público 8</field>
+			<field name="grade">14</field>
+			<field name="rmu">1760.00</field>
+			<field name="description"></field>
+		</record>
+		<record model="sp.type" id="sp_15">
+			<field name="name">Servidor Público 9</field>
+			<field name="grade">15</field>
+			<field name="rmu">2034.00</field>
+			<field name="description"></field>
+		</record>
+		<record model="sp.type" id="sp_16">
+			<field name="name">Servidor Público 10</field>
+			<field name="grade">16</field>
+			<field name="rmu">2308.00</field>
+			<field name="description"></field>
+		</record>
+		<record model="sp.type" id="sp_17">
+			<field name="name">Servidor Público 11</field>
+			<field name="grade">17</field>
+			<field name="rmu">2472.00</field>
+			<field name="description"></field>
+		</record>
+		<record model="sp.type" id="sp_18">
+			<field name="name">Servidor Público 12</field>
+			<field name="grade">18</field>
+			<field name="rmu">2641.00</field>
+			<field name="description"></field>
+		</record>
+		<record model="sp.type" id="sp_19">
+			<field name="name">Servidor Público 13</field>
+			<field name="grade">19</field>
+			<field name="rmu">2967.00</field>
+			<field name="description"></field>
+		</record>
+		<record model="sp.type" id="sp_20">
+			<field name="name">Servidor Público 14</field>
+			<field name="grade">20</field>
+			<field name="rmu">3542.00</field>
+			<field name="description"></field>
+		</record>
+		<record model="sp.type" id="sp_21">
+			<field name="name">Nivel Jerárquico Superior 1</field>
+			<field name="grade">NJS1</field>
+			<field name="rmu">2226.00</field>
+			<field name="description"></field>
+		</record>
+		<record model="sp.type" id="sp_22">
+			<field name="name">Nivel Jerárquico Superior 2</field>
+			<field name="grade">NJS2</field>
+			<field name="rmu">2546.00</field>
+			<field name="description"></field>
+		</record>
+		<record model="sp.type" id="sp_23">
+			<field name="name">Nivel Jerárquico Superior 3</field>
+			<field name="grade">NJS3</field>
+			<field name="rmu">2783.00</field>
+			<field name="description"></field>
+		</record>
+		<record model="sp.type" id="sp_24">
+			<field name="name">Nivel Jerárquico Superior 4</field>
+			<field name="grade">NJS4</field>
+			<field name="rmu">3339.00</field>
+			<field name="description"></field>
+		</record>
+		<record model="sp.type" id="sp_25">
+			<field name="name">Nivel Jerárquico Superior 5</field>
+			<field name="grade">NJS5</field>
+			<field name="rmu">4174.00</field>
+			<field name="description"></field>
+		</record>
+		<record model="sp.type" id="sp_26">
+			<field name="name">Nivel Jerárquico Superior 6</field>
+			<field name="grade">NJS6</field>
+			<field name="rmu">5009.00</field>
+			<field name="description"></field>
+		</record>
+		<record model="sp.type" id="sp_27">
+			<field name="name">Nivel Jerárquico Superior 7</field>
+			<field name="grade">NJS7</field>
+			<field name="rmu">5566.00</field>
+			<field name="description"></field>
+		</record>
+		<record model="sp.type" id="sp_28">
+			<field name="name">Nivel Jerárquico Superior 8</field>
+			<field name="grade">NJS8</field>
+			<field name="rmu">6122.00</field>
+			<field name="description"></field>
+		</record>
+	</data>
+</openerp>
