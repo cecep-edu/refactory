@@ -127,7 +127,7 @@ class res_partner(osv.osv):
 									values['instruction_info_ids'] += val
 								return {'value': values}
 							else:
-								return {'value': {}}
+								return {'value': values} 
 						else:
 							return {'value': values, 'warning': {'title': 'Error de Cédula', 'message': 'La cédula ingresada no es válida o no existe.'}}
 					else:
