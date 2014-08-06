@@ -334,14 +334,11 @@ class type_disability(osv.osv, validation):
         "description": fields.text("Descripcion"),
         "code_mrl": fields.char("Código MRL", size=3),
     }
-<<<<<<< HEAD
-    _constraints = [(validation.only_letters, _(u"El Tipo de dato es inválido."), ['code_mrl'])]
-=======
     _constraints = [
         (validation.only_letters, _(u"El Tipo de Discapacidad debe contener solo letras."), ['name']),
         (validation.only_numbers, _(u"El Código MRL debe contener solo números."), ['code_mrl'])
     ]
->>>>>>> fdfd6a7a1054ba0f2c738486327e3e5b18f0bec2
+
 
 
 #TIPO DE EVENTO

@@ -74,13 +74,8 @@
                 <field name="india_id" attrs="{'readonly': [('use_indi','=','o')], 'required': [('use_indi','=','i')]}" />
                 <field name="blood_type_id"/>
                 <field name="nationality_id"/>
-<<<<<<< HEAD
 		<field name="disability" />
-		<field name="state" />
-=======
-				<field name="disability" />
-				<field name="use_indi"  invisible="True"/>
->>>>>>> fdfd6a7a1054ba0f2c738486327e3e5b18f0bec2
+		<field name="use_indi"  invisible="True"/>
               </group>
             </group>
 		    <separator  string="INFORMACIÓN" colspan="4"/>
