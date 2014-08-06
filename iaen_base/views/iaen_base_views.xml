@@ -557,7 +557,7 @@
       </field>
     </record>
 
-    <record id="view_hr_job_form" model="ir.ui.view">
+    <!--<record id="view_hr_job_form" model="ir.ui.view">
             <field name="name">hr.job.form</field>
             <field name="model">hr.job</field>
             <field name="arch" type="xml">
@@ -598,9 +598,9 @@
                     </div>
                 </form>
             </field>
-        </record>
+        </record>-->
 
-    <!-- Ingreso de Puestos de Trabajo -->
+    <!-- Ingreso de Puestos de Trabajo 
     <record id="view_hr_job_tree" model="ir.ui.view">
         <field name="name">hr.job.tree</field>
         <field name="model">hr.job</field>
@@ -612,6 +612,31 @@
                 <field name="description"/>
             </tree>
         </field>
+    </record>-->
+
+    <!-- Ingreso de Remuneraciones -->
+    <record id="view_sp_type__tree" model="ir.ui.view">
+        <field name="name">sp.type.tree</field>
+        <field name="model">sp.type</field>
+        <field name="arch" type="xml">
+            <tree string="Remuneracion">
+                <field name="name"/>
+                <field name="grade"/>
+                <field name="rmu"/>            
+            </tree>
+        </field>
+    </record>
+    <record id="view_sp_type_form" model="ir.ui.view">
+      <field name="name">view.sp.type.form</field>
+      <field name="model">sp.type</field>
+      <field name="arch" type="xml">
+		<form string="Escala de Remuneraciones">
+			<field name="name"/>
+            <field name="grade"/>
+            <field name="rmu"/>
+            <field name="description"/>
+		</form>
+      </field>
     </record>
 
     <!-- Ingreso de Tipos de Entidades -->
