@@ -47,12 +47,14 @@ class res_partner(osv.osv):
                 "disability_degree": fields.char("Grado de Discapacidad", size=150), 
                 "conadis_number": fields.char("N° Carnet del CONADIS", size=10, require=True),
                 "ethnic_group_id": fields.many2one("ethnic.group", u"Grupo Étnico", required=True),
+                "india_id": fields.many2one("indian.nationality", u"Nacionalidad Indigena", readonly=True),
                 "family_burden_ids": fields.one2many("family.burden", "partner_id", 'Carga Familiar', required=False),
                 "bank_info_ids": fields.one2many("bank.info", "partner_id", "Información Bancaria", required=False),
                 "instruction_info_ids" : fields.one2many("instruction.info", "partner_id", "Instrucción Académica"),
                 "experience_info_ids": fields.one2many("experience.info","partner_id", "Experiencia Laboral"),
                 "language_studies_ids": fields.one2many("language.studies","partner_id","Idiomas estudiados"),
                 "info_training_ids": fields.one2many("info.training","partner_id","Capacitaciones"),
+<<<<<<< HEAD
 		
 		'state': fields.selection([('indigena', 'indigena'),('otro', 'otro')], invisible=True)
 }
@@ -74,6 +76,24 @@ class res_partner(osv.osv):
 
 
                         
+=======
+                'use_indi': fields.selection([('i', 'i'),('o', 'o')])
+        }
+
+        _defaults = {
+            'use_indi':'o'
+        }
+
+        def on_indi(self, cr, uid, ids, id_etnia):
+            if id_etnia:
+                obj = self.pool.get('ethnic.group').browse(cr,uid,id_etnia)
+                if obj.name.lower().find(u'indígena')>=0:
+                    return {'value':{'use_indi':'i'}}
+                else:
+                    return {'value':{'use_indi':'o', 'india_id': ''}}
+       
+
+>>>>>>> fdfd6a7a1054ba0f2c738486327e3e5b18f0bec2
         def on_identification(self, cr, uid, ids, identification_number, identification_type_id):
 			values = {}
 			if identification_number and identification_type_id:
@@ -110,16 +130,19 @@ class res_partner(osv.osv):
 								values['instruction_info_ids'] = []
 								for title in data_diplo:
 									#pdb.set_trace()
+									instruction_id = data_diplo[title]['level'].split(' ')[2]
 									print data_diplo[title]['level'].split(' ')[2]
 									state = "otro"
 									if data_diplo[title]['level'].split(' ')[2].lower().find('cuarto')>=0:
 										state="cuarto"
 									else:
+										if data_diplo[title]['level'].split(' ')[2].lower()=='nivel':
+											instruction_id = "técnico" 
 										state="otro"
 
 									val = [{
 										#gender_id = self.get.pool('gender').search(cr,uid,[('name','ilike','casado')])
-										"instruction_id" : self.get_ids(cr, uid, ids, 'instruction', str(data_diplo[title]['level'].split(' ')[2])),
+										"instruction_id" : self.get_ids(cr, uid, ids, 'instruction', str(instruction_id)),
 										"state": state,
 										"name_institution":str(data_diplo[title]['institution_name']),
 										"title": str(data_diplo[title]['title_name']),

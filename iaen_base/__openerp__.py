@@ -55,6 +55,8 @@
         'data/entity_type_data.xml',
         'data/notary_data.xml',
         'data/Indian_nationality_data.xml',
+        'data/entity_public_data.xml',
+        'data/sp_type_data.xml',
     ],
     'update_xml': [
         'data/users_data.xml',
