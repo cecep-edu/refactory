@@ -56,7 +56,7 @@ class instruction_info(osv.osv):
 			obj = self.pool.get('instruction').browse(cr,uid,id_level)
 			if obj.name.lower().find('cuarto')>=0:
 				return {'value':{'state':'cuarto'}}
-			else:
+                        else:
 				return {'value':{'state':'otro', 'specialization_type': ''}}
 		else:
 			return {'value': {}}

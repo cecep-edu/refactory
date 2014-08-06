@@ -274,18 +274,6 @@ class type_disability(osv.osv, validation):
             "description": fields.text("Descripcion"),
             "code_mrl": fields.char("Código MRL", size=3),
     }
-<<<<<<< HEAD
-    _defaults = {
-        "code_mrl":"NONE",
-        }
-
-    def _alphabetical(self, cr, uid, ids):
-        for bloody_type in self.browse(cr, uid, ids):
-            if not (re.search("[a-z, A-Z]", bloody_type.name)): return False
-        return True 
-=======
->>>>>>> 51e92ada82c1c23e1cb075c00941be778f25556f
-
     _constraints = [(validation.only_letters, _(u"El Tipo de dato es inválido."), ['code_mrl'])]
 
 
