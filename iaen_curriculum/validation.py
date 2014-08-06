@@ -19,4 +19,3 @@ class validation:
 		for record in self.browse(cr, uid, ids):
 			if not re.match("^[0-9]+$", record.code_mrl): return False
 		return True
-

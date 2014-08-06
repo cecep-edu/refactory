@@ -35,38 +35,47 @@
     <record model="family.relationship" id="gender_father_law" >
       <field name="name">Suegro(a)</field>
       <field name="description">Primer grado de parentesco, Afinidad</field>
+      <field name="code_mrl"></field>
     </record>
     <record model="family.relationship" id="gender_son_law" >
       <field name="name">Yerno</field>
       <field name="description">Primer grado de parentesco, Afinidad</field>
+      <field name="code_mrl"></field>
     </record>
     <record model="family.relationship" id="gender_daughter_law" >
       <field name="name">Nuera</field>
       <field name="description">Primer grado de parentesco, Afinidad</field>
+      <field name="code_mrl"></field>
     </record>
     <record model="family.relationship" id="gender_grandfather" >
       <field name="name">Abuelo(a)</field>
       <field name="description">Segundo grado de parentesco, Consanguinidad/afinidad</field>
+      <field name="code_mrl"></field>
     </record>
     <record model="family.relationship" id="gender_grandson" >
       <field name="name">Nieto(a)</field>
       <field name="description">Segundo grado de parentesco, Consanguinidad/afinidad</field>
+      <field name="code_mrl"></field>
     </record>   
     <record model="family.relationship" id="gender_uncle" >
       <field name="name">Tio(a)</field>
       <field name="description">Tercer grado de parentesco, Consanguinidad/afinidad</field>
+      <field name="code_mrl"></field>
     </record>
     <record model="family.relationship" id="gender_cousin" >
       <field name="name">Primo(a)</field>
       <field name="description">Cuarto grado de parentesco, Consanguinidad/afinidad</field>
+      <field name="code_mrl"></field>
     </record>
     <record model="family.relationship" id="gender_nephew" >
       <field name="name">Sobrino(a)</field>
       <field name="description">Tercer grado de parentesco, Consanguinidad/afinidad</field>
+      <field name="code_mrl"></field>
     </record>
     <record model="family.relationship" id="gender_brother_law" >
       <field name="name">Cuñado(a)</field>
       <field name="description">Tercer grado de parentesco, Consanguinidad/afinidad</field>
+      <field name="code_mrl"></field>
     </record>
     <record model="family.relationship" id="gender_other" >
       <field name="name">Otros</field>
