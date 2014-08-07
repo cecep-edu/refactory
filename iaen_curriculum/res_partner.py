@@ -54,29 +54,6 @@ class res_partner(osv.osv):
                 "experience_info_ids": fields.one2many("experience.info","partner_id", "Experiencia Laboral"),
                 "language_studies_ids": fields.one2many("language.studies","partner_id","Idiomas estudiados"),
                 "info_training_ids": fields.one2many("info.training","partner_id","Capacitaciones"),
-<<<<<<< HEAD
-		
-		'state': fields.selection([('indigena', 'indigena'),('otro', 'otro')], invisible=True)
-}
-	_defaults = {
-		'state':'otro'
-		}
-	
-	def on_indigena(self, cr, uid, ids, id_level):
-		if id_level:
-			obj = self.pool.get('ethnic.group').browse(cr,uid,id_level)
-			if obj.name.lower().find('indigena')>=0:
-				return {'value':{'state':'indigena'}}
-                        else:
-				return {'value':{'state':'otro', 'indian_nationality_ids': ''}}
-		else:
-			return {'value': {}}
-
-
-
-
-                        
-=======
                 'use_indi': fields.selection([('i', 'i'),('o', 'o')])
         }
 
@@ -92,8 +69,6 @@ class res_partner(osv.osv):
                 else:
                     return {'value':{'use_indi':'o', 'india_id': ''}}
        
-
->>>>>>> fdfd6a7a1054ba0f2c738486327e3e5b18f0bec2
         def on_identification(self, cr, uid, ids, identification_number, identification_type_id):
 			values = {}
 			if identification_number and identification_type_id:

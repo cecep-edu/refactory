@@ -85,7 +85,7 @@
 		          <tree string="Información Bancaria" editable="bottom">
 		            <field name="id_entity_finance"/>
 		            <field name="id_bank_account"/>
-		            <field name="number" on_change="on_nonumber()"/>
+		            <field name="number"/>
 		          </tree>	
 	            </field>
 	          </page>
