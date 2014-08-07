@@ -47,15 +47,29 @@ class res_partner(osv.osv):
                 "disability_degree": fields.char("Grado de Discapacidad", size=150), 
                 "conadis_number": fields.char("N° Carnet del CONADIS", size=10, require=True),
                 "ethnic_group_id": fields.many2one("ethnic.group", u"Grupo Étnico", required=True),
+                "india_id": fields.many2one("indian.nationality", u"Nacionalidad Indigena", readonly=True),
                 "family_burden_ids": fields.one2many("family.burden", "partner_id", 'Carga Familiar', required=False),
                 "bank_info_ids": fields.one2many("bank.info", "partner_id", "Información Bancaria", required=False),
                 "instruction_info_ids" : fields.one2many("instruction.info", "partner_id", "Instrucción Académica"),
                 "experience_info_ids": fields.one2many("experience.info","partner_id", "Experiencia Laboral"),
                 "language_studies_ids": fields.one2many("language.studies","partner_id","Idiomas estudiados"),
                 "info_training_ids": fields.one2many("info.training","partner_id","Capacitaciones"),
-                
+                'use_indi': fields.selection([('i', 'i'),('o', 'o')])
         }
-                        
+
+        _defaults = {
+            'use_indi':'o'
+        }
+
+        def on_indi(self, cr, uid, ids, id_etnia):
+            if id_etnia:
+                obj = self.pool.get('ethnic.group').browse(cr,uid,id_etnia)
+                if obj.name.lower().find(u'indígena')>=0:
+                    return {'value':{'use_indi':'i'}}
+                else:
+                    return {'value':{'use_indi':'o', 'india_id': ''}}
+       
+
         def on_identification(self, cr, uid, ids, identification_number, identification_type_id):
 			values = {}
 			if identification_number and identification_type_id:

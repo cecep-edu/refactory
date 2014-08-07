@@ -41,7 +41,6 @@ class res_users(osv.Model):
     def action_send_mail(self, cr, uid, login, token, context=None):
         #res_users_obj = self.pool.get('res.users').search(cr, uid, [('login','=',login['login'])])
         res_partner_ids = self.pool.get('res.partner').search(cr,uid,[('email','=',login['email'])])
-        print res_partner_ids 
         if res_partner_ids:
             res_users_obj = self.pool.get('res.users').search(cr, uid, [('partner_id','=',res_partner_ids[0])])
             print res_users_obj
@@ -49,7 +48,6 @@ class res_users(osv.Model):
         partner_ids = [user.partner_id.id for user in self.browse(cr, uid, res_users_obj, context)]
         res_partner.signup_prepare(cr, uid, partner_ids, signup_type="signup", expiration=now(days=+1), context=context)
         ids = res_users_obj
-        print ids
         if not context:
             context = {}
 
@@ -64,7 +62,6 @@ class res_users(osv.Model):
         for user in self.browse(cr, uid, ids, context):
             if not user.email:
                 raise osv.except_osv(_("No se puede enviar el correo, la cuenta de usuario y/o cotraseña no es correcta."), user.name)
-            print template
             mail_id = self.pool.get('email.template').send_mail(cr, uid, template.id, user.id, True, context=context)
             mail_state = mail_obj.read(cr, uid, mail_id, ['state'], context=context)
             if mail_state and mail_state['state'] == 'exception':
@@ -77,11 +74,12 @@ class res_users(osv.Model):
         partner_id = self.pool.get('res.partner').search(cr, uid, [('signup_token', '=', token)])
         if partner_id:
             #partner_obj = self.pool.get('res.partner').browse(cr, uid, partner_id)
-            print partner_id[0]
             user_id = self.search(cr, uid, [('partner_id.id', 'in', partner_id),('active','=',False)])
             self.pool.get('res.partner').write(cr,uid,partner_id, {'user_id': user_id[0]})
             if user_id:
                 self.write(cr, uid, user_id, {'active': True})
+                partner_obj = self.pool.get('res.partner')
+                partner_obj.write(cr,uid,partner_id,{'signup_token': False, 'signup_type': False, 'signup_expiration': False})
                 return True
             else:
                 return False

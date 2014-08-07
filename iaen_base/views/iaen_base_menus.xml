@@ -31,13 +31,12 @@
 
 	<menuitem action="action_event_type" id="menu_event_type" name="Tipo de eventos" parent="menu_configuration"/>
 	<menuitem action="action_certified_type" id="menu_certified_type" name="Tipo de Certificado" parent="menu_configuration"/>
-    <!--<menuitem action="action_jobs_type" id="menu_jobs_type" name="Puestos de Trabajo" parent="menu_configuration"/>-->
 
     <!-- Menu Información RRHH -->
     <menuitem id="menu_rrhh" name="Información Laboral" parent="menu_configuration"/>
     <menuitem action="action_entity_type" id="menu_entity_type" name="Tipos de Entidades" parent="menu_rrhh" sequence="1"/>
     <menuitem action="action_entity_public" id="menu_entity_public" name="Entidades Públicas" parent="menu_rrhh" sequence="2"/>
-    <menuitem action="action_job" id="menu_job" name="Puestos de Trabajo" parent="menu_rrhh" sequence="3"/>
+    <menuitem action="action_sp" id="menu_sp" name="Escala de Remuneraciones" parent="menu_rrhh" sequence="3"/>
     <menuitem action="action_input_motive" id="menu_input_motive" name="Motivos de Entrada" parent="menu_rrhh" sequence="4"/>
     <menuitem action="action_output_motive" id="menu_output_motive" name="Motivos de Salida" parent="menu_rrhh" sequence="5"/>
 
