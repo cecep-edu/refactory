@@ -340,6 +340,7 @@ class type_disability(osv.osv, validation):
     ]
 
 
+
 #TIPO DE EVENTO
 class event_type(osv.osv, validation):    
     _name = "event.type"
