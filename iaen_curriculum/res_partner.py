@@ -70,7 +70,6 @@ class res_partner(osv.osv):
                 else:
                     return {'value':{'use_indi':'o', 'india_id': ''}}
        
-
         def on_identification(self, cr, uid, ids, identification_number, identification_type_id):
 			values = {}
 			if identification_number and identification_type_id:
