@@ -155,7 +155,7 @@
 			<field name="name">Espejo</field>
 			<field name="code_mrl">64</field>
 			<field name="country_state_id" ref="state_4"></field>
-		</record>
+		</record> 
 		<record model="canton" id="canton_32">
 			<field name="name">Mira</field>
 			<field name="code_mrl">108</field>
@@ -450,7 +450,7 @@
 			<field name="name">Lomas De Sargentillo</field>
 			<field name="code_mrl">99</field>
 			<field name="country_state_id" ref="state_10"></field>
-		</record>
+		</record> 
 		<record model="canton" id="canton_91">
 			<field name="name">Milagro</field>
 			<field name="code_mrl">107</field>

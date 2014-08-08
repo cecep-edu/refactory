@@ -1,0 +1,1426 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<openerp>
+	<data noupdate="1">
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">0</field>
+			<field name="percentage_spoken">0</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">0</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">40</field>
+			<field name="percentage_spoken">40</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">20</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">85</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">70</field>
+			<field name="percentage_spoken">85</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">70</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">10</field>
+			<field name="percentage_spoken">30</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">15</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">50</field>
+			<field name="percentage_spoken">60</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">50</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">80</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">80</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_53"></field>
+			<field name="percentage_listening">90</field>
+			<field name="percentage_spoken">95</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">80</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">70</field>
+			<field name="percentage_spoken">70</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">70</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">40</field>
+			<field name="percentage_spoken">70</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">40</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">50</field>
+			<field name="percentage_spoken">45</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">40</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">75</field>
+			<field name="percentage_spoken">75</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">75</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">50</field>
+			<field name="percentage_spoken">70</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">50</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">30</field>
+			<field name="percentage_spoken">30</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">30</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">70</field>
+			<field name="percentage_spoken">70</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">40</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">15</field>
+			<field name="percentage_spoken">10</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">10</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">90</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">90</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_53"></field>
+			<field name="percentage_listening">70</field>
+			<field name="percentage_spoken">70</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">70</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">90</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_53"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">90</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">30</field>
+			<field name="percentage_spoken">90</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">30</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">39</field>
+			<field name="percentage_spoken">40</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">40</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">70</field>
+			<field name="percentage_spoken">90</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">80</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">30</field>
+			<field name="percentage_spoken">30</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">30</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">90</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">40</field>
+			<field name="percentage_spoken">90</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">30</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">70</field>
+			<field name="percentage_spoken">90</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">40</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">50</field>
+			<field name="percentage_spoken">50</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">50</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">75</field>
+			<field name="percentage_spoken">75</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">60</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">40</field>
+			<field name="percentage_spoken">60</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">50</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">60</field>
+			<field name="percentage_spoken">60</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">50</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">80</field>
+			<field name="percentage_spoken">90</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">80</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">80</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">90</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">20</field>
+			<field name="percentage_spoken">30</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">30</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">20</field>
+			<field name="percentage_spoken">40</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">15</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">80</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">80</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">80</field>
+			<field name="percentage_spoken">80</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">80</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">50</field>
+			<field name="percentage_spoken">50</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">50</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">50</field>
+			<field name="percentage_spoken">50</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">50</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">60</field>
+			<field name="percentage_spoken">60</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">50</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">20</field>
+			<field name="percentage_spoken">60</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">40</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">20</field>
+			<field name="percentage_spoken">20</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">20</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">50</field>
+			<field name="percentage_spoken">60</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">60</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">20</field>
+			<field name="percentage_spoken">30</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">20</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">50</field>
+			<field name="percentage_spoken">90</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">70</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">50</field>
+			<field name="percentage_spoken">30</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">20</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">50</field>
+			<field name="percentage_spoken">30</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">20</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">15</field>
+			<field name="percentage_spoken">15</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">15</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">50</field>
+			<field name="percentage_spoken">80</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">30</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">40</field>
+			<field name="percentage_spoken">40</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">50</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_98"></field>
+			<field name="percentage_listening">50</field>
+			<field name="percentage_spoken">10</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">50</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">70</field>
+			<field name="percentage_spoken">80</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">60</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">40</field>
+			<field name="percentage_spoken">40</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">30</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">90</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">80</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_53"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">40</field>
+			<field name="percentage_spoken">60</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">50</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">15</field>
+			<field name="percentage_spoken">15</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">15</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">60</field>
+			<field name="percentage_spoken">75</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">50</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_144"></field>
+			<field name="percentage_listening">30</field>
+			<field name="percentage_spoken">30</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">30</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">50</field>
+			<field name="percentage_spoken">60</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">50</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">90</field>
+			<field name="percentage_spoken">90</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">90</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">25</field>
+			<field name="percentage_spoken">25</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">25</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">80</field>
+			<field name="percentage_spoken">95</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">50</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">75</field>
+			<field name="percentage_spoken">80</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">70</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">90</field>
+			<field name="percentage_spoken">90</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">80</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">70</field>
+			<field name="percentage_spoken">90</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">70</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">40</field>
+			<field name="percentage_spoken">40</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">40</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">20</field>
+			<field name="percentage_spoken">60</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">20</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">80</field>
+			<field name="percentage_spoken">70</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">70</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">75</field>
+			<field name="percentage_spoken">75</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">60</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">98</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">90</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">70</field>
+			<field name="percentage_spoken">80</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">50</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">70</field>
+			<field name="percentage_spoken">60</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">40</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">90</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">90</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">90</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">90</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">50</field>
+			<field name="percentage_spoken">80</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">0</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">70</field>
+			<field name="percentage_spoken">90</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">60</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">60</field>
+			<field name="percentage_spoken">90</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">60</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">50</field>
+			<field name="percentage_spoken">20</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">10</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">70</field>
+			<field name="percentage_spoken">70</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">70</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">80</field>
+			<field name="percentage_spoken">80</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">40</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">50</field>
+			<field name="percentage_spoken">20</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">20</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">40</field>
+			<field name="percentage_spoken">70</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">40</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">70</field>
+			<field name="percentage_spoken">60</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">50</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">50</field>
+			<field name="percentage_spoken">20</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">20</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">80</field>
+			<field name="percentage_spoken">80</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">80</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">20</field>
+			<field name="percentage_spoken">10</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">10</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">50</field>
+			<field name="percentage_spoken">20</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">20</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">50</field>
+			<field name="percentage_spoken">20</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">10</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">75</field>
+			<field name="percentage_spoken">75</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">75</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">90</field>
+			<field name="percentage_spoken">85</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">85</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">80</field>
+			<field name="percentage_spoken">80</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">60</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">60</field>
+			<field name="percentage_spoken">90</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">80</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">30</field>
+			<field name="percentage_spoken">40</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">40</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">70</field>
+			<field name="percentage_spoken">80</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">75</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">80</field>
+			<field name="percentage_spoken">90</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">80</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">50</field>
+			<field name="percentage_spoken">40</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">30</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">60</field>
+			<field name="percentage_spoken">50</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">50</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">50</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">50</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">75</field>
+			<field name="percentage_spoken">80</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">65</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">60</field>
+			<field name="percentage_spoken">70</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">40</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">20</field>
+			<field name="percentage_spoken">40</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">20</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">90</field>
+			<field name="percentage_spoken">90</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">80</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">70</field>
+			<field name="percentage_spoken">90</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">70</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">60</field>
+			<field name="percentage_spoken">60</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">40</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">80</field>
+			<field name="percentage_spoken">80</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">50</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">80</field>
+			<field name="percentage_spoken">80</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">70</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">90</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">85</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">90</field>
+			<field name="percentage_spoken">95</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">80</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">70</field>
+			<field name="percentage_spoken">80</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">60</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">50</field>
+			<field name="percentage_spoken">30</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">30</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">70</field>
+			<field name="percentage_spoken">90</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">70</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">70</field>
+			<field name="percentage_spoken">90</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">70</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">40</field>
+			<field name="percentage_spoken">90</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">30</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">50</field>
+			<field name="percentage_spoken">60</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">40</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">50</field>
+			<field name="percentage_spoken">50</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">50</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">70</field>
+			<field name="percentage_spoken">85</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">60</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">75</field>
+			<field name="percentage_spoken">60</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">65</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">50</field>
+			<field name="percentage_spoken">50</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">50</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">60</field>
+			<field name="percentage_spoken">60</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">50</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">10</field>
+			<field name="percentage_spoken">10</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">10</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">40</field>
+			<field name="percentage_spoken">50</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">20</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">45</field>
+			<field name="percentage_spoken">70</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">45</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">60</field>
+			<field name="percentage_spoken">70</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">50</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">60</field>
+			<field name="percentage_spoken">80</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">40</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">70</field>
+			<field name="percentage_spoken">60</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">50</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">30</field>
+			<field name="percentage_spoken">30</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">30</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">20</field>
+			<field name="percentage_spoken">20</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">20</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">60</field>
+			<field name="percentage_spoken">60</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">60</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">50</field>
+			<field name="percentage_spoken">70</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">50</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">20</field>
+			<field name="percentage_spoken">50</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">20</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">60</field>
+			<field name="percentage_spoken">50</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">40</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">50</field>
+			<field name="percentage_spoken">80</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">30</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">90</field>
+			<field name="percentage_spoken">90</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">80</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">40</field>
+			<field name="percentage_spoken">50</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">30</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">90</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">70</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">50</field>
+			<field name="percentage_spoken">80</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">50</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">50</field>
+			<field name="percentage_spoken">80</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">50</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">70</field>
+			<field name="percentage_spoken">90</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">50</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">45</field>
+			<field name="percentage_spoken">70</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">20</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">70</field>
+			<field name="percentage_spoken">90</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">50</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">50</field>
+			<field name="percentage_spoken">75</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">50</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">50</field>
+			<field name="percentage_spoken">50</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">40</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">50</field>
+			<field name="percentage_spoken">70</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">30</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">50</field>
+			<field name="percentage_spoken">40</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">40</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_53"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">85</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">75</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">80</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">70</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">90</field>
+			<field name="percentage_spoken">90</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">90</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">70</field>
+			<field name="percentage_spoken">70</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">60</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">50</field>
+			<field name="percentage_spoken">50</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">50</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">100</field>
+			<field name="percentage_spoken">100</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">100</field>
+		</record>
+		<record model="languague.studies" id="language_1">
+			<field name="language_type_id" ref="laguague_1"></field>
+			<field name="percentage_listening">70</field>
+			<field name="percentage_spoken">70</field>
+			<field name="percentage_read">ACADEMICO</field>
+			<field name="percentage_written">70</field>
+		</record>
+	</data>
+</openerp>

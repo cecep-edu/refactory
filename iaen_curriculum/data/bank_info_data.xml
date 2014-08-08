@@ -1,0 +1,965 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<openerp>
+	<data noupdate="1">
+		<record model="bank.info" id="bank_info_1">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">12007081257</field>
+		</record>
+		<record model="bank.info" id="bank_info_2">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">5608583500</field>
+		</record>
+		<record model="bank.info" id="bank_info_3">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">3332114500</field>
+		</record>
+		<record model="bank.info" id="bank_info_4">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">3210811100</field>
+		</record>
+		<record model="bank.info" id="bank_info_5">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">6106676200</field>
+		</record>
+		<record model="bank.info" id="bank_info_6">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_65"></field>
+			<field name="number">2101065798</field>
+		</record>
+		<record model="bank.info" id="bank_info_7">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">3375749000</field>
+		</record>
+		<record model="bank.info" id="bank_info_8">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_74"></field>
+			<field name="number">4003864922</field>
+		</record>
+		<record model="bank.info" id="bank_info_9">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">4743011000</field>
+		</record>
+		<record model="bank.info" id="bank_info_10">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_1"></field>
+			<field name="number">1039760626</field>
+		</record>
+		<record model="bank.info" id="bank_info_11">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_1"></field>
+			<field name="number">1020213836</field>
+		</record>
+		<record model="bank.info" id="bank_info_12">
+			<field name="id_bank_account" ref="iaen_base.bankcount_cc"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">3054809704</field>
+		</record>
+		<record model="bank.info" id="bank_info_13">
+			<field name="id_bank_account" ref="iaen_base.bankcount_cc"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">2201147581</field>
+		</record>
+		<record model="bank.info" id="bank_info_14">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">5904359200</field>
+		</record>
+		<record model="bank.info" id="bank_info_15">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_1"></field>
+			<field name="number">405010081972</field>
+		</record>
+		<record model="bank.info" id="bank_info_16">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">3407130500</field>
+		</record>
+		<record model="bank.info" id="bank_info_17">
+			<field name="id_bank_account" ref="iaen_base.bankcount_cc"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">00000128554</field>
+		</record>
+		<record model="bank.info" id="bank_info_18">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_1"></field>
+			<field name="number">40474283</field>
+		</record>
+		<record model="bank.info" id="bank_info_19">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_8"></field>
+			<field name="number">6100825015</field>
+		</record>
+		<record model="bank.info" id="bank_info_20">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">220947206</field>
+		</record>
+		<record model="bank.info" id="bank_info_21">
+			<field name="id_bank_account" ref="iaen_base.bankcount_cc"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_8"></field>
+			<field name="number">0150139005</field>
+		</record>
+		<record model="bank.info" id="bank_info_22">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">12004055212</field>
+		</record>
+		<record model="bank.info" id="bank_info_23">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">100108504</field>
+		</record>
+		<record model="bank.info" id="bank_info_24">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">12059046622</field>
+		</record>
+		<record model="bank.info" id="bank_info_25">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">5039599500</field>
+		</record>
+		<record model="bank.info" id="bank_info_26">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_16"></field>
+			<field name="number">4501389568</field>
+		</record>
+		<record model="bank.info" id="bank_info_27">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">3223052400</field>
+		</record>
+		<record model="bank.info" id="bank_info_28">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">3110533200</field>
+		</record>
+		<record model="bank.info" id="bank_info_29">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">68002066</field>
+		</record>
+		<record model="bank.info" id="bank_info_30">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">3734816800</field>
+		</record>
+		<record model="bank.info" id="bank_info_31">
+			<field name="id_bank_account" ref="iaen_base.bankcount_cc"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_76"></field>
+			<field name="number">0400607714</field>
+		</record>
+		<record model="bank.info" id="bank_info_32">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">5714793100</field>
+		</record>
+		<record model="bank.info" id="bank_info_33">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">3879676500</field>
+		</record>
+		<record model="bank.info" id="bank_info_34">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">4007386600</field>
+		</record>
+		<record model="bank.info" id="bank_info_35">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">324574300</field>
+		</record>
+		<record model="bank.info" id="bank_info_36">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_76"></field>
+			<field name="number">0500788070</field>
+		</record>
+		<record model="bank.info" id="bank_info_37">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">11002014138</field>
+		</record>
+		<record model="bank.info" id="bank_info_38">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_76"></field>
+			<field name="number">109</field>
+		</record>
+		<record model="bank.info" id="bank_info_39">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_25"></field>
+			<field name="number">345345</field>
+		</record>
+		<record model="bank.info" id="bank_info_40">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_65"></field>
+			<field name="number">2101065798</field>
+		</record>
+		<record model="bank.info" id="bank_info_41">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_1"></field>
+			<field name="number">16413687</field>
+		</record>
+		<record model="bank.info" id="bank_info_42">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">5015845400</field>
+		</record>
+		<record model="bank.info" id="bank_info_43">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">4781436500</field>
+		</record>
+		<record model="bank.info" id="bank_info_44">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_1"></field>
+			<field name="number">1039383504</field>
+		</record>
+		<record model="bank.info" id="bank_info_45">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">3783826200</field>
+		</record>
+		<record model="bank.info" id="bank_info_46">
+			<field name="id_bank_account" ref="iaen_base.bankcount_cc"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_5"></field>
+			<field name="number">345345345345</field>
+		</record>
+		<record model="bank.info" id="bank_info_47">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">4034874200</field>
+		</record>
+		<record model="bank.info" id="bank_info_48">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">12005469053</field>
+		</record>
+		<record model="bank.info" id="bank_info_49">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_1"></field>
+			<field name="number">1015963225</field>
+		</record>
+		<record model="bank.info" id="bank_info_50">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">75181248</field>
+		</record>
+		<record model="bank.info" id="bank_info_51">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">12136052954</field>
+		</record>
+		<record model="bank.info" id="bank_info_52">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_1"></field>
+			<field name="number">1039827305</field>
+		</record>
+		<record model="bank.info" id="bank_info_53">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">28058591</field>
+		</record>
+		<record model="bank.info" id="bank_info_54">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">5553235000</field>
+		</record>
+		<record model="bank.info" id="bank_info_55">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">3110533200</field>
+		</record>
+		<record model="bank.info" id="bank_info_56">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">68002066</field>
+		</record>
+		<record model="bank.info" id="bank_info_57">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">3414122300</field>
+		</record>
+		<record model="bank.info" id="bank_info_58">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_75"></field>
+			<field name="number">0024800207</field>
+		</record>
+		<record model="bank.info" id="bank_info_59">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_1"></field>
+			<field name="number">1016265656</field>
+		</record>
+		<record model="bank.info" id="bank_info_60">
+			<field name="id_bank_account" ref="iaen_base.bankcount_cc"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">3434605404</field>
+		</record>
+		<record model="bank.info" id="bank_info_61">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">4102179000</field>
+		</record>
+		<record model="bank.info" id="bank_info_62">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">120008104862</field>
+		</record>
+		<record model="bank.info" id="bank_info_63">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">4283494400</field>
+		</record>
+		<record model="bank.info" id="bank_info_64">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">3494931400</field>
+		</record>
+		<record model="bank.info" id="bank_info_65">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_89"></field>
+			<field name="number">5927001098670</field>
+		</record>
+		<record model="bank.info" id="bank_info_66">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">4193146100</field>
+		</record>
+		<record model="bank.info" id="bank_info_67">
+			<field name="id_bank_account" ref="iaen_base.bankcount_cc"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_75"></field>
+			<field name="number">6930700</field>
+		</record>
+		<record model="bank.info" id="bank_info_68">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">052335509</field>
+		</record>
+		<record model="bank.info" id="bank_info_69">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_76"></field>
+			<field name="number">7600717698</field>
+		</record>
+		<record model="bank.info" id="bank_info_70">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">12000101317</field>
+		</record>
+		<record model="bank.info" id="bank_info_71">
+			<field name="id_bank_account" ref="iaen_base.bankcount_cc"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">3067192704</field>
+		</record>
+		<record model="bank.info" id="bank_info_72">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">3214786600</field>
+		</record>
+		<record model="bank.info" id="bank_info_73">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">12009090717</field>
+		</record>
+		<record model="bank.info" id="bank_info_74">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_1"></field>
+			<field name="number">8039195600</field>
+		</record>
+		<record model="bank.info" id="bank_info_75">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_1"></field>
+			<field name="number">101207587</field>
+		</record>
+		<record model="bank.info" id="bank_info_76">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">12000170823</field>
+		</record>
+		<record model="bank.info" id="bank_info_77">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_8"></field>
+			<field name="number">6056548015</field>
+		</record>
+		<record model="bank.info" id="bank_info_78">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">3223052400</field>
+		</record>
+		<record model="bank.info" id="bank_info_79">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">3214760100</field>
+		</record>
+		<record model="bank.info" id="bank_info_80">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">3221949800</field>
+		</record>
+		<record model="bank.info" id="bank_info_81">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">12000180187</field>
+		</record>
+		<record model="bank.info" id="bank_info_82">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_75"></field>
+			<field name="number">10585117</field>
+		</record>
+		<record model="bank.info" id="bank_info_83">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">12005547410</field>
+		</record>
+		<record model="bank.info" id="bank_info_84">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">3214754500</field>
+		</record>
+		<record model="bank.info" id="bank_info_85">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_76"></field>
+			<field name="number">800787167</field>
+		</record>
+		<record model="bank.info" id="bank_info_86">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_1"></field>
+			<field name="number">1039338479</field>
+		</record>
+		<record model="bank.info" id="bank_info_87">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">3355522000</field>
+		</record>
+		<record model="bank.info" id="bank_info_88">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_8"></field>
+			<field name="number">6085443017</field>
+		</record>
+		<record model="bank.info" id="bank_info_89">
+			<field name="id_bank_account" ref="iaen_base.bankcount_cc"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">434016366</field>
+		</record>
+		<record model="bank.info" id="bank_info_90">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">4435049000</field>
+		</record>
+		<record model="bank.info" id="bank_info_91">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">3211859400</field>
+		</record>
+		<record model="bank.info" id="bank_info_92">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">12136013371</field>
+		</record>
+		<record model="bank.info" id="bank_info_93">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">11005053924</field>
+		</record>
+		<record model="bank.info" id="bank_info_94">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">5086813700</field>
+		</record>
+		<record model="bank.info" id="bank_info_95">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_8"></field>
+			<field name="number">6092938016</field>
+		</record>
+		<record model="bank.info" id="bank_info_96">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">5917066300</field>
+		</record>
+		<record model="bank.info" id="bank_info_97">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_10"></field>
+			<field name="number">6114851017</field>
+		</record>
+		<record model="bank.info" id="bank_info_98">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_1"></field>
+			<field name="number">1080050287</field>
+		</record>
+		<record model="bank.info" id="bank_info_99">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">4754270600</field>
+		</record>
+		<record model="bank.info" id="bank_info_100">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">12168042849</field>
+		</record>
+		<record model="bank.info" id="bank_info_101">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">12049052573</field>
+		</record>
+		<record model="bank.info" id="bank_info_102">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">3222878500</field>
+		</record>
+		<record model="bank.info" id="bank_info_103">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">5384566900</field>
+		</record>
+		<record model="bank.info" id="bank_info_104">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_67"></field>
+			<field name="number">406003433303</field>
+		</record>
+		<record model="bank.info" id="bank_info_105">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">11070001909</field>
+		</record>
+		<record model="bank.info" id="bank_info_106">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">12096002420</field>
+		</record>
+		<record model="bank.info" id="bank_info_107">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_75"></field>
+			<field name="number">21226365</field>
+		</record>
+		<record model="bank.info" id="bank_info_108">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">12005151150</field>
+		</record>
+		<record model="bank.info" id="bank_info_109">
+			<field name="id_bank_account" ref="iaen_base.bankcount_cc"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_76"></field>
+			<field name="number">0400607714</field>
+		</record>
+		<record model="bank.info" id="bank_info_110">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_9"></field>
+			<field name="number">5061016723</field>
+		</record>
+		<record model="bank.info" id="bank_info_111">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">3331125300</field>
+		</record>
+		<record model="bank.info" id="bank_info_112">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_1"></field>
+			<field name="number">1038221128</field>
+		</record>
+		<record model="bank.info" id="bank_info_113">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_1"></field>
+			<field name="number">403209656</field>
+		</record>
+		<record model="bank.info" id="bank_info_114">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">5565806100</field>
+		</record>
+		<record model="bank.info" id="bank_info_115">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">12008038541</field>
+		</record>
+		<record model="bank.info" id="bank_info_116">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">4092465600</field>
+		</record>
+		<record model="bank.info" id="bank_info_117">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">12005345893</field>
+		</record>
+		<record model="bank.info" id="bank_info_118">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_16"></field>
+			<field name="number">4501200433</field>
+		</record>
+		<record model="bank.info" id="bank_info_119">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">12005535684</field>
+		</record>
+		<record model="bank.info" id="bank_info_120">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">3214787300</field>
+		</record>
+		<record model="bank.info" id="bank_info_121">
+			<field name="id_bank_account" ref="iaen_base.bankcount_cc"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">0000000000</field>
+		</record>
+		<record model="bank.info" id="bank_info_122">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">12203036617</field>
+		</record>
+		<record model="bank.info" id="bank_info_123">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_76"></field>
+			<field name="number">0700778678 </field>
+		</record>
+		<record model="bank.info" id="bank_info_124">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_76"></field>
+			<field name="number">0700820525 </field>
+		</record>
+		<record model="bank.info" id="bank_info_125">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">75181248</field>
+		</record>
+		<record model="bank.info" id="bank_info_126">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">12150021262</field>
+		</record>
+		<record model="bank.info" id="bank_info_127">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">4350773700</field>
+		</record>
+		<record model="bank.info" id="bank_info_128">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">3045881100</field>
+		</record>
+		<record model="bank.info" id="bank_info_129">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_8"></field>
+			<field name="number">6100825015</field>
+		</record>
+		<record model="bank.info" id="bank_info_130">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">220947206</field>
+		</record>
+		<record model="bank.info" id="bank_info_131">
+			<field name="id_bank_account" ref="iaen_base.bankcount_cc"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_8"></field>
+			<field name="number">0150139005</field>
+		</record>
+		<record model="bank.info" id="bank_info_132">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">4972475900</field>
+		</record>
+		<record model="bank.info" id="bank_info_133">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">12168058516</field>
+		</record>
+		<record model="bank.info" id="bank_info_134">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_1"></field>
+			<field name="number">1016207807</field>
+		</record>
+		<record model="bank.info" id="bank_info_135">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">3330971800</field>
+		</record>
+		<record model="bank.info" id="bank_info_136">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">028054825</field>
+		</record>
+		<record model="bank.info" id="bank_info_137">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">5177208500</field>
+		</record>
+		<record model="bank.info" id="bank_info_138">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">12203030384</field>
+		</record>
+		<record model="bank.info" id="bank_info_139">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">4308402500</field>
+		</record>
+		<record model="bank.info" id="bank_info_140">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">5789883400</field>
+		</record>
+		<record model="bank.info" id="bank_info_141">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_76"></field>
+			<field name="number">0450753107</field>
+		</record>
+		<record model="bank.info" id="bank_info_142">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_1"></field>
+			<field name="number">2200712935</field>
+		</record>
+		<record model="bank.info" id="bank_info_143">
+			<field name="id_bank_account" ref="iaen_base.bankcount_cc"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">3283476904</field>
+		</record>
+		<record model="bank.info" id="bank_info_144">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">12004058998</field>
+		</record>
+		<record model="bank.info" id="bank_info_145">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">12004072214</field>
+		</record>
+		<record model="bank.info" id="bank_info_146">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">3980821100</field>
+		</record>
+		<record model="bank.info" id="bank_info_147">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_75"></field>
+			<field name="number">31208020</field>
+		</record>
+		<record model="bank.info" id="bank_info_148">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_75"></field>
+			<field name="number">10564994</field>
+		</record>
+		<record model="bank.info" id="bank_info_149">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">4133339400</field>
+		</record>
+		<record model="bank.info" id="bank_info_150">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">5390692700</field>
+		</record>
+		<record model="bank.info" id="bank_info_151">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">5899026900</field>
+		</record>
+		<record model="bank.info" id="bank_info_152">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_27"></field>
+			<field name="number">404110059469</field>
+		</record>
+		<record model="bank.info" id="bank_info_153">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">3290415500</field>
+		</record>
+		<record model="bank.info" id="bank_info_154">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">2200647637</field>
+		</record>
+		<record model="bank.info" id="bank_info_155">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">5327114900</field>
+		</record>
+		<record model="bank.info" id="bank_info_156">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">20598482</field>
+		</record>
+		<record model="bank.info" id="bank_info_157">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">12005606182</field>
+		</record>
+		<record model="bank.info" id="bank_info_158">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">12183034819</field>
+		</record>
+		<record model="bank.info" id="bank_info_159">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">6248556900</field>
+		</record>
+		<record model="bank.info" id="bank_info_160">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">4075043300</field>
+		</record>
+		<record model="bank.info" id="bank_info_161">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_74"></field>
+			<field name="number">0010531467</field>
+		</record>
+		<record model="bank.info" id="bank_info_162">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_79"></field>
+			<field name="number">1370000901</field>
+		</record>
+		<record model="bank.info" id="bank_info_163">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">2200072365</field>
+		</record>
+		<record model="bank.info" id="bank_info_164">
+			<field name="id_bank_account" ref="iaen_base.bankcount_cc"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_9"></field>
+			<field name="number">4015014393</field>
+		</record>
+		<record model="bank.info" id="bank_info_165">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">5087575100</field>
+		</record>
+		<record model="bank.info" id="bank_info_166">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_1"></field>
+			<field name="number">1039930777</field>
+		</record>
+		<record model="bank.info" id="bank_info_167">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_41"></field>
+			<field name="number">11000151330</field>
+		</record>
+		<record model="bank.info" id="bank_info_168">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">4971577500</field>
+		</record>
+		<record model="bank.info" id="bank_info_169">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_9"></field>
+			<field name="number">4001108063</field>
+		</record>
+		<record model="bank.info" id="bank_info_170">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">12001056803</field>
+		</record>
+		<record model="bank.info" id="bank_info_171">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">4798308100</field>
+		</record>
+		<record model="bank.info" id="bank_info_172">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">4910227800</field>
+		</record>
+		<record model="bank.info" id="bank_info_173">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_65"></field>
+			<field name="number">2900481012</field>
+		</record>
+		<record model="bank.info" id="bank_info_174">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_75"></field>
+			<field name="number">9876516</field>
+		</record>
+		<record model="bank.info" id="bank_info_175">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">3945053100</field>
+		</record>
+		<record model="bank.info" id="bank_info_176">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">4751153700</field>
+		</record>
+		<record model="bank.info" id="bank_info_177">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_65"></field>
+			<field name="number">2101064544</field>
+		</record>
+		<record model="bank.info" id="bank_info_178">
+			<field name="id_bank_account" ref="iaen_base.bankcount_cc"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">3254620204</field>
+		</record>
+		<record model="bank.info" id="bank_info_179">
+			<field name="id_bank_account" ref="iaen_base.bankcount_cc"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">0000000000</field>
+		</record>
+		<record model="bank.info" id="bank_info_180">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">3018796200</field>
+		</record>
+		<record model="bank.info" id="bank_info_181">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_9"></field>
+			<field name="number">505-107894-1</field>
+		</record>
+		<record model="bank.info" id="bank_info_182">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_16"></field>
+			<field name="number">4501616091</field>
+		</record>
+		<record model="bank.info" id="bank_info_183">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_1"></field>
+			<field name="number">1042312957</field>
+		</record>
+		<record model="bank.info" id="bank_info_184">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">4286647500</field>
+		</record>
+		<record model="bank.info" id="bank_info_185">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">13346400</field>
+		</record>
+		<record model="bank.info" id="bank_info_186">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">4749986100</field>
+		</record>
+		<record model="bank.info" id="bank_info_187">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">12057069013</field>
+		</record>
+		<record model="bank.info" id="bank_info_188">
+			<field name="id_bank_account" ref="iaen_base.bankcount_cc"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">02057013728</field>
+		</record>
+		<record model="bank.info" id="bank_info_189">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">3209877400</field>
+		</record>
+		<record model="bank.info" id="bank_info_190">
+			<field name="id_bank_account" ref="iaen_base.bankcount_cc"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_7"></field>
+			<field name="number">02-00507790-3</field>
+		</record>
+		<record model="bank.info" id="bank_info_191">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">4194780200</field>
+		</record>
+		<record model="bank.info" id="bank_info_192">
+			<field name="id_bank_account" ref="iaen_base.bankcount_ca"></field>
+			<field name="id_entity_finance" ref="iaen_base.entity_84"></field>
+			<field name="number">5530146800</field>
+		</record>
+	</data>
+</openerp>

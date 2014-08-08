@@ -26,6 +26,7 @@ from openerp.tools.translate import _
 from openerp.tools.float_utils import float_round as round
 import openerp.addons.decimal_precision as dp
 import openerp.tools.image as imageoerp
+from urllib2 import URLError
 from iaen_curriculum_ws import IaenCurriculumWs 
 
 class res_partner(osv.osv):
@@ -77,9 +78,12 @@ class res_partner(osv.osv):
 				if id_type.name.lower().find(u"cédula")>=0:
 					if identification_number.__len__() == 10:
 						ws = IaenCurriculumWs()
-						data = ws.find_identification_info(identification_number)
-						data_disc = ws.find_disability_info(identification_number)
-						data_diplo = ws.find_instruction_info(identification_number)
+						try:
+							data = ws.find_identification_info(identification_number)
+							data_disc = ws.find_disability_info(identification_number)
+							data_diplo = ws.find_instruction_info(identification_number)
+						except URLError:
+							return {'value': {}}
 
 						if(data):
 							values['name'] = data['name']

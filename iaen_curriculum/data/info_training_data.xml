@@ -1,0 +1,1037 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<openerp>
+	<data noupdate="1">
+		<record model="instruction.info" id="instruction_3">
+			<field name="name">FLORES VASQUEZ</field>
+			<field name="date_star">1750608067</field>
+			<field name="date_end">2004-09-17</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">095082071</field>
+		</record>		<record model="instruction.info" id="instruction_3">
+			<field name="name">FLORES VASQUEZ</field>
+			<field name="date_star">-------------------</field>
+			<field name="date_end">2011-12-01</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">095082071</field>
+		</record>		<record model="instruction.info" id="instruction_3">
+			<field name="name">FLORES MUÑOZ</field>
+			<field name="date_star">0201532389</field>
+			<field name="date_end">1978-12-14</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0984246233</field>
+		</record>		<record model="instruction.info" id="instruction_5">
+			<field name="name">CHIRIBOGA ALVAREZ</field>
+			<field name="date_star">1723381420</field>
+			<field name="date_end">1988-02-09</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0984120742</field>
+		</record>		<record model="instruction.info" id="instruction_5">
+			<field name="name">CHIRIBOGA ALVAREZ</field>
+			<field name="date_star">1719119974</field>
+			<field name="date_end">1989-09-16</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0984258616</field>
+		</record>		<record model="instruction.info" id="instruction_7">
+			<field name="name">CUEVA RUIZ</field>
+			<field name="date_star">1105754277</field>
+			<field name="date_end">2001-01-26</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0997089033</field>
+		</record>		<record model="instruction.info" id="instruction_7">
+			<field name="name">CUEVA RUIZ</field>
+			<field name="date_star">1104774722</field>
+			<field name="date_end">1995-05-18</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0984715932</field>
+		</record>		<record model="instruction.info" id="instruction_10">
+			<field name="name">HERRERA JARIIN</field>
+			<field name="date_star">1720660230</field>
+			<field name="date_end">2001-02-20</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0998896958</field>
+		</record>		<record model="instruction.info" id="instruction_10">
+			<field name="name">HERRERA JARRIN</field>
+			<field name="date_star">1720477049</field>
+			<field name="date_end">2002-04-05</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">09998896958</field>
+		</record>		<record model="instruction.info" id="instruction_10">
+			<field name="name">HERRERA RECALDE</field>
+			<field name="date_star">1754164018</field>
+			<field name="date_end">2013-06-17</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0998896958</field>
+		</record>		<record model="instruction.info" id="instruction_13">
+			<field name="name">ANDRADE CARLOSAMA</field>
+			<field name="date_star">1004440028</field>
+			<field name="date_end">2005-09-02</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for"></field>
+		</record>		<record model="instruction.info" id="instruction_13">
+			<field name="name">ANDRADE CARLOSAMA</field>
+			<field name="date_star">1003334958</field>
+			<field name="date_end">1989-12-04</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0998771669</field>
+		</record>		<record model="instruction.info" id="instruction_13">
+			<field name="name">SALVADOR ANDRADE</field>
+			<field name="date_star">1004440036</field>
+			<field name="date_end">2002-07-06</field>
+			<field name="event_id" ref="event_otrher"></field>
+			<field name="certified_for">0997494460</field>
+		</record>		<record model="instruction.info" id="instruction_14">
+			<field name="name">APUNTE ORDOÑEZ</field>
+			<field name="date_star">1720944782</field>
+			<field name="date_end">1991-07-09</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0987572689</field>
+		</record>		<record model="instruction.info" id="instruction_16">
+			<field name="name">AGUILERA NARVAEZ</field>
+			<field name="date_star">1102551718</field>
+			<field name="date_end">1967-09-01</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0993365733</field>
+		</record>		<record model="instruction.info" id="instruction_16">
+			<field name="name">AGUILERA LARREA</field>
+			<field name="date_star">1105872020</field>
+			<field name="date_end">2006-09-28</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0996802445</field>
+		</record>		<record model="instruction.info" id="instruction_18">
+			<field name="name">RICHARDS OÑA</field>
+			<field name="date_star">1725932626</field>
+			<field name="date_end">2006-02-16</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0984308892</field>
+		</record>		<record model="instruction.info" id="instruction_18">
+			<field name="name">RICHARDS OÑA</field>
+			<field name="date_star">1750097055</field>
+			<field name="date_end">2010-04-08</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0984308892</field>
+		</record>		<record model="instruction.info" id="instruction_21">
+			<field name="name">MORENO SUAREZ</field>
+			<field name="date_star">1703854776</field>
+			<field name="date_end">1968-04-28</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0980287776</field>
+		</record>		<record model="instruction.info" id="instruction_21">
+			<field name="name">TINTIN MORENO</field>
+			<field name="date_star">1715955181</field>
+			<field name="date_end">1991-12-21</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">00821029252567</field>
+		</record>		<record model="instruction.info" id="instruction_21">
+			<field name="name">TINTIN MORENO</field>
+			<field name="date_star">1728167733</field>
+			<field name="date_end">2003-08-08</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0996047555</field>
+		</record>		<record model="instruction.info" id="instruction_23">
+			<field name="name">QUISHPE CHALUISA</field>
+			<field name="date_star">0502364771</field>
+			<field name="date_end">1977-12-02</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0988345502</field>
+		</record>		<record model="instruction.info" id="instruction_23">
+			<field name="name">QUISHPE AVILA</field>
+			<field name="date_star">1751403377</field>
+			<field name="date_end">2009-02-22</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0988345502</field>
+		</record>		<record model="instruction.info" id="instruction_26">
+			<field name="name">BRUQUE MARTINEZ</field>
+			<field name="date_star">1723479141</field>
+			<field name="date_end">1991-01-27</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0987731328</field>
+		</record>		<record model="instruction.info" id="instruction_26">
+			<field name="name">BRUQUE MARTINEZ</field>
+			<field name="date_star">1723479158</field>
+			<field name="date_end">1995-07-21</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0992543471</field>
+		</record>		<record model="instruction.info" id="instruction_26">
+			<field name="name">MARTINEZ VELA</field>
+			<field name="date_star">1719371941</field>
+			<field name="date_end">1954-07-01</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0995071069</field>
+		</record>		<record model="instruction.info" id="instruction_29">
+			<field name="name">SOTO SALAS</field>
+			<field name="date_star">1753307287</field>
+			<field name="date_end">2011-10-23</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0984557935</field>
+		</record>		<record model="instruction.info" id="instruction_29">
+			<field name="name">SOTO ALVAREZ</field>
+			<field name="date_star">1751572486</field>
+			<field name="date_end">2011-07-20</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0991446419</field>
+		</record>		<record model="instruction.info" id="instruction_29">
+			<field name="name">SOTO NAVARRETE</field>
+			<field name="date_star">1726860503</field>
+			<field name="date_end">1999-02-11</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0984627011</field>
+		</record>		<record model="instruction.info" id="instruction_31">
+			<field name="name">DÁVALOS BENÍTEZ</field>
+			<field name="date_star">17000000000</field>
+			<field name="date_end">1997-01-21</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0987313120</field>
+		</record>		<record model="instruction.info" id="instruction_31">
+			<field name="name">DAVALOS BENITEZ</field>
+			<field name="date_star">1710000000</field>
+			<field name="date_end">1999-09-21</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0992537226</field>
+		</record>		<record model="instruction.info" id="instruction_32">
+			<field name="name">MINDA CAÑAS</field>
+			<field name="date_star">1724402910</field>
+			<field name="date_end">1993-05-07</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0997953881</field>
+		</record>		<record model="instruction.info" id="instruction_34">
+			<field name="name">CUEVA RUIZ</field>
+			<field name="date_star">1105754277</field>
+			<field name="date_end">2001-01-26</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0997089033</field>
+		</record>		<record model="instruction.info" id="instruction_34">
+			<field name="name">CUEVA RUIZ</field>
+			<field name="date_star">1104774722</field>
+			<field name="date_end">1995-05-18</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0984715932</field>
+		</record>		<record model="instruction.info" id="instruction_37">
+			<field name="name">ZUMÁRRAGA CISNEROS</field>
+			<field name="date_star">1002995387</field>
+			<field name="date_end">1983-05-17</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">09987515145</field>
+		</record>		<record model="instruction.info" id="instruction_37">
+			<field name="name">JARAMILLO ZUMÁRRAGA</field>
+			<field name="date_star">....................</field>
+			<field name="date_end">2007-05-31</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for"> 09987515145 </field>
+		</record>		<record model="instruction.info" id="instruction_37">
+			<field name="name">JARAMILLO ZUMÁRRAGA</field>
+			<field name="date_star">....................</field>
+			<field name="date_end">2011-08-29</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">09987515145</field>
+		</record>		<record model="instruction.info" id="instruction_38">
+			<field name="name">DE LA ROSA UBIDIA</field>
+			<field name="date_star">1717270910</field>
+			<field name="date_end">1994-05-09</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0</field>
+		</record>		<record model="instruction.info" id="instruction_40">
+			<field name="name">HOLGUIN VALLEJO</field>
+			<field name="date_star">1751289495</field>
+			<field name="date_end">2011-05-30</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0999381071</field>
+		</record>		<record model="instruction.info" id="instruction_40">
+			<field name="name">HOLGUIN VALLEJO</field>
+			<field name="date_star">1724026578</field>
+			<field name="date_end">2006-01-23</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for"> 0999381071 </field>
+		</record>		<record model="instruction.info" id="instruction_41">
+			<field name="name">MRTEÑ</field>
+			<field name="date_star">345345</field>
+			<field name="date_end">2006-02-07</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">345345</field>
+		</record>		<record model="instruction.info" id="instruction_43">
+			<field name="name">JARAMILLO FLORES</field>
+			<field name="date_star">1717916918</field>
+			<field name="date_end">2002-06-24</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0995440475</field>
+		</record>		<record model="instruction.info" id="instruction_43">
+			<field name="name">JARAMILLO FLORES</field>
+			<field name="date_star">1717916923</field>
+			<field name="date_end">2006-06-24</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0984557935</field>
+		</record>		<record model="instruction.info" id="instruction_44">
+			<field name="name">ORTEGA FLORES</field>
+			<field name="date_star">1714724745</field>
+			<field name="date_end">1992-11-18</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0995001385</field>
+		</record>		<record model="instruction.info" id="instruction_45">
+			<field name="name">ESPAÑA VELASQUEZ</field>
+			<field name="date_star">1719124933</field>
+			<field name="date_end">2009-01-13</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0984699466</field>
+		</record>		<record model="instruction.info" id="instruction_46">
+			<field name="name">ELOVAIA</field>
+			<field name="date_star">725211683</field>
+			<field name="date_end">1985-05-18</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0</field>
+		</record>		<record model="instruction.info" id="instruction_49">
+			<field name="name">SOTO SALAS</field>
+			<field name="date_star">1753307287</field>
+			<field name="date_end">2011-10-23</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0984557935</field>
+		</record>		<record model="instruction.info" id="instruction_49">
+			<field name="name">SOTO ALVAREZ</field>
+			<field name="date_star">1751572486</field>
+			<field name="date_end">2011-07-20</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0991446419</field>
+		</record>		<record model="instruction.info" id="instruction_49">
+			<field name="name">SOTO NAVARRETE</field>
+			<field name="date_star">1726860503</field>
+			<field name="date_end">1999-02-11</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0984627011</field>
+		</record>		<record model="instruction.info" id="instruction_51">
+			<field name="name">GRANDA BENITEZ</field>
+			<field name="date_star">1103806160</field>
+			<field name="date_end">1978-08-11</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0981363555</field>
+		</record>		<record model="instruction.info" id="instruction_51">
+			<field name="name">CAISACHANA GRANDA</field>
+			<field name="date_star">1150856506</field>
+			<field name="date_end">2002-05-17</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0981363555</field>
+		</record>		<record model="instruction.info" id="instruction_52">
+			<field name="name">RIVADENEIRA LASCANO</field>
+			<field name="date_star">1705145868</field>
+			<field name="date_end">1957-10-12</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0998301679</field>
+		</record>		<record model="instruction.info" id="instruction_55">
+			<field name="name">BECERRA SALAS</field>
+			<field name="date_star">1721441812</field>
+			<field name="date_end">2001-04-15</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0984557935</field>
+		</record>		<record model="instruction.info" id="instruction_55">
+			<field name="name">BECERRA SALAS</field>
+			<field name="date_star">0000000000</field>
+			<field name="date_end">2006-07-12</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0984557935</field>
+		</record>		<record model="instruction.info" id="instruction_55">
+			<field name="name">SOTO SALAS</field>
+			<field name="date_star">1753307287</field>
+			<field name="date_end">2011-10-23</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0984557935</field>
+		</record>		<record model="instruction.info" id="instruction_56">
+			<field name="name">MANGUIA VACA</field>
+			<field name="date_star">1726589698</field>
+			<field name="date_end">2004-04-26</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0984733770</field>
+		</record>		<record model="instruction.info" id="instruction_59">
+			<field name="name">PACCHA MOROCHO</field>
+			<field name="date_star">1105976888</field>
+			<field name="date_end">2004-11-29</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0992300129</field>
+		</record>		<record model="instruction.info" id="instruction_59">
+			<field name="name">PACCHA MOROCHO</field>
+			<field name="date_star">1105976</field>
+			<field name="date_end">2011-11-07</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0992300129</field>
+		</record>		<record model="instruction.info" id="instruction_59">
+			<field name="name">PACCHA MOROCHO</field>
+			<field name="date_star">2050004569</field>
+			<field name="date_end">2010-12-27</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0992300129</field>
+		</record>		<record model="instruction.info" id="instruction_61">
+			<field name="name">CORNEJO LEMARIE</field>
+			<field name="date_star">1723898282</field>
+			<field name="date_end">2004-06-24</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0999442790</field>
+		</record>		<record model="instruction.info" id="instruction_61">
+			<field name="name">CORNEJO LEMARIE</field>
+			<field name="date_star">1723898290</field>
+			<field name="date_end">2002-03-30</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0999442790</field>
+		</record>		<record model="instruction.info" id="instruction_62">
+			<field name="name">EGAS MADONADO</field>
+			<field name="date_star">n/a</field>
+			<field name="date_end">2012-04-23</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0000000000</field>
+		</record>		<record model="instruction.info" id="instruction_63">
+			<field name="name">GRANDA SISALEMA</field>
+			<field name="date_star">1708955610</field>
+			<field name="date_end">1966-08-06</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0985965539</field>
+		</record>		<record model="instruction.info" id="instruction_64">
+			<field name="name">VILLARREAL ROBLES</field>
+			<field name="date_star">1721932067</field>
+			<field name="date_end">1989-09-30</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0986712924</field>
+		</record>		<record model="instruction.info" id="instruction_66">
+			<field name="name">AGUILERA TORRES</field>
+			<field name="date_star">1718327596</field>
+			<field name="date_end">1996-12-16</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0987798271</field>
+		</record>		<record model="instruction.info" id="instruction_66">
+			<field name="name">AGUILERA TORRES</field>
+			<field name="date_star">1718326661</field>
+			<field name="date_end">1991-05-15</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0995111200</field>
+		</record>		<record model="instruction.info" id="instruction_68">
+			<field name="name">ZURITA IBARRA</field>
+			<field name="date_star">1717175812</field>
+			<field name="date_end">1990-02-26</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0983301885</field>
+		</record>		<record model="instruction.info" id="instruction_68">
+			<field name="name">IBARRA SAMPEDRO</field>
+			<field name="date_star">1707344204</field>
+			<field name="date_end">1968-04-25</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0983301885</field>
+		</record>		<record model="instruction.info" id="instruction_71">
+			<field name="name">BRUQUE MARTINEZ</field>
+			<field name="date_star">1723479141</field>
+			<field name="date_end">1991-01-27</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0987731328</field>
+		</record>		<record model="instruction.info" id="instruction_71">
+			<field name="name">BRUQUE MARTINEZ</field>
+			<field name="date_star">1723479158</field>
+			<field name="date_end">1995-07-21</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0992543471</field>
+		</record>		<record model="instruction.info" id="instruction_71">
+			<field name="name">MARTINEZ VELA</field>
+			<field name="date_star">1719371941</field>
+			<field name="date_end">1954-07-01</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0995071069</field>
+		</record>		<record model="instruction.info" id="instruction_74">
+			<field name="name">GUERRON VACA</field>
+			<field name="date_star">1725150468</field>
+			<field name="date_end">1998-06-03</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0986977749</field>
+		</record>		<record model="instruction.info" id="instruction_74">
+			<field name="name">CUEVA VACA</field>
+			<field name="date_star">1751115484</field>
+			<field name="date_end">2006-04-24</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0993401692</field>
+		</record>		<record model="instruction.info" id="instruction_74">
+			<field name="name">CUEVA DAVILA</field>
+			<field name="date_star">1709434094</field>
+			<field name="date_end">1974-01-08</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0980218258</field>
+		</record>		<record model="instruction.info" id="instruction_75">
+			<field name="name">DAVILA SOTO</field>
+			<field name="date_star">1720162047</field>
+			<field name="date_end">1999-07-22</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0000000000</field>
+		</record>		<record model="instruction.info" id="instruction_78">
+			<field name="name">BORJA ESPINOSA</field>
+			<field name="date_star">1001659554</field>
+			<field name="date_end">1973-09-13</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0995820492</field>
+		</record>		<record model="instruction.info" id="instruction_78">
+			<field name="name">BORJA CHALA</field>
+			<field name="date_star">0000000000</field>
+			<field name="date_end">2008-02-15</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for"> 0995820492 </field>
+		</record>		<record model="instruction.info" id="instruction_78">
+			<field name="name">BORJA CHALA</field>
+			<field name="date_star">0000000000</field>
+			<field name="date_end">2009-09-11</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">023440329</field>
+		</record>		<record model="instruction.info" id="instruction_79">
+			<field name="name">LARA CERON</field>
+			<field name="date_star">1711762946</field>
+			<field name="date_end">2010-12-04</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">998214097</field>
+		</record>		<record model="instruction.info" id="instruction_81">
+			<field name="name">CEVALLOS NARANJO</field>
+			<field name="date_star">1721740478</field>
+			<field name="date_end">1999-07-04</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">2456971</field>
+		</record>		<record model="instruction.info" id="instruction_81">
+			<field name="name">CEVALLOS NARANJO</field>
+			<field name="date_star">1727050799</field>
+			<field name="date_end">2009-10-09</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">2456971</field>
+		</record>		<record model="instruction.info" id="instruction_82">
+			<field name="name">TORRES RODRIGUEZ</field>
+			<field name="date_star">sin ideniticacion</field>
+			<field name="date_end">2009-03-09</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0984256752</field>
+		</record>		<record model="instruction.info" id="instruction_84">
+			<field name="name">PEÑA ALDAZ</field>
+			<field name="date_star">0401106265</field>
+			<field name="date_end">1975-08-22</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0987358259</field>
+		</record>		<record model="instruction.info" id="instruction_84">
+			<field name="name">PEÑA JARAMILLO</field>
+			<field name="date_star">1752084432</field>
+			<field name="date_end">2008-03-08</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">00000000000</field>
+		</record>		<record model="instruction.info" id="instruction_86">
+			<field name="name">TANDAZO PROAÑO</field>
+			<field name="date_star">1723530877</field>
+			<field name="date_end">2003-01-17</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0995006650</field>
+		</record>		<record model="instruction.info" id="instruction_86">
+			<field name="name">PROAÑO VASCONEZ</field>
+			<field name="date_star">1711182202</field>
+			<field name="date_end">1970-07-08</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0995006650</field>
+		</record>		<record model="instruction.info" id="instruction_87">
+			<field name="name">PEREZ</field>
+			<field name="date_star">1754720371</field>
+			<field name="date_end">2013-10-23</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0984055275</field>
+		</record>		<record model="instruction.info" id="instruction_89">
+			<field name="name">OJEDA HERNANDEZ</field>
+			<field name="date_star">1727209650</field>
+			<field name="date_end">2006-02-15</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0984823914</field>
+		</record>		<record model="instruction.info" id="instruction_89">
+			<field name="name">OJEDA LUZURIAGA</field>
+			<field name="date_star">1103865950</field>
+			<field name="date_end">1981-12-19</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0992868117</field>
+		</record>		<record model="instruction.info" id="instruction_90">
+			<field name="name">AILLON SANTACRUZ</field>
+			<field name="date_star">1754686630</field>
+			<field name="date_end">2013-10-14</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0987392171</field>
+		</record>		<record model="instruction.info" id="instruction_91">
+			<field name="name">GARCÍA GÓMEZ</field>
+			<field name="date_star">1716966435</field>
+			<field name="date_end">1993-12-13</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0958844936</field>
+		</record>		<record model="instruction.info" id="instruction_92">
+			<field name="name">TOBAR</field>
+			<field name="date_star">1703184711</field>
+			<field name="date_end">1950-03-25</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0983887212</field>
+		</record>		<record model="instruction.info" id="instruction_93">
+			<field name="name">SIGUENZA PIEDRA</field>
+			<field name="date_star">0106783467</field>
+			<field name="date_end">1996-03-23</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0987278214</field>
+		</record>		<record model="instruction.info" id="instruction_94">
+			<field name="name">MONTENEGRO CARRERA</field>
+			<field name="date_star">1727242032</field>
+			<field name="date_end">1992-08-20</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0984672274</field>
+		</record>		<record model="instruction.info" id="instruction_96">
+			<field name="name">MANANGÓN VINUEZA</field>
+			<field name="date_star">1753324449</field>
+			<field name="date_end">2004-05-09</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0995402759</field>
+		</record>		<record model="instruction.info" id="instruction_96">
+			<field name="name">MANANGÓN VINUEZA</field>
+			<field name="date_star">00000000000</field>
+			<field name="date_end">2011-05-11</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0995402759</field>
+		</record>		<record model="instruction.info" id="instruction_98">
+			<field name="name">FLOR ALVAREZ</field>
+			<field name="date_star">1724805211</field>
+			<field name="date_end">1991-08-10</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0998204004</field>
+		</record>		<record model="instruction.info" id="instruction_98">
+			<field name="name">FLOR ALVAREZ</field>
+			<field name="date_star">1750322966</field>
+			<field name="date_end">1997-05-10</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0984004210</field>
+		</record>		<record model="instruction.info" id="instruction_100">
+			<field name="name">DÁVALOS BENÍTEZ</field>
+			<field name="date_star">17000000000</field>
+			<field name="date_end">1997-01-21</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0987313120</field>
+		</record>		<record model="instruction.info" id="instruction_100">
+			<field name="name">DAVALOS BENITEZ</field>
+			<field name="date_star">1710000000</field>
+			<field name="date_end">1999-09-21</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0992537226</field>
+		</record>		<record model="instruction.info" id="instruction_102">
+			<field name="name">BAEZ MOSQUERA</field>
+			<field name="date_star">XXXXXXXXXX</field>
+			<field name="date_end">1996-12-09</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">1111111</field>
+		</record>		<record model="instruction.info" id="instruction_102">
+			<field name="name">BAEZ MOSQUERA</field>
+			<field name="date_star">XXXXXXXXXX</field>
+			<field name="date_end">2005-09-23</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">11111111</field>
+		</record>		<record model="instruction.info" id="instruction_104">
+			<field name="name">OCHOA LUZURIAGA</field>
+			<field name="date_star">1707740260</field>
+			<field name="date_end">1971-04-14</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0991655697</field>
+		</record>		<record model="instruction.info" id="instruction_104">
+			<field name="name">VASQUEZ OCHOA</field>
+			<field name="date_star">1721935102</field>
+			<field name="date_end">2004-03-03</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0992438747</field>
+		</record>		<record model="instruction.info" id="instruction_105">
+			<field name="name">CARRION PAREDES</field>
+			<field name="date_star">1716426471</field>
+			<field name="date_end">1980-02-05</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0998300189</field>
+		</record>		<record model="instruction.info" id="instruction_107">
+			<field name="name">VEGA AGUIRRE</field>
+			<field name="date_star">1718380635</field>
+			<field name="date_end">1994-01-03</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0999814130</field>
+		</record>		<record model="instruction.info" id="instruction_107">
+			<field name="name">VACA CUEVA</field>
+			<field name="date_star">1100145802</field>
+			<field name="date_end">1929-01-16</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">00000000000</field>
+		</record>		<record model="instruction.info" id="instruction_110">
+			<field name="name">PACAS ALBAN</field>
+			<field name="date_star">17090605035</field>
+			<field name="date_end">1965-05-06</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0992505210</field>
+		</record>		<record model="instruction.info" id="instruction_110">
+			<field name="name">RONDAL PACAS</field>
+			<field name="date_star">1723482517</field>
+			<field name="date_end">1998-08-12</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0992505210</field>
+		</record>		<record model="instruction.info" id="instruction_110">
+			<field name="name">RONDAL PACAS</field>
+			<field name="date_star">1751232248</field>
+			<field name="date_end">2005-03-06</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0992505210</field>
+		</record>		<record model="instruction.info" id="instruction_112">
+			<field name="name">FONTAINE</field>
+			<field name="date_star">0000000</field>
+			<field name="date_end">2003-09-28</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">00000000</field>
+		</record>		<record model="instruction.info" id="instruction_112">
+			<field name="name">FONTAINE</field>
+			<field name="date_star">00000000</field>
+			<field name="date_end">2011-07-22</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">00000000</field>
+		</record>		<record model="instruction.info" id="instruction_114">
+			<field name="name">REINOSO SUAREZ</field>
+			<field name="date_star">17546309639</field>
+			<field name="date_end">2006-12-28</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0995734801</field>
+		</record>		<record model="instruction.info" id="instruction_114">
+			<field name="name">REINOSO SUAREZ</field>
+			<field name="date_star">000000000000</field>
+			<field name="date_end">2009-09-16</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0995734801</field>
+		</record>		<record model="instruction.info" id="instruction_117">
+			<field name="name">ANDRADE PONCE</field>
+			<field name="date_star">0604813113</field>
+			<field name="date_end">1999-06-12</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0995209557</field>
+		</record>		<record model="instruction.info" id="instruction_117">
+			<field name="name">VILLAGOMEZ PONCE</field>
+			<field name="date_star">0606090306</field>
+			<field name="date_end">2006-08-17</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0995209557</field>
+		</record>		<record model="instruction.info" id="instruction_117">
+			<field name="name">VILLAGOMEZ PONCE</field>
+			<field name="date_star">0650095557</field>
+			<field name="date_end">2010-05-19</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0995209557</field>
+		</record>		<record model="instruction.info" id="instruction_119">
+			<field name="name">RICHARDS OÑA</field>
+			<field name="date_star">1725932626</field>
+			<field name="date_end">2006-02-16</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0984308892</field>
+		</record>		<record model="instruction.info" id="instruction_119">
+			<field name="name">RICHARDS OÑA</field>
+			<field name="date_star">1750097055</field>
+			<field name="date_end">2010-04-08</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0984308892</field>
+		</record>		<record model="instruction.info" id="instruction_121">
+			<field name="name">ORTIZ CISNEROS</field>
+			<field name="date_star">1727039446</field>
+			<field name="date_end">2006-09-01</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0987145568</field>
+		</record>		<record model="instruction.info" id="instruction_121">
+			<field name="name">AIDA ELIZABETH</field>
+			<field name="date_star">1709093973</field>
+			<field name="date_end">1966-07-11</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">098265264</field>
+		</record>		<record model="instruction.info" id="instruction_124">
+			<field name="name">SANTACRUZ SALAZAR</field>
+			<field name="date_star">0603251224</field>
+			<field name="date_end">1979-01-12</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0984257467</field>
+		</record>		<record model="instruction.info" id="instruction_124">
+			<field name="name">RIVERA SANTACRUZ</field>
+			<field name="date_star">1750035634</field>
+			<field name="date_end">2010-02-26</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0995046481</field>
+		</record>		<record model="instruction.info" id="instruction_124">
+			<field name="name">MIÑO SANTACRUZ</field>
+			<field name="date_star">1725115347</field>
+			<field name="date_end">1997-03-25</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0998731142</field>
+		</record>		<record model="instruction.info" id="instruction_126">
+			<field name="name">SANCHEZ IZURIETA</field>
+			<field name="date_star">1718163437</field>
+			<field name="date_end">1992-10-30</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0987828249</field>
+		</record>		<record model="instruction.info" id="instruction_126">
+			<field name="name">SANCHEZ IZURIETA</field>
+			<field name="date_star">1718165028</field>
+			<field name="date_end">1994-05-03</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0998041254</field>
+		</record>		<record model="instruction.info" id="instruction_128">
+			<field name="name">RIVERA VARGAS</field>
+			<field name="date_star">1722742382</field>
+			<field name="date_end">1987-07-30</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0987429657</field>
+		</record>		<record model="instruction.info" id="instruction_128">
+			<field name="name">LEON RIVERA</field>
+			<field name="date_star">1716414519</field>
+			<field name="date_end">2006-10-19</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0984254259</field>
+		</record>		<record model="instruction.info" id="instruction_129">
+			<field name="name">HERNANDEZ TOBAR</field>
+			<field name="date_star">1725695561</field>
+			<field name="date_end">2005-11-07</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0991211914</field>
+		</record>		<record model="instruction.info" id="instruction_132">
+			<field name="name">TUPIZA ÑACATO</field>
+			<field name="date_star">1723156343</field>
+			<field name="date_end">1994-10-07</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0992787836</field>
+		</record>		<record model="instruction.info" id="instruction_132">
+			<field name="name">ÑACATO BAUTISTA</field>
+			<field name="date_star">1709578411</field>
+			<field name="date_end">1969-09-07</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0992787836</field>
+		</record>		<record model="instruction.info" id="instruction_132">
+			<field name="name">TUPIZA ÑACATO</field>
+			<field name="date_star">1726784463</field>
+			<field name="date_end">2002-11-26</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0992787836</field>
+		</record>		<record model="instruction.info" id="instruction_133">
+			<field name="name">ASTUDILLO SALAZAR</field>
+			<field name="date_star">001</field>
+			<field name="date_end">2006-09-30</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0999289213</field>
+		</record>		<record model="instruction.info" id="instruction_135">
+			<field name="name">BASANTES SINCHIGUANO</field>
+			<field name="date_star">17099120016</field>
+			<field name="date_end">1967-01-20</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0995417415</field>
+		</record>		<record model="instruction.info" id="instruction_135">
+			<field name="name">MORENO BASANTES</field>
+			<field name="date_star">001</field>
+			<field name="date_end">2010-12-12</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0995417415</field>
+		</record>		<record model="instruction.info" id="instruction_138">
+			<field name="name">LIDA BLADIR</field>
+			<field name="date_star">1719408088</field>
+			<field name="date_end">1985-09-23</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0999271145</field>
+		</record>		<record model="instruction.info" id="instruction_138">
+			<field name="name">CAMILA ANAHY</field>
+			<field name="date_star">1722489851</field>
+			<field name="date_end">2005-03-02</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0999271145</field>
+		</record>		<record model="instruction.info" id="instruction_138">
+			<field name="name">DYLAN XAVIER</field>
+			<field name="date_star">1754318895</field>
+			<field name="date_end">2009-12-11</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0999271145</field>
+		</record>		<record model="instruction.info" id="instruction_140">
+			<field name="name">AMANGANDI</field>
+			<field name="date_star">0202356648</field>
+			<field name="date_end">1993-04-29</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0980683473</field>
+		</record>		<record model="instruction.info" id="instruction_140">
+			<field name="name">MUGUICHA AGUALONGO</field>
+			<field name="date_star">1726330853</field>
+			<field name="date_end">1997-04-20</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0980683473</field>
+		</record>		<record model="instruction.info" id="instruction_143">
+			<field name="name">OCHOA RODRIGUSZ</field>
+			<field name="date_star">092354024-9</field>
+			<field name="date_end">1987-08-13</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0980761428</field>
+		</record>		<record model="instruction.info" id="instruction_143">
+			<field name="name">NAVARRETE OCHOA</field>
+			<field name="date_star">175171472-4</field>
+			<field name="date_end">2007-02-24</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0980761428</field>
+		</record>		<record model="instruction.info" id="instruction_143">
+			<field name="name">NAVARRETE OCHOA</field>
+			<field name="date_star">175044772-2</field>
+			<field name="date_end">2010-03-03</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0980761428</field>
+		</record>		<record model="instruction.info" id="instruction_145">
+			<field name="name">ANGULO CHAVEZ</field>
+			<field name="date_star">1307577682</field>
+			<field name="date_end">1973-03-11</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0979883856</field>
+		</record>		<record model="instruction.info" id="instruction_145">
+			<field name="name">CEDEÑO ANGULO</field>
+			<field name="date_star">1314616309</field>
+			<field name="date_end">2008-05-12</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0982894872</field>
+		</record>		<record model="instruction.info" id="instruction_148">
+			<field name="name">PAZMIÑO MENA</field>
+			<field name="date_star">1712705548</field>
+			<field name="date_end">2001-04-04</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0989677211</field>
+		</record>		<record model="instruction.info" id="instruction_148">
+			<field name="name">MAYA BETANCOURT</field>
+			<field name="date_star">1714512173</field>
+			<field name="date_end">1982-09-14</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0935961329</field>
+		</record>		<record model="instruction.info" id="instruction_148">
+			<field name="name">MAYA MENA</field>
+			<field name="date_star">1752602936</field>
+			<field name="date_end">2006-12-29</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0985961329</field>
+		</record>		<record model="instruction.info" id="instruction_150">
+			<field name="name">REINOSO GUIJARRO</field>
+			<field name="date_star">1726888041</field>
+			<field name="date_end">2004-12-22</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0992982196</field>
+		</record>		<record model="instruction.info" id="instruction_150">
+			<field name="name">GRANDA GUIJARRO</field>
+			<field name="date_star">1753474400</field>
+			<field name="date_end">2013-01-05</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0992982196</field>
+		</record>		<record model="instruction.info" id="instruction_151">
+			<field name="name">CASTRO MALDONADO</field>
+			<field name="date_star">1727877373</field>
+			<field name="date_end">2009-03-03</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0989719819</field>
+		</record>		<record model="instruction.info" id="instruction_152">
+			<field name="name">SEBASTIAN</field>
+			<field name="date_star">3544353245</field>
+			<field name="date_end">2014-05-22</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">35325</field>
+		</record>		<record model="instruction.info" id="instruction_156">
+			<field name="name">ESTRELLA ENDARA</field>
+			<field name="date_star">1719379347</field>
+			<field name="date_end">1984-10-12</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0998214673</field>
+		</record>		<record model="instruction.info" id="instruction_156">
+			<field name="name">PASQUE FERNANDEZ</field>
+			<field name="date_star">1723909824</field>
+			<field name="date_end">2002-05-23</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0998214673</field>
+		</record>		<record model="instruction.info" id="instruction_156">
+			<field name="name">PASQUEL ESTRELLA</field>
+			<field name="date_star">0000000000</field>
+			<field name="date_end">2012-02-01</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0998124673</field>
+		</record>		<record model="instruction.info" id="instruction_156">
+			<field name="name">PASQUEL ESTRELLA</field>
+			<field name="date_star">0000000000</field>
+			<field name="date_end">2013-12-20</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0998214673</field>
+		</record>		<record model="instruction.info" id="instruction_157">
+			<field name="name">VILLACRES MOREIRA</field>
+			<field name="date_star">1234567890</field>
+			<field name="date_end">2013-02-14</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0995011357</field>
+		</record>		<record model="instruction.info" id="instruction_158">
+			<field name="name">ROMAN JIMENEZ</field>
+			<field name="date_star">1104087612</field>
+			<field name="date_end">2008-07-10</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0999208777</field>
+		</record>		<record model="instruction.info" id="instruction_160">
+			<field name="name">AGUILAR CRUZ</field>
+			<field name="date_star">1722944723</field>
+			<field name="date_end">1994-01-09</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0998397069</field>
+		</record>		<record model="instruction.info" id="instruction_160">
+			<field name="name">AGUILAR CRUZ</field>
+			<field name="date_star">1723205215</field>
+			<field name="date_end">1997-09-17</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0998109905</field>
+		</record>		<record model="instruction.info" id="instruction_161">
+			<field name="name">ALBARRACIN MARURI</field>
+			<field name="date_star">0102324431</field>
+			<field name="date_end">1972-03-07</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0994793263</field>
+		</record>		<record model="instruction.info" id="instruction_163">
+			<field name="name">FONTAINE</field>
+			<field name="date_star">0000000</field>
+			<field name="date_end">2003-09-28</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">00000000</field>
+		</record>		<record model="instruction.info" id="instruction_163">
+			<field name="name">FONTAINE</field>
+			<field name="date_star">00000000</field>
+			<field name="date_end">2011-07-22</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">00000000</field>
+		</record>		<record model="instruction.info" id="instruction_165">
+			<field name="name">LAUFER CORELLA</field>
+			<field name="date_star">1724683923</field>
+			<field name="date_end">1997-09-15</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0995430209</field>
+		</record>		<record model="instruction.info" id="instruction_165">
+			<field name="name">LAUFER CORELLA</field>
+			<field name="date_star">1724683915</field>
+			<field name="date_end">1998-10-28</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0992767290</field>
+		</record>		<record model="instruction.info" id="instruction_166">
+			<field name="name">LASPINA TAPIA</field>
+			<field name="date_star">1722257662</field>
+			<field name="date_end">1991-11-26</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0979283676</field>
+		</record>		<record model="instruction.info" id="instruction_167">
+			<field name="name">LÓPEZ</field>
+			<field name="date_star">1801476969</field>
+			<field name="date_end">1954-08-13</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0998581500</field>
+		</record>		<record model="instruction.info" id="instruction_172">
+			<field name="name">RON MORENO</field>
+			<field name="date_star">1724648793</field>
+			<field name="date_end">2000-11-23</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0992924714</field>
+		</record>		<record model="instruction.info" id="instruction_172">
+			<field name="name">RON MORENO</field>
+			<field name="date_star">1751022219</field>
+			<field name="date_end">2006-11-29</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0992924714</field>
+		</record>		<record model="instruction.info" id="instruction_172">
+			<field name="name">RON MORENO</field>
+			<field name="date_star">1750970681</field>
+			<field name="date_end">2011-02-24</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0992924714</field>
+		</record>		<record model="instruction.info" id="instruction_172">
+			<field name="name">RON BAQUERO</field>
+			<field name="date_star">s/n</field>
+			<field name="date_end">2007-12-01</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0991883084</field>
+		</record>		<record model="instruction.info" id="instruction_172">
+			<field name="name">MORENO PAREDES</field>
+			<field name="date_star">1712764248</field>
+			<field name="date_end">1974-07-07</field>
+			<field name="event_id" ref="event_chat"></field>
+			<field name="certified_for">0992934792</field>
+		</record>	</data>
+</openerp>

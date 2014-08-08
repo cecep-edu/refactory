@@ -164,9 +164,6 @@ class canton(osv.osv, validation):
         "code_mrl": fields.char("Código MRL", size=3),
         "country_state_id": fields.many2one("res.country.state","Provincia",required=True),
     }
-    _sql_constraints = [
-        ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
-    ]
     _constraints = [
         #(validation.only_numbers, _(u"El Código MRL debe contener solo números."), ['code_mrl'])
     ]
