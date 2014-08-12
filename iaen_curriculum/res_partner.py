@@ -28,6 +28,7 @@ import openerp.addons.decimal_precision as dp
 import openerp.tools.image as imageoerp
 from urllib2 import URLError
 from iaen_curriculum_ws import IaenCurriculumWs 
+from suds.transport import TransportError
 
 class res_partner(osv.osv):
         _inherit = "res.partner"
@@ -82,6 +83,8 @@ class res_partner(osv.osv):
 							data_disc = ws.find_disability_info(identification_number)
 							data_diplo = ws.find_instruction_info(identification_number)
 						except URLError:
+							return {'value': {}}
+						except TransportError:
 							return {'value': {}}
 
 						if(data):
