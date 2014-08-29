@@ -32,6 +32,8 @@
         'views/res_partner_actions.xml',
         'views/res_partner_menus.xml',
         'data/res_partner_data.xml',
+        'data/res_partner_data_docentes.xml',
+        'data/res_partner_sig1.xml',
         'data/instruction_info_data.xml',
     ],
     'update_xml': [
