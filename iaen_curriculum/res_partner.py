@@ -26,7 +26,9 @@ from openerp.tools.translate import _
 from openerp.tools.float_utils import float_round as round
 import openerp.addons.decimal_precision as dp
 import openerp.tools.image as imageoerp
+from urllib2 import URLError
 from iaen_curriculum_ws import IaenCurriculumWs 
+from suds.transport import TransportError
 
 class res_partner(osv.osv):
         _inherit = "res.partner"
@@ -76,9 +78,14 @@ class res_partner(osv.osv):
 				if id_type.name.lower().find(u"cédula")>=0:
 					if identification_number.__len__() == 10:
 						ws = IaenCurriculumWs()
-						data = ws.find_identification_info(identification_number)
-						data_disc = ws.find_disability_info(identification_number)
-						data_diplo = ws.find_instruction_info(identification_number)
+						try:
+							data = ws.find_identification_info(identification_number)
+							data_disc = ws.find_disability_info(identification_number)
+							data_diplo = ws.find_instruction_info(identification_number)
+						except URLError:
+							return {'value': {}}
+						except TransportError:
+							return {'value': {}}
 
 						if(data):
 							values['name'] = data['name']
@@ -126,7 +133,7 @@ class res_partner(osv.osv):
 									values['instruction_info_ids'] += val
 								return {'value': values}
 							else:
-								return {'value': {}}
+								return {'value': values} 
 						else:
 							return {'value': values, 'warning': {'title': 'Error de Cédula', 'message': 'La cédula ingresada no es válida o no existe.'}}
 					else:
