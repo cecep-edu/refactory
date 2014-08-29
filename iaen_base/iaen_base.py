@@ -110,9 +110,9 @@ class res_country(osv.osv, validation):
     _columns = {
         "code_mrl": fields.char("Codigo MRL", size=3),
     }
-    _sql_constraints = [
-        ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
-    ]
+    #_sql_constraints = [
+    #    ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
+    #]
     _constraints = [
         (validation.only_numbers, _(u"El Código MRL debe contener solo números."), ['code_mrl'])
     ]
@@ -128,9 +128,9 @@ class res_country_state(osv.osv, validation):
         "code_mrl": fields.char("Código MRL", size=3),
         "zone_id": fields.many2one("zones","Zona",help="Distribución zonal, a la que pertenece la provincia")
     }
-    _sql_constraints = [
-        ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
-    ]
+    #_sql_constraints = [
+    #    ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
+    #]
     _constraints = [
         (validation.only_numbers, _(u"El Código MRL debe contener solo números."), ['code_mrl'])
     ]
@@ -164,9 +164,9 @@ class canton(osv.osv, validation):
         "code_mrl": fields.char("Código MRL", size=3),
         "country_state_id": fields.many2one("res.country.state","Provincia",required=True),
     }
-    _sql_constraints = [
-        ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
-    ]
+    #_sql_constraints = [
+    #    ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
+    #]
     _constraints = [
         #(validation.only_numbers, _(u"El Código MRL debe contener solo números."), ['code_mrl'])
     ]
