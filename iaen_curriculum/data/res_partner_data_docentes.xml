@@ -1,0 +1,181 @@
+<openerp>
+	<data noupdate="1">
+		<record id="curriculum_13547" model="res.partner">
+			<field name="type_sex_id" ref="iaen_base.type_sex_female" />
+			<field name="identification_number">09AC22305</field>
+			<field name="street">aqui</field>
+			<field name="phone">este</field>
+			<field name="mobile">este otro</field>
+			<field name="email" />
+			<field name="name">COIGNET PATRICIA MARIE</field>
+		</record>
+		<record id="curriculum_13548" model="res.partner">
+			<field name="civil_status_id" ref="iaen_base.civil_status_1" />
+			<field name="type_sex_id" ref="iaen_base.type_sex_female" />
+			<field name="birth_city_id" ref="iaen_base.canton_189" />
+			<field name="identification_number">1715580534</field>
+			<field name="nationality_id" ref="iaen_base.nationality_19" />
+			<field name="street">ANTONIO DE PRADO</field>
+			<field name="phone">2612682</field>
+			<field name="mobile">0983288191</field>
+			<field name="email">belinda.l@hotmail.com</field>
+			<field name="name">LOVATO BELEN</field>
+		</record>
+		<record id="curriculum_13549" model="res.partner">
+			<field name="civil_status_id" ref="iaen_base.civil_status_2" />
+			<field name="type_sex_id" ref="iaen_base.type_sex_female" />
+			<field name="birth_city_id" ref="iaen_base.canton_45" />
+			<field name="identification_number">1803066768</field>
+			<field name="nationality_id" ref="iaen_base.nationality_19" />
+			<field name="street">OCCIDENTAL CJTO LA ALBORADA</field>
+			<field name="phone">2493282</field>
+			<field name="mobile">095082071</field>
+			<field name="email">fernanda.vasquez@iaen.edu.ec</field>
+			<field name="name">V&#193;SQUEZ PAREDES FERNANDA XIMENA</field>
+		</record>
+		<record id="curriculum_13550" model="res.partner">
+			<field name="civil_status_id" ref="iaen_base.civil_status_1" />
+			<field name="type_sex_id" ref="iaen_base.type_sex_female" />
+			<field name="birth_city_id" ref="iaen_base.canton_189" />
+			<field name="identification_number">1712110616</field>
+			<field name="nationality_id" ref="iaen_base.nationality_19" />
+			<field name="street">CALLE E</field>
+			<field name="phone">2483568</field>
+			<field name="mobile">0994170687</field>
+			<field name="email">karina.segura@iaen.edu.ec</field>
+			<field name="name">SEGURA MU&#209;OZ KARINA CUMANDA</field>
+		</record>
+		<record id="curriculum_13551" model="res.partner">
+			<field name="civil_status_id" ref="iaen_base.civil_status_2" />
+			<field name="type_sex_id" ref="iaen_base.type_sex_female" />
+			<field name="birth_city_id" ref="iaen_base.canton_1" />
+			<field name="identification_number">1725816266</field>
+			<field name="nationality_id" ref="iaen_base.nationality_19" />
+			<field name="street" />
+			<field name="phone" />
+			<field name="mobile" />
+			<field name="email">johanna.idrobo@iaen.edu.ec</field>
+			<field name="name">IDROBO CASTRO JOHANNA ANDREA</field>
+		</record>
+		<record id="curriculum_13552" model="res.partner">
+			<field name="civil_status_id" ref="iaen_base.civil_status_2" />
+			<field name="type_sex_id" ref="iaen_base.type_sex_female" />
+			<field name="birth_city_id" ref="iaen_base.canton_189" />
+			<field name="identification_number">1705712832</field>
+			<field name="nationality_id" ref="iaen_base.nationality_19" />
+			<field name="street">3</field>
+			<field name="phone">2091343</field>
+			<field name="mobile">0984660413</field>
+			<field name="email">norma.nieto@iaen.edu.ec</field>
+			<field name="name">NIETO ALOMOTO NORMA BEATRIZ</field>
+		</record>
+		<record id="curriculum_13553" model="res.partner">
+			<field name="civil_status_id" ref="iaen_base.civil_status_2" />
+			<field name="type_sex_id" ref="iaen_base.type_sex_male" />
+			<field name="birth_city_id" ref="iaen_base.canton_35" />
+			<field name="identification_number">0400798054</field>
+			<field name="nationality_id" ref="iaen_base.nationality_19" />
+			<field name="street">SAN JOSE E13-36</field>
+			<field name="phone">2814120</field>
+			<field name="mobile">0985307272</field>
+			<field name="email">byron.montenegro@iaen.edu.ec</field>
+			<field name="name">MONTENEGRO PAB&#211;N BYRON MARCELO</field>
+		</record>
+		<record id="curriculum_13554" model="res.partner">
+			<field name="civil_status_id" ref="iaen_base.civil_status_2" />
+			<field name="type_sex_id" ref="iaen_base.type_sex_male" />
+			<field name="birth_city_id" ref="iaen_base.canton_30" />
+			<field name="identification_number">0400522769</field>
+			<field name="nationality_id" ref="iaen_base.nationality_19" />
+			<field name="street">ARELLANO  PORTILLA</field>
+			<field name="phone">2030769</field>
+			<field name="mobile">0983514304</field>
+			<field name="email">jorge.chiriboga@iaen.edu.ec</field>
+			<field name="name">CHIRIBOGA JORGE</field>
+		</record>
+		<record id="curriculum_13555" model="res.partner">
+			<field name="civil_status_id" ref="iaen_base.civil_status_1" />
+			<field name="type_sex_id" ref="iaen_base.type_sex_male" />
+			<field name="birth_city_id" ref="iaen_base.canton_1" />
+			<field name="identification_number">1713330643</field>
+			<field name="nationality_id" ref="iaen_base.nationality_19" />
+			<field name="street">AV. MARISCAL SUCRE</field>
+			<field name="phone">2631175</field>
+			<field name="mobile">0998311143</field>
+			<field name="email">hec_tor85@hotmail.com</field>
+			<field name="name">GARC&#205;A H&#201;CTOR</field>
+		</record>
+		<record id="curriculum_13556" model="res.partner">
+			<field name="civil_status_id" ref="iaen_base.civil_status_2" />
+			<field name="type_sex_id" ref="iaen_base.type_sex_male" />
+			<field name="birth_city_id" ref="iaen_base.canton_68" />
+			<field name="identification_number">0801026741</field>
+			<field name="nationality_id" ref="iaen_base.nationality_19" />
+			<field name="street" />
+			<field name="phone" />
+			<field name="mobile" />
+			<field name="email">anderson.tenorio@iaen.edu</field>
+			<field name="name">TENORIO VALENCIA ANDERSON</field>
+		</record>
+		<record id="curriculum_13557" model="res.partner">
+			<field name="civil_status_id" ref="iaen_base.civil_status_2" />
+			<field name="type_sex_id" ref="iaen_base.type_sex_female" />
+			<field name="birth_city_id" ref="iaen_base.canton_189" />
+			<field name="identification_number">1704206547</field>
+			<field name="nationality_id" ref="iaen_base.nationality_19" />
+			<field name="street" />
+			<field name="phone" />
+			<field name="mobile" />
+			<field name="email">luz.burbano@iaen.edu</field>
+			<field name="name">BURBANO CADENA LUZ ELENA</field>
+		</record>
+		<record id="curriculum_13558" model="res.partner">
+			<field name="civil_status_id" ref="iaen_base.civil_status_2" />
+			<field name="type_sex_id" ref="iaen_base.type_sex_male" />
+			<field name="birth_city_id" ref="iaen_base.canton_105" />
+			<field name="identification_number">1000597011</field>
+			<field name="nationality_id" ref="iaen_base.nationality_19" />
+			<field name="street" />
+			<field name="phone" />
+			<field name="mobile" />
+			<field name="email">carlos.cazar@iaen.edu</field>
+			<field name="name">CAZAR FLORES CARLOS RAMIRO</field>
+		</record>
+		<record id="curriculum_13559" model="res.partner">
+			<field name="civil_status_id" ref="iaen_base.civil_status_2" />
+			<field name="type_sex_id" ref="iaen_base.type_sex_male" />
+			<field name="birth_city_id" ref="iaen_base.canton_45" />
+			<field name="identification_number">1801153626</field>
+			<field name="nationality_id" ref="iaen_base.nationality_19" />
+			<field name="street" />
+			<field name="phone" />
+			<field name="mobile" />
+			<field name="email">mi.conciencia21@gmail.com</field>
+			<field name="name">ZAMORA ACOSTA GINO FERNANDO</field>
+		</record>
+		<record id="curriculum_13560" model="res.partner">
+			<field name="civil_status_id" ref="iaen_base.civil_status_2" />
+			<field name="type_sex_id" ref="iaen_base.type_sex_female" />
+			<field name="birth_city_id" ref="iaen_base.canton_105" />
+			<field name="identification_number">1001209137</field>
+			<field name="nationality_id" ref="iaen_base.nationality_19" />
+			<field name="street" />
+			<field name="phone" />
+			<field name="mobile" />
+			<field name="email">yolanda.jara@iaen.edu</field>
+			<field name="name">MANTILLA JARA YOLANDA VICTORIA</field>
+		</record>
+		<record id="curriculum_13561" model="res.partner">
+			<field name="civil_status_id" ref="iaen_base.civil_status_2" />
+			<field name="type_sex_id" ref="iaen_base.type_sex_male" />
+			<field name="birth_city_id" ref="iaen_base.canton_80" />
+			<field name="identification_number">1301827257</field>
+			<field name="nationality_id" ref="iaen_base.nationality_19" />
+			<field name="street" />
+			<field name="phone" />
+			<field name="mobile" />
+			<field name="email">bruno.burgos@iaen.edu</field>
+			<field name="name">BURGOS VERA BRUNO VICTORIANO</field>
+		</record>
+	</data>
+</openerp>
