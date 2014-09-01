@@ -24,20 +24,32 @@ class IaenCurriculumWs:
 
 		try: # and not client_response["Mensaje"]
 			data = {
-				"address_1": str(client_response['CalleDomicilio']),
-				"house_number": str(client_response['NumeroDomicilio']),
-				"state_residency": str(client_response['Domicilio'].split('/')[0]).capitalize(),
-				"city_residency": str(client_response['Domicilio'].split('/')[1]).capitalize(),
-				"parish_residency": str(client_response['Domicilio'].split('/')[2]).capitalize(),
-				"state_birth": str(client_response['LugarNacimiento'].split('/')[0]).capitalize(),
-				"city_birth": str(client_response['LugarNacimiento'].split('/')[1]).capitalize(),
-				"parish_birth": str(client_response['LugarNacimiento'].split('/')[2]).capitalize(),
+				"address_1": client_response['CalleDomicilio'],
+				"house_number": client_response['NumeroDomicilio'],
 				"civil_status": str(client_response['EstadoCivil']).capitalize(),
 				"birth_date": str(client_response['FechaNacimiento']),
 				"gender": str(client_response['Genero']).capitalize(),
-				"nationality": str(client_response['Nacionalidad']),
-				"name": str(client_response['Nombre'])
+				"nationality": client_response['Nacionalidad'],
+				"name": client_response['Nombre']
 			}
+
+			if client_response['LugarNacimiento'].count('/')<2:
+				data['parish_birth'] = ""
+				data['state_birth'] = ""
+				data['city_birth'] = ""
+			else:
+				data['parish_residency'] = client_response['Domicilio'].split('/')[2].capitalize()
+				data['state_birth'] = client_response['LugarNacimiento'].split('/')[0].capitalize()
+				data['city_birth'] = client_response['LugarNacimiento'].split('/')[1].capitalize()
+
+			if client_response['Domicilio'].count('/')<2:
+				data["state_residency"] = ""
+				data["city_residency"] = "" 
+				data["parish_residency"] = ""
+			else:
+				data["state_residency"] = client_response['Domicilio'].split('/')[0].capitalize(),
+				data["city_residency"] = client_response['Domicilio'].split('/')[1].capitalize(),
+				data["parish_residency"] = client_response['Domicilio'].split('/')[2].capitalize(),
 		except AttributeError:
 			data = {}
 		except KeyError:
