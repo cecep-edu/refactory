@@ -122,6 +122,7 @@ class res_country_state(osv.osv, validation):
         "code_mrl": fields.char("Código MRL", size=3),
         "zone_id": fields.many2one("zones","Zona",help="Distribución zonal, a la que pertenece la provincia")
     }
+
     _constraints = [
         (validation.only_numbers, _(u"El Código MRL debe contener solo números."), ['code_mrl'])
     ]
@@ -480,6 +481,7 @@ class indian_nationality(osv.osv, validation):
 
     _constraints = [(_alphabetical, _(u"El Tipo de dato es inválido."), ['name'])]
 
+
 #CLASE: Remuneraciones
 class sp_type(osv.osv, validation):   
     """Clase de las remuneraciones economicas en el sector publico""" 
@@ -500,3 +502,4 @@ class sp_type(osv.osv, validation):
         #(validation.only_letters, _(u"El nombre de la Notaria debe contener solo letras."), ['name']),
         #(validation.only_numbers, _(u"El Código MRL debe contener solo números."), ['code_mrl'])
     ]
+
