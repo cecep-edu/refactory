@@ -1,0 +1,1560 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<openerp>
+<data noupdate="1">
+<record model="res.country" id="base.ec">
+<field name="code_mrl">1</field>
+<field name="name">Ecuador</field>
+<field name="code">ec</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.ECS"/>
+</record>
+<record model="res.country" id="base.mt">
+<field name="code_mrl">2</field>
+<field name="name">Malta</field>
+<field name="code">mt</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.EUR"/>
+</record>
+<record model="res.country" id="base.af">
+<field name="code_mrl">3</field>
+<field name="name">Afghanistan, Islamic State of</field>
+<field name="code">af</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.AFN"/>
+</record>
+<record model="res.country" id="base.al">
+<field name="code_mrl">4</field>
+<field name="name">Albania</field>
+<field name="code">al</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.ALL"/>
+</record>
+<record model="res.country" id="base.de">
+<field name="code_mrl">5</field>
+<field name="name">Germany</field>
+<field name="code">de</field>
+<field name="adrees_format" eval="'%(street)s\n%(street2)s\n%(zip)s %(city)s\n%(country_name)s'"/>
+<field name="currency_id" ref="base.EUR"/>
+</record>
+<record model="res.country" id="base.ad">
+<field name="code_mrl">6</field>
+<field name="name">Andorra, Principality of</field>
+<field name="code">ad</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.EUR"/>
+</record>
+<record model="res.country" id="base.ao">
+<field name="code_mrl">7</field>
+<field name="name">Angola</field>
+<field name="code">ao</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.AOA"/>
+</record>
+<record model="res.country" id="base.ag">
+<field name="code_mrl">8</field>
+<field name="name">Antigua and Barbuda</field>
+<field name="code">ag</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.XCD"/>
+</record>
+<record model="res.country" id="base.an">
+<field name="code_mrl">9</field>
+<field name="name">Netherlands Antilles</field>
+<field name="code">an</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.NOK"/>
+</record>
+<record model="res.country" id="base.sa">
+<field name="code_mrl">10</field>
+<field name="name">Saudi Arabia</field>
+<field name="code">sa</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.SAR"/>
+</record>
+<record model="res.country" id="base.dz">
+<field name="code_mrl">11</field>
+<field name="name">Algeria</field>
+<field name="code">dz</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.DZD"/>
+</record>
+<record model="res.country" id="base.ar">
+<field name="code_mrl">12</field>
+<field name="name">Argentina</field>
+<field name="code">ar</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.ARS"/>
+</record>
+<record model="res.country" id="base.am">
+<field name="code_mrl">13</field>
+<field name="name">Armenia</field>
+<field name="code">am</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.AMD"/>
+</record>
+<record model="res.country" id="base.aw">
+<field name="code_mrl">14</field>
+<field name="name">Aruba</field>
+<field name="code">aw</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.AWG"/>
+</record>
+<record model="res.country" id="base.au">
+<field name="code_mrl">15</field>
+<field name="name">Australia</field>
+<field name="code">au</field>
+<field name="adrees_format" eval="'%(street)s\n%(street2)s\n%(city)s %(state_code)s %(zip)s\n%(country_name)s'"/>
+<field name="currency_id" ref="base.AUD"/>
+</record>
+<record model="res.country" id="base.at">
+<field name="code_mrl">16</field>
+<field name="name">Austria</field>
+<field name="code">at</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.EUR"/>
+</record>
+<record model="res.country" id="base.az">
+<field name="code_mrl">17</field>
+<field name="name">Azerbaijan</field>
+<field name="code">az</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.AZN"/>
+</record>
+<record model="res.country" id="base.bs">
+<field name="code_mrl">18</field>
+<field name="name">Bahamas</field>
+<field name="code">bs</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.BSD"/>
+</record>
+<record model="res.country" id="base.bh">
+<field name="code_mrl">19</field>
+<field name="name">Bahrain</field>
+<field name="code">bh</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.BHD"/>
+</record>
+<record model="res.country" id="base.bd">
+<field name="code_mrl">20</field>
+<field name="name">Bangladesh</field>
+<field name="code">bd</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.BDT"/>
+</record>
+<record model="res.country" id="base.bb">
+<field name="code_mrl">21</field>
+<field name="name">Barbados</field>
+<field name="code">bb</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.BBD"/>
+</record>
+<record model="res.country" id="base.be">
+<field name="code_mrl">22</field>
+<field name="name">Belgium</field>
+<field name="code">be</field>
+<field name="adrees_format" eval="'%(street)s\n%(street2)s\n%(zip)s %(city)s\n%(country_name)s'"/>
+<field name="currency_id" ref="base.EUR"/>
+</record>
+<record model="res.country" id="base.bz">
+<field name="code_mrl">23</field>
+<field name="name">Belize</field>
+<field name="code">bz</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.BZD"/>
+</record>
+<record model="res.country" id="base.bj">
+<field name="code_mrl">24</field>
+<field name="name">Benin</field>
+<field name="code">bj</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.XOF"/>
+</record>
+<record model="res.country" id="base.bm">
+<field name="code_mrl">25</field>
+<field name="name">Bermuda</field>
+<field name="code">bm</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.BMD"/>
+</record>
+<record model="res.country" id="country_26">
+<field name="code_mrl">26</field>
+<field name="name">BIELORRUSIA</field>
+<field name="code"></field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref=""/>
+</record>
+<record model="res.country" id="base.bo">
+<field name="code_mrl">27</field>
+<field name="name">Bolivia</field>
+<field name="code">bo</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.BOB"/>
+</record>
+<record model="res.country" id="base.ba">
+<field name="code_mrl">28</field>
+<field name="name">Bosnia-Herzegovina</field>
+<field name="code">ba</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.BAM"/>
+</record>
+<record model="res.country" id="base.bw">
+<field name="code_mrl">29</field>
+<field name="name">Botswana</field>
+<field name="code">bw</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.BWP"/>
+</record>
+<record model="res.country" id="base.br">
+<field name="code_mrl">30</field>
+<field name="name">Brazil</field>
+<field name="code">br</field>
+<field name="adrees_format" eval="'%(street)s\n%(street2)s\n%(city)s %(state_code)s\n%(zip)s\n%(country_name)s'"/>
+<field name="currency_id" ref="base.BRL"/>
+</record>
+<record model="res.country" id="base.bn">
+<field name="code_mrl">31</field>
+<field name="name">Brunei Darussalam</field>
+<field name="code">bn</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.BND"/>
+</record>
+<record model="res.country" id="base.bg">
+<field name="code_mrl">32</field>
+<field name="name">Bulgaria</field>
+<field name="code">bg</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.BGN"/>
+</record>
+<record model="res.country" id="base.bf">
+<field name="code_mrl">33</field>
+<field name="name">Burkina Faso</field>
+<field name="code">bf</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.XOF"/>
+</record>
+<record model="res.country" id="base.bi">
+<field name="code_mrl">34</field>
+<field name="name">Burundi</field>
+<field name="code">bi</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.BIF"/>
+</record>
+<record model="res.country" id="base.bt">
+<field name="code_mrl">35</field>
+<field name="name">Bhutan</field>
+<field name="code">bt</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.BTN"/>
+</record>
+<record model="res.country" id="base.cv">
+<field name="code_mrl">36</field>
+<field name="name">Cape Verde</field>
+<field name="code">cv</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.CVE"/>
+</record>
+<record model="res.country" id="base.kh">
+<field name="code_mrl">37</field>
+<field name="name">Cambodia, Kingdom of</field>
+<field name="code">kh</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.KHR"/>
+</record>
+<record model="res.country" id="base.cm">
+<field name="code_mrl">38</field>
+<field name="name">Cameroon</field>
+<field name="code">cm</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.XAF"/>
+</record>
+<record model="res.country" id="base.ca">
+<field name="code_mrl">39</field>
+<field name="name">Canada</field>
+<field name="code">ca</field>
+<field name="adrees_format" eval="'%(street)s\n%(street2)s\n%(city)s %(state_code)s %(zip)s\n%(country_name)s'"/>
+<field name="currency_id" ref="base.CAD"/>
+</record>
+<record model="res.country" id="base.td">
+<field name="code_mrl">40</field>
+<field name="name">Chad</field>
+<field name="code">td</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.XAF"/>
+</record>
+<record model="res.country" id="base.cz">
+<field name="code_mrl">41</field>
+<field name="name">Czech Republic</field>
+<field name="code">cz</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.CZK"/>
+</record>
+<record model="res.country" id="base.cl">
+<field name="code_mrl">42</field>
+<field name="name">Chile</field>
+<field name="code">cl</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.AUD"/>
+</record>
+<record model="res.country" id="base.cn">
+<field name="code_mrl">43</field>
+<field name="name">China</field>
+<field name="code">cn</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.CNY"/>
+</record>
+<record model="res.country" id="base.cy">
+<field name="code_mrl">44</field>
+<field name="name">Cyprus</field>
+<field name="code">cy</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.CYP"/>
+</record>
+<record model="res.country" id="base.co">
+<field name="code_mrl">45</field>
+<field name="name">Colombia</field>
+<field name="code">co</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.COP"/>
+</record>
+<record model="res.country" id="base.km">
+<field name="code_mrl">46</field>
+<field name="name">Comoros</field>
+<field name="code">km</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.KMF"/>
+</record>
+<record model="res.country" id="base.cg">
+<field name="code_mrl">47</field>
+<field name="name">Congo</field>
+<field name="code">cg</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.XAF"/>
+</record>
+<record model="res.country" id="base.kp">
+<field name="code_mrl">48</field>
+<field name="name">North Korea</field>
+<field name="code">kp</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.KPW"/>
+</record>
+<record model="res.country" id="base.kr">
+<field name="code_mrl">49</field>
+<field name="name">South Korea</field>
+<field name="code">kr</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.KRW"/>
+</record>
+<record model="res.country" id="base.ci">
+<field name="code_mrl">50</field>
+<field name="name">Ivory Coast (Cote D'Ivoire)</field>
+<field name="code">ci</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.XOF"/>
+</record>
+<record model="res.country" id="base.cr">
+<field name="code_mrl">51</field>
+<field name="name">Costa Rica</field>
+<field name="code">cr</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.CRC"/>
+</record>
+<record model="res.country" id="base.hr">
+<field name="code_mrl">52</field>
+<field name="name">Croatia</field>
+<field name="code">hr</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.HRK"/>
+</record>
+<record model="res.country" id="base.cu">
+<field name="code_mrl">53</field>
+<field name="name">Cuba</field>
+<field name="code">cu</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.CUP"/>
+</record>
+<record model="res.country" id="base.cw">
+<field name="code_mrl">54</field>
+<field name="name">Curaçao</field>
+<field name="code">cw</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.ANG"/>
+</record>
+<record model="res.country" id="base.dk">
+<field name="code_mrl">55</field>
+<field name="name">Denmark</field>
+<field name="code">dk</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.DKK"/>
+</record>
+<record model="res.country" id="base.dm">
+<field name="code_mrl">56</field>
+<field name="name">Dominica</field>
+<field name="code">dm</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.XCD"/>
+</record>
+<record model="res.country" id="country_57">
+<field name="code_mrl">57</field>
+<field name="name">DUBAI</field>
+<field name="code"></field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref=""/>
+</record>
+<record model="res.country" id="base.eg">
+<field name="code_mrl">58</field>
+<field name="name">Egypt</field>
+<field name="code">eg</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.EGP"/>
+</record>
+<record model="res.country" id="base.sv">
+<field name="code_mrl">59</field>
+<field name="name">El Salvador</field>
+<field name="code">sv</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.SVC"/>
+</record>
+<record model="res.country" id="base.ae">
+<field name="code_mrl">60</field>
+<field name="name">United Arab Emirates</field>
+<field name="code">ae</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.AED"/>
+</record>
+<record model="res.country" id="base.er">
+<field name="code_mrl">61</field>
+<field name="name">Eritrea</field>
+<field name="code">er</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.ERN"/>
+</record>
+<record model="res.country" id="country_62">
+<field name="code_mrl">62</field>
+<field name="name">ESCOCIA</field>
+<field name="code"></field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref=""/>
+</record>
+<record model="res.country" id="base.sk">
+<field name="code_mrl">63</field>
+<field name="name">Slovakia</field>
+<field name="code">sk</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.SKK"/>
+</record>
+<record model="res.country" id="base.si">
+<field name="code_mrl">64</field>
+<field name="name">Slovenia</field>
+<field name="code">si</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.EUR"/>
+</record>
+<record model="res.country" id="base.es">
+<field name="code_mrl">65</field>
+<field name="name">Spain</field>
+<field name="code">es</field>
+<field name="adrees_format" eval="'%(street)s\n%(street2)s\n%(zip)s %(city)s\n%(country_name)s'"/>
+<field name="currency_id" ref="base.EUR"/>
+</record>
+<record model="res.country" id="base.us">
+<field name="code_mrl">66</field>
+<field name="name">United States</field>
+<field name="code">us</field>
+<field name="adrees_format" eval="'%(street)s\n%(street2)s\n%(city)s, %(state_code)s %(zip)s\n%(country_name)s'"/>
+<field name="currency_id" ref="base.USD"/>
+</record>
+<record model="res.country" id="base.ee">
+<field name="code_mrl">67</field>
+<field name="name">Estonia</field>
+<field name="code">ee</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.EEK"/>
+</record>
+<record model="res.country" id="base.et">
+<field name="code_mrl">68</field>
+<field name="name">Ethiopia</field>
+<field name="code">et</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.ETB"/>
+</record>
+<record model="res.country" id="base.ph">
+<field name="code_mrl">69</field>
+<field name="name">Philippines</field>
+<field name="code">ph</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.PHP"/>
+</record>
+<record model="res.country" id="base.fi">
+<field name="code_mrl">70</field>
+<field name="name">Finland</field>
+<field name="code">fi</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.EUR"/>
+</record>
+<record model="res.country" id="base.fj">
+<field name="code_mrl">71</field>
+<field name="name">Fiji</field>
+<field name="code">fj</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.FJD"/>
+</record>
+<record model="res.country" id="base.fr">
+<field name="code_mrl">72</field>
+<field name="name">France</field>
+<field name="code">fr</field>
+<field name="adrees_format" eval="'%(street)s\n%(street2)s\n%(zip)s %(city)s\n%(country_name)s'"/>
+<field name="currency_id" ref="base.EUR"/>
+</record>
+<record model="res.country" id="base.ga">
+<field name="code_mrl">73</field>
+<field name="name">Gabon</field>
+<field name="code">ga</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.XAF"/>
+</record>
+<record model="res.country" id="base.gm">
+<field name="code_mrl">74</field>
+<field name="name">Gambia</field>
+<field name="code">gm</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.GMD"/>
+</record>
+<record model="res.country" id="base.ge">
+<field name="code_mrl">75</field>
+<field name="name">Georgia</field>
+<field name="code">ge</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.EUR"/>
+</record>
+<record model="res.country" id="base.gh">
+<field name="code_mrl">76</field>
+<field name="name">Ghana</field>
+<field name="code">gh</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.GHS"/>
+</record>
+<record model="res.country" id="base.gd">
+<field name="code_mrl">77</field>
+<field name="name">Grenada</field>
+<field name="code">gd</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.XCD"/>
+</record>
+<record model="res.country" id="base.gr">
+<field name="code_mrl">78</field>
+<field name="name">Greece</field>
+<field name="code">gr</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.EUR"/>
+</record>
+<record model="res.country" id="base.gu">
+<field name="code_mrl">79</field>
+<field name="name">Guam (USA)</field>
+<field name="code">gu</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.USD"/>
+</record>
+<record model="res.country" id="base.gt">
+<field name="code_mrl">80</field>
+<field name="name">Guatemala</field>
+<field name="code">gt</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.QTQ"/>
+</record>
+<record model="res.country" id="base.gf">
+<field name="code_mrl">81</field>
+<field name="name">French Guyana</field>
+<field name="code">gf</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.GEL"/>
+</record>
+<record model="res.country" id="base.gn">
+<field name="code_mrl">82</field>
+<field name="name">Guinea</field>
+<field name="code">gn</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.GNF"/>
+</record>
+<record model="res.country" id="base.gq">
+<field name="code_mrl">83</field>
+<field name="name">Equatorial Guinea</field>
+<field name="code">gq</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.XAF"/>
+</record>
+<record model="res.country" id="base.gw">
+<field name="code_mrl">84</field>
+<field name="name">Guinea Bissau</field>
+<field name="code">gw</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.GWP"/>
+</record>
+<record model="res.country" id="base.gy">
+<field name="code_mrl">85</field>
+<field name="name">Guyana</field>
+<field name="code">gy</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.GYD"/>
+</record>
+<record model="res.country" id="base.ht">
+<field name="code_mrl">86</field>
+<field name="name">Haiti</field>
+<field name="code">ht</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.HTG"/>
+</record>
+<record model="res.country" id="country_87">
+<field name="code_mrl">87</field>
+<field name="name">HERZEGOVINA</field>
+<field name="code"></field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref=""/>
+</record>
+<record model="res.country" id="country_88">
+<field name="code_mrl">88</field>
+<field name="name">HOLANDA</field>
+<field name="code"></field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref=""/>
+</record>
+<record model="res.country" id="base.hn">
+<field name="code_mrl">89</field>
+<field name="name">Honduras</field>
+<field name="code">hn</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.HNL"/>
+</record>
+<record model="res.country" id="base.hk">
+<field name="code_mrl">90</field>
+<field name="name">Hong Kong</field>
+<field name="code">hk</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.HKD"/>
+</record>
+<record model="res.country" id="base.hu">
+<field name="code_mrl">91</field>
+<field name="name">Hungary</field>
+<field name="code">hu</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.HUF"/>
+</record>
+<record model="res.country" id="base.in">
+<field name="code_mrl">92</field>
+<field name="name">India</field>
+<field name="code">in</field>
+<field name="adrees_format" eval="'%(street)s\n%(street2)s\n%(city)s %(zip)s\n%(state_name)s\n%(country_name)s'"/>
+<field name="currency_id" ref="base.INR"/>
+</record>
+<record model="res.country" id="base.id">
+<field name="code_mrl">93</field>
+<field name="name">Indonesia</field>
+<field name="code">id</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.IDR"/>
+</record>
+<record model="res.country" id="base.iq">
+<field name="code_mrl">94</field>
+<field name="name">Iraq</field>
+<field name="code">iq</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.IQD"/>
+</record>
+<record model="res.country" id="base.ir">
+<field name="code_mrl">95</field>
+<field name="name">Iran</field>
+<field name="code">ir</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.IRR"/>
+</record>
+<record model="res.country" id="base.ie">
+<field name="code_mrl">96</field>
+<field name="name">Ireland</field>
+<field name="code">ie</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.EUR"/>
+</record>
+<record model="res.country" id="base.is">
+<field name="code_mrl">97</field>
+<field name="name">Iceland</field>
+<field name="code">is</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.ISK"/>
+</record>
+<record model="res.country" id="base.ky">
+<field name="code_mrl">98</field>
+<field name="name">Cayman Islands</field>
+<field name="code">ky</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.KYD"/>
+</record>
+<record model="res.country" id="base.mh">
+<field name="code_mrl">99</field>
+<field name="name">Marshall Islands</field>
+<field name="code">mh</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.USD"/>
+</record>
+<record model="res.country" id="base.pn">
+<field name="code_mrl">100</field>
+<field name="name">Pitcairn Island</field>
+<field name="code">pn</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.NZD"/>
+</record>
+<record model="res.country" id="base.sb">
+<field name="code_mrl">101</field>
+<field name="name">Solomon Islands</field>
+<field name="code">sb</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.SBD"/>
+</record>
+<record model="res.country" id="base.il">
+<field name="code_mrl">102</field>
+<field name="name">Israel</field>
+<field name="code">il</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.ILS"/>
+</record>
+<record model="res.country" id="base.it">
+<field name="code_mrl">103</field>
+<field name="name">Italy</field>
+<field name="code">it</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.EUR"/>
+</record>
+<record model="res.country" id="base.jm">
+<field name="code_mrl">104</field>
+<field name="name">Jamaica</field>
+<field name="code">jm</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.JMD"/>
+</record>
+<record model="res.country" id="base.jp">
+<field name="code_mrl">105</field>
+<field name="name">Japan</field>
+<field name="code">jp</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.JPY"/>
+</record>
+<record model="res.country" id="base.jo">
+<field name="code_mrl">106</field>
+<field name="name">Jordan</field>
+<field name="code">jo</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.JOD"/>
+</record>
+<record model="res.country" id="base.kz">
+<field name="code_mrl">107</field>
+<field name="name">Kazakhstan</field>
+<field name="code">kz</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.KZT"/>
+</record>
+<record model="res.country" id="base.ke">
+<field name="code_mrl">108</field>
+<field name="name">Kenya</field>
+<field name="code">ke</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.KES"/>
+</record>
+<record model="res.country" id="base.kg">
+<field name="code_mrl">109</field>
+<field name="name">Kyrgyz Republic (Kyrgyzstan)</field>
+<field name="code">kg</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.KGS"/>
+</record>
+<record model="res.country" id="base.ki">
+<field name="code_mrl">110</field>
+<field name="name">Kiribati</field>
+<field name="code">ki</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.AUD"/>
+</record>
+<record model="res.country" id="country_111">
+<field name="code_mrl">111</field>
+<field name="name">KÓSOBO</field>
+<field name="code"></field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref=""/>
+</record>
+<record model="res.country" id="base.kw">
+<field name="code_mrl">112</field>
+<field name="name">Kuwait</field>
+<field name="code">kw</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.KWD"/>
+</record>
+<record model="res.country" id="base.la">
+<field name="code_mrl">113</field>
+<field name="name">Laos</field>
+<field name="code">la</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.LAK"/>
+</record>
+<record model="res.country" id="base.ls">
+<field name="code_mrl">114</field>
+<field name="name">Lesotho</field>
+<field name="code">ls</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.LSL"/>
+</record>
+<record model="res.country" id="base.lv">
+<field name="code_mrl">115</field>
+<field name="name">Latvia</field>
+<field name="code">lv</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.LVL"/>
+</record>
+<record model="res.country" id="base.lb">
+<field name="code_mrl">116</field>
+<field name="name">Lebanon</field>
+<field name="code">lb</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.LBP"/>
+</record>
+<record model="res.country" id="base.lr">
+<field name="code_mrl">117</field>
+<field name="name">Liberia</field>
+<field name="code">lr</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.LRD"/>
+</record>
+<record model="res.country" id="base.ly">
+<field name="code_mrl">118</field>
+<field name="name">Libya</field>
+<field name="code">ly</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.LYD"/>
+</record>
+<record model="res.country" id="base.li">
+<field name="code_mrl">119</field>
+<field name="name">Liechtenstein</field>
+<field name="code">li</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.CHF"/>
+</record>
+<record model="res.country" id="base.lt">
+<field name="code_mrl">120</field>
+<field name="name">Lithuania</field>
+<field name="code">lt</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.LTL"/>
+</record>
+<record model="res.country" id="base.lu">
+<field name="code_mrl">121</field>
+<field name="name">Luxembourg</field>
+<field name="code">lu</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.EUR"/>
+</record>
+<record model="res.country" id="base.mk">
+<field name="code_mrl">122</field>
+<field name="name">Macedonia, the former Yugoslav Republic of</field>
+<field name="code">mk</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.MKD"/>
+</record>
+<record model="res.country" id="base.mg">
+<field name="code_mrl">123</field>
+<field name="name">Madagascar</field>
+<field name="code">mg</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.MGA"/>
+</record>
+<record model="res.country" id="base.my">
+<field name="code_mrl">124</field>
+<field name="name">Malaysia</field>
+<field name="code">my</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.MXN"/>
+</record>
+<record model="res.country" id="base.mw">
+<field name="code_mrl">125</field>
+<field name="name">Malawi</field>
+<field name="code">mw</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.MWK"/>
+</record>
+<record model="res.country" id="base.mv">
+<field name="code_mrl">126</field>
+<field name="name">Maldives</field>
+<field name="code">mv</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.MVR"/>
+</record>
+<record model="res.country" id="base.ml">
+<field name="code_mrl">127</field>
+<field name="name">Mali</field>
+<field name="code">ml</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.XOF"/>
+</record>
+<record model="res.country" id="base.mp">
+<field name="code_mrl">128</field>
+<field name="name">Northern Mariana Islands</field>
+<field name="code">mp</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.USD"/>
+</record>
+<record model="res.country" id="base.ma">
+<field name="code_mrl">129</field>
+<field name="name">Morocco</field>
+<field name="code">ma</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.MAD"/>
+</record>
+<record model="res.country" id="base.mq">
+<field name="code_mrl">130</field>
+<field name="name">Martinique (French)</field>
+<field name="code">mq</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.EUR"/>
+</record>
+<record model="res.country" id="base.mu">
+<field name="code_mrl">131</field>
+<field name="name">Mauritius</field>
+<field name="code">mu</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.MUR"/>
+</record>
+<record model="res.country" id="base.mr">
+<field name="code_mrl">132</field>
+<field name="name">Mauritania</field>
+<field name="code">mr</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.MRO"/>
+</record>
+<record model="res.country" id="base.mx">
+<field name="code_mrl">133</field>
+<field name="name">Mexico</field>
+<field name="code">mx</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.MXN"/>
+</record>
+<record model="res.country" id="base.fm">
+<field name="code_mrl">134</field>
+<field name="name">Micronesia</field>
+<field name="code">fm</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.USD"/>
+</record>
+<record model="res.country" id="base.md">
+<field name="code_mrl">135</field>
+<field name="name">Moldavia</field>
+<field name="code">md</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record model="res.country" id="base.mc">
+<field name="code_mrl">136</field>
+<field name="name">Monaco</field>
+<field name="code">mc</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.EUR"/>
+</record>
+<record model="res.country" id="base.mn">
+<field name="code_mrl">137</field>
+<field name="name">Mongolia</field>
+<field name="code">mn</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.MNT"/>
+</record>
+<record model="res.country" id="base.me">
+<field name="code_mrl">138</field>
+<field name="name">Montenegro</field>
+<field name="code">me</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.LYD"/>
+</record>
+<record model="res.country" id="base.ms">
+<field name="code_mrl">139</field>
+<field name="name">Montserrat</field>
+<field name="code">ms</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.XCD"/>
+</record>
+<record model="res.country" id="base.mz">
+<field name="code_mrl">140</field>
+<field name="name">Mozambique</field>
+<field name="code">mz</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.MZN"/>
+</record>
+<record model="res.country" id="base.mm">
+<field name="code_mrl">141</field>
+<field name="name">Myanmar</field>
+<field name="code">mm</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.MMK"/>
+</record>
+<record model="res.country" id="base.na">
+<field name="code_mrl">142</field>
+<field name="name">Namibia</field>
+<field name="code">na</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.NAD"/>
+</record>
+<record model="res.country" id="base.nr">
+<field name="code_mrl">143</field>
+<field name="name">Nauru</field>
+<field name="code">nr</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.AUD"/>
+</record>
+<record model="res.country" id="base.np">
+<field name="code_mrl">144</field>
+<field name="name">Nepal</field>
+<field name="code">np</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.NPR"/>
+</record>
+<record model="res.country" id="base.ni">
+<field name="code_mrl">145</field>
+<field name="name">Nicaragua</field>
+<field name="code">ni</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.NIO"/>
+</record>
+<record model="res.country" id="base.ne">
+<field name="code_mrl">146</field>
+<field name="name">Niger</field>
+<field name="code">ne</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.XOF"/>
+</record>
+<record model="res.country" id="base.ng">
+<field name="code_mrl">147</field>
+<field name="name">Nigeria</field>
+<field name="code">ng</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.NGN"/>
+</record>
+<record model="res.country" id="base.no">
+<field name="code_mrl">148</field>
+<field name="name">Norway</field>
+<field name="code">no</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.NOK"/>
+</record>
+<record model="res.country" id="base.nz">
+<field name="code_mrl">149</field>
+<field name="name">New Zealand</field>
+<field name="code">nz</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.NZD"/>
+</record>
+<record model="res.country" id="base.om">
+<field name="code_mrl">150</field>
+<field name="name">Oman</field>
+<field name="code">om</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.OMR"/>
+</record>
+<record model="res.country" id="base.nl">
+<field name="code_mrl">151</field>
+<field name="name">Netherlands</field>
+<field name="code">nl</field>
+<field name="adrees_format" eval="'%(street)s\n%(street2)s\n%(zip)s %(city)s\n%(country_name)s'"/>
+<field name="currency_id" ref="base.EUR"/>
+</record>
+<record model="res.country" id="base.pk">
+<field name="code_mrl">152</field>
+<field name="name">Pakistan</field>
+<field name="code">pk</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.PKR"/>
+</record>
+<record model="res.country" id="base.pw">
+<field name="code_mrl">153</field>
+<field name="name">Palau</field>
+<field name="code">pw</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.USD"/>
+</record>
+<record model="res.country" id="base.ps">
+<field name="code_mrl">154</field>
+<field name="name">Palestinian Territory, Occupied</field>
+<field name="code">ps</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.ILS"/>
+</record>
+<record model="res.country" id="base.pa">
+<field name="code_mrl">155</field>
+<field name="name">Panama</field>
+<field name="code">pa</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.PAB"/>
+</record>
+<record model="res.country" id="base.pg">
+<field name="code_mrl">156</field>
+<field name="name">Papua New Guinea</field>
+<field name="code">pg</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.PGK"/>
+</record>
+<record model="res.country" id="base.py">
+<field name="code_mrl">157</field>
+<field name="name">Paraguay</field>
+<field name="code">py</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.PYG"/>
+</record>
+<record model="res.country" id="base.pe">
+<field name="code_mrl">158</field>
+<field name="name">Peru</field>
+<field name="code">pe</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.PEN"/>
+</record>
+<record model="res.country" id="base.pl">
+<field name="code_mrl">159</field>
+<field name="name">Poland</field>
+<field name="code">pl</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.PLZ"/>
+</record>
+<record model="res.country" id="base.pt">
+<field name="code_mrl">160</field>
+<field name="name">Portugal</field>
+<field name="code">pt</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.EUR"/>
+</record>
+<record model="res.country" id="base.qa">
+<field name="code_mrl">161</field>
+<field name="name">Qatar</field>
+<field name="code">qa</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.QAR"/>
+</record>
+<record model="res.country" id="base.uk">
+<field name="code_mrl">162</field>
+<field name="name">United Kingdom</field>
+<field name="code">UK</field>
+<field name="adrees_format" eval="'%(street)s\n%(street2)s\n%(city)s\n%(state_name)s\n%(zip)s\n%(country_name)s'"/>
+<field name="currency_id" ref="base.GBP"/>
+</record>
+<record model="res.country" id="base.cf">
+<field name="code_mrl">163</field>
+<field name="name">Central African Republic</field>
+<field name="code">cf</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.XAF"/>
+</record>
+<record model="res.country" id="base.cd">
+<field name="code_mrl">164</field>
+<field name="name">Congo, Democratic Republic of the</field>
+<field name="code">cd</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.CDF"/>
+</record>
+<record model="res.country" id="base.zr">
+<field name="code_mrl">165</field>
+<field name="name">Zaire</field>
+<field name="code">zr</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.ZRZ"/>
+</record>
+<record model="res.country" id="base.do">
+<field name="code_mrl">166</field>
+<field name="name">Dominican Republic</field>
+<field name="code">do</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.DOP"/>
+</record>
+<record model="res.country" id="base.rw">
+<field name="code_mrl">167</field>
+<field name="name">Rwanda</field>
+<field name="code">rw</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.RWF"/>
+</record>
+<record model="res.country" id="base.ro">
+<field name="code_mrl">168</field>
+<field name="name">Romania</field>
+<field name="code">ro</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.ROL"/>
+</record>
+<record model="res.country" id="base.ru">
+<field name="code_mrl">169</field>
+<field name="name">Russian Federation</field>
+<field name="code">ru</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.RUB"/>
+</record>
+<record model="res.country" id="base.eh">
+<field name="code_mrl">170</field>
+<field name="name">Western Sahara</field>
+<field name="code">eh</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.MAD"/>
+</record>
+<record model="res.country" id="base.kn">
+<field name="code_mrl">171</field>
+<field name="name">Saint Kitts y Nevis Anguilla</field>
+<field name="code">kn</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.XCD"/>
+</record>
+<record model="res.country" id="base.ws">
+<field name="code_mrl">172</field>
+<field name="name">Samoa</field>
+<field name="code">ws</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.WST"/>
+</record>
+<record model="res.country" id="base.as">
+<field name="code_mrl">173</field>
+<field name="name">American Samoa</field>
+<field name="code">as</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.USD"/>
+</record>
+<record model="res.country" id="base.sm">
+<field name="code_mrl">174</field>
+<field name="name">San Marino</field>
+<field name="code">sm</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.ITL"/>
+</record>
+<record model="res.country" id="base.vc">
+<field name="code_mrl">175</field>
+<field name="name">Saint Vincent y Grenadines</field>
+<field name="code">vc</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.XCD"/>
+</record>
+<record model="res.country" id="base.lc">
+<field name="code_mrl">176</field>
+<field name="name">Saint Lucia</field>
+<field name="code">lc</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.XCD"/>
+</record>
+<record model="res.country" id="base.st">
+<field name="code_mrl">177</field>
+<field name="name">Saint Tome (Sao Tome) and Principe</field>
+<field name="code">st</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.STD"/>
+</record>
+<record model="res.country" id="base.sn">
+<field name="code_mrl">178</field>
+<field name="name">Senegal</field>
+<field name="code">sn</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.XOF"/>
+</record>
+<record model="res.country" id="base.rs">
+<field name="code_mrl">179</field>
+<field name="name">Serbia</field>
+<field name="code">rs</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.RSD"/>
+</record>
+<record model="res.country" id="base.sc">
+<field name="code_mrl">180</field>
+<field name="name">Seychelles</field>
+<field name="code">sc</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.SCR"/>
+</record>
+<record model="res.country" id="base.sl">
+<field name="code_mrl">181</field>
+<field name="name">Sierra Leone</field>
+<field name="code">sl</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.SLL"/>
+</record>
+<record model="res.country" id="base.sg">
+<field name="code_mrl">182</field>
+<field name="name">Singapore</field>
+<field name="code">sg</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.SGD"/>
+</record>
+<record model="res.country" id="base.sy">
+<field name="code_mrl">183</field>
+<field name="name">Syria</field>
+<field name="code">sy</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.SYP"/>
+</record>
+<record model="res.country" id="base.so">
+<field name="code_mrl">184</field>
+<field name="name">Somalia</field>
+<field name="code">so</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.SOD"/>
+</record>
+<record model="res.country" id="base.lk">
+<field name="code_mrl">185</field>
+<field name="name">Sri Lanka</field>
+<field name="code">lk</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.LKR"/>
+</record>
+<record model="res.country" id="base.sz">
+<field name="code_mrl">186</field>
+<field name="name">Swaziland</field>
+<field name="code">sz</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.SZL"/>
+</record>
+<record model="res.country" id="base.za">
+<field name="code_mrl">187</field>
+<field name="name">South Africa</field>
+<field name="code">za</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.ZAR"/>
+</record>
+<record model="res.country" id="base.sd">
+<field name="code_mrl">188</field>
+<field name="name">Sudan</field>
+<field name="code">sd</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.SDD"/>
+</record>
+<record model="res.country" id="base.se">
+<field name="code_mrl">189</field>
+<field name="name">Sweden</field>
+<field name="code">se</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.SEK"/>
+</record>
+<record model="res.country" id="base.ch">
+<field name="code_mrl">190</field>
+<field name="name">Switzerland</field>
+<field name="code">ch</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.CHF"/>
+</record>
+<record model="res.country" id="base.th">
+<field name="code_mrl">191</field>
+<field name="name">Thailand</field>
+<field name="code">th</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.THB"/>
+</record>
+<record model="res.country" id="base.tw">
+<field name="code_mrl">192</field>
+<field name="name">Taiwan</field>
+<field name="code">tw</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.TWD"/>
+</record>
+<record model="res.country" id="base.tz">
+<field name="code_mrl">193</field>
+<field name="name">Tanzania</field>
+<field name="code">tz</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.TZS"/>
+</record>
+<record model="res.country" id="base.tj">
+<field name="code_mrl">194</field>
+<field name="name">Tajikistan</field>
+<field name="code">tj</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.TJR"/>
+</record>
+<record model="res.country" id="country_195">
+<field name="code_mrl">195</field>
+<field name="name">TÍBET (ACTUALMENTE BAJO SOBERANÍA CHINA)</field>
+<field name="code"></field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref=""/>
+</record>
+<record model="res.country" id="country_196">
+<field name="code_mrl">196</field>
+<field name="name">TIMOR ORIENTAL (ANTIGUAMENTE OCUPADO POR INDONESIA)</field>
+<field name="code"></field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref=""/>
+</record>
+<record model="res.country" id="base.tg">
+<field name="code_mrl">197</field>
+<field name="name">Togo</field>
+<field name="code">tg</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.XOF"/>
+</record>
+<record model="res.country" id="base.to">
+<field name="code_mrl">198</field>
+<field name="name">Tonga</field>
+<field name="code">to</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.TOP"/>
+</record>
+<record model="res.country" id="base.tt">
+<field name="code_mrl">199</field>
+<field name="name">Trinidad and Tobago</field>
+<field name="code">tt</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.TTD"/>
+</record>
+<record model="res.country" id="base.tn">
+<field name="code_mrl">200</field>
+<field name="name">Tunisia</field>
+<field name="code">tn</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.TND"/>
+</record>
+<record model="res.country" id="base.tm">
+<field name="code_mrl">201</field>
+<field name="name">Turkmenistan</field>
+<field name="code">tm</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.TMM"/>
+</record>
+<record model="res.country" id="base.tr">
+<field name="code_mrl">202</field>
+<field name="name">Turkey</field>
+<field name="code">tr</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.TRL"/>
+</record>
+<record model="res.country" id="base.tv">
+<field name="code_mrl">203</field>
+<field name="name">Tuvalu</field>
+<field name="code">tv</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.AUD"/>
+</record>
+<record model="res.country" id="base.ua">
+<field name="code_mrl">204</field>
+<field name="name">Ukraine</field>
+<field name="code">ua</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.UAG"/>
+</record>
+<record model="res.country" id="base.ug">
+<field name="code_mrl">205</field>
+<field name="name">Uganda</field>
+<field name="code">ug</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.UGX"/>
+</record>
+<record model="res.country" id="base.uy">
+<field name="code_mrl">206</field>
+<field name="name">Uruguay</field>
+<field name="code">uy</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.UYP"/>
+</record>
+<record model="res.country" id="base.uz">
+<field name="code_mrl">207</field>
+<field name="name">Uzbekistan</field>
+<field name="code">uz</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.UZS"/>
+</record>
+<record model="res.country" id="base.vu">
+<field name="code_mrl">208</field>
+<field name="name">Vanuatu</field>
+<field name="code">vu</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.VUV"/>
+</record>
+<record model="res.country" id="country_209">
+<field name="code_mrl">209</field>
+<field name="name">VATICANO</field>
+<field name="code"></field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.EUR"/>
+</record>
+<record model="res.country" id="base.ve">
+<field name="code_mrl">210</field>
+<field name="name">Venezuela</field>
+<field name="code">ve</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.VEF"/>
+</record>
+<record model="res.country" id="base.vn">
+<field name="code_mrl">211</field>
+<field name="name">Vietnam</field>
+<field name="code">vn</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.VND"/>
+</record>
+<record model="res.country" id="base.wf">
+<field name="code_mrl">212</field>
+<field name="name">Wallis and Futuna Islands</field>
+<field name="code">wf</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.XPF"/>
+</record>
+<record model="res.country" id="base.ye">
+<field name="code_mrl">213</field>
+<field name="name">Yemen</field>
+<field name="code">ye</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.YER"/>
+</record>
+<record model="res.country" id="country_214">
+<field name="code_mrl">214</field>
+<field name="name">YIBUTI</field>
+<field name="code"></field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref=""/>
+</record>
+<record model="res.country" id="base.zm">
+<field name="code_mrl">215</field>
+<field name="name">Zambia</field>
+<field name="code">zm</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.ZMK"/>
+</record>
+<record model="res.country" id="base.zw">
+<field name="code_mrl">216</field>
+<field name="name">Zimbabwe</field>
+<field name="code">zw</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.ZWD"/>
+</record>
+<record model="res.country" id="base.ax">
+<field name="code_mrl">0</field>
+<field name="name">Åland Islands</field>
+<field name="code">ax</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.EUR"/>
+</record>
+<record model="res.country" id="base.tc">
+<field name="code_mrl">0</field>
+<field name="name">Turks and Caicos Islands</field>
+<field name="code">tc</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.USD"/>
+</record>
+<record model="res.country" id="base.um">
+<field name="code_mrl">0</field>
+<field name="name">USA Minor Outlying Islands</field>
+<field name="code">um</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.USD"/>
+</record>
+<record model="res.country" id="base.vg">
+<field name="code_mrl">0</field>
+<field name="name">Virgin Islands (British)</field>
+<field name="code">vg</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.USD"/>
+</record>
+<record model="res.country" id="base.vi">
+<field name="code_mrl">0</field>
+<field name="name">Virgin Islands (USA)</field>
+<field name="code">vi</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.USD"/>
+</record>
+<record model="res.country" id="base.yu">
+<field name="code_mrl">0</field>
+<field name="name">Yugoslavia</field>
+<field name="code">yu</field>
+<field name="adrees_format" eval=""/>
+<field name="currency_id" ref="base.YUM"/>
+</record>
+
+</data>
+</openerp>
