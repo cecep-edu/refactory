@@ -60,8 +60,8 @@
         'data/sp_type_data.xml',
     ],
     'update_xml': [
-        #'data/users_data.xml',
-        #'security/ir.model.access.csv'
+        'data/users_data.xml',
+        'security/ir.model.access.csv'
     ],
     'depends': [
         'hr',
