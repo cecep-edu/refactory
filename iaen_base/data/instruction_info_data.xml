@@ -1,0 +1,71 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<openerp>
+	<data noupdate="1">
+		<record model="instruction.info" id="instruction_info_1">
+			<field name="instruction_id" ref="iaen_curriculum.instruction_13"></field>
+			<field name="title">ABOGADO</field>
+			<field name="name_institution">UNIVERSIDAD TECNICA PARTICULAR DE LOJA</field>
+			<field name="register">1031-07-761401</field>
+			<field name="year_semester">1</field>
+		</record>
+		<record model="instruction.info" id="instruction_info_2">
+			<field name="instruction_id" ref="iaen_curriculum.instruction_2"></field>
+			<field name="title">TECNICA EJECUTIVA GUIA NACIONAL DE TURISMO</field>
+			<field name="name_institution">UNIVERSIDAD REGIONAL AUTONOMA DE LOS ANDES</field>
+			<field name="register">1042-10-976527</field>
+			<field name="year_semester">1</field>
+		</record>
+		<record model="instruction.info" id="instruction_info_3">
+			<field name="instruction_id" ref="iaen_curriculum.instruction_13"></field>
+			<field name="title">INGENIERA COMERCIAL</field>
+			<field name="name_institution">PONTIFICIA UNIVERSIDAD CATOLICA DEL ECUADOR</field>
+			<field name="register">1027-11-1042929</field>
+			<field name="year_semester">1</field>
+		</record>
+		<record model="instruction.info" id="instruction_info_4">
+			<field name="instruction_id" ref="iaen_curriculum.instruction_2"></field>
+			<field name="title">ESPECIALISTA EN DERECHO PENAL Y JUSTICIA INDIGENA</field>
+			<field name="name_institution">UNIVERSIDAD REGIONAL AUTONOMA DE LOS ANDES</field>
+			<field name="register">1042-10-715648</field>
+			<field name="year_semester">1</field>
+		<record model="instruction.info" id="instruction_info_5">
+			<field name="instruction_id" ref="iaen_curriculum.instruction_13"></field>
+			<field name="title">DOCTOR EN JURISPRUDENCIA Y ABOGADO DE LOS TRIBUNALES Y JUZGADOS DE LA REPUBLICA</field>
+			<field name="name_institution">UNIVERSIDAD COOPERATIVA DE COLOMBIA DEL ECUADOR (SUSPENDIDA MEDIANTE MANDATO 14)</field>
+			<field name="register">1046-08-808592</field>
+			<field name="year_semester">1</field>
+		<record model="instruction.info" id="instruction_info_6">
+			<field name="instruction_id" ref="iaen_curriculum.instruction_13"></field>
+			<field name="title">LICENCIADA EN CIENCIAS POLITICAS Y SOCIALES</field>
+			<field name="name_institution">UNIVERSIDAD COOPERATIVA DE COLOMBIA DEL ECUADOR (SUSPENDIDA MEDIANTE MANDATO 14)</field>
+			<field name="register">1046-07-731049</field>
+			<field name="year_semester">1</field>
+		</record>
+		<record model="instruction.info" id="instruction_info_7">
+			<field name="instruction_id" ref="iaen_curriculum.instruction_2"></field>
+			<field name="title">ESPECIALISTA EN DERECHO PROCESAL</field>
+			<field name="name_institution">UNIVERSIDAD NACIONAL DE LOJA</field>
+			<field name="register">1008-09-685964</field>
+			<field name="year_semester">1</field>
+		<record model="instruction.info" id="instruction_info_8">
+			<field name="instruction_id" ref="iaen_curriculum.instruction_2"></field>
+			<field name="title">DIPLOMA SUPERIOR EN TRIBUTACION</field>
+			<field name="name_institution">UNIVERSIDAD TECNICA PARTICULAR DE LOJA</field>
+			<field name="register">1031-10-717210</field>
+			<field name="year_semester">1</field>
+		<record model="instruction.info" id="instruction_info_9">
+			<field name="instruction_id" ref="iaen_curriculum.instruction_13"></field>
+			<field name="title">ABOGADA DE LOS TRIBUNALES DE JUSTICIA DE LA REPUBLICA Y LICENCIADA EN CIENCIAS POLITICAS Y SOCIALES</field>
+			<field name="name_institution">UNIVERSIDAD DE CUENCA</field>
+			<field name="register">1007-06-674942</field>
+			<field name="year_semester">1</field>
+		</record>
+		<record model="instruction.info" id="instruction_info_10">
+			<field name="instruction_id" ref="iaen_curriculum.instruction_13"></field>
+			<field name="title">ABOGADA</field>
+			<field name="name_institution">UNIVERSIDAD NACIONAL DE LOJA</field>
+			<field name="register">1008-14-1296346</field>
+			<field name="year_semester">1</field>
+		</record>
+	</data>
+</openerp>

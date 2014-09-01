@@ -23,7 +23,6 @@
     'name': 'Signup IAEN',
     'description': """
 Allow users to sign up and reset their password
-===============================================
     """,
     'author': 'IAEN',
     'version': '1.0',

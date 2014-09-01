@@ -1,0 +1,3341 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<openerp>
+	<data noupdate="1">
+		<record model="experience.info" id="experience_1">
+			<field name="init_date">2008-12-12</field>
+			<field name="end_date">2010-02-15</field>
+			<field name="company">SOLUCINTEGSA</field>
+			<field name="job">ASISTENTE DE CRÉDITO Y COBRANZAS, AUXILIAR DE CALL CENTER</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_2">
+			<field name="init_date">2010-03-01</field>
+			<field name="end_date">2010-06-30</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">ASISTENTE DE INVERSIÓN PÚBLICA EN EL CENTRO DE EDUCACIÓN CONTINUA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_3">
+			<field name="init_date">2010-07-01</field>
+			<field name="end_date">2011-06-30</field>
+			<field name="company">SECRETARÍA NACIONAL DEL AGUA</field>
+			<field name="job">ASISTENTE DE LA AÉREA DE PLANIFICACIÓN EN LA COORDINACIÓN GENERAL DE PLANIFICACIÓN</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_4">
+			<field name="init_date">2011-05-02</field>
+			<field name="end_date">2011-09-30</field>
+			<field name="company">IBOPE MEDIA - KMR</field>
+			<field name="job">ASISTENTE COMERCIAL DE LECTORÍA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_8"></field>
+		</record>
+		<record model="experience.info" id="experience_5">
+			<field name="init_date">2007-01-01</field>
+			<field name="end_date">2010-12-31</field>
+			<field name="company">M Y S DISTRIBUCIONES</field>
+			<field name="job">ASISTENTE DE VENTAS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_6">
+			<field name="init_date">2011-12-01</field>
+			<field name="end_date">2013-07-07</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">ANALISTA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_7">
+			<field name="init_date">2011-09-19</field>
+			<field name="end_date">2011-10-01</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONAES</field>
+			<field name="job">SP-7 ANALISTA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_8">
+			<field name="init_date">2011-07-01</field>
+			<field name="end_date">2011-09-19</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">SP7 ANALISTA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_9">
+			<field name="init_date">2011-03-01</field>
+			<field name="end_date">2011-07-01</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">DIRECTORA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_10">
+			<field name="init_date">2008-06-01</field>
+			<field name="end_date">2011-03-01</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">SP 3 RESPONSABLE UNIDAD DE ESTUDIANTES</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_11">
+			<field name="init_date">2000-12-01</field>
+			<field name="end_date">2008-06-01</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">PROFESIONAL 2 RESPONSABLE DPTO.EVALUACIÓN</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_12">
+			<field name="init_date">1998-11-01</field>
+			<field name="end_date">2000-12-01</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">ESTADÍSTICO 2</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_13">
+			<field name="init_date">1993-07-01</field>
+			<field name="end_date">1998-11-01</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">ESTADISTICO 1</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_14">
+			<field name="init_date">1992-06-01</field>
+			<field name="end_date">1993-07-01</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">SECRETARIA 3</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_15">
+			<field name="init_date">1985-11-19</field>
+			<field name="end_date">1992-06-01</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">SECRETARIA TAQUÍGRAFA 4</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_16">
+			<field name="init_date">1985-08-01</field>
+			<field name="end_date">1985-11-19</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">OFICINISTA 2</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_17">
+			<field name="init_date">2008-01-01</field>
+			<field name="end_date">2011-07-01</field>
+			<field name="company">GARCÍA PINOS Y ASOCIADOS</field>
+			<field name="job">ASISTENTE</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_18">
+			<field name="init_date">2009-01-01</field>
+			<field name="end_date">2010-07-31</field>
+			<field name="company">UNIVERSIDAD NACIONAL DE LOJA</field>
+			<field name="job">COORDINADORA O DECANA DE LAS CARRERAS DE INFORMÁTICA EDUCATIVA,COMUNICAIÓN SOCIAL,PSICOLOGÍA INFANTIL, PSICORREHABILITACIÓN Y BIBLIOTECOLOGÍA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_2"></field>
+		</record>
+		<record model="experience.info" id="experience_19">
+			<field name="init_date">2007-03-01</field>
+			<field name="end_date">2008-12-31</field>
+			<field name="company">UNIVERSIDAD NACIONAL DE LOJA</field>
+			<field name="job">COORDINADORA O DECANA DE LA CARRERA DE INFORMÁTICA EDUCATIVA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_2"></field>
+		</record>
+		<record model="experience.info" id="experience_20">
+			<field name="init_date">2003-09-01</field>
+			<field name="end_date">2007-02-28</field>
+			<field name="company">UNIVERSIDAD NACIONAL DE LOJA</field>
+			<field name="job">RESPONSABLE DE LOS CENTROS DE COMPUTO DEL AREA DE EDUCACIÓN, EL ARTE Y LA COMUNICACIÓN</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_2"></field>
+		</record>
+		<record model="experience.info" id="experience_21">
+			<field name="init_date">2010-08-01</field>
+			<field name="end_date">2012-02-29</field>
+			<field name="company">UNIVERSIDAD NACIONAL DE LOJA</field>
+			<field name="job">DIRECTORA DEL PROYECTO DE PLANIFICACIÓN, EJECUCIÓN Y EVALUACIÓN DEL TRABAJO AUTÓNOMO EN PREGRADO DE LA UNL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_22">
+			<field name="init_date">2014-02-01</field>
+			<field name="end_date">2014-03-19</field>
+			<field name="company">HOSPITAL MILITAR</field>
+			<field name="job">DIRECTOR FINANCIERO HE-1</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_2"></field>
+		</record>
+		<record model="experience.info" id="experience_23">
+			<field name="init_date">2012-09-17</field>
+			<field name="end_date">2014-01-31</field>
+			<field name="company">HOSPITAL MILITAR</field>
+			<field name="job">LIDER CONTRATACIÓN PÚBLICA HE-1</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_2"></field>
+		</record>
+		<record model="experience.info" id="experience_24">
+			<field name="init_date">2011-07-01</field>
+			<field name="end_date">2012-09-14</field>
+			<field name="company">COMACO FF.AA.</field>
+			<field name="job">JEFE DE PRESUPUESTO CC.FF.AA.</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_23"></field>
+		</record>
+		<record model="experience.info" id="experience_25">
+			<field name="init_date">2010-09-01</field>
+			<field name="end_date">2011-04-29</field>
+			<field name="company">CORPOPRESTIGE</field>
+			<field name="job">JEFE DE BODEGA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_26">
+			<field name="init_date">2007-07-02</field>
+			<field name="end_date">2009-01-01</field>
+			<field name="company">CORPORACION RODRIGUEZ Y BARNES</field>
+			<field name="job">JEFE DE BODEGA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_27">
+			<field name="init_date">2011-07-01</field>
+			<field name="end_date">2014-03-07</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">ASISTENTE DE SECRETARIA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_28">
+			<field name="init_date">2012-01-17</field>
+			<field name="end_date">2012-03-17</field>
+			<field name="company">911 EVENTOS Y PRODUCCIONES</field>
+			<field name="job">OPERADOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_29">
+			<field name="init_date">2010-05-20</field>
+			<field name="end_date">2010-06-02</field>
+			<field name="company">PLAN INTERNACIONAL</field>
+			<field name="job">RECEPCIONISTA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_17"></field>
+		</record>
+		<record model="experience.info" id="experience_30">
+			<field name="init_date">2011-02-01</field>
+			<field name="end_date">2011-12-31</field>
+			<field name="company">SOCIEDAD DE TURISMO SODETUR S.A.</field>
+			<field name="job">SUBGERENTE- ADMINITRADORA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_31">
+			<field name="init_date">2010-02-01</field>
+			<field name="end_date">2011-01-31</field>
+			<field name="company">CRONIX CIA LTDA</field>
+			<field name="job">GESTION DE CASOS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_32">
+			<field name="init_date">2012-08-01</field>
+			<field name="end_date">2012-12-31</field>
+			<field name="company">INEC</field>
+			<field name="job">DIGITADORA - CRITICO CODIFICADORA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_33">
+			<field name="init_date">2008-12-01</field>
+			<field name="end_date">2011-06-03</field>
+			<field name="company">MIES</field>
+			<field name="job">TECNICO DE PROTECCION INTEGRAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_34">
+			<field name="init_date">2009-09-02</field>
+			<field name="end_date">2011-08-31</field>
+			<field name="company">UNIVERSIDAD TECNICA DEL NORTE</field>
+			<field name="job">PROFESOR DE CONTRATO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_35">
+			<field name="init_date">2005-11-15</field>
+			<field name="end_date">2008-12-31</field>
+			<field name="company">FONDO DE DESARROLLO INFANTIL</field>
+			<field name="job">GESTOR PEDAGOGICO IMBABURA Y CARCHI</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_36">
+			<field name="init_date">2013-09-10</field>
+			<field name="end_date">2014-02-28</field>
+			<field name="company">IAEN</field>
+			<field name="job">DECANA DEL CEC</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_37">
+			<field name="init_date">2013-05-06</field>
+			<field name="end_date">2013-06-13</field>
+			<field name="company">CEAACES</field>
+			<field name="job">EVALUADORA EXTERNA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_1"></field>
+		</record>
+		<record model="experience.info" id="experience_38">
+			<field name="init_date">2011-11-30</field>
+			<field name="end_date">2014-03-14</field>
+			<field name="company">IAEN</field>
+			<field name="job">PROFESORA TITULAR AGREGADA 2 - COORDINADORA ACADÉMICA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_39">
+			<field name="init_date">2002-01-01</field>
+			<field name="end_date">2003-12-31</field>
+			<field name="company">FAO</field>
+			<field name="job">CONSULTOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_40">
+			<field name="init_date">2010-06-01</field>
+			<field name="end_date">2014-03-07</field>
+			<field name="company">IAEN</field>
+			<field name="job">PROFESOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_41">
+			<field name="init_date">2004-03-01</field>
+			<field name="end_date">2007-12-31</field>
+			<field name="company">DESA SOCIAL MEXICO</field>
+			<field name="job">INVESTIGADOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_2"></field>
+		</record>
+		<record model="experience.info" id="experience_42">
+			<field name="init_date">2010-03-01</field>
+			<field name="end_date">2010-12-31</field>
+			<field name="company">INEC</field>
+			<field name="job">RESPONSABLE DE OFICINA PROVINCIAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_43">
+			<field name="init_date">2008-02-04</field>
+			<field name="end_date">2010-06-30</field>
+			<field name="company">UNIVERSIDAD NACIONAL DE LOJA</field>
+			<field name="job">DOCENTE - INVESTIGADOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_44">
+			<field name="init_date">2011-05-01</field>
+			<field name="end_date">2014-12-31</field>
+			<field name="company">IAEN</field>
+			<field name="job">DOCENTE - COORDINADOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_45">
+			<field name="init_date">2010-06-04</field>
+			<field name="end_date">2011-06-30</field>
+			<field name="company">COLEGIO SEGUNDO ANGEL TAPIA</field>
+			<field name="job">VICERRECTOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_46">
+			<field name="init_date">2007-09-18</field>
+			<field name="end_date">2008-09-18</field>
+			<field name="company">COLEGIO INTERANDINO</field>
+			<field name="job">COORDINADOR INSTITUCIONAL PARA EL PROGRAMA DE ALFABETIZACIÓN EBJA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_47">
+			<field name="init_date">2010-09-20</field>
+			<field name="end_date">2011-04-01</field>
+			<field name="company">LLORENTE</field>
+			<field name="job">CONSILTOR JUNIOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_48">
+			<field name="init_date">2011-09-04</field>
+			<field name="end_date">2012-10-09</field>
+			<field name="company">COMANDO CONJUNTO DE FUERZAS ARMADAS</field>
+			<field name="job">ANALISTA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_49">
+			<field name="init_date">2011-04-04</field>
+			<field name="end_date">2011-08-31</field>
+			<field name="company">DEFENSORÍA DEL PUEBLO DE ECUADOR</field>
+			<field name="job">INVESTIGADOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_50">
+			<field name="init_date">2006-11-01</field>
+			<field name="end_date">2007-12-06</field>
+			<field name="company">IAEN</field>
+			<field name="job">COORDINADORA DE LA MAESTRIA EN ALTA GERENCIA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_24"></field>
+		</record>
+		<record model="experience.info" id="experience_51">
+			<field name="init_date">2008-01-07</field>
+			<field name="end_date">2008-10-07</field>
+			<field name="company">IAEN</field>
+			<field name="job">COORDINADORA DE LA MAESTRIA EN SEGURIDAD Y DESARROLLO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_24"></field>
+		</record>
+		<record model="experience.info" id="experience_52">
+			<field name="init_date">2009-03-07</field>
+			<field name="end_date">2010-12-07</field>
+			<field name="company">IAEN</field>
+			<field name="job">DIPLOMADO EN DISEÑO, FORMULACION Y EVALUACION DE PROYECTOS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_53">
+			<field name="init_date">2011-06-01</field>
+			<field name="end_date">2014-12-31</field>
+			<field name="company">IAEN</field>
+			<field name="job">COORDINADORA ZONAL 6 Y 7</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_54">
+			<field name="init_date">2009-04-01</field>
+			<field name="end_date">2010-06-30</field>
+			<field name="company">SENPLADES</field>
+			<field name="job">ESPECIALISTA INVERSIONES Y PROYECTOS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_55">
+			<field name="init_date">2001-04-02</field>
+			<field name="end_date">2008-12-31</field>
+			<field name="company">MINISTERIO DE RECURSOS NATURALES NO RENOVABLES</field>
+			<field name="job">TECNICO EN HIDROCARBUROS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_56">
+			<field name="init_date">2006-01-13</field>
+			<field name="end_date">2007-04-28</field>
+			<field name="company">MINISTERIO DE RECURSOS NATURALES NO RENOVABLES</field>
+			<field name="job">DIRECTORA REGIONAL DE HIDROCARBUROS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_2"></field>
+		</record>
+		<record model="experience.info" id="experience_57">
+			<field name="init_date">2011-03-07</field>
+			<field name="end_date">2011-07-29</field>
+			<field name="company">PROMUNI</field>
+			<field name="job">CONSULTOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_17"></field>
+		</record>
+		<record model="experience.info" id="experience_58">
+			<field name="init_date">2011-03-07</field>
+			<field name="end_date">2011-09-30</field>
+			<field name="company">JUNTA NACIONAL DEL ARTESANO</field>
+			<field name="job">CONSULTOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_59">
+			<field name="init_date">2000-05-08</field>
+			<field name="end_date">2001-03-06</field>
+			<field name="company">TEXAS INSTRUMENTS</field>
+			<field name="job">COMUNICADORA INTERNACIONAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_60">
+			<field name="init_date">2009-10-19</field>
+			<field name="end_date">2011-08-03</field>
+			<field name="company">MAGAP</field>
+			<field name="job">ASESORA DE MINISTRO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_61">
+			<field name="init_date">2008-02-01</field>
+			<field name="end_date">2008-12-12</field>
+			<field name="company">UNIVERSITY OF KENTUCKY</field>
+			<field name="job">POST DOCTORATE SCHOLAR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_62">
+			<field name="init_date">2007-10-15</field>
+			<field name="end_date">2009-08-31</field>
+			<field name="company">FUNDACIÓN KONRAD ADENAUER</field>
+			<field name="job">COORDINADORA REGIONAL PROGRAMA DE FORMACIÓN POLITICA INDÍGENA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_63">
+			<field name="init_date">1992-03-01</field>
+			<field name="end_date">1997-12-30</field>
+			<field name="company">PONTIFICIA UNIVERSIDAD CATÓLICA DEL ECUADOR</field>
+			<field name="job">PROFESORA DE HISTORIA ECONÓMICA DEL ECUADOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_64">
+			<field name="init_date">1993-03-01</field>
+			<field name="end_date">2004-02-27</field>
+			<field name="company">UNIVERSIDAD ANDINA SIMÓM BOLÍVAR</field>
+			<field name="job">DOCENTE /DIRECTORA DEL AREA DE EDUCACIÓN</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_65">
+			<field name="init_date">1989-04-24</field>
+			<field name="end_date">1992-08-17</field>
+			<field name="company">NIPPON ELECTRIC COMPANY (N.E.C.) CORPORACION JAPONESA</field>
+			<field name="job">GERENTE GENERAL EN ECUADOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_66">
+			<field name="init_date">2003-03-03</field>
+			<field name="end_date">2005-02-25</field>
+			<field name="company">ESCUELA POLITECNICA DEL EJERCITO (ESPE)</field>
+			<field name="job">DIRECTOR DE ORGANIZACION Y SISTEMAS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_67">
+			<field name="init_date">2006-02-06</field>
+			<field name="end_date">2007-01-17</field>
+			<field name="company">PACIFICTEL S.A.</field>
+			<field name="job">MIEMBRO PRINCIPAL DIRECTORIO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_68">
+			<field name="init_date">2006-03-08</field>
+			<field name="end_date">2007-08-13</field>
+			<field name="company">TIA S.A</field>
+			<field name="job">ASISTENTE</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_69">
+			<field name="init_date">2007-10-18</field>
+			<field name="end_date">2009-09-28</field>
+			<field name="company">EQUIPOS COTOPAXI</field>
+			<field name="job">ASISTENTE</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_70">
+			<field name="init_date">1999-06-01</field>
+			<field name="end_date">2001-07-01</field>
+			<field name="company">CORPORACION FABRIL FAME S.A.</field>
+			<field name="job">GERENTE ADMINISTRATIVO-FINANCIERO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_16"></field>
+		</record>
+		<record model="experience.info" id="experience_71">
+			<field name="init_date">1996-09-01</field>
+			<field name="end_date">1997-07-01</field>
+			<field name="company">EMPRESA ESTATAL DE TELEFONOS EMETEL S.A</field>
+			<field name="job">GERENTE ADMINISTRATIVO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_16"></field>
+		</record>
+		<record model="experience.info" id="experience_72">
+			<field name="init_date">1990-04-01</field>
+			<field name="end_date">1992-07-01</field>
+			<field name="company">PETROECUADOR</field>
+			<field name="job">COMITE ADMINISTRACION CONTRATOS PETROLEROS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_9"></field>
+		</record>
+		<record model="experience.info" id="experience_73">
+			<field name="init_date">2010-06-01</field>
+			<field name="end_date">2011-06-01</field>
+			<field name="company">CORPORACION ELECTRICA DEL ECUADOR</field>
+			<field name="job">DIRECTOR FINANCIERO MATRIZ</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_1"></field>
+		</record>
+		<record model="experience.info" id="experience_74">
+			<field name="init_date">1997-01-01</field>
+			<field name="end_date">2000-07-31</field>
+			<field name="company">TRANSPORTES JC</field>
+			<field name="job">AUXILIAR DE CONTABILIDAD / DIGITADOR OPERADOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_75">
+			<field name="init_date">2008-05-05</field>
+			<field name="end_date">2008-09-30</field>
+			<field name="company">UNIVERSIDAD CENTRAL DEL ECUADOR</field>
+			<field name="job">PROFESOR A MEDIO TIEMPO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_76">
+			<field name="init_date">2000-10-02</field>
+			<field name="end_date">2007-08-31</field>
+			<field name="company">UNIVERSIDAD CENTRAL DEL ECUADOR</field>
+			<field name="job">PROGRAMADOR - COORDINADOR MAESTRIA (E)</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_77">
+			<field name="init_date">2003-04-14</field>
+			<field name="end_date">2006-12-15</field>
+			<field name="company">MINISTERIO DE BIENESTAR SOCIAL</field>
+			<field name="job">TECNICA EN DESARROLLO LOCAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_78">
+			<field name="init_date">2007-01-02</field>
+			<field name="end_date">2012-07-09</field>
+			<field name="company">FUNDACIÓN DE WAAL PROGRAMA PRENATAL</field>
+			<field name="job">COORDINADORA TÉCNICA NACIONAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_79">
+			<field name="init_date">1999-07-01</field>
+			<field name="end_date">2003-04-13</field>
+			<field name="company">FOSTER PARENTS PLAN INTERNATIONAL</field>
+			<field name="job">COORDINADORA DE NÚCLEO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_80">
+			<field name="init_date">1997-06-30</field>
+			<field name="end_date">2011-03-01</field>
+			<field name="company">MINISTERIO DE FINANZAS</field>
+			<field name="job">SUBDIRECTOR TECNICO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_2"></field>
+		</record>
+		<record model="experience.info" id="experience_81">
+			<field name="init_date">1996-04-13</field>
+			<field name="end_date">1997-05-13</field>
+			<field name="company">SECRETARIA TECNICA DEL FRENTE SOCIAL</field>
+			<field name="job">CONSULTOR ANALISTA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_82">
+			<field name="init_date">1992-11-13</field>
+			<field name="end_date">1996-03-13</field>
+			<field name="company">INSTITUTO NACIONAL DE ESTADISTICA Y CENSOS</field>
+			<field name="job">DIRECTOR DE PROYECTOS DE INVESTIGACION</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_83">
+			<field name="init_date">2010-10-21</field>
+			<field name="end_date">2011-09-19</field>
+			<field name="company">G4S</field>
+			<field name="job">PSICOLÓGA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_84">
+			<field name="init_date">2010-09-21</field>
+			<field name="end_date">2012-07-20</field>
+			<field name="company">SECAP</field>
+			<field name="job">ANALISTA DE DESARROLLO DE PROCESOS FORMATIVOS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_85">
+			<field name="init_date">2012-09-18</field>
+			<field name="end_date">2013-07-12</field>
+			<field name="company">IAEN</field>
+			<field name="job">PSICOLÓGA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_86">
+			<field name="init_date">2011-09-01</field>
+			<field name="end_date">2013-11-29</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES (IAEN)</field>
+			<field name="job">PROFESORA ASOCIADA PARA EL TEMA DE PARTICIPACIÓN CIUDADANA Y CONTROL SOCIAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_87">
+			<field name="init_date">2011-03-01</field>
+			<field name="end_date">2011-08-31</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">PROFESORA TITULAR AGREGADA PARA EL TEMA DE PARTICIPACIÓN CIUDADANA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_88">
+			<field name="init_date">2009-12-01</field>
+			<field name="end_date">2010-06-30</field>
+			<field name="company">SECRETARÍA DE PUEBLOS, MOVIMIENTOS SOCIALES Y PARTICIPACIÓN CIUDADANA</field>
+			<field name="job">ESPECIALISTA DEL PLAN PLURINACIONAL PARA ELIMINAR LA DISCRIMINACIÓN RACIAL Y LA EXCLUSIÓN ÉTNICA Y CULTURAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_89">
+			<field name="init_date">2008-02-01</field>
+			<field name="end_date">2009-11-30</field>
+			<field name="company">MINISTERIO DE CULTURA</field>
+			<field name="job">ANALISTA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_90">
+			<field name="init_date">2011-07-18</field>
+			<field name="end_date">2014-06-30</field>
+			<field name="company">COOPERACIÓN TÉCNICA BELGA</field>
+			<field name="job">ASESORA TÉCNICA NACIONAL DE FORTALECIMIENTO INSTITUCIONAL ATN-AI / COOPERACIÓN TÉCNICA BELGA ? PROGRAMA DE APOYO A LA GESTIÓN LOCAL DE SERVICIOS DE SALUD, AGUA Y SANEAMIENTO (PSAS). CONVENIO ENTRE EL GOBIERNO DE LA REPÚBLICA DEL ECUADOR CON EL REINO DE BÉLGICA.</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_91">
+			<field name="init_date">2010-12-01</field>
+			<field name="end_date">2011-07-15</field>
+			<field name="company">COMITE ECUATORIANO DE COOPERACIÓN CON LA COMISIÓN INTERAMERICANA DE MUJERES CECIM</field>
+			<field name="job">DIRECTORA DE PROYECTOS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_92">
+			<field name="init_date">2009-05-01</field>
+			<field name="end_date">2010-10-31</field>
+			<field name="company">CONSEJO NACIONAL DE CINEMATOGRAFÍA</field>
+			<field name="job">DIRECTORA DE PLANIFICACIÓN</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_93">
+			<field name="init_date">2009-01-01</field>
+			<field name="end_date">2010-07-31</field>
+			<field name="company">UNIVERSIDAD NACIONAL DE LOJA</field>
+			<field name="job">COORDINADORA O DECANA DE LAS CARRERAS DE INFORMÁTICA EDUCATIVA,COMUNICAIÓN SOCIAL,PSICOLOGÍA INFANTIL, PSICORREHABILITACIÓN Y BIBLIOTECOLOGÍA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_2"></field>
+		</record>
+		<record model="experience.info" id="experience_94">
+			<field name="init_date">2007-03-01</field>
+			<field name="end_date">2008-12-31</field>
+			<field name="company">UNIVERSIDAD NACIONAL DE LOJA</field>
+			<field name="job">COORDINADORA O DECANA DE LA CARRERA DE INFORMÁTICA EDUCATIVA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_2"></field>
+		</record>
+		<record model="experience.info" id="experience_95">
+			<field name="init_date">2003-09-01</field>
+			<field name="end_date">2007-02-28</field>
+			<field name="company">UNIVERSIDAD NACIONAL DE LOJA</field>
+			<field name="job">RESPONSABLE DE LOS CENTROS DE COMPUTO DEL AREA DE EDUCACIÓN, EL ARTE Y LA COMUNICACIÓN</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_2"></field>
+		</record>
+		<record model="experience.info" id="experience_96">
+			<field name="init_date">2010-08-01</field>
+			<field name="end_date">2012-02-29</field>
+			<field name="company">UNIVERSIDAD NACIONAL DE LOJA</field>
+			<field name="job">DIRECTORA DEL PROYECTO DE PLANIFICACIÓN, EJECUCIÓN Y EVALUACIÓN DEL TRABAJO AUTÓNOMO EN PREGRADO DE LA UNL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_97">
+			<field name="init_date">2014-02-28</field>
+			<field name="end_date">2014-03-07</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">DIRECTOR JURÍDICO (E)</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_98">
+			<field name="init_date">2012-02-24</field>
+			<field name="end_date">2013-08-30</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">DIRECTOR JU´RÍDICO (E)</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_99">
+			<field name="init_date">2011-07-01</field>
+			<field name="end_date">2012-02-24</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">SERVIDOR PÚBLICO 6</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_100">
+			<field name="init_date">2011-11-01</field>
+			<field name="end_date">2012-08-31</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">SERVIDOR PUBLICO APOYO 2</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_101">
+			<field name="init_date">2012-09-01</field>
+			<field name="end_date">2013-05-31</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">SERVIDOR PUBLICO APOYO 4</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_102">
+			<field name="init_date">2005-01-01</field>
+			<field name="end_date">2009-10-31</field>
+			<field name="company">AGROCALIDAD</field>
+			<field name="job">LÍDER DE GESTIÓN TECNOLÓGICA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_103">
+			<field name="init_date">2011-11-10</field>
+			<field name="end_date">2013-09-16</field>
+			<field name="company">MINISTERIO DE RELACIONES LABORALES</field>
+			<field name="job">ANALISTA POLITICAS Y NORMAS DE TRABAJO Y EMPLEO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_104">
+			<field name="init_date">2010-01-04</field>
+			<field name="end_date">2010-07-30</field>
+			<field name="company">MUNICIPIO METROPOLITANO DE QUITO</field>
+			<field name="job">ANALISTA DE DEPURACIÓN DE CARTERA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_105">
+			<field name="init_date">2007-04-02</field>
+			<field name="end_date">2008-12-31</field>
+			<field name="company">MUNICIPIO METROPOLITANO DE QUITO</field>
+			<field name="job">DEPOSITARIO JUDICIAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_106">
+			<field name="init_date">2013-08-22</field>
+			<field name="end_date">2014-03-06</field>
+			<field name="company">IAEN</field>
+			<field name="job">DIRECTOR DE SECRETARIA GENERAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_107">
+			<field name="init_date">2013-02-15</field>
+			<field name="end_date">2013-08-20</field>
+			<field name="company">MINISTERIO DE RELACIONES LABORALES</field>
+			<field name="job">EXPERTO DE POLITICAS Y NORMAS DEL SERVICIO PÚBLICO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_1"></field>
+		</record>
+		<record model="experience.info" id="experience_108">
+			<field name="init_date">2009-07-03</field>
+			<field name="end_date">2013-02-14</field>
+			<field name="company">IAEN</field>
+			<field name="job">ANALISTA DE SECRETARÍA GENERAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_1"></field>
+		</record>
+		<record model="experience.info" id="experience_109">
+			<field name="init_date">2001-10-01</field>
+			<field name="end_date">2012-09-30</field>
+			<field name="company">RADIO BET</field>
+			<field name="job">GERENTE ADMINISTRATIVA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_110">
+			<field name="init_date">2011-09-01</field>
+			<field name="end_date">2012-09-30</field>
+			<field name="company">UNIVERSIDAD TECNICA DE AMBATO</field>
+			<field name="job">DOCENTE</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_111">
+			<field name="init_date">2012-10-16</field>
+			<field name="end_date">2014-02-28</field>
+			<field name="company">CORPORACION NACIONAL DE TELECOMUNICACIONES</field>
+			<field name="job">ANALISTA ADMINISTRATIVO FINANCIERO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_112">
+			<field name="init_date">2013-02-03</field>
+			<field name="end_date">2014-02-24</field>
+			<field name="company">IAEN</field>
+			<field name="job">DESARROLLADOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_113">
+			<field name="init_date">2011-11-25</field>
+			<field name="end_date">2014-03-07</field>
+			<field name="company">IAEN</field>
+			<field name="job">ANALISTA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_114">
+			<field name="init_date">2011-03-01</field>
+			<field name="end_date">2011-07-01</field>
+			<field name="company">IAEN</field>
+			<field name="job">DIRECTORA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_16"></field>
+		</record>
+		<record model="experience.info" id="experience_115">
+			<field name="init_date">2005-01-03</field>
+			<field name="end_date">2011-02-28</field>
+			<field name="company">IAEN</field>
+			<field name="job">JEFE DE RECURSOS HUMANOS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_116">
+			<field name="init_date">2012-05-01</field>
+			<field name="end_date">2014-03-07</field>
+			<field name="company">IAEN</field>
+			<field name="job">ANALISTA DE DESARROLLO PEDAGOGICO Y EVALUACION EDUCATIVA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_117">
+			<field name="init_date">2010-01-01</field>
+			<field name="end_date">2012-04-30</field>
+			<field name="company">IAEN</field>
+			<field name="job">COORDINADOR DE EDUCACIÓN VIRTUAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_118">
+			<field name="init_date">2008-05-01</field>
+			<field name="end_date">2009-01-31</field>
+			<field name="company">SENPLADES</field>
+			<field name="job">CONSULTOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_119">
+			<field name="init_date">2012-01-02</field>
+			<field name="end_date">2014-03-07</field>
+			<field name="company">IAEN</field>
+			<field name="job">ASISTENTE DEL DECANTO EGAP</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_120">
+			<field name="init_date">2005-07-11</field>
+			<field name="end_date">2005-12-31</field>
+			<field name="company">FONDO DE DESARROLLO INFANTIL</field>
+			<field name="job">SECRETARIA GENERAL DEL FODI</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_121">
+			<field name="init_date">2002-02-20</field>
+			<field name="end_date">2005-07-10</field>
+			<field name="company">PROGRAMA NUESTROS NINOS MBS-BID</field>
+			<field name="job">ASISTENTE DEL DIRECTOR EJECUTIVO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_122">
+			<field name="init_date">2006-04-24</field>
+			<field name="end_date">2006-09-15</field>
+			<field name="company">IAEN</field>
+			<field name="job">ASISTENTE DE COMUNICACION SOCIAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_123">
+			<field name="init_date">2006-09-16</field>
+			<field name="end_date">2011-12-31</field>
+			<field name="company">IAEN</field>
+			<field name="job">ASISTENTE DE GESTION ACADEMICA - EVALUACION</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_124">
+			<field name="init_date">2008-02-04</field>
+			<field name="end_date">2010-08-31</field>
+			<field name="company">SÁNCHEZ GARCÍA</field>
+			<field name="job">AUDITOR JUNIOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_125">
+			<field name="init_date">2006-11-01</field>
+			<field name="end_date">2007-10-31</field>
+			<field name="company">PEARSON EDUCATION</field>
+			<field name="job">ASISTENTE DE SERVICIO AL CLIENTE</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_126">
+			<field name="init_date">2005-08-01</field>
+			<field name="end_date">2006-01-31</field>
+			<field name="company">LIMPIECO</field>
+			<field name="job">CONTADORA GENERAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_127">
+			<field name="init_date">2013-09-11</field>
+			<field name="end_date">2014-02-21</field>
+			<field name="company">IAEN</field>
+			<field name="job">DECANA ESCUELA DE GOBIERNO Y ADMINISTRACIÓN PÚBLICA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_128">
+			<field name="init_date">2013-01-01</field>
+			<field name="end_date">2013-09-11</field>
+			<field name="company">IAEN</field>
+			<field name="job">PROFESOR AGREGADO 2 ESCUELA DE GOBIERNO Y ADMINISTRACIÓN PÚBLICA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_2"></field>
+		</record>
+		<record model="experience.info" id="experience_129">
+			<field name="init_date">2012-01-02</field>
+			<field name="end_date">2012-12-31</field>
+			<field name="company">IAEN</field>
+			<field name="job">PROFESOR AGREGADO 2 ESCUELA DE GOBIERNO Y ADMINISTRACIÓN PÚBLICA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_130">
+			<field name="init_date">2010-08-01</field>
+			<field name="end_date">2011-03-30</field>
+			<field name="company">CRONIX</field>
+			<field name="job">TELEOPERADORA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_131">
+			<field name="init_date">2011-04-01</field>
+			<field name="end_date">2013-08-09</field>
+			<field name="company">INSTITUTO ECUATORIANO DE SEGURIDAD SOCIAL</field>
+			<field name="job">OFICINISTA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_21"></field>
+		</record>
+		<record model="experience.info" id="experience_132">
+			<field name="init_date">2012-12-03</field>
+			<field name="end_date">2013-02-28</field>
+			<field name="company">TATA CONSULTANCY SERVICES - BANCO PICHINCHA</field>
+			<field name="job">ANALISTA JURIDICO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_133">
+			<field name="init_date">2013-07-05</field>
+			<field name="end_date">2013-12-05</field>
+			<field name="company">MAGAP-COPISA</field>
+			<field name="job">ANALISTA JURIDICO EN JEFE</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_134">
+			<field name="init_date">2010-06-01</field>
+			<field name="end_date">2011-11-30</field>
+			<field name="company">REGISTRO CIVIL DE IDENTIFICACION Y CEDULACION</field>
+			<field name="job">SERVIDOR PUBLICO DE APOYO-VARIOS CARGOS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_135">
+			<field name="init_date">2014-02-28</field>
+			<field name="end_date">2013-05-01</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">DECANO DE LA ESCUELA DE ESTUDIOS ESTRATÉGICOS Y SEGURIDAD</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_2"></field>
+		</record>
+		<record model="experience.info" id="experience_136">
+			<field name="init_date">2006-01-02</field>
+			<field name="end_date">2010-12-31</field>
+			<field name="company">CONVENIO ANDRES BELLO</field>
+			<field name="job">COORDINADOR DE CULTURA ANDRES BELLO (DIPLOMATICO)</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_137">
+			<field name="init_date">1996-01-01</field>
+			<field name="end_date">2003-10-31</field>
+			<field name="company">MINISTERIO DE EDUCACION DE CHILE</field>
+			<field name="job">COORDINADOR GENERAL DE LA DIVISION DE CULTURA DEL MINISTERIO DE EDUCACIÓN DE CHILE CON RANGO DE SUBSECRETARIO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_2"></field>
+		</record>
+		<record model="experience.info" id="experience_138">
+			<field name="init_date">2010-12-01</field>
+			<field name="end_date">2011-12-30</field>
+			<field name="company">PASTORAL SOCIAL CARITAS ECUADOR</field>
+			<field name="job">COORDINADORA MOVILIDAD HUMANA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_139">
+			<field name="init_date">2009-02-02</field>
+			<field name="end_date">2009-12-31</field>
+			<field name="company">FUNDACION ESPERANZA</field>
+			<field name="job">COORDINADORA DE OBSERVATORIO DE MIGRACIONES</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_140">
+			<field name="init_date">1997-01-01</field>
+			<field name="end_date">2000-07-31</field>
+			<field name="company">TRANSPORTES JC</field>
+			<field name="job">AUXILIAR DE CONTABILIDAD / DIGITADOR OPERADOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_141">
+			<field name="init_date">2008-05-05</field>
+			<field name="end_date">2008-09-30</field>
+			<field name="company">UNIVERSIDAD CENTRAL DEL ECUADOR</field>
+			<field name="job">PROFESOR A MEDIO TIEMPO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_142">
+			<field name="init_date">2000-10-02</field>
+			<field name="end_date">2007-08-31</field>
+			<field name="company">UNIVERSIDAD CENTRAL DEL ECUADOR</field>
+			<field name="job">PROGRAMADOR - COORDINADOR MAESTRIA (E)</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_143">
+			<field name="init_date">2011-05-01</field>
+			<field name="end_date">2012-09-09</field>
+			<field name="company">ESTACION DE SERVICIOS UNION CARIAMANGA</field>
+			<field name="job">GERENTE ADMINISTRATIVO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_144">
+			<field name="init_date">2012-09-10</field>
+			<field name="end_date">2014-12-31</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">ASISTENTE COORDINACION ZONAL 7</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_145">
+			<field name="init_date">2003-11-03</field>
+			<field name="end_date">2008-12-31</field>
+			<field name="company">MINISTERIO DE RECURSOS NATURALES NO RENOVABLES</field>
+			<field name="job">TECNICO DE HIDROCARBUROS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_146">
+			<field name="init_date">2005-02-21</field>
+			<field name="end_date">2011-02-01</field>
+			<field name="company">DIARIO LA PRENSA</field>
+			<field name="job">JEFE DE CIRCULACION</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_147">
+			<field name="init_date">2007-09-24</field>
+			<field name="end_date">2011-03-31</field>
+			<field name="company">ESCUELA POLITECNICA DE CHIMBORAZO</field>
+			<field name="job">DOCENTE</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_148">
+			<field name="init_date">2003-02-03</field>
+			<field name="end_date">2013-12-02</field>
+			<field name="company">MASTERSAFETY</field>
+			<field name="job">GERENTE</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_149">
+			<field name="init_date">1995-12-01</field>
+			<field name="end_date">2002-09-30</field>
+			<field name="company">MUTUALISTA PICHINCHA</field>
+			<field name="job">GERENTE DE PROCESOS INTERNOS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_150">
+			<field name="init_date">1980-10-15</field>
+			<field name="end_date">1995-11-30</field>
+			<field name="company">BANCO FILANBANCO</field>
+			<field name="job">SUBGERENTE DE AGENCIAS Y VENTANILLAS DE EXTENCION</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_151">
+			<field name="init_date">1998-02-02</field>
+			<field name="end_date">2005-03-31</field>
+			<field name="company">GALO ROSERO Y ASOCIADOS CIA. LTDA</field>
+			<field name="job">ASISTENTE DE COBRANZAS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_152">
+			<field name="init_date">2005-05-02</field>
+			<field name="end_date">2007-12-31</field>
+			<field name="company">DORLIAGRO</field>
+			<field name="job">ASISTENTE DE FACTURACIN</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_153">
+			<field name="init_date">2011-09-01</field>
+			<field name="end_date">2011-09-30</field>
+			<field name="company">MINISTERIO DE INDUSTRIAS Y PRODUCTIVIDAD</field>
+			<field name="job">TECNICO DE TALENTO HUMANO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_154">
+			<field name="init_date">2010-10-01</field>
+			<field name="end_date">2011-08-30</field>
+			<field name="company">DIRECCIÓN GENERAL DE REGISTRO CIVIL</field>
+			<field name="job">SERVIDOR PÚBLICO DE APOYO 3</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_155">
+			<field name="init_date">2007-12-01</field>
+			<field name="end_date">2010-09-08</field>
+			<field name="company">EPM DE SERVICIOS AEROPORTUARIOS Y GESTION DE ZONAS FRANCAS Y REGIMENES ESPECIALES</field>
+			<field name="job">AGENTE AEROPORTUARIO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_156">
+			<field name="init_date">2012-07-18</field>
+			<field name="end_date">2012-10-05</field>
+			<field name="company">MINISTERIO DEL INTERIOR</field>
+			<field name="job">DIRECTOR ADMINISTRATIVO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_157">
+			<field name="init_date">2012-10-18</field>
+			<field name="end_date">2013-09-30</field>
+			<field name="company">EMPRESA PUBLICA DE HABITAT Y VIVIENDA</field>
+			<field name="job">DIRECTOR ADMINISTRATIVO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_158">
+			<field name="init_date">2013-10-01</field>
+			<field name="end_date">2014-03-31</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">DIRECTOR ADMINISTRATIVO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_159">
+			<field name="init_date">2013-03-04</field>
+			<field name="end_date">2013-08-30</field>
+			<field name="company">SICONTAC CENTER S.A.</field>
+			<field name="job">ANALISTA DE DESARROLLO DESISTEMAS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_160">
+			<field name="init_date">2010-02-01</field>
+			<field name="end_date">2013-01-31</field>
+			<field name="company">UNIVERSIDAD TECNOLOGICA SAN ANTONIO DE MACHALA</field>
+			<field name="job">DOCENTE-INVESTIGADOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_161">
+			<field name="init_date">2013-11-01</field>
+			<field name="end_date">2013-12-31</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">DIRECTOR DE DESARROLLO TECNOLOGICO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_162">
+			<field name="init_date">2013-03-01</field>
+			<field name="end_date">2013-05-31</field>
+			<field name="company">CONSEJO DE LA JUDICATURA</field>
+			<field name="job">JEFE DEPARTAMENTAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_163">
+			<field name="init_date">2012-11-13</field>
+			<field name="end_date">2013-03-11</field>
+			<field name="company">SECRETARIA NACIONAL DE TRANSPARENCIA DE GESTION</field>
+			<field name="job">DIRECTORA TECNICA DE AREA DE LA DIRECCION DE RECURSOS HUMANOS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_164">
+			<field name="init_date">2011-05-24</field>
+			<field name="end_date">2012-10-31</field>
+			<field name="company">MINISTERIO DEL INTERIOR</field>
+			<field name="job">ASESORA DE DESPACHO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_165">
+			<field name="init_date">2012-01-02</field>
+			<field name="end_date">2013-07-08</field>
+			<field name="company">MINISTERIO COORDINADOR DE PATRIMONIO</field>
+			<field name="job">RESPONSABLE DE PRESUPUESTO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_166">
+			<field name="init_date">2011-08-01</field>
+			<field name="end_date">2011-12-31</field>
+			<field name="company">MINISTERIO DE JUSTICIA DERECHOS HUMANOS Y CULTOS</field>
+			<field name="job">SUPERVISORA DE PROCESOS ADMINISTRATIVOS FINANCIEROS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_167">
+			<field name="init_date">2010-01-01</field>
+			<field name="end_date">2011-07-31</field>
+			<field name="company">PROJUSTICIA-MJDHC</field>
+			<field name="job">TESORERA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_168">
+			<field name="init_date">2011-05-30</field>
+			<field name="end_date">2013-06-12</field>
+			<field name="company">MINISTERIO DEL INTERIOR</field>
+			<field name="job">ASESOR DE PROYECTOS Y PLANIFIACIÓN</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_169">
+			<field name="init_date">2010-08-02</field>
+			<field name="end_date">2011-05-12</field>
+			<field name="company">PROJUSTICIA</field>
+			<field name="job">ASESOR DESARROLLO INSTITUCIONAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_170">
+			<field name="init_date">2005-02-01</field>
+			<field name="end_date">2009-09-14</field>
+			<field name="company">CONQUITO</field>
+			<field name="job">COORDINADOR DE ÁREA Y PROYECTOS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_171">
+			<field name="init_date">2011-10-01</field>
+			<field name="end_date">2013-07-29</field>
+			<field name="company">IAEN</field>
+			<field name="job">JEFE DE DESPACHO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_2"></field>
+		</record>
+		<record model="experience.info" id="experience_172">
+			<field name="init_date">2005-01-01</field>
+			<field name="end_date">2011-09-30</field>
+			<field name="company">IAEN</field>
+			<field name="job">ASISTENTE RECTORADO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_173">
+			<field name="init_date">2004-03-01</field>
+			<field name="end_date">2004-12-31</field>
+			<field name="company">IAEN</field>
+			<field name="job">ASISTENTE ACADÉMICO 3</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_25"></field>
+		</record>
+		<record model="experience.info" id="experience_174">
+			<field name="init_date">2005-10-03</field>
+			<field name="end_date">2007-01-12</field>
+			<field name="company">BIBLIOTECA AURELIO ESPINOSA POLIT</field>
+			<field name="job">AUXILIAR DE BIBLIOTECA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_175">
+			<field name="init_date">2007-01-15</field>
+			<field name="end_date">2010-09-30</field>
+			<field name="company">BIBLIOTECA UNIVERSIDAD POLITECNICA SALESIANA</field>
+			<field name="job">AUXILIAR DE BIBLIOTECA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_176">
+			<field name="init_date">2005-05-02</field>
+			<field name="end_date">2005-10-31</field>
+			<field name="company">PLASTIDOS S. A.</field>
+			<field name="job">PROMOTOR DE PRODUCTOS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_17"></field>
+		</record>
+		<record model="experience.info" id="experience_177">
+			<field name="init_date">2001-05-01</field>
+			<field name="end_date">2002-02-28</field>
+			<field name="company">IMP. ASESOR FISCAL COMERCIAL</field>
+			<field name="job">DIGITADOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_17"></field>
+		</record>
+		<record model="experience.info" id="experience_178">
+			<field name="init_date">1989-12-01</field>
+			<field name="end_date">1999-11-30</field>
+			<field name="company">BANCO DE LA VIVIENDA</field>
+			<field name="job">ANALISTA FINANCIERO JEFE</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_179">
+			<field name="init_date">1999-06-01</field>
+			<field name="end_date">2001-07-01</field>
+			<field name="company">CORPORACION FABRIL FAME S.A.</field>
+			<field name="job">GERENTE ADMINISTRATIVO-FINANCIERO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_16"></field>
+		</record>
+		<record model="experience.info" id="experience_180">
+			<field name="init_date">1996-09-01</field>
+			<field name="end_date">1997-07-01</field>
+			<field name="company">EMPRESA ESTATAL DE TELEFONOS EMETEL S.A</field>
+			<field name="job">GERENTE ADMINISTRATIVO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_16"></field>
+		</record>
+		<record model="experience.info" id="experience_181">
+			<field name="init_date">1990-04-01</field>
+			<field name="end_date">1992-07-01</field>
+			<field name="company">PETROECUADOR</field>
+			<field name="job">COMITE ADMINISTRACION CONTRATOS PETROLEROS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_9"></field>
+		</record>
+		<record model="experience.info" id="experience_182">
+			<field name="init_date">2010-06-01</field>
+			<field name="end_date">2011-06-01</field>
+			<field name="company">CORPORACION ELECTRICA DEL ECUADOR</field>
+			<field name="job">DIRECTOR FINANCIERO MATRIZ</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_1"></field>
+		</record>
+		<record model="experience.info" id="experience_183">
+			<field name="init_date">1972-10-10</field>
+			<field name="end_date">1982-06-18</field>
+			<field name="company">INDUMAQ S.A.</field>
+			<field name="job">CONTADORA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_184">
+			<field name="init_date">1986-03-03</field>
+			<field name="end_date">2014-03-06</field>
+			<field name="company">IAEN</field>
+			<field name="job">ASISTENTE VICERRECTORADO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_8"></field>
+		</record>
+		<record model="experience.info" id="experience_185">
+			<field name="init_date">2002-11-22</field>
+			<field name="end_date">2012-05-31</field>
+			<field name="company">DINERS CLUB</field>
+			<field name="job">ASISTENCIA OPERACIONES FINANCIERAS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_186">
+			<field name="init_date">2012-08-15</field>
+			<field name="end_date">2013-06-30</field>
+			<field name="company">MINISTERIO COORDINADOR DE PATRIMONIO</field>
+			<field name="job">ASISTENTE FINANCIERA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_187">
+			<field name="init_date">2013-07-01</field>
+			<field name="end_date">2014-03-17</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">ASISTENTE DE DESPACHO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_188">
+			<field name="init_date">2010-02-08</field>
+			<field name="end_date">2011-05-31</field>
+			<field name="company">AUTOMOTORES Y ANEXOS S.A</field>
+			<field name="job">ASISTENTE ADMINISTRATIVA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_189">
+			<field name="init_date">2009-01-05</field>
+			<field name="end_date">2010-02-05</field>
+			<field name="company">TECNOLOGIAS Y PRODUCTOS PARA LA CONSTRUCCIÓN TPC CIA LTDA</field>
+			<field name="job">ASISTENTE ADMINISTRATIVA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_190">
+			<field name="init_date">2008-07-07</field>
+			<field name="end_date">2008-12-31</field>
+			<field name="company">PRODASFALT</field>
+			<field name="job">ASISTENTE ADMINISTRATIVA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_191">
+			<field name="init_date">2012-09-27</field>
+			<field name="end_date">2013-05-03</field>
+			<field name="company">MINISTERIO DE RELACIONES LABORALES</field>
+			<field name="job">ANALISTA DE FORTALECIMIENTO INSTITUCIONAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_192">
+			<field name="init_date">2011-06-07</field>
+			<field name="end_date">2012-09-26</field>
+			<field name="company">SECRETARIA NACIONAL DE EDUCACION SUPERIOR, CIENCIA, TECNOLOGÍA E INNOVACIÓN</field>
+			<field name="job">ANALISTA DE BECAS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_193">
+			<field name="init_date">2010-12-06</field>
+			<field name="end_date">2012-11-16</field>
+			<field name="company">GENTECH CA</field>
+			<field name="job">COORDINADOR DE PRODUCCION</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_194">
+			<field name="init_date">2010-02-08</field>
+			<field name="end_date">2012-03-09</field>
+			<field name="company">CREECE PUERTO RICO</field>
+			<field name="job">CAPACTIADOR DE CONTROL DE PRODUCCION Y PLANIFICACION ESTRATEGICA - ONLINE</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_195">
+			<field name="init_date">2012-11-26</field>
+			<field name="end_date">2014-05-01</field>
+			<field name="company">MINISTERIO DE RELACIONES LABORALES</field>
+			<field name="job">COORDINADOR - SERVIDOR PUBLICO 7</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_196">
+			<field name="init_date">1990-12-01</field>
+			<field name="end_date">1994-04-29</field>
+			<field name="company">DARQUEA PALLADARES JUAN SEBASTIAN</field>
+			<field name="job">ASISTENTE DE PRODUCCCION</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_197">
+			<field name="init_date">2010-09-13</field>
+			<field name="end_date">2013-06-28</field>
+			<field name="company">MINISTERIO DE COORDINACION DE PATRIMONIO</field>
+			<field name="job">ASISTENTE DE COMPRAS PUBLICAS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_198">
+			<field name="init_date">2013-07-01</field>
+			<field name="end_date">2013-07-25</field>
+			<field name="company">MINISTERIO DE CULTURA</field>
+			<field name="job">ASISTENTE DE COMPRAS PUBLICAS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_199">
+			<field name="init_date">2010-10-01</field>
+			<field name="end_date">2011-01-31</field>
+			<field name="company">LAGENDA</field>
+			<field name="job">EDITOR DE VIDEO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_200">
+			<field name="init_date">2011-02-01</field>
+			<field name="end_date">2011-05-31</field>
+			<field name="company">CONSERVATORIO SUPERIOR NACIONAL DE MÚSICA</field>
+			<field name="job">REALIZADOR AUDIOVISUAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_201">
+			<field name="init_date">1978-03-01</field>
+			<field name="end_date">1981-01-01</field>
+			<field name="company">DIRECCIÓN DE MOVILIZACIÓN</field>
+			<field name="job">CONTADORA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_2"></field>
+		</record>
+		<record model="experience.info" id="experience_202">
+			<field name="init_date">1981-01-01</field>
+			<field name="end_date">2004-06-30</field>
+			<field name="company">COSENA</field>
+			<field name="job">CONTADORA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_2"></field>
+		</record>
+		<record model="experience.info" id="experience_203">
+			<field name="init_date">2004-07-01</field>
+			<field name="end_date">2008-07-01</field>
+			<field name="company">IAEN</field>
+			<field name="job">CONTADORA GENERAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_2"></field>
+		</record>
+		<record model="experience.info" id="experience_204">
+			<field name="init_date">2008-05-05</field>
+			<field name="end_date">2014-03-14</field>
+			<field name="company">IAEN</field>
+			<field name="job">CONTROL DE BIENES</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_2"></field>
+		</record>
+		<record model="experience.info" id="experience_205">
+			<field name="init_date">2011-06-08</field>
+			<field name="end_date">2013-11-15</field>
+			<field name="company">MINISTERIO DEL INTERIOR</field>
+			<field name="job">ANALISTA DE GOBERNABILIDAD</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_206">
+			<field name="init_date">2009-01-05</field>
+			<field name="end_date">2011-05-31</field>
+			<field name="company">MINISTERIO DE JUSTICIA</field>
+			<field name="job">COMUNICADORA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_207">
+			<field name="init_date">2008-11-17</field>
+			<field name="end_date">2008-12-31</field>
+			<field name="company">MINISTERIO DE JUSTICIA</field>
+			<field name="job">RELACIONADORA PUBLICA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_208">
+			<field name="init_date">1994-08-01</field>
+			<field name="end_date">2002-10-15</field>
+			<field name="company">CATERING SERVICE</field>
+			<field name="job">SUPERVISOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_209">
+			<field name="init_date">2010-09-01</field>
+			<field name="end_date">2014-03-13</field>
+			<field name="company">IAEN</field>
+			<field name="job">GUARDA ALMACEN</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_210">
+			<field name="init_date">2007-01-02</field>
+			<field name="end_date">2010-08-31</field>
+			<field name="company">IAEN</field>
+			<field name="job">AUXILIAR DE AULA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_211">
+			<field name="init_date">2009-01-02</field>
+			<field name="end_date">2012-08-09</field>
+			<field name="company">ASAMBLEA NACIONAL</field>
+			<field name="job">ASESORA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_212">
+			<field name="init_date">2008-01-07</field>
+			<field name="end_date">2008-04-01</field>
+			<field name="company">SENPLADES</field>
+			<field name="job">DIRECTORA COMUNICACION</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_213">
+			<field name="init_date">2001-10-01</field>
+			<field name="end_date">2003-08-06</field>
+			<field name="company">PRESIDENCIA DE LA REPUBLICA</field>
+			<field name="job">PERIODISTA DE LA SECRETARIA DE COMUNICACION</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_214">
+			<field name="init_date">2012-06-01</field>
+			<field name="end_date">2013-11-30</field>
+			<field name="company">MIES</field>
+			<field name="job">COORDINADORA DE COMUNICACIÓN</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_215">
+			<field name="init_date">2008-06-02</field>
+			<field name="end_date">2011-08-31</field>
+			<field name="company">MINISTERIO DEL AMBIENTE</field>
+			<field name="job">ASESORA DE COMUNICACIÓN</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_216">
+			<field name="init_date">2010-10-01</field>
+			<field name="end_date">2011-12-30</field>
+			<field name="company">STF (SECRETARÍA TÉCNICA DEL FIDEICOMISO AGD - CFN)</field>
+			<field name="job">ASESORA DE COMUNICACION</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_217">
+			<field name="init_date">1999-11-11</field>
+			<field name="end_date">2006-10-11</field>
+			<field name="company">CONECEL - PORTA</field>
+			<field name="job">COORDINADORA DE VENTAS SIERRA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_218">
+			<field name="init_date">2009-07-01</field>
+			<field name="end_date">2010-04-13</field>
+			<field name="company">CNT</field>
+			<field name="job">ANALISTA ADMINISTRATIVA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_9"></field>
+		</record>
+		<record model="experience.info" id="experience_219">
+			<field name="init_date">2013-06-01</field>
+			<field name="end_date">2013-08-19</field>
+			<field name="company">IAEN</field>
+			<field name="job">ANALISTA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_220">
+			<field name="init_date">1995-05-01</field>
+			<field name="end_date">1997-05-31</field>
+			<field name="company">REFRILAND</field>
+			<field name="job">OPERADOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_221">
+			<field name="init_date">2001-10-01</field>
+			<field name="end_date">2010-08-31</field>
+			<field name="company">SECRETARIA NACIONAL DE INTELIGENCIA</field>
+			<field name="job">JEFE DE SISTEMAS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_222">
+			<field name="init_date">1998-02-01</field>
+			<field name="end_date">2001-09-30</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">OPERADOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_223">
+			<field name="init_date">2013-03-11</field>
+			<field name="end_date">2013-09-09</field>
+			<field name="company">IAEN</field>
+			<field name="job">DIRECTORA DE DESARROLLO HUMANO (E)</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_1"></field>
+		</record>
+		<record model="experience.info" id="experience_224">
+			<field name="init_date">2009-02-05</field>
+			<field name="end_date">2009-06-11</field>
+			<field name="company">SERVICIO ECUATORIANO DE SANIDAD AGROPECUARIA</field>
+			<field name="job">DIRECTORA DE ASEORÍA JURÍDICA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_225">
+			<field name="init_date">2003-08-15</field>
+			<field name="end_date">2005-04-27</field>
+			<field name="company">CORPORACIÓN DE DESARROLLO AFROECUATORIANA</field>
+			<field name="job">ASESORA JURÍDEICA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_226">
+			<field name="init_date">2008-10-23</field>
+			<field name="end_date">2012-09-21</field>
+			<field name="company">SABIJER´S S.A</field>
+			<field name="job">ASISTENTE</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_17"></field>
+		</record>
+		<record model="experience.info" id="experience_227">
+			<field name="init_date">2012-10-10</field>
+			<field name="end_date">2013-12-01</field>
+			<field name="company">MINISTERIO DE RELACIONES LABORALES</field>
+			<field name="job">ASISTENTE</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_17"></field>
+		</record>
+		<record model="experience.info" id="experience_228">
+			<field name="init_date">2012-05-17</field>
+			<field name="end_date">2013-04-14</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">DIRECTORA ADMINISTRATIVA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_229">
+			<field name="init_date">2011-03-01</field>
+			<field name="end_date">2012-05-17</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">DIRECTORA FINANCIERA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_230">
+			<field name="init_date">2012-02-25</field>
+			<field name="end_date">2012-03-13</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">DECANA GENERAL ADMINISTRATIVA (E)</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_231">
+			<field name="init_date">2011-05-12</field>
+			<field name="end_date">2011-05-20</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">DECANA GENERAL ADMINISTRATIVA (E)</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_232">
+			<field name="init_date">2009-05-05</field>
+			<field name="end_date">2011-02-28</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">COORDINADORA FINANCIERA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_233">
+			<field name="init_date">2008-05-05</field>
+			<field name="end_date">2009-05-05</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">CONTADORA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_234">
+			<field name="init_date">2006-02-01</field>
+			<field name="end_date">2008-05-05</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">TEOSORERA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_235">
+			<field name="init_date">2011-04-04</field>
+			<field name="end_date">2013-03-04</field>
+			<field name="company">MINISTERIO DEL AMBIENTE</field>
+			<field name="job">ASESORIA LEGAL RRHH</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_236">
+			<field name="init_date">2012-03-05</field>
+			<field name="end_date">2014-08-08</field>
+			<field name="company">MINISTERIO DEL AMBIENTE</field>
+			<field name="job">DIRECTORA RRHH</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_237">
+			<field name="init_date">2012-11-30</field>
+			<field name="end_date">2012-12-07</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">DIRECTORA ADMINISTRATIVA SUBROGANTE</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_238">
+			<field name="init_date">2012-08-03</field>
+			<field name="end_date">2012-08-28</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">DIRECTORA ADMINISTRATIVA SUBROGANTE</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_239">
+			<field name="init_date">2012-05-09</field>
+			<field name="end_date">2014-03-07</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">ANALISTA DE PRESUPUESTOS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_240">
+			<field name="init_date">2011-01-03</field>
+			<field name="end_date">2011-12-30</field>
+			<field name="company">MAJESTIC CORPORATION</field>
+			<field name="job">JEFE DE DESARROLLO ORGANIZACIONAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_241">
+			<field name="init_date">2010-01-04</field>
+			<field name="end_date">2011-01-03</field>
+			<field name="company">DUQUEMATRIZ</field>
+			<field name="job">SUPERVISOR DE CALIDAD</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_242">
+			<field name="init_date">2012-06-04</field>
+			<field name="end_date">2013-06-14</field>
+			<field name="company">MIES</field>
+			<field name="job">ANALISTA-COORDINADORA DE PROCESOS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_243">
+			<field name="init_date">2011-12-05</field>
+			<field name="end_date">2012-05-31</field>
+			<field name="company">PRODUCTOS SKSFARMS</field>
+			<field name="job">COORDINADORA DEL DEPARTAMENTO DE VENTAS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_244">
+			<field name="init_date">2009-08-03</field>
+			<field name="end_date">2009-10-30</field>
+			<field name="company">HOSPITAL CARLOS ANDRADE MARIN</field>
+			<field name="job">ASISTENTE CONTABLE</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_245">
+			<field name="init_date">2013-01-24</field>
+			<field name="end_date">2014-12-31</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">ASISTENTE DE AUDITORIA INTERNA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_246">
+			<field name="init_date">2009-06-12</field>
+			<field name="end_date">2014-03-07</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">TESORERA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_247">
+			<field name="init_date">2011-08-01</field>
+			<field name="end_date">2011-09-30</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">DIRECTORA FINANCIERA ENC.</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_16"></field>
+		</record>
+		<record model="experience.info" id="experience_248">
+			<field name="init_date">2005-01-14</field>
+			<field name="end_date">2006-01-31</field>
+			<field name="company">ECUAMODA</field>
+			<field name="job">DIRECTORA DE PERSONAL DE PRODUCCION</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_249">
+			<field name="init_date">1995-02-01</field>
+			<field name="end_date">2009-12-01</field>
+			<field name="company">INSTITUTO NACIONAL DEL NIÑO Y LA FAMILIA</field>
+			<field name="job">TECNICA DE PROTECCION INTEGRAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_250">
+			<field name="init_date">2012-04-02</field>
+			<field name="end_date">2014-02-03</field>
+			<field name="company">GAD PARROQUIAL DE SININCAY</field>
+			<field name="job">TECNICA DE PROYECTOS SOCIALES</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_251">
+			<field name="init_date">2011-02-01</field>
+			<field name="end_date">2012-02-01</field>
+			<field name="company">MUNICIPIO DE CUENCA</field>
+			<field name="job">RESPONSABLE DEL PROCESO DE FORTALECIMIENTO INSTITUCIONAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_252">
+			<field name="init_date">2009-04-08</field>
+			<field name="end_date">2009-08-31</field>
+			<field name="company">KEIKO FORMER</field>
+			<field name="job">ASISTENTE DE GERENCIA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_253">
+			<field name="init_date">2004-11-01</field>
+			<field name="end_date">2008-11-07</field>
+			<field name="company">FARCOMED (FYBECA)</field>
+			<field name="job">MOSTRADOR DE MEDICINAS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_254">
+			<field name="init_date">2001-02-05</field>
+			<field name="end_date">2003-04-30</field>
+			<field name="company">SUKASA (COMOHOGAR S.A.)</field>
+			<field name="job">AUXILIAR DE CRÉDITO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_255">
+			<field name="init_date">1995-11-06</field>
+			<field name="end_date">1998-07-17</field>
+			<field name="company">ESCUELA FISCAL MANUELITA SAENZ</field>
+			<field name="job">PROFESORA DE INGLES</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_256">
+			<field name="init_date">1988-12-16</field>
+			<field name="end_date">1991-03-31</field>
+			<field name="company">COOPERATIVA "SAN  FRANCISCO DE ASÍS"</field>
+			<field name="job">SECRETARIA DE GERENCIA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_257">
+			<field name="init_date">1996-06-18</field>
+			<field name="end_date">1998-03-31</field>
+			<field name="company">DIRECCIÓN NACIONAL DE DEFENSA CIVIL</field>
+			<field name="job">ASISTENTE</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_2"></field>
+		</record>
+		<record model="experience.info" id="experience_258">
+			<field name="init_date">1997-06-30</field>
+			<field name="end_date">2011-03-01</field>
+			<field name="company">MINISTERIO DE FINANZAS</field>
+			<field name="job">SUBDIRECTOR TECNICO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_2"></field>
+		</record>
+		<record model="experience.info" id="experience_259">
+			<field name="init_date">1996-04-13</field>
+			<field name="end_date">1997-05-13</field>
+			<field name="company">SECRETARIA TECNICA DEL FRENTE SOCIAL</field>
+			<field name="job">CONSULTOR ANALISTA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_260">
+			<field name="init_date">1992-11-13</field>
+			<field name="end_date">1996-03-13</field>
+			<field name="company">INSTITUTO NACIONAL DE ESTADISTICA Y CENSOS</field>
+			<field name="job">DIRECTOR DE PROYECTOS DE INVESTIGACION</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_261">
+			<field name="init_date">2011-10-17</field>
+			<field name="end_date">2012-01-27</field>
+			<field name="company">CONSORCIO ECUATORIANO DE TELECOMUNICACIONES S.A. - CONECEL</field>
+			<field name="job">ASESOR SAC</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_262">
+			<field name="init_date">2008-02-01</field>
+			<field name="end_date">2011-10-14</field>
+			<field name="company">SENDICORP S.A.</field>
+			<field name="job">ASISTENTE ADMISNITRATIVA  - PRODUCCIÓN</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_263">
+			<field name="init_date">2005-06-01</field>
+			<field name="end_date">2006-05-31</field>
+			<field name="company">UNIVERSIDAD CATOLICA SANTIAGO DE GUAYAQUIL</field>
+			<field name="job">AUXILIAR DE PROTOCOLO Y MARKETING</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_264">
+			<field name="init_date">2009-12-03</field>
+			<field name="end_date">2013-12-31</field>
+			<field name="company">PACHAMAMA ALLIANCE</field>
+			<field name="job">DISEÑADOR WEB- WEBMASTER</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_265">
+			<field name="init_date">2010-03-10</field>
+			<field name="end_date">2013-01-28</field>
+			<field name="company">IAEN</field>
+			<field name="job">DIRECTORA DE PLANIFICACIÓN</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_266">
+			<field name="init_date">2009-07-01</field>
+			<field name="end_date">2011-01-31</field>
+			<field name="company">IAEN</field>
+			<field name="job">COORDINACIÓN DEL PROGRAMA DE ADMINISTRACIÓN TRIBUTARIA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_267">
+			<field name="init_date">2008-06-02</field>
+			<field name="end_date">2008-12-31</field>
+			<field name="company">IAEN</field>
+			<field name="job">JEFE DE DOCENCIA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_268">
+			<field name="init_date">2011-04-29</field>
+			<field name="end_date">2012-07-31</field>
+			<field name="company">MINISTERIO DE INDUSTRIAS Y PRODUCTIVIDAD</field>
+			<field name="job">ANALISTA DE PLANIFICACIÓN</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_269">
+			<field name="init_date">2009-10-01</field>
+			<field name="end_date">2011-01-25</field>
+			<field name="company">COMANDANCIA GENERAL DE POLICIA</field>
+			<field name="job">ANALISTA DE PLANIFICACIÓN</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_270">
+			<field name="init_date">2008-05-01</field>
+			<field name="end_date">2008-09-03</field>
+			<field name="company">GAD PEDRO VICENTE MALDONADO</field>
+			<field name="job">CONSULTOR SENIOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_271">
+			<field name="init_date">2011-11-11</field>
+			<field name="end_date">2012-09-12</field>
+			<field name="company">IAEN</field>
+			<field name="job">ASISTENE DE LA DIRECCIÓN E PROCURADURÌA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_20"></field>
+		</record>
+		<record model="experience.info" id="experience_272">
+			<field name="init_date">2005-12-13</field>
+			<field name="end_date">2013-05-05</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">SECRETARIA GENERAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_2"></field>
+		</record>
+		<record model="experience.info" id="experience_273">
+			<field name="init_date">2005-03-29</field>
+			<field name="end_date">2014-04-15</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">ELABORACION NORMATIVA ACADEMICA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_274">
+			<field name="init_date">2007-03-15</field>
+			<field name="end_date">2011-03-15</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">REPRESENTANTE ANTE LA ASAMBLEA UNIVERSITARIA EN REPRESENTACION DEL IAEN</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_275">
+			<field name="init_date">2012-04-02</field>
+			<field name="end_date">2013-06-30</field>
+			<field name="company">INSTITUTO DE LA DEMOCRACIA</field>
+			<field name="job">DIRECTORA DE PROMOCIÓN POLITICO ELECTORAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_276">
+			<field name="init_date">2011-08-01</field>
+			<field name="end_date">2012-08-31</field>
+			<field name="company">CONTRAPUNTO PUBLICIDAD</field>
+			<field name="job">SECRETARIA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_277">
+			<field name="init_date">2010-09-10</field>
+			<field name="end_date">2011-01-11</field>
+			<field name="company">ROTEGLOBLAL</field>
+			<field name="job">ASISTENTE</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_278">
+			<field name="init_date">2007-12-03</field>
+			<field name="end_date">2010-01-29</field>
+			<field name="company">OPTICA LUZ</field>
+			<field name="job">ASISTENTE DE GERENCIA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_279">
+			<field name="init_date">2012-08-13</field>
+			<field name="end_date">2013-06-28</field>
+			<field name="company">SENPLADES</field>
+			<field name="job">ANALISTA DE POLÍTICAS PÚBLICAS EN EL PROCESO DE ACTUALIZACIÓN DEL PNBV 2013-2017</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_280">
+			<field name="init_date">2008-02-04</field>
+			<field name="end_date">2010-08-31</field>
+			<field name="company">SÁNCHEZ GARCÍA</field>
+			<field name="job">AUDITOR JUNIOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_281">
+			<field name="init_date">2006-11-01</field>
+			<field name="end_date">2007-10-31</field>
+			<field name="company">PEARSON EDUCATION</field>
+			<field name="job">ASISTENTE DE SERVICIO AL CLIENTE</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_282">
+			<field name="init_date">2005-08-01</field>
+			<field name="end_date">2006-01-31</field>
+			<field name="company">LIMPIECO</field>
+			<field name="job">CONTADORA GENERAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_283">
+			<field name="init_date">2010-10-04</field>
+			<field name="end_date">2013-03-29</field>
+			<field name="company">UNIVERSIDAD REGIONAL AUTÓNOMA DE LOS ANDES</field>
+			<field name="job">DOCENTE</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_284">
+			<field name="init_date">2013-08-19</field>
+			<field name="end_date">2014-02-19</field>
+			<field name="company">MINISTERIO DE FINANZAS</field>
+			<field name="job">ANALISTA DE EMPRESAS PÚBLICAS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_17"></field>
+		</record>
+		<record model="experience.info" id="experience_285">
+			<field name="init_date">2011-02-07</field>
+			<field name="end_date">2013-07-31</field>
+			<field name="company">ESCUELA SUPERIOR POLITÉCNICA DE CHIMBORAZO</field>
+			<field name="job">DOCENTE OCACIONAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_286">
+			<field name="init_date">2012-06-11</field>
+			<field name="end_date">2013-06-30</field>
+			<field name="company">MIES</field>
+			<field name="job">ANALISTA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_287">
+			<field name="init_date">2012-10-31</field>
+			<field name="end_date">2013-01-30</field>
+			<field name="company">CENTRO DE ESTUDIOS POLÍTICOS Y COSIALES</field>
+			<field name="job">INVESTIGADOR EN CIENCIAS SOCIALES</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_288">
+			<field name="init_date">2012-10-05</field>
+			<field name="end_date">2013-01-04</field>
+			<field name="company">MINISTERIO DE DESARROLLO PRODUCTIVO Y ECONOMIA PLURAL</field>
+			<field name="job">CONSULTOR INTERNACIONAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_289">
+			<field name="init_date">2013-01-21</field>
+			<field name="end_date">2013-05-17</field>
+			<field name="company">PROGRAMA DE NACIONES UNIDAS PARA EL DESARROLLO</field>
+			<field name="job">CONSULTOR INTERNACIONAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_290">
+			<field name="init_date">2000-05-08</field>
+			<field name="end_date">2001-03-06</field>
+			<field name="company">TEXAS INSTRUMENTS</field>
+			<field name="job">COMUNICADORA INTERNACIONAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_291">
+			<field name="init_date">2009-10-19</field>
+			<field name="end_date">2011-08-03</field>
+			<field name="company">MAGAP</field>
+			<field name="job">ASESORA DE MINISTRO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_292">
+			<field name="init_date">2008-02-01</field>
+			<field name="end_date">2008-12-12</field>
+			<field name="company">UNIVERSITY OF KENTUCKY</field>
+			<field name="job">POST DOCTORATE SCHOLAR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_293">
+			<field name="init_date">2010-03-10</field>
+			<field name="end_date">2011-01-11</field>
+			<field name="company">BANCODEGUAYAQUIL</field>
+			<field name="job">CAJERA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_294">
+			<field name="init_date">2011-06-07</field>
+			<field name="end_date">2011-09-21</field>
+			<field name="company">BANCOPICHINCHA</field>
+			<field name="job">TARJETASDECREDITO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_295">
+			<field name="init_date">2012-10-10</field>
+			<field name="end_date">2014-03-05</field>
+			<field name="company">IAEN</field>
+			<field name="job">ASISTENTE</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_296">
+			<field name="init_date">2011-07-18</field>
+			<field name="end_date">2011-12-30</field>
+			<field name="company">BRIDGECOM S.A</field>
+			<field name="job">INSPECTORA Y DIGITADORA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_2"></field>
+		</record>
+		<record model="experience.info" id="experience_297">
+			<field name="init_date">2012-01-02</field>
+			<field name="end_date">2012-12-31</field>
+			<field name="company">CELECTRO S.A</field>
+			<field name="job">DIGITADORA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_23"></field>
+		</record>
+		<record model="experience.info" id="experience_298">
+			<field name="init_date">2013-03-04</field>
+			<field name="end_date">2014-10-03</field>
+			<field name="company">ADVANCETEL S.A</field>
+			<field name="job">ASISTENTE ADMINISTRATIVA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_9"></field>
+		</record>
+		<record model="experience.info" id="experience_299">
+			<field name="init_date">2013-10-17</field>
+			<field name="end_date">2014-12-31</field>
+			<field name="company">IAEN</field>
+			<field name="job">ASISTENTE ADMINISTRATIVA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_300">
+			<field name="init_date">1995-02-01</field>
+			<field name="end_date">1999-08-30</field>
+			<field name="company">UNION NACIONAL DE PERIODISTAS</field>
+			<field name="job">MAESTRO DE TALLER</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_17"></field>
+		</record>
+		<record model="experience.info" id="experience_301">
+			<field name="init_date">2007-06-01</field>
+			<field name="end_date">2009-11-30</field>
+			<field name="company">XGRAF SOLUCIONES IMPRESAS</field>
+			<field name="job">PROPIETARIO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_302">
+			<field name="init_date">2008-07-01</field>
+			<field name="end_date">2009-08-31</field>
+			<field name="company">CENTRO INTERNACIONAL DE LA PAPA</field>
+			<field name="job">ASITENTE ADMINISTRAVITA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_303">
+			<field name="init_date">2009-09-16</field>
+			<field name="end_date">2012-03-01</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">ASISTENTE ADMINISTRATIVO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_2"></field>
+		</record>
+		<record model="experience.info" id="experience_304">
+			<field name="init_date">2007-05-01</field>
+			<field name="end_date">2009-07-01</field>
+			<field name="company">CONSORCIO ECUACOMPU</field>
+			<field name="job">ASESOR COMERCIAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_305">
+			<field name="init_date">2008-12-01</field>
+			<field name="end_date">2011-08-31</field>
+			<field name="company">SUARSISCOMP CIA. LTDA</field>
+			<field name="job">ASISTENTE - ASESOR COMERCIAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_306">
+			<field name="init_date">2012-03-01</field>
+			<field name="end_date">2014-03-07</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">ASISTENTE</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_307">
+			<field name="init_date">2006-11-01</field>
+			<field name="end_date">2012-08-31</field>
+			<field name="company">MUNICIPIO DE QUITO</field>
+			<field name="job">ODONTOLOGA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_308">
+			<field name="init_date">2011-06-01</field>
+			<field name="end_date">2012-03-31</field>
+			<field name="company">MINISTERIO SALUD PÚBLICA</field>
+			<field name="job">TÉCNICO FORTALECIMIENTO UNIDADES DE SALUD.SALUD OCUPACIONAL E HIGIENE LABORAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_309">
+			<field name="init_date">2012-06-26</field>
+			<field name="end_date">2013-12-31</field>
+			<field name="company">HOSPITAL CARLOS ANDRADE MARIN</field>
+			<field name="job">MEDICO ASISTENCIAL SERVICIO DE EMERGENCIAS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_310">
+			<field name="init_date">2011-09-01</field>
+			<field name="end_date">2011-12-29</field>
+			<field name="company">MINISTERIO DE CULTURA Y PATRIMONIO</field>
+			<field name="job">JEFE DE TRANSPORTES</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_2"></field>
+		</record>
+		<record model="experience.info" id="experience_311">
+			<field name="init_date">2013-01-01</field>
+			<field name="end_date">2013-01-31</field>
+			<field name="company">MINISTERIO DE CULTURA Y PATRIMONIO</field>
+			<field name="job">JEFE DE SUMINISTROS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_2"></field>
+		</record>
+		<record model="experience.info" id="experience_312">
+			<field name="init_date">2013-02-01</field>
+			<field name="end_date">2013-11-20</field>
+			<field name="company">MINISTERIO DE CULTURA Y PATRIMONIO</field>
+			<field name="job">JEFE DE BIENES</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_2"></field>
+		</record>
+		<record model="experience.info" id="experience_313">
+			<field name="init_date">2013-07-01</field>
+			<field name="end_date">2014-03-07</field>
+			<field name="company">IAEN</field>
+			<field name="job">CONDUCTOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_314">
+			<field name="init_date">2008-06-15</field>
+			<field name="end_date">2009-01-30</field>
+			<field name="company">FUNDACIÓN GENERAL ECUATORIANA</field>
+			<field name="job">CONDUCTOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_315">
+			<field name="init_date">2009-06-22</field>
+			<field name="end_date">2009-08-31</field>
+			<field name="company">CLINICA HARVAR</field>
+			<field name="job">LIMPIEZA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_316">
+			<field name="init_date">2010-09-01</field>
+			<field name="end_date">2014-03-12</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">CONDUCTOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_317">
+			<field name="init_date">1997-02-10</field>
+			<field name="end_date">2009-03-31</field>
+			<field name="company">ASEPREC</field>
+			<field name="job">CONDUCTOR DE SEGURIDAD</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_318">
+			<field name="init_date">2010-09-01</field>
+			<field name="end_date">2014-03-07</field>
+			<field name="company">IAEN</field>
+			<field name="job">CONDUCTOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_319">
+			<field name="init_date">2009-07-01</field>
+			<field name="end_date">2010-02-26</field>
+			<field name="company">ANIBAL CAZA CRUZ</field>
+			<field name="job">DOMESTICA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_320">
+			<field name="init_date">2010-04-01</field>
+			<field name="end_date">2010-09-30</field>
+			<field name="company">SILVIA CHUQUIN</field>
+			<field name="job">DOMESTICA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_321">
+			<field name="init_date">2013-01-08</field>
+			<field name="end_date">2013-10-31</field>
+			<field name="company">HELADERIA ARAZAA</field>
+			<field name="job">OPERADOR ARTESANO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_322">
+			<field name="init_date">2012-01-09</field>
+			<field name="end_date">2013-10-07</field>
+			<field name="company">CUENTA PROPIA</field>
+			<field name="job">COMERCIO DE PRODUCTOS AGRICOLAS Y GANADEROS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_323">
+			<field name="init_date">2013-11-04</field>
+			<field name="end_date">2014-03-07</field>
+			<field name="company">IAEN</field>
+			<field name="job">CONDUCTOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_324">
+			<field name="init_date">2010-08-02</field>
+			<field name="end_date">2010-09-30</field>
+			<field name="company">HUAWEI</field>
+			<field name="job">MENSAJERO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_325">
+			<field name="init_date">2011-08-01</field>
+			<field name="end_date">2014-03-07</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">MENSAJERO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_326">
+			<field name="init_date">2013-02-05</field>
+			<field name="end_date">2013-06-30</field>
+			<field name="company">MINISTERIO COORDINADOR DE PATRIMONIO</field>
+			<field name="job">ASISTENTE CONTABLE</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_327">
+			<field name="init_date">2013-07-01</field>
+			<field name="end_date">2013-09-30</field>
+			<field name="company">MINISTERIO DE CULTURA Y PATRIMONIO</field>
+			<field name="job">ASISTENTE CONTABLE</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_328">
+			<field name="init_date">2013-05-01</field>
+			<field name="end_date">2013-11-13</field>
+			<field name="company">PERVOLARE S.A.</field>
+			<field name="job">ASISTENTE CONTABLE</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_329">
+			<field name="init_date">2013-02-01</field>
+			<field name="end_date">2013-04-26</field>
+			<field name="company">?AUTOMATED CASH MANAGEMENT SOLUTIONS S.A.</field>
+			<field name="job">ASISTENTE CONTABLE</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_330">
+			<field name="init_date">2012-03-06</field>
+			<field name="end_date">2012-06-28</field>
+			<field name="company">FRESFLOR CIA. LTDA.</field>
+			<field name="job">ASISTENTE CONTALE</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_331">
+			<field name="init_date">2013-09-09</field>
+			<field name="end_date">2013-09-30</field>
+			<field name="company">IAEN</field>
+			<field name="job">DIRECTORA ADMINISTRATAIVA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_332">
+			<field name="init_date">2010-09-01</field>
+			<field name="end_date">2011-12-12</field>
+			<field name="company">HOSPITAL ENRIQUE GARCES</field>
+			<field name="job">RESPONSABLE DEL SOAT- DIRECTORA FINANCIERA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_333">
+			<field name="init_date">2012-12-14</field>
+			<field name="end_date">2013-06-28</field>
+			<field name="company">MINISTERIO DE COORDINACION DE PATRIMONIO</field>
+			<field name="job">TESORERA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_334">
+			<field name="init_date">2013-07-01</field>
+			<field name="end_date">2013-12-31</field>
+			<field name="company">MINISTERIO DE CULTURA Y PATRIMONIO</field>
+			<field name="job">ANALISTA CONTABLE</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_335">
+			<field name="init_date">2009-03-01</field>
+			<field name="end_date">2011-03-31</field>
+			<field name="company">CESTTA-SPOCH</field>
+			<field name="job">SUPERVISOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_336">
+			<field name="init_date">2012-06-01</field>
+			<field name="end_date">2013-07-31</field>
+			<field name="company">PETROECUADOR</field>
+			<field name="job">ADM. CAMPAMENTO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_337">
+			<field name="init_date">2011-06-01</field>
+			<field name="end_date">2011-05-31</field>
+			<field name="company">PETROECUADOR</field>
+			<field name="job">OBRERO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_338">
+			<field name="init_date">2013-02-28</field>
+			<field name="end_date">2013-12-27</field>
+			<field name="company">ECUASIS</field>
+			<field name="job">DESARROLLADOR DE SISTEMAS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_25"></field>
+		</record>
+		<record model="experience.info" id="experience_339">
+			<field name="init_date">2011-10-17</field>
+			<field name="end_date">2011-11-28</field>
+			<field name="company">KAZACOMPU CIA. LTDA</field>
+			<field name="job">MANTENIMIENTO DE PC</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_340">
+			<field name="init_date">2012-01-04</field>
+			<field name="end_date">2012-11-15</field>
+			<field name="company">ME TELECOM</field>
+			<field name="job">SUPERVISOR DE REDES</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_341">
+			<field name="init_date">2012-11-16</field>
+			<field name="end_date">2013-07-04</field>
+			<field name="company">FBI</field>
+			<field name="job">SUPERVISOR DE REDES</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_342">
+			<field name="init_date">2011-11-01</field>
+			<field name="end_date">2014-03-07</field>
+			<field name="company">KATARISOFT</field>
+			<field name="job">GERENTE</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_343">
+			<field name="init_date">2010-03-07</field>
+			<field name="end_date">2011-12-28</field>
+			<field name="company">MULTICSOFT</field>
+			<field name="job">DESARROLLADOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_344">
+			<field name="init_date">2013-10-01</field>
+			<field name="end_date">2014-03-07</field>
+			<field name="company">AYNI</field>
+			<field name="job">SOCIO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_345">
+			<field name="init_date">2009-01-19</field>
+			<field name="end_date">2013-10-04</field>
+			<field name="company">UNIVERSIDAD DE LAS AMÉRICAS - UDLA</field>
+			<field name="job">ASISTENTE FINANCIAMIENTO, CARTERA Y COBRANZAS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_346">
+			<field name="init_date">2008-02-18</field>
+			<field name="end_date">2009-01-16</field>
+			<field name="company">GRUPO MODERNA ALIMENTOS</field>
+			<field name="job">ASISTENTE DE CRÉDITO Y CARTERA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_347">
+			<field name="init_date">2013-10-07</field>
+			<field name="end_date">2014-03-07</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES - IAEN</field>
+			<field name="job">ANALISTA DE CONTROL PREVIO Y BIENES</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_348">
+			<field name="init_date">2011-05-02</field>
+			<field name="end_date">2013-09-27</field>
+			<field name="company">COOPERATIVA DE AHORRO Y CREDITO DESARRROLLO DE LOS PUEBLOS</field>
+			<field name="job">ADMINISTRADOR DE RED</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_349">
+			<field name="init_date">2010-01-04</field>
+			<field name="end_date">2011-05-02</field>
+			<field name="company">TECSINFO SA</field>
+			<field name="job">INGENIERO SEGURIDAD DE INFORMACION</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_350">
+			<field name="init_date">2008-10-01</field>
+			<field name="end_date">2009-12-31</field>
+			<field name="company">E-SOFT (ADMINISTRADOR UNIDAD EJECUCION ESPECIALIZADA)</field>
+			<field name="job">ADMINISTRADOR DE RED</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_351">
+			<field name="init_date">2011-12-05</field>
+			<field name="end_date">2013-10-14</field>
+			<field name="company">UNIVERSIDAD POLITECNICA SALESIANA</field>
+			<field name="job">DISEÑADOR MULTIMEDIA Y DESARROLLADOR WEB</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_352">
+			<field name="init_date">2008-08-01</field>
+			<field name="end_date">2010-04-01</field>
+			<field name="company">PROJECTS SYSTEMS</field>
+			<field name="job">INTRUCTOR - DOCENTE</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_353">
+			<field name="init_date">2003-11-03</field>
+			<field name="end_date">2008-06-30</field>
+			<field name="company">IMPRESIONES AMERICA</field>
+			<field name="job">DISEÑADOR GRAFICO - MULTIMEDIA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_354">
+			<field name="init_date">2013-03-01</field>
+			<field name="end_date">2013-09-30</field>
+			<field name="company">CONSEJO DE LA JUDICATURA</field>
+			<field name="job">JEFA DEPARTAMENTAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_355">
+			<field name="init_date">2012-11-20</field>
+			<field name="end_date">2013-02-28</field>
+			<field name="company">SECRETARIA NACIONAL DE TRANSPARENCIA DE GESTIÓN</field>
+			<field name="job">COORDINADORA DE RECURSOS HUMANOS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_356">
+			<field name="init_date">2011-05-24</field>
+			<field name="end_date">2012-11-08</field>
+			<field name="company">MINISTERIO DEL INTERIOR</field>
+			<field name="job">DIRECTORA DE TALENTO HUMANO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_357">
+			<field name="init_date">2013-03-13</field>
+			<field name="end_date">2013-12-31</field>
+			<field name="company">DEFENSORIA DEL PUEBLO DE ECUADOR</field>
+			<field name="job">ANALISTA 3 DE RRHH</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_358">
+			<field name="init_date">2012-11-12</field>
+			<field name="end_date">2013-03-08</field>
+			<field name="company">MINISTERIO DE RELACIONES LABORALES</field>
+			<field name="job">COORDINADOR DE FORTALECIMIENTO INSTITUCIONAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_359">
+			<field name="init_date">2011-06-23</field>
+			<field name="end_date">2012-11-09</field>
+			<field name="company">MINISTERIO DEL INTERIOR</field>
+			<field name="job">COORDINADOR DE TALENTO HUMANO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_360">
+			<field name="init_date">2009-12-01</field>
+			<field name="end_date">2011-06-22</field>
+			<field name="company">MINISTERIO DE JUSTICIA DERECHOS HUMANOS Y CULTOS</field>
+			<field name="job">SUPERVISOR DE SELECCIÓN DE PERSONAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_361">
+			<field name="init_date">2011-07-18</field>
+			<field name="end_date">2012-10-26</field>
+			<field name="company">MINISTERIO DEL INTERIOR</field>
+			<field name="job">ANALISTA DE TALENTO HUMANO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_362">
+			<field name="init_date">2012-10-29</field>
+			<field name="end_date">2013-05-31</field>
+			<field name="company">MINISTERIO DE RELACIONES LABORALES</field>
+			<field name="job">ANALISTA DE FORTALECIMIENTO INSTITUCIONAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_363">
+			<field name="init_date">2013-06-03</field>
+			<field name="end_date">2013-09-30</field>
+			<field name="company">CONSEJO DE LA JUDICATURA</field>
+			<field name="job">ANALISTA DE TALENTO HUMANO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_364">
+			<field name="init_date">2011-06-03</field>
+			<field name="end_date">2012-10-31</field>
+			<field name="company">MINISTERIO DE TURISMO</field>
+			<field name="job">SP5</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_365">
+			<field name="init_date">2013-03-01</field>
+			<field name="end_date">2014-10-31</field>
+			<field name="company">CONSEJO DE LA JUDICATURA</field>
+			<field name="job">SUPERVISORA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_366">
+			<field name="init_date">2010-04-01</field>
+			<field name="end_date">2011-10-31</field>
+			<field name="company">GRAFICAS ARBOLEDA</field>
+			<field name="job">DISEÑO EDITORIAL PRE-PRENSA DIGITAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_367">
+			<field name="init_date">2011-10-01</field>
+			<field name="end_date">2013-10-31</field>
+			<field name="company">INSTITUTO LATINO</field>
+			<field name="job">DOCENTE</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_368">
+			<field name="init_date">2010-03-01</field>
+			<field name="end_date">2014-03-07</field>
+			<field name="company">SENTIDO ZERO</field>
+			<field name="job">DISEÑADOR FREELANCE</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_369">
+			<field name="init_date">2012-11-15</field>
+			<field name="end_date">2013-03-15</field>
+			<field name="company">CORPORACION LIDERES</field>
+			<field name="job">DISEÑADFOR INSTRUCCIONAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_370">
+			<field name="init_date">2010-11-02</field>
+			<field name="end_date">2011-02-02</field>
+			<field name="company">CORTE CONSTITUCIONAL</field>
+			<field name="job">INTEGRANTE EQUIPO TECNICO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_371">
+			<field name="init_date">2012-09-07</field>
+			<field name="end_date">2012-12-16</field>
+			<field name="company">SECAP</field>
+			<field name="job">FACILITADOR CURSO PROMOTOR BUEN VIVIR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_372">
+			<field name="init_date">2013-01-02</field>
+			<field name="end_date">2013-11-26</field>
+			<field name="company">CORPORACIÓN LÍDERES</field>
+			<field name="job">COORDINADORA ACADÉMICA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_373">
+			<field name="init_date">2011-09-13</field>
+			<field name="end_date">2012-09-06</field>
+			<field name="company">UNIVERSIDAD DE LAS AMÉRICAS</field>
+			<field name="job">DOCENTE</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_374">
+			<field name="init_date">2011-10-26</field>
+			<field name="end_date">2012-02-01</field>
+			<field name="company">QUALIPLUS INTERNACIONAL</field>
+			<field name="job">COORDINADORA ACADÉMICA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_375">
+			<field name="init_date">2010-03-20</field>
+			<field name="end_date">2013-10-04</field>
+			<field name="company">GOBIERNO PROVINCIAL DE LOJA</field>
+			<field name="job">LIDER DEL CENTRO DE DESARROLLO EMPRESARIAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_1"></field>
+		</record>
+		<record model="experience.info" id="experience_376">
+			<field name="init_date">2005-09-29</field>
+			<field name="end_date">2007-11-27</field>
+			<field name="company">GOBIERNO PROVINCIAL DE LOJA</field>
+			<field name="job">JEFE DE LA AGENCIA DE DESARROLLO EMPRESARIAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_2"></field>
+		</record>
+		<record model="experience.info" id="experience_377">
+			<field name="init_date">2000-03-20</field>
+			<field name="end_date">2005-09-29</field>
+			<field name="company">GOBIERNO PROVINCIAL DE LOJA</field>
+			<field name="job">JEFE DE LA UNIDAD DE INDUSTRIAS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_2"></field>
+		</record>
+		<record model="experience.info" id="experience_378">
+			<field name="init_date">2012-08-01</field>
+			<field name="end_date">2012-11-01</field>
+			<field name="company">SOUTHIMPORT CIA. LTDA</field>
+			<field name="job">JEFE DE SISTEMAS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_379">
+			<field name="init_date">2006-01-01</field>
+			<field name="end_date">2012-08-01</field>
+			<field name="company">AGILE PUBLICIDAD</field>
+			<field name="job">TECNICO - DISEÑADOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_380">
+			<field name="init_date">2006-01-01</field>
+			<field name="end_date">2014-03-14</field>
+			<field name="company">OTROS</field>
+			<field name="job">ADMINISTRACION</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_381">
+			<field name="init_date">2012-04-02</field>
+			<field name="end_date">2013-06-30</field>
+			<field name="company">INSTITUTO DE LA DEMOCRACIA</field>
+			<field name="job">DIRECTORA DE PROMOCIÓN POLITICO ELECTORAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_382">
+			<field name="init_date">2009-09-15</field>
+			<field name="end_date">2010-12-30</field>
+			<field name="company">MINITERIO DE GOBIERNO Y POLICIA</field>
+			<field name="job">ASESORA DE MINISTRO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_23"></field>
+		</record>
+		<record model="experience.info" id="experience_383">
+			<field name="init_date">2011-01-02</field>
+			<field name="end_date">2011-05-30</field>
+			<field name="company">MINISTERIO DEL INTERIOR</field>
+			<field name="job">DIRECTORA DE CONTROL DE DROGAS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_1"></field>
+		</record>
+		<record model="experience.info" id="experience_384">
+			<field name="init_date">2009-01-02</field>
+			<field name="end_date">2009-09-14</field>
+			<field name="company">CONSEJO NACIONAL DE CONTRO DE SUSTANCIAS ESTUPEFACIENTES Y PSICOTROPICAS</field>
+			<field name="job">DIRECTORA DEL OBSERVATORIO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_1"></field>
+		</record>
+		<record model="experience.info" id="experience_385">
+			<field name="init_date">2006-07-03</field>
+			<field name="end_date">2006-12-29</field>
+			<field name="company">UNIVERSIDAD DE CONCEPCIÓN</field>
+			<field name="job">DOCENTE</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_386">
+			<field name="init_date">2011-08-01</field>
+			<field name="end_date">2012-06-30</field>
+			<field name="company">UNIVERSIDAD DE SANTIAGO DE COMPOSTELA</field>
+			<field name="job">COORDINACIÓN DE MÁSTER</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_387">
+			<field name="init_date">2009-11-02</field>
+			<field name="end_date">2012-05-31</field>
+			<field name="company">UNIVERSIDAD DE SANTIAGO DE COMPOSTELA</field>
+			<field name="job">INVESTIGADOR EN FORMACIÓN Y PERFECCIONAMIENTO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_388">
+			<field name="init_date">2013-11-11</field>
+			<field name="end_date">2014-12-31</field>
+			<field name="company">IAEN</field>
+			<field name="job">COORDINACIÓN_LABORATORIO_DE_COMUNICACIÓN_Y_DERECHOS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_389">
+			<field name="init_date">2010-10-04</field>
+			<field name="end_date">2013-11-07</field>
+			<field name="company">UNIVERSIDAD COMPLUTENSE DE MADRID</field>
+			<field name="job">PROFESORA MÁSTER OPINIÓN PÚBLICA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_390">
+			<field name="init_date">2010-10-04</field>
+			<field name="end_date">2018-01-31</field>
+			<field name="company">GRUPO DE INVESTIGACIÓN EN GOBIERNO, ADMINISTRACIÓN Y POLÍTICAS PÚBLICAS-INSTITUTO DE INVESTIGACIÓN ORTEGA Y GASSET</field>
+			<field name="job">INVESTIGADORA GIGAPP</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_391">
+			<field name="init_date">2010-02-01</field>
+			<field name="end_date">2010-11-30</field>
+			<field name="company">DISTRIBUIDORA VINUEZA</field>
+			<field name="job">JEFE DE VENTAS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_392">
+			<field name="init_date">2012-01-02</field>
+			<field name="end_date">2012-03-30</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">ANALISTA DE PLANIFICACIÓN</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_393">
+			<field name="init_date">1998-11-13</field>
+			<field name="end_date">2008-07-14</field>
+			<field name="company">IAEN</field>
+			<field name="job">ACADEMICO TITULAR 2 TC</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_23"></field>
+		</record>
+		<record model="experience.info" id="experience_394">
+			<field name="init_date">1994-01-03</field>
+			<field name="end_date">1994-12-30</field>
+			<field name="company">SUBSECRETARIA DE CULTURA</field>
+			<field name="job">ASESORA SUBSECRETARIA DE CULTURA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_1"></field>
+		</record>
+		<record model="experience.info" id="experience_395">
+			<field name="init_date">1992-01-06</field>
+			<field name="end_date">1994-01-03</field>
+			<field name="company">MINISTERIO DE EDUCACION Y CULTURA</field>
+			<field name="job">ASESORA JURIDICA MEC</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_1"></field>
+		</record>
+		<record model="experience.info" id="experience_396">
+			<field name="init_date">2007-06-14</field>
+			<field name="end_date">2009-09-01</field>
+			<field name="company">UCL</field>
+			<field name="job">DOCENTE</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_397">
+			<field name="init_date">2013-11-01</field>
+			<field name="end_date">2014-03-06</field>
+			<field name="company">IAEN</field>
+			<field name="job">ADMINISTRADOR DE PLATAFORMA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_2"></field>
+		</record>
+		<record model="experience.info" id="experience_398">
+			<field name="init_date">2009-09-03</field>
+			<field name="end_date">2013-10-31</field>
+			<field name="company">IAEN</field>
+			<field name="job">SOPORTE A USUARIOS</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_2"></field>
+		</record>
+		<record model="experience.info" id="experience_399">
+			<field name="init_date">2007-08-09</field>
+			<field name="end_date">2008-09-11</field>
+			<field name="company">CENTRAL TECNICO</field>
+			<field name="job">DOCENTE</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_400">
+			<field name="init_date">2011-09-01</field>
+			<field name="end_date">2011-12-30</field>
+			<field name="company">ONU MUJERES</field>
+			<field name="job">CONSULTORA INVESTIGADORA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_401">
+			<field name="init_date">2011-04-11</field>
+			<field name="end_date">2011-09-15</field>
+			<field name="company">UNION EUROPEA - GIZ</field>
+			<field name="job">CONSULTORA EXPERTA EN GÉNERO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_402">
+			<field name="init_date">2009-05-11</field>
+			<field name="end_date">2010-12-30</field>
+			<field name="company">ONU MUJERES</field>
+			<field name="job">CONSULTORA EXPERTA EN GÉNERO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_403">
+			<field name="init_date">2005-06-01</field>
+			<field name="end_date">2007-02-28</field>
+			<field name="company">FONDO DE POBALCION DE LAS NACIONES UNIDAS UNFPA</field>
+			<field name="job">PROFESIONAL NACIONAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_404">
+			<field name="init_date">2007-07-02</field>
+			<field name="end_date">2008-03-31</field>
+			<field name="company">MINISTERIO DE COORDINACION DE DESARROLLO SOCIAL</field>
+			<field name="job">COORDINADOR NACIONAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_405">
+			<field name="init_date">2008-03-13</field>
+			<field name="end_date">2009-09-13</field>
+			<field name="company">MINISTERIO DE DESARROLLO URBANO Y VIVIENDA</field>
+			<field name="job">CONSULTOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_406">
+			<field name="init_date">1980-02-01</field>
+			<field name="end_date">1987-08-14</field>
+			<field name="company">MINISTERIO DE SALUD PUBLICA</field>
+			<field name="job">INVESTIGADOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_407">
+			<field name="init_date">2010-03-01</field>
+			<field name="end_date">2012-06-29</field>
+			<field name="company">INSTITUTO DE ALTOS ESTUDIOS NACIONALES IAEN</field>
+			<field name="job">INVESTIGADOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_408">
+			<field name="init_date">2013-06-03</field>
+			<field name="end_date">2014-05-30</field>
+			<field name="company">IAEN</field>
+			<field name="job">COORDINADORA ACADEMICA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_1"></field>
+		</record>
+		<record model="experience.info" id="experience_409">
+			<field name="init_date">2005-10-01</field>
+			<field name="end_date">2013-07-31</field>
+			<field name="company">BANCO DEL ESTADO</field>
+			<field name="job">ESPECIALISTA EN RIESGO DE ENTORNO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_1"></field>
+		</record>
+		<record model="experience.info" id="experience_410">
+			<field name="init_date">2005-05-01</field>
+			<field name="end_date">2005-09-30</field>
+			<field name="company">BANCO DEL ESTADO</field>
+			<field name="job">DIRECTOR DE RIESGOS DE MERCADO Y LIQUIDEZ</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_2"></field>
+		</record>
+		<record model="experience.info" id="experience_411">
+			<field name="init_date">1996-07-01</field>
+			<field name="end_date">2005-04-30</field>
+			<field name="company">BANCO DEL ESTADO</field>
+			<field name="job">EXPERTO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_2"></field>
+		</record>
+		<record model="experience.info" id="experience_412">
+			<field name="init_date">2013-10-07</field>
+			<field name="end_date">2014-01-17</field>
+			<field name="company">EMPRESA PÚBLICA METROPOLITANA DE TRANSPORTE DE PASAJEROS DE QUITO (TROLEBUS)</field>
+			<field name="job">COORDINADOR DE DESARROLLO INSTITUCIONAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_413">
+			<field name="init_date">2013-01-01</field>
+			<field name="end_date">2013-09-30</field>
+			<field name="company">EMPRESA PÚBLICA METROPOLITANA DE TRANSPORTE DE PASAJEROS DE QUITO (TROLEBUS)</field>
+			<field name="job">ASESOR EMPRESARIAL</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_414">
+			<field name="init_date">2009-08-01</field>
+			<field name="end_date">2012-11-06</field>
+			<field name="company">MINISTERIO DE RELACIONES LABORALES</field>
+			<field name="job">ANALISTA DE POLITICAS Y NORMAS DEL SERVICIO PÚBLICO</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_13"></field>
+		</record>
+		<record model="experience.info" id="experience_415">
+			<field name="init_date">2011-09-05</field>
+			<field name="end_date">2012-03-30</field>
+			<field name="company">IAEN INSTITUTO DE ALTOS ESTUDIOS NACIONALES</field>
+			<field name="job">DESARROLADOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+		<record model="experience.info" id="experience_416">
+			<field name="init_date">2012-07-02</field>
+			<field name="end_date">2012-11-16</field>
+			<field name="company">UNITA-CES UNIVERSIDAD TECNOLÓGICA AMÉRICA - CES</field>
+			<field name="job">DOCENTE SEMINARIO DE GRADUACIÓN CÁTEDRAS DISEÑO WEB Y DISEÑO MULTIMEDIA</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_22"></field>
+		</record>
+		<record model="experience.info" id="experience_417">
+			<field name="init_date">2011-06-10</field>
+			<field name="end_date">2011-09-01</field>
+			<field name="company">INEC INSTITUTO NACIONAL DE ESTADÍSTICAS Y CENSOS</field>
+			<field name="job">DESARROLADOR</field>
+			<field name="input_motive_id" ref="input_motive_1"></field>
+			<field name="output_motive_id" ref="output_motive_6"></field>
+		</record>
+	</data>
+</openerp>

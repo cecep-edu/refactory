@@ -34,8 +34,7 @@ class identification_type(osv.osv, validation):
     _description = u'Identificacion con pasaporte o Cédula de ciudadania'
     _order = "name"
     _sql_constraints = [
-        ('name_unique', 'unique(name)', _(u'Ya existe un tipo de identificación con el mismo nombre')),
-        ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
+        ('name_unique', 'unique(name)', _(u'Ya existe un tipo de identificación con el mismo nombre'))
     ]
     _columns = {
         "code_mrl": fields.char("Código MRL", size=3),
@@ -51,8 +50,7 @@ class ethnic_group(osv.osv, validation):
     _description = "Almacena los grupos etnicos"
     _order = "name"
     _sql_constraints = [
-        ('name_unique', 'unique(name)', _(u'Ya existe un grupo étnico con el mismo nombre')),
-        ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
+        ('name_unique', 'unique(name)', _(u'Ya existe un grupo étnico con el mismo nombre'))
     ]
     _columns = {
         "code_mrl": fields.char("Código MRL", size=3),
@@ -76,8 +74,7 @@ class type_sex(osv.osv, validation):
         "code_mrl": fields.char("Código MRL", size=3),
     }
     _sql_constraints = [
-        ('name_uniq', 'unique(name)', _(u'Ya existe un genero con el mismo nombre')),
-        ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
+        ('name_uniq', 'unique(name)', _(u'Ya existe un genero con el mismo nombre'))
     ]
     _constraints = [
         (validation.only_numbers, _(u"El Código MRL debe contener solo números."), ['code_mrl'])
@@ -110,9 +107,6 @@ class res_country(osv.osv, validation):
     _columns = {
         "code_mrl": fields.char("Codigo MRL", size=3),
     }
-    #_sql_constraints = [
-    #    ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
-    #]
     _constraints = [
         (validation.only_numbers, _(u"El Código MRL debe contener solo números."), ['code_mrl'])
     ]
@@ -128,9 +122,7 @@ class res_country_state(osv.osv, validation):
         "code_mrl": fields.char("Código MRL", size=3),
         "zone_id": fields.many2one("zones","Zona",help="Distribución zonal, a la que pertenece la provincia")
     }
-    #_sql_constraints = [
-    #    ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
-    #]
+
     _constraints = [
         (validation.only_numbers, _(u"El Código MRL debe contener solo números."), ['code_mrl'])
     ]
@@ -164,9 +156,6 @@ class canton(osv.osv, validation):
         "code_mrl": fields.char("Código MRL", size=3),
         "country_state_id": fields.many2one("res.country.state","Provincia",required=True),
     }
-    #_sql_constraints = [
-    #    ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
-    #]
     _constraints = [
         #(validation.only_numbers, _(u"El Código MRL debe contener solo números."), ['code_mrl'])
     ]
@@ -189,9 +178,6 @@ class parish(osv.osv, validation):
         "canton_id": fields.many2one("canton","Cantón",required=True),
         "description": fields.text("Descripción"),
     }
-    _sql_constraints = [
-        #('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
-    ]
     _constraints = [(validation.only_numbers, _(u"El Código MRL debe contener solo números."), ['code_mrl'])]
 
 
@@ -200,8 +186,7 @@ class blood_type(osv.osv, validation):
     _name = "blood.type"
     _description = "Registra los tipos de sangre"
     _sql_constraints = [
-        ('name_uniq', 'unique(name)', 'Ya existe un Registro con el mismo nombre'),
-        ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
+        ('name_uniq', 'unique(name)', 'Ya existe un Registro con el mismo nombre')
     ]
     _columns = {
         'name': fields.char("Nombre", size=3, required=True),
@@ -219,8 +204,7 @@ class civil_status(osv.osv, validation):
     _description = "Informacion sobre estado civil"
     _order = "name"
     _sql_constraints = [
-        ('name_uniq', 'unique(name)', 'Ya existe un Estado Civil con el mismo nombre'),
-        ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
+        ('name_uniq', 'unique(name)', 'Ya existe un Estado Civil con el mismo nombre')
     ]
     _columns = {
         'code_mrl': fields.char('Código MRL', size=3),
@@ -242,7 +226,6 @@ class family_relationship(osv.osv, validation):
         "description": fields.text("Descripción"),
     }
     _sql_constraints = [
-        ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl')),
         ('name_unique', 'unique(name)', _(u'Ya existe un parentesco con el mismo nombre'))
     ]
     _constraints = [
@@ -261,8 +244,7 @@ class nationality(osv.osv, validation):
 	}
 	_order = "name"
 	_sql_constraints = [
-        ('name_unique', 'unique(name)', _(u'Ya existe una Nacionalidad con ese nombre.')),
-		('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese Código Mrl'))
+        ('name_unique', 'unique(name)', _(u'Ya existe una Nacionalidad con ese nombre.'))
     ]
 	_constraints = [
         (validation.only_letters, _(u"La Nacionalidad debe contener letras únicamente"), ['name']),
@@ -280,8 +262,7 @@ class instruction(osv.osv, validation):
         'description': fields.text("Descripción"),
     }
     _sql_constraints = [
-        ('name_uniq', 'unique(name)', 'Ya existe un Registro con el mismo nombre'),
-        ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
+        ('name_uniq', 'unique(name)', 'Ya existe un Registro con el mismo nombre')
     ]
     _constraints = [
         (validation.only_letters, _(u"Los Niveles de Instrucciones deben contener letras únicamente"), ['name']),
@@ -294,8 +275,7 @@ class entity_finance(osv.osv, validation):
     _description="Entidad Financiera"
     _order="name"
     _sql_constraints = [
-        ('name_unique', 'unique(name)', _(u'Ya existe una Entidad Financiera con ese nombre.')),
-        ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
+        ('name_unique', 'unique(name)', _(u'Ya existe una Entidad Financiera con ese nombre.'))
     ]
     _columns={
         'code_mrl': fields.char("Código MRL", size=3),
@@ -311,8 +291,7 @@ class bank_account_type(osv.osv, validation):
     _description="Tipo de Cuenta"
     _order="name"
     _sql_constraints = [
-        ('name_unique', 'unique(name)', _(u'Ya existe un tipo de cuenta bancaria con ese nombre.')),
-        ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
+        ('name_unique', 'unique(name)', _(u'Ya existe un tipo de cuenta bancaria con ese nombre.'))
     ]
     _columns={
        'code_mrl': fields.char("Código MRL", size=3),
@@ -326,8 +305,7 @@ class type_disability(osv.osv, validation):
     _description = "Tipo de Discapacidad"       
     _order = "name"
     _sql_constraints = [
-        ('name_unique', 'unique(name)', _(u'Ya existe un tipo de discapacidad con el mismo nombre')),
-        ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
+        ('name_unique', 'unique(name)', _(u'Ya existe un tipo de discapacidad con el mismo nombre'))
     ]
     _columns={
         "name": fields.char("Nombre", size=30, required=True),
@@ -347,8 +325,7 @@ class event_type(osv.osv, validation):
     _description = "Tipo de Evento "       
     _order = "name"
     _sql_constraints = [
-        ('name_unique', 'unique(name)', _(u'Ya existe un parentesco con el mismo nombre')),
-        ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
+        ('name_unique', 'unique(name)', _(u'Ya existe un parentesco con el mismo nombre'))
     ]
     _columns={
         "name": fields.char("Nombre", size=20, required=True),
@@ -365,8 +342,7 @@ class certified_type(osv.osv,validation):
     _description = "Tipo de Certificado"       
     _order = "name"
     _sql_constraints = [
-        ('name_unique', 'unique(name)', _(u'Ya existe un parentesco con el mismo nombre')),
-        ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
+        ('name_unique', 'unique(name)', _(u'Ya existe un parentesco con el mismo nombre'))
     ]
     _columns={
             "name": fields.char("Nombre", size=20, required=True),
@@ -382,9 +358,6 @@ class certified_type(osv.osv,validation):
 class hr_job(osv.osv, validation): 
     """Clase heredada del modulo de recursos humanos para la creacion de puestos de trabajo"""   
     _inherit = "hr.job"
-    _sql_constraints = [
-        ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
-    ]
     _columns={
         "code_mrl": fields.char("Codigo MRL", size=3),
     }
@@ -412,8 +385,8 @@ class input_motive(osv.osv, validation):
     _description="Motivos de Entrada Laboral"
     _order = "name"        
     _sql_constraints = [
-        ('name_uniq', 'unique(name)', _(u'Ya existe un registro con el mismo nombre')),
-        ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))]
+        ('name_uniq', 'unique(name)', _(u'Ya existe un registro con el mismo nombre'))
+	]
     _columns={
         "code_mrl": fields.char("Codigo MRL", size=3),
         "name" : fields.char("Nombre",size=100,required=True), 
@@ -427,8 +400,8 @@ class output_motive(osv.osv, validation):
     _description="Motivos de Salida Laboral"
     _order = "name"        
     _sql_constraints = [
-        ('name_uniq', 'unique(name)', _(u'Ya existe un registro con el mismo nombre')),
-        ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))]
+        ('name_uniq', 'unique(name)', _(u'Ya existe un registro con el mismo nombre'))
+	]
     _columns={
         "code_mrl": fields.char("Codigo MRL", size=3),
         "name" : fields.char("Nombre",size=100,required=True), 
@@ -442,8 +415,8 @@ class entity_type(osv.osv, validation):
     _description="Tipos de Entidades"
     _order = "name"        
     _sql_constraints = [
-        ('name_uniq', 'unique(name)', _(u'Ya existe un registro con el mismo nombre')),
-        ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))]
+        ('name_uniq', 'unique(name)', _(u'Ya existe un registro con el mismo nombre'))
+	]	
     _columns={
         "code_mrl": fields.char("Codigo MRL", size=3),
         "name" : fields.char("Nombre",size=100,required=True), 
@@ -457,8 +430,7 @@ class entity_public(osv.osv, validation):
     _description="Entidades Publicas"
     _order = "name" 
     _sql_constraints = [
-        ('name_uniq', 'unique(name)', _(u'Ya existe un registro con el mismo nombre')),
-        #('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
+        ('name_uniq', 'unique(name)', _(u'Ya existe un registro con el mismo nombre'))
     ]       
     _columns={
         #"code_mrl": fields.char("Codigo MRL", size=3),
@@ -474,8 +446,7 @@ class name_notary(osv.osv, validation):
     _description = "Notarias del Ecuador"       
     _order = "name"
     _sql_constraints = [
-        ('name_unique', 'unique(name)', _(u'Ya existe un campo con el mismo nombre')),
-        ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
+        ('name_unique', 'unique(name)', _(u'Ya existe un campo con el mismo nombre'))
     ]
     _columns={
         "name": fields.char("Nombre", size=30, required=True),
@@ -493,8 +464,7 @@ class indian_nationality(osv.osv, validation):
     _description = "Nacionalidad indigena"       
     _order = "name"
     _sql_constraints = [
-        ('name_unique', 'unique(name)', _(u'Ya existe un campo con el mismo nombre')),
-        ('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
+        ('name_unique', 'unique(name)', _(u'Ya existe un campo con el mismo nombre'))
     ]
     _columns={
         "name": fields.char("Nombre", size=30, required=True),
@@ -519,8 +489,7 @@ class sp_type(osv.osv, validation):
     _description = "Escalas Remuneraciones"       
     _order = "name"
     _sql_constraints = [
-        ('name_unique', 'unique(name)', _(u'Ya existe un campo con el mismo nombre')),
-        #('cod_unique', 'unique(code_mrl)', _(u'Ya existe un Registro con ese código Mrl'))
+        ('name_unique', 'unique(name)', _(u'Ya existe un campo con el mismo nombre'))
     ]
     _columns={
         "name": fields.char("Nombre", size=50, required=True),

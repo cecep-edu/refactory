@@ -1,0 +1,1897 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<openerp>
+	<data noupdate="1">
+		<record model="family.burden" id="family_1">
+			<field name="name">FLORES VASQUEZ</field>
+			<field name="last_name">JUAN ESTEBAN</field>
+			<field name="number_id">1750608067</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2004-09-17</field>
+			<field name="phone">2493282</field>
+			<field name="movil">095082071</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_2">
+			<field name="name">FLORES VASQUEZ</field>
+			<field name="last_name">JOAQUIN MISAEL</field>
+			<field name="number_id">-------------------</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2011-12-01</field>
+			<field name="phone">2493282</field>
+			<field name="movil">095082071</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_3">
+			<field name="name">FLORES MUÑOZ</field>
+			<field name="last_name">JUAN CARLOS</field>
+			<field name="number_id">0201532389</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1978-12-14</field>
+			<field name="phone">2493282</field>
+			<field name="movil">0984246233</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_4">
+			<field name="name">CHIRIBOGA ALVAREZ</field>
+			<field name="last_name">DIEGO DAVID</field>
+			<field name="number_id">1723381420</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1988-02-09</field>
+			<field name="phone">2030769</field>
+			<field name="movil">0984120742</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_5">
+			<field name="name">CHIRIBOGA ALVAREZ</field>
+			<field name="last_name">JORGE FERNANDO</field>
+			<field name="number_id">1719119974</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1989-09-16</field>
+			<field name="phone">2030769</field>
+			<field name="movil">0984258616</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_6">
+			<field name="name">CUEVA RUIZ</field>
+			<field name="last_name">MARÍA BELEN</field>
+			<field name="number_id">1105754277</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2001-01-26</field>
+			<field name="phone">072584902</field>
+			<field name="movil">0997089033</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_7">
+			<field name="name">CUEVA RUIZ</field>
+			<field name="last_name">GONZALO HERNAN</field>
+			<field name="number_id">1104774722</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1995-05-18</field>
+			<field name="phone">2243277</field>
+			<field name="movil">0984715932</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_8">
+			<field name="name">HERRERA JARIIN</field>
+			<field name="last_name">JANE FERNANDA</field>
+			<field name="number_id">1720660230</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2001-02-20</field>
+			<field name="phone">2910058</field>
+			<field name="movil">0998896958</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_9">
+			<field name="name">HERRERA JARRIN</field>
+			<field name="last_name">JOSEPH JAVIER</field>
+			<field name="number_id">1720477049</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2002-04-05</field>
+			<field name="phone">2910058</field>
+			<field name="movil">09998896958</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_10">
+			<field name="name">HERRERA RECALDE</field>
+			<field name="last_name">AMELIA NADINE</field>
+			<field name="number_id">1754164018</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2013-06-17</field>
+			<field name="phone">2631416</field>
+			<field name="movil">0998896958</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_11">
+			<field name="name">ANDRADE CARLOSAMA</field>
+			<field name="last_name">JERLYN ANAHI</field>
+			<field name="number_id">1004440028</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2005-09-02</field>
+			<field name="phone">026602264</field>
+			<field name="movil"></field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_12">
+			<field name="name">ANDRADE CARLOSAMA</field>
+			<field name="last_name">JENNY ALEXANDRA</field>
+			<field name="number_id">1003334958</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1989-12-04</field>
+			<field name="phone">026602264</field>
+			<field name="movil">0998771669</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_13">
+			<field name="name">SALVADOR ANDRADE</field>
+			<field name="last_name">HEIDY DAYANA</field>
+			<field name="number_id">1004440036</field>
+			<field name="type_rel_family" ref="gender_other"></field>
+			<field name="date_birth">2002-07-06</field>
+			<field name="phone">062602264</field>
+			<field name="movil">0997494460</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_14">
+			<field name="name">APUNTE ORDOÑEZ</field>
+			<field name="last_name">JORGE SANTIAGO</field>
+			<field name="number_id">1720944782</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1991-07-09</field>
+			<field name="phone">2404249</field>
+			<field name="movil">0987572689</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_15">
+			<field name="name">AGUILERA NARVAEZ</field>
+			<field name="last_name">EDUARDO DANIEL</field>
+			<field name="number_id">1102551718</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1967-09-01</field>
+			<field name="phone">072588385</field>
+			<field name="movil">0993365733</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_16">
+			<field name="name">AGUILERA LARREA</field>
+			<field name="last_name">DANIEL EDUARDO</field>
+			<field name="number_id">1105872020</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2006-09-28</field>
+			<field name="phone">072588385</field>
+			<field name="movil">0996802445</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_17">
+			<field name="name">RICHARDS OÑA</field>
+			<field name="last_name">EMILY SUE</field>
+			<field name="number_id">1725932626</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2006-02-16</field>
+			<field name="phone">2431324</field>
+			<field name="movil">0984308892</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_18">
+			<field name="name">RICHARDS OÑA</field>
+			<field name="last_name">EVA MARIE</field>
+			<field name="number_id">1750097055</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2010-04-08</field>
+			<field name="phone">2431324</field>
+			<field name="movil">0984308892</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_19">
+			<field name="name">MORENO SUAREZ</field>
+			<field name="last_name">MARIA SOLEDAD</field>
+			<field name="number_id">1703854776</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1968-04-28</field>
+			<field name="phone">022337292</field>
+			<field name="movil">0980287776</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_20">
+			<field name="name">TINTIN MORENO</field>
+			<field name="last_name">LILIANA MARISOL</field>
+			<field name="number_id">1715955181</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1991-12-21</field>
+			<field name="phone">00821047734427</field>
+			<field name="movil">00821029252567</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_21">
+			<field name="name">TINTIN MORENO</field>
+			<field name="last_name">ROMEL ALEXANDER</field>
+			<field name="number_id">1728167733</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2003-08-08</field>
+			<field name="phone">022337292</field>
+			<field name="movil">0996047555</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_22">
+			<field name="name">QUISHPE CHALUISA</field>
+			<field name="last_name">JOSÉ HUMBERTO</field>
+			<field name="number_id">0502364771</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1977-12-02</field>
+			<field name="phone">3073722</field>
+			<field name="movil">0988345502</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_23">
+			<field name="name">QUISHPE AVILA</field>
+			<field name="last_name">NICOLÁS VALENTIN</field>
+			<field name="number_id">1751403377</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2009-02-22</field>
+			<field name="phone">3073722</field>
+			<field name="movil">0988345502</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_24">
+			<field name="name">BRUQUE MARTINEZ</field>
+			<field name="last_name">ARIADNA</field>
+			<field name="number_id">1723479141</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1991-01-27</field>
+			<field name="phone">2446885</field>
+			<field name="movil">0987731328</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_25">
+			<field name="name">BRUQUE MARTINEZ</field>
+			<field name="last_name">ILEANA</field>
+			<field name="number_id">1723479158</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1995-07-21</field>
+			<field name="phone">2446885</field>
+			<field name="movil">0992543471</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_26">
+			<field name="name">MARTINEZ VELA</field>
+			<field name="last_name">NANCY TERSA</field>
+			<field name="number_id">1719371941</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1954-07-01</field>
+			<field name="phone">2446885</field>
+			<field name="movil">0995071069</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_27">
+			<field name="name">SOTO SALAS</field>
+			<field name="last_name">ADRIAN MARTIN</field>
+			<field name="number_id">1753307287</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2011-10-23</field>
+			<field name="phone">2395400</field>
+			<field name="movil">0984557935</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_28">
+			<field name="name">SOTO ALVAREZ</field>
+			<field name="last_name">PATRICIO ALEJANDRO</field>
+			<field name="number_id">1751572486</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2011-07-20</field>
+			<field name="phone">2522781</field>
+			<field name="movil">0991446419</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_29">
+			<field name="name">SOTO NAVARRETE</field>
+			<field name="last_name">ANDRE ALEXANDER</field>
+			<field name="number_id">1726860503</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1999-02-11</field>
+			<field name="phone">2479896</field>
+			<field name="movil">0984627011</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_30">
+			<field name="name">DÁVALOS BENÍTEZ</field>
+			<field name="last_name">JUAN JAVIER</field>
+			<field name="number_id">17000000000</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1997-01-21</field>
+			<field name="phone">2245402</field>
+			<field name="movil">0987313120</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_31">
+			<field name="name">DAVALOS BENITEZ</field>
+			<field name="last_name">CARLA ALEJANDRA</field>
+			<field name="number_id">1710000000</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1999-09-21</field>
+			<field name="phone">2245402</field>
+			<field name="movil">0992537226</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_32">
+			<field name="name">MINDA CAÑAS</field>
+			<field name="last_name">PAOLA ALEJANDRA</field>
+			<field name="number_id">1724402910</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1993-05-07</field>
+			<field name="phone">2959027</field>
+			<field name="movil">0997953881</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_33">
+			<field name="name">CUEVA RUIZ</field>
+			<field name="last_name">MARÍA BELEN</field>
+			<field name="number_id">1105754277</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2001-01-26</field>
+			<field name="phone">072584902</field>
+			<field name="movil">0997089033</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_34">
+			<field name="name">CUEVA RUIZ</field>
+			<field name="last_name">GONZALO HERNAN</field>
+			<field name="number_id">1104774722</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1995-05-18</field>
+			<field name="phone">2243277</field>
+			<field name="movil">0984715932</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_35">
+			<field name="name">ZUMÁRRAGA CISNEROS</field>
+			<field name="last_name">NATALIA ELIZABETH</field>
+			<field name="number_id">1002995387</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1983-05-17</field>
+			<field name="phone">3262467</field>
+			<field name="movil">09987515145</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_36">
+			<field name="name">JARAMILLO ZUMÁRRAGA</field>
+			<field name="last_name">ISABELA</field>
+			<field name="number_id">....................</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2007-05-31</field>
+			<field name="phone">3262467</field>
+			<field name="movil"> 09987515145 </field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_37">
+			<field name="name">JARAMILLO ZUMÁRRAGA</field>
+			<field name="last_name">MARTINA</field>
+			<field name="number_id">....................</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2011-08-29</field>
+			<field name="phone">3262467</field>
+			<field name="movil">09987515145</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_38">
+			<field name="name">DE LA ROSA UBIDIA</field>
+			<field name="last_name">DANIELA ALEJANDRA</field>
+			<field name="number_id">1717270910</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1994-05-09</field>
+			<field name="phone">2394835</field>
+			<field name="movil">0</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_39">
+			<field name="name">HOLGUIN VALLEJO</field>
+			<field name="last_name">MARÍA EMILIA</field>
+			<field name="number_id">1751289495</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2011-05-30</field>
+			<field name="phone">2332110</field>
+			<field name="movil">0999381071</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_40">
+			<field name="name">HOLGUIN VALLEJO</field>
+			<field name="last_name">ANA PAULA</field>
+			<field name="number_id">1724026578</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2006-01-23</field>
+			<field name="phone">2332110</field>
+			<field name="movil"> 0999381071 </field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_41">
+			<field name="name">MRTEÑ</field>
+			<field name="last_name">WILFO</field>
+			<field name="number_id">345345</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2006-02-07</field>
+			<field name="phone">435435</field>
+			<field name="movil">345345</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_42">
+			<field name="name">JARAMILLO FLORES</field>
+			<field name="last_name">GABRIELA</field>
+			<field name="number_id">1717916918</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2002-06-24</field>
+			<field name="phone">2353323</field>
+			<field name="movil">0995440475</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_43">
+			<field name="name">JARAMILLO FLORES</field>
+			<field name="last_name">PAOLA</field>
+			<field name="number_id">1717916923</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2006-06-24</field>
+			<field name="phone">2353323</field>
+			<field name="movil">0984557935</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_44">
+			<field name="name">ORTEGA FLORES</field>
+			<field name="last_name">ALEX SEBASTIAN</field>
+			<field name="number_id">1714724745</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1992-11-18</field>
+			<field name="phone">2397611</field>
+			<field name="movil">0995001385</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_45">
+			<field name="name">ESPAÑA VELASQUEZ</field>
+			<field name="last_name">EVA MARTINA</field>
+			<field name="number_id">1719124933</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2009-01-13</field>
+			<field name="phone">2677512</field>
+			<field name="movil">0984699466</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_46">
+			<field name="name">ELOVAIA</field>
+			<field name="last_name">ALLA</field>
+			<field name="number_id">725211683</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1985-05-18</field>
+			<field name="phone">022225211</field>
+			<field name="movil">0</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_47">
+			<field name="name">SOTO SALAS</field>
+			<field name="last_name">ADRIAN MARTIN</field>
+			<field name="number_id">1753307287</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2011-10-23</field>
+			<field name="phone">2395400</field>
+			<field name="movil">0984557935</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_48">
+			<field name="name">SOTO ALVAREZ</field>
+			<field name="last_name">PATRICIO ALEJANDRO</field>
+			<field name="number_id">1751572486</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2011-07-20</field>
+			<field name="phone">2522781</field>
+			<field name="movil">0991446419</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_49">
+			<field name="name">SOTO NAVARRETE</field>
+			<field name="last_name">ANDRE ALEXANDER</field>
+			<field name="number_id">1726860503</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1999-02-11</field>
+			<field name="phone">2479896</field>
+			<field name="movil">0984627011</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_50">
+			<field name="name">GRANDA BENITEZ</field>
+			<field name="last_name">VERONICA ALEXANDRA</field>
+			<field name="number_id">1103806160</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1978-08-11</field>
+			<field name="phone">072583980</field>
+			<field name="movil">0981363555</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_51">
+			<field name="name">CAISACHANA GRANDA</field>
+			<field name="last_name">EMILIO EDUARDO</field>
+			<field name="number_id">1150856506</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2002-05-17</field>
+			<field name="phone">072583980</field>
+			<field name="movil">0981363555</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_52">
+			<field name="name">RIVADENEIRA LASCANO</field>
+			<field name="last_name">GLADYS DEL PILAR</field>
+			<field name="number_id">1705145868</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1957-10-12</field>
+			<field name="phone">2432124</field>
+			<field name="movil">0998301679</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_53">
+			<field name="name">BECERRA SALAS</field>
+			<field name="last_name">MARIA PAULA</field>
+			<field name="number_id">1721441812</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2001-04-15</field>
+			<field name="phone">022395440</field>
+			<field name="movil">0984557935</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_54">
+			<field name="name">BECERRA SALAS</field>
+			<field name="last_name">JUAN PABLO</field>
+			<field name="number_id">0000000000</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2006-07-12</field>
+			<field name="phone">022395440</field>
+			<field name="movil">0984557935</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_55">
+			<field name="name">SOTO SALAS</field>
+			<field name="last_name">ADRIAN MARTIN</field>
+			<field name="number_id">1753307287</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2011-10-23</field>
+			<field name="phone">022395440</field>
+			<field name="movil">0984557935</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_56">
+			<field name="name">MANGUIA VACA</field>
+			<field name="last_name">KARLA GABRIELA</field>
+			<field name="number_id">1726589698</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2004-04-26</field>
+			<field name="phone">022592189</field>
+			<field name="movil">0984733770</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_57">
+			<field name="name">PACCHA MOROCHO</field>
+			<field name="last_name">MICHAEL ALEXANDER</field>
+			<field name="number_id">1105976888</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2004-11-29</field>
+			<field name="phone">0</field>
+			<field name="movil">0992300129</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_58">
+			<field name="name">PACCHA MOROCHO</field>
+			<field name="last_name">LEONARD STEVEN</field>
+			<field name="number_id">1105976</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2011-11-07</field>
+			<field name="phone">0</field>
+			<field name="movil">0992300129</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_59">
+			<field name="name">PACCHA MOROCHO</field>
+			<field name="last_name">POOL OWEN</field>
+			<field name="number_id">2050004569</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2010-12-27</field>
+			<field name="phone">0</field>
+			<field name="movil">0992300129</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_60">
+			<field name="name">CORNEJO LEMARIE</field>
+			<field name="last_name">DANIEL ADRIAN</field>
+			<field name="number_id">1723898282</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2004-06-24</field>
+			<field name="phone">2301414</field>
+			<field name="movil">0999442790</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_61">
+			<field name="name">CORNEJO LEMARIE</field>
+			<field name="last_name">JULIAN ANDRES</field>
+			<field name="number_id">1723898290</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2002-03-30</field>
+			<field name="phone">2301414</field>
+			<field name="movil">0999442790</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_62">
+			<field name="name">EGAS MADONADO</field>
+			<field name="last_name">YANUA MARTINA</field>
+			<field name="number_id">n/a</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2012-04-23</field>
+			<field name="phone">2074983</field>
+			<field name="movil">0000000000</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_63">
+			<field name="name">GRANDA SISALEMA</field>
+			<field name="last_name">XIMENA DEL ROSARIO</field>
+			<field name="number_id">1708955610</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1966-08-06</field>
+			<field name="phone">2601160</field>
+			<field name="movil">0985965539</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_64">
+			<field name="name">VILLARREAL ROBLES</field>
+			<field name="last_name">ISRAEL ALEJANDRO</field>
+			<field name="number_id">1721932067</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1989-09-30</field>
+			<field name="phone">3382652</field>
+			<field name="movil">0986712924</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_65">
+			<field name="name">AGUILERA TORRES</field>
+			<field name="last_name">LIZBETH ALEJANDRA</field>
+			<field name="number_id">1718327596</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1996-12-16</field>
+			<field name="phone">2342996</field>
+			<field name="movil">0987798271</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_66">
+			<field name="name">AGUILERA TORRES</field>
+			<field name="last_name">PAOLA ARACELY</field>
+			<field name="number_id">1718326661</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1991-05-15</field>
+			<field name="phone">2342996</field>
+			<field name="movil">0995111200</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_67">
+			<field name="name">ZURITA IBARRA</field>
+			<field name="last_name">CARLOS ANDRÉS</field>
+			<field name="number_id">1717175812</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1990-02-26</field>
+			<field name="phone">2296124</field>
+			<field name="movil">0983301885</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_68">
+			<field name="name">IBARRA SAMPEDRO</field>
+			<field name="last_name">MAGDALENA DEL CARMEN</field>
+			<field name="number_id">1707344204</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1968-04-25</field>
+			<field name="phone">2296124</field>
+			<field name="movil">0983301885</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_69">
+			<field name="name">BRUQUE MARTINEZ</field>
+			<field name="last_name">ARIADNA</field>
+			<field name="number_id">1723479141</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1991-01-27</field>
+			<field name="phone">2446885</field>
+			<field name="movil">0987731328</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_70">
+			<field name="name">BRUQUE MARTINEZ</field>
+			<field name="last_name">ILEANA</field>
+			<field name="number_id">1723479158</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1995-07-21</field>
+			<field name="phone">2446885</field>
+			<field name="movil">0992543471</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_71">
+			<field name="name">MARTINEZ VELA</field>
+			<field name="last_name">NANCY TERSA</field>
+			<field name="number_id">1719371941</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1954-07-01</field>
+			<field name="phone">2446885</field>
+			<field name="movil">0995071069</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_72">
+			<field name="name">GUERRON VACA</field>
+			<field name="last_name">PAULO DAVID</field>
+			<field name="number_id">1725150468</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1998-06-03</field>
+			<field name="phone">023401079</field>
+			<field name="movil">0986977749</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_73">
+			<field name="name">CUEVA VACA</field>
+			<field name="last_name">NATALIA RAFAELA</field>
+			<field name="number_id">1751115484</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2006-04-24</field>
+			<field name="phone">023401079</field>
+			<field name="movil">0993401692</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_74">
+			<field name="name">CUEVA DAVILA</field>
+			<field name="last_name">JEAN PAUL</field>
+			<field name="number_id">1709434094</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1974-01-08</field>
+			<field name="phone">023401079</field>
+			<field name="movil">0980218258</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_75">
+			<field name="name">DAVILA SOTO</field>
+			<field name="last_name">GABRIEL ALEJANDRO</field>
+			<field name="number_id">1720162047</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1999-07-22</field>
+			<field name="phone">2407305</field>
+			<field name="movil">0000000000</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_76">
+			<field name="name">BORJA ESPINOSA</field>
+			<field name="last_name">JAIME SANDRO</field>
+			<field name="number_id">1001659554</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1973-09-13</field>
+			<field name="phone">023440329</field>
+			<field name="movil">0995820492</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_77">
+			<field name="name">BORJA CHALA</field>
+			<field name="last_name">MATIAS ALEXANDER</field>
+			<field name="number_id">0000000000</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2008-02-15</field>
+			<field name="phone">023440329</field>
+			<field name="movil"> 0995820492 </field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_78">
+			<field name="name">BORJA CHALA</field>
+			<field name="last_name">JUAN SEBASTIAN</field>
+			<field name="number_id">0000000000</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2009-09-11</field>
+			<field name="phone">023440329</field>
+			<field name="movil">023440329</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_79">
+			<field name="name">LARA CERON</field>
+			<field name="last_name">MATIAS VINICIO</field>
+			<field name="number_id">1711762946</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2010-12-04</field>
+			<field name="phone">3151493</field>
+			<field name="movil">998214097</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_80">
+			<field name="name">CEVALLOS NARANJO</field>
+			<field name="last_name">JORGE ANDRES</field>
+			<field name="number_id">1721740478</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1999-07-04</field>
+			<field name="phone">2456971</field>
+			<field name="movil">2456971</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_81">
+			<field name="name">CEVALLOS NARANJO</field>
+			<field name="last_name">MATIAS DANIEL</field>
+			<field name="number_id">1727050799</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2009-10-09</field>
+			<field name="phone">2456971</field>
+			<field name="movil">2456971</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_82">
+			<field name="name">TORRES RODRIGUEZ</field>
+			<field name="last_name">ARIEL EMILIO</field>
+			<field name="number_id">sin ideniticacion</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2009-03-09</field>
+			<field name="phone">2351357</field>
+			<field name="movil">0984256752</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_83">
+			<field name="name">PEÑA ALDAZ</field>
+			<field name="last_name">JOSE LUIS</field>
+			<field name="number_id">0401106265</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1975-08-22</field>
+			<field name="phone">2418435</field>
+			<field name="movil">0987358259</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_84">
+			<field name="name">PEÑA JARAMILLO</field>
+			<field name="last_name">JOSE DANIEL</field>
+			<field name="number_id">1752084432</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2008-03-08</field>
+			<field name="phone">2418435</field>
+			<field name="movil">00000000000</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_85">
+			<field name="name">TANDAZO PROAÑO</field>
+			<field name="last_name">ERICK EDUARDO</field>
+			<field name="number_id">1723530877</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2003-01-17</field>
+			<field name="phone">2532423</field>
+			<field name="movil">0995006650</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_86">
+			<field name="name">PROAÑO VASCONEZ</field>
+			<field name="last_name">MAYRA VALERY</field>
+			<field name="number_id">1711182202</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1970-07-08</field>
+			<field name="phone">2532423</field>
+			<field name="movil">0995006650</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_87">
+			<field name="name">PEREZ</field>
+			<field name="last_name">EMILIO</field>
+			<field name="number_id">1754720371</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2013-10-23</field>
+			<field name="phone">3150772</field>
+			<field name="movil">0984055275</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_88">
+			<field name="name">OJEDA HERNANDEZ</field>
+			<field name="last_name">DOMENICA STEFANIA</field>
+			<field name="number_id">1727209650</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2006-02-15</field>
+			<field name="phone">2404191</field>
+			<field name="movil">0984823914</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_89">
+			<field name="name">OJEDA LUZURIAGA</field>
+			<field name="last_name">NESTOR VIRGILIO</field>
+			<field name="number_id">1103865950</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1981-12-19</field>
+			<field name="phone">2404191</field>
+			<field name="movil">0992868117</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_90">
+			<field name="name">AILLON SANTACRUZ</field>
+			<field name="last_name">NICOLAS FERNANDO</field>
+			<field name="number_id">1754686630</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2013-10-14</field>
+			<field name="phone">2657540</field>
+			<field name="movil">0987392171</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_91">
+			<field name="name">GARCÍA GÓMEZ</field>
+			<field name="last_name">JEAN PIERRE</field>
+			<field name="number_id">1716966435</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1993-12-13</field>
+			<field name="phone">2400570</field>
+			<field name="movil">0958844936</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_92">
+			<field name="name">TOBAR</field>
+			<field name="last_name">GLADYS</field>
+			<field name="number_id">1703184711</field>
+			<field name="type_rel_family" ref="gender_mother"></field>
+			<field name="date_birth">1950-03-25</field>
+			<field name="phone">022493933</field>
+			<field name="movil">0983887212</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_93">
+			<field name="name">SIGUENZA PIEDRA</field>
+			<field name="last_name">NATALIA</field>
+			<field name="number_id">0106783467</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1996-03-23</field>
+			<field name="phone">074107445</field>
+			<field name="movil">0987278214</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_94">
+			<field name="name">MONTENEGRO CARRERA</field>
+			<field name="last_name">MICHELLE ALEJANDRA</field>
+			<field name="number_id">1727242032</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1992-08-20</field>
+			<field name="phone">022451265</field>
+			<field name="movil">0984672274</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_95">
+			<field name="name">MANANGÓN VINUEZA</field>
+			<field name="last_name">ZAITH ALEJANDRO</field>
+			<field name="number_id">1753324449</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2004-05-09</field>
+			<field name="phone">2477199</field>
+			<field name="movil">0995402759</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_96">
+			<field name="name">MANANGÓN VINUEZA</field>
+			<field name="last_name">ALEX GABRIEL</field>
+			<field name="number_id">00000000000</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2011-05-11</field>
+			<field name="phone">2477199</field>
+			<field name="movil">0995402759</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_97">
+			<field name="name">FLOR ALVAREZ</field>
+			<field name="last_name">ANA SOFÍA</field>
+			<field name="number_id">1724805211</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1991-08-10</field>
+			<field name="phone">2496010</field>
+			<field name="movil">0998204004</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_98">
+			<field name="name">FLOR ALVAREZ</field>
+			<field name="last_name">CAMILA ALEJANDRA</field>
+			<field name="number_id">1750322966</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1997-05-10</field>
+			<field name="phone">2496010</field>
+			<field name="movil">0984004210</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_99">
+			<field name="name">DÁVALOS BENÍTEZ</field>
+			<field name="last_name">JUAN JAVIER</field>
+			<field name="number_id">17000000000</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1997-01-21</field>
+			<field name="phone">2245402</field>
+			<field name="movil">0987313120</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_100">
+			<field name="name">DAVALOS BENITEZ</field>
+			<field name="last_name">CARLA ALEJANDRA</field>
+			<field name="number_id">1710000000</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1999-09-21</field>
+			<field name="phone">2245402</field>
+			<field name="movil">0992537226</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_101">
+			<field name="name">BAEZ MOSQUERA</field>
+			<field name="last_name">DANIEL EDUARDO</field>
+			<field name="number_id">XXXXXXXXXX</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1996-12-09</field>
+			<field name="phone">11111111</field>
+			<field name="movil">1111111</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_102">
+			<field name="name">BAEZ MOSQUERA</field>
+			<field name="last_name">ANDRÉS SEBASTIÁN</field>
+			<field name="number_id">XXXXXXXXXX</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2005-09-23</field>
+			<field name="phone">111111111</field>
+			<field name="movil">11111111</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_103">
+			<field name="name">OCHOA LUZURIAGA</field>
+			<field name="last_name">LISBETH IRENE</field>
+			<field name="number_id">1707740260</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1971-04-14</field>
+			<field name="phone">2450109</field>
+			<field name="movil">0991655697</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_104">
+			<field name="name">VASQUEZ OCHOA</field>
+			<field name="last_name">EMILIO MARTIN</field>
+			<field name="number_id">1721935102</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2004-03-03</field>
+			<field name="phone">2450109</field>
+			<field name="movil">0992438747</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_105">
+			<field name="name">CARRION PAREDES</field>
+			<field name="last_name">SONIA ALEXANDRA</field>
+			<field name="number_id">1716426471</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1980-02-05</field>
+			<field name="phone">2827179</field>
+			<field name="movil">0998300189</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_106">
+			<field name="name">VEGA AGUIRRE</field>
+			<field name="last_name">JORGE WASHINGTON</field>
+			<field name="number_id">1718380635</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1994-01-03</field>
+			<field name="phone">2414116</field>
+			<field name="movil">0999814130</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_107">
+			<field name="name">VACA CUEVA</field>
+			<field name="last_name">MERCEDES LEONILA</field>
+			<field name="number_id">1100145802</field>
+			<field name="type_rel_family" ref="gender_mother"></field>
+			<field name="date_birth">1929-01-16</field>
+			<field name="phone">2414116</field>
+			<field name="movil">00000000000</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_108">
+			<field name="name">PACAS ALBAN</field>
+			<field name="last_name">FANNY YOLANDA</field>
+			<field name="number_id">17090605035</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1965-05-06</field>
+			<field name="phone">3191697</field>
+			<field name="movil">0992505210</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_109">
+			<field name="name">RONDAL PACAS</field>
+			<field name="last_name">ANSELMO ALEXANDER</field>
+			<field name="number_id">1723482517</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1998-08-12</field>
+			<field name="phone">3191697</field>
+			<field name="movil">0992505210</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_110">
+			<field name="name">RONDAL PACAS</field>
+			<field name="last_name">CAMILA TAHIS</field>
+			<field name="number_id">1751232248</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2005-03-06</field>
+			<field name="phone">3191697</field>
+			<field name="movil">0992505210</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_111">
+			<field name="name">FONTAINE</field>
+			<field name="last_name">JULIAN</field>
+			<field name="number_id">0000000</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2003-09-28</field>
+			<field name="phone">2230796</field>
+			<field name="movil">00000000</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_112">
+			<field name="name">FONTAINE</field>
+			<field name="last_name">NATHAN</field>
+			<field name="number_id">00000000</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2011-07-22</field>
+			<field name="phone">2230796</field>
+			<field name="movil">00000000</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_113">
+			<field name="name">REINOSO SUAREZ</field>
+			<field name="last_name">STEVEN DAVID</field>
+			<field name="number_id">17546309639</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2006-12-28</field>
+			<field name="phone">3829900</field>
+			<field name="movil">0995734801</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_114">
+			<field name="name">REINOSO SUAREZ</field>
+			<field name="last_name">DAMARIS JANINE</field>
+			<field name="number_id">000000000000</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2009-09-16</field>
+			<field name="phone">3829900</field>
+			<field name="movil">0995734801</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_115">
+			<field name="name">ANDRADE PONCE</field>
+			<field name="last_name">JOSE ANDRES</field>
+			<field name="number_id">0604813113</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1999-06-12</field>
+			<field name="phone">3263283</field>
+			<field name="movil">0995209557</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_116">
+			<field name="name">VILLAGOMEZ PONCE</field>
+			<field name="last_name">CAMILA ANAHI</field>
+			<field name="number_id">0606090306</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2006-08-17</field>
+			<field name="phone">3263283</field>
+			<field name="movil">0995209557</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_117">
+			<field name="name">VILLAGOMEZ PONCE</field>
+			<field name="last_name">ANA MARIA</field>
+			<field name="number_id">0650095557</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2010-05-19</field>
+			<field name="phone">3263283</field>
+			<field name="movil">0995209557</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_118">
+			<field name="name">RICHARDS OÑA</field>
+			<field name="last_name">EMILY SUE</field>
+			<field name="number_id">1725932626</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2006-02-16</field>
+			<field name="phone">2431324</field>
+			<field name="movil">0984308892</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_119">
+			<field name="name">RICHARDS OÑA</field>
+			<field name="last_name">EVA MARIE</field>
+			<field name="number_id">1750097055</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2010-04-08</field>
+			<field name="phone">2431324</field>
+			<field name="movil">0984308892</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_120">
+			<field name="name">ORTIZ CISNEROS</field>
+			<field name="last_name">ANDRES SEBASTIAN</field>
+			<field name="number_id">1727039446</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2006-09-01</field>
+			<field name="phone">3301375</field>
+			<field name="movil">0987145568</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_121">
+			<field name="name">AIDA ELIZABETH</field>
+			<field name="last_name">CISNEROS CEVALLOS</field>
+			<field name="number_id">1709093973</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1966-07-11</field>
+			<field name="phone">3301375</field>
+			<field name="movil">098265264</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_122">
+			<field name="name">SANTACRUZ SALAZAR</field>
+			<field name="last_name">SILVIA PATRICIA</field>
+			<field name="number_id">0603251224</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1979-01-12</field>
+			<field name="phone">2959307</field>
+			<field name="movil">0984257467</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_123">
+			<field name="name">RIVERA SANTACRUZ</field>
+			<field name="last_name">JOAQUÍN AMARU</field>
+			<field name="number_id">1750035634</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2010-02-26</field>
+			<field name="phone">2959307</field>
+			<field name="movil">0995046481</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_124">
+			<field name="name">MIÑO SANTACRUZ</field>
+			<field name="last_name">JUAN SEBASTIÁN</field>
+			<field name="number_id">1725115347</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1997-03-25</field>
+			<field name="phone">2959307</field>
+			<field name="movil">0998731142</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_125">
+			<field name="name">SANCHEZ IZURIETA</field>
+			<field name="last_name">JUAN FRANCISCO</field>
+			<field name="number_id">1718163437</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1992-10-30</field>
+			<field name="phone">2651559</field>
+			<field name="movil">0987828249</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_126">
+			<field name="name">SANCHEZ IZURIETA</field>
+			<field name="last_name">DAVID ALEJANDRO</field>
+			<field name="number_id">1718165028</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1994-05-03</field>
+			<field name="phone">2651559</field>
+			<field name="movil">0998041254</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_127">
+			<field name="name">RIVERA VARGAS</field>
+			<field name="last_name">PAOLA ALEXANDRA</field>
+			<field name="number_id">1722742382</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1987-07-30</field>
+			<field name="phone">2962301</field>
+			<field name="movil">0987429657</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_128">
+			<field name="name">LEON RIVERA</field>
+			<field name="last_name">EMILIA EDUARDA</field>
+			<field name="number_id">1716414519</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2006-10-19</field>
+			<field name="phone">2962301</field>
+			<field name="movil">0984254259</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_129">
+			<field name="name">HERNANDEZ TOBAR</field>
+			<field name="last_name">LUIS MATEO</field>
+			<field name="number_id">1725695561</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2005-11-07</field>
+			<field name="phone">2471657</field>
+			<field name="movil">0991211914</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_130">
+			<field name="name">TUPIZA ÑACATO</field>
+			<field name="last_name">NANCY VANESSA</field>
+			<field name="number_id">1723156343</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1994-10-07</field>
+			<field name="phone">2333800</field>
+			<field name="movil">0992787836</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_131">
+			<field name="name">ÑACATO BAUTISTA</field>
+			<field name="last_name">NANCY SUSANA</field>
+			<field name="number_id">1709578411</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1969-09-07</field>
+			<field name="phone">2333800</field>
+			<field name="movil">0992787836</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_132">
+			<field name="name">TUPIZA ÑACATO</field>
+			<field name="last_name">ERICK JOEL</field>
+			<field name="number_id">1726784463</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2002-11-26</field>
+			<field name="phone">2333800</field>
+			<field name="movil">0992787836</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_133">
+			<field name="name">ASTUDILLO SALAZAR</field>
+			<field name="last_name">ALAN GABRIEL</field>
+			<field name="number_id">001</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2006-09-30</field>
+			<field name="phone">2841827</field>
+			<field name="movil">0999289213</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_134">
+			<field name="name">BASANTES SINCHIGUANO</field>
+			<field name="last_name">OLIVIA JANNETH</field>
+			<field name="number_id">17099120016</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1967-01-20</field>
+			<field name="phone">3122991</field>
+			<field name="movil">0995417415</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_135">
+			<field name="name">MORENO BASANTES</field>
+			<field name="last_name">MARIA JOSE</field>
+			<field name="number_id">001</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2010-12-12</field>
+			<field name="phone">3122991</field>
+			<field name="movil">0995417415</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_136">
+			<field name="name">LIDA BLADIR</field>
+			<field name="last_name">CANO VILLALOBOS</field>
+			<field name="number_id">1719408088</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1985-09-23</field>
+			<field name="phone">7001498</field>
+			<field name="movil">0999271145</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_137">
+			<field name="name">CAMILA ANAHY</field>
+			<field name="last_name">GUAMAN CANO</field>
+			<field name="number_id">1722489851</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2005-03-02</field>
+			<field name="phone">7001498</field>
+			<field name="movil">0999271145</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_138">
+			<field name="name">DYLAN XAVIER</field>
+			<field name="last_name">GUAMAN CANO</field>
+			<field name="number_id">1754318895</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2009-12-11</field>
+			<field name="phone">7001498</field>
+			<field name="movil">0999271145</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_139">
+			<field name="name">AMANGANDI</field>
+			<field name="last_name">WILMAN EFRAIN</field>
+			<field name="number_id">0202356648</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1993-04-29</field>
+			<field name="phone">3066531</field>
+			<field name="movil">0980683473</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_140">
+			<field name="name">MUGUICHA AGUALONGO</field>
+			<field name="last_name">JAZMIN GEOCONDA</field>
+			<field name="number_id">1726330853</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1997-04-20</field>
+			<field name="phone">3066531</field>
+			<field name="movil">0980683473</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_141">
+			<field name="name">OCHOA RODRIGUSZ</field>
+			<field name="last_name">NINFA CAROLINA</field>
+			<field name="number_id">092354024-9</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1987-08-13</field>
+			<field name="phone">0980761428</field>
+			<field name="movil">0980761428</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_142">
+			<field name="name">NAVARRETE OCHOA</field>
+			<field name="last_name">ANTHONY ANDRES</field>
+			<field name="number_id">175171472-4</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2007-02-24</field>
+			<field name="phone">0980761428</field>
+			<field name="movil">0980761428</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_143">
+			<field name="name">NAVARRETE OCHOA</field>
+			<field name="last_name">SOFIA NAOMI</field>
+			<field name="number_id">175044772-2</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2010-03-03</field>
+			<field name="phone">0980761428</field>
+			<field name="movil">0980761428</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_144">
+			<field name="name">ANGULO CHAVEZ</field>
+			<field name="last_name">MARLENE MARITZA</field>
+			<field name="number_id">1307577682</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1973-03-11</field>
+			<field name="phone">000000000</field>
+			<field name="movil">0979883856</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_145">
+			<field name="name">CEDEÑO ANGULO</field>
+			<field name="last_name">WILSON MISAEL</field>
+			<field name="number_id">1314616309</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2008-05-12</field>
+			<field name="phone">0000000000</field>
+			<field name="movil">0982894872</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_146">
+			<field name="name">PAZMIÑO MENA</field>
+			<field name="last_name">EDUARDO GABRIEL</field>
+			<field name="number_id">1712705548</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2001-04-04</field>
+			<field name="phone">2477016</field>
+			<field name="movil">0989677211</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_147">
+			<field name="name">MAYA BETANCOURT</field>
+			<field name="last_name">DANNY FERNANDO</field>
+			<field name="number_id">1714512173</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1982-09-14</field>
+			<field name="phone">2477016</field>
+			<field name="movil">0935961329</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_148">
+			<field name="name">MAYA MENA</field>
+			<field name="last_name">ARIANA VALENTINA</field>
+			<field name="number_id">1752602936</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2006-12-29</field>
+			<field name="phone">2477016</field>
+			<field name="movil">0985961329</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_149">
+			<field name="name">REINOSO GUIJARRO</field>
+			<field name="last_name">DOMENICA ROMINA</field>
+			<field name="number_id">1726888041</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2004-12-22</field>
+			<field name="phone">2235065</field>
+			<field name="movil">0992982196</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_150">
+			<field name="name">GRANDA GUIJARRO</field>
+			<field name="last_name">MATIAS IGNACIO</field>
+			<field name="number_id">1753474400</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2013-01-05</field>
+			<field name="phone">2235065</field>
+			<field name="movil">0992982196</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_151">
+			<field name="name">CASTRO MALDONADO</field>
+			<field name="last_name">ARIANA THAIS</field>
+			<field name="number_id">1727877373</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2009-03-03</field>
+			<field name="phone">2383358</field>
+			<field name="movil">0989719819</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_152">
+			<field name="name">SEBASTIAN</field>
+			<field name="last_name">MORENIO</field>
+			<field name="number_id">3544353245</field>
+			<field name="type_rel_family" ref="gender_father"></field>
+			<field name="date_birth">2014-05-22</field>
+			<field name="phone">4353455</field>
+			<field name="movil">35325</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_153">
+			<field name="name">ESTRELLA ENDARA</field>
+			<field name="last_name">JENNY MARIELA</field>
+			<field name="number_id">1719379347</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1984-10-12</field>
+			<field name="phone">3444003</field>
+			<field name="movil">0998214673</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_154">
+			<field name="name">PASQUE FERNANDEZ</field>
+			<field name="last_name">JOHAN ESTEBAN</field>
+			<field name="number_id">1723909824</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2002-05-23</field>
+			<field name="phone">3444003</field>
+			<field name="movil">0998214673</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_155">
+			<field name="name">PASQUEL ESTRELLA</field>
+			<field name="last_name">ARIANA JULIETTE</field>
+			<field name="number_id">0000000000</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2012-02-01</field>
+			<field name="phone">3444003</field>
+			<field name="movil">0998124673</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_156">
+			<field name="name">PASQUEL ESTRELLA</field>
+			<field name="last_name">AXEL EMILIANO</field>
+			<field name="number_id">0000000000</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2013-12-20</field>
+			<field name="phone">3444003</field>
+			<field name="movil">0998214673</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_157">
+			<field name="name">VILLACRES MOREIRA</field>
+			<field name="last_name">ISAAC EMILIO</field>
+			<field name="number_id">1234567890</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2013-02-14</field>
+			<field name="phone">0995011357</field>
+			<field name="movil">0995011357</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_158">
+			<field name="name">ROMAN JIMENEZ</field>
+			<field name="last_name">HELLEN DOMENICA</field>
+			<field name="number_id">1104087612</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2008-07-10</field>
+			<field name="phone">2478083</field>
+			<field name="movil">0999208777</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_159">
+			<field name="name">AGUILAR CRUZ</field>
+			<field name="last_name">RICARDO SEBASTIÁN</field>
+			<field name="number_id">1722944723</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1994-01-09</field>
+			<field name="phone">2903223</field>
+			<field name="movil">0998397069</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_160">
+			<field name="name">AGUILAR CRUZ</field>
+			<field name="last_name">DAVID MATEO</field>
+			<field name="number_id">1723205215</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1997-09-17</field>
+			<field name="phone">2903223</field>
+			<field name="movil">0998109905</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_161">
+			<field name="name">ALBARRACIN MARURI</field>
+			<field name="last_name">NELLY SUSANA</field>
+			<field name="number_id">0102324431</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1972-03-07</field>
+			<field name="phone">072887117</field>
+			<field name="movil">0994793263</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_162">
+			<field name="name">FONTAINE</field>
+			<field name="last_name">JULIAN</field>
+			<field name="number_id">0000000</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2003-09-28</field>
+			<field name="phone">2230796</field>
+			<field name="movil">00000000</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_163">
+			<field name="name">FONTAINE</field>
+			<field name="last_name">NATHAN</field>
+			<field name="number_id">00000000</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2011-07-22</field>
+			<field name="phone">2230796</field>
+			<field name="movil">00000000</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_164">
+			<field name="name">LAUFER CORELLA</field>
+			<field name="last_name">ALEJANDRO</field>
+			<field name="number_id">1724683923</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1997-09-15</field>
+			<field name="phone">2343676</field>
+			<field name="movil">0995430209</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_165">
+			<field name="name">LAUFER CORELLA</field>
+			<field name="last_name">DEMENIKA LAUFER</field>
+			<field name="number_id">1724683915</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1998-10-28</field>
+			<field name="phone">2343676</field>
+			<field name="movil">0992767290</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_166">
+			<field name="name">LASPINA TAPIA</field>
+			<field name="last_name">GABRIEL IGNACIO</field>
+			<field name="number_id">1722257662</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1991-11-26</field>
+			<field name="phone">2885615</field>
+			<field name="movil">0979283676</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_167">
+			<field name="name">LÓPEZ</field>
+			<field name="last_name">ZOILA EDITH</field>
+			<field name="number_id">1801476969</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1954-08-13</field>
+			<field name="phone">2048357</field>
+			<field name="movil">0998581500</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+		<record model="family.burden" id="family_168">
+			<field name="name">RON MORENO</field>
+			<field name="last_name">DYLAN GIOVANNY</field>
+			<field name="number_id">1724648793</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2000-11-23</field>
+			<field name="phone">022644721</field>
+			<field name="movil">0992924714</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_169">
+			<field name="name">RON MORENO</field>
+			<field name="last_name">THAIS DAILY</field>
+			<field name="number_id">1751022219</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2006-11-29</field>
+			<field name="phone">022644721</field>
+			<field name="movil">0992924714</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_170">
+			<field name="name">RON MORENO</field>
+			<field name="last_name">ELIANA DAYANE</field>
+			<field name="number_id">1750970681</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2011-02-24</field>
+			<field name="phone">022644721</field>
+			<field name="movil">0992924714</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_171">
+			<field name="name">RON BAQUERO</field>
+			<field name="last_name">MARIO FELIPE</field>
+			<field name="number_id">s/n</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">2007-12-01</field>
+			<field name="phone">0991883084</field>
+			<field name="movil">0991883084</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">0</field>
+		</record>
+		<record model="family.burden" id="family_172">
+			<field name="name">MORENO PAREDES</field>
+			<field name="last_name">DAYANARA MARIBEL</field>
+			<field name="number_id">1712764248</field>
+			<field name="type_rel_family" ref="gender_cohabitant"></field>
+			<field name="date_birth">1974-07-07</field>
+			<field name="phone">022644721</field>
+			<field name="movil">0992934792</field>
+			<field name="type_instruction" ref="instruction_1"></field>
+			<field name="check_contact_sos">1</field>
+		</record>
+	</data>
+</openerp>

@@ -3,6 +3,7 @@ from suds.wsse import *
 from suds.sax.element import Element
 from suds.sax.attribute import Attribute
 from suds.xsd.sxbasic import Import
+from suds.transport import TransportError
 
 class IaenCurriculumWs:
 
@@ -41,7 +42,6 @@ class IaenCurriculumWs:
 			data = {}
 		except KeyError:
 			data = {}
-
 
 		return data
 
